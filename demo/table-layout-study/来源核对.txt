@@ -1,0 +1,68 @@
+牌桌布局来源核对（2026-10-03）
+
+这是通过本地已收集的编译场景、Prefab 和可读源代码恢复出的普通游戏桌布局。
+之前 meld-study 的手工避碰 anchors 只能保证碰杠形状，并不还原原版布局；正式渲染应消费 table-layout.js。
+
+原版不是把 1280×720 全部压扁为 1280×640。
+SceneLoader.js:201–211 在宽屏选择 fitHeight，逻辑画布为 1440×720，缩放 8/9。
+desk 仍是居中的 1280×720 局部坐标，因此左右额外留白各80逻辑像素。
+ClassicDesk 本体1600×720，宽屏显示时横向裁切，不能压扁桌沿。
+
+原静态场景使用直播版默认值；ZMJTileInterface.js:1604–1655 在普通游戏中修改：
+自己的 hand.bottom=0、cpg.bottom=50、open.bottom=52、hu.bottom=160、out.y=300。
+对家的 hand.top=50、cpg/open.top=45、hu.top=100、out=[775,525]。
+左家整个 playerLeft.y=-42；右家整个 playerRight.y=-40。
+DeskLayoutUpdate.js:13–21 将中央罗盘设置为[639,400]，桌面文本父节点下移45。
+UserInfoLayer.js:1098–1105 设置自己头像 bottom=214，左右头像 top=300；对家仍 top=113。
+
+1280×640 stage中的坐标（屏幕y朝下，坐标为第一张牌/根节点中心）：
+座位      暗牌起点              碰杠根节点           弃牌根节点           胡牌记录根节点
+自己      [120,577.7778]         [115.5556,595.5556]   [506.6667,373.3333]   [404.4444,497.7778]
+右家      [1075.5556,440]        [1082.6667,480]       [828.4444,368.8889]   [995.5556,466.6667]
+对家      [822.2222,44.4444]     [853.3333,40]         [760,173.3333]        [808.8889,88.8889]
+左家      [266.6667,144]         [275.5556,72.8889]    [478.2222,170.6667]   [336,170.6667]
+
+自己的暗牌尺寸80.8889×119.1111，正常步长79.1111；起点固定，不能根据剩余牌数居中缩小。
+自己持14张时最后摸到的牌额外留四分之一步长；超过可见右边界才按 ZMJTileInterface.js:299–340 整体左移。
+零碰杠时，ZMJCPGTileCtrl.resetTile 不发 CPG_UPDATE，所以原暗牌起点不应被一个“空碰杠edge”移动。
+真碰杠时，CPG_UPDATE → ZMJOpenTileCtrl.updateStartPos → ZMJHandTileCtrl.updateStartPos。
+edge乘节点scale，不能乘tileScale；自己的额外间隔为10×.8+20=28逻辑像素。
+
+弃牌每列有自己的底牌透视与脸纹参数；不能所有列共用一组hand/body参数。
+ZMJOutTileCtrl.js:114–137 是两种交替行，偶数新行还会根据floorStep重置根位置。
+ZMJOutTileRow.js:149–179 根据每列 FrontParam 的 tileStep/colorPos/colorScale/colorSkew 更新。
+ZMJHuTileCtrl.js:80–103 的普通胡记录每行13张，采用自己的tileStep/rowStep/缩放，不能手写为5张一行。
+右侧牌面和父节点存在两次独立镜像，缺少任何一次都会反转文字。
+
+动物圆形桌纹是 ClassicDesk 的独立 texture 层：
+common SpriteFrame346 classicTexture UUID6f87bf57-2d23-4fff-a410-39eb512e3f42。
+原图880×522，GameDeskDefine.js:11–18 设置中心[0,20]、高度522；640舞台为[248.8889,70.2222,782.2222,464]。
+提取图是 table-layout-study/assets/common-346.png，已经包含很低的原alpha，直接叠加即可。
+waterMarkPos[-250,-145] 是渠道logo，和动物圆纹不是同一个节点。
+
+资源：source.json保存原参数；frames.json保存262个帧与texture路径、crop、offset、原大小。
+collect-table-layout.mjs不执行原游戏，仅解码编译JSON；extract-table-layout.py提取对应PNG。
+table-layout.test.js验证宽屏适配、空/真碰杠联动、弃牌跨行和胡记录跨13列。
+当前的精确适配对象是普通桌1280×640。窄屏/直播桌仍应单独观察核对。
+
+遮挡顺序二次核对：
+ZMJHandTileCtrl.js:155–189：暗牌z由总资源容量tileFront.length决定（本场景四家都是32），不是当前剩余张数。
+左家z=逻辑index；右家z=-逻辑index，因此右家13张应从index12画到index0。
+ZMJOutTileRow.js:149–176：每排弃牌也按相同方向公式设置tile.zIndex，容量采用该排FrontParam.length。
+右家前两张弃牌应先画上面的index1，再画下面的index0。
+ZMJOutTileCtrl.js:95–121：父行z优先于子牌z；右家前3排rowZ=9、8、17，对家为-1001、-1002、-503。
+原场景pannel_tiles的2D子节点顺序为front、left、right、mine；各家内部子节点顺序保存为drawOrder。
+tilePainterOrder和tablePainterOrder只对副本排序，原index必须继续用于选牌、发牌批次与飞行动画slot。
+
+牌面越界核对：
+ZMJTile.js:254–276只更换SpriteFrame，并设置color的position/scale/skew/angle；rotation参数不会被读取。
+本地已收集cocos2d-js-min.js byte560655附近：cc.Sprite默认sizeMode=TRIMMED(1)、trim=true。
+byte563390的_applySpriteSize在换帧时将节点contentSize更新为frame.rect.width/height。
+byte884210的simple assembler在trim=true时把纯rect纹理填入以anchor为基准的节点矩形，不保留originalSize/offset。
+四个牌Prefab身体和牌面均anchor[.5,.5]、scale[1,1]、angle0，大小不是固定沿用Prefab中的默认牌面尺寸。
+提取PNG为方便通用使用恢复了originalSize的透明补边；原tile渲染必须先从PNG取出rect像素，再以纯rect尺寸居中画。
+例右9万纯rect53×37，originalSize83×63、offset[-15,13]；将完整PNG居中画会在colorPos之外重复偏移[-15,13]。
+nativeSpriteDrawArgs(frame,style)给出对应drawImage的8个数字参数；Sprite节点元数据保存在tileSprites和各placement.sprite。
+PNG裁片定位遵循提取脚本Python round的偶数舍入，避免奇数差值半像素时取错一行/列。
+旧assets/reference/ui-*.png本来就是纯rect裁片，不能再次用originalSize补边信息裁切。
+自家DOM手牌旧裁片没有padding问题，但CSS固定71×102会压缩一筒79×80等不同牌面，应使用每个帧的rect宽高。

@@ -1,0 +1,1777 @@
+{
+  "rows": {
+    "655": {
+      "direction": 3,
+      "params": [
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            -3,
+            11
+          ],
+          "colorScale": [
+            0,
+            -1,
+            1
+          ],
+          "tileStep": [
+            0,
+            5,
+            38
+          ],
+          "tileTextures": 0,
+          "body": "original/bdca7b96-8c44-411e-bd84-c36584953e10"
+        },
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            -3,
+            11
+          ],
+          "colorScale": [
+            0,
+            -1,
+            1
+          ],
+          "tileStep": [
+            0,
+            4.5,
+            37
+          ],
+          "tileTextures": 1,
+          "body": "original/54d140cb-7622-4e26-a9f1-fae63ded4ba4"
+        },
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            -3,
+            10
+          ],
+          "colorScale": [
+            0,
+            -1,
+            1
+          ],
+          "tileStep": [
+            0,
+            5.5,
+            35.5
+          ],
+          "tileTextures": 2,
+          "body": "original/c616dbee-2263-4fc7-af5b-1f686d22525e"
+        },
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            -2,
+            10
+          ],
+          "colorScale": [
+            0,
+            -1,
+            0.9
+          ],
+          "tileStep": [
+            0,
+            3.5,
+            34.5
+          ],
+          "tileTextures": 3,
+          "body": "original/3899e80e-2396-4fbe-895d-3b5704d3981e"
+        },
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            -2,
+            10
+          ],
+          "colorScale": [
+            0,
+            -1,
+            0.9
+          ],
+          "tileStep": [
+            0,
+            4.5,
+            32.5
+          ],
+          "tileTextures": 4,
+          "body": "original/040a2c23-c575-42b4-b3a7-3feb046d1347"
+        },
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            -3,
+            10
+          ],
+          "colorScale": [
+            0,
+            -0.95,
+            0.9
+          ],
+          "tileStep": [
+            0,
+            4.5,
+            31.5
+          ],
+          "tileTextures": 5,
+          "body": "original/03322931-1c93-4074-869c-74586980a389"
+        },
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            -2,
+            11
+          ],
+          "colorScale": [
+            0,
+            -0.95,
+            0.8
+          ],
+          "tileStep": [
+            0,
+            4,
+            31
+          ],
+          "tileTextures": 6,
+          "body": "original/0b901989-1656-4068-8c1e-88e93ad2a969"
+        },
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            -3,
+            11
+          ],
+          "colorScale": [
+            0,
+            -0.9,
+            0.85
+          ],
+          "tileStep": [
+            0,
+            4,
+            31
+          ],
+          "tileTextures": 7,
+          "body": "original/1c1a46e0-6dde-4658-8595-2c6796e1f4f6"
+        }
+      ]
+    },
+    "1672": {
+      "direction": 0,
+      "params": [
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            -2,
+            9
+          ],
+          "colorScale": [
+            0,
+            0.6,
+            0.54
+          ],
+          "colorSkew": [
+            0,
+            5,
+            0
+          ],
+          "tileStep": [
+            0,
+            54,
+            0
+          ],
+          "tileTextures": 0,
+          "body": "original/63a5d2ea-a197-49b6-bae9-b669d95f2536"
+        },
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            -1,
+            9
+          ],
+          "colorScale": [
+            0,
+            0.6,
+            0.54
+          ],
+          "colorSkew": [
+            0,
+            4,
+            0
+          ],
+          "tileStep": [
+            0,
+            54,
+            0
+          ],
+          "tileTextures": 1,
+          "body": "original/6a84f1bc-5abe-4692-b25a-1e553b8d7e2d"
+        },
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            -1,
+            9
+          ],
+          "colorScale": [
+            0,
+            0.6,
+            0.54
+          ],
+          "colorSkew": [
+            0,
+            3,
+            0
+          ],
+          "tileStep": [
+            0,
+            54.5,
+            0
+          ],
+          "tileTextures": 2,
+          "body": "original/a2ddf60b-b23b-4d01-a020-bdf71f5b820c"
+        },
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            -1,
+            9
+          ],
+          "colorScale": [
+            0,
+            0.6,
+            0.54
+          ],
+          "colorSkew": [
+            0,
+            2,
+            0
+          ],
+          "tileStep": [
+            0,
+            54.5,
+            0
+          ],
+          "tileTextures": 3,
+          "body": "original/8fcfdde8-7cac-413c-98d8-45f7c10bdf16"
+        },
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            -1,
+            9
+          ],
+          "colorScale": [
+            0,
+            0.6,
+            0.54
+          ],
+          "colorSkew": [
+            0,
+            1,
+            0
+          ],
+          "tileStep": [
+            0,
+            54,
+            0
+          ],
+          "tileTextures": 4,
+          "body": "original/62cb3de7-23fa-4208-9278-933899e9a4bf"
+        },
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            -1,
+            9
+          ],
+          "colorScale": [
+            0,
+            0.6,
+            0.54
+          ],
+          "tileStep": [
+            0,
+            54,
+            0
+          ],
+          "tileTextures": 5,
+          "body": "original/55144389-3e4c-4597-a34a-c1598b179ecd"
+        },
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            0,
+            9
+          ],
+          "colorScale": [
+            0,
+            0.6,
+            0.54
+          ],
+          "colorSkew": [
+            0,
+            -1,
+            0
+          ],
+          "tileStep": [
+            0,
+            54.4,
+            0
+          ],
+          "tileTextures": 6,
+          "body": "original/d9832c61-d795-480a-94e8-d8c34a731b4b"
+        },
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            0,
+            9
+          ],
+          "colorScale": [
+            0,
+            0.6,
+            0.54
+          ],
+          "colorSkew": [
+            0,
+            -2,
+            0
+          ],
+          "tileStep": [
+            0,
+            54.5,
+            0
+          ],
+          "tileTextures": 7,
+          "body": "original/03dd41d4-3ed8-444e-8ecb-b6f179fa70d8"
+        },
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            0,
+            9
+          ],
+          "colorScale": [
+            0,
+            0.6,
+            0.54
+          ],
+          "colorSkew": [
+            0,
+            -3,
+            0
+          ],
+          "tileStep": [
+            0,
+            54,
+            0
+          ],
+          "tileTextures": 8,
+          "body": "original/1147374c-6453-41ab-9900-bd0b2818b4e0"
+        },
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            0,
+            9
+          ],
+          "colorScale": [
+            0,
+            0.6,
+            0.54
+          ],
+          "colorSkew": [
+            0,
+            -4,
+            0
+          ],
+          "tileStep": [
+            0,
+            54.5,
+            0
+          ],
+          "tileTextures": 9,
+          "body": "original/e170d71e-907f-4ce9-8c2c-32b0ced1280d"
+        }
+      ]
+    },
+    "2455": {
+      "direction": 0,
+      "params": [
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            -2,
+            9
+          ],
+          "colorScale": [
+            0,
+            0.58,
+            0.5
+          ],
+          "colorSkew": [
+            0,
+            4,
+            0
+          ],
+          "tileStep": [
+            0,
+            53.5,
+            0
+          ],
+          "tileTextures": 0,
+          "body": "original/35eea72f-dffd-469a-aa0d-5f630127f449"
+        },
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            -1,
+            9
+          ],
+          "colorScale": [
+            0,
+            0.58,
+            0.5
+          ],
+          "colorSkew": [
+            0,
+            3,
+            0
+          ],
+          "tileStep": [
+            0,
+            53.5,
+            0
+          ],
+          "tileTextures": 1,
+          "body": "original/c4b0e999-3b2e-4563-94f8-d1d757cdb1d9"
+        },
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            -2,
+            9
+          ],
+          "colorScale": [
+            0,
+            0.58,
+            0.5
+          ],
+          "colorSkew": [
+            0,
+            2,
+            0
+          ],
+          "tileStep": [
+            0,
+            52.5,
+            0
+          ],
+          "tileTextures": 2,
+          "body": "original/3dae2cd0-f0d7-44c1-ac13-cbee9fff2e73"
+        },
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            -1,
+            9
+          ],
+          "colorScale": [
+            0,
+            0.58,
+            0.5
+          ],
+          "colorSkew": [
+            0,
+            1,
+            0
+          ],
+          "tileStep": [
+            0,
+            53.5,
+            0
+          ],
+          "tileTextures": 3,
+          "body": "original/0e774328-2c07-4645-a8f0-41b9404069ec"
+        },
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            -1,
+            9
+          ],
+          "colorScale": [
+            0,
+            0.58,
+            0.5
+          ],
+          "colorSkew": [
+            0,
+            1,
+            0
+          ],
+          "tileStep": [
+            0,
+            52.5,
+            0
+          ],
+          "tileTextures": 4,
+          "body": "original/4e9df497-fb32-4f43-bab2-eeac37576eb4"
+        },
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            -1,
+            9
+          ],
+          "colorScale": [
+            0,
+            0.58,
+            0.5
+          ],
+          "tileStep": [
+            0,
+            53.5,
+            0
+          ],
+          "tileTextures": 5,
+          "body": "original/dbfdc745-81d3-4ba7-b015-49a5bd0791cd"
+        },
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            -1,
+            9
+          ],
+          "colorScale": [
+            0,
+            0.58,
+            0.5
+          ],
+          "colorSkew": [
+            0,
+            -1,
+            0
+          ],
+          "tileStep": [
+            0,
+            53,
+            0
+          ],
+          "tileTextures": 6,
+          "body": "original/c302d31a-c10b-43cd-af1a-a22c54cea662"
+        },
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            -1,
+            9
+          ],
+          "colorScale": [
+            0,
+            0.58,
+            0.5
+          ],
+          "colorSkew": [
+            0,
+            -2,
+            0
+          ],
+          "tileStep": [
+            0,
+            53.5,
+            0
+          ],
+          "tileTextures": 7,
+          "body": "original/68479858-d182-4be5-8d6a-faf2c14f3340"
+        }
+      ]
+    },
+    "3257": {
+      "direction": 3,
+      "params": [
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            -3,
+            10
+          ],
+          "colorScale": [
+            0,
+            -1.1,
+            1.1
+          ],
+          "tileStep": [
+            0,
+            7,
+            41
+          ],
+          "tileTextures": 0,
+          "body": "original/bda2ff99-f6ff-4a69-9db4-81820dd401f9"
+        },
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            -3,
+            10
+          ],
+          "colorScale": [
+            0,
+            -1.1,
+            1.1
+          ],
+          "tileStep": [
+            0,
+            5,
+            38
+          ],
+          "tileTextures": 1,
+          "body": "original/9a05e2b5-f69f-467a-9a5a-2955f2d794a6"
+        },
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            -3,
+            10
+          ],
+          "colorScale": [
+            0,
+            -1.1,
+            1.05
+          ],
+          "tileStep": [
+            0,
+            6,
+            37
+          ],
+          "tileTextures": 2,
+          "body": "original/e693486a-e60e-4829-ad4e-e0b2559f08bd"
+        },
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            -3,
+            10
+          ],
+          "colorScale": [
+            0,
+            -1.05,
+            1
+          ],
+          "tileStep": [
+            0,
+            6,
+            35
+          ],
+          "tileTextures": 3,
+          "body": "original/13156aa1-af6d-4141-b01b-23b88cd0f484"
+        },
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            -3,
+            11
+          ],
+          "colorScale": [
+            0,
+            -1,
+            0.95
+          ],
+          "tileStep": [
+            0,
+            5,
+            34.5
+          ],
+          "tileTextures": 4,
+          "body": "original/b1327d24-14c5-4dad-b581-f95f37dde21d"
+        },
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            -4,
+            10
+          ],
+          "colorScale": [
+            0,
+            -1,
+            0.95
+          ],
+          "tileStep": [
+            0,
+            6,
+            32.5
+          ],
+          "tileTextures": 5,
+          "body": "original/1425d072-fb51-460b-af40-bdf4a70936f0"
+        },
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            -4,
+            11
+          ],
+          "colorScale": [
+            0,
+            -1,
+            0.95
+          ],
+          "tileStep": [
+            0,
+            5,
+            33
+          ],
+          "tileTextures": 6,
+          "body": "original/c73fda72-9d1e-4d3a-8309-90a2c8244a9e"
+        },
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            -4,
+            11
+          ],
+          "colorScale": [
+            0,
+            -1,
+            0.95
+          ],
+          "tileStep": [
+            0,
+            4,
+            31
+          ],
+          "tileTextures": 7,
+          "body": "original/9b3d3f08-33aa-4e8a-8729-fe9375193056"
+        },
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            -2,
+            11
+          ],
+          "colorScale": [
+            0,
+            -1,
+            0.9
+          ],
+          "tileStep": [
+            0,
+            5,
+            31
+          ],
+          "tileTextures": 8,
+          "body": "original/f12b6f95-8652-40af-8a34-ff87a154528b"
+        },
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            -3,
+            11
+          ],
+          "colorScale": [
+            0,
+            -0.95,
+            0.85
+          ],
+          "tileTextures": 9,
+          "body": "original/e757cebb-c3e6-453c-b13b-79969019509e"
+        }
+      ]
+    },
+    "3486": {
+      "direction": 0,
+      "params": [
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            -4,
+            11
+          ],
+          "colorScale": [
+            0,
+            0.9,
+            0.8
+          ],
+          "tileStep": [
+            0,
+            -5.5,
+            -32.5
+          ],
+          "tileTextures": 0,
+          "body": "original/e757cebb-c3e6-453c-b13b-79969019509e"
+        },
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            -3,
+            11
+          ],
+          "colorScale": [
+            0,
+            0.9,
+            0.8
+          ],
+          "tileStep": [
+            0,
+            -4.5,
+            -32.5
+          ],
+          "tileTextures": 1,
+          "body": "original/f12b6f95-8652-40af-8a34-ff87a154528b"
+        },
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            -4,
+            11
+          ],
+          "colorScale": [
+            0,
+            0.9,
+            0.9
+          ],
+          "tileStep": [
+            0,
+            -5.5,
+            -34.5
+          ],
+          "tileTextures": 2,
+          "body": "original/9b3d3f08-33aa-4e8a-8729-fe9375193056"
+        },
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            -5,
+            11
+          ],
+          "colorScale": [
+            0,
+            0.9,
+            0.9
+          ],
+          "tileStep": [
+            0,
+            -6,
+            -34
+          ],
+          "tileTextures": 3,
+          "body": "original/c73fda72-9d1e-4d3a-8309-90a2c8244a9e"
+        },
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            -5,
+            11
+          ],
+          "colorScale": [
+            0,
+            0.9,
+            0.9
+          ],
+          "tileStep": [
+            0,
+            -5.5,
+            -35.5
+          ],
+          "tileTextures": 4,
+          "body": "original/1425d072-fb51-460b-af40-bdf4a70936f0"
+        },
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            -5,
+            11
+          ],
+          "colorScale": [
+            0,
+            0.9,
+            0.9
+          ],
+          "tileStep": [
+            0,
+            -6.5,
+            -35
+          ],
+          "tileTextures": 5,
+          "body": "original/b1327d24-14c5-4dad-b581-f95f37dde21d"
+        },
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            -6,
+            11
+          ],
+          "colorScale": [
+            0,
+            0.9,
+            0.9
+          ],
+          "tileStep": [
+            0,
+            -5.5,
+            -37
+          ],
+          "tileTextures": 6,
+          "body": "original/13156aa1-af6d-4141-b01b-23b88cd0f484"
+        },
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            -4,
+            11
+          ],
+          "colorScale": [
+            0,
+            1,
+            1
+          ],
+          "tileStep": [
+            0,
+            -6,
+            -39.5
+          ],
+          "tileTextures": 7,
+          "body": "original/e693486a-e60e-4829-ad4e-e0b2559f08bd"
+        },
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            -4,
+            11
+          ],
+          "colorScale": [
+            0,
+            1,
+            1
+          ],
+          "tileStep": [
+            0,
+            -7.5,
+            -41
+          ],
+          "tileTextures": 8,
+          "body": "original/9a05e2b5-f69f-467a-9a5a-2955f2d794a6"
+        },
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            -4,
+            11
+          ],
+          "colorScale": [
+            0,
+            1,
+            1
+          ],
+          "tileTextures": 9,
+          "body": "original/bda2ff99-f6ff-4a69-9db4-81820dd401f9"
+        }
+      ]
+    },
+    "3500": {
+      "direction": 1,
+      "params": [
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            -3,
+            11
+          ],
+          "colorScale": [
+            0,
+            0.9,
+            0.85
+          ],
+          "tileStep": [
+            0,
+            -4.5,
+            -33
+          ],
+          "tileTextures": 0,
+          "body": "original/1c1a46e0-6dde-4658-8595-2c6796e1f4f6"
+        },
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            -3,
+            11
+          ],
+          "colorScale": [
+            0,
+            0.9,
+            0.85
+          ],
+          "tileStep": [
+            0,
+            -4,
+            -33
+          ],
+          "tileTextures": 1,
+          "body": "original/0b901989-1656-4068-8c1e-88e93ad2a969"
+        },
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            -4,
+            11
+          ],
+          "colorScale": [
+            0,
+            0.9,
+            0.85
+          ],
+          "tileStep": [
+            0,
+            -4.5,
+            -34
+          ],
+          "tileTextures": 2,
+          "body": "original/03322931-1c93-4074-869c-74586980a389"
+        },
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            -3,
+            11
+          ],
+          "colorScale": [
+            0,
+            0.95,
+            0.9
+          ],
+          "tileStep": [
+            0,
+            -4.5,
+            -35
+          ],
+          "tileTextures": 3,
+          "body": "original/040a2c23-c575-42b4-b3a7-3feb046d1347"
+        },
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            -4,
+            11
+          ],
+          "colorScale": [
+            0,
+            1,
+            0.9
+          ],
+          "tileStep": [
+            0,
+            -5.5,
+            -35
+          ],
+          "tileTextures": 4,
+          "body": "original/3899e80e-2396-4fbe-895d-3b5704d3981e"
+        },
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            -3,
+            10
+          ],
+          "colorScale": [
+            0,
+            1,
+            0.9
+          ],
+          "tileStep": [
+            0,
+            -5,
+            -38
+          ],
+          "tileTextures": 5,
+          "body": "original/c616dbee-2263-4fc7-af5b-1f686d22525e"
+        },
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            -3,
+            10
+          ],
+          "colorScale": [
+            0,
+            1,
+            0.9
+          ],
+          "tileStep": [
+            0,
+            -5.5,
+            -40
+          ],
+          "tileTextures": 6,
+          "body": "original/54d140cb-7622-4e26-a9f1-fae63ded4ba4"
+        },
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            -3,
+            11
+          ],
+          "colorScale": [
+            0,
+            1,
+            1
+          ],
+          "tileStep": [
+            0,
+            -5.5,
+            -40
+          ],
+          "tileTextures": 7,
+          "body": "original/bdca7b96-8c44-411e-bd84-c36584953e10"
+        }
+      ]
+    },
+    "3708": {
+      "direction": 2,
+      "params": [
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            0,
+            11
+          ],
+          "colorScale": [
+            0,
+            0.75,
+            0.7
+          ],
+          "colorSkew": [
+            0,
+            -3,
+            0
+          ],
+          "tileStep": [
+            0,
+            -44.5,
+            0
+          ],
+          "tileTextures": 0,
+          "body": "original/93fc9883-6e19-4ce6-8426-6f841cc8e9e7"
+        },
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            0,
+            11
+          ],
+          "colorScale": [
+            0,
+            0.75,
+            0.7
+          ],
+          "colorSkew": [
+            0,
+            -2,
+            0
+          ],
+          "tileStep": [
+            0,
+            -44,
+            0
+          ],
+          "tileTextures": 1,
+          "body": "original/217af3e0-0954-4f14-a599-709ba208b976"
+        },
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            0,
+            11
+          ],
+          "colorScale": [
+            0,
+            0.75,
+            0.7
+          ],
+          "colorSkew": [
+            0,
+            -1,
+            0
+          ],
+          "tileStep": [
+            0,
+            -44.5,
+            0
+          ],
+          "tileTextures": 2,
+          "body": "original/a978482e-53f8-4082-a8c4-d5086c4b733e"
+        },
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            0,
+            11
+          ],
+          "colorScale": [
+            0,
+            0.75,
+            0.7
+          ],
+          "tileStep": [
+            0,
+            -44,
+            0
+          ],
+          "tileTextures": 3,
+          "body": "original/71086f12-d68f-4ef3-b640-290aa8b3d506"
+        },
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            0,
+            11
+          ],
+          "colorScale": [
+            0,
+            0.75,
+            0.7
+          ],
+          "tileStep": [
+            0,
+            -44,
+            0
+          ],
+          "tileTextures": 4,
+          "body": "original/0e119451-c823-42c1-807c-c5188f3cadfa"
+        },
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            -1,
+            11
+          ],
+          "colorScale": [
+            0,
+            0.75,
+            0.7
+          ],
+          "tileStep": [
+            0,
+            -44,
+            0
+          ],
+          "tileTextures": 5,
+          "body": "original/4170e1d5-0f24-41bf-8801-26f2cb6adc61"
+        },
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            0,
+            11
+          ],
+          "colorScale": [
+            0,
+            0.75,
+            0.7
+          ],
+          "colorSkew": [
+            0,
+            1,
+            0
+          ],
+          "tileStep": [
+            0,
+            -44,
+            0
+          ],
+          "tileTextures": 6,
+          "body": "original/17411666-2946-4755-a268-937ae9b9fdf1"
+        },
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            0,
+            11
+          ],
+          "colorScale": [
+            0,
+            0.75,
+            0.7
+          ],
+          "colorSkew": [
+            0,
+            3,
+            0
+          ],
+          "tileStep": [
+            0,
+            -44,
+            0
+          ],
+          "tileTextures": 7,
+          "body": "original/f0a31f48-84ec-461d-95b2-444180db8540"
+        }
+      ]
+    },
+    "4092": {
+      "direction": 2,
+      "params": [
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            0,
+            11
+          ],
+          "colorScale": [
+            0,
+            0.75,
+            0.7
+          ],
+          "colorSkew": [
+            0,
+            -4,
+            0
+          ],
+          "tileStep": [
+            0,
+            -43.5,
+            0
+          ],
+          "tileTextures": 0,
+          "body": "original/e1b99cab-1b00-410d-8097-1472bd276d70"
+        },
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            0,
+            11
+          ],
+          "colorScale": [
+            0,
+            0.75,
+            0.7
+          ],
+          "colorSkew": [
+            0,
+            -3,
+            0
+          ],
+          "tileStep": [
+            0,
+            -41.5,
+            0
+          ],
+          "tileTextures": 1,
+          "body": "original/3c892c26-ac45-4a30-bff4-a710174f49dc"
+        },
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            0,
+            11
+          ],
+          "colorScale": [
+            0,
+            0.75,
+            0.7
+          ],
+          "colorSkew": [
+            0,
+            -1,
+            0
+          ],
+          "tileStep": [
+            0,
+            -43.5,
+            0
+          ],
+          "tileTextures": 2,
+          "body": "original/e8ba0ecb-1452-4dc9-8891-307886023ee9"
+        },
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            -1,
+            11
+          ],
+          "colorScale": [
+            0,
+            0.75,
+            0.7
+          ],
+          "colorSkew": [
+            0,
+            -1,
+            0
+          ],
+          "tileStep": [
+            0,
+            -43.5,
+            0
+          ],
+          "tileTextures": 3,
+          "body": "original/cfaa438c-756d-497d-9f61-808d975eeacc"
+        },
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            -1,
+            11
+          ],
+          "colorScale": [
+            0,
+            0.75,
+            0.7
+          ],
+          "tileStep": [
+            0,
+            -44,
+            0
+          ],
+          "tileTextures": 4,
+          "body": "original/82a567cf-50b2-4fdb-a01d-672da4ded405"
+        },
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            0,
+            11
+          ],
+          "colorScale": [
+            0,
+            0.75,
+            0.7
+          ],
+          "tileStep": [
+            0,
+            -43,
+            0
+          ],
+          "tileTextures": 5,
+          "body": "original/8258fa41-e92a-4892-9f2f-2f5493f17651"
+        },
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            -1,
+            11
+          ],
+          "colorScale": [
+            0,
+            0.75,
+            0.7
+          ],
+          "colorSkew": [
+            0,
+            2,
+            0
+          ],
+          "tileStep": [
+            0,
+            -43,
+            0
+          ],
+          "tileTextures": 6,
+          "body": "original/8c5c633a-07c9-43a2-8704-e0740c91e78c"
+        },
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            -1,
+            11
+          ],
+          "colorScale": [
+            0,
+            0.75,
+            0.7
+          ],
+          "colorSkew": [
+            0,
+            3,
+            0
+          ],
+          "tileStep": [
+            0,
+            -43,
+            0
+          ],
+          "tileTextures": 7,
+          "body": "original/55d6d319-ba7a-4011-aa72-7c74eb64ca1f"
+        },
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            -1,
+            11
+          ],
+          "colorScale": [
+            0,
+            0.75,
+            0.7
+          ],
+          "colorSkew": [
+            0,
+            4,
+            0
+          ],
+          "tileStep": [
+            0,
+            -43,
+            0
+          ],
+          "tileTextures": 8,
+          "body": "original/d0b30ee1-f019-473b-bad2-fe7e141cb532"
+        },
+        {
+          "class": "OUT_TILE_FRONT",
+          "colorPos": [
+            0,
+            -1,
+            11
+          ],
+          "colorScale": [
+            0,
+            0.75,
+            0.7
+          ],
+          "colorSkew": [
+            0,
+            4,
+            0
+          ],
+          "tileTextures": 9,
+          "body": "original/9ccac497-34b5-47eb-b985-e836b6a72b39"
+        }
+      ]
+    }
+  },
+  "hands": {
+    "0": {
+      "step": [
+        89,
+        0
+      ],
+      "frames": [
+        "original/0c5f2a30-88d7-433e-8a36-49e45b25f2ce",
+        "original/0c5f2a30-88d7-433e-8a36-49e45b25f2ce",
+        "original/0c5f2a30-88d7-433e-8a36-49e45b25f2ce",
+        "original/0c5f2a30-88d7-433e-8a36-49e45b25f2ce",
+        "original/0c5f2a30-88d7-433e-8a36-49e45b25f2ce",
+        "original/0c5f2a30-88d7-433e-8a36-49e45b25f2ce",
+        "original/0c5f2a30-88d7-433e-8a36-49e45b25f2ce",
+        "original/0c5f2a30-88d7-433e-8a36-49e45b25f2ce",
+        "original/0c5f2a30-88d7-433e-8a36-49e45b25f2ce",
+        "original/0c5f2a30-88d7-433e-8a36-49e45b25f2ce",
+        "original/0c5f2a30-88d7-433e-8a36-49e45b25f2ce",
+        "original/0c5f2a30-88d7-433e-8a36-49e45b25f2ce",
+        "original/0c5f2a30-88d7-433e-8a36-49e45b25f2ce",
+        "original/0c5f2a30-88d7-433e-8a36-49e45b25f2ce",
+        "original/0c5f2a30-88d7-433e-8a36-49e45b25f2ce",
+        "original/0c5f2a30-88d7-433e-8a36-49e45b25f2ce",
+        "original/0c5f2a30-88d7-433e-8a36-49e45b25f2ce",
+        "original/0c5f2a30-88d7-433e-8a36-49e45b25f2ce",
+        "original/0c5f2a30-88d7-433e-8a36-49e45b25f2ce",
+        "original/0c5f2a30-88d7-433e-8a36-49e45b25f2ce",
+        "original/0c5f2a30-88d7-433e-8a36-49e45b25f2ce",
+        "original/0c5f2a30-88d7-433e-8a36-49e45b25f2ce",
+        "original/0c5f2a30-88d7-433e-8a36-49e45b25f2ce",
+        "original/0c5f2a30-88d7-433e-8a36-49e45b25f2ce",
+        "original/0c5f2a30-88d7-433e-8a36-49e45b25f2ce",
+        "original/0c5f2a30-88d7-433e-8a36-49e45b25f2ce",
+        "original/0c5f2a30-88d7-433e-8a36-49e45b25f2ce",
+        "original/0c5f2a30-88d7-433e-8a36-49e45b25f2ce",
+        "original/0c5f2a30-88d7-433e-8a36-49e45b25f2ce",
+        "original/0c5f2a30-88d7-433e-8a36-49e45b25f2ce",
+        "original/0c5f2a30-88d7-433e-8a36-49e45b25f2ce",
+        "original/0c5f2a30-88d7-433e-8a36-49e45b25f2ce"
+      ]
+    },
+    "1": {
+      "step": [
+        -5,
+        -22
+      ],
+      "frames": [
+        "original/50df9b7c-c96c-4e73-aced-f71c4a1ff4e1",
+        "original/99a3ba4f-dbcf-4013-b9ea-2393131f8596",
+        "original/e537d460-6f8e-42b8-a726-9c7a09e7fd58",
+        "original/8a70ec3b-4792-4f91-b733-ad5c49dd1ff6",
+        "original/d08fa067-0535-43fa-a8a5-3ea6e8ff761d",
+        "original/247abedc-26a7-442b-a8aa-2fac360d6129",
+        "original/fb2e124c-f0aa-476d-b968-60621d94897e",
+        "original/d55055af-e56c-4b5f-9f55-e02fe695f5f3",
+        "original/e3934ca7-f7c4-4f4d-9210-b411cda51d2c",
+        "original/47edc5ec-e900-43be-9d93-c7e648706c9a",
+        "original/e38aa5fb-39db-4fe3-9879-9fbe9cc7b1f4",
+        "original/70341457-6bf0-492e-b6a2-d3100cf2df75",
+        "original/ca461cbd-05d2-43cf-8d42-7c1684baf844",
+        "original/094f7709-971f-4e88-abd0-0b1968c33cf4",
+        "original/77e759ea-32b6-4145-9767-7ddfceb8fe23",
+        "original/0adc74c3-6dae-40ff-919b-2c28b621bfd6",
+        "original/d264cc82-7585-400d-bf47-fdcf40bcafc8",
+        "original/d264cc82-7585-400d-bf47-fdcf40bcafc8",
+        "original/d264cc82-7585-400d-bf47-fdcf40bcafc8",
+        "original/d264cc82-7585-400d-bf47-fdcf40bcafc8",
+        "original/d264cc82-7585-400d-bf47-fdcf40bcafc8",
+        "original/d264cc82-7585-400d-bf47-fdcf40bcafc8",
+        "original/d264cc82-7585-400d-bf47-fdcf40bcafc8",
+        "original/d264cc82-7585-400d-bf47-fdcf40bcafc8",
+        "original/d264cc82-7585-400d-bf47-fdcf40bcafc8",
+        "original/d264cc82-7585-400d-bf47-fdcf40bcafc8",
+        "original/d264cc82-7585-400d-bf47-fdcf40bcafc8",
+        "original/d264cc82-7585-400d-bf47-fdcf40bcafc8",
+        "original/d264cc82-7585-400d-bf47-fdcf40bcafc8",
+        "original/d264cc82-7585-400d-bf47-fdcf40bcafc8",
+        "original/d264cc82-7585-400d-bf47-fdcf40bcafc8",
+        "original/d264cc82-7585-400d-bf47-fdcf40bcafc8"
+      ]
+    },
+    "2": {
+      "step": [
+        -30,
+        0
+      ],
+      "frames": [
+        "original/6de72ebc-fa69-4c12-a88d-7f7a03a55e71",
+        "original/0f003a0a-aac3-4a67-b679-c12f9389404d",
+        "original/a2b18f52-e32b-4128-be06-2efdff59f08a",
+        "original/824ef2eb-37bc-4385-ae69-59dc7ec9f7ec",
+        "original/a2df231e-ffeb-4d87-b24b-601a7cc340e2",
+        "original/1073ce89-1f85-4cef-a0e7-c3e4b48d6b2c",
+        "original/c9cd4850-bbc0-4deb-b747-bf7ae1c305e1",
+        "original/ec0e0182-f17a-4d91-85fb-44944dfb3b0c",
+        "original/622149f7-7b13-472f-b523-df14f4d7d925",
+        "original/c0d03ea2-edc2-43a5-8d97-2cba8fb6250f",
+        "original/11e1c633-29bd-436f-a751-246da5e1a94e",
+        "original/a21d045a-2571-4042-b4d7-9322a1920700",
+        "original/d0841835-627b-4f54-a142-047385246cc4",
+        "original/39c95a3f-5ae3-47f4-b0c2-69e523065f8d",
+        "original/7bab4231-e5ea-4159-a8eb-91eb8571bb59",
+        "original/f2716eee-98dc-42b6-947b-c1ac7b227dc3",
+        "original/890519aa-2477-4865-92e5-4a5617232928",
+        "original/890519aa-2477-4865-92e5-4a5617232928",
+        "original/890519aa-2477-4865-92e5-4a5617232928",
+        "original/890519aa-2477-4865-92e5-4a5617232928",
+        "original/890519aa-2477-4865-92e5-4a5617232928",
+        "original/890519aa-2477-4865-92e5-4a5617232928",
+        "original/890519aa-2477-4865-92e5-4a5617232928",
+        "original/890519aa-2477-4865-92e5-4a5617232928",
+        "original/890519aa-2477-4865-92e5-4a5617232928",
+        "original/890519aa-2477-4865-92e5-4a5617232928",
+        "original/890519aa-2477-4865-92e5-4a5617232928",
+        "original/890519aa-2477-4865-92e5-4a5617232928",
+        "original/890519aa-2477-4865-92e5-4a5617232928",
+        "original/890519aa-2477-4865-92e5-4a5617232928",
+        "original/890519aa-2477-4865-92e5-4a5617232928",
+        "original/890519aa-2477-4865-92e5-4a5617232928"
+      ]
+    },
+    "3": {
+      "step": [
+        5,
+        23
+      ],
+      "frames": [
+        "original/d264cc82-7585-400d-bf47-fdcf40bcafc8",
+        "original/0adc74c3-6dae-40ff-919b-2c28b621bfd6",
+        "original/77e759ea-32b6-4145-9767-7ddfceb8fe23",
+        "original/094f7709-971f-4e88-abd0-0b1968c33cf4",
+        "original/ca461cbd-05d2-43cf-8d42-7c1684baf844",
+        "original/70341457-6bf0-492e-b6a2-d3100cf2df75",
+        "original/e38aa5fb-39db-4fe3-9879-9fbe9cc7b1f4",
+        "original/47edc5ec-e900-43be-9d93-c7e648706c9a",
+        "original/e3934ca7-f7c4-4f4d-9210-b411cda51d2c",
+        "original/d55055af-e56c-4b5f-9f55-e02fe695f5f3",
+        "original/fb2e124c-f0aa-476d-b968-60621d94897e",
+        "original/247abedc-26a7-442b-a8aa-2fac360d6129",
+        "original/d08fa067-0535-43fa-a8a5-3ea6e8ff761d",
+        "original/8a70ec3b-4792-4f91-b733-ad5c49dd1ff6",
+        "original/e537d460-6f8e-42b8-a726-9c7a09e7fd58",
+        "original/99a3ba4f-dbcf-4013-b9ea-2393131f8596",
+        "original/50df9b7c-c96c-4e73-aced-f71c4a1ff4e1",
+        "original/50df9b7c-c96c-4e73-aced-f71c4a1ff4e1",
+        "original/50df9b7c-c96c-4e73-aced-f71c4a1ff4e1",
+        "original/50df9b7c-c96c-4e73-aced-f71c4a1ff4e1",
+        "original/50df9b7c-c96c-4e73-aced-f71c4a1ff4e1",
+        "original/50df9b7c-c96c-4e73-aced-f71c4a1ff4e1",
+        "original/50df9b7c-c96c-4e73-aced-f71c4a1ff4e1",
+        "original/50df9b7c-c96c-4e73-aced-f71c4a1ff4e1",
+        "original/50df9b7c-c96c-4e73-aced-f71c4a1ff4e1",
+        "original/50df9b7c-c96c-4e73-aced-f71c4a1ff4e1",
+        "original/50df9b7c-c96c-4e73-aced-f71c4a1ff4e1",
+        "original/50df9b7c-c96c-4e73-aced-f71c4a1ff4e1",
+        "original/50df9b7c-c96c-4e73-aced-f71c4a1ff4e1",
+        "original/50df9b7c-c96c-4e73-aced-f71c4a1ff4e1",
+        "original/50df9b7c-c96c-4e73-aced-f71c4a1ff4e1",
+        "original/50df9b7c-c96c-4e73-aced-f71c4a1ff4e1"
+      ]
+    }
+  },
+  "source": "main scene and original ZMJ tile row prefabs"
+}

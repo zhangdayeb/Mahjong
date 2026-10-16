@@ -1,0 +1,53 @@
+.lz-audio-settings{font-family:'Microsoft YaHei',sans-serif;color:#315d4c;min-width:0;text-align:left}
+.lz-audio-row{padding:9px 0 10px;border-bottom:1px solid #d9decc}
+.lz-audio-row:first-child{padding-top:0}
+.lz-audio-row-heading{display:flex;align-items:center;gap:13px}
+.lz-audio-copy{flex:1;min-width:0}
+.lz-audio-copy strong{display:block;font-size:14px;font-weight:500;letter-spacing:1px}
+.lz-audio-copy small{display:block;color:#929b83;font-size:10px;margin-top:3px}
+.lz-audio-settings button{font:11px 'Microsoft YaHei',sans-serif;cursor:pointer;filter:none!important;translate:none!important;transition:background .15s}
+.lz-audio-settings button:focus-visible,.lz-audio-slider:focus-visible{outline:2px solid #a38142;outline-offset:3px}
+.lz-audio-settings .lz-audio-switch{display:flex;align-items:center;justify-content:flex-end;gap:7px;color:#97a18a;background:none;border:0;min-width:76px;min-height:29px;padding:0}
+.lz-audio-switch i{display:block;position:relative;width:37px;height:21px;border-radius:20px;background:#d5d9c9;border:1px solid #c8cebb}
+.lz-audio-switch i:before{content:'';position:absolute;top:2px;left:2px;width:15px;height:15px;border-radius:50%;background:#fffbed;box-shadow:0 1px 3px #42563d30;transition:transform .18s}
+.lz-audio-settings .lz-audio-switch[aria-checked=true]{color:#47765a}
+.lz-audio-switch[aria-checked=true] i{background:#48775c;border-color:#48775c}
+.lz-audio-switch[aria-checked=true] i:before{transform:translateX(16px)}
+.lz-audio-settings .lz-audio-audition{background:#f8f3e4;color:#9b7b3e;border:1px solid #decda3;border-radius:7px;padding:5px 10px;min-height:27px}
+.lz-audio-volume{display:flex;align-items:center;gap:12px;margin-top:8px}
+.lz-audio-slider{flex:1;min-width:0;height:6px;margin:4px 0;accent-color:#4c795d;cursor:pointer}
+.lz-audio-output{min-width:35px;font-size:11px;color:#72856b;text-align:right;font-variant-numeric:tabular-nums}
+.lz-audio-row.is-muted .lz-audio-output,.lz-audio-row.is-muted .lz-audio-copy strong{color:#8d967e}
+.lz-audio-row.is-muted .lz-audio-slider{accent-color:#a6ad98}
+.lz-audio-actions{display:flex;gap:7px;flex-wrap:wrap;margin-top:12px}
+.lz-audio-settings .lz-audio-soft,.lz-audio-settings .lz-audio-primary{border:1px solid #cfdbc3;border-radius:7px;background:#eef0e2;color:#5d785a;padding:6px 11px;min-height:29px}
+.lz-audio-settings .lz-audio-primary{background:#426e54;color:#fffbed;border-color:#426e54;margin-left:auto}
+.lz-audio-settings .lz-audio-soft:hover,.lz-audio-settings .lz-audio-audition:hover{background:#e6ebd9}
+.lz-audio-settings .lz-audio-primary:hover{background:#315940}
+.lz-audio-settings button:disabled{opacity:.45;cursor:default}
+.lz-audio-status{min-height:14px;color:#8a967b;font-size:10px;line-height:1.6;margin:7px 0 0}
+.lz-audio-settings.is-all-muted .lz-audio-soft[aria-pressed=true]{background:#f1e5ce;color:#94743c;border-color:#dbc292}
+/* The hall's original #lobby button reset must not erase these controls. */
+#lobby .lz-audio-settings .lz-audio-switch{color:#97a18a;background:none;border:0;padding:0}
+#lobby .lz-audio-settings .lz-audio-switch[aria-checked=true]{color:#47765a}
+#lobby .lz-audio-settings .lz-audio-audition{background:#f8f3e4;color:#9b7b3e;border:1px solid #decda3;border-radius:7px;padding:5px 10px}
+#lobby .lz-audio-settings .lz-audio-soft,#lobby .lz-audio-settings .lz-audio-primary{border:1px solid #cfdbc3;border-radius:7px;background:#eef0e2;color:#5d785a;padding:6px 11px}
+#lobby .lz-audio-settings .lz-audio-primary{background:#426e54;color:#fffbed;border-color:#426e54}
+#lobby .lz-audio-settings .lz-audio-soft:hover,#lobby .lz-audio-settings .lz-audio-audition:hover{background:#e6ebd9}
+#lobby .lz-audio-settings .lz-audio-primary:hover{background:#315940}
+#lobby .lz-audio-settings.is-all-muted .lz-audio-soft[aria-pressed=true]{background:#f1e5ce;color:#94743c;border-color:#dbc292}
+/* Keep the table's sound window in the same ivory-and-jade palette. */
+.table-dialog:has(.lz-audio-settings){background:linear-gradient(135deg,#fffdf3,#f1f0e3);color:#315d4c;border:1px solid #fffdf2;border-radius:20px;width:600px;max-width:94vw;max-height:88vh;padding:26px;scrollbar-width:thin;scrollbar-color:#b4c2a4 transparent}
+.table-dialog:has(.lz-audio-settings) h2{color:#315d4c;font-family:KaiTi,STKaiti,serif;font-size:27px;letter-spacing:2px}
+.table-dialog:has(.lz-audio-settings) .dialog-body{max-height:none;overflow:visible;text-align:left}
+.table-dialog:has(.lz-audio-settings) .dialog-close{background:none;color:#6d8364;border:0;padding:0;width:30px;height:30px;min-height:0;font-size:24px;right:12px;top:10px}
+.table-dialog:has(.lz-audio-settings) .lz-audio-switch{background:none;color:#97a18a;border:0;padding:0;border-radius:0;min-height:29px}
+.table-dialog:has(.lz-audio-settings) .lz-audio-switch[aria-checked=true]{color:#47765a}
+.table-dialog:has(.lz-audio-settings) .lz-audio-audition{background:#f8f3e4;color:#9b7b3e;border:1px solid #decda3;border-radius:7px;padding:5px 10px;min-height:27px}
+.table-dialog:has(.lz-audio-settings) .lz-audio-soft,.table-dialog:has(.lz-audio-settings) .lz-audio-primary{border:1px solid #cfdbc3;border-radius:7px;background:#eef0e2;color:#5d785a;padding:6px 11px;min-height:29px}
+.table-dialog:has(.lz-audio-settings) .lz-audio-primary{background:#426e54;color:#fffbed;border-color:#426e54}
+.table-dialog:has(.lz-audio-settings) label{color:#698064;font-size:13px}
+.table-dialog:has(.lz-audio-settings) select{color:#315d4c;background:#fffcf0;border:1px solid #c9d6bb;border-radius:6px;padding:4px 8px}
+.table-dialog:has(.lz-audio-settings) input[type=checkbox]{accent-color:#47765a}
+.table-dialog:has(.lz-audio-settings) .dialog-body>p{font-size:11px;color:#9a9d83}
+@media(prefers-reduced-motion:reduce){.lz-audio-settings button,.lz-audio-switch i:before{transition:none}}

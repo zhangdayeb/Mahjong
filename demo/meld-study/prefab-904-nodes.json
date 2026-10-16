@@ -1,0 +1,1536 @@
+[
+  {
+    "id": 1,
+    "name": "UserLayer",
+    "trs": [
+      640,
+      360,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "size": [
+      5,
+      1280,
+      720
+    ],
+    "components": [
+      {
+        "class": "13d99NhMV1GbpiwE2AObdoO",
+        "node": -2
+      },
+      {
+        "class": "542e9To7UJEIbprJL4sjhrv",
+        "node": -22,
+        "nodeUserView": [
+          -18,
+          -19,
+          -20,
+          -21
+        ],
+        "spriteDisplayBigTag": [
+          -14,
+          -15,
+          -16,
+          -17
+        ],
+        "nodeBigTagBg": -13,
+        "protectGiftEffect": [
+          -9,
+          -10,
+          -11,
+          -12
+        ],
+        "userInfoLeagueMatchNode": -8,
+        "userNode": -7,
+        "leagueUserNode": [
+          -3,
+          -4,
+          -5,
+          -6
+        ],
+        "prefabUserNode": 39,
+        "UserInfoAtlas": 40,
+        "yuyinAnims": 41,
+        "prefabAuthorize": 42
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "ProtectGiftEffect",
+    "parent": 1,
+    "size": [
+      5,
+      1280,
+      720
+    ],
+    "components": [
+      {
+        "class": "cc.Widget",
+        "_alignFlags": 45,
+        "_originalWidth": 1280,
+        "_originalHeight": 720,
+        "node": -27
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "UserLeagueMatchNode",
+    "parent": 1,
+    "size": [
+      5,
+      1280,
+      720
+    ],
+    "components": [
+      {
+        "class": "cc.Widget",
+        "_alignFlags": 45,
+        "_originalWidth": 1280,
+        "_originalHeight": 720,
+        "node": -36
+      },
+      {
+        "class": "1fc047SFgpFd6AGWWoX8Gc2",
+        "node": -61,
+        "UserInfoLeagueMatchList": [
+          [
+            15,
+            -42,
+            -41,
+            -40,
+            -39,
+            -38,
+            -37
+          ],
+          [
+            15,
+            -48,
+            -47,
+            -46,
+            -45,
+            -44,
+            -43
+          ],
+          [
+            15,
+            -54,
+            -53,
+            -52,
+            -51,
+            -50,
+            -49
+          ],
+          [
+            15,
+            -60,
+            -59,
+            -58,
+            -57,
+            -56,
+            -55
+          ]
+        ],
+        "queIconImage": [
+          32,
+          33,
+          34
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "UserNode",
+    "parent": 1,
+    "size": [
+      5,
+      1280,
+      720
+    ],
+    "components": [
+      {
+        "class": "cc.Widget",
+        "_alignFlags": 45,
+        "_originalWidth": 1280,
+        "_originalHeight": 720,
+        "node": -66
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "item",
+    "components": []
+  },
+  {
+    "id": 6,
+    "name": "item",
+    "trs": [
+      -4.68,
+      10.745,
+      0,
+      0,
+      0,
+      -0.7071067811865475,
+      0.7071067811865476,
+      1,
+      1,
+      1
+    ],
+    "components": []
+  },
+  {
+    "id": 7,
+    "name": "item",
+    "trs": [
+      0,
+      -54.259,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "components": []
+  },
+  {
+    "id": 8,
+    "name": "item",
+    "trs": [
+      -61.583,
+      0,
+      0,
+      0,
+      0,
+      -0.7071067811865475,
+      0.7071067811865476,
+      1,
+      1,
+      1
+    ],
+    "components": []
+  },
+  {
+    "id": 9,
+    "name": "displayBigUserTag",
+    "parent": 1,
+    "size": [
+      5,
+      1280,
+      720
+    ],
+    "components": [
+      {
+        "class": "cc.Widget",
+        "alignMode": 0,
+        "_alignFlags": 45,
+        "node": -95
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "User_0",
+    "parent": 3,
+    "trs": [
+      0,
+      -364.638,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "components": [
+      {
+        "class": "cc.Widget",
+        "_alignFlags": 4,
+        "_left": 48,
+        "_top": 506,
+        "_bottom": -4.637999999999977,
+        "node": -100,
+        "_target": 1
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "User_1",
+    "parent": 3,
+    "trs": [
+      -565,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "components": [
+      {
+        "class": "cc.Widget",
+        "_alignFlags": 8,
+        "_left": 75,
+        "_top": 222,
+        "_bottom": 453,
+        "node": -101,
+        "_target": 1
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "User_2",
+    "parent": 3,
+    "trs": [
+      0,
+      360,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "components": [
+      {
+        "class": "cc.Widget",
+        "_alignFlags": 1,
+        "_left": 1002,
+        "_right": 278,
+        "_bottom": 645,
+        "node": -102,
+        "_target": 1
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "User_3",
+    "parent": 3,
+    "trs": [
+      565,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "components": [
+      {
+        "class": "cc.Widget",
+        "_alignFlags": 32,
+        "_right": 75,
+        "_top": 220,
+        "_bottom": 456,
+        "node": -103,
+        "_target": 1
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "User_0",
+    "parent": 4,
+    "trs": [
+      -564,
+      -106,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "components": [
+      {
+        "class": "cc.Widget",
+        "_alignFlags": 4,
+        "_left": 48,
+        "_top": 506,
+        "_bottom": 254,
+        "node": -104,
+        "_target": 1
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "User_1",
+    "parent": 4,
+    "trs": [
+      -564,
+      60,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "components": [
+      {
+        "class": "cc.Widget",
+        "_alignFlags": 1,
+        "_left": 48,
+        "_top": 300,
+        "_bottom": 453,
+        "node": -105,
+        "_target": 1
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "User_2",
+    "parent": 4,
+    "trs": [
+      320,
+      247,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "components": [
+      {
+        "class": "cc.Widget",
+        "_alignFlags": 1,
+        "_left": 1002,
+        "_right": 278,
+        "_top": 113,
+        "_bottom": 645,
+        "node": -106,
+        "_target": 1
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "User_3",
+    "parent": 4,
+    "trs": [
+      585,
+      60,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "components": [
+      {
+        "class": "cc.Widget",
+        "_alignFlags": 1,
+        "_right": 45,
+        "_top": 300,
+        "_bottom": 456,
+        "node": -107,
+        "_target": 1
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "banker",
+    "parent": 5,
+    "trs": [
+      -247.5,
+      26.848,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "size": [
+      5,
+      46,
+      46
+    ],
+    "components": [
+      {
+        "class": "cc.Sprite",
+        "node": -108,
+        "_materials": [
+          2
+        ],
+        "_spriteFrame": 3
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "banker",
+    "parent": 6,
+    "trs": [
+      -246.058,
+      29.261,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "size": [
+      5,
+      46,
+      46
+    ],
+    "components": [
+      {
+        "class": "cc.Sprite",
+        "node": -109,
+        "_materials": [
+          10
+        ],
+        "_spriteFrame": 11
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "banker",
+    "parent": 7,
+    "trs": [
+      -247.5,
+      28.448,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "size": [
+      5,
+      46,
+      46
+    ],
+    "components": [
+      {
+        "class": "cc.Sprite",
+        "node": -110,
+        "_materials": [
+          18
+        ],
+        "_spriteFrame": 19
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "banker",
+    "parent": 8,
+    "trs": [
+      -246.058,
+      28.738,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "size": [
+      5,
+      46,
+      46
+    ],
+    "components": [
+      {
+        "class": "cc.Sprite",
+        "node": -111,
+        "_materials": [
+          26
+        ],
+        "_spriteFrame": 27
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "BigUserTag_1",
+    "parent": 9,
+    "trs": [
+      -237,
+      32,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "size": [
+      5,
+      151,
+      151
+    ],
+    "components": [
+      [
+        -112,
+        [
+          19,
+          0,
+          8,
+          327.5,
+          -402.5,
+          -469.5,
+          328.5,
+          139,
+          141,
+          -113
+        ]
+      ],
+      1,
+      4
+    ]
+  },
+  {
+    "id": 23,
+    "name": "BigUserTag_2",
+    "parent": 9,
+    "trs": [
+      0,
+      182,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "size": [
+      5,
+      151,
+      151
+    ],
+    "components": [
+      [
+        -114,
+        [
+          19,
+          0,
+          1,
+          570.5,
+          -709.5,
+          107.5,
+          546.5,
+          139,
+          141,
+          -115
+        ]
+      ],
+      1,
+      4
+    ]
+  },
+  {
+    "id": 24,
+    "name": "BigUserTag_3",
+    "parent": 9,
+    "trs": [
+      229,
+      32,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "size": [
+      5,
+      151,
+      151
+    ],
+    "components": [
+      [
+        -116,
+        [
+          19,
+          0,
+          32,
+          907.5,
+          341.5,
+          -469.5,
+          328.5,
+          139,
+          141,
+          -117
+        ]
+      ],
+      1,
+      4
+    ]
+  },
+  {
+    "id": 25,
+    "name": "User_0",
+    "parent": 2,
+    "trs": [
+      -422,
+      -106,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0.5,
+      0.5,
+      1
+    ],
+    "components": [
+      {
+        "class": "cc.Widget",
+        "_alignFlags": 4,
+        "_left": 48,
+        "_top": 506,
+        "_bottom": 254,
+        "node": -118,
+        "_target": 1
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "name": "User_1",
+    "parent": 2,
+    "trs": [
+      -422,
+      138,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0.5,
+      0.5,
+      1
+    ],
+    "components": [
+      {
+        "class": "cc.Widget",
+        "_alignFlags": 1,
+        "_left": 48,
+        "_top": 222,
+        "_bottom": 453,
+        "node": -119,
+        "_target": 1
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "name": "User_2",
+    "parent": 2,
+    "trs": [
+      490,
+      280,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0.5,
+      0.5,
+      1
+    ],
+    "components": [
+      {
+        "class": "cc.Widget",
+        "_alignFlags": 1,
+        "_left": 1002,
+        "_right": 278,
+        "_top": 80,
+        "_bottom": 645,
+        "node": -120,
+        "_target": 1
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "name": "User_3",
+    "parent": 2,
+    "trs": [
+      425,
+      140,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0.5,
+      0.5,
+      1
+    ],
+    "components": [
+      {
+        "class": "cc.Widget",
+        "_alignFlags": 1,
+        "_right": 45,
+        "_top": 220,
+        "_bottom": 456,
+        "node": -121,
+        "_target": 1
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "name": "User_0",
+    "parent": 2,
+    "trs": [
+      -31.879,
+      -335.083,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0.5,
+      0.5,
+      1
+    ],
+    "components": [
+      {
+        "class": "cc.Widget",
+        "_alignFlags": 4,
+        "_left": 48,
+        "_top": 506,
+        "_bottom": 24.916999999999973,
+        "node": -122,
+        "_target": 1
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "name": "User_1",
+    "parent": 2,
+    "trs": [
+      -539.944,
+      32.35699999999997,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0.5,
+      0.5,
+      1
+    ],
+    "components": [
+      {
+        "class": "cc.Widget",
+        "_alignFlags": 4,
+        "_left": 48,
+        "_top": 506,
+        "_bottom": 392.35699999999997,
+        "node": -123,
+        "_target": 1
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "name": "User_2",
+    "parent": 2,
+    "trs": [
+      -29.611,
+      329.4839999999999,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0.5,
+      0.5,
+      1
+    ],
+    "components": [
+      {
+        "class": "cc.Widget",
+        "_alignFlags": 4,
+        "_left": 48,
+        "_top": 506,
+        "_bottom": 689.4839999999999,
+        "node": -124,
+        "_target": 1
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "name": "User_3",
+    "parent": 2,
+    "trs": [
+      537.426,
+      27.821000000000026,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0.5,
+      0.5,
+      1
+    ],
+    "components": [
+      {
+        "class": "cc.Widget",
+        "_alignFlags": 4,
+        "_left": 48,
+        "_top": 506,
+        "_bottom": 387.821,
+        "node": -125,
+        "_target": 1
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "name": "bg",
+    "parent": 5,
+    "trs": [
+      0,
+      32.741,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "size": [
+      5,
+      856,
+      40
+    ],
+    "components": [
+      {
+        "class": "cc.Sprite",
+        "node": -126,
+        "_materials": [
+          0
+        ],
+        "_spriteFrame": 1
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "name": "name",
+    "parent": 5,
+    "trs": [
+      -136.836,
+      33.021,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "size": [
+      5,
+      173.83,
+      50.4
+    ],
+    "components": [
+      -127
+    ]
+  },
+  {
+    "id": 36,
+    "name": "type",
+    "parent": 5,
+    "trs": [
+      -30.986,
+      26.838,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "size": [
+      5,
+      46,
+      46
+    ],
+    "components": [
+      -128
+    ]
+  },
+  {
+    "id": 38,
+    "name": "wei",
+    "parent": 5,
+    "trs": [
+      1.153,
+      33.215,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "anchor": [
+      0,
+      0,
+      0.5
+    ],
+    "size": [
+      5,
+      43.57,
+      50.4
+    ],
+    "components": [
+      -129
+    ]
+  },
+  {
+    "id": 40,
+    "name": "coin",
+    "parent": 5,
+    "trs": [
+      52,
+      32.215,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "anchor": [
+      0,
+      0,
+      0.5
+    ],
+    "size": [
+      5,
+      0,
+      50.4
+    ],
+    "components": [
+      -130
+    ]
+  },
+  {
+    "id": 42,
+    "name": "bg",
+    "parent": 6,
+    "trs": [
+      -47.816,
+      32.741,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0.8,
+      1,
+      1
+    ],
+    "size": [
+      5,
+      671,
+      40
+    ],
+    "components": [
+      {
+        "class": "cc.Sprite",
+        "node": -131,
+        "_materials": [
+          8
+        ],
+        "_spriteFrame": 9
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "name": "name",
+    "parent": 6,
+    "trs": [
+      -138.132,
+      32.723,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "size": [
+      5,
+      173.83,
+      50.4
+    ],
+    "components": [
+      -132
+    ]
+  },
+  {
+    "id": 45,
+    "name": "type",
+    "parent": 6,
+    "trs": [
+      -29.021,
+      28.135,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "size": [
+      5,
+      46,
+      46
+    ],
+    "components": [
+      -133
+    ]
+  },
+  {
+    "id": 47,
+    "name": "wei",
+    "parent": 6,
+    "trs": [
+      1.153,
+      33.215,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "anchor": [
+      0,
+      0,
+      0.5
+    ],
+    "size": [
+      5,
+      43.57,
+      50.4
+    ],
+    "components": [
+      -134
+    ]
+  },
+  {
+    "id": 49,
+    "name": "coin",
+    "parent": 6,
+    "trs": [
+      52,
+      33.894,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "anchor": [
+      0,
+      0,
+      0.5
+    ],
+    "size": [
+      5,
+      0,
+      50.4
+    ],
+    "components": [
+      -135
+    ]
+  },
+  {
+    "id": 51,
+    "name": "bg",
+    "parent": 7,
+    "trs": [
+      0,
+      32.741,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "size": [
+      5,
+      856,
+      40
+    ],
+    "components": [
+      {
+        "class": "cc.Sprite",
+        "node": -136,
+        "_materials": [
+          16
+        ],
+        "_spriteFrame": 17
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "name": "name",
+    "parent": 7,
+    "trs": [
+      -136.836,
+      34.197,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "size": [
+      5,
+      173.83,
+      50.4
+    ],
+    "components": [
+      -137
+    ]
+  },
+  {
+    "id": 54,
+    "name": "type",
+    "parent": 7,
+    "trs": [
+      -30.986,
+      29.165,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "size": [
+      5,
+      46,
+      46
+    ],
+    "components": [
+      -138
+    ]
+  },
+  {
+    "id": 56,
+    "name": "wei",
+    "parent": 7,
+    "trs": [
+      1.153,
+      33.215,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "anchor": [
+      0,
+      0,
+      0.5
+    ],
+    "size": [
+      5,
+      43.57,
+      50.4
+    ],
+    "components": [
+      -139
+    ]
+  },
+  {
+    "id": 58,
+    "name": "coin",
+    "parent": 7,
+    "trs": [
+      52,
+      33.53,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "anchor": [
+      0,
+      0,
+      0.5
+    ],
+    "size": [
+      5,
+      0,
+      50.4
+    ],
+    "components": [
+      -140
+    ]
+  },
+  {
+    "id": 60,
+    "name": "bg",
+    "parent": 8,
+    "trs": [
+      -47.816,
+      32.741,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0.8,
+      1,
+      1
+    ],
+    "size": [
+      5,
+      671,
+      40
+    ],
+    "components": [
+      {
+        "class": "cc.Sprite",
+        "node": -141,
+        "_materials": [
+          24
+        ],
+        "_spriteFrame": 25
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "name": "name",
+    "parent": 8,
+    "trs": [
+      -138.132,
+      34.342,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "size": [
+      5,
+      173.83,
+      50.4
+    ],
+    "components": [
+      -142
+    ]
+  },
+  {
+    "id": 63,
+    "name": "type",
+    "parent": 8,
+    "trs": [
+      -29.021,
+      28.312,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "size": [
+      5,
+      46,
+      46
+    ],
+    "components": [
+      -143
+    ]
+  },
+  {
+    "id": 65,
+    "name": "wei",
+    "parent": 8,
+    "trs": [
+      1.153,
+      33.215,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "anchor": [
+      0,
+      0,
+      0.5
+    ],
+    "size": [
+      5,
+      43.57,
+      50.4
+    ],
+    "components": [
+      -144
+    ]
+  },
+  {
+    "id": 67,
+    "name": "coin",
+    "parent": 8,
+    "trs": [
+      52,
+      33.27,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "anchor": [
+      0,
+      0,
+      0.5
+    ],
+    "size": [
+      5,
+      0,
+      50.4
+    ],
+    "components": [
+      -145
+    ]
+  },
+  {
+    "id": 69,
+    "name": "BigUserTag_0",
+    "parent": 9,
+    "trs": [
+      0,
+      -92,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "size": [
+      5,
+      151,
+      151
+    ],
+    "components": [
+      -146
+    ]
+  }
+]

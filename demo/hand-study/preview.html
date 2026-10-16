@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>原手部固定帧核对</title>
+<style>*{box-sizing:border-box}body{margin:0;background:#101817;font-family:"Microsoft YaHei",sans-serif;color:#eef9f6;overflow:hidden}#viewport{position:absolute;left:50%;top:50%;width:1280px;height:640px;transform:translate(-50%,-50%) scale(var(--scale,1));transform-origin:center;background:url('../assets/reference/desk.jpg') center/100% 100% no-repeat;overflow:hidden}canvas{position:absolute;inset:0;display:block;width:1280px;height:640px}#status{position:fixed;left:12px;bottom:9px;padding:6px 12px;background:#001a17cc;border:1px solid #e2fffc66;font-size:12px;border-radius:4px;z-index:2;pointer-events:none}.target{position:absolute;left:440px;top:240px;width:12px;height:12px;border:1px solid #ffee70;border-radius:50%;transform:translate(-50%,-50%);z-index:1;pointer-events:none}</style>
+<script type="importmap">{"imports":{"three":"../node_modules/three/build/three.module.js"}}</script></head><body>
+<main id="viewport"><canvas id="table" width="1280" height="640"></canvas><span class="target"></span></main><div id="status">正在加载原手模型…</div>
+<script type="module">
+import * as THREE from 'three';
+import {createHandEffects} from '../hand-effects.js';
+import {computeTableLayout} from '../table-layout.js';
+const params=new URLSearchParams(location.search),seat=Number(params.get('seat')??3),time=Number(params.get('time')??.35),action=params.get('action')||'discard';
+const stage=document.querySelector('#viewport'),status=document.querySelector('#status');
+function resize(){stage.style.setProperty('--scale',Math.min(innerWidth/1280,innerHeight/640));}addEventListener('resize',resize);resize();
+try{
+ const layout=computeTableLayout(1280,640),frames=await fetch('../table-layout-study/frames.json').then(r=>r.json()),frame=frames.find(frame=>frame.key===layout.deskTexture.body);
+ const desk=new Image();desk.src='../'+frame.image;await desk.decode();const context=document.querySelector('#table').getContext('2d');const rect=layout.deskTexture;context.drawImage(desk,rect.x,rect.y,rect.width,rect.height);
+ const renderer=new THREE.WebGLRenderer({alpha:true,antialias:true});renderer.setClearColor(0,0);renderer.setPixelRatio(Math.min(devicePixelRatio,2));renderer.setSize(1280,640);renderer.outputColorSpace=THREE.SRGBColorSpace;stage.append(renderer.domElement);
+ const scene=new THREE.Scene(),camera=new THREE.PerspectiveCamera(22,2,.1,100);camera.position.set(0,11.2566,13.1373);camera.rotation.x=-40*Math.PI/180;camera.updateMatrixWorld(true);
+ const loader=new THREE.TextureLoader(),texture=await loader.loadAsync('../assets/reference/tile-body.png');texture.colorSpace=THREE.SRGBColorSpace;
+ const data=await fetch('../assets/reference/mesh-body.json').then(r=>r.json()),geometry=new THREE.BufferGeometry();geometry.setAttribute('position',new THREE.Float32BufferAttribute(data.positions,3));geometry.setAttribute('normal',new THREE.Float32BufferAttribute(data.normals,3));geometry.setAttribute('uv',new THREE.Float32BufferAttribute(data.uvs,2));geometry.setIndex(data.indices);
+ const material=new THREE.MeshBasicMaterial({map:texture});function makeTile(){const group=new THREE.Group();group.add(new THREE.Mesh(geometry,material));group.scale.setScalar(.095);return group;}
+ const hand=await createHandEffects({THREE,scene,camera,renderer,makeTile,force:true,externalClock:true});
+ const playback=hand.play({action,seat,value:16,to:{x:440,y:240}});hand.update(playback.startTime+Math.min(time,playback.duration-.001)*1000);renderer.render(scene,camera);
+ status.textContent=`固定原骨骼帧：${action} · 座位${seat} · ${time.toFixed(3)}秒 · 接触点(440,240) · 原父比例3.6/3.6/4.32 · 背景1280×640`;
+ window.handDiagnostic={hand,renderer,scene,camera,playback,time};
+}catch(error){status.textContent=error.stack;console.error(error);}
+</script></body></html>

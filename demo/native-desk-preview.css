@@ -1,0 +1,5 @@
+.native-desk-preview{position:absolute;inset:0;z-index:86;overflow:clip;background:#111a21;touch-action:none;user-select:none;-webkit-user-select:none}
+.native-desk-preview[hidden]{display:none!important}
+.native-desk-preview-canvas{position:absolute;inset:0;width:100%;height:100%;display:block;pointer-events:none}
+.native-desk-preview .native-desk-preview-back{position:absolute!important;margin:0!important;padding:0!important;border:0!important;border-radius:0!important;background:transparent!important;box-shadow:none!important;translate:none!important;transition:none!important;cursor:pointer;color:transparent;outline:none}
+.native-desk-preview .native-desk-preview-back:focus-visible{outline:2px solid #b5f2ff;outline-offset:3px}

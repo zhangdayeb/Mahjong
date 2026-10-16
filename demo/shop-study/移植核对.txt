@@ -1,0 +1,33 @@
+指尖商城的本地原素材展示
+
+主框来自 prefabs135 hall/modules/shop/shop；推荐、钻石、牌桌、道具、游戏豆卡片分别来自
+prefabs240、84、2095、1980、203；推荐二级分类来自 prefabs287。
+原画布1280×720，以实际容器高度等比缩放。原宽屏左栏保持1380设计宽度内的8px边距；
+五类顺序按用户截图的推荐/游戏豆/钻石/道具/牌桌。金币加号另外进入原指尖币入口，
+此时第二类采用原 ZCoinbtn 标签，不伪造额外的金币交易配置。
+紫色圆点地板来自 common759 / NewSkin/Bg/bg_02，未使用大厅蓝色网格地板。
+
+105张 SpriteFrame（包含原Bitmap字库）按原atlas rect/rotated/offset/originalSize提取。
+RAW不Trim的图保留原透明画布；TRIMMED图只读回对应占用矩形，避免重复补边。
+原节点RGBA顶点色通过乘色还原，例如广告播放小圆标原白图乘 #d15f1c。
+商城周卡按钮按截图采用原 zhijianzhouka 图（含“指尖周卡”字），scale=.65。
+
+推荐、钻石及牌桌商品数值来自用户提供截图：
+每日暖心福利免费，财神福袋66钻石/必得500万，1280+1280钻石¥128。
+推荐“每日限购0/1”作为本地默认展示，与原字段名一致，不表示已经请求在线领取资格。
+钻石8档：30、60+3、180+12、300+30、680+70、1280+220、3280+980、6480+2500；
+价格¥3、6、18、30、68、128、328、648。
+四季常春18、繁星之夜18、年兽迎福38；名字以resources2923 BagCfg的304/305/308为准，
+牌桌小图对应sjcc/xingyue/tyss，
+前两张“传说”用原pic_44，最后一张“限定”用pic_45并按截图不显示试用。
+
+游戏豆/指尖币完整数量与兑换条件、道具完整商品列表、推荐特惠活动配置尚未采集。
+这些分类仍可点击，显示已确认的原模板和真实原素材，价格未知处用“—”。
+点击商品只本地展示，不调用支付、广告、兑换、领取或写入余额。
+牌桌卡内原“预览”及可见“试用”区域进入native-desk-preview，原1600×720大牌桌、
+专属指南针、返回及关闭提示均来自实际原资源；点击大图按原Root Button关闭并返回商城。
+createNativeShop(parent).show(category)接受recommend/beans/coins/diamond/prop/desk；
+ready、close、open、setBalances、dispose；onWeekCard供宿主接原周卡模块。
+独立预览 shop-study/preview.html?category=diamond/desk/recommend。
+native-shop.test.js的6项核对原布局、金额、105PNG边界、Trim、按钮切类、余额不变及关闭回调，
+也覆盖父disabled Sprite/Label不画但子Sprite仍画、多行基线、非中心锚点的TTF/BMFont对齐。

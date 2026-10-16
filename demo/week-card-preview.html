@@ -1,0 +1,5 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>原版周卡本地预览核对</title>
+<style>html,body{margin:0;background:#111b38;font:14px Arial,"Microsoft YaHei",sans-serif;color:#fff}header{height:40px;display:flex;gap:12px;align-items:center;padding:0 16px}header button{border:1px solid #8eb8eb;border-radius:3px;background:#2c548a;color:white;padding:5px 14px}#stage{width:1104px;height:554px;position:relative;margin:0 auto;background:url('assets/lobby/660.png') center/auto 100% no-repeat}</style>
+<header><button id="new">原新模板：游戏豆/指尖币周卡</button><button id="old">原旧模板</button><span>独立核对页；没有线上价格与权益数据。</span></header><main id="stage"></main>
+<script type="module">import{createNativeWeekCard}from'./native-week-card.js';const preview=createNativeWeekCard(document.querySelector('#stage'));await preview.ready;await preview.show();document.querySelector('#new').onclick=()=>preview.show({variant:'new'});document.querySelector('#old').onclick=()=>preview.show({variant:'old'});</script></html>

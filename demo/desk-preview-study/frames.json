@@ -1,0 +1,1533 @@
+[
+  {
+    "bundle": "common",
+    "id": 140,
+    "path": "GameDesk/SJCC/sjccDesk",
+    "name": "sjccDesk",
+    "rect": [
+      0,
+      0,
+      1600,
+      720
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1600,
+      720
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "2d5eff10-f789-4599-be11-c5f52ad51cf4",
+    "textureUUID": "d2f42091-77ca-4025-a3d1-14fd27cb36f7",
+    "image": "desk-preview-study/assets/common-140-sjccDesk.png"
+  },
+  {
+    "bundle": "common",
+    "id": 384,
+    "path": "GameDesk/SJCC/sjccTexture",
+    "name": "sjccTexture",
+    "rect": [
+      3,
+      3,
+      879,
+      523
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      879,
+      524
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "7cf7d7d0-8cc2-42f5-a406-383b96dd88f9",
+    "textureUUID": "141f93b04",
+    "image": "desk-preview-study/assets/common-384-sjccTexture.png"
+  },
+  {
+    "bundle": "common",
+    "id": 187,
+    "path": "GameDesk/SJCC/sjccLogo",
+    "name": "sjccLogo",
+    "rect": [
+      888,
+      3,
+      203,
+      72
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      203,
+      72
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "3a7c47f6-a951-480c-a08a-b37836eb23e8",
+    "textureUUID": "141f93b04",
+    "image": "desk-preview-study/assets/common-187-sjccLogo.png"
+  },
+  {
+    "bundle": "common",
+    "id": 614,
+    "path": "CountDown/SJCC/bg_pan",
+    "name": "bg_pan",
+    "rect": [
+      3,
+      3,
+      182,
+      155
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      182,
+      155
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "c28b8163-73a4-4299-8ebc-43020395a151",
+    "textureUUID": "1b760bb15",
+    "image": "desk-preview-study/assets/common-614-bg_pan.png"
+  },
+  {
+    "bundle": "common",
+    "id": 324,
+    "path": "CountDown/SJCC/right_dark",
+    "name": "right_dark",
+    "rect": [
+      142,
+      220,
+      23,
+      24
+    ],
+    "offset": [
+      12,
+      -2.5
+    ],
+    "originalSize": [
+      85,
+      97
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "6a08508d-5620-4ab4-87b2-33d38082d02d",
+    "textureUUID": "1b760bb15",
+    "image": "desk-preview-study/assets/common-324-right_dark.png"
+  },
+  {
+    "bundle": "common",
+    "id": 641,
+    "path": "CountDown/SJCC/right_light",
+    "name": "right_light",
+    "rect": [
+      3,
+      276,
+      85,
+      97
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      85,
+      97
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "c8a1a426-5c6f-47e4-83e8-bcc8a95b78c5",
+    "textureUUID": "1b760bb15",
+    "image": "desk-preview-study/assets/common-641-right_light.png"
+  },
+  {
+    "bundle": "common",
+    "id": 503,
+    "path": "CountDown/SJCC/front_dark",
+    "name": "front_dark",
+    "rect": [
+      106,
+      276,
+      21,
+      20
+    ],
+    "offset": [
+      -1,
+      9
+    ],
+    "originalSize": [
+      115,
+      62
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "9ea1430a-8297-411b-b584-d06768f348e2",
+    "textureUUID": "1b760bb15",
+    "image": "desk-preview-study/assets/common-503-front_dark.png"
+  },
+  {
+    "bundle": "common",
+    "id": 500,
+    "path": "CountDown/SJCC/front_light",
+    "name": "front_light",
+    "rect": [
+      106,
+      302,
+      115,
+      62
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      115,
+      62
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "9dfc0fc3-b417-4804-a7e9-9925f25391a9",
+    "textureUUID": "1b760bb15",
+    "image": "desk-preview-study/assets/common-500-front_light.png"
+  },
+  {
+    "bundle": "common",
+    "id": 735,
+    "path": "CountDown/SJCC/left_dark",
+    "name": "left_dark",
+    "rect": [
+      142,
+      249,
+      23,
+      23
+    ],
+    "offset": [
+      -9.5,
+      2.5
+    ],
+    "originalSize": [
+      84,
+      94
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "e60bde83-56e3-4d58-809b-f0d5b8c65602",
+    "textureUUID": "1b760bb15",
+    "image": "desk-preview-study/assets/common-735-left_dark.png"
+  },
+  {
+    "bundle": "common",
+    "id": 536,
+    "path": "CountDown/SJCC/left_light",
+    "name": "left_light",
+    "rect": [
+      3,
+      367,
+      83,
+      94
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      84,
+      94
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "a9d8da74-c3e2-4e1c-8400-3b463887d724",
+    "textureUUID": "1b760bb15",
+    "image": "desk-preview-study/assets/common-536-left_light.png"
+  },
+  {
+    "bundle": "common",
+    "id": 783,
+    "path": "CountDown/SJCC/mine_dark",
+    "name": "mine_dark",
+    "rect": [
+      142,
+      191,
+      23,
+      25
+    ],
+    "offset": [
+      -1,
+      -15
+    ],
+    "originalSize": [
+      133,
+      79
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "f3b9f3db-bfb9-4bbc-955b-005ce3287391",
+    "textureUUID": "1b760bb15",
+    "image": "desk-preview-study/assets/common-783-mine_dark.png"
+  },
+  {
+    "bundle": "common",
+    "id": 97,
+    "path": "CountDown/SJCC/mine_light",
+    "name": "mine_light",
+    "rect": [
+      3,
+      191,
+      133,
+      79
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      133,
+      79
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "21a2fd39-f429-46fb-877a-30ed2a9aa1ac",
+    "textureUUID": "1b760bb15",
+    "image": "desk-preview-study/assets/common-97-mine_light.png"
+  },
+  {
+    "bundle": "common",
+    "id": 372,
+    "path": "CountDown/SJCC/bg_time",
+    "name": "bg_time",
+    "rect": [
+      103,
+      423,
+      78,
+      68
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      78,
+      68
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "78f18b0d-1d89-4801-8fe7-678c42ee8e76",
+    "textureUUID": "1b760bb15",
+    "image": "desk-preview-study/assets/common-372-bg_time.png"
+  },
+  {
+    "bundle": "fonts",
+    "id": 122,
+    "path": "game/CountDown/fnt_countDown",
+    "name": "fnt_countDown",
+    "rect": [
+      640,
+      865,
+      124,
+      123
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      124,
+      123
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "6cda37cf-2b5a-4325-b51e-a582c436041e",
+    "textureUUID": "1179b809c",
+    "image": "desk-preview-study/assets/fonts-122-fnt_countDown.png"
+  },
+  {
+    "bundle": "common",
+    "id": 711,
+    "path": "GameDesk/XingYue/xingyueDesk",
+    "name": "xingyueDesk",
+    "rect": [
+      0,
+      0,
+      1600,
+      720
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1600,
+      720
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "e040ef53-b5cb-47a1-94b6-8aa97455a6e6",
+    "textureUUID": "c3e9f458-c246-4a6c-96a4-9c7e0745867c",
+    "image": "desk-preview-study/assets/common-711-xingyueDesk.png"
+  },
+  {
+    "bundle": "common",
+    "id": 283,
+    "path": "GameDesk/XingYue/xingyueTexture",
+    "name": "xingyueTexture",
+    "rect": [
+      3,
+      3,
+      879,
+      524
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      879,
+      524
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "58bd070e-69bb-4748-afcd-9e07cb76a61a",
+    "textureUUID": "11710b5f5",
+    "image": "desk-preview-study/assets/common-283-xingyueTexture.png"
+  },
+  {
+    "bundle": "common",
+    "id": 18,
+    "path": "GameDesk/XingYue/xingyueLogo",
+    "name": "xingyueLogo",
+    "rect": [
+      888,
+      3,
+      203,
+      72
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      203,
+      72
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "08046d9f-2b9c-42d1-bb95-cb34c6ba9f37",
+    "textureUUID": "11710b5f5",
+    "image": "desk-preview-study/assets/common-18-xingyueLogo.png"
+  },
+  {
+    "bundle": "common",
+    "id": 538,
+    "path": "CountDown/XingYue/bg_pan",
+    "name": "bg_pan",
+    "rect": [
+      3,
+      3,
+      183,
+      142
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      183,
+      142
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "aabce551-6a09-4f95-a0db-844730777876",
+    "textureUUID": "1e9995870",
+    "image": "desk-preview-study/assets/common-538-bg_pan.png"
+  },
+  {
+    "bundle": "common",
+    "id": 303,
+    "path": "CountDown/XingYue/right_light",
+    "name": "right_light",
+    "rect": [
+      3,
+      406,
+      82,
+      75
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      82,
+      75
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "61645e61-ca51-4d4a-b885-37142c04789d",
+    "textureUUID": "1e9995870",
+    "image": "desk-preview-study/assets/common-303-right_light.png"
+  },
+  {
+    "bundle": "game",
+    "id": 156,
+    "path": "Other/Main/countdown/dark/img_dark_front_west",
+    "name": "img_dark_front_west",
+    "rect": [
+      3,
+      485,
+      153,
+      13
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      153,
+      13
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "22054cbe-5927-422f-9fca-e5f771f4b34d",
+    "textureUUID": "1d3763f6c",
+    "image": "desk-preview-study/assets/game-156-img_dark_front_west.png"
+  },
+  {
+    "bundle": "common",
+    "id": 535,
+    "path": "CountDown/XingYue/front_light",
+    "name": "front_light",
+    "rect": [
+      112,
+      192,
+      76,
+      59
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      76,
+      59
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "a8da778c-1ae7-4054-ad24-92558a608c14",
+    "textureUUID": "1e9995870",
+    "image": "desk-preview-study/assets/common-535-front_light.png"
+  },
+  {
+    "bundle": "game",
+    "id": 1125,
+    "path": "Other/Main/countdown/dark/img_dark_left_south",
+    "name": "img_dark_left_south",
+    "rect": [
+      3,
+      715,
+      23,
+      117
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      23,
+      117
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "cc327a3f-0d40-4548-93ad-5a54075a6de7",
+    "textureUUID": "1d3763f6c",
+    "image": "desk-preview-study/assets/game-1125-img_dark_left_south.png"
+  },
+  {
+    "bundle": "common",
+    "id": 389,
+    "path": "CountDown/XingYue/left_light",
+    "name": "left_light",
+    "rect": [
+      3,
+      316,
+      84,
+      75
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      84,
+      75
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "7e369b4d-0dcf-4099-8485-061be75e4efd",
+    "textureUUID": "1e9995870",
+    "image": "desk-preview-study/assets/common-389-left_light.png"
+  },
+  {
+    "bundle": "game",
+    "id": 542,
+    "path": "Other/Main/countdown/dark/img_dark_mine_east",
+    "name": "img_dark_mine_east",
+    "rect": [
+      3,
+      260,
+      168,
+      16
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      168,
+      16
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "6654ab4d-f237-41d0-97d6-671b67860645",
+    "textureUUID": "1d3763f6c",
+    "image": "desk-preview-study/assets/game-542-img_dark_mine_east.png"
+  },
+  {
+    "bundle": "common",
+    "id": 478,
+    "path": "CountDown/XingYue/mine_light",
+    "name": "mine_light",
+    "rect": [
+      84,
+      316,
+      80,
+      69
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      80,
+      69
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "9a3bf3ba-9a19-4f1a-b3f5-fb7298d74655",
+    "textureUUID": "1e9995870",
+    "image": "desk-preview-study/assets/common-478-mine_light.png"
+  },
+  {
+    "bundle": "common",
+    "id": 632,
+    "path": "CountDown/XingYue/bg_time",
+    "name": "bg_time",
+    "rect": [
+      3,
+      192,
+      118,
+      103
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      118,
+      103
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "c6a528a9-8790-409f-adf0-13626cb71874",
+    "textureUUID": "1e9995870",
+    "image": "desk-preview-study/assets/common-632-bg_time.png"
+  },
+  {
+    "bundle": "common",
+    "id": 73,
+    "path": "CountDown/XingYue/fnt_daojishi",
+    "name": "fnt_daojishi",
+    "rect": [
+      91,
+      391,
+      74,
+      69
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      75,
+      70
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "19d2e808-d70e-4213-b9b0-7d381fccb769",
+    "textureUUID": "1e9995870",
+    "image": "desk-preview-study/assets/common-73-fnt_daojishi.png"
+  },
+  {
+    "bundle": "common",
+    "id": 256,
+    "path": "GameDesk/TYSS/tyssDesk",
+    "name": "tyssDesk",
+    "rect": [
+      0,
+      0,
+      1600,
+      720
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1600,
+      720
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "52343c92-a8e2-40bb-be30-e9a3875071e8",
+    "textureUUID": "e56ad723-7999-4667-ae1f-a3058012ce0a",
+    "image": "desk-preview-study/assets/common-256-tyssDesk.png"
+  },
+  {
+    "bundle": "common",
+    "id": 718,
+    "path": "GameDesk/TYSS/tyssTexture",
+    "name": "tyssTexture",
+    "rect": [
+      3,
+      3,
+      879,
+      523
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      879,
+      524
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "e12ba14c-6143-415b-820c-72a7d96afbba",
+    "textureUUID": "18a1155b9",
+    "image": "desk-preview-study/assets/common-718-tyssTexture.png"
+  },
+  {
+    "bundle": "common",
+    "id": 165,
+    "path": "GameDesk/TYSS/tyssLogo",
+    "name": "tyssLogo",
+    "rect": [
+      888,
+      3,
+      203,
+      73
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      203,
+      73
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "338acc60-8732-4c61-a60a-1db2ac806c5a",
+    "textureUUID": "18a1155b9",
+    "image": "desk-preview-study/assets/common-165-tyssLogo.png"
+  },
+  {
+    "bundle": "common",
+    "id": 237,
+    "path": "CountDown/TYSS/bg_pan",
+    "name": "bg_pan",
+    "rect": [
+      3,
+      3,
+      182,
+      138
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      182,
+      138
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "4d5ea372-6179-4349-9473-c7e0bcabc516",
+    "textureUUID": "152e8608d",
+    "image": "desk-preview-study/assets/common-237-bg_pan.png"
+  },
+  {
+    "bundle": "game",
+    "id": 690,
+    "path": "Other/Main/countdown/dark/img_dark_right_north",
+    "name": "img_dark_right_north",
+    "rect": [
+      3,
+      891,
+      23,
+      116
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      23,
+      116
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "85bf5e68-0eb7-4902-b000-89096507f51b",
+    "textureUUID": "1d3763f6c",
+    "image": "desk-preview-study/assets/game-690-img_dark_right_north.png"
+  },
+  {
+    "bundle": "common",
+    "id": 757,
+    "path": "CountDown/TYSS/right_light",
+    "name": "right_light",
+    "rect": [
+      64,
+      147,
+      57,
+      49
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      57,
+      49
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "ebf49cab-1f68-45db-8362-8c3c5533973b",
+    "textureUUID": "152e8608d",
+    "image": "desk-preview-study/assets/common-757-right_light.png"
+  },
+  {
+    "bundle": "common",
+    "id": 784,
+    "path": "CountDown/TYSS/front_light",
+    "name": "front_light",
+    "rect": [
+      119,
+      200,
+      54,
+      45
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      54,
+      45
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "f48aa29b-8fd7-4581-94fd-a5b81a1b9133",
+    "textureUUID": "152e8608d",
+    "image": "desk-preview-study/assets/common-784-front_light.png"
+  },
+  {
+    "bundle": "common",
+    "id": 752,
+    "path": "CountDown/TYSS/left_light",
+    "name": "left_light",
+    "rect": [
+      119,
+      147,
+      57,
+      47
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      57,
+      47
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "e9c7c882-61c1-4727-af0d-08c4ec76317a",
+    "textureUUID": "152e8608d",
+    "image": "desk-preview-study/assets/common-752-left_light.png"
+  },
+  {
+    "bundle": "common",
+    "id": 706,
+    "path": "CountDown/TYSS/mine_light",
+    "name": "mine_light",
+    "rect": [
+      3,
+      147,
+      63,
+      55
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      63,
+      55
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "de5ea283-75df-443e-8ec5-567901a27ff7",
+    "textureUUID": "152e8608d",
+    "image": "desk-preview-study/assets/common-706-mine_light.png"
+  },
+  {
+    "bundle": "common",
+    "id": 480,
+    "path": "NewSkin/NewBtn/btn_com01",
+    "name": "btn_com01",
+    "rect": [
+      347,
+      242,
+      91,
+      92
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      91,
+      92
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "9a8bba23-d9bd-4ff6-8524-b5aacc0a840f",
+    "textureUUID": "1e8019203",
+    "image": "desk-preview-study/assets/common-480-btn_com01.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 2083,
+    "path": "TablePreview/DeskPreTip",
+    "name": "DeskPreTip",
+    "rect": [
+      3,
+      86,
+      653,
+      43
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      653,
+      43
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "dafe1416-2a58-486a-af6f-52a5758c1cb9",
+    "textureUUID": "1d5264334",
+    "image": "desk-preview-study/assets/lobby-2083-DeskPreTip.png"
+  },
+  {
+    "bundle": "game",
+    "id": 245,
+    "path": "Other/Main/countdown/img_pan_bg",
+    "name": "img_pan_bg",
+    "rect": [
+      3,
+      16,
+      217,
+      159
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      217,
+      159
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "308c7772-df7c-4823-b7bf-af21bbea80d5",
+    "textureUUID": "1d3763f6c",
+    "image": "desk-preview-study/assets/game-245-img_pan_bg.png"
+  },
+  {
+    "bundle": "game",
+    "id": 1180,
+    "path": "Other/Main/countdown/greyWord/img_gray_right_north",
+    "name": "img_gray_right_north",
+    "rect": [
+      108,
+      992,
+      28,
+      29
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      28,
+      30
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "d5769539-5b43-465c-8e48-60db9b5a6e75",
+    "textureUUID": "1d3763f6c",
+    "image": "desk-preview-study/assets/game-1180-img_gray_right_north.png"
+  },
+  {
+    "bundle": "game",
+    "id": 454,
+    "path": "Other/Main/countdown/light/img_light_right_north",
+    "name": "img_light_right_north",
+    "rect": [
+      3,
+      744,
+      96,
+      116
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      96,
+      116
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "57cfefe1-9a20-4aab-86e1-8fe98e1cc948",
+    "textureUUID": "1d3763f6c",
+    "image": "desk-preview-study/assets/game-454-img_light_right_north.png"
+  },
+  {
+    "bundle": "game",
+    "id": 1112,
+    "path": "Other/Main/countdown/lightWord/img_light_north",
+    "name": "img_light_north",
+    "rect": [
+      74,
+      992,
+      28,
+      29
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      28,
+      30
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "cb0bab64-eaaa-418b-9525-26a42f46e543",
+    "textureUUID": "1d3763f6c",
+    "image": "desk-preview-study/assets/game-1112-img_light_north.png"
+  },
+  {
+    "bundle": "game",
+    "id": 1295,
+    "path": "Other/Main/countdown/greyWord/img_gray_front_west",
+    "name": "img_gray_front_west",
+    "rect": [
+      142,
+      992,
+      28,
+      28
+    ],
+    "offset": [
+      0,
+      -1
+    ],
+    "originalSize": [
+      28,
+      30
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "e94dc8d5-afa0-4c4f-8d7d-3d3b2aa4e6bd",
+    "textureUUID": "1d3763f6c",
+    "image": "desk-preview-study/assets/game-1295-img_gray_front_west.png"
+  },
+  {
+    "bundle": "game",
+    "id": 857,
+    "path": "Other/Main/countdown/light/img_light_right_west",
+    "name": "img_light_right_west",
+    "rect": [
+      3,
+      414,
+      153,
+      65
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      153,
+      65
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "a268a51e-e5b5-4dfd-903c-cbf43c7eb380",
+    "textureUUID": "1d3763f6c",
+    "image": "desk-preview-study/assets/game-857-img_light_right_west.png"
+  },
+  {
+    "bundle": "game",
+    "id": 1376,
+    "path": "Other/Main/countdown/lightWord/img_light_west",
+    "name": "img_light_west",
+    "rect": [
+      176,
+      893,
+      28,
+      28
+    ],
+    "offset": [
+      0,
+      -1
+    ],
+    "originalSize": [
+      28,
+      30
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "f86d811d-6ab7-4af9-addf-813dd8d647e0",
+    "textureUUID": "1d3763f6c",
+    "image": "desk-preview-study/assets/game-1376-img_light_west.png"
+  },
+  {
+    "bundle": "game",
+    "id": 1131,
+    "path": "Other/Main/countdown/greyWord/img_gray_left_south",
+    "name": "img_gray_left_south",
+    "rect": [
+      142,
+      956,
+      28,
+      30
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      28,
+      30
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "cc7a2702-9945-4ff1-b1f5-5fbd7cf8cf06",
+    "textureUUID": "1d3763f6c",
+    "image": "desk-preview-study/assets/game-1131-img_gray_left_south.png"
+  },
+  {
+    "bundle": "game",
+    "id": 507,
+    "path": "Other/Main/countdown/light/img_light_left_south",
+    "name": "img_light_left_south",
+    "rect": [
+      3,
+      612,
+      97,
+      117
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      97,
+      117
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "60ea5a3d-8245-46ce-9b8a-bb95a3f96958",
+    "textureUUID": "1d3763f6c",
+    "image": "desk-preview-study/assets/game-507-img_light_left_south.png"
+  },
+  {
+    "bundle": "game",
+    "id": 658,
+    "path": "Other/Main/countdown/lightWord/img_light_south",
+    "name": "img_light_south",
+    "rect": [
+      110,
+      920,
+      28,
+      30
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      28,
+      30
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "7ec1e122-cb78-4557-a7e1-d7e1ae92bf13",
+    "textureUUID": "1d3763f6c",
+    "image": "desk-preview-study/assets/game-658-img_light_south.png"
+  },
+  {
+    "bundle": "game",
+    "id": 342,
+    "path": "Other/Main/countdown/greyWord/img_gray_mine_east",
+    "name": "img_gray_mine_east",
+    "rect": [
+      74,
+      956,
+      28,
+      30
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      28,
+      30
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "4382f09b-571a-43e2-98e5-503a358da606",
+    "textureUUID": "1d3763f6c",
+    "image": "desk-preview-study/assets/game-342-img_gray_mine_east.png"
+  },
+  {
+    "bundle": "game",
+    "id": 722,
+    "path": "Other/Main/countdown/light/img_light_mine_east",
+    "name": "img_light_mine_east",
+    "rect": [
+      3,
+      181,
+      168,
+      73
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      168,
+      73
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "8b087126-d6e0-4eb4-a36b-2b1021a466e0",
+    "textureUUID": "1d3763f6c",
+    "image": "desk-preview-study/assets/game-722-img_light_mine_east.png"
+  },
+  {
+    "bundle": "game",
+    "id": 482,
+    "path": "Other/Main/countdown/lightWord/img_light_east",
+    "name": "img_light_east",
+    "rect": [
+      108,
+      956,
+      28,
+      30
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      28,
+      30
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "5c5d0252-51aa-47ea-b342-c154daf0a9b4",
+    "textureUUID": "1d3763f6c",
+    "image": "desk-preview-study/assets/game-482-img_light_east.png"
+  },
+  {
+    "bundle": "game",
+    "id": 1299,
+    "path": "Other/Main/countdown/img_count_bg",
+    "name": "img_count_bg",
+    "rect": [
+      3,
+      920,
+      92,
+      65
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      92,
+      65
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "e9c336f3-6f7f-4110-9288-850fa76dd797",
+    "textureUUID": "1d3763f6c",
+    "image": "desk-preview-study/assets/game-1299-img_count_bg.png"
+  }
+]

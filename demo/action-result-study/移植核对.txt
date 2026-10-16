@@ -1,0 +1,37 @@
+原版动作结果横幅移植
+
+目标 be94988d：粉色斜横幅、白胡字、太阳镜麻将角色、金币。
+它是普通动作结果 common_cpgh，不是教学中旧式圆形胡提示，也不是清一色等大番动画。
+AnimationDefine.GameAnimPrefabMap明确选择：hu2→resources1402，peng2→1315，
+gang2→806，ziMo2→2907。NewCPGHAnim的playHu/playZIMO分别直接走hu2/ziMo2。
+这里没有自行按角色或番型切换主题。胡、碰、杠、自摸各使用对应完整原图片。
+
+四种横幅共用resources2697 cpgh_anima，原时长1.1秒，sample20。
+层一zi_hu（395×177）在0→0.2秒从x=-140移到18，y=-15.8；
+0.2→0.8秒保持，0.8→0.95秒抬升到y41.929并淡出。
+层二hupai_lizi_0000（400×400）使用原18个SpriteFrame时间键（17个唯一帧），
+0.2起每0.05秒换帧，1.05→1.1秒淡出。金币不是新造随机粒子。
+两层均为RAW(sizeMode2)+不Trim。提取保留原originalSize透明画布与offset。
+图片裁剪、atlas旋转恢复、补透明边全部依据原SpriteFrame元数据。
+
+原坐标来自prefabs1855 GameAnimLayer / anim_CPGH。
+原ViewSeat按mine,left,front,right：[[0,-140],[-384,74],[0,250],[360,74]]；
+本地按mine,right,front,left映射[0,3,2,1]，1280×640舞台缩放8/9、中心(640,320)。
+最终动画原点为[[640,444.444],[960,254.222],[640,97.778],[298.667,254.222]]。
+root/content原scale均1，没有额外手调放大或缩小。直播特有mineY=-70不适用本地普通牌桌。
+
+createActionEffects旧导入入口保持兼容，实际调用createActionResultEffects。
+play(name,seat,options)返回{duration:秒,durationMs:毫秒,startTime,finished,cancel}。
+支持hu/peng/gang/zimo和qgh；普通动作1.1秒，qgh为52/30秒。暗杠仅复用原gang2。
+未确认的动作返回duration0和明确reason。
+clear立即移除所有canvas并使finished以cancelled=true结束。
+诊断options.paused/time固定原动画帧；普通游戏无此参数时按原时间线连续播放。
+试听声音保留已收集原女性Chinese动作语音，可syncSound切换，不重复生成声音。
+
+蓝色胡牌落点电光是另一套huDian(resources2752/1463)，由tile-result-effects独立实现、
+宿主按实际胡牌落点同时调用；本模块不把蓝光硬贴到横幅位置。
+抢杠胡由明确的resources2569 fx_K_hu与2954 fx_K_hu_ani移植，sample30、原7层；
+保留原root scale=.7，root pos仍由seat覆盖。Qk_sg按原20个唯一帧换图。
+QGH的TRIMMED帧按占用矩形读回，避免重复原透明补边；总共46张原SpriteFrame。
+清一色等大番效果由fan-effects独立处理。不在本模块猜测特殊番型或线上配置。
+当前未额外模拟运行时粒子、骨骼或自己绘制角色；此主题本来就是Sprite及逐帧序列。

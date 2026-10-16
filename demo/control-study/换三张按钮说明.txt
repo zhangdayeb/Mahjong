@@ -1,0 +1,53 @@
+来源：601907 原客户端，prefabs 3840 game/HSZ/Prefab/pannel_HSZ。
+入口 source/GDPlayerHSZView.js；初始选牌 source/RuleHSZ.js；换牌禁止项 source/RuleHSZ_TeamHelper.js。
+
+普通换三张界面只有一个按钮。Prefab 临时占位文字是“确  定”，运行时替换为“同意(ActTime)”，如“同意(15)”。没有“0/3”、没有“确认换三张”、没有“推荐选牌”。初始三张由服务器 iDefaultChangeCards 指定，前端自动选中。本地只能用模拟选牌结果代替服务器推荐，不应在按钮旁另造推荐入口。
+
+按钮原图 btn-exchange.png，common 357 NewSkin/NewBtn/btn_com07，233 × 85。
+源 Label 位于按钮中心上方 8，Arial 常规 34，lineHeight 45，存储 spacingX 15，颜色 #c65c0f。
+但原引擎 system-font/TTF assembler 277 不读取 spacingX，直接 fillText 整串，实际字距为 0。只有 BMFont assembler 274 读取 spacingX。不能把存储值 15 直接设为 CSS letter-spacing。
+按钮 SCALE transition，按下 scale 1.2、duration 0.1 秒；不是 SPRITE transition。
+禁用仅把目标 Sprite 灰度化（enableAutoGrayEffect）；Label 保持颜色与不透明度，不应用整体半透明。
+Prefab 中另外存放 Btn_y2、default_btn_pressed、default_btn_normal、default_btn_disabled，当前 SCALE 模式不会使用这些状态图片。
+
+提示原图 exchange-tip-bg.png，game 741 NewSkin/GamePanelBtn/tableTip。源图 65 × 64，九宫格伸展至 500 × 200，capInsets [左18，上31，右22，下19]。图中心 alpha 166，保持图片自身透明度，不叠加整块不透明黑色。
+普通提示“选择三张同花色手牌”；“同花色” #ff5a2b，其余 #fffbcb。
+bAllColor 提示“选择任意3张手牌”；“任意3张” #ff5a2b。
+真正显示的是 RichText，旧的同花色文字 Sprite 已 disabled。字体 Arial 35，lineHeight 50。
+提示属于下部黑色换牌控件组，整个 group 在本家确认响应及换牌结果时隐藏；不是顶部常驻 status。
+
+布局：Canvas 原设计 1280 × 720；scale = min(舞台宽/1280,舞台高/720)。
+n_normalRoot.y 运行时取 _handOffsets[0].y 或 0。
+img_HszTip.y 普通玩家 = -135；直播 = -50.5。
+按钮相对 tip = (0,-46.069)；Label 相对 button = (0,8)。
+普通提示 RichText 相对 tip = (0,58.219+2.062)；任意牌提示 = (0,58.362)。
+舞台坐标 x = width/2 + cocosX*scale；y = height/2 - cocosY*scale。
+
+1280 × 640、普通玩家、handOffsetY=0 时：
+tip 中心 (640,440)，尺寸 444.444 × 177.778。
+按钮中心 (640,480.9502)，尺寸 207.111 × 75.556，左上 (536.444,443.1724)。
+按钮文字中心 (640,473.8391)，字体 30.222、行高 40、实际字距 0（存储 spacingX 经缩放为 13.333）。
+提示中心 (640,386.4169)，字体 31.111、行高 44.444。
+有真实 handOffsetY 时应代入公式，不应直接手调这些基准值。
+
+选牌：必须恰好三张且（bAllColor 或同花色）才启用按钮。
+若超过三张，或 bAllColor=false 且当前已选牌混花色，清掉所有选中，只保留刚刚点的那张。
+混色在两张就触发，不是等选满三张。选第四张同样只保留第四张。
+再点已选中的手牌可以取消选择。
+非法混色时原版额外显示“请选择三张 同花色 手牌~”底部 tip，1.2 秒。
+原 nibble 花色编码为 (240 & tile) >> 4，本地用不同牌值编码应改用本地 suitOf。
+
+红中禁换：普通 RuleHSZ 未设置 MeUnSelectInfo。只有 TeamHelper 的 isTeam(50103) && isXLHZMJ 分支明确下发 tileValues:[81]，提示“红中不可更换”。不能据此断言所有普通血流红中场次都禁止换红中。
+
+托管共用金色按钮 Label：prefabs 3907 btn_cancelTrustee/New Label。
+也是 (0,8)、fontSize 34、lineHeight 45、#c65c0f，存储 spacingX = 2，文字“取消托管”。
+同样使用系统字体，实际 spacingX 不参与渲染（有效字距 0）。Prefab 的文字宽136正好4 × font34，也支持此结论。按钮同图尺寸 233 × 85。
+helper 使用原 TTF Canvas 文字测量、整串渲染与 baseline 公式：Label 高=lineHeight × 1.26；baseline=fontSize×(1-.26/2) - (fontSize-Label高)/2，按钮 Label 是40.93。按源 Label y=8 定位，不依靠 CSS 行盒默认 baseline。
+
+独立辅助模块 ../exchange-controls.js 与 ../exchange-controls.css：
+createExchangeControls(parent,{onConfirm}) -> show/update/hide/button/ready/destroy。
+show({remaining,enabled,bAllColor,width,height,scale,live,handOffsetY})。
+styleNativeExchangeButton(existingButton,{remaining,enabled,scale}) -> update/ready。
+styleTrusteeButton(existingButton,{scale}) -> update/ready；只修改按钮图与 Label，位置由调用方的原 trustee layout 决定。
+exchangeControlLayout(width,height,options) 导出上述公式计算结果。
+辅助模块不决定选牌、红中限制、倒计时自动确认或玩法规则。

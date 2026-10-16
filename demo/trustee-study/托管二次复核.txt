@@ -1,0 +1,54 @@
+托管二次复核 — 2026-10-03
+本文件保留修改前的复核基线；随后已完成界面和托管修复，当前状态请看同目录《界面对齐更新.txt》。原版与本地Demo仍不能称全部一致。
+
+本次证据范围
+重新观察用户已经在运行的原版托管牌局，未点击原版托管、取消、入场、领奖或复活。
+原版截图：original-audit-current.png、original-auto-01.png至04.png。
+连续观察牌墙54→49→32→25→7；菜单保持打开，牌局继续，取消托管按钮常驻。最后余额为0时自动出现“救济金复活”，含普通领取/麻卡领取及复活倒计时。
+这组截图覆盖牌局中段与余额耗尽分支；不等同于逐帧录像，不证明全部音效或每一种番型特效已观察。
+本地8770服务已重新启动。旧浏览器标签停在错误页，浏览器地址安全策略拒绝读取；没有绕过该限制。本地交互行为通过audit-flow.mjs的Node DOM与确定性时钟模拟核对，未声称完成本次浏览器现场取消测试。
+
+逐项结果
+1. 取消托管按钮及状态层：不一致。
+原版gameTrusteeCtrl通过自己的TRUSTEE_CHANGE控制nodeTrustee，独立按钮与trustee_bg在prefabs3907；UserInfoNode通过nodeTrustee覆盖机器人，在prefabs2595。
+本地table-controls.js创建CSS auto-toggle；reference.html自己常驻CSS机器人，无普通头像↔托管覆盖层切换。原版素材已收集，但未接入本地托管展示。
+
+2. 左侧菜单图片：部分一致；整套按钮行为：未完全一致。
+本地已复用托管/设置/规则/超时/退出图片。原版Menu.onClickTrustee同时检查canTrustee和isGameStart，再发送REQ_TRUSTEE_CHANGE。本地仅翻转auto并开始计时器。
+原版GameLogic.reqTrustee→sdk_Table.reqTrustee发送TRUSTEESHIP；接收状态后更新头像与托管层。本地没有服务器确认流程或事件版本处理。原版拒绝/延迟取消的分支本次未实际触发。
+
+3. 托管时手动按钮：不一致，运行测试已复现。
+本地canSelect禁止手牌选牌，但update仍生成定缺、出牌、碰杠胡等按钮和onclick。audit-flow.mjs开启托管后，3个定缺按钮仍可执行，手动“缺条”能够改变缺门。
+不能将“手牌不可点”视为“所有手动操作已禁用”。
+
+4. 取消后的状态恢复：存在本地问题，运行测试已复现。
+setAuto只调用update/schedule，没有重置deadline、清空selection。
+测试：距离旧deadline约500ms时开启再取消托管，800ms内仍因旧时限触发一次超时操作；选择一张牌后开启再取消，selection仍为1。
+取消后canSelect恢复是已实现的部分，但原版取消后的服务器动作边界和新操作时限尚未现场验证。本项本地问题不据此推断原版具体重置秒数。
+
+5. 胡牌特效与记录：不一致。
+现场见各家累积胡牌牌区、金色标记、头像淡入淡出、方向盘当前方位；本地未绘制各家胡牌记录区。
+源码ZMJTile.showHuDian→GameAnimView→NewCPGHAnim区分ANIM_HU_DIAN / ANIM_ZIMO_LIGHT，锚定具体牌的世界坐标；普通胡/自摸/抢杠胡也有不同入口。
+本地仅按huCounts增长统一effect.play('hu',seat)，只有peng/gang/hu三套动作，未区分普通胡、自摸、抢杠胡，缺少牌上点炮/自摸光效。
+
+6. 动作顺序与播放节奏：不一致。
+本地普通电脑650ms、托管最多500ms/快速120ms自动动作，出牌飞行动画460ms，碰杠胡片段2秒；无动画完成Promise/回调接到schedule。因此后续动作可在当前2秒片段结束前开始。
+原版GameAnimView与GameAnimMgr使用事件及暂停/恢复；gameHandAnim按性别/座位选择手部资源。本地未移植手部骨骼、完整摸牌/插牌/出牌动作队列。
+原版自动决策由服务端参与，不能从本地启发式AI推出完全相同的出牌选择。
+
+7. 设置/音效：部分复用，尚不能判完全一致。
+本地音效开关和三套基础动作语音已接入。原版人物/性别/方言与动作语音映射未完整对齐，本次没有逐段听音验收。
+本地普通托管动作会受effects设置影响；教学force开启仅用于教学，不能作为正式托管效果全部一致的证据。
+
+8. 结束/余额耗尽：不一致。
+原版本次进入救济金复活窗口；本地结束弹普通练习积分表，无对应复活/领取/等待分支。
+复活窗口出现与条件是本次可见事实；不同房间的结算、再开局与退出流程还需分场景核对。
+
+本地测试命令
+node demo/trustee-study/audit-flow.mjs
+输出已确认：manualChoicesClickableDuringAuto=3；cancelNearDeadlineTimedOut=true；selectionSurvivesToggle=true；handSelectionDisabledDuringAuto=true；manualControlRestoredOnCancel=true。
+以上是修改前运行结果。该脚本随后已改为回归断言，验证修复后的按钮隐藏、选牌清理与取消后计时；不能单独证明“与原版完全一致”。
+
+验收边界
+不能用原版图片已下载、普通17项规则测试通过、或出现一个碰杠胡动画，判定完整托管已对齐。
+需分别验收：托管开启、手动控件禁用、服务器状态通知、取消时动作边界、头像恢复、摸打牌/碰杠胡/抢杠胡、胡牌牌区、持续特效、音效、余额不足、结算、再开局。当前尚未全部通过。

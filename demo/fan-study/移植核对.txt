@@ -1,0 +1,25 @@
+原版番型及飘分特效（2026-10-03）
+
+已移植：
+1. resources Prefab 443：ex_bigHu 通用大胡原生 2D 层，共 30 层。
+2. AnimationClip 2402：fx_qingyise，保留 2.333333 秒关键帧，以及位置、缩放、角度、透明度、颜色、父节点关系、原生叠加混合。
+3. resources BitmapFont 2448：原版金色文字。由字体贴图及原字形位置组成清一色/对对胡/七对等，避免系统字体形状差异。
+4. fonts BitmapFont 273/236：飘分蓝字/黄字。金额严格使用调用者提供的四家本次变化值。
+5. 原版大胡中的两枚豆子贴图及飞散轨迹、横向蓝光、光圈、飞散条/筒牌。
+6. PiaoFen 原版向上移动 10 像素、0.1 秒入场；四家位置按本地顺时针座位映射。
+
+范围与差异：
+- 这批支持原版通用 ex_bigHu 画面；对对胡等独立专属骨骼/序列动画尚未移植。因此已支持的名称可用原通用大胡演示，但不能称全部专属特效一模一样。
+- 平胡及其他未确认的名称不会显示大胡。只传入 deltas 时只播放蓝/黄飘分。
+- 番型语音需要原版服务器番型编号/方言配置，没有猜配；胡语音由现有 action-effects 处理。
+- 没有新增 Spine、Cocos 粒子系统、相机震动、完整金币转移动画；本次金币飞散是 ex_bigHu 已有原生 2D 轨迹。
+- 准确番型、倍率及每次收支由本地规则控制器提供。动画不会写死截图中的 24000，也不会修改结算。
+
+调用：
+await createFanEffects(uiLayer, { sound: true })
+effect.play({ name: '清一色', seat: 0, deltas: [8000, -8000, 0, 0] })
+返回 { duration, finished }，finished Promise 供正式牌局衔接节奏。
+effect.clear()；effect.syncSound(false)
+CSS：fan-effects.css。父节点为现有 1280×640 的 #ui-layer。
+
+素材来源记录与原始源码在 raw / source。collect-fan-study.mjs 与 extract-fan-sprites.py 可重复生成。

@@ -1,0 +1,4297 @@
+{
+  "design": [
+    1280,
+    720
+  ],
+  "source": {
+    "bundle": "prefabs",
+    "id": 2487,
+    "path": "hall/modules/TablePreview/TablePreview"
+  },
+  "tree": {
+    "name": "TablePreview",
+    "trs": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "size": [
+      1280,
+      720
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "opacity": 255,
+    "color": 4294967295,
+    "active": true,
+    "sprite": null,
+    "label": null,
+    "children": [
+      {
+        "name": "Root",
+        "trs": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "size": [
+          1280,
+          720
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "opacity": 255,
+        "color": 4294967295,
+        "active": true,
+        "sprite": null,
+        "label": null,
+        "children": [
+          {
+            "name": "LoadPre",
+            "trs": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            "size": [
+              1280,
+              720
+            ],
+            "anchor": [
+              0.5,
+              0.5
+            ],
+            "opacity": 255,
+            "color": 4294967295,
+            "active": true,
+            "sprite": null,
+            "label": null,
+            "children": []
+          },
+          {
+            "name": "BtnBack",
+            "trs": [
+              -640,
+              295.954,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            "size": [
+              77,
+              74
+            ],
+            "anchor": [
+              0,
+              0.5
+            ],
+            "opacity": 255,
+            "color": 4294967295,
+            "active": true,
+            "sprite": null,
+            "label": null,
+            "children": [
+              {
+                "name": "Icon",
+                "trs": [
+                  52.245,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "size": [
+                  91,
+                  92
+                ],
+                "anchor": [
+                  0.5,
+                  0.5
+                ],
+                "opacity": 255,
+                "color": 4294967295,
+                "active": true,
+                "sprite": {
+                  "class": "cc.Sprite",
+                  "_materials": [
+                    "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                  ],
+                  "_spriteFrame": "9a8bba23-d9bd-4ff6-8524-b5aacc0a840f",
+                  "frame": "9a8bba23-d9bd-4ff6-8524-b5aacc0a840f"
+                },
+                "label": null,
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "UI",
+            "trs": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            "size": [
+              0,
+              0
+            ],
+            "anchor": [
+              0.5,
+              0.5
+            ],
+            "opacity": 255,
+            "color": 4294967295,
+            "active": true,
+            "sprite": null,
+            "label": null,
+            "children": [
+              {
+                "name": "Tip",
+                "trs": [
+                  25.5,
+                  -285,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "size": [
+                  653,
+                  43
+                ],
+                "anchor": [
+                  0.5,
+                  0.5
+                ],
+                "opacity": 255,
+                "color": 4294967295,
+                "active": true,
+                "sprite": {
+                  "class": "cc.Sprite",
+                  "_materials": [
+                    "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                  ],
+                  "_spriteFrame": "dafe1416-2a58-486a-af6f-52a5758c1cb9",
+                  "frame": "dafe1416-2a58-486a-af6f-52a5758c1cb9"
+                },
+                "label": null,
+                "children": []
+              },
+              {
+                "name": "CompassRoot",
+                "trs": [
+                  0,
+                  45,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0.8,
+                  0.8,
+                  1
+                ],
+                "size": [
+                  0,
+                  0
+                ],
+                "anchor": [
+                  0.5,
+                  0.5
+                ],
+                "opacity": 255,
+                "color": 4294967295,
+                "active": true,
+                "sprite": null,
+                "label": null,
+                "children": [
+                  {
+                    "name": "Default",
+                    "trs": [
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      1,
+                      1,
+                      1,
+                      1
+                    ],
+                    "size": [
+                      0,
+                      0
+                    ],
+                    "anchor": [
+                      0.5,
+                      0.5
+                    ],
+                    "opacity": 255,
+                    "color": 4294967295,
+                    "active": true,
+                    "sprite": null,
+                    "label": null,
+                    "children": [
+                      {
+                        "name": "img_panBg",
+                        "trs": [
+                          0,
+                          0,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1,
+                          0.8,
+                          0.8,
+                          0.8
+                        ],
+                        "size": [
+                          217,
+                          159
+                        ],
+                        "anchor": [
+                          0.5,
+                          0.5
+                        ],
+                        "opacity": 255,
+                        "color": 4294967295,
+                        "active": true,
+                        "sprite": {
+                          "class": "cc.Sprite",
+                          "_materials": [
+                            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                          ],
+                          "_spriteFrame": "308c7772-df7c-4823-b7bf-af21bbea80d5",
+                          "frame": "308c7772-df7c-4823-b7bf-af21bbea80d5"
+                        },
+                        "label": null,
+                        "children": [
+                          {
+                            "name": "EastPannel",
+                            "trs": [
+                              0,
+                              0,
+                              0,
+                              0,
+                              0,
+                              0,
+                              1,
+                              1,
+                              1,
+                              1
+                            ],
+                            "size": [
+                              0,
+                              0
+                            ],
+                            "anchor": [
+                              0.5,
+                              0.5
+                            ],
+                            "opacity": 255,
+                            "color": 4294967295,
+                            "active": true,
+                            "sprite": null,
+                            "label": null,
+                            "children": [
+                              {
+                                "name": "right",
+                                "trs": [
+                                  51.3,
+                                  6,
+                                  0,
+                                  0,
+                                  0,
+                                  0,
+                                  1,
+                                  1,
+                                  1,
+                                  1
+                                ],
+                                "size": [
+                                  65,
+                                  124
+                                ],
+                                "anchor": [
+                                  0.5,
+                                  0.5
+                                ],
+                                "opacity": 255,
+                                "color": 4294967295,
+                                "active": true,
+                                "sprite": null,
+                                "label": null,
+                                "children": [
+                                  {
+                                    "name": "img_dark_right",
+                                    "trs": [
+                                      35.9,
+                                      1.3,
+                                      0,
+                                      0,
+                                      0,
+                                      0,
+                                      1,
+                                      1,
+                                      1,
+                                      1
+                                    ],
+                                    "size": [
+                                      23,
+                                      116
+                                    ],
+                                    "anchor": [
+                                      0.5,
+                                      0.5
+                                    ],
+                                    "opacity": 255,
+                                    "color": 4294967295,
+                                    "active": false,
+                                    "sprite": {
+                                      "class": "cc.Sprite",
+                                      "_materials": [
+                                        "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                                      ],
+                                      "_spriteFrame": "85bf5e68-0eb7-4902-b000-89096507f51b",
+                                      "frame": "85bf5e68-0eb7-4902-b000-89096507f51b"
+                                    },
+                                    "label": null,
+                                    "children": []
+                                  },
+                                  {
+                                    "name": "img_gray_right",
+                                    "trs": [
+                                      17.455,
+                                      5.2,
+                                      0,
+                                      0,
+                                      0,
+                                      0,
+                                      1,
+                                      0.95,
+                                      0.95,
+                                      1
+                                    ],
+                                    "size": [
+                                      28,
+                                      29
+                                    ],
+                                    "anchor": [
+                                      0.5,
+                                      0.5
+                                    ],
+                                    "opacity": 255,
+                                    "color": 4294967295,
+                                    "active": true,
+                                    "sprite": {
+                                      "class": "cc.Sprite",
+                                      "_materials": [
+                                        "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                                      ],
+                                      "_spriteFrame": "d5769539-5b43-465c-8e48-60db9b5a6e75",
+                                      "frame": "d5769539-5b43-465c-8e48-60db9b5a6e75"
+                                    },
+                                    "label": null,
+                                    "children": []
+                                  },
+                                  {
+                                    "name": "img_light_right",
+                                    "trs": [
+                                      -0.7,
+                                      1.2,
+                                      0,
+                                      0,
+                                      0,
+                                      0,
+                                      1,
+                                      1,
+                                      1,
+                                      1
+                                    ],
+                                    "size": [
+                                      96,
+                                      116
+                                    ],
+                                    "anchor": [
+                                      0.5,
+                                      0.5
+                                    ],
+                                    "opacity": 255,
+                                    "color": 4294967295,
+                                    "active": false,
+                                    "sprite": {
+                                      "class": "cc.Sprite",
+                                      "_materials": [
+                                        "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                                      ],
+                                      "_spriteFrame": "57cfefe1-9a20-4aab-86e1-8fe98e1cc948",
+                                      "frame": "57cfefe1-9a20-4aab-86e1-8fe98e1cc948"
+                                    },
+                                    "label": null,
+                                    "children": [
+                                      {
+                                        "name": "img_light_word_right",
+                                        "trs": [
+                                          18.183,
+                                          3.896,
+                                          0,
+                                          0,
+                                          0,
+                                          0,
+                                          1,
+                                          0.95,
+                                          0.95,
+                                          1
+                                        ],
+                                        "size": [
+                                          28,
+                                          29
+                                        ],
+                                        "anchor": [
+                                          0.5,
+                                          0.5
+                                        ],
+                                        "opacity": 255,
+                                        "color": 4294967295,
+                                        "active": true,
+                                        "sprite": {
+                                          "class": "cc.Sprite",
+                                          "_materials": [
+                                            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                                          ],
+                                          "_spriteFrame": "cb0bab64-eaaa-418b-9525-26a42f46e543",
+                                          "frame": "cb0bab64-eaaa-418b-9525-26a42f46e543"
+                                        },
+                                        "label": null,
+                                        "children": []
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "name": "front",
+                                "trs": [
+                                  -3.6,
+                                  49.5,
+                                  0,
+                                  0,
+                                  0,
+                                  0,
+                                  1,
+                                  1,
+                                  1,
+                                  1
+                                ],
+                                "size": [
+                                  157,
+                                  44
+                                ],
+                                "anchor": [
+                                  0.5,
+                                  0.5
+                                ],
+                                "opacity": 255,
+                                "color": 4294967295,
+                                "active": true,
+                                "sprite": null,
+                                "label": null,
+                                "children": [
+                                  {
+                                    "name": "img_dark_front",
+                                    "trs": [
+                                      5.5,
+                                      20.2,
+                                      0,
+                                      0,
+                                      0,
+                                      0,
+                                      1,
+                                      1,
+                                      1,
+                                      1
+                                    ],
+                                    "size": [
+                                      153,
+                                      13
+                                    ],
+                                    "anchor": [
+                                      0.5,
+                                      0.5
+                                    ],
+                                    "opacity": 255,
+                                    "color": 4294967295,
+                                    "active": false,
+                                    "sprite": {
+                                      "class": "cc.Sprite",
+                                      "_materials": [
+                                        "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                                      ],
+                                      "_spriteFrame": "22054cbe-5927-422f-9fca-e5f771f4b34d",
+                                      "frame": "22054cbe-5927-422f-9fca-e5f771f4b34d"
+                                    },
+                                    "label": null,
+                                    "children": []
+                                  },
+                                  {
+                                    "name": "img_gray_front",
+                                    "trs": [
+                                      5,
+                                      10.4,
+                                      0,
+                                      0,
+                                      0,
+                                      0,
+                                      1,
+                                      0.9,
+                                      0.9,
+                                      1
+                                    ],
+                                    "size": [
+                                      28,
+                                      28
+                                    ],
+                                    "anchor": [
+                                      0.5,
+                                      0.5
+                                    ],
+                                    "opacity": 255,
+                                    "color": 4294967295,
+                                    "active": true,
+                                    "sprite": {
+                                      "class": "cc.Sprite",
+                                      "_materials": [
+                                        "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                                      ],
+                                      "_spriteFrame": "e94dc8d5-afa0-4c4f-8d7d-3d3b2aa4e6bd",
+                                      "frame": "e94dc8d5-afa0-4c4f-8d7d-3d3b2aa4e6bd"
+                                    },
+                                    "label": null,
+                                    "children": []
+                                  },
+                                  {
+                                    "name": "img_light_right",
+                                    "trs": [
+                                      5.2,
+                                      -6.5,
+                                      0,
+                                      0,
+                                      0,
+                                      0,
+                                      1,
+                                      1,
+                                      1,
+                                      1
+                                    ],
+                                    "size": [
+                                      153,
+                                      65
+                                    ],
+                                    "anchor": [
+                                      0.5,
+                                      0.5
+                                    ],
+                                    "opacity": 255,
+                                    "color": 4294967295,
+                                    "active": false,
+                                    "sprite": {
+                                      "class": "cc.Sprite",
+                                      "_materials": [
+                                        "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                                      ],
+                                      "_spriteFrame": "a268a51e-e5b5-4dfd-903c-cbf43c7eb380",
+                                      "frame": "a268a51e-e5b5-4dfd-903c-cbf43c7eb380"
+                                    },
+                                    "label": null,
+                                    "children": [
+                                      {
+                                        "name": "img_light_word_front",
+                                        "trs": [
+                                          0,
+                                          16.861,
+                                          0,
+                                          0,
+                                          0,
+                                          0,
+                                          1,
+                                          0.9,
+                                          0.9,
+                                          1
+                                        ],
+                                        "size": [
+                                          28,
+                                          28
+                                        ],
+                                        "anchor": [
+                                          0.5,
+                                          0.5
+                                        ],
+                                        "opacity": 255,
+                                        "color": 4294967295,
+                                        "active": true,
+                                        "sprite": {
+                                          "class": "cc.Sprite",
+                                          "_materials": [
+                                            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                                          ],
+                                          "_spriteFrame": "f86d811d-6ab7-4af9-addf-813dd8d647e0",
+                                          "frame": "f86d811d-6ab7-4af9-addf-813dd8d647e0"
+                                        },
+                                        "label": null,
+                                        "children": []
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "name": "left",
+                                "trs": [
+                                  -91.6,
+                                  6.2,
+                                  0,
+                                  0,
+                                  0,
+                                  0,
+                                  1,
+                                  1,
+                                  1,
+                                  1
+                                ],
+                                "size": [
+                                  65,
+                                  124
+                                ],
+                                "anchor": [
+                                  0.5,
+                                  0.5
+                                ],
+                                "opacity": 255,
+                                "color": 4294967295,
+                                "active": true,
+                                "sprite": null,
+                                "label": null,
+                                "children": [
+                                  {
+                                    "name": "img_dark_left",
+                                    "trs": [
+                                      7.9,
+                                      1.8,
+                                      0,
+                                      0,
+                                      0,
+                                      0,
+                                      1,
+                                      1,
+                                      1,
+                                      1
+                                    ],
+                                    "size": [
+                                      23,
+                                      117
+                                    ],
+                                    "anchor": [
+                                      0.5,
+                                      0.5
+                                    ],
+                                    "opacity": 255,
+                                    "color": 4294967295,
+                                    "active": false,
+                                    "sprite": {
+                                      "class": "cc.Sprite",
+                                      "_materials": [
+                                        "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                                      ],
+                                      "_spriteFrame": "cc327a3f-0d40-4548-93ad-5a54075a6de7",
+                                      "frame": "cc327a3f-0d40-4548-93ad-5a54075a6de7"
+                                    },
+                                    "label": null,
+                                    "children": []
+                                  },
+                                  {
+                                    "name": "img_gray_left",
+                                    "trs": [
+                                      23.7,
+                                      4.049,
+                                      0,
+                                      0,
+                                      0,
+                                      0,
+                                      1,
+                                      0.95,
+                                      0.95,
+                                      1
+                                    ],
+                                    "size": [
+                                      28,
+                                      30
+                                    ],
+                                    "anchor": [
+                                      0.5,
+                                      0.5
+                                    ],
+                                    "opacity": 255,
+                                    "color": 4294967295,
+                                    "active": true,
+                                    "sprite": {
+                                      "class": "cc.Sprite",
+                                      "_materials": [
+                                        "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                                      ],
+                                      "_spriteFrame": "cc7a2702-9945-4ff1-b1f5-5fbd7cf8cf06",
+                                      "frame": "cc7a2702-9945-4ff1-b1f5-5fbd7cf8cf06"
+                                    },
+                                    "label": null,
+                                    "children": []
+                                  },
+                                  {
+                                    "name": "img_light_left",
+                                    "trs": [
+                                      44.4,
+                                      2.3,
+                                      0,
+                                      0,
+                                      0,
+                                      0,
+                                      1,
+                                      1,
+                                      1,
+                                      1
+                                    ],
+                                    "size": [
+                                      97,
+                                      117
+                                    ],
+                                    "anchor": [
+                                      0.5,
+                                      0.5
+                                    ],
+                                    "opacity": 255,
+                                    "color": 4294967295,
+                                    "active": false,
+                                    "sprite": {
+                                      "class": "cc.Sprite",
+                                      "_materials": [
+                                        "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                                      ],
+                                      "_spriteFrame": "60ea5a3d-8245-46ce-9b8a-bb95a3f96958",
+                                      "frame": "60ea5a3d-8245-46ce-9b8a-bb95a3f96958"
+                                    },
+                                    "label": null,
+                                    "children": [
+                                      {
+                                        "name": "img_light_word_left",
+                                        "trs": [
+                                          -21.143,
+                                          2.003,
+                                          0,
+                                          0,
+                                          0,
+                                          0,
+                                          1,
+                                          0.95,
+                                          0.95,
+                                          1
+                                        ],
+                                        "size": [
+                                          28,
+                                          30
+                                        ],
+                                        "anchor": [
+                                          0.5,
+                                          0.5
+                                        ],
+                                        "opacity": 255,
+                                        "color": 4294967295,
+                                        "active": true,
+                                        "sprite": {
+                                          "class": "cc.Sprite",
+                                          "_materials": [
+                                            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                                          ],
+                                          "_spriteFrame": "7ec1e122-cb78-4557-a7e1-d7e1ae92bf13",
+                                          "frame": "7ec1e122-cb78-4557-a7e1-d7e1ae92bf13"
+                                        },
+                                        "label": null,
+                                        "children": []
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "name": "mine",
+                                "trs": [
+                                  -1.6,
+                                  -32.7,
+                                  0,
+                                  0,
+                                  0,
+                                  0,
+                                  1,
+                                  1,
+                                  1,
+                                  1
+                                ],
+                                "size": [
+                                  171,
+                                  51
+                                ],
+                                "anchor": [
+                                  0.5,
+                                  0.5
+                                ],
+                                "opacity": 255,
+                                "color": 4294967295,
+                                "active": true,
+                                "sprite": null,
+                                "label": null,
+                                "children": [
+                                  {
+                                    "name": "img_dark_mine",
+                                    "trs": [
+                                      3.3,
+                                      -21.6,
+                                      0,
+                                      0,
+                                      0,
+                                      0,
+                                      1,
+                                      1,
+                                      1,
+                                      1
+                                    ],
+                                    "size": [
+                                      168,
+                                      16
+                                    ],
+                                    "anchor": [
+                                      0.5,
+                                      0.5
+                                    ],
+                                    "opacity": 255,
+                                    "color": 4294967295,
+                                    "active": false,
+                                    "sprite": {
+                                      "class": "cc.Sprite",
+                                      "_materials": [
+                                        "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                                      ],
+                                      "_spriteFrame": "6654ab4d-f237-41d0-97d6-671b67860645",
+                                      "frame": "6654ab4d-f237-41d0-97d6-671b67860645"
+                                    },
+                                    "label": null,
+                                    "children": []
+                                  },
+                                  {
+                                    "name": "img_grey_mine",
+                                    "trs": [
+                                      3,
+                                      -5,
+                                      0,
+                                      0,
+                                      0,
+                                      0,
+                                      1,
+                                      1,
+                                      1,
+                                      1
+                                    ],
+                                    "size": [
+                                      28,
+                                      30
+                                    ],
+                                    "anchor": [
+                                      0.5,
+                                      0.5
+                                    ],
+                                    "opacity": 255,
+                                    "color": 4294967295,
+                                    "active": true,
+                                    "sprite": {
+                                      "class": "cc.Sprite",
+                                      "_materials": [
+                                        "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                                      ],
+                                      "_spriteFrame": "4382f09b-571a-43e2-98e5-503a358da606",
+                                      "frame": "4382f09b-571a-43e2-98e5-503a358da606"
+                                    },
+                                    "label": null,
+                                    "children": []
+                                  },
+                                  {
+                                    "name": "img_light_mine",
+                                    "trs": [
+                                      2.9,
+                                      7.5,
+                                      0,
+                                      0,
+                                      0,
+                                      0,
+                                      1,
+                                      1,
+                                      1,
+                                      1
+                                    ],
+                                    "size": [
+                                      168,
+                                      73
+                                    ],
+                                    "anchor": [
+                                      0.5,
+                                      0.5
+                                    ],
+                                    "opacity": 255,
+                                    "color": 4294967295,
+                                    "active": false,
+                                    "sprite": {
+                                      "class": "cc.Sprite",
+                                      "_materials": [
+                                        "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                                      ],
+                                      "_spriteFrame": "8b087126-d6e0-4eb4-a36b-2b1021a466e0",
+                                      "frame": "8b087126-d6e0-4eb4-a36b-2b1021a466e0"
+                                    },
+                                    "label": null,
+                                    "children": [
+                                      {
+                                        "name": "img_light_word_mine",
+                                        "trs": [
+                                          0,
+                                          -12,
+                                          0,
+                                          0,
+                                          0,
+                                          0,
+                                          1,
+                                          1,
+                                          1,
+                                          1
+                                        ],
+                                        "size": [
+                                          28,
+                                          30
+                                        ],
+                                        "anchor": [
+                                          0.5,
+                                          0.5
+                                        ],
+                                        "opacity": 255,
+                                        "color": 4294967295,
+                                        "active": true,
+                                        "sprite": {
+                                          "class": "cc.Sprite",
+                                          "_materials": [
+                                            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                                          ],
+                                          "_spriteFrame": "5c5d0252-51aa-47ea-b342-c154daf0a9b4",
+                                          "frame": "5c5d0252-51aa-47ea-b342-c154daf0a9b4"
+                                        },
+                                        "label": null,
+                                        "children": []
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "img_count_bg",
+                        "trs": [
+                          0,
+                          12.528,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1,
+                          0.8,
+                          0.8,
+                          0.8
+                        ],
+                        "size": [
+                          92,
+                          65
+                        ],
+                        "anchor": [
+                          0.5,
+                          0.5
+                        ],
+                        "opacity": 255,
+                        "color": 4294967295,
+                        "active": true,
+                        "sprite": {
+                          "class": "cc.Sprite",
+                          "_materials": [
+                            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                          ],
+                          "_spriteFrame": "e9c336f3-6f7f-4110-9288-850fa76dd797",
+                          "frame": "e9c336f3-6f7f-4110-9288-850fa76dd797"
+                        },
+                        "label": null,
+                        "children": []
+                      },
+                      {
+                        "name": "label_countdown",
+                        "trs": [
+                          0,
+                          19,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1,
+                          0.4,
+                          0.4,
+                          0.4
+                        ],
+                        "size": [
+                          0,
+                          60
+                        ],
+                        "anchor": [
+                          0.5,
+                          0.5
+                        ],
+                        "opacity": 255,
+                        "color": 4294967295,
+                        "active": true,
+                        "sprite": null,
+                        "label": {
+                          "class": "cc.Label",
+                          "_fontSize": 60,
+                          "_lineHeight": 60,
+                          "_isSystemFontUsed": false,
+                          "_N$horizontalAlign": 1,
+                          "_N$verticalAlign": 1,
+                          "_materials": [
+                            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                          ],
+                          "_N$file": "9d8e7154-2b41-4fdf-b945-d7864a48c37a"
+                        },
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Load",
+                    "trs": [
+                      0,
+                      -6,
+                      0,
+                      0,
+                      0,
+                      0,
+                      1,
+                      1,
+                      1,
+                      1
+                    ],
+                    "size": [
+                      0,
+                      0
+                    ],
+                    "anchor": [
+                      0.5,
+                      0.5
+                    ],
+                    "opacity": 255,
+                    "color": 4294967295,
+                    "active": true,
+                    "sprite": null,
+                    "label": null,
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "tables": [
+    {
+      "key": "304",
+      "config": {
+        "id": 304,
+        "type": 4,
+        "name": "四季常春",
+        "showType": 3,
+        "showWeight": 4,
+        "sex": 2,
+        "iconSmall": "zhuozi_sjcc",
+        "iconBig": "zhuozi_sjcc",
+        "iconBack": "Table_6",
+        "PrefabName": "table3DBox_SJCC",
+        "tag": 1
+      },
+      "source": {
+        "bundle": "prefabs",
+        "id": 925,
+        "countdownId": 2126
+      },
+      "tree": {
+        "name": "table3DBox_SJCC",
+        "trs": [
+          0,
+          360,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "size": [
+          1600,
+          720
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "opacity": 255,
+        "color": 4294967295,
+        "active": true,
+        "sprite": {
+          "class": "cc.Sprite",
+          "_sizeMode": 2,
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "2d5eff10-f789-4599-be11-c5f52ad51cf4",
+          "frame": "2d5eff10-f789-4599-be11-c5f52ad51cf4"
+        },
+        "label": null,
+        "children": [
+          {
+            "name": "texture",
+            "trs": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            "size": [
+              879,
+              523
+            ],
+            "anchor": [
+              0.5,
+              0.5
+            ],
+            "opacity": 255,
+            "color": 4294967295,
+            "active": true,
+            "sprite": {
+              "class": "cc.Sprite",
+              "_materials": [
+                "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+              ],
+              "_spriteFrame": "7cf7d7d0-8cc2-42f5-a406-383b96dd88f9",
+              "frame": "7cf7d7d0-8cc2-42f5-a406-383b96dd88f9"
+            },
+            "label": null,
+            "children": []
+          },
+          {
+            "name": "logo",
+            "trs": [
+              -248.452,
+              -155.283,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            "size": [
+              203,
+              72
+            ],
+            "anchor": [
+              0.5,
+              0.5
+            ],
+            "opacity": 255,
+            "color": 4294967295,
+            "active": true,
+            "sprite": {
+              "class": "cc.Sprite",
+              "_materials": [
+                "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+              ],
+              "_spriteFrame": "3a7c47f6-a951-480c-a08a-b37836eb23e8",
+              "frame": "3a7c47f6-a951-480c-a08a-b37836eb23e8"
+            },
+            "label": null,
+            "children": []
+          }
+        ]
+      },
+      "countdown": {
+        "name": "cd_sjcc",
+        "trs": [
+          0,
+          10,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1.2,
+          1.2,
+          1
+        ],
+        "size": [
+          145.6,
+          124
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "opacity": 255,
+        "color": 4294967295,
+        "active": true,
+        "sprite": null,
+        "label": null,
+        "children": [
+          {
+            "name": "img_panBg",
+            "trs": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0.8,
+              0.8,
+              1
+            ],
+            "size": [
+              182,
+              155
+            ],
+            "anchor": [
+              0.5,
+              0.5
+            ],
+            "opacity": 255,
+            "color": 4294967295,
+            "active": true,
+            "sprite": {
+              "class": "cc.Sprite",
+              "_materials": [
+                "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+              ],
+              "_spriteFrame": "c28b8163-73a4-4299-8ebc-43020395a151",
+              "frame": "c28b8163-73a4-4299-8ebc-43020395a151"
+            },
+            "label": null,
+            "children": [
+              {
+                "name": "EastPannel",
+                "trs": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "size": [
+                  0,
+                  0
+                ],
+                "anchor": [
+                  0.5,
+                  0.5
+                ],
+                "opacity": 255,
+                "color": 4294967295,
+                "active": true,
+                "sprite": null,
+                "label": null,
+                "children": [
+                  {
+                    "name": "right",
+                    "trs": [
+                      51.3,
+                      6,
+                      0,
+                      0,
+                      0,
+                      0,
+                      1,
+                      1,
+                      1,
+                      1
+                    ],
+                    "size": [
+                      65,
+                      124
+                    ],
+                    "anchor": [
+                      0.5,
+                      0.5
+                    ],
+                    "opacity": 255,
+                    "color": 4294967295,
+                    "active": true,
+                    "sprite": null,
+                    "label": null,
+                    "children": [
+                      {
+                        "name": "img_dark_right",
+                        "trs": [
+                          35.9,
+                          1.3,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1,
+                          1,
+                          1,
+                          1
+                        ],
+                        "size": [
+                          23,
+                          116
+                        ],
+                        "anchor": [
+                          0.5,
+                          0.5
+                        ],
+                        "opacity": 255,
+                        "color": 4294967295,
+                        "active": false,
+                        "sprite": null,
+                        "label": null,
+                        "children": []
+                      },
+                      {
+                        "name": "img_gray_right",
+                        "trs": [
+                          3.002,
+                          2.122,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1,
+                          1,
+                          1,
+                          1
+                        ],
+                        "size": [
+                          23,
+                          24
+                        ],
+                        "anchor": [
+                          0.5,
+                          0.5
+                        ],
+                        "opacity": 255,
+                        "color": 4294967295,
+                        "active": true,
+                        "sprite": {
+                          "class": "cc.Sprite",
+                          "_materials": [
+                            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                          ],
+                          "_spriteFrame": "6a08508d-5620-4ab4-87b2-33d38082d02d",
+                          "frame": "6a08508d-5620-4ab4-87b2-33d38082d02d"
+                        },
+                        "label": null,
+                        "children": []
+                      },
+                      {
+                        "name": "img_light_right",
+                        "trs": [
+                          -9.09,
+                          4.836,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1,
+                          1,
+                          1,
+                          1
+                        ],
+                        "size": [
+                          85,
+                          97
+                        ],
+                        "anchor": [
+                          0.5,
+                          0.5
+                        ],
+                        "opacity": 255,
+                        "color": 4294967295,
+                        "active": false,
+                        "sprite": {
+                          "class": "cc.Sprite",
+                          "_materials": [
+                            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                          ],
+                          "_spriteFrame": "c8a1a426-5c6f-47e4-83e8-bcc8a95b78c5",
+                          "frame": "c8a1a426-5c6f-47e4-83e8-bcc8a95b78c5"
+                        },
+                        "label": null,
+                        "children": [
+                          {
+                            "name": "img_light_word_right",
+                            "trs": [
+                              18.183,
+                              3.896,
+                              0,
+                              0,
+                              0,
+                              0,
+                              1,
+                              0.95,
+                              0.95,
+                              1
+                            ],
+                            "size": [
+                              28,
+                              29
+                            ],
+                            "anchor": [
+                              0.5,
+                              0.5
+                            ],
+                            "opacity": 255,
+                            "color": 4294967295,
+                            "active": true,
+                            "sprite": null,
+                            "label": null,
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "front",
+                    "trs": [
+                      -3.6,
+                      49.5,
+                      0,
+                      0,
+                      0,
+                      0,
+                      1,
+                      1,
+                      1,
+                      1
+                    ],
+                    "size": [
+                      157,
+                      44
+                    ],
+                    "anchor": [
+                      0.5,
+                      0.5
+                    ],
+                    "opacity": 255,
+                    "color": 4294967295,
+                    "active": true,
+                    "sprite": null,
+                    "label": null,
+                    "children": [
+                      {
+                        "name": "img_dark_front",
+                        "trs": [
+                          5.5,
+                          20.2,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1,
+                          1,
+                          1,
+                          1
+                        ],
+                        "size": [
+                          153,
+                          13
+                        ],
+                        "anchor": [
+                          0.5,
+                          0.5
+                        ],
+                        "opacity": 255,
+                        "color": 4294967295,
+                        "active": false,
+                        "sprite": null,
+                        "label": null,
+                        "children": []
+                      },
+                      {
+                        "name": "img_gray_front",
+                        "trs": [
+                          2.788,
+                          3.956,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1,
+                          1,
+                          1,
+                          1
+                        ],
+                        "size": [
+                          21,
+                          20
+                        ],
+                        "anchor": [
+                          0.5,
+                          0.5
+                        ],
+                        "opacity": 255,
+                        "color": 4294967295,
+                        "active": true,
+                        "sprite": {
+                          "class": "cc.Sprite",
+                          "_materials": [
+                            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                          ],
+                          "_spriteFrame": "9ea1430a-8297-411b-b584-d06768f348e2",
+                          "frame": "9ea1430a-8297-411b-b584-d06768f348e2"
+                        },
+                        "label": null,
+                        "children": []
+                      },
+                      {
+                        "name": "img_light_right",
+                        "trs": [
+                          3.827,
+                          -4.976,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1,
+                          1,
+                          1,
+                          1
+                        ],
+                        "size": [
+                          115,
+                          62
+                        ],
+                        "anchor": [
+                          0.5,
+                          0.5
+                        ],
+                        "opacity": 255,
+                        "color": 4294967295,
+                        "active": false,
+                        "sprite": {
+                          "class": "cc.Sprite",
+                          "_materials": [
+                            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                          ],
+                          "_spriteFrame": "9dfc0fc3-b417-4804-a7e9-9925f25391a9",
+                          "frame": "9dfc0fc3-b417-4804-a7e9-9925f25391a9"
+                        },
+                        "label": null,
+                        "children": [
+                          {
+                            "name": "img_light_word_front",
+                            "trs": [
+                              0,
+                              16.861,
+                              0,
+                              0,
+                              0,
+                              0,
+                              1,
+                              0.9,
+                              0.9,
+                              1
+                            ],
+                            "size": [
+                              28,
+                              28
+                            ],
+                            "anchor": [
+                              0.5,
+                              0.5
+                            ],
+                            "opacity": 255,
+                            "color": 4294967295,
+                            "active": true,
+                            "sprite": null,
+                            "label": null,
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "left",
+                    "trs": [
+                      -91.6,
+                      6.2,
+                      0,
+                      0,
+                      0,
+                      0,
+                      1,
+                      1,
+                      1,
+                      1
+                    ],
+                    "size": [
+                      65,
+                      124
+                    ],
+                    "anchor": [
+                      0.5,
+                      0.5
+                    ],
+                    "opacity": 255,
+                    "color": 4294967295,
+                    "active": true,
+                    "sprite": null,
+                    "label": null,
+                    "children": [
+                      {
+                        "name": "img_dark_left",
+                        "trs": [
+                          7.9,
+                          1.8,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1,
+                          1,
+                          1,
+                          1
+                        ],
+                        "size": [
+                          23,
+                          117
+                        ],
+                        "anchor": [
+                          0.5,
+                          0.5
+                        ],
+                        "opacity": 255,
+                        "color": 4294967295,
+                        "active": false,
+                        "sprite": null,
+                        "label": null,
+                        "children": []
+                      },
+                      {
+                        "name": "img_gray_left",
+                        "trs": [
+                          38.749,
+                          7.092,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1,
+                          1,
+                          1,
+                          1
+                        ],
+                        "size": [
+                          23,
+                          23
+                        ],
+                        "anchor": [
+                          0.5,
+                          0.5
+                        ],
+                        "opacity": 255,
+                        "color": 4294967295,
+                        "active": true,
+                        "sprite": {
+                          "class": "cc.Sprite",
+                          "_materials": [
+                            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                          ],
+                          "_spriteFrame": "e60bde83-56e3-4d58-809b-f0d5b8c65602",
+                          "frame": "e60bde83-56e3-4d58-809b-f0d5b8c65602"
+                        },
+                        "label": null,
+                        "children": []
+                      },
+                      {
+                        "name": "img_light_left",
+                        "trs": [
+                          48.035,
+                          4.258,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1,
+                          1,
+                          1,
+                          1
+                        ],
+                        "size": [
+                          83,
+                          94
+                        ],
+                        "anchor": [
+                          0.5,
+                          0.5
+                        ],
+                        "opacity": 255,
+                        "color": 4294967295,
+                        "active": false,
+                        "sprite": {
+                          "class": "cc.Sprite",
+                          "_materials": [
+                            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                          ],
+                          "_spriteFrame": "a9d8da74-c3e2-4e1c-8400-3b463887d724",
+                          "frame": "a9d8da74-c3e2-4e1c-8400-3b463887d724"
+                        },
+                        "label": null,
+                        "children": [
+                          {
+                            "name": "img_light_word_left",
+                            "trs": [
+                              -21.143,
+                              2.003,
+                              0,
+                              0,
+                              0,
+                              0,
+                              1,
+                              0.95,
+                              0.95,
+                              1
+                            ],
+                            "size": [
+                              28,
+                              30
+                            ],
+                            "anchor": [
+                              0.5,
+                              0.5
+                            ],
+                            "opacity": 255,
+                            "color": 4294967295,
+                            "active": true,
+                            "sprite": null,
+                            "label": null,
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "mine",
+                    "trs": [
+                      -1.6,
+                      -32.7,
+                      0,
+                      0,
+                      0,
+                      0,
+                      1,
+                      1,
+                      1,
+                      1
+                    ],
+                    "size": [
+                      171,
+                      51
+                    ],
+                    "anchor": [
+                      0.5,
+                      0.5
+                    ],
+                    "opacity": 255,
+                    "color": 4294967295,
+                    "active": true,
+                    "sprite": null,
+                    "label": null,
+                    "children": [
+                      {
+                        "name": "img_dark_mine",
+                        "trs": [
+                          3.3,
+                          -21.6,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1,
+                          1,
+                          1,
+                          1
+                        ],
+                        "size": [
+                          168,
+                          16
+                        ],
+                        "anchor": [
+                          0.5,
+                          0.5
+                        ],
+                        "opacity": 255,
+                        "color": 4294967295,
+                        "active": false,
+                        "sprite": null,
+                        "label": null,
+                        "children": []
+                      },
+                      {
+                        "name": "img_grey_mine",
+                        "trs": [
+                          0.212,
+                          -7.813,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1,
+                          1,
+                          1,
+                          1
+                        ],
+                        "size": [
+                          23,
+                          25
+                        ],
+                        "anchor": [
+                          0.5,
+                          0.5
+                        ],
+                        "opacity": 255,
+                        "color": 4294967295,
+                        "active": true,
+                        "sprite": {
+                          "class": "cc.Sprite",
+                          "_materials": [
+                            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                          ],
+                          "_spriteFrame": "f3b9f3db-bfb9-4bbc-955b-005ce3287391",
+                          "frame": "f3b9f3db-bfb9-4bbc-955b-005ce3287391"
+                        },
+                        "label": null,
+                        "children": []
+                      },
+                      {
+                        "name": "img_light_mine",
+                        "trs": [
+                          1.37,
+                          7.651,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1,
+                          1,
+                          1,
+                          1
+                        ],
+                        "size": [
+                          133,
+                          79
+                        ],
+                        "anchor": [
+                          0.5,
+                          0.5
+                        ],
+                        "opacity": 255,
+                        "color": 4294967295,
+                        "active": false,
+                        "sprite": {
+                          "class": "cc.Sprite",
+                          "_materials": [
+                            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                          ],
+                          "_spriteFrame": "21a2fd39-f429-46fb-877a-30ed2a9aa1ac",
+                          "frame": "21a2fd39-f429-46fb-877a-30ed2a9aa1ac"
+                        },
+                        "label": null,
+                        "children": [
+                          {
+                            "name": "img_light_word_mine",
+                            "trs": [
+                              0,
+                              -12,
+                              0,
+                              0,
+                              0,
+                              0,
+                              1,
+                              1,
+                              1,
+                              1
+                            ],
+                            "size": [
+                              28,
+                              30
+                            ],
+                            "anchor": [
+                              0.5,
+                              0.5
+                            ],
+                            "opacity": 255,
+                            "color": 4294967295,
+                            "active": true,
+                            "sprite": null,
+                            "label": null,
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "img_count_bg",
+            "trs": [
+              0,
+              7.901,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0.8,
+              0.8,
+              1
+            ],
+            "size": [
+              78,
+              68
+            ],
+            "anchor": [
+              0.5,
+              0.5
+            ],
+            "opacity": 255,
+            "color": 4294967295,
+            "active": true,
+            "sprite": {
+              "class": "cc.Sprite",
+              "_materials": [
+                "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+              ],
+              "_spriteFrame": "78f18b0d-1d89-4801-8fe7-678c42ee8e76",
+              "frame": "78f18b0d-1d89-4801-8fe7-678c42ee8e76"
+            },
+            "label": null,
+            "children": []
+          },
+          {
+            "name": "label_countdown",
+            "trs": [
+              0,
+              23,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0.35,
+              0.35,
+              1
+            ],
+            "size": [
+              129.38,
+              60
+            ],
+            "anchor": [
+              0.5,
+              0.5
+            ],
+            "opacity": 255,
+            "color": 4294967295,
+            "active": true,
+            "sprite": null,
+            "label": {
+              "class": "cc.Label",
+              "_fontSize": 60,
+              "_lineHeight": 60,
+              "_isSystemFontUsed": false,
+              "_N$horizontalAlign": 1,
+              "_N$verticalAlign": 1,
+              "_materials": [
+                "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+              ],
+              "_N$file": "9d8e7154-2b41-4fdf-b945-d7864a48c37a"
+            },
+            "children": []
+          }
+        ]
+      },
+      "runtime": {
+        "textureHeight": 522,
+        "texturePosition": [
+          0,
+          20
+        ],
+        "watermarkPosition": [
+          -250,
+          -145
+        ]
+      }
+    },
+    {
+      "key": "305",
+      "config": {
+        "id": 305,
+        "type": 4,
+        "name": "繁星之夜",
+        "showType": 3,
+        "showWeight": 5,
+        "sex": 2,
+        "iconSmall": "zhuozi_xingyue",
+        "iconBig": "zhuozi_xingyue",
+        "iconBack": "Table_7",
+        "PrefabName": "table3DBox_FXZY"
+      },
+      "source": {
+        "bundle": "prefabs",
+        "id": 2074,
+        "countdownId": 2861
+      },
+      "tree": {
+        "name": "table3DBox_FXZY",
+        "trs": [
+          0,
+          360,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "size": [
+          1600,
+          720
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "opacity": 255,
+        "color": 4294967295,
+        "active": true,
+        "sprite": {
+          "class": "cc.Sprite",
+          "_sizeMode": 2,
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "e040ef53-b5cb-47a1-94b6-8aa97455a6e6",
+          "frame": "e040ef53-b5cb-47a1-94b6-8aa97455a6e6"
+        },
+        "label": null,
+        "children": [
+          {
+            "name": "texture",
+            "trs": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            "size": [
+              879,
+              524
+            ],
+            "anchor": [
+              0.5,
+              0.5
+            ],
+            "opacity": 255,
+            "color": 4294967295,
+            "active": true,
+            "sprite": {
+              "class": "cc.Sprite",
+              "_materials": [
+                "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+              ],
+              "_spriteFrame": "58bd070e-69bb-4748-afcd-9e07cb76a61a",
+              "frame": "58bd070e-69bb-4748-afcd-9e07cb76a61a"
+            },
+            "label": null,
+            "children": []
+          },
+          {
+            "name": "logo",
+            "trs": [
+              -248.452,
+              -155.283,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            "size": [
+              203,
+              72
+            ],
+            "anchor": [
+              0.5,
+              0.5
+            ],
+            "opacity": 255,
+            "color": 4294967295,
+            "active": true,
+            "sprite": {
+              "class": "cc.Sprite",
+              "_materials": [
+                "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+              ],
+              "_spriteFrame": "08046d9f-2b9c-42d1-bb95-cb34c6ba9f37",
+              "frame": "08046d9f-2b9c-42d1-bb95-cb34c6ba9f37"
+            },
+            "label": null,
+            "children": []
+          }
+        ]
+      },
+      "countdown": {
+        "name": "cd_fxzy",
+        "trs": [
+          0,
+          23,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1.2,
+          1.2,
+          1
+        ],
+        "size": [
+          146.4,
+          113.6
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "opacity": 255,
+        "color": 4294967295,
+        "active": true,
+        "sprite": null,
+        "label": null,
+        "children": [
+          {
+            "name": "img_panBg",
+            "trs": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0.8,
+              0.8,
+              1
+            ],
+            "size": [
+              183,
+              142
+            ],
+            "anchor": [
+              0.5,
+              0.5
+            ],
+            "opacity": 255,
+            "color": 4294967295,
+            "active": true,
+            "sprite": {
+              "class": "cc.Sprite",
+              "_materials": [
+                "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+              ],
+              "_spriteFrame": "aabce551-6a09-4f95-a0db-844730777876",
+              "frame": "aabce551-6a09-4f95-a0db-844730777876"
+            },
+            "label": null,
+            "children": [
+              {
+                "name": "EastPannel",
+                "trs": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "size": [
+                  0,
+                  0
+                ],
+                "anchor": [
+                  0.5,
+                  0.5
+                ],
+                "opacity": 255,
+                "color": 4294967295,
+                "active": true,
+                "sprite": null,
+                "label": null,
+                "children": [
+                  {
+                    "name": "right",
+                    "trs": [
+                      51.3,
+                      6,
+                      0,
+                      0,
+                      0,
+                      0,
+                      1,
+                      1,
+                      1,
+                      1
+                    ],
+                    "size": [
+                      65,
+                      124
+                    ],
+                    "anchor": [
+                      0.5,
+                      0.5
+                    ],
+                    "opacity": 255,
+                    "color": 4294967295,
+                    "active": true,
+                    "sprite": null,
+                    "label": null,
+                    "children": [
+                      {
+                        "name": "img_dark_right",
+                        "trs": [
+                          35.9,
+                          1.3,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1,
+                          1,
+                          1,
+                          1
+                        ],
+                        "size": [
+                          23,
+                          116
+                        ],
+                        "anchor": [
+                          0.5,
+                          0.5
+                        ],
+                        "opacity": 255,
+                        "color": 4294967295,
+                        "active": false,
+                        "sprite": null,
+                        "label": null,
+                        "children": []
+                      },
+                      {
+                        "name": "img_gray_right",
+                        "trs": [
+                          17.455,
+                          5.2,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1,
+                          0.95,
+                          0.95,
+                          1
+                        ],
+                        "size": [
+                          28,
+                          29
+                        ],
+                        "anchor": [
+                          0.5,
+                          0.5
+                        ],
+                        "opacity": 255,
+                        "color": 4294967295,
+                        "active": true,
+                        "sprite": null,
+                        "label": null,
+                        "children": []
+                      },
+                      {
+                        "name": "img_light_right",
+                        "trs": [
+                          -8.8,
+                          -2.556,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1,
+                          1,
+                          1,
+                          1
+                        ],
+                        "size": [
+                          82,
+                          75
+                        ],
+                        "anchor": [
+                          0.5,
+                          0.5
+                        ],
+                        "opacity": 120,
+                        "color": 4294967295,
+                        "active": false,
+                        "sprite": {
+                          "class": "cc.Sprite",
+                          "_materials": [
+                            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                          ],
+                          "_spriteFrame": "61645e61-ca51-4d4a-b885-37142c04789d",
+                          "frame": "61645e61-ca51-4d4a-b885-37142c04789d"
+                        },
+                        "label": null,
+                        "children": [
+                          {
+                            "name": "img_light_word_right",
+                            "trs": [
+                              18.183,
+                              3.896,
+                              0,
+                              0,
+                              0,
+                              0,
+                              1,
+                              0.95,
+                              0.95,
+                              1
+                            ],
+                            "size": [
+                              28,
+                              29
+                            ],
+                            "anchor": [
+                              0.5,
+                              0.5
+                            ],
+                            "opacity": 255,
+                            "color": 4294967295,
+                            "active": true,
+                            "sprite": null,
+                            "label": null,
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "front",
+                    "trs": [
+                      -3.6,
+                      49.5,
+                      0,
+                      0,
+                      0,
+                      0,
+                      1,
+                      1,
+                      1,
+                      1
+                    ],
+                    "size": [
+                      157,
+                      44
+                    ],
+                    "anchor": [
+                      0.5,
+                      0.5
+                    ],
+                    "opacity": 255,
+                    "color": 4294967295,
+                    "active": true,
+                    "sprite": null,
+                    "label": null,
+                    "children": [
+                      {
+                        "name": "img_dark_front",
+                        "trs": [
+                          5.5,
+                          20.2,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1,
+                          1,
+                          1,
+                          1
+                        ],
+                        "size": [
+                          153,
+                          13
+                        ],
+                        "anchor": [
+                          0.5,
+                          0.5
+                        ],
+                        "opacity": 255,
+                        "color": 4294967295,
+                        "active": false,
+                        "sprite": {
+                          "class": "cc.Sprite",
+                          "_materials": [
+                            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                          ],
+                          "_spriteFrame": "22054cbe-5927-422f-9fca-e5f771f4b34d",
+                          "frame": "22054cbe-5927-422f-9fca-e5f771f4b34d"
+                        },
+                        "label": null,
+                        "children": []
+                      },
+                      {
+                        "name": "img_gray_front",
+                        "trs": [
+                          5,
+                          10.4,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1,
+                          0.9,
+                          0.9,
+                          1
+                        ],
+                        "size": [
+                          28,
+                          28
+                        ],
+                        "anchor": [
+                          0.5,
+                          0.5
+                        ],
+                        "opacity": 255,
+                        "color": 4294967295,
+                        "active": true,
+                        "sprite": null,
+                        "label": null,
+                        "children": []
+                      },
+                      {
+                        "name": "img_light_right",
+                        "trs": [
+                          5.1,
+                          -14,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1,
+                          1,
+                          1,
+                          1
+                        ],
+                        "size": [
+                          76,
+                          59
+                        ],
+                        "anchor": [
+                          0.5,
+                          0.5
+                        ],
+                        "opacity": 120,
+                        "color": 4294967295,
+                        "active": false,
+                        "sprite": {
+                          "class": "cc.Sprite",
+                          "_materials": [
+                            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                          ],
+                          "_spriteFrame": "a8da778c-1ae7-4054-ad24-92558a608c14",
+                          "frame": "a8da778c-1ae7-4054-ad24-92558a608c14"
+                        },
+                        "label": null,
+                        "children": [
+                          {
+                            "name": "img_light_word_front",
+                            "trs": [
+                              0,
+                              16.861,
+                              0,
+                              0,
+                              0,
+                              0,
+                              1,
+                              0.9,
+                              0.9,
+                              1
+                            ],
+                            "size": [
+                              28,
+                              28
+                            ],
+                            "anchor": [
+                              0.5,
+                              0.5
+                            ],
+                            "opacity": 255,
+                            "color": 4294967295,
+                            "active": true,
+                            "sprite": null,
+                            "label": null,
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "left",
+                    "trs": [
+                      -91.6,
+                      6.2,
+                      0,
+                      0,
+                      0,
+                      0,
+                      1,
+                      1,
+                      1,
+                      1
+                    ],
+                    "size": [
+                      65,
+                      124
+                    ],
+                    "anchor": [
+                      0.5,
+                      0.5
+                    ],
+                    "opacity": 255,
+                    "color": 4294967295,
+                    "active": true,
+                    "sprite": null,
+                    "label": null,
+                    "children": [
+                      {
+                        "name": "img_dark_left",
+                        "trs": [
+                          7.9,
+                          1.8,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1,
+                          1,
+                          1,
+                          1
+                        ],
+                        "size": [
+                          23,
+                          117
+                        ],
+                        "anchor": [
+                          0.5,
+                          0.5
+                        ],
+                        "opacity": 255,
+                        "color": 4294967295,
+                        "active": false,
+                        "sprite": {
+                          "class": "cc.Sprite",
+                          "_materials": [
+                            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                          ],
+                          "_spriteFrame": "cc327a3f-0d40-4548-93ad-5a54075a6de7",
+                          "frame": "cc327a3f-0d40-4548-93ad-5a54075a6de7"
+                        },
+                        "label": null,
+                        "children": []
+                      },
+                      {
+                        "name": "img_gray_left",
+                        "trs": [
+                          23.7,
+                          4.049,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1,
+                          0.95,
+                          0.95,
+                          1
+                        ],
+                        "size": [
+                          28,
+                          30
+                        ],
+                        "anchor": [
+                          0.5,
+                          0.5
+                        ],
+                        "opacity": 255,
+                        "color": 4294967295,
+                        "active": true,
+                        "sprite": null,
+                        "label": null,
+                        "children": []
+                      },
+                      {
+                        "name": "img_light_left",
+                        "trs": [
+                          51,
+                          -2.595,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1,
+                          1,
+                          1,
+                          1
+                        ],
+                        "size": [
+                          84,
+                          75
+                        ],
+                        "anchor": [
+                          0.5,
+                          0.5
+                        ],
+                        "opacity": 120,
+                        "color": 4294967295,
+                        "active": false,
+                        "sprite": {
+                          "class": "cc.Sprite",
+                          "_materials": [
+                            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                          ],
+                          "_spriteFrame": "7e369b4d-0dcf-4099-8485-061be75e4efd",
+                          "frame": "7e369b4d-0dcf-4099-8485-061be75e4efd"
+                        },
+                        "label": null,
+                        "children": [
+                          {
+                            "name": "img_light_word_left",
+                            "trs": [
+                              -21.143,
+                              2.003,
+                              0,
+                              0,
+                              0,
+                              0,
+                              1,
+                              0.95,
+                              0.95,
+                              1
+                            ],
+                            "size": [
+                              28,
+                              30
+                            ],
+                            "anchor": [
+                              0.5,
+                              0.5
+                            ],
+                            "opacity": 255,
+                            "color": 4294967295,
+                            "active": true,
+                            "sprite": null,
+                            "label": null,
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "mine",
+                    "trs": [
+                      -1.6,
+                      -32.7,
+                      0,
+                      0,
+                      0,
+                      0,
+                      1,
+                      1,
+                      1,
+                      1
+                    ],
+                    "size": [
+                      171,
+                      51
+                    ],
+                    "anchor": [
+                      0.5,
+                      0.5
+                    ],
+                    "opacity": 255,
+                    "color": 4294967295,
+                    "active": true,
+                    "sprite": null,
+                    "label": null,
+                    "children": [
+                      {
+                        "name": "img_dark_mine",
+                        "trs": [
+                          3.3,
+                          -21.6,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1,
+                          1,
+                          1,
+                          1
+                        ],
+                        "size": [
+                          168,
+                          16
+                        ],
+                        "anchor": [
+                          0.5,
+                          0.5
+                        ],
+                        "opacity": 255,
+                        "color": 4294967295,
+                        "active": false,
+                        "sprite": {
+                          "class": "cc.Sprite",
+                          "_materials": [
+                            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                          ],
+                          "_spriteFrame": "6654ab4d-f237-41d0-97d6-671b67860645",
+                          "frame": "6654ab4d-f237-41d0-97d6-671b67860645"
+                        },
+                        "label": null,
+                        "children": []
+                      },
+                      {
+                        "name": "img_grey_mine",
+                        "trs": [
+                          3,
+                          -5,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1,
+                          1,
+                          1,
+                          1
+                        ],
+                        "size": [
+                          28,
+                          30
+                        ],
+                        "anchor": [
+                          0.5,
+                          0.5
+                        ],
+                        "opacity": 255,
+                        "color": 4294967295,
+                        "active": true,
+                        "sprite": null,
+                        "label": null,
+                        "children": []
+                      },
+                      {
+                        "name": "img_light_mine",
+                        "trs": [
+                          4.1,
+                          5.15,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1,
+                          1,
+                          1,
+                          1
+                        ],
+                        "size": [
+                          80,
+                          69
+                        ],
+                        "anchor": [
+                          0.5,
+                          0.5
+                        ],
+                        "opacity": 120,
+                        "color": 4294967295,
+                        "active": false,
+                        "sprite": {
+                          "class": "cc.Sprite",
+                          "_materials": [
+                            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                          ],
+                          "_spriteFrame": "9a3bf3ba-9a19-4f1a-b3f5-fb7298d74655",
+                          "frame": "9a3bf3ba-9a19-4f1a-b3f5-fb7298d74655"
+                        },
+                        "label": null,
+                        "children": [
+                          {
+                            "name": "img_light_word_mine",
+                            "trs": [
+                              0,
+                              -12,
+                              0,
+                              0,
+                              0,
+                              0,
+                              1,
+                              1,
+                              1,
+                              1
+                            ],
+                            "size": [
+                              28,
+                              30
+                            ],
+                            "anchor": [
+                              0.5,
+                              0.5
+                            ],
+                            "opacity": 255,
+                            "color": 4294967295,
+                            "active": true,
+                            "sprite": null,
+                            "label": null,
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "img_count_bg",
+            "trs": [
+              0,
+              1.67,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0.8,
+              0.8,
+              1
+            ],
+            "size": [
+              118,
+              103
+            ],
+            "anchor": [
+              0.5,
+              0.5
+            ],
+            "opacity": 255,
+            "color": 4294967295,
+            "active": true,
+            "sprite": {
+              "class": "cc.Sprite",
+              "_materials": [
+                "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+              ],
+              "_spriteFrame": "c6a528a9-8790-409f-adf0-13626cb71874",
+              "frame": "c6a528a9-8790-409f-adf0-13626cb71874"
+            },
+            "label": null,
+            "children": []
+          },
+          {
+            "name": "label_countdown",
+            "trs": [
+              0,
+              4.864,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0.4,
+              0.4,
+              1
+            ],
+            "size": [
+              78.75,
+              32
+            ],
+            "anchor": [
+              0.5,
+              0.5
+            ],
+            "opacity": 255,
+            "color": 4294967295,
+            "active": true,
+            "sprite": null,
+            "label": {
+              "class": "cc.Label",
+              "_fontSize": 72,
+              "_lineHeight": 32,
+              "_isSystemFontUsed": false,
+              "_N$horizontalAlign": 1,
+              "_N$verticalAlign": 1,
+              "_materials": [
+                "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+              ],
+              "_N$file": "dfca0b60-5eb1-48a0-b79d-455a55675d50"
+            },
+            "children": []
+          }
+        ]
+      },
+      "runtime": {
+        "textureHeight": 522,
+        "texturePosition": [
+          0,
+          20
+        ],
+        "watermarkPosition": [
+          -250,
+          -145
+        ]
+      }
+    },
+    {
+      "key": "308",
+      "config": {
+        "id": 308,
+        "type": 4,
+        "name": "年兽迎福",
+        "showType": 3,
+        "showWeight": 8,
+        "sex": 2,
+        "iconSmall": "zhuozi_tyss",
+        "iconBig": "zhuozi_tyss",
+        "iconBack": "Table_9",
+        "PrefabName": "table3DBox_YX"
+      },
+      "source": {
+        "bundle": "prefabs",
+        "id": 2804,
+        "countdownId": 3698
+      },
+      "tree": {
+        "name": "table3DBox_YX",
+        "trs": [
+          0,
+          360,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "size": [
+          1600,
+          720
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "opacity": 255,
+        "color": 4294967295,
+        "active": true,
+        "sprite": {
+          "class": "cc.Sprite",
+          "_sizeMode": 2,
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "52343c92-a8e2-40bb-be30-e9a3875071e8",
+          "frame": "52343c92-a8e2-40bb-be30-e9a3875071e8"
+        },
+        "label": null,
+        "children": [
+          {
+            "name": "texture",
+            "trs": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            "size": [
+              879,
+              523
+            ],
+            "anchor": [
+              0.5,
+              0.5
+            ],
+            "opacity": 255,
+            "color": 4294967295,
+            "active": true,
+            "sprite": {
+              "class": "cc.Sprite",
+              "_materials": [
+                "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+              ],
+              "_spriteFrame": "e12ba14c-6143-415b-820c-72a7d96afbba",
+              "frame": "e12ba14c-6143-415b-820c-72a7d96afbba"
+            },
+            "label": null,
+            "children": []
+          },
+          {
+            "name": "logo",
+            "trs": [
+              -248.452,
+              -155.283,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            "size": [
+              203,
+              73
+            ],
+            "anchor": [
+              0.5,
+              0.5
+            ],
+            "opacity": 255,
+            "color": 4294967295,
+            "active": true,
+            "sprite": {
+              "class": "cc.Sprite",
+              "_materials": [
+                "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+              ],
+              "_spriteFrame": "338acc60-8732-4c61-a60a-1db2ac806c5a",
+              "frame": "338acc60-8732-4c61-a60a-1db2ac806c5a"
+            },
+            "label": null,
+            "children": []
+          }
+        ]
+      },
+      "countdown": {
+        "name": "cd_tyss",
+        "trs": [
+          0,
+          18,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1.2,
+          1.2,
+          1
+        ],
+        "size": [
+          145.6,
+          112
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "opacity": 255,
+        "color": 4294967295,
+        "active": true,
+        "sprite": null,
+        "label": null,
+        "children": [
+          {
+            "name": "img_panBg",
+            "trs": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0.8,
+              0.8,
+              1
+            ],
+            "size": [
+              182,
+              138
+            ],
+            "anchor": [
+              0.5,
+              0.5
+            ],
+            "opacity": 255,
+            "color": 4294967295,
+            "active": true,
+            "sprite": {
+              "class": "cc.Sprite",
+              "_materials": [
+                "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+              ],
+              "_spriteFrame": "4d5ea372-6179-4349-9473-c7e0bcabc516",
+              "frame": "4d5ea372-6179-4349-9473-c7e0bcabc516"
+            },
+            "label": null,
+            "children": [
+              {
+                "name": "EastPannel",
+                "trs": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "size": [
+                  0,
+                  0
+                ],
+                "anchor": [
+                  0.5,
+                  0.5
+                ],
+                "opacity": 255,
+                "color": 4294967295,
+                "active": true,
+                "sprite": null,
+                "label": null,
+                "children": [
+                  {
+                    "name": "right",
+                    "trs": [
+                      51.3,
+                      6,
+                      0,
+                      0,
+                      0,
+                      0,
+                      1,
+                      1,
+                      1,
+                      1
+                    ],
+                    "size": [
+                      65,
+                      124
+                    ],
+                    "anchor": [
+                      0.5,
+                      0.5
+                    ],
+                    "opacity": 255,
+                    "color": 4294967295,
+                    "active": true,
+                    "sprite": null,
+                    "label": null,
+                    "children": [
+                      {
+                        "name": "img_dark_right",
+                        "trs": [
+                          35.9,
+                          1.3,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1,
+                          1,
+                          1,
+                          1
+                        ],
+                        "size": [
+                          23,
+                          116
+                        ],
+                        "anchor": [
+                          0.5,
+                          0.5
+                        ],
+                        "opacity": 255,
+                        "color": 4294967295,
+                        "active": false,
+                        "sprite": {
+                          "class": "cc.Sprite",
+                          "_materials": [
+                            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                          ],
+                          "_spriteFrame": "85bf5e68-0eb7-4902-b000-89096507f51b",
+                          "frame": "85bf5e68-0eb7-4902-b000-89096507f51b"
+                        },
+                        "label": null,
+                        "children": []
+                      },
+                      {
+                        "name": "img_gray_right",
+                        "trs": [
+                          17.455,
+                          5.2,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1,
+                          0.95,
+                          0.95,
+                          1
+                        ],
+                        "size": [
+                          28,
+                          29
+                        ],
+                        "anchor": [
+                          0.5,
+                          0.5
+                        ],
+                        "opacity": 255,
+                        "color": 4294967295,
+                        "active": true,
+                        "sprite": null,
+                        "label": null,
+                        "children": []
+                      },
+                      {
+                        "name": "img_light_right",
+                        "trs": [
+                          0.01,
+                          2.621,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1,
+                          1,
+                          1,
+                          1
+                        ],
+                        "size": [
+                          96,
+                          116
+                        ],
+                        "anchor": [
+                          0.5,
+                          0.5
+                        ],
+                        "opacity": 255,
+                        "color": 4294967295,
+                        "active": false,
+                        "sprite": null,
+                        "label": null,
+                        "children": [
+                          {
+                            "name": "img_light_word_right",
+                            "trs": [
+                              6.156,
+                              -6.733,
+                              0,
+                              0,
+                              0,
+                              0,
+                              1,
+                              1,
+                              1,
+                              1
+                            ],
+                            "size": [
+                              57,
+                              49
+                            ],
+                            "anchor": [
+                              0.5,
+                              0.5
+                            ],
+                            "opacity": 255,
+                            "color": 4294967295,
+                            "active": true,
+                            "sprite": {
+                              "class": "cc.Sprite",
+                              "_materials": [
+                                "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                              ],
+                              "_spriteFrame": "ebf49cab-1f68-45db-8362-8c3c5533973b",
+                              "frame": "ebf49cab-1f68-45db-8362-8c3c5533973b"
+                            },
+                            "label": null,
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "front",
+                    "trs": [
+                      -3.6,
+                      49.5,
+                      0,
+                      0,
+                      0,
+                      0,
+                      1,
+                      1,
+                      1,
+                      1
+                    ],
+                    "size": [
+                      157,
+                      44
+                    ],
+                    "anchor": [
+                      0.5,
+                      0.5
+                    ],
+                    "opacity": 255,
+                    "color": 4294967295,
+                    "active": true,
+                    "sprite": null,
+                    "label": null,
+                    "children": [
+                      {
+                        "name": "img_dark_front",
+                        "trs": [
+                          5.5,
+                          20.2,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1,
+                          1,
+                          1,
+                          1
+                        ],
+                        "size": [
+                          153,
+                          13
+                        ],
+                        "anchor": [
+                          0.5,
+                          0.5
+                        ],
+                        "opacity": 255,
+                        "color": 4294967295,
+                        "active": false,
+                        "sprite": {
+                          "class": "cc.Sprite",
+                          "_materials": [
+                            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                          ],
+                          "_spriteFrame": "22054cbe-5927-422f-9fca-e5f771f4b34d",
+                          "frame": "22054cbe-5927-422f-9fca-e5f771f4b34d"
+                        },
+                        "label": null,
+                        "children": []
+                      },
+                      {
+                        "name": "img_gray_front",
+                        "trs": [
+                          5,
+                          10.4,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1,
+                          0.9,
+                          0.9,
+                          1
+                        ],
+                        "size": [
+                          28,
+                          28
+                        ],
+                        "anchor": [
+                          0.5,
+                          0.5
+                        ],
+                        "opacity": 255,
+                        "color": 4294967295,
+                        "active": true,
+                        "sprite": null,
+                        "label": null,
+                        "children": []
+                      },
+                      {
+                        "name": "img_light_right",
+                        "trs": [
+                          4.86,
+                          -7.179,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1,
+                          1,
+                          1,
+                          1
+                        ],
+                        "size": [
+                          153,
+                          65
+                        ],
+                        "anchor": [
+                          0.5,
+                          0.5
+                        ],
+                        "opacity": 255,
+                        "color": 4294967295,
+                        "active": false,
+                        "sprite": null,
+                        "label": null,
+                        "children": [
+                          {
+                            "name": "img_light_word_front",
+                            "trs": [
+                              -3.316,
+                              2.177,
+                              0,
+                              0,
+                              0,
+                              0,
+                              1,
+                              1,
+                              1,
+                              1
+                            ],
+                            "size": [
+                              54,
+                              45
+                            ],
+                            "anchor": [
+                              0.5,
+                              0.5
+                            ],
+                            "opacity": 255,
+                            "color": 4294967295,
+                            "active": true,
+                            "sprite": {
+                              "class": "cc.Sprite",
+                              "_materials": [
+                                "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                              ],
+                              "_spriteFrame": "f48aa29b-8fd7-4581-94fd-a5b81a1b9133",
+                              "frame": "f48aa29b-8fd7-4581-94fd-a5b81a1b9133"
+                            },
+                            "label": null,
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "left",
+                    "trs": [
+                      -91.6,
+                      6.2,
+                      0,
+                      0,
+                      0,
+                      0,
+                      1,
+                      1,
+                      1,
+                      1
+                    ],
+                    "size": [
+                      65,
+                      124
+                    ],
+                    "anchor": [
+                      0.5,
+                      0.5
+                    ],
+                    "opacity": 255,
+                    "color": 4294967295,
+                    "active": true,
+                    "sprite": null,
+                    "label": null,
+                    "children": [
+                      {
+                        "name": "img_dark_left",
+                        "trs": [
+                          7.9,
+                          1.8,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1,
+                          1,
+                          1,
+                          1
+                        ],
+                        "size": [
+                          23,
+                          117
+                        ],
+                        "anchor": [
+                          0.5,
+                          0.5
+                        ],
+                        "opacity": 255,
+                        "color": 4294967295,
+                        "active": false,
+                        "sprite": {
+                          "class": "cc.Sprite",
+                          "_materials": [
+                            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                          ],
+                          "_spriteFrame": "cc327a3f-0d40-4548-93ad-5a54075a6de7",
+                          "frame": "cc327a3f-0d40-4548-93ad-5a54075a6de7"
+                        },
+                        "label": null,
+                        "children": []
+                      },
+                      {
+                        "name": "img_gray_left",
+                        "trs": [
+                          23.7,
+                          4.049,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1,
+                          0.95,
+                          0.95,
+                          1
+                        ],
+                        "size": [
+                          28,
+                          30
+                        ],
+                        "anchor": [
+                          0.5,
+                          0.5
+                        ],
+                        "opacity": 255,
+                        "color": 4294967295,
+                        "active": true,
+                        "sprite": null,
+                        "label": null,
+                        "children": []
+                      },
+                      {
+                        "name": "img_light_left",
+                        "trs": [
+                          44.4,
+                          3.247,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1,
+                          1,
+                          1,
+                          1
+                        ],
+                        "size": [
+                          97,
+                          117
+                        ],
+                        "anchor": [
+                          0.5,
+                          0.5
+                        ],
+                        "opacity": 255,
+                        "color": 4294967295,
+                        "active": false,
+                        "sprite": null,
+                        "label": null,
+                        "children": [
+                          {
+                            "name": "img_light_word_left",
+                            "trs": [
+                              -11.913,
+                              -6.668,
+                              0,
+                              0,
+                              0,
+                              0,
+                              1,
+                              1,
+                              1,
+                              1
+                            ],
+                            "size": [
+                              57,
+                              47
+                            ],
+                            "anchor": [
+                              0.5,
+                              0.5
+                            ],
+                            "opacity": 255,
+                            "color": 4294967295,
+                            "active": true,
+                            "sprite": {
+                              "class": "cc.Sprite",
+                              "_materials": [
+                                "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                              ],
+                              "_spriteFrame": "e9c7c882-61c1-4727-af0d-08c4ec76317a",
+                              "frame": "e9c7c882-61c1-4727-af0d-08c4ec76317a"
+                            },
+                            "label": null,
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "mine",
+                    "trs": [
+                      -1.6,
+                      -32.7,
+                      0,
+                      0,
+                      0,
+                      0,
+                      1,
+                      1,
+                      1,
+                      1
+                    ],
+                    "size": [
+                      171,
+                      51
+                    ],
+                    "anchor": [
+                      0.5,
+                      0.5
+                    ],
+                    "opacity": 255,
+                    "color": 4294967295,
+                    "active": true,
+                    "sprite": null,
+                    "label": null,
+                    "children": [
+                      {
+                        "name": "img_dark_mine",
+                        "trs": [
+                          3.3,
+                          -21.6,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1,
+                          1,
+                          1,
+                          1
+                        ],
+                        "size": [
+                          168,
+                          16
+                        ],
+                        "anchor": [
+                          0.5,
+                          0.5
+                        ],
+                        "opacity": 255,
+                        "color": 4294967295,
+                        "active": false,
+                        "sprite": {
+                          "class": "cc.Sprite",
+                          "_materials": [
+                            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                          ],
+                          "_spriteFrame": "6654ab4d-f237-41d0-97d6-671b67860645",
+                          "frame": "6654ab4d-f237-41d0-97d6-671b67860645"
+                        },
+                        "label": null,
+                        "children": []
+                      },
+                      {
+                        "name": "img_grey_mine",
+                        "trs": [
+                          3,
+                          -5,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1,
+                          1,
+                          1,
+                          1
+                        ],
+                        "size": [
+                          28,
+                          30
+                        ],
+                        "anchor": [
+                          0.5,
+                          0.5
+                        ],
+                        "opacity": 255,
+                        "color": 4294967295,
+                        "active": true,
+                        "sprite": null,
+                        "label": null,
+                        "children": []
+                      },
+                      {
+                        "name": "img_light_mine",
+                        "trs": [
+                          2.9,
+                          7.5,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1,
+                          1,
+                          1,
+                          1
+                        ],
+                        "size": [
+                          168,
+                          73
+                        ],
+                        "anchor": [
+                          0.5,
+                          0.5
+                        ],
+                        "opacity": 255,
+                        "color": 4294967295,
+                        "active": false,
+                        "sprite": null,
+                        "label": null,
+                        "children": [
+                          {
+                            "name": "img_light_word_mine",
+                            "trs": [
+                              -0.839,
+                              -17.314,
+                              0,
+                              0,
+                              0,
+                              0,
+                              1,
+                              1,
+                              1,
+                              1
+                            ],
+                            "size": [
+                              63,
+                              55
+                            ],
+                            "anchor": [
+                              0.5,
+                              0.5
+                            ],
+                            "opacity": 255,
+                            "color": 4294967295,
+                            "active": true,
+                            "sprite": {
+                              "class": "cc.Sprite",
+                              "_materials": [
+                                "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                              ],
+                              "_spriteFrame": "de5ea283-75df-443e-8ec5-567901a27ff7",
+                              "frame": "de5ea283-75df-443e-8ec5-567901a27ff7"
+                            },
+                            "label": null,
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "label_countdown",
+            "trs": [
+              0,
+              15,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0.35,
+              0.35,
+              1
+            ],
+            "size": [
+              119.38,
+              60
+            ],
+            "anchor": [
+              0.5,
+              0.5
+            ],
+            "opacity": 255,
+            "color": 4294967295,
+            "active": true,
+            "sprite": null,
+            "label": {
+              "class": "cc.Label",
+              "_fontSize": 60,
+              "_lineHeight": 60,
+              "_isSystemFontUsed": false,
+              "_spacingX": -10,
+              "_N$horizontalAlign": 1,
+              "_N$verticalAlign": 1,
+              "_materials": [
+                "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+              ],
+              "_N$file": "9d8e7154-2b41-4fdf-b945-d7864a48c37a"
+            },
+            "children": []
+          }
+        ]
+      },
+      "runtime": {
+        "textureHeight": 522,
+        "texturePosition": [
+          0,
+          20
+        ],
+        "watermarkPosition": [
+          -250,
+          -145
+        ]
+      }
+    }
+  ],
+  "fonts": [
+    {
+      "uuid": "9d8e7154-2b41-4fdf-b945-d7864a48c37a",
+      "source": {
+        "bundle": "fonts",
+        "id": 184,
+        "path": "game/CountDown/fnt_countDown"
+      },
+      "size": 32,
+      "image": "desk-preview-study/assets/fonts-122-fnt_countDown.png",
+      "glyphs": {
+        "9": {
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 0,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        "32": {
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 0,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        "48": {
+          "xOffset": 0,
+          "yOffset": 15,
+          "xAdvance": 32,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 37,
+            "height": 41
+          }
+        },
+        "49": {
+          "xOffset": 0,
+          "yOffset": 15,
+          "xAdvance": 18,
+          "rect": {
+            "x": 101,
+            "y": 82,
+            "width": 23,
+            "height": 41
+          }
+        },
+        "50": {
+          "xOffset": 0,
+          "yOffset": 15,
+          "xAdvance": 32,
+          "rect": {
+            "x": 0,
+            "y": 82,
+            "width": 37,
+            "height": 41
+          }
+        },
+        "51": {
+          "xOffset": 0,
+          "yOffset": 15,
+          "xAdvance": 29,
+          "rect": {
+            "x": 71,
+            "y": 41,
+            "width": 34,
+            "height": 41
+          }
+        },
+        "52": {
+          "xOffset": 0,
+          "yOffset": 15,
+          "xAdvance": 29,
+          "rect": {
+            "x": 37,
+            "y": 82,
+            "width": 34,
+            "height": 41
+          }
+        },
+        "53": {
+          "xOffset": 0,
+          "yOffset": 15,
+          "xAdvance": 27,
+          "rect": {
+            "x": 72,
+            "y": 0,
+            "width": 32,
+            "height": 41
+          }
+        },
+        "54": {
+          "xOffset": 0,
+          "yOffset": 15,
+          "xAdvance": 30,
+          "rect": {
+            "x": 37,
+            "y": 0,
+            "width": 35,
+            "height": 41
+          }
+        },
+        "55": {
+          "xOffset": 0,
+          "yOffset": 15,
+          "xAdvance": 25,
+          "rect": {
+            "x": 71,
+            "y": 82,
+            "width": 30,
+            "height": 41
+          }
+        },
+        "56": {
+          "xOffset": 0,
+          "yOffset": 15,
+          "xAdvance": 32,
+          "rect": {
+            "x": 0,
+            "y": 41,
+            "width": 37,
+            "height": 41
+          }
+        },
+        "57": {
+          "xOffset": 0,
+          "yOffset": 15,
+          "xAdvance": 29,
+          "rect": {
+            "x": 37,
+            "y": 41,
+            "width": 34,
+            "height": 41
+          }
+        }
+      }
+    },
+    {
+      "uuid": "dfca0b60-5eb1-48a0-b79d-455a55675d50",
+      "source": {
+        "bundle": "common",
+        "id": 710,
+        "path": "CountDown/XingYue/fnt_daojishi"
+      },
+      "size": 32,
+      "image": "desk-preview-study/assets/common-73-fnt_daojishi.png",
+      "glyphs": {
+        "9": {
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 160,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        "32": {
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 20,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        "48": {
+          "xOffset": 0,
+          "yOffset": 2,
+          "xAdvance": 16,
+          "rect": {
+            "x": 20,
+            "y": 22,
+            "width": 19,
+            "height": 21
+          }
+        },
+        "49": {
+          "xOffset": 0,
+          "yOffset": 1,
+          "xAdvance": 8,
+          "rect": {
+            "x": 58,
+            "y": 46,
+            "width": 11,
+            "height": 23
+          }
+        },
+        "50": {
+          "xOffset": 0,
+          "yOffset": 2,
+          "xAdvance": 17,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 20,
+            "height": 21
+          }
+        },
+        "51": {
+          "xOffset": 0,
+          "yOffset": 2,
+          "xAdvance": 15,
+          "rect": {
+            "x": 39,
+            "y": 44,
+            "width": 18,
+            "height": 21
+          }
+        },
+        "52": {
+          "xOffset": 0,
+          "yOffset": 1,
+          "xAdvance": 15,
+          "rect": {
+            "x": 20,
+            "y": 44,
+            "width": 18,
+            "height": 22
+          }
+        },
+        "53": {
+          "xOffset": 0,
+          "yOffset": 2,
+          "xAdvance": 15,
+          "rect": {
+            "x": 40,
+            "y": 0,
+            "width": 18,
+            "height": 21
+          }
+        },
+        "54": {
+          "xOffset": 0,
+          "yOffset": 2,
+          "xAdvance": 15,
+          "rect": {
+            "x": 21,
+            "y": 0,
+            "width": 18,
+            "height": 21
+          }
+        },
+        "55": {
+          "xOffset": 0,
+          "yOffset": 1,
+          "xAdvance": 13,
+          "rect": {
+            "x": 58,
+            "y": 22,
+            "width": 16,
+            "height": 23
+          }
+        },
+        "56": {
+          "xOffset": 0,
+          "yOffset": 2,
+          "xAdvance": 16,
+          "rect": {
+            "x": 0,
+            "y": 22,
+            "width": 19,
+            "height": 21
+          }
+        },
+        "57": {
+          "xOffset": 0,
+          "yOffset": 2,
+          "xAdvance": 16,
+          "rect": {
+            "x": 0,
+            "y": 44,
+            "width": 19,
+            "height": 21
+          }
+        }
+      }
+    }
+  ],
+  "notes": [
+    "hallShopDeskItem.onClickShowPre sends the local goods config to TablePreview.ON_INIT. This is a visual preview, separate from onClickItem purchase.",
+    "TablePreviewView loads the original GameDesk prefab and its custom countdown. No example hand, players, or purchase action is added in that prefab. Both Root and BtnBack cc.Button clickEvents invoke onClickClose; DeskPreTip says 点击屏幕关闭预览.",
+    "GameDeskView applies ordinary prop texture height 522 and position (0,20). Its watermark is enabled only for channel wx.h5scmj; it is hidden for this zxwyouxi preview.",
+    "Vertical Widget alignment centers the 720-high desk in LoadPre at runtime; source authored root y=360 is replaced by resolved y=0.",
+    "The source catalog calls id304 四季常春; the user reference shop card text 四季常青 is accepted as an alias.",
+    "Only already collected original images are used. These three preview prefabs have static sprite artwork, with no missing decorative animation components."
+  ]
+}

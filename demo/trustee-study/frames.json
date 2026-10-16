@@ -1,0 +1,113 @@
+[
+  {
+    "name": "head_trustee",
+    "rect": [
+      319,
+      955,
+      73,
+      66
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      73,
+      66
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bundle": "common",
+    "id": 245,
+    "textureUUID": "1c0b6e64f",
+    "image": "trustee-study/common-245-head_trustee.png"
+  },
+  {
+    "name": "btn_com07",
+    "rect": [
+      254,
+      550,
+      233,
+      85
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      233,
+      85
+    ],
+    "rotated": 1,
+    "capInsets": [
+      130,
+      29,
+      100,
+      44
+    ],
+    "bundle": "common",
+    "id": 357,
+    "textureUUID": "1e8019203",
+    "image": "trustee-study/common-357-btn_com07.png"
+  },
+  {
+    "name": "img_ZCoin",
+    "rect": [
+      65,
+      308,
+      49,
+      53
+    ],
+    "offset": [
+      0,
+      -1.5
+    ],
+    "originalSize": [
+      53,
+      56
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bundle": "common",
+    "id": 473,
+    "textureUUID": "128f721b8",
+    "image": "trustee-study/common-473-img_ZCoin.png"
+  },
+  {
+    "name": "trustee_bg",
+    "rect": [
+      3,
+      3,
+      7,
+      225
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      7,
+      225
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bundle": "game",
+    "id": 140,
+    "textureUUID": "1d3763f6c",
+    "image": "trustee-study/game-140-trustee_bg.png"
+  }
+]

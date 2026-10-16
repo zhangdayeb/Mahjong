@@ -1,0 +1,1744 @@
+[
+  {
+    "bundle": "game",
+    "id": 75,
+    "path": "Other/menu/bg_menuList",
+    "name": "bg_menuList",
+    "rect": [
+      102,
+      2,
+      316,
+      4
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      316,
+      4
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "0f8eb94b-1b93-4348-b260-de5713357e1e",
+    "textureUUID": "1c2e97542",
+    "texture": "asset-study/media/images/game/_unnamed/1c2e97542.png",
+    "image": "sanguo-table-study/assets/dealt-game-75.png"
+  },
+  {
+    "bundle": "game",
+    "id": 498,
+    "path": "NewSkin/MenuBtn/tuoguan",
+    "name": "tuoguan",
+    "rect": [
+      0,
+      0,
+      144,
+      60
+    ],
+    "offset": [
+      -1.5,
+      0
+    ],
+    "originalSize": [
+      147,
+      60
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "5ef0d887-73ee-4c53-8aff-ca4225c74503",
+    "textureUUID": "22923acd-f4f4-4923-b481-5e0aaed86dc9",
+    "texture": "asset-study/media/images/game/NewSkin/MenuBtn/tuoguan.png",
+    "image": "sanguo-table-study/assets/dealt-game-498.png"
+  },
+  {
+    "bundle": "game",
+    "id": 530,
+    "path": "NewSkin/MenuBtn/shezhi",
+    "name": "shezhi",
+    "rect": [
+      0,
+      0,
+      143,
+      60
+    ],
+    "offset": [
+      -2,
+      0
+    ],
+    "originalSize": [
+      147,
+      60
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "63d04334-dfe7-4376-a1b2-c542ec5e432b",
+    "textureUUID": "55d89e8c-3fbe-4e0a-b893-015b605a91dc",
+    "texture": "asset-study/media/images/game/NewSkin/MenuBtn/shezhi.png",
+    "image": "sanguo-table-study/assets/dealt-game-530.png"
+  },
+  {
+    "bundle": "game",
+    "id": 728,
+    "path": "NewSkin/MenuBtn/guize",
+    "name": "guize",
+    "rect": [
+      0,
+      0,
+      143,
+      60
+    ],
+    "offset": [
+      -2,
+      0
+    ],
+    "originalSize": [
+      147,
+      60
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "8cad46cb-f178-4155-9ff4-056efed725f7",
+    "textureUUID": "55a6316e-7554-4ccd-a344-80c8e2f220b7",
+    "texture": "asset-study/media/images/game/NewSkin/MenuBtn/guize.png",
+    "image": "sanguo-table-study/assets/dealt-game-728.png"
+  },
+  {
+    "bundle": "game",
+    "id": 359,
+    "path": "NewSkin/MenuBtn/chaoshianniu",
+    "name": "chaoshianniu",
+    "rect": [
+      0,
+      0,
+      144,
+      60
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      144,
+      60
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "4622fdd8-d04a-43b1-bd34-fa4145e45f8f@6c48a",
+    "textureUUID": "4622fdd8-d04a-43b1-bd34-fa4145e45f8f",
+    "texture": "asset-study/media/images/game/NewSkin/MenuBtn/chaoshianniu.png",
+    "image": "sanguo-table-study/assets/dealt-game-359.png"
+  },
+  {
+    "bundle": "game",
+    "id": 902,
+    "path": "NewSkin/MenuBtn/tuichu",
+    "name": "tuichu",
+    "rect": [
+      0,
+      0,
+      141,
+      60
+    ],
+    "offset": [
+      -3,
+      0
+    ],
+    "originalSize": [
+      147,
+      60
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "aa7632fb-6fcf-4bc5-83bc-6a0bd3f1b783",
+    "textureUUID": "c2fa1af8-b228-40cf-aadb-b0ce9cfad48f",
+    "texture": "asset-study/media/images/game/NewSkin/MenuBtn/tuichu.png",
+    "image": "sanguo-table-study/assets/dealt-game-902.png"
+  },
+  {
+    "bundle": "game",
+    "id": 71,
+    "path": "NewSkin/MenuBtn/jipaiqi",
+    "name": "jipaiqi",
+    "rect": [
+      0,
+      0,
+      60,
+      60
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      60,
+      60
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "0ed97780-de55-461b-879f-6eb403d1a321",
+    "textureUUID": "985a5eef-0d98-4afd-8e4c-5efa07763acf",
+    "texture": "asset-study/media/images/game/NewSkin/MenuBtn/jipaiqi.png",
+    "image": "sanguo-table-study/assets/dealt-game-71.png"
+  },
+  {
+    "bundle": "game",
+    "id": 856,
+    "path": "NewSkin/MenuBtn/xinxi",
+    "name": "xinxi",
+    "rect": [
+      0,
+      0,
+      60,
+      60
+    ],
+    "offset": [
+      0,
+      1
+    ],
+    "originalSize": [
+      60,
+      62
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "a25fb90c-30df-4778-9c94-7bf5d8f0f86e",
+    "textureUUID": "2c0e6813-f396-4ffd-a642-2a3f3059d3db",
+    "texture": "asset-study/media/images/game/NewSkin/MenuBtn/xinxi.png",
+    "image": "sanguo-table-study/assets/dealt-game-856.png"
+  },
+  {
+    "bundle": "game",
+    "id": 860,
+    "path": "Other/menu/gameMenuUpdateTipLeft",
+    "name": "gameMenuUpdateTipLeft",
+    "rect": [
+      2,
+      2,
+      96,
+      38
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      96,
+      38
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "a2d27574-8d17-4ff5-9417-b85298718c28",
+    "textureUUID": "1c2e97542",
+    "texture": "asset-study/media/images/game/_unnamed/1c2e97542.png",
+    "image": "sanguo-table-study/assets/dealt-game-860.png"
+  },
+  {
+    "bundle": "game",
+    "id": 266,
+    "path": "NewSkin/MenuBtn/duijuliushui",
+    "name": "duijuliushui",
+    "rect": [
+      0,
+      0,
+      60,
+      60
+    ],
+    "offset": [
+      0,
+      1
+    ],
+    "originalSize": [
+      60,
+      62
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "35c3d505-c793-4636-aaaa-23c14c864111",
+    "textureUUID": "8ec685a7-0751-45ed-8307-b49242da431d",
+    "texture": "asset-study/media/images/game/NewSkin/MenuBtn/duijuliushui.png",
+    "image": "sanguo-table-study/assets/dealt-game-266.png"
+  },
+  {
+    "bundle": "game",
+    "id": 99,
+    "path": "NewSkin/QucikFan/anniu",
+    "name": "anniu",
+    "rect": [
+      790,
+      77,
+      60,
+      60
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      60,
+      60
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "14527599-9d22-4572-9eaf-2586f6b5af2f",
+    "textureUUID": "115b40043",
+    "texture": "asset-study/media/images/game/_unnamed/115b40043.png",
+    "image": "sanguo-table-study/assets/dealt-game-99.png"
+  },
+  {
+    "bundle": "common",
+    "id": 75,
+    "path": "NewSkin/other/pic_com17",
+    "name": "pic_com17",
+    "rect": [
+      994,
+      366,
+      24,
+      25
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      24,
+      25
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "1a90e871-5072-4dfa-8eb9-983e2d60ef00",
+    "textureUUID": "1d05abae0",
+    "texture": "asset-study/media/images/common/_unnamed/1d05abae0.png",
+    "image": "sanguo-table-study/assets/dealt-common-75.png"
+  },
+  {
+    "bundle": "game",
+    "id": 752,
+    "path": "Other/GameHuBehavior/di",
+    "name": "di",
+    "rect": [
+      3,
+      57,
+      591,
+      300
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      591,
+      300
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "91caecac-3ba4-4bf4-8ecb-bd85d106270d@6c48a",
+    "textureUUID": "1935c16e1",
+    "texture": "asset-study/media/images/game/_unnamed/1935c16e1.png",
+    "image": "sanguo-table-study/assets/dealt-game-752.png"
+  },
+  {
+    "bundle": "game",
+    "id": 618,
+    "path": "Other/GameHuBehavior/kuang",
+    "name": "kuang",
+    "rect": [
+      89,
+      3,
+      48,
+      49
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      48,
+      49
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "75420c56-9d95-4ec7-ab16-edde9836e128@6c48a",
+    "textureUUID": "1935c16e1",
+    "texture": "asset-study/media/images/game/_unnamed/1935c16e1.png",
+    "image": "sanguo-table-study/assets/dealt-game-618.png"
+  },
+  {
+    "bundle": "game",
+    "id": 740,
+    "path": "Other/GameHuBehavior/gou",
+    "name": "gou",
+    "rect": [
+      36,
+      3,
+      47,
+      45
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      47,
+      45
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "8f03ae14-7486-49e9-a557-9b08ce2d8518@6c48a",
+    "textureUUID": "1935c16e1",
+    "texture": "asset-study/media/images/game/_unnamed/1935c16e1.png",
+    "image": "sanguo-table-study/assets/dealt-game-740.png"
+  },
+  {
+    "bundle": "common",
+    "id": 816,
+    "path": "NewSkin/NewBtn/btn_com04",
+    "name": "btn_com04",
+    "rect": [
+      179,
+      736,
+      38,
+      37
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      38,
+      37
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "feec4ed5-df49-4757-ad98-21baf745e1a0",
+    "textureUUID": "1e8019203",
+    "texture": "asset-study/media/images/common/_unnamed/1e8019203.png",
+    "image": "sanguo-table-study/assets/dealt-common-816.png"
+  },
+  {
+    "bundle": "game",
+    "id": 2007,
+    "name": "sg_img_tile_7_1",
+    "rect": [
+      2,
+      286,
+      79,
+      114
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "c3e686de-ffb5-4fbf-8f9c-cb3beaa7e577",
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9",
+    "texture": "asset-study/media/images/game/Other/Tiles/mj_hand_card.png",
+    "image": "sanguo-table-study/assets/dealt-game-2007.png"
+  },
+  {
+    "bundle": "game",
+    "id": 1697,
+    "name": "sg_img_tile_7_2",
+    "rect": [
+      2,
+      205,
+      79,
+      114
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "498350da-155f-478e-87cb-c248e9994288",
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9",
+    "texture": "asset-study/media/images/game/Other/Tiles/mj_hand_card.png",
+    "image": "sanguo-table-study/assets/dealt-game-1697.png"
+  },
+  {
+    "bundle": "game",
+    "id": 1685,
+    "name": "sg_img_tile_7_3",
+    "rect": [
+      372,
+      207,
+      81,
+      114
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "4667463a-99a5-425c-9b96-50300ece8b43",
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9",
+    "texture": "asset-study/media/images/game/Other/Tiles/mj_hand_card.png",
+    "image": "sanguo-table-study/assets/dealt-game-1685.png"
+  },
+  {
+    "bundle": "game",
+    "id": 1445,
+    "name": "sg_img_tile_10_3",
+    "rect": [
+      207,
+      212,
+      79,
+      114
+    ],
+    "offset": [
+      0,
+      1
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "08c4d66d-7f5b-4f87-b353-bdf6d93f5802",
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9",
+    "texture": "asset-study/media/images/game/Other/Tiles/mj_hand_card.png",
+    "image": "sanguo-table-study/assets/dealt-game-1445.png"
+  },
+  {
+    "bundle": "game",
+    "id": 1457,
+    "name": "img_normal_card",
+    "rect": [
+      819,
+      2,
+      91,
+      134
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "0c5f2a30-88d7-433e-8a36-49e45b25f2ce",
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9",
+    "texture": "asset-study/media/images/game/Other/Tiles/mj_hand_card.png",
+    "image": "sanguo-table-study/assets/dealt-game-1457.png"
+  },
+  {
+    "bundle": "game",
+    "id": 2055,
+    "name": "Frame_zuojia_shupai_17",
+    "rect": [
+      863,
+      391,
+      47,
+      62
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      47,
+      62
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "d264cc82-7585-400d-bf47-fdcf40bcafc8",
+    "textureUUID": "68218bc9-8fd2-456e-9217-cf576f5e2b64",
+    "texture": "asset-study/media/images/game/Other/Tiles/mj_left_card.png",
+    "image": "sanguo-table-study/assets/dealt-game-2055.png"
+  },
+  {
+    "bundle": "game",
+    "id": 1454,
+    "name": "Frame_zuojia_shupai_16",
+    "rect": [
+      927,
+      398,
+      46,
+      61
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      46,
+      61
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "0adc74c3-6dae-40ff-919b-2c28b621bfd6",
+    "textureUUID": "68218bc9-8fd2-456e-9217-cf576f5e2b64",
+    "texture": "asset-study/media/images/game/Other/Tiles/mj_left_card.png",
+    "image": "sanguo-table-study/assets/dealt-game-1454.png"
+  },
+  {
+    "bundle": "game",
+    "id": 1810,
+    "name": "Frame_zuojia_shupai_15",
+    "rect": [
+      779,
+      392,
+      46,
+      61
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      46,
+      61
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "77e759ea-32b6-4145-9767-7ddfceb8fe23",
+    "textureUUID": "68218bc9-8fd2-456e-9217-cf576f5e2b64",
+    "texture": "asset-study/media/images/game/Other/Tiles/mj_left_card.png",
+    "image": "sanguo-table-study/assets/dealt-game-1810.png"
+  },
+  {
+    "bundle": "game",
+    "id": 1448,
+    "name": "Frame_zuojia_shupai_14",
+    "rect": [
+      228,
+      128,
+      44,
+      60
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      44,
+      60
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "094f7709-971f-4e88-abd0-0b1968c33cf4",
+    "textureUUID": "68218bc9-8fd2-456e-9217-cf576f5e2b64",
+    "texture": "asset-study/media/images/game/Other/Tiles/mj_left_card.png",
+    "image": "sanguo-table-study/assets/dealt-game-1448.png"
+  },
+  {
+    "bundle": "game",
+    "id": 2031,
+    "name": "Frame_zuojia_shupai_13",
+    "rect": [
+      165,
+      128,
+      44,
+      61
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      44,
+      61
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "ca461cbd-05d2-43cf-8d42-7c1684baf844",
+    "textureUUID": "68218bc9-8fd2-456e-9217-cf576f5e2b64",
+    "texture": "asset-study/media/images/game/Other/Tiles/mj_left_card.png",
+    "image": "sanguo-table-study/assets/dealt-game-2031.png"
+  },
+  {
+    "bundle": "game",
+    "id": 1795,
+    "name": "Frame_zuojia_shupai_12",
+    "rect": [
+      290,
+      128,
+      43,
+      60
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      43,
+      60
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "70341457-6bf0-492e-b6a2-d3100cf2df75",
+    "textureUUID": "68218bc9-8fd2-456e-9217-cf576f5e2b64",
+    "texture": "asset-study/media/images/game/Other/Tiles/mj_left_card.png",
+    "image": "sanguo-table-study/assets/dealt-game-1795.png"
+  },
+  {
+    "bundle": "game",
+    "id": 2097,
+    "name": "Frame_zuojia_shupai_11",
+    "rect": [
+      980,
+      62,
+      42,
+      59
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      42,
+      59
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "e38aa5fb-39db-4fe3-9879-9fbe9cc7b1f4",
+    "textureUUID": "68218bc9-8fd2-456e-9217-cf576f5e2b64",
+    "texture": "asset-study/media/images/game/Other/Tiles/mj_left_card.png",
+    "image": "sanguo-table-study/assets/dealt-game-2097.png"
+  },
+  {
+    "bundle": "game",
+    "id": 1691,
+    "name": "Frame_zuojia_shupai_10",
+    "rect": [
+      352,
+      128,
+      42,
+      59
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      42,
+      59
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "47edc5ec-e900-43be-9d93-c7e648706c9a",
+    "textureUUID": "68218bc9-8fd2-456e-9217-cf576f5e2b64",
+    "texture": "asset-study/media/images/game/Other/Tiles/mj_left_card.png",
+    "image": "sanguo-table-study/assets/dealt-game-1691.png"
+  },
+  {
+    "bundle": "game",
+    "id": 2098,
+    "name": "Frame_zuojia_shupai_9",
+    "rect": [
+      981,
+      2,
+      41,
+      58
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      41,
+      58
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "e3934ca7-f7c4-4f4d-9210-b411cda51d2c",
+    "textureUUID": "68218bc9-8fd2-456e-9217-cf576f5e2b64",
+    "texture": "asset-study/media/images/game/Other/Tiles/mj_left_card.png",
+    "image": "sanguo-table-study/assets/dealt-game-2098.png"
+  },
+  {
+    "bundle": "game",
+    "id": 2062,
+    "name": "Frame_zuojia_shupai_8",
+    "rect": [
+      124,
+      254,
+      41,
+      58
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      41,
+      58
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "d55055af-e56c-4b5f-9f55-e02fe695f5f3",
+    "textureUUID": "68218bc9-8fd2-456e-9217-cf576f5e2b64",
+    "texture": "asset-study/media/images/game/Other/Tiles/mj_left_card.png",
+    "image": "sanguo-table-study/assets/dealt-game-2062.png"
+  },
+  {
+    "bundle": "game",
+    "id": 2163,
+    "name": "Frame_zuojia_shupai_7",
+    "rect": [
+      248,
+      214,
+      40,
+      58
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      40,
+      58
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "fb2e124c-f0aa-476d-b968-60621d94897e",
+    "textureUUID": "68218bc9-8fd2-456e-9217-cf576f5e2b64",
+    "texture": "asset-study/media/images/game/Other/Tiles/mj_left_card.png",
+    "image": "sanguo-table-study/assets/dealt-game-2163.png"
+  },
+  {
+    "bundle": "game",
+    "id": 1607,
+    "name": "Frame_zuojia_shupai_6",
+    "rect": [
+      184,
+      254,
+      40,
+      57
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      40,
+      57
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "247abedc-26a7-442b-a8aa-2fac360d6129",
+    "textureUUID": "68218bc9-8fd2-456e-9217-cf576f5e2b64",
+    "texture": "asset-study/media/images/game/Other/Tiles/mj_left_card.png",
+    "image": "sanguo-table-study/assets/dealt-game-1607.png"
+  },
+  {
+    "bundle": "game",
+    "id": 2046,
+    "name": "Frame_zuojia_shupai_5",
+    "rect": [
+      290,
+      294,
+      39,
+      57
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      39,
+      57
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "d08fa067-0535-43fa-a8a5-3ea6e8ff761d",
+    "textureUUID": "68218bc9-8fd2-456e-9217-cf576f5e2b64",
+    "texture": "asset-study/media/images/game/Other/Tiles/mj_left_card.png",
+    "image": "sanguo-table-study/assets/dealt-game-2046.png"
+  },
+  {
+    "bundle": "game",
+    "id": 1787,
+    "name": "Frame_shangjia_shupai_1",
+    "rect": [
+      214,
+      460,
+      40,
+      51
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      40,
+      51
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "6de72ebc-fa69-4c12-a88d-7f7a03a55e71",
+    "textureUUID": "255eae8f-b313-47fd-bfeb-f34a62fa5a76",
+    "texture": "asset-study/media/images/game/Other/Tiles/mj_front_card.png",
+    "image": "sanguo-table-study/assets/dealt-game-1787.png"
+  },
+  {
+    "bundle": "game",
+    "id": 1467,
+    "name": "Frame_shangjia_shupai_2",
+    "rect": [
+      161,
+      474,
+      39,
+      51
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      39,
+      51
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "0f003a0a-aac3-4a67-b679-c12f9389404d",
+    "textureUUID": "255eae8f-b313-47fd-bfeb-f34a62fa5a76",
+    "texture": "asset-study/media/images/game/Other/Tiles/mj_front_card.png",
+    "image": "sanguo-table-study/assets/dealt-game-1467.png"
+  },
+  {
+    "bundle": "game",
+    "id": 1922,
+    "name": "Frame_shangjia_shupai_3",
+    "rect": [
+      55,
+      481,
+      38,
+      51
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      38,
+      51
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "a2b18f52-e32b-4128-be06-2efdff59f08a",
+    "textureUUID": "255eae8f-b313-47fd-bfeb-f34a62fa5a76",
+    "texture": "asset-study/media/images/game/Other/Tiles/mj_front_card.png",
+    "image": "sanguo-table-study/assets/dealt-game-1922.png"
+  },
+  {
+    "bundle": "game",
+    "id": 1836,
+    "name": "Frame_shangjia_shupai_4",
+    "rect": [
+      322,
+      460,
+      37,
+      51
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      37,
+      51
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "824ef2eb-37bc-4385-ae69-59dc7ec9f7ec",
+    "textureUUID": "255eae8f-b313-47fd-bfeb-f34a62fa5a76",
+    "texture": "asset-study/media/images/game/Other/Tiles/mj_front_card.png",
+    "image": "sanguo-table-study/assets/dealt-game-1836.png"
+  },
+  {
+    "bundle": "game",
+    "id": 1925,
+    "name": "Frame_shangjia_shupai_5",
+    "rect": [
+      55,
+      521,
+      36,
+      51
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      36,
+      51
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "a2df231e-ffeb-4d87-b24b-601a7cc340e2",
+    "textureUUID": "255eae8f-b313-47fd-bfeb-f34a62fa5a76",
+    "texture": "asset-study/media/images/game/Other/Tiles/mj_front_card.png",
+    "image": "sanguo-table-study/assets/dealt-game-1925.png"
+  },
+  {
+    "bundle": "game",
+    "id": 1473,
+    "name": "Frame_shangjia_shupai_6",
+    "rect": [
+      108,
+      517,
+      36,
+      51
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      36,
+      51
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "1073ce89-1f85-4cef-a0e7-c3e4b48d6b2c",
+    "textureUUID": "255eae8f-b313-47fd-bfeb-f34a62fa5a76",
+    "texture": "asset-study/media/images/game/Other/Tiles/mj_front_card.png",
+    "image": "sanguo-table-study/assets/dealt-game-1473.png"
+  },
+  {
+    "bundle": "game",
+    "id": 2029,
+    "name": "Frame_shangjia_shupai_7",
+    "rect": [
+      161,
+      515,
+      36,
+      51
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      36,
+      51
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "c9cd4850-bbc0-4deb-b747-bf7ae1c305e1",
+    "textureUUID": "255eae8f-b313-47fd-bfeb-f34a62fa5a76",
+    "texture": "asset-study/media/images/game/Other/Tiles/mj_front_card.png",
+    "image": "sanguo-table-study/assets/dealt-game-2029.png"
+  },
+  {
+    "bundle": "game",
+    "id": 2125,
+    "name": "Frame_shangjia_shupai_8",
+    "rect": [
+      375,
+      460,
+      35,
+      51
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      35,
+      51
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "ec0e0182-f17a-4d91-85fb-44944dfb3b0c",
+    "textureUUID": "255eae8f-b313-47fd-bfeb-f34a62fa5a76",
+    "texture": "asset-study/media/images/game/Other/Tiles/mj_front_card.png",
+    "image": "sanguo-table-study/assets/dealt-game-2125.png"
+  },
+  {
+    "bundle": "game",
+    "id": 1746,
+    "name": "Frame_shangjia_shupai_9",
+    "rect": [
+      375,
+      497,
+      34,
+      51
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      34,
+      51
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "622149f7-7b13-472f-b523-df14f4d7d925",
+    "textureUUID": "255eae8f-b313-47fd-bfeb-f34a62fa5a76",
+    "texture": "asset-study/media/images/game/Other/Tiles/mj_front_card.png",
+    "image": "sanguo-table-study/assets/dealt-game-1746.png"
+  },
+  {
+    "bundle": "game",
+    "id": 2001,
+    "name": "Frame_shangjia_shupai_10",
+    "rect": [
+      320,
+      499,
+      34,
+      51
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      34,
+      51
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "c0d03ea2-edc2-43a5-8d97-2cba8fb6250f",
+    "textureUUID": "255eae8f-b313-47fd-bfeb-f34a62fa5a76",
+    "texture": "asset-study/media/images/game/Other/Tiles/mj_front_card.png",
+    "image": "sanguo-table-study/assets/dealt-game-2001.png"
+  },
+  {
+    "bundle": "game",
+    "id": 1481,
+    "name": "Frame_shangjia_shupai_11",
+    "rect": [
+      428,
+      483,
+      35,
+      51
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      35,
+      51
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "11e1c633-29bd-436f-a751-246da5e1a94e",
+    "textureUUID": "255eae8f-b313-47fd-bfeb-f34a62fa5a76",
+    "texture": "asset-study/media/images/game/Other/Tiles/mj_front_card.png",
+    "image": "sanguo-table-study/assets/dealt-game-1481.png"
+  },
+  {
+    "bundle": "game",
+    "id": 1920,
+    "name": "Frame_shangjia_shupai_12",
+    "rect": [
+      2,
+      524,
+      36,
+      51
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      36,
+      51
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "a21d045a-2571-4042-b4d7-9322a1920700",
+    "textureUUID": "255eae8f-b313-47fd-bfeb-f34a62fa5a76",
+    "texture": "asset-study/media/images/game/Other/Tiles/mj_front_card.png",
+    "image": "sanguo-table-study/assets/dealt-game-1920.png"
+  },
+  {
+    "bundle": "game",
+    "id": 2045,
+    "name": "Frame_shangjia_shupai_13",
+    "rect": [
+      214,
+      502,
+      37,
+      51
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      37,
+      51
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "d0841835-627b-4f54-a142-047385246cc4",
+    "textureUUID": "255eae8f-b313-47fd-bfeb-f34a62fa5a76",
+    "texture": "asset-study/media/images/game/Other/Tiles/mj_front_card.png",
+    "image": "sanguo-table-study/assets/dealt-game-2045.png"
+  },
+  {
+    "bundle": "game",
+    "id": 1712,
+    "name": "Frame_zuojia_shupai_1",
+    "rect": [
+      120,
+      412,
+      37,
+      56
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      37,
+      56
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "50df9b7c-c96c-4e73-aced-f71c4a1ff4e1",
+    "textureUUID": "68218bc9-8fd2-456e-9217-cf576f5e2b64",
+    "texture": "asset-study/media/images/game/Other/Tiles/mj_left_card.png",
+    "image": "sanguo-table-study/assets/dealt-game-1712.png"
+  },
+  {
+    "bundle": "game",
+    "id": 1902,
+    "name": "Frame_zuojia_shupai_2",
+    "rect": [
+      116,
+      530,
+      37,
+      55
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      37,
+      55
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "99a3ba4f-dbcf-4013-b9ea-2393131f8596",
+    "textureUUID": "68218bc9-8fd2-456e-9217-cf576f5e2b64",
+    "texture": "asset-study/media/images/game/Other/Tiles/mj_left_card.png",
+    "image": "sanguo-table-study/assets/dealt-game-1902.png"
+  },
+  {
+    "bundle": "game",
+    "id": 2105,
+    "name": "Frame_zuojia_shupai_3",
+    "rect": [
+      629,
+      464,
+      38,
+      57
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      38,
+      57
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "e537d460-6f8e-42b8-a726-9c7a09e7fd58",
+    "textureUUID": "68218bc9-8fd2-456e-9217-cf576f5e2b64",
+    "texture": "asset-study/media/images/game/Other/Tiles/mj_left_card.png",
+    "image": "sanguo-table-study/assets/dealt-game-2105.png"
+  },
+  {
+    "bundle": "game",
+    "id": 1861,
+    "name": "Frame_zuojia_shupai_4",
+    "rect": [
+      179,
+      411,
+      38,
+      56
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      38,
+      56
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "8a70ec3b-4792-4f91-b733-ad5c49dd1ff6",
+    "textureUUID": "68218bc9-8fd2-456e-9217-cf576f5e2b64",
+    "texture": "asset-study/media/images/game/Other/Tiles/mj_left_card.png",
+    "image": "sanguo-table-study/assets/dealt-game-1861.png"
+  },
+  {
+    "bundle": "game",
+    "id": 750,
+    "path": "NewSkin/GamePanelBtn/dingQue/zhuang",
+    "name": "zhuang",
+    "rect": [
+      1,
+      1,
+      46,
+      46
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      48,
+      48
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "9154376b-0e7a-4898-8a4c-038253e3cd70",
+    "textureUUID": "d6690bc1-954a-4977-ac9d-384845629e2b",
+    "texture": "asset-study/media/images/game/NewSkin/GamePanelBtn/dingQue/zhuang.png",
+    "image": "sanguo-table-study/assets/dealt-game-750.png"
+  },
+  {
+    "bundle": "game",
+    "id": 1151,
+    "path": "Other/MJrecorder/pic_01",
+    "name": "pic_01",
+    "rect": [
+      3,
+      42,
+      301,
+      532
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      301,
+      532
+    ],
+    "capInsets": [
+      191,
+      18,
+      30,
+      14
+    ],
+    "uuid": "d0badfb9-fa41-40d4-8b0d-e5a9ac0544bc",
+    "textureUUID": "130323886",
+    "texture": "asset-study/media/images/game/_unnamed/130323886.png",
+    "image": "sanguo-table-study/assets/dealt-game-1151.png"
+  },
+  {
+    "bundle": "game",
+    "id": 679,
+    "path": "Other/MJrecorder/pic_13",
+    "name": "pic_13",
+    "rect": [
+      3,
+      3,
+      33,
+      490
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      33,
+      490
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "8423f472-e7c1-4d1f-98f9-e77c203236fa",
+    "textureUUID": "130323886",
+    "texture": "asset-study/media/images/game/_unnamed/130323886.png",
+    "image": "sanguo-table-study/assets/dealt-game-679.png"
+  },
+  {
+    "bundle": "game",
+    "id": 477,
+    "path": "Other/MJrecorder/pic_14",
+    "name": "pic_14",
+    "rect": [
+      310,
+      289,
+      145,
+      101
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      145,
+      101
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "5c307287-a734-444a-8d1a-fd4889b8d4d7",
+    "textureUUID": "130323886",
+    "texture": "asset-study/media/images/game/_unnamed/130323886.png",
+    "image": "sanguo-table-study/assets/dealt-game-477.png"
+  },
+  {
+    "bundle": "game",
+    "id": 540,
+    "path": "Other/MJrecorder/pic_12",
+    "name": "pic_12",
+    "rect": [
+      398,
+      516,
+      53,
+      53
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      53,
+      53
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "65ff3ad7-5d9d-4b5e-a0de-805a90efd47a",
+    "textureUUID": "130323886",
+    "texture": "asset-study/media/images/game/_unnamed/130323886.png",
+    "image": "sanguo-table-study/assets/dealt-game-540.png"
+  },
+  {
+    "bundle": "game",
+    "id": 1707,
+    "name": "img_tile_8_1_1",
+    "rect": [
+      2,
+      896,
+      73,
+      104
+    ],
+    "offset": [
+      0,
+      -6
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "4e323c81-4b06-4af6-99e7-aa110df2263a",
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9",
+    "texture": "asset-study/media/images/game/Other/Tiles/mj_hand_card.png",
+    "image": "sanguo-table-study/assets/dealt-game-1707.png"
+  },
+  {
+    "bundle": "game",
+    "id": 896,
+    "path": "Other/MJrecorder/pic_02",
+    "name": "pic_02",
+    "rect": [
+      430,
+      396,
+      26,
+      25
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      26,
+      25
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "a96916c9-4e13-4330-9e6c-b7275313d4c4",
+    "textureUUID": "130323886",
+    "texture": "asset-study/media/images/game/_unnamed/130323886.png",
+    "image": "sanguo-table-study/assets/dealt-game-896.png"
+  }
+]

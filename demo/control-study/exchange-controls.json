@@ -1,0 +1,380 @@
+{
+  "prefab": {
+    "bundle": "prefabs",
+    "id": 3840,
+    "path": "game/HSZ/Prefab/pannel_HSZ"
+  },
+  "design": [
+    1280,
+    720
+  ],
+  "normal": {
+    "name": "normal",
+    "parent": "pannel_HSZ",
+    "position": [
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1
+    ],
+    "size": [
+      0,
+      0
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "color": 4294967295
+  },
+  "tip": {
+    "name": "img_HszTip",
+    "parent": "normal",
+    "position": [
+      0,
+      -50.5
+    ],
+    "scale": [
+      1,
+      1
+    ],
+    "size": [
+      500,
+      200
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "color": 4294967295
+  },
+  "runtimeTipY": {
+    "live": -50.5,
+    "normal": -135
+  },
+  "button": {
+    "name": "btn_reqHSZ",
+    "parent": "img_HszTip",
+    "position": [
+      0,
+      -46.069
+    ],
+    "scale": [
+      1,
+      1
+    ],
+    "size": [
+      233,
+      85
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "color": 4294967295
+  },
+  "label": {
+    "name": "New Label",
+    "parent": "btn_reqHSZ",
+    "position": [
+      0,
+      8
+    ],
+    "scale": [
+      1,
+      1
+    ],
+    "size": [
+      86.89,
+      56.7
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "color": 4279196870,
+    "class": "cc.Label",
+    "_string": "确  定",
+    "_fontSize": 34,
+    "_lineHeight": 45,
+    "_spacingX": 15,
+    "_N$horizontalAlign": 1,
+    "_N$verticalAlign": 1,
+    "_materials": [
+      "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    ],
+    "fontFamily": "Arial",
+    "fontColor": "#c65c0f",
+    "effectiveSpacingX": 0,
+    "ttfRender": {
+      "engineModule": 277,
+      "spacingIgnored": true,
+      "baselineRatio": 0.26,
+      "nodeHeight": 56.7,
+      "baseline": 40.93,
+      "note": "系统字体 TTF assembler 277 不读取 spacingX，Canvas fillText 整串；BMFont assembler 274 才使用 spacingX。"
+    }
+  },
+  "images": {
+    "button": "control-study/assets/common-357-btn_com07.png",
+    "background": "control-study/assets/game-741-tableTip.png",
+    "unusedSpriteTransitionStates": {
+      "normal": "control-study/assets/common-810-Btn_y2.png",
+      "pressed": "control-study/assets/resources-2958-default_btn_pressed.png",
+      "hover": "control-study/assets/resources-2980-default_btn_normal.png",
+      "disabled": "control-study/assets/resources-732-default_btn_disabled.png"
+    }
+  },
+  "transition": {
+    "mode": "scale",
+    "enum": 3,
+    "duration": 0.1,
+    "pressedScale": 1.2,
+    "enableAutoGrayEffect": true,
+    "normalColor": "#ffffff",
+    "pressedColor": "#ffffff",
+    "disabledColor": "#ffffff",
+    "note": "原 button 使用 SCALE，不切换上述 sprite transition 图片；禁用仅使目标 Sprite 灰度，label 不降低透明度。"
+  },
+  "prompt": {
+    "same": {
+      "name": "RichText",
+      "parent": "img_SameCorlorWord",
+      "position": [
+        0,
+        2.062
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        315,
+        63
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "color": 4294967295,
+      "text": "选择三张同花色手牌",
+      "parts": [
+        {
+          "text": "选择三张",
+          "color": "#fffbcb"
+        },
+        {
+          "text": "同花色",
+          "color": "#ff5a2b"
+        },
+        {
+          "text": "手牌",
+          "color": "#fffbcb"
+        }
+      ]
+    },
+    "any": {
+      "name": "RichText",
+      "parent": "img_AllCorlorWord",
+      "position": [
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        264.47,
+        63
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "color": 4294967295,
+      "text": "选择任意3张手牌",
+      "parts": [
+        {
+          "text": "选择",
+          "color": "#fffbcb"
+        },
+        {
+          "text": "任意3张",
+          "color": "#ff5a2b"
+        },
+        {
+          "text": "手牌",
+          "color": "#fffbcb"
+        }
+      ]
+    },
+    "fontFamily": "Arial",
+    "fontSize": 35,
+    "lineHeight": 50,
+    "sameParentPosition": [
+      0,
+      58.219
+    ],
+    "anyParentPosition": [
+      0,
+      58.362
+    ]
+  },
+  "logic": {
+    "buttonLabel": "同意(ActTime)",
+    "zeroLabel": "同意",
+    "selectedCountDisplayed": false,
+    "recommendationButton": false,
+    "defaultSelection": "服务器 iDefaultChangeCards 自动选择",
+    "enabled": "selected.length===3 && (bAllColor || sameSuit(selected))",
+    "invalidSelection": "数量>3或(!bAllColor && 混花色)时取消其他所有选中，只留下最新点击那张；混两张即触发。",
+    "normalRootY": "运行时置为 _handOffsets[0].y 或0",
+    "redBanEvidence": "RuleHSZ_TeamHelper：仅isTeam(50103)且isXLHZMJ时 MeUnSelectInfo.tileValues=[81]；普通RuleHSZ分支未提供红中禁换信息。"
+  },
+  "source": {
+    "layout": "GDPlayerHSZView.js:updateAllPlayerNodeLayout/initUIPos",
+    "selection": "GDPlayerHSZView.js:onSelectHandTile/_isEnableClick",
+    "countdown": "GDPlayerHSZView.js:updateCountDown/countDownAction",
+    "default": "RuleHSZ.js:onNotifyChangeCard/launchChangeCard",
+    "redRestriction": "RuleHSZ_TeamHelper.js:onNotifyChangeCard",
+    "engine": "cocos2d-js-min.js:CCButton._updateDisabledState / zoomScale / transition enum"
+  },
+  "background": {
+    "name": "tableTip",
+    "parent": "img_HszTip",
+    "position": [
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1
+    ],
+    "size": [
+      500,
+      200
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "color": 4294967295,
+    "spriteType": 1,
+    "nineSlice": true,
+    "capInsets": [
+      18,
+      31,
+      22,
+      19
+    ],
+    "originalSize": [
+      65,
+      64
+    ]
+  },
+  "trusteeLabel": {
+    "prefab": {
+      "bundle": "prefabs",
+      "id": 3907
+    },
+    "button": {
+      "name": "btn_cancelTrustee",
+      "parent": "trustee_bg",
+      "position": [
+        0,
+        -7.927
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        233,
+        85
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "color": 4294967295
+    },
+    "name": "New Label",
+    "parent": "btn_cancelTrustee",
+    "position": [
+      0,
+      8
+    ],
+    "scale": [
+      1,
+      1
+    ],
+    "size": [
+      136,
+      56.7
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "color": 4279196870,
+    "class": "cc.Label",
+    "_string": "取消托管",
+    "_fontSize": 34,
+    "_lineHeight": 45,
+    "_spacingX": 2,
+    "_N$horizontalAlign": 1,
+    "_N$verticalAlign": 1,
+    "_materials": [
+      "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    ],
+    "fontFamily": "Arial",
+    "fontColor": "#c65c0f",
+    "effectiveSpacingX": 0,
+    "ttfRender": {
+      "engineModule": 277,
+      "spacingIgnored": true,
+      "baselineRatio": 0.26,
+      "nodeHeight": 56.7,
+      "baseline": 40.93,
+      "note": "系统字体 TTF assembler 277 不读取 spacingX，Canvas fillText 整串；BMFont assembler 274 才使用 spacingX。"
+    },
+    "note": "按钮图与换牌相同；取消托管 Label 存储 spacingX=2，换牌 Label 为15；系统字体两者的有效间距均为0。"
+  },
+  "stage1280x640": {
+    "scale": 0.8888888888888888,
+    "tipCenter": [
+      640,
+      440
+    ],
+    "tipSize": [
+      444.4444444444444,
+      177.77777777777777
+    ],
+    "buttonCenter": [
+      640,
+      480.95022222222224
+    ],
+    "buttonSize": [
+      207.1111111111111,
+      75.55555555555556
+    ],
+    "labelCenter": [
+      640,
+      473.83911111111115
+    ],
+    "labelFontSize": 30.22222222222222,
+    "labelLineHeight": 40,
+    "labelLetterSpacing": 0,
+    "labelSerializedSpacingX": 13.333333333333332,
+    "promptCenter": [
+      640,
+      386.4168888888889
+    ],
+    "promptFontSize": 31.11111111111111,
+    "promptLineHeight": 44.44444444444444,
+    "assumptions": "normal 非直播；_handOffsets[0].y=0；相同花色模式；主 Canvas 固定高度720。"
+  }
+}

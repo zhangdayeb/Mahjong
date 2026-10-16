@@ -1,0 +1,29 @@
+原界面复刻说明（第二版）
+
+运行入口：http://127.0.0.1:8770/
+启动方式：npm start 或双击 start-demo.cmd。
+上一版规则 demo 保存在 playable.html。
+
+这次重点是原游戏的显示层，不是整套联网麻将规则。
+桌布使用原 classicDesk.jpg，按原界面横向比例铺底。
+按钮、方向盘、静态麻将牌身、牌面、背牌均从原 SpriteFrame 图集提取。
+牌列使用原场景和出牌行预制体里的角度序列与 FrontParam 参数重建。
+发布格式的 3D 麻将 mesh 转换为 Three.js BufferGeometry，仅用于出牌演示。
+
+经源码确认：原版是 2D 精灵常驻显示 + 3D 手部/麻将动作的混合实现。
+ZMJTile.js 第 254 行 init：设置 oTileBody / oTileColor 的 cc.SpriteFrame。
+ZMJHandTileCtrl.js 第 140 行 layoutTiles：按 tileStartPos / titleStep 排列手牌。
+ZMJOutTileRow.js 第 147 行 addOutTileFront：按 FrontParam 初始化牌身和牌面。
+ZMJTileAnim.js 第 171 行 get3DTile：实例化 3D 牌。
+ZMJTileAnim.js 第 175 行 playOutAnim：交给 gameHandAnim 播放动作。
+ZMJOutTileRow.js 第 116 行 dispatchAnimEvent：结束回调恢复静态牌节点可见。
+
+已导出 UI 精灵清单：assets/reference/ui-index.json
+原牌列参数：assets/reference/layout.json
+原网格转换结果：assets/reference/mesh-body.json 和 mesh-face.json
+静态转换工具：prepare-reference.mjs、inspect-assets.mjs、extract-ui.py
+
+当前限制：仍是固定牌局样例，头像和姓名是演示占位；部分定位、缩放为手动校准。
+尚未移植所有 skew、分辨率适配、人物手部动作、促销/赠礼动画以及服务端规则。
+演示按钮使四家各出一张牌后摸牌，动作与牌值为本地演示数据，不表示合法实战牌局。
+未执行收集的原游戏业务 JavaScript，未接入原游戏账号或业务服务器。

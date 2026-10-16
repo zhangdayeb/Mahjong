@@ -1,0 +1,384 @@
+[
+  {
+    "name": "biaoti1",
+    "rect": [
+      3,
+      867,
+      683,
+      112
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      683,
+      112
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "ce6d3efc-8434-42c4-8d84-e73cb2d1578d@6c48a",
+    "bundle": "lobby",
+    "id": 1969,
+    "path": "SGMJGuide/biaoti1",
+    "textureUUID": "1d186d731",
+    "image": "sanguo-guide-study/assets/lobby-1969-biaoti1.png"
+  },
+  {
+    "name": "tu1",
+    "rect": [
+      3,
+      3,
+      827,
+      426
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      827,
+      426
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "cd0198da-b5af-4751-950c-1ef5d63e54ec@6c48a",
+    "bundle": "lobby",
+    "id": 1955,
+    "path": "SGMJGuide/tu1",
+    "textureUUID": "1d186d731",
+    "image": "sanguo-guide-study/assets/lobby-1955-tu1.png"
+  },
+  {
+    "name": "biaoti2",
+    "rect": [
+      836,
+      3,
+      686,
+      113
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      686,
+      113
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "56769c5d-139c-4282-ba29-9e34343655c7@6c48a",
+    "bundle": "lobby",
+    "id": 839,
+    "path": "SGMJGuide/biaoti2",
+    "textureUUID": "1b9400678",
+    "image": "sanguo-guide-study/assets/lobby-839-biaoti2.png"
+  },
+  {
+    "name": "tu2",
+    "rect": [
+      3,
+      3,
+      827,
+      426
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      827,
+      426
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "967186ab-ca50-4458-9bab-1f7796e3c6a0@6c48a",
+    "bundle": "lobby",
+    "id": 1428,
+    "path": "SGMJGuide/tu2",
+    "textureUUID": "1b9400678",
+    "image": "sanguo-guide-study/assets/lobby-1428-tu2.png"
+  },
+  {
+    "name": "biaoti3",
+    "rect": [
+      836,
+      3,
+      683,
+      112
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      683,
+      112
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "907212c3-059a-4356-9829-c535650648c8@6c48a",
+    "bundle": "lobby",
+    "id": 1376,
+    "path": "SGMJGuide/biaoti3",
+    "textureUUID": "1d186d731",
+    "image": "sanguo-guide-study/assets/lobby-1376-biaoti3.png"
+  },
+  {
+    "name": "tu3",
+    "rect": [
+      3,
+      435,
+      827,
+      426
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      827,
+      426
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "c0b275eb-99f2-48c0-a3b2-445f6e8fbb58@6c48a",
+    "bundle": "lobby",
+    "id": 1840,
+    "path": "SGMJGuide/tu3",
+    "textureUUID": "1b9400678",
+    "image": "sanguo-guide-study/assets/lobby-1840-tu3.png"
+  },
+  {
+    "name": "biaoti4",
+    "rect": [
+      3,
+      867,
+      696,
+      114
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      696,
+      114
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "01aec3df-67b3-4e8f-b1af-3dac55219cb7@6c48a",
+    "bundle": "lobby",
+    "id": 19,
+    "path": "SGMJGuide/biaoti4",
+    "textureUUID": "1b9400678",
+    "image": "sanguo-guide-study/assets/lobby-19-biaoti4.png"
+  },
+  {
+    "name": "tu4",
+    "rect": [
+      3,
+      435,
+      827,
+      426
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      827,
+      426
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "ed6fa6f2-4fe0-470f-a04c-7510a8f0a278@6c48a",
+    "bundle": "lobby",
+    "id": 2270,
+    "path": "SGMJGuide/tu4",
+    "textureUUID": "1d186d731",
+    "image": "sanguo-guide-study/assets/lobby-2270-tu4.png"
+  },
+  {
+    "name": "SGMJGuide",
+    "rect": [
+      3,
+      266,
+      106,
+      112
+    ],
+    "offset": [
+      2,
+      4.5
+    ],
+    "originalSize": [
+      132,
+      123
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "fffb70ba-d4ff-400b-a3c5-99f4d214cc0f@6c48a",
+    "bundle": "lobby",
+    "id": 2425,
+    "path": "TableSel/SGMJGuide",
+    "textureUUID": "1965cc29c",
+    "image": "sanguo-guide-study/assets/lobby-2425-SGMJGuide.png"
+  },
+  {
+    "name": "di",
+    "rect": [
+      0,
+      0,
+      1083,
+      663
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1083,
+      663
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "98fcf4bc-2b59-421f-9275-f3f8c44ceb6e@6c48a",
+    "bundle": "lobby",
+    "id": 1456,
+    "path": "SGMJGuide/di",
+    "textureUUID": "98fcf4bc-2b59-421f-9275-f3f8c44ceb6e",
+    "image": "sanguo-guide-study/assets/lobby-1456-di.png"
+  },
+  {
+    "name": "zuojiantou",
+    "rect": [
+      815,
+      867,
+      93,
+      103
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      93,
+      103
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "2701b8b2-7e63-47b2-8b7c-49e5a14fea09@6c48a",
+    "bundle": "lobby",
+    "id": 391,
+    "path": "SGMJGuide/zuojiantou",
+    "textureUUID": "1b9400678",
+    "image": "sanguo-guide-study/assets/lobby-391-zuojiantou.png"
+  },
+  {
+    "name": "youjiantou",
+    "rect": [
+      705,
+      867,
+      92,
+      104
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      92,
+      104
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "6c1b5e1e-3a32-46b5-8d7b-2688350b0bcd@6c48a",
+    "bundle": "lobby",
+    "id": 1056,
+    "path": "SGMJGuide/youjiantou",
+    "textureUUID": "1b9400678",
+    "image": "sanguo-guide-study/assets/lobby-1056-youjiantou.png"
+  },
+  {
+    "name": "guanbi",
+    "rect": [
+      705,
+      965,
+      44,
+      44
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      44,
+      44
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "235130dc-ea06-43f1-ac9c-96d33f684d94@6c48a",
+    "bundle": "lobby",
+    "id": 350,
+    "path": "SGMJGuide/guanbi",
+    "textureUUID": "1b9400678",
+    "image": "sanguo-guide-study/assets/lobby-350-guanbi.png"
+  }
+]

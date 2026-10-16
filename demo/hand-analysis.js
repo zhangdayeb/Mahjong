@@ -1,0 +1,90 @@
+export const JOKER=51;
+export const NUMBER_TILES=Object.freeze(Array.from({length:27},(_,i)=>Math.floor(i/9)*10+11+i%9));
+const suit=v=>Math.floor(v/10),rank=v=>v%10;
+const isKong=m=>m.type!=='peng';
+
+export function prepareHand(hand,missing,melds=[],{jokerCount=0}={}){
+ if(!Array.isArray(hand)||!Array.isArray(melds)||melds.length>4||hand.length!==14-3*melds.length||![1,2,3].includes(missing))return null;
+ const counts=Array(40).fill(0),physical=Array(40).fill(0);let wild=0;
+ for(const value of hand){if(value===JOKER){if(++wild>jokerCount)return null;}else if(!NUMBER_TILES.includes(value)||suit(value)===missing||++counts[value]>4)return null;}
+ for(let value=0;value<40;value++)physical[value]=counts[value];
+ for(const meld of melds){if(!['peng','gang','dark','add'].includes(meld.type)||!NUMBER_TILES.includes(meld.value)||suit(meld.value)===missing)return null;physical[meld.value]+=isKong(meld)?4:3;if(physical[meld.value]>4)return null;}
+ return{hand:hand.slice(),counts,wild,missing,melds:melds.map(m=>({...m})),physical,values:NUMBER_TILES.filter(value=>suit(value)!==missing)};
+}
+
+// Each query asks for a specific shape instead of expanding every assignment
+// of up to eight jokers. Memo keys include the required groups and wait role.
+export function findStandard(prepared,{allowed=prepared?.values,tripletsOnly=false,requiredGroups=[],pairValue,pairValues,groupRule,minDark=0,selfDraw=true,winningTile,waitRole}={}){
+ if(!prepared)return null;
+ const permitted=new Set(allowed),counts=prepared.counts.slice(),requirements=requiredGroups.map(g=>({...g}));
+ if(prepared.hand.some(v=>v!==JOKER&&!permitted.has(v))||prepared.melds.some(m=>!permitted.has(m.value)))return null;
+ let initialMask=(1<<requirements.length)-1;
+ const consumeRequirement=(mask,type,value)=>{const index=requirements.findIndex((g,i)=>(mask&(1<<i))&&g.type===type&&g.value===value);return index<0?mask:mask&~(1<<index);};
+ for(const meld of prepared.melds)initialMask=consumeRequirement(initialMask,'triplet',meld.value);
+ const externalDark=prepared.melds.filter(m=>m.type==='dark').length,groupsNeeded=4-prepared.melds.length;
+ const winBit=(type,value,used,wild)=>{
+  const uses=winningTile===JOKER?wild>0:(used[winningTile]||0)>0;
+  if(!uses)return 0;
+  if(type==='pair')return 1;
+  if(type==='triplet')return 2;
+  if(waitRole==='middle'&&winningTile===value+1)return 4;
+  if(waitRole==='edge'&&(rank(value)===1&&winningTile===value+2||rank(value)===7&&winningTile===value))return 4;
+  return 8;
+ };
+ const memo=new Set();
+ function solve(wild,left,mask,dark,winFlags,groups){
+  const first=counts.findIndex(n=>n>0);
+  const requiredCount=requirements.reduce((n,g,i)=>n+((mask>>i)&1),0);
+  if(requiredCount>left||externalDark+dark+left<minDark)return null;
+  if(requiredCount===left&&left){const wanted=Array(40).fill(0);for(let i=0;i<requirements.length;i++)if(mask&(1<<i)){const g=requirements[i];for(const v of g.type==='triplet'?[g.value,g.value,g.value]:[g.value,g.value+1,g.value+2])wanted[v]++;}if(counts.some((n,v)=>n>wanted[v]))return null;}
+  if(!left){if(first>=0||wild||mask)return null;const darkTotal=externalDark+dark-(!selfDraw&&!(winFlags&9)&&(winFlags&2)?1:0);if(darkTotal<minDark||waitRole&&!(winFlags&4))return null;return groups;}
+  if(wild<0||wild>left*3||first<0&&wild!==left*3)return null;
+  const key=counts.join(',')+'|'+[wild,left,mask,dark,winFlags].join(',');if(memo.has(key))return null;
+  const candidates=[];
+  if(first<0){
+   for(let i=0;i<requirements.length;i++)if(mask&(1<<i))candidates.push(requirements[i]);
+   if(!mask)candidates.push({type:'triplet',value:allowed[0]});
+  }else{
+   candidates.push({type:'triplet',value:first});
+   if(!tripletsOnly)for(let start=Math.max(1,rank(first)-2);start<=Math.min(7,rank(first));start++)candidates.push({type:'sequence',value:suit(first)*10+start});
+  }
+  for(const candidate of candidates){
+   if(tripletsOnly&&candidate.type!=='triplet')continue;
+   const values=candidate.type==='triplet'?[candidate.value,candidate.value,candidate.value]:[candidate.value,candidate.value+1,candidate.value+2];
+   if(!values.every(v=>permitted.has(v)))continue;
+   if(groupRule==='terminal'&&!values.some(v=>rank(v)===1||rank(v)===9))continue;
+   const wanted=new Map();for(const v of values)wanted.set(v,(wanted.get(v)||0)+1);
+   const entries=[...wanted],used={};
+   function allocate(index,needWild){
+    if(needWild>wild)return null;
+    if(index===entries.length){if(first>=0&&!used[first])return null;const flag=winBit(candidate.type,candidate.value,used,needWild),nextMask=consumeRequirement(mask,candidate.type,candidate.value);return solve(wild-needWild,left-1,nextMask,dark+(candidate.type==='triplet'?1:0),winFlags|flag,[...groups,{...candidate,wild:needWild,used:{...used}}]);}
+    const[value,needed]=entries[index],maximum=Math.min(needed,counts[value]);
+    for(let take=maximum;take>=0;take--){if(value===first&&take===0)continue;counts[value]-=take;used[value]=take;const result=allocate(index+1,needWild+needed-take);counts[value]+=take;delete used[value];if(result)return result;}
+    return null;
+   }
+   const result=allocate(0,0);if(result)return result;
+  }
+  memo.add(key);return null;
+ }
+ for(const value of allowed){if(pairValue!==undefined&&value!==pairValue||pairValues&&!pairValues.includes(value))continue;
+  for(let take=Math.min(2,counts[value]);take>=0;take--){const need=2-take;if(need>prepared.wild)continue;counts[value]-=take;const flags=winBit('pair',value,{[value]:take},need),result=solve(prepared.wild-need,groupsNeeded,initialMask,0,flags,[]);counts[value]+=take;if(result)return{pair:value,pairWild:need,groups:result};}
+ }
+ return null;
+}
+
+export function isSevenPairs(prepared,{allowed=prepared?.values}={}){
+ if(!prepared||prepared.melds.length)return false;const permitted=new Set(allowed);
+ if(prepared.hand.some(v=>v!==JOKER&&!permitted.has(v)))return false;
+ const odd=prepared.counts.filter(n=>n%2).length;
+ return odd<=prepared.wild&&(prepared.wild-odd)%2===0;
+}
+export function matchesTiles(prepared,required){
+ if(!prepared||prepared.melds.length||required.length!==14)return false;
+ const wanted=Array(40).fill(0);for(const value of required){if(!prepared.values.includes(value))return false;wanted[value]++;}
+ let absent=0;for(let v=0;v<40;v++){if(prepared.counts[v]>wanted[v])return false;absent+=wanted[v]-prepared.counts[v];}return absent===prepared.wild;
+}
+export function canComplete(hand,missing,melds=[],options={}){const p=prepareHand(hand,missing,melds,options);return !!p&&(isSevenPairs(p)||!!findStandard(p));}
+export function winningTiles(hand,missing,melds=[],options={}){
+ const values=NUMBER_TILES.filter(v=>suit(v)!==missing);if(options.jokerCount)values.push(JOKER);
+ return values.filter(v=>{const maximum=v===JOKER?options.jokerCount:4,held=hand.filter(t=>t===v).length+melds.filter(m=>m.value===v).reduce((n,m)=>n+(isKong(m)?4:3),0);return held<maximum&&canComplete([...hand,v],missing,melds,options);});
+}

@@ -1,0 +1,3167 @@
+[
+  {
+    "prefab": 147,
+    "name": "ComGameResult",
+    "size": [
+      1280,
+      720
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "ComGameResultTempatePic",
+    "size": [
+      710,
+      90
+    ],
+    "transform": [
+      50,
+      115.391,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1.1,
+      1.1,
+      1
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "MJMasterPath",
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "HappyBumpEntry",
+    "size": [
+      110,
+      117
+    ],
+    "transform": [
+      -520,
+      -285,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": false,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "btn_supplementEnergy",
+    "size": [
+      200,
+      85
+    ],
+    "transform": [
+      -45,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    "active": false,
+    "sprites": [
+      {
+        "image": "settlement-study/assets/common-169-btn_com09.png",
+        "name": "btn_com09",
+        "type": 1
+      }
+    ],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "showAward",
+    "size": [
+      100,
+      110
+    ],
+    "transform": [
+      26.704,
+      101.889,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": false,
+    "sprites": [
+      {
+        "image": "settlement-study/assets/lobby-486-pic_27.png",
+        "name": "pic_27",
+        "type": 1
+      }
+    ],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "btn_group",
+    "size": [
+      730,
+      100
+    ],
+    "transform": [
+      0,
+      -296.979,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "button_guide",
+    "size": [
+      233,
+      85
+    ],
+    "transform": [
+      -145,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    "active": false,
+    "sprites": [
+      {
+        "image": "settlement-study/assets/common-169-btn_com09.png",
+        "name": "btn_com09"
+      }
+    ],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "button_video",
+    "size": [
+      200,
+      85
+    ],
+    "transform": [
+      -160,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    "active": false,
+    "sprites": [
+      {
+        "image": "settlement-study/assets/common-169-btn_com09.png",
+        "name": "btn_com09",
+        "type": 1
+      }
+    ],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "button_JPQ",
+    "size": [
+      200,
+      85
+    ],
+    "transform": [
+      -45,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    "active": true,
+    "sprites": [
+      {
+        "image": "settlement-study/assets/common-169-btn_com09.png",
+        "name": "btn_com09",
+        "type": 1
+      }
+    ],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "Button_NextGame",
+    "size": [
+      280,
+      97
+    ],
+    "transform": [
+      225,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    "active": true,
+    "sprites": [
+      {
+        "image": "settlement-study/assets/common-350-da-huanganniu.png",
+        "name": "da-huanganniu"
+      }
+    ],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "RecommendNodeLayout",
+    "size": [
+      750,
+      126
+    ],
+    "transform": [
+      180.232,
+      -149.421,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0.6,
+      0.6,
+      1
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "detailNode",
+    "size": [
+      1280,
+      343
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "GameCoinLayout",
+    "size": [
+      484.56,
+      80
+    ],
+    "transform": [
+      83.142,
+      132.899,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "ProgressBar",
+    "size": [
+      240,
+      25
+    ],
+    "transform": [
+      -468.969,
+      -120.689,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "Button_ChangeTable",
+    "size": [
+      190,
+      85
+    ],
+    "transform": [
+      -270,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    "active": true,
+    "sprites": [
+      {
+        "image": "settlement-study/assets/common-188-btn_com08.png",
+        "name": "btn_com08",
+        "type": 1
+      }
+    ],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "Button_back",
+    "size": [
+      91,
+      92
+    ],
+    "transform": [
+      -594.5,
+      277,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "PlayerHeadNode",
+    "size": [
+      96,
+      96
+    ],
+    "transform": [
+      -129.807,
+      116.727,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0.75
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "detail_scrollView",
+    "size": [
+      800,
+      125
+    ],
+    "transform": [
+      159.612,
+      -96.5,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "detailTips",
+    "size": [
+      880,
+      485
+    ],
+    "transform": [
+      200,
+      -40,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": false,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "btn",
+    "size": [
+      94,
+      106
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "mask",
+    "size": [
+      50,
+      25
+    ],
+    "transform": [
+      -120,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "fx_xc_sg3",
+    "transform": [
+      72.5,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "RMBRedBagEntry",
+    "size": [
+      93,
+      150
+    ],
+    "transform": [
+      -582.976,
+      -188.355,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1.2
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "img_tips",
+    "size": [
+      177,
+      51
+    ],
+    "transform": [
+      20,
+      35,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0.8,
+      0.8,
+      1
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "LeftBotom",
+    "size": [
+      275,
+      100
+    ],
+    "transform": [
+      -641.104,
+      -292.881,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "head_mask",
+    "size": [
+      80,
+      80
+    ],
+    "transform": [
+      -0.136,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "nFront",
+    "size": [
+      48,
+      71
+    ],
+    "transform": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0.8,
+      0.8,
+      1
+    ],
+    "active": false,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "btn_xiala",
+    "size": [
+      44,
+      44
+    ],
+    "transform": [
+      310,
+      39.717,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      -1,
+      1
+    ],
+    "active": true,
+    "sprites": [
+      {
+        "image": "settlement-study/assets/game-974-xiala.png",
+        "name": "xiala"
+      }
+    ],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "content",
+    "size": [
+      600,
+      65
+    ],
+    "transform": [
+      0,
+      68,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "ReachMaxFanCount",
+    "transform": [
+      461.88,
+      124.136,
+      0,
+      0,
+      0,
+      0.17364817766693033,
+      0.984807753012208,
+      1,
+      1,
+      1
+    ],
+    "active": false,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "bg",
+    "size": [
+      400,
+      100
+    ],
+    "transform": [
+      -45.291,
+      114.575,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": true,
+    "sprites": [
+      {
+        "image": "settlement-study/assets/common-143-tishiheidiqipaojiugongge.png",
+        "name": "tishiheidiqipaojiugongge",
+        "type": 1
+      }
+    ],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "node_PlayerGrounp",
+    "transform": [
+      18.962,
+      75.515,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "icon",
+    "size": [
+      96,
+      99
+    ],
+    "transform": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    "active": true,
+    "sprites": [
+      {
+        "image": "settlement-study/assets/lobby-1678-HappyBumpEntry.png",
+        "name": "HappyBumpEntry"
+      }
+    ],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "awardIcon",
+    "size": [
+      63,
+      65
+    ],
+    "transform": [
+      136.696,
+      4.37,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    "active": true,
+    "sprites": [
+      {
+        "image": "settlement-study/assets/lobby-2403-pic_24.png",
+        "name": "pic_24"
+      }
+    ],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "tiao",
+    "size": [
+      412.25,
+      35.8
+    ],
+    "active": true,
+    "sprites": [
+      {
+        "image": "settlement-study/assets/common-11-tiao.png",
+        "name": "tiao",
+        "type": 1
+      }
+    ],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "tiao",
+    "size": [
+      292.25,
+      35.8
+    ],
+    "active": true,
+    "sprites": [
+      {
+        "image": "settlement-study/assets/common-11-tiao.png",
+        "name": "tiao",
+        "type": 1
+      }
+    ],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "tiao",
+    "size": [
+      130,
+      35.8
+    ],
+    "transform": [
+      -20,
+      5.986,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": true,
+    "sprites": [
+      {
+        "image": "settlement-study/assets/common-11-tiao.png",
+        "name": "tiao",
+        "type": 1
+      }
+    ],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "FanXingResearchEntry",
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "mengBan",
+    "size": [
+      1280,
+      720
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "midBg",
+    "size": [
+      1558,
+      425
+    ],
+    "transform": [
+      0,
+      -3.009,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "WinBg",
+    "size": [
+      1558,
+      414
+    ],
+    "active": true,
+    "sprites": [
+      {
+        "image": "settlement-study/assets/game-461-yingdi.png",
+        "name": "yingdi"
+      }
+    ],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "LoseBg",
+    "size": [
+      1558,
+      414
+    ],
+    "active": true,
+    "sprites": [
+      {
+        "image": "settlement-study/assets/game-1232-shudi.png",
+        "name": "shudi"
+      }
+    ],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "bigWinMan",
+    "size": [
+      117,
+      38
+    ],
+    "transform": [
+      113.15,
+      14.621,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": true,
+    "sprites": [
+      {
+        "image": "settlement-study/assets/game-172-dayingjia.png",
+        "name": "dayingjia"
+      }
+    ],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "img_head",
+    "size": [
+      80,
+      80
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "nNull",
+    "size": [
+      16,
+      71
+    ],
+    "transform": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0.8,
+      0.8,
+      1
+    ],
+    "active": false,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "nBack",
+    "size": [
+      48,
+      71
+    ],
+    "transform": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0.8,
+      0.8,
+      1
+    ],
+    "active": false,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "view",
+    "size": [
+      800,
+      68
+    ],
+    "transform": [
+      0,
+      -3.991,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "fengding",
+    "size": [
+      49,
+      26.2
+    ],
+    "transform": [
+      0,
+      15.67,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": [
+      {
+        "text": "封顶",
+        "size": 24,
+        "lineHeight": 20
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "maxFanCount",
+    "size": [
+      54.37,
+      26.2
+    ],
+    "transform": [
+      0,
+      -6.733,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "BankruptTag",
+    "transform": [
+      -16.613,
+      130.905,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": false,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "mask",
+    "size": [
+      880,
+      485
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "lab",
+    "size": [
+      0,
+      31.5
+    ],
+    "transform": [
+      0,
+      1.5,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "num",
+    "size": [
+      465.45,
+      203
+    ],
+    "transform": [
+      7.829,
+      -11.247,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0.1,
+      0.1,
+      1
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "rankIcon",
+    "size": [
+      205,
+      95
+    ],
+    "transform": [
+      -569,
+      -80,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0.7,
+      0.7,
+      0.6
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "rankNum",
+    "size": [
+      4,
+      31.72
+    ],
+    "transform": [
+      -43.793,
+      2.711,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "img_bubble",
+    "size": [
+      300,
+      36
+    ],
+    "transform": [
+      10,
+      68.359,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "lab",
+    "size": [
+      136,
+      42.84
+    ],
+    "transform": [
+      0,
+      10,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": [
+      {
+        "text": "玩法指引",
+        "size": 34,
+        "lineHeight": 34
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "img_video_bubble",
+    "size": [
+      300,
+      36
+    ],
+    "transform": [
+      10,
+      68.359,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "lab_videoBtn",
+    "size": [
+      128,
+      40.32
+    ],
+    "transform": [
+      2.231,
+      7,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "Label",
+    "size": [
+      170,
+      42.84
+    ],
+    "transform": [
+      0,
+      7,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": [
+      {
+        "text": "补充能量值",
+        "size": 34,
+        "lineHeight": 34
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "img_TicketBg",
+    "size": [
+      197,
+      31
+    ],
+    "transform": [
+      0,
+      65,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": true,
+    "sprites": [
+      {
+        "image": "settlement-study/assets/common-217-img_TicketBg.png",
+        "name": "img_TicketBg",
+        "type": 1
+      }
+    ],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "lab_videoBtn",
+    "size": [
+      128,
+      40.32
+    ],
+    "transform": [
+      18.371,
+      7,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": [
+      {
+        "text": "记牌开局",
+        "size": 32,
+        "lineHeight": 32
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "img_gameAwardEndTip",
+    "size": [
+      184,
+      46
+    ],
+    "transform": [
+      5,
+      61.863,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": true,
+    "sprites": [
+      {
+        "image": "settlement-study/assets/game-646-linghongbao.png",
+        "name": "linghongbao"
+      }
+    ],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "img_Finger",
+    "size": [
+      200,
+      90
+    ],
+    "transform": [
+      571.782,
+      -287.887,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "FanXingResearchGame",
+    "size": [
+      110,
+      110
+    ],
+    "transform": [
+      220,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "img_HeadFrame",
+    "size": [
+      109,
+      106
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "lab_nicName",
+    "size": [
+      58.72,
+      30.24
+    ],
+    "transform": [
+      105.651,
+      -20.74,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "HeadLineIcon",
+    "size": [
+      80,
+      82
+    ],
+    "active": true,
+    "sprites": [
+      {
+        "image": "settlement-study/assets/game-731-touxiangdaxiao.png",
+        "name": "touxiangdaxiao"
+      }
+    ],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "spBg",
+    "size": [
+      48,
+      71
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "spValue",
+    "size": [
+      48,
+      71
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "picNode",
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "winLabel",
+    "size": [
+      329.06,
+      40
+    ],
+    "transform": [
+      164.53,
+      2,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "vipLabel_win",
+    "size": [
+      150.5,
+      40
+    ],
+    "transform": [
+      334.06,
+      -10,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "loseLabel",
+    "size": [
+      95.63,
+      40
+    ],
+    "transform": [
+      626.625,
+      2,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": false,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "vipLabel_lose",
+    "size": [
+      28.88,
+      40
+    ],
+    "transform": [
+      578.81,
+      -10,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": false,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "bg",
+    "size": [
+      87,
+      87
+    ],
+    "active": true,
+    "sprites": [
+      {
+        "image": "settlement-study/assets/game-1321-bg_feng_ding.png",
+        "name": "bg_feng_ding"
+      }
+    ],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "bg",
+    "size": [
+      117,
+      38
+    ],
+    "active": true,
+    "sprites": [
+      {
+        "image": "settlement-study/assets/game-1067-pochan.png",
+        "name": "pochan"
+      }
+    ],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "label_msg",
+    "size": [
+      370,
+      63.279999999999994
+    ],
+    "transform": [
+      -166,
+      15,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": [
+      {
+        "text": "四暗刻，清一色，天胡，风花雪月，对对碰，门清，起手叫",
+        "size": 28,
+        "lineHeight": 28
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "jiantou",
+    "size": [
+      24,
+      18
+    ],
+    "transform": [
+      -43.247,
+      -10.753,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1.2,
+      1.2,
+      1
+    ],
+    "active": true,
+    "sprites": [
+      {
+        "image": "settlement-study/assets/common-772-jiantou.png",
+        "name": "jiantou"
+      }
+    ],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "node_PlayerItem_0",
+    "transform": [
+      -330,
+      205,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "node_PlayerItem_1",
+    "transform": [
+      36.201,
+      205,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "node_PlayerItem_2",
+    "transform": [
+      398.954,
+      205,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "img_redBall",
+    "size": [
+      21,
+      22
+    ],
+    "transform": [
+      30,
+      40,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": false,
+    "sprites": [
+      {
+        "image": "settlement-study/assets/lobby-1310-img_redBall.png",
+        "name": "img_redBall"
+      }
+    ],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "gradeIcon",
+    "size": [
+      341,
+      273
+    ],
+    "transform": [
+      -467.064,
+      18.855,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "bar",
+    "size": [
+      0,
+      25
+    ],
+    "transform": [
+      -120,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "bg0",
+    "size": [
+      19,
+      14
+    ],
+    "transform": [
+      -8.345,
+      -65.216,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1.5,
+      1.5,
+      1.5
+    ],
+    "active": true,
+    "sprites": [
+      {
+        "image": "settlement-study/assets/lobby-2002-pic_28.png",
+        "name": "pic_28"
+      }
+    ],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "bg1",
+    "size": [
+      44,
+      43
+    ],
+    "transform": [
+      -0.295,
+      10.657,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1.43,
+      1.43,
+      1
+    ],
+    "active": true,
+    "sprites": [
+      {
+        "image": "settlement-study/assets/lobby-431-pic_29.png",
+        "name": "pic_29"
+      }
+    ],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "award",
+    "size": [
+      133,
+      74
+    ],
+    "transform": [
+      1.268,
+      9.831,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0.5,
+      0.5,
+      1
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "desc",
+    "size": [
+      900,
+      252
+    ],
+    "transform": [
+      0.105,
+      -35.401,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0.1,
+      0.1,
+      1
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "xc_sg_01",
+    "size": [
+      103,
+      70
+    ],
+    "transform": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0.38,
+      1
+    ],
+    "active": true,
+    "sprites": [
+      {
+        "image": "settlement-study/assets/resources-577-xc_sg_06.png",
+        "name": "xc_sg_06"
+      }
+    ],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "btn",
+    "size": [
+      300,
+      200
+    ],
+    "transform": [
+      -486.096,
+      33.901,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "btn",
+    "size": [
+      220,
+      100
+    ],
+    "transform": [
+      -503.706,
+      -102.382,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "New Label",
+    "size": [
+      72.89,
+      40.32
+    ],
+    "transform": [
+      0,
+      7,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": [
+      {
+        "text": "换 桌",
+        "size": 32,
+        "lineHeight": 32
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "lab_bubble",
+    "size": [
+      382.25,
+      37.8
+    ],
+    "transform": [
+      0,
+      2.577,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": [
+      {
+        "text": "学习完整指引可领取20万游戏豆及精美牌桌",
+        "size": 20,
+        "lineHeight": 30
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "hongjiantou",
+    "size": [
+      17,
+      11
+    ],
+    "transform": [
+      -10,
+      -20.649,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": true,
+    "sprites": [
+      {
+        "image": "settlement-study/assets/common-761-hongjiantou.png",
+        "name": "hongjiantou"
+      }
+    ],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "lab_bubble",
+    "size": [
+      262.25,
+      37.8
+    ],
+    "transform": [
+      0,
+      2.577,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "hongjiantou",
+    "size": [
+      17,
+      11
+    ],
+    "transform": [
+      -10,
+      -20.649,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": true,
+    "sprites": [
+      {
+        "image": "settlement-study/assets/common-761-hongjiantou.png",
+        "name": "hongjiantou"
+      }
+    ],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "lab_energyNum",
+    "size": [
+      44,
+      32.76
+    ],
+    "transform": [
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "btn_com15",
+    "size": [
+      31,
+      30
+    ],
+    "transform": [
+      -65.358,
+      5.901,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1.2,
+      1.2,
+      1.2
+    ],
+    "active": true,
+    "sprites": [
+      {
+        "image": "settlement-study/assets/common-286-btn_com15.png",
+        "name": "btn_com15"
+      }
+    ],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "New Label",
+    "size": [
+      126,
+      52.92
+    ],
+    "transform": [
+      0,
+      10,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": [
+      {
+        "text": "下一局",
+        "size": 42,
+        "lineHeight": 42
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "zhiwen",
+    "size": [
+      149,
+      78
+    ],
+    "transform": [
+      2.978,
+      2.089,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0.8,
+      0.8,
+      1
+    ],
+    "active": true,
+    "sprites": [
+      {
+        "image": "settlement-study/assets/game-390-zhiwen.png",
+        "name": "zhiwen"
+      }
+    ],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "rec_1",
+    "transform": [
+      -375,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "rec_2",
+    "transform": [
+      -225,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "rec_3",
+    "transform": [
+      -75,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "rec_4",
+    "transform": [
+      75,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "rec_5",
+    "transform": [
+      225,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "rec_6",
+    "transform": [
+      375,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "fareNumRoot",
+    "size": [
+      97,
+      97
+    ],
+    "transform": [
+      -12.947,
+      -15,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1.1,
+      1.1,
+      1
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "lab_bubble",
+    "size": [
+      100,
+      37.8
+    ],
+    "transform": [
+      0,
+      2.577,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": [
+      {
+        "text": "打牌送话费",
+        "size": 20,
+        "lineHeight": 30
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "hongjiantou",
+    "size": [
+      17,
+      11
+    ],
+    "transform": [
+      -30,
+      -14.663,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": true,
+    "sprites": [
+      {
+        "image": "settlement-study/assets/common-761-hongjiantou.png",
+        "name": "hongjiantou"
+      }
+    ],
+    "labels": []
+  },
+  {
+    "prefab": 147,
+    "name": "MoneyBoxEntry",
+    "size": [
+      115,
+      115
+    ],
+    "transform": [
+      57.5,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 118,
+    "name": "PlayerItemCommon",
+    "size": [
+      313,
+      75
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 118,
+    "name": "item_bg",
+    "size": [
+      313,
+      76
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 118,
+    "name": "head_mask",
+    "size": [
+      80,
+      80
+    ],
+    "transform": [
+      -0.136,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 118,
+    "name": "ReachMaxFanCount",
+    "size": [
+      157,
+      38
+    ],
+    "transform": [
+      -115.26,
+      -29.388,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0.7,
+      0.7,
+      1
+    ],
+    "active": false,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 118,
+    "name": "PlayerHeadNode",
+    "size": [
+      96,
+      96
+    ],
+    "transform": [
+      -117.732,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0.75,
+      0.75,
+      1
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 118,
+    "name": "img_head",
+    "size": [
+      80,
+      80
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 118,
+    "name": "img_coinNode",
+    "size": [
+      1,
+      44
+    ],
+    "transform": [
+      -56.048,
+      -5.739,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 118,
+    "name": "img_total_fanCount",
+    "size": [
+      59,
+      30
+    ],
+    "transform": [
+      117.737,
+      -18.017,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": false,
+    "sprites": [
+      {
+        "image": "settlement-study/assets/game-436-hongdi.png",
+        "name": "hongdi"
+      }
+    ],
+    "labels": []
+  },
+  {
+    "prefab": 118,
+    "name": "fengding",
+    "size": [
+      45,
+      28.72
+    ],
+    "transform": [
+      -30.272,
+      4,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": [
+      {
+        "text": "封顶",
+        "size": 22,
+        "lineHeight": 22
+      }
+    ]
+  },
+  {
+    "prefab": 118,
+    "name": "maxFanCount",
+    "size": [
+      59.71,
+      28.72
+    ],
+    "transform": [
+      -5.294,
+      4,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 118,
+    "name": "BankruptTag",
+    "size": [
+      117,
+      38
+    ],
+    "transform": [
+      -117.418,
+      -29.31,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0.75,
+      0.75,
+      1
+    ],
+    "active": false,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 118,
+    "name": "dayingjia",
+    "size": [
+      117,
+      38
+    ],
+    "transform": [
+      -116.927,
+      -29.443,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0.7,
+      0.7,
+      1
+    ],
+    "active": false,
+    "sprites": [
+      {
+        "image": "settlement-study/assets/game-172-dayingjia.png",
+        "name": "dayingjia"
+      }
+    ],
+    "labels": []
+  },
+  {
+    "prefab": 118,
+    "name": "HeadLineIcon",
+    "size": [
+      80,
+      82
+    ],
+    "active": true,
+    "sprites": [
+      {
+        "image": "settlement-study/assets/game-731-touxiangdaxiao.png",
+        "name": "touxiangdaxiao"
+      }
+    ],
+    "labels": []
+  },
+  {
+    "prefab": 118,
+    "name": "lab_pos",
+    "size": [
+      48,
+      30.24
+    ],
+    "transform": [
+      109,
+      14,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 118,
+    "name": "img_HeadFrame",
+    "size": [
+      109,
+      106
+    ],
+    "transform": [
+      -117.18,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0.75,
+      0.75,
+      1
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 118,
+    "name": "label_NickName",
+    "size": [
+      120,
+      32
+    ],
+    "transform": [
+      -72.416,
+      16.544,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 118,
+    "name": "label_LoseGameCoin",
+    "size": [
+      182,
+      28
+    ],
+    "transform": [
+      11,
+      -10,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": false,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 118,
+    "name": "label_WinGameCoin",
+    "size": [
+      182,
+      28
+    ],
+    "transform": [
+      11,
+      -10,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 118,
+    "name": "img_bank",
+    "size": [
+      28,
+      29
+    ],
+    "transform": [
+      -143.796,
+      24.246,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0.8,
+      0.8,
+      1
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 118,
+    "name": "fanCountLabel",
+    "size": [
+      30.63,
+      23.94
+    ],
+    "transform": [
+      0,
+      2.378,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 118,
+    "name": "bg",
+    "size": [
+      157,
+      38
+    ],
+    "active": true,
+    "sprites": [
+      {
+        "image": "settlement-study/assets/game-378-fengding.png",
+        "name": "fengding"
+      }
+    ],
+    "labels": []
+  },
+  {
+    "prefab": 118,
+    "name": "bg",
+    "size": [
+      117,
+      38
+    ],
+    "active": true,
+    "sprites": [
+      {
+        "image": "settlement-study/assets/game-1067-pochan.png",
+        "name": "pochan"
+      }
+    ],
+    "labels": []
+  },
+  {
+    "prefab": 20,
+    "name": "FanDetailItem",
+    "size": [
+      700,
+      30
+    ],
+    "transform": [
+      0,
+      5,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 20,
+    "name": "layout",
+    "size": [
+      110.89,
+      30
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 20,
+    "name": "view",
+    "size": [
+      410,
+      30
+    ],
+    "transform": [
+      -350,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 20,
+    "name": "lab_click",
+    "size": [
+      43,
+      33
+    ],
+    "transform": [
+      81.819,
+      -1.657,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": true,
+    "sprites": [
+      {
+        "image": "settlement-study/assets/game-293-gengduo.png",
+        "name": "gengduo"
+      }
+    ],
+    "labels": []
+  },
+  {
+    "prefab": 20,
+    "name": "yd999",
+    "size": [
+      39,
+      39
+    ],
+    "transform": [
+      -18.711,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0.9,
+      0.9,
+      0.9
+    ],
+    "active": false,
+    "sprites": [
+      {
+        "image": "settlement-study/assets/common-257-yd999.png",
+        "name": "yd999"
+      }
+    ],
+    "labels": []
+  },
+  {
+    "prefab": 20,
+    "name": "lab_fanFront",
+    "size": [
+      63.89,
+      37.8
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 20,
+    "name": "fanNameLab",
+    "size": [
+      46,
+      37.8
+    ],
+    "transform": [
+      64.89,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 20,
+    "name": "fanNumLab",
+    "size": [
+      43.45,
+      36.54
+    ],
+    "transform": [
+      201.833,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 415,
+    "name": "CoinGameResult",
+    "size": [
+      1280,
+      720
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  },
+  {
+    "prefab": 415,
+    "name": "Root",
+    "size": [
+      1280,
+      720
+    ],
+    "active": true,
+    "sprites": [],
+    "labels": []
+  }
+]

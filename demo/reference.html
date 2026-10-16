@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>联桌麻将 · 牌桌</title><link rel="stylesheet" href="reference.css"><link rel="stylesheet" href="fan-effects.css"><link rel="stylesheet" href="table-panels.css"><link rel="stylesheet" href="lianzhuo-table-icons.css"><script type="importmap">{"imports":{"three":"./node_modules/three/build/three.module.js"}}</script></head>
+<body>
+<details class="study-tools">
+<summary aria-label="展开或收起辅助工具">工具 <span aria-hidden="true">⌃</span></summary>
+<div class="study-bar"><span><a href="hall.html" style="color:inherit;text-decoration:none">← 返回大厅</a> <small>本地血流练习</small></span><div><button id="reset-ref">重新开局</button><button id="sound-ref" aria-pressed="true">音效 开</button><button id="preview-hand">手部回放</button><button id="preview-fan">特效回放</button><button id="preview-settlement">结算预览</button><button id="inspect-open">界面拆解</button></div></div>
+</details>
+<main id="viewport"><div id="game" class="game">
+<div id="desk-layer" class="desk-layer" aria-label="原版桌布"></div>
+<div class="table-zones" id="zone-layer"><i class="zone top-zone"></i><i class="zone left-zone"></i><i class="zone right-zone"></i><i class="zone mine-zone"></i><div class="table-text"><b class="table-text-title">血流红中麻将金币场</b><span>底注:2000 封顶:32倍</span></div></div>
+<div id="tiles-layer" class="tiles-layer" aria-label="2D 常驻牌面与 3D 出牌动画"></div>
+<div id="ui-layer" class="ui-layer">
+<button id="menu" class="sprite-button menu" data-table-icon="more" aria-label="菜单"></button>
+<div class="top-info"><i class="green-card"></i><b id="tile-count">14</b><span class="red-tile">中</span></div>
+<button class="sprite-button recorder" id="recorder" aria-label="记牌器"><img data-ui="NewSkin/MenuBtn/jipaiqi" alt=""></button>
+<button class="new-player-gift" aria-label="新人豪礼"><img src="control-study/new-player-gift.png" alt="新人豪礼"></button>
+<div class="system-info"><span class="battery"></span><span>▥ 本地</span><small>10-03 12:38</small></div>
+<div class="profile profile-top"><div class="rank">11　雀 王</div><div class="portrait portrait-top"><span>禄</span><img data-ui="head/Head/touxiang" alt=""></div><div class="profile-info">演示对家<small><i></i> 本地玩家</small></div><span class="que">条</span></div>
+<div class="profile profile-left"><div class="rank">18　超凡雀圣</div><div class="portrait portrait-left"><span>福</span><img data-ui="head/Head/touxiang" alt=""></div><div class="profile-info">演示上家<small><i></i> 本地玩家</small></div><span class="que">筒</span></div>
+<div class="profile profile-right"><div class="rank">9　初凡雀尊</div><div class="portrait portrait-right"><span>寿</span><img data-ui="head/Head/touxiang" alt=""></div><div class="profile-info">演示下家<small><i></i> 本地玩家</small></div><span class="que">条</span></div>
+<div class="profile profile-mine"><div class="portrait robot"><div class="robot-face"><i></i><i></i><b></b></div><img data-ui="head/Head/touxiang" alt=""></div><div class="profile-info">本地体验<small><i></i> 练习模式</small></div><span class="dealer"><img data-ui="NewSkin/GamePanelBtn/dingQue/zhuang" alt="庄"></span><span class="que">筒</span></div>
+<div class="compass" aria-label="方向与倒计时"><img class="compass-bg" data-ui="Other/Main/countdown/img_pan_bg" alt=""><img class="count-bg" data-ui="Other/Main/countdown/img_count_bg" alt=""><span class="direction west">西</span><span class="direction south">南</span><span class="direction north">北</span><span class="direction east">东</span><strong id="countdown">14</strong><img class="turn-arrow" data-ui="Other/Main/countdown/light/img_light_mine_east" alt=""></div>
+<div class="right-tools"><button id="chat" class="sprite-button" data-table-icon="chat" aria-label="聊天"></button><button id="ledger" class="sprite-button" data-table-icon="ledger" aria-label="牌局流水"></button><button id="hint-ref" class="sprite-button" data-table-icon="hint" aria-label="听牌提示"></button></div>
+<div class="action-area"><span id="action-hint">点击选牌，再点击一次出牌</span><button id="demo-discard">演示出牌</button></div>
+<div id="menu-panel" class="menu-panel" hidden><button id="menu-inspect">查看界面实现</button><button id="menu-reset">重置牌局样例</button><a href="playable.html">打开上一版规则演示</a><button id="menu-close">收起菜单</button></div>
+<div id="toast" class="toast" aria-live="polite"></div>
+</div>
+<div id="hand-layer" class="hand-layer" aria-label="我的手牌"></div>
+<div id="loading" class="loading">正在加载原版模型与界面资源…</div>
+</div></main>
+<aside class="inspector" id="inspector" hidden>
+<div class="inspector-head"><div><small>CLIENT / RENDERING</small><h1>这张牌桌怎么画出来的</h1></div><button id="inspect-close" aria-label="关闭拆解">×</button></div>
+<p>原版采用 2D 精灵与 3D 动画混合显示。这里使用原桌布、按钮、麻将精灵、段位、默认头像和真实网格显示本地练习牌局；金币余额由后端保存，用于本地练习结算。</p>
+<div class="layer-controls"><label><input type="checkbox" data-layer="desk-layer" checked> 桌布图片</label><label><input type="checkbox" data-layer="tiles-layer" checked> 牌面与出牌动画</label><label><input type="checkbox" data-layer="ui-layer" checked> 2D 界面</label><label><input type="checkbox" data-layer="hand-layer" checked> 手牌精灵</label></div>
+<section><h2>01　桌面使用带透视和光照的底图</h2><img class="asset-preview" src="assets/reference/desk.jpg" alt="原桌布纹理"><p><code>ClassicDesk</code> 铺底，桌布图片已经包含木边、透视和桌面光照。<code>GameDeskView.initDesk()</code> 按桌面配置设置纹理节点的高度和位置。</p><dl><dt>原贴图</dt><dd>1600 × 720 · classicDesk.jpg</dd><dt>配置</dt><dd>GameDeskDefine.js → GameDeskCfg[-43]</dd><dt>普通牌局</dt><dd>deskTextureHeight: 522 · position: (0,20)</dd></dl></section>
+<section><h2>02　出牌时才临时使用 3D 麻将</h2><p><code>ZMJTileAnim.get3DTile()</code> 实例化 3D 牌，并交给 <code>gameHandAnim.play()</code> 播放动作。结束后通过回调恢复静态牌面。本地已将麻将网格与原女手的 3335 个顶点、18 个骨骼关节及出牌、碰杠、换牌关键帧转换成 Three.js 可读的数据，并按接触时刻切换回桌面牌。</p><dl><dt>牌身网格</dt><dd>104 个顶点 · 132 个三角形</dd><dt>牌面网格</dt><dd>4 个顶点 · 2 个三角形</dd><dt>原摄像机</dt><dd>FOV 22° · X 轴旋转 −40°</dd></dl><p class="note">原版使用 Cocos Creator 2.4.4。本地牌局独立实现；手部按原骨骼帧播放，完整线上番型与服务器消息时序仍待核对。</p></section>
+<section><h2>03　常驻麻将、按钮和方向盘都是精灵</h2><div class="sprite-examples"><img src="assets/reference/ui-1457.png" alt="手牌牌身"><img src="assets/reference/ui-245.png" alt="倒计时底盘"><img src="assets/reference/ui-700.png" alt="菜单图标"></div><p><code>ZMJTile.init()</code> 将牌身、牌面分别设置到 <code>cc.Sprite</code>。<code>ZMJHandTileCtrl</code> 按 <code>tileStartPos / titleStep</code> 排列手牌；<code>ZMJOutTileRow</code> 使用每张牌的 <code>FrontParam</code> 调整图片、缩放、偏移与倾斜。</p><p>本地采用原 720 设计高度、普通对局 Widget 覆盖参数和 CPG 副露事件链；空副露保留原手牌起点，有副露时按真实边界移动。弃牌、胡牌记录及桌面的动物纹理使用原图与列参数。</p></section>
+<section><h2>04　动画与服务器逻辑是另外一层</h2><p><code>GameAnimMgr</code> 排队播放动画；<code>ZMJTileAnim</code> 将出牌、碰杠等动作转换成视觉表现。<code>GameLogic</code> 接收牌局消息更新模型。完整洗牌和结算不能仅凭这些前端代码确认。</p></section>
+<section><h2>本地入口</h2><p><code>reference.js</code>：网格导入、相机、牌列、演示动作。<br><code>reference.css</code>：原界面布局与缩放。<br><code>assets/reference/ui-index.json</code>：原精灵 UUID、图集矩形和来源。</p></section>
+</aside>
+<script type="module" src="lianzhuo-table-icons.js"></script>
+<script type="module" src="reference-entry.js"></script>
+</body></html>
+
+

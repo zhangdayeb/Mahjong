@@ -1,0 +1,97 @@
+{
+  "source": {
+    "prefab": 746,
+    "node": "lab_title",
+    "fontUUID": "d3224ad4-b37f-4730-90f0-c91c90307c2a",
+    "bundle": "fonts",
+    "id": 235,
+    "path": "NewSkin/title/fnt_biaotiz-export",
+    "isSystemFontUsed": false
+  },
+  "text": "玩法规则",
+  "fontSize": 32,
+  "lineHeight": 32,
+  "fontAssetSize": 32,
+  "commonHeight": 53,
+  "nodeSize": [
+    171,
+    32
+  ],
+  "horizontalAlign": 1,
+  "verticalAlign": 1,
+  "frame": {
+    "bundle": "fonts",
+    "id": 282,
+    "path": "NewSkin/title/fnt_biaotiz-export",
+    "name": "fnt_biaotiz-export",
+    "rect": [
+      0,
+      0,
+      920,
+      916
+    ],
+    "offset": [
+      -4,
+      4
+    ],
+    "originalSize": [
+      928,
+      924
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "f38fba04-f256-4c83-8867-0087385dfb0a",
+    "textureUUID": "6d6f0c5e-6db4-46cb-9c55-b010ab5c796a",
+    "image": "room-rule-study/assets/native-title-font.png"
+  },
+  "glyphs": {
+    "玩": {
+      "xOffset": 0,
+      "yOffset": 3,
+      "xAdvance": 41,
+      "rect": {
+        "x": 237,
+        "y": 239,
+        "width": 51,
+        "height": 49
+      }
+    },
+    "法": {
+      "xOffset": 0,
+      "yOffset": 1,
+      "xAdvance": 40,
+      "rect": {
+        "x": 413,
+        "y": 649,
+        "width": 50,
+        "height": 51
+      }
+    },
+    "规": {
+      "xOffset": 0,
+      "yOffset": 2,
+      "xAdvance": 40,
+      "rect": {
+        "x": 646,
+        "y": 119,
+        "width": 50,
+        "height": 51
+      }
+    },
+    "则": {
+      "xOffset": 0,
+      "yOffset": 1,
+      "xAdvance": 40,
+      "rect": {
+        "x": 587,
+        "y": 530,
+        "width": 50,
+        "height": 52
+      }
+    }
+  }
+}

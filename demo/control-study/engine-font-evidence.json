@@ -1,0 +1,24 @@
+{
+  "engine": "asset-study/scripts/cocos2d-js-min.js",
+  "TTF": {
+    "module": 277,
+    "spacingXOccurrences": 0,
+    "wholeLineFillText": true,
+    "heightFormula": "(lines.length + BASELINE_RATIO) * lineHeight",
+    "baselineFormula": "fontSize*(1-BASELINE_RATIO/2) - (fontSize-contentHeight)/2 + BASELINE_OFFSET*fontSize"
+  },
+  "BMFont": {
+    "module": 274,
+    "spacingXOccurrences": 1
+  },
+  "constants": {
+    "BASELINE_RATIO": 0.26,
+    "BASELINE_OFFSET": 0
+  },
+  "prefabWidthProof": {
+    "trusteeLabel": 136,
+    "fontSize": 34,
+    "characters": 4,
+    "spacingApplied": false
+  }
+}

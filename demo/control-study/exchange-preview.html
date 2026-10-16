@@ -1,0 +1,9 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>原换牌与托管按钮控件核对</title><style>
+*{box-sizing:border-box}body{margin:0;background:#101b20;color:#fff;font:14px Arial,sans-serif}nav{height:44px;display:flex;align-items:center;gap:15px;padding:0 12px}nav button{font:inherit}#stage{position:relative;width:1280px;height:640px;background:#006053 url('../assets/reference/desk.jpg') center/100% 100%;overflow:hidden}#trustee{position:absolute;left:536.444px;top:503.936px}#readout{white-space:pre-wrap;max-width:1200px;font:12px Consolas,monospace;margin:10px}
+</style><nav><button id="exchange">原换牌</button><button id="trustee-preview">取消托管</button><label><input id="enabled" type="checkbox" checked>按钮可用</label><label><input id="any" type="checkbox">任意花色</label><span>来源：prefabs 3840 / 3907；TTF 实际字距 0</span></nav><div id="stage"><button id="trustee" hidden></button></div><pre id="readout"></pre><script type="module">
+import{createExchangeControls,styleTrusteeButton,exchangeControlLayout}from'../exchange-controls.js';
+const $=id=>document.getElementById(id),stage=$('stage'),exchange=createExchangeControls(stage,{onConfirm:()=>exchange.hide()}),trustee=styleTrusteeButton($('trustee'),{scale:8/9});
+const state={remaining:15,enabled:true,bAllColor:false};function show(){const layout=exchange.show(state);$('readout').textContent=JSON.stringify(layout,null,2);}
+$('exchange').onclick=()=>{$('trustee').hidden=true;show();};$('trustee-preview').onclick=()=>{exchange.hide();$('trustee').hidden=false;};$('enabled').onchange=()=>{state.enabled=$('enabled').checked;exchange.update(state);trustee.update({enabled:state.enabled});};$('any').onchange=()=>{state.bAllColor=$('any').checked;exchange.update(state);};
+await Promise.all([exchange.ready,trustee.ready]);show();window.nativeExchangePreview={exchange,trustee,exchangeControlLayout};
+</script></html>

@@ -1,0 +1,6 @@
+.native-exit{position:absolute;inset:0;z-index:130;background:rgba(0,0,0,.62745098);pointer-events:auto;font-family:Arial,sans-serif}
+.native-exit[hidden]{display:none!important}
+.native-exit-content{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%) scale(var(--native-exit-scale,.888888889));transform-origin:center;pointer-events:auto}
+.native-exit-background,.native-exit-title,.native-exit-title-label,.native-exit-text,.native-exit-button-label{position:absolute;display:block;pointer-events:none}
+.native-exit .native-exit-button{position:absolute;padding:0;margin:0;border:0;border-radius:0;background-color:transparent;background-repeat:no-repeat;background-size:100% 100%;box-shadow:none;cursor:pointer;appearance:none;transform-origin:center;outline:none;overflow:visible}
+.native-exit .native-exit-button:focus-visible{outline:3px solid #fff;outline-offset:4px}

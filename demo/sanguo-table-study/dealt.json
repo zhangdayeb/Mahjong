@@ -1,0 +1,2221 @@
+{
+  "design": [
+    1280,
+    720
+  ],
+  "sources": {
+    "menu": {
+      "bundle": "main",
+      "id": 3,
+      "node": "menu/panel_menuList_bg"
+    },
+    "tools": {
+      "bundle": "prefabs",
+      "id": 264
+    },
+    "fan": {
+      "bundle": "prefabs",
+      "id": 1052
+    },
+    "timeout": {
+      "bundle": "prefabs",
+      "id": 952
+    },
+    "recorder": {
+      "bundle": "prefabs",
+      "id": 3709
+    },
+    "handAtlas": {
+      "bundle": "game",
+      "id": 1397
+    }
+  },
+  "menu": {
+    "name": "panel_menuList_bg",
+    "trs": [
+      -512.5,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "size": [
+      316,
+      720
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "opacity": 255,
+    "color": 4294967295,
+    "active": false,
+    "sprite": {
+      "class": "cc.Sprite",
+      "_sizeMode": 0,
+      "_materials": [
+        "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      ],
+      "_spriteFrame": "0f8eb94b-1b93-4348-b260-de5713357e1e",
+      "frame": "0f8eb94b-1b93-4348-b260-de5713357e1e",
+      "builtinSolid": false
+    },
+    "label": null,
+    "widget": {
+      "class": "cc.Widget",
+      "alignMode": 2,
+      "_alignFlags": 13,
+      "_left": -30.5,
+      "_originalHeight": 720
+    },
+    "button": null,
+    "children": [
+      {
+        "name": "panel_menuList",
+        "trs": [
+          -50,
+          -360,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "size": [
+          255,
+          680
+        ],
+        "anchor": [
+          0.5,
+          0
+        ],
+        "opacity": 255,
+        "color": 4294967295,
+        "active": true,
+        "sprite": null,
+        "label": null,
+        "widget": {
+          "class": "cc.Widget",
+          "_alignFlags": 1,
+          "_top": 40
+        },
+        "button": null,
+        "children": [
+          {
+            "name": "btn_trustee",
+            "trs": [
+              6,
+              650,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            "size": [
+              147,
+              60
+            ],
+            "anchor": [
+              0.5,
+              0.5
+            ],
+            "opacity": 255,
+            "color": 4294967295,
+            "active": true,
+            "sprite": {
+              "class": "cc.Sprite",
+              "_sizeMode": 2,
+              "_isTrimmedMode": false,
+              "_materials": [
+                "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+              ],
+              "_spriteFrame": "5ef0d887-73ee-4c53-8aff-ca4225c74503",
+              "frame": "5ef0d887-73ee-4c53-8aff-ca4225c74503",
+              "builtinSolid": false
+            },
+            "label": null,
+            "widget": null,
+            "button": {
+              "class": "cc.Button",
+              "_N$enableAutoGrayEffect": true,
+              "_N$transition": 3,
+              "_N$pressedColor": [
+                4294967295
+              ],
+              "_N$disabledColor": [
+                4294967295
+              ],
+              "_normalMaterial": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432",
+              "_N$normalSprite": "d4de2f04-f4b1-4b20-a9ad-aaacc31f7557",
+              "_N$pressedSprite": "e9ec654c-97a2-4787-9325-e6a10375219a",
+              "_N$hoverSprite": "f0048c10-f03e-4c97-b9d3-3506e1d58952",
+              "_N$disabledSprite": "29158224-f8dd-4661-a796-1ffab537140e"
+            },
+            "children": []
+          },
+          {
+            "name": "btn_set",
+            "trs": [
+              4,
+              570,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            "size": [
+              143,
+              60
+            ],
+            "anchor": [
+              0.5,
+              0.5
+            ],
+            "opacity": 255,
+            "color": 4294967295,
+            "active": true,
+            "sprite": {
+              "class": "cc.Sprite",
+              "_materials": [
+                "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+              ],
+              "_spriteFrame": "63d04334-dfe7-4376-a1b2-c542ec5e432b",
+              "frame": "63d04334-dfe7-4376-a1b2-c542ec5e432b",
+              "builtinSolid": false
+            },
+            "label": null,
+            "widget": null,
+            "button": {
+              "class": "cc.Button",
+              "_N$transition": 3,
+              "_N$normalColor": [
+                4292269782
+              ]
+            },
+            "children": []
+          },
+          {
+            "name": "btn_PlayRule",
+            "trs": [
+              4,
+              490,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            "size": [
+              143,
+              60
+            ],
+            "anchor": [
+              0.5,
+              0.5
+            ],
+            "opacity": 255,
+            "color": 4294967295,
+            "active": true,
+            "sprite": {
+              "class": "cc.Sprite",
+              "_type": 1,
+              "_materials": [
+                "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+              ],
+              "_spriteFrame": "8cad46cb-f178-4155-9ff4-056efed725f7",
+              "frame": "8cad46cb-f178-4155-9ff4-056efed725f7",
+              "builtinSolid": false
+            },
+            "label": null,
+            "widget": null,
+            "button": {
+              "class": "cc.Button",
+              "_N$pressedColor": [
+                4294967295
+              ],
+              "_N$disabledColor": [
+                4294967295
+              ],
+              "_N$normalSprite": "86dcf8f1-5892-4d62-b7da-d79d9d0b54e3",
+              "_N$pressedSprite": "e9ec654c-97a2-4787-9325-e6a10375219a",
+              "_N$hoverSprite": "f0048c10-f03e-4c97-b9d3-3506e1d58952",
+              "_N$disabledSprite": "29158224-f8dd-4661-a796-1ffab537140e"
+            },
+            "children": []
+          },
+          {
+            "name": "btn_GameBehavior",
+            "trs": [
+              4.5,
+              330,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            "size": [
+              144,
+              60
+            ],
+            "anchor": [
+              0.5,
+              0.5
+            ],
+            "opacity": 255,
+            "color": 4294967295,
+            "active": true,
+            "sprite": {
+              "class": "cc.Sprite",
+              "_materials": [
+                "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+              ],
+              "_spriteFrame": "4622fdd8-d04a-43b1-bd34-fa4145e45f8f@6c48a",
+              "frame": "4622fdd8-d04a-43b1-bd34-fa4145e45f8f@6c48a",
+              "builtinSolid": false
+            },
+            "label": null,
+            "widget": null,
+            "button": {
+              "class": "cc.Button",
+              "_N$transition": 3,
+              "_N$normalColor": [
+                4292269782
+              ]
+            },
+            "children": []
+          },
+          {
+            "name": "btn_exit",
+            "trs": [
+              3,
+              250,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            "size": [
+              141,
+              60
+            ],
+            "anchor": [
+              0.5,
+              0.5
+            ],
+            "opacity": 255,
+            "color": 4294967295,
+            "active": true,
+            "sprite": {
+              "class": "cc.Sprite",
+              "_materials": [
+                "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+              ],
+              "_spriteFrame": "aa7632fb-6fcf-4bc5-83bc-6a0bd3f1b783",
+              "frame": "aa7632fb-6fcf-4bc5-83bc-6a0bd3f1b783",
+              "builtinSolid": false
+            },
+            "label": null,
+            "widget": null,
+            "button": {
+              "class": "cc.Button",
+              "_N$transition": 3,
+              "_N$normalColor": [
+                4292269782
+              ]
+            },
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "tools": {
+    "top": {
+      "name": "leftTopNode",
+      "trs": [
+        -282,
+        306.2,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "size": [
+        276,
+        50
+      ],
+      "anchor": [
+        0,
+        0.5
+      ],
+      "opacity": 255,
+      "color": 4294967295,
+      "active": true,
+      "sprite": null,
+      "label": null,
+      "widget": {
+        "class": "cc.Widget",
+        "_alignFlags": 9,
+        "_left": 358,
+        "_top": 28.80000000000001
+      },
+      "button": null,
+      "children": [
+        {
+          "name": "Btn_recode",
+          "trs": [
+            30,
+            7,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "size": [
+            60,
+            60
+          ],
+          "anchor": [
+            0.5,
+            0.5
+          ],
+          "opacity": 255,
+          "color": 4294967295,
+          "active": true,
+          "sprite": {
+            "class": "cc.Sprite",
+            "_sizeMode": 2,
+            "_isTrimmedMode": false,
+            "_materials": [
+              "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+            ],
+            "_spriteFrame": "0ed97780-de55-461b-879f-6eb403d1a321",
+            "frame": "0ed97780-de55-461b-879f-6eb403d1a321",
+            "builtinSolid": false
+          },
+          "label": null,
+          "widget": {
+            "class": "cc.Widget",
+            "alignMode": 0,
+            "_alignFlags": 4,
+            "_right": 70,
+            "_bottom": 2
+          },
+          "button": {
+            "class": "cc.Button",
+            "zoomScale": 0.9,
+            "_N$transition": 3,
+            "_N$normalColor": [
+              4292269782
+            ]
+          },
+          "children": [
+            {
+              "name": "img_circl",
+              "trs": [
+                19.947,
+                21.817,
+                0,
+                0,
+                0,
+                0,
+                1,
+                1,
+                1,
+                1
+              ],
+              "size": [
+                24,
+                25
+              ],
+              "anchor": [
+                0.5,
+                0.5
+              ],
+              "opacity": 255,
+              "color": 4294967295,
+              "active": true,
+              "sprite": {
+                "class": "cc.Sprite",
+                "_sizeMode": 2,
+                "_isTrimmedMode": false,
+                "_materials": [
+                  "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                ],
+                "builtinSolid": false
+              },
+              "label": null,
+              "widget": null,
+              "button": null,
+              "children": [
+                {
+                  "name": "lab",
+                  "trs": [
+                    1.29,
+                    -34.253,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    1,
+                    1,
+                    1
+                  ],
+                  "size": [
+                    12.34,
+                    22.9
+                  ],
+                  "anchor": [
+                    1,
+                    0.5
+                  ],
+                  "opacity": 255,
+                  "color": 4294967295,
+                  "active": true,
+                  "sprite": null,
+                  "label": {
+                    "class": "cc.Label",
+                    "_string": "1",
+                    "_fontSize": 15,
+                    "_lineHeight": 15,
+                    "_N$horizontalAlign": 1,
+                    "_N$verticalAlign": 1,
+                    "_materials": [
+                      "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                    ]
+                  },
+                  "widget": null,
+                  "button": null,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "right": {
+      "name": "rightDownNode",
+      "trs": [
+        594,
+        -120,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "size": [
+        90,
+        220
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "opacity": 255,
+      "color": 4294967295,
+      "active": true,
+      "sprite": null,
+      "label": null,
+      "widget": null,
+      "button": null,
+      "children": [
+        {
+          "name": "btn_chat",
+          "trs": [
+            6,
+            75,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "size": [
+            60,
+            60
+          ],
+          "anchor": [
+            0.5,
+            0.5
+          ],
+          "opacity": 255,
+          "color": 4294967295,
+          "active": true,
+          "sprite": {
+            "class": "cc.Sprite",
+            "_materials": [
+              "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+            ],
+            "_spriteFrame": "a25fb90c-30df-4778-9c94-7bf5d8f0f86e",
+            "frame": "a25fb90c-30df-4778-9c94-7bf5d8f0f86e",
+            "builtinSolid": false
+          },
+          "label": null,
+          "widget": {
+            "class": "cc.Widget",
+            "alignMode": 0,
+            "_alignFlags": 4,
+            "_right": 70,
+            "_bottom": 155
+          },
+          "button": {
+            "class": "cc.Button",
+            "_N$transition": 3,
+            "_N$normalColor": [
+              4292269782
+            ]
+          },
+          "children": [
+            {
+              "name": "UpdateTip",
+              "trs": [
+                -76,
+                40,
+                0,
+                0,
+                0,
+                0,
+                1,
+                1,
+                1,
+                1
+              ],
+              "size": [
+                96,
+                38
+              ],
+              "anchor": [
+                0.5,
+                0.5
+              ],
+              "opacity": 255,
+              "color": 4294967295,
+              "active": false,
+              "sprite": {
+                "class": "cc.Sprite",
+                "_materials": [
+                  "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                ],
+                "_spriteFrame": "a2d27574-8d17-4ff5-9417-b85298718c28",
+                "frame": "a2d27574-8d17-4ff5-9417-b85298718c28",
+                "builtinSolid": false
+              },
+              "label": null,
+              "widget": null,
+              "button": null,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Btn_Hu_Details",
+          "trs": [
+            6,
+            5,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "size": [
+            60,
+            60
+          ],
+          "anchor": [
+            0.5,
+            0.5
+          ],
+          "opacity": 255,
+          "color": 4294967295,
+          "active": true,
+          "sprite": {
+            "class": "cc.Sprite",
+            "_materials": [
+              "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+            ],
+            "_spriteFrame": "35c3d505-c793-4636-aaaa-23c14c864111",
+            "frame": "35c3d505-c793-4636-aaaa-23c14c864111",
+            "builtinSolid": false
+          },
+          "label": null,
+          "widget": {
+            "class": "cc.Widget",
+            "alignMode": 0,
+            "_alignFlags": 4,
+            "_right": 70,
+            "_bottom": 85
+          },
+          "button": {
+            "class": "cc.Button",
+            "_N$transition": 3,
+            "_N$normalColor": [
+              4292269782
+            ]
+          },
+          "children": []
+        }
+      ]
+    },
+    "fan": {
+      "name": "QuickFanEntryNew",
+      "trs": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "size": [
+        77,
+        74
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "opacity": 255,
+      "color": 4294967295,
+      "active": true,
+      "sprite": null,
+      "label": null,
+      "widget": null,
+      "button": {
+        "class": "cc.Button",
+        "zoomScale": 0.9,
+        "_N$transition": 3
+      },
+      "children": [
+        {
+          "name": "Root",
+          "trs": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "size": [
+            0,
+            0
+          ],
+          "anchor": [
+            0.5,
+            0.5
+          ],
+          "opacity": 255,
+          "color": 4294967295,
+          "active": false,
+          "sprite": null,
+          "label": null,
+          "widget": null,
+          "button": null,
+          "children": [
+            {
+              "name": "Icon",
+              "trs": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                1,
+                1,
+                1
+              ],
+              "size": [
+                60,
+                60
+              ],
+              "anchor": [
+                0.5,
+                0.5
+              ],
+              "opacity": 255,
+              "color": 4294967295,
+              "active": true,
+              "sprite": {
+                "class": "cc.Sprite",
+                "_materials": [
+                  "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                ],
+                "_spriteFrame": "14527599-9d22-4572-9eaf-2586f6b5af2f",
+                "frame": "14527599-9d22-4572-9eaf-2586f6b5af2f",
+                "builtinSolid": false
+              },
+              "label": null,
+              "widget": null,
+              "button": null,
+              "children": []
+            },
+            {
+              "name": "Reddot",
+              "trs": [
+                23.097,
+                23.141,
+                0,
+                0,
+                0,
+                0,
+                1,
+                1,
+                1,
+                1
+              ],
+              "size": [
+                20.8,
+                21.6
+              ],
+              "anchor": [
+                0.5,
+                0.5
+              ],
+              "opacity": 255,
+              "color": 4294967295,
+              "active": false,
+              "sprite": {
+                "class": "cc.Sprite",
+                "_sizeMode": 0,
+                "_materials": [
+                  "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                ],
+                "_spriteFrame": "1a90e871-5072-4dfa-8eb9-983e2d60ef00",
+                "frame": "1a90e871-5072-4dfa-8eb9-983e2d60ef00",
+                "builtinSolid": false
+              },
+              "label": null,
+              "widget": null,
+              "button": null,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "timeout": {
+    "name": "GameHuBehavior",
+    "trs": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "size": [
+      1280,
+      720
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "opacity": 255,
+    "color": 4294967295,
+    "active": true,
+    "sprite": null,
+    "label": null,
+    "widget": null,
+    "button": null,
+    "children": [
+      {
+        "name": "mask",
+        "trs": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "size": [
+          1280,
+          720
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "opacity": 0,
+        "color": 0,
+        "active": true,
+        "sprite": {
+          "class": "cc.Sprite",
+          "_sizeMode": 0,
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "a23235d1-15db-4b95-8439-a2e005bfff91",
+          "frame": null,
+          "builtinSolid": true
+        },
+        "label": null,
+        "widget": {
+          "class": "cc.Widget",
+          "_alignFlags": 45,
+          "_originalWidth": 1280,
+          "_originalHeight": 720
+        },
+        "button": {
+          "class": "cc.Button",
+          "_N$pressedColor": [
+            4294967295
+          ],
+          "_N$hoverColor": [
+            4292072403
+          ],
+          "_N$normalSprite": "a23235d1-15db-4b95-8439-a2e005bfff91"
+        },
+        "children": []
+      },
+      {
+        "name": "di",
+        "trs": [
+          3.484,
+          16.156,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "size": [
+          591,
+          300
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "opacity": 255,
+        "color": 4294967295,
+        "active": true,
+        "sprite": {
+          "class": "cc.Sprite",
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "91caecac-3ba4-4bf4-8ecb-bd85d106270d@6c48a",
+          "frame": "91caecac-3ba4-4bf4-8ecb-bd85d106270d@6c48a",
+          "builtinSolid": false
+        },
+        "label": null,
+        "widget": null,
+        "button": null,
+        "children": [
+          {
+            "name": "title",
+            "trs": [
+              -184.99,
+              129.038,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            "size": [
+              172,
+              40
+            ],
+            "anchor": [
+              0.5,
+              0.5
+            ],
+            "opacity": 255,
+            "color": 4294967295,
+            "active": true,
+            "sprite": null,
+            "label": {
+              "class": "cc.Label",
+              "_string": "超时设置",
+              "_fontSize": 32,
+              "_isSystemFontUsed": false,
+              "_underlineHeight": 2,
+              "_N$horizontalAlign": 1,
+              "_N$verticalAlign": 1,
+              "_materials": [
+                "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+              ],
+              "_N$file": "bfc0beee-3582-474d-96fc-d3a5283eba7f"
+            },
+            "widget": null,
+            "button": null,
+            "children": []
+          },
+          {
+            "name": "Label",
+            "trs": [
+              -31.446,
+              23.029,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            "size": [
+              180,
+              50.4
+            ],
+            "anchor": [
+              0.5,
+              0.5
+            ],
+            "opacity": 255,
+            "color": 4284366397,
+            "active": true,
+            "sprite": null,
+            "label": {
+              "class": "cc.Label",
+              "_string": "超时自动胡牌",
+              "_fontSize": 30,
+              "_isSystemFontUsed": false,
+              "_underlineHeight": 2,
+              "_N$horizontalAlign": 1,
+              "_N$verticalAlign": 1,
+              "_materials": [
+                "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+              ],
+              "_N$file": "347751a4-16a4-491f-822f-18059aadfc98"
+            },
+            "widget": null,
+            "button": null,
+            "children": []
+          },
+          {
+            "name": "Label-001",
+            "trs": [
+              -31.446,
+              -62.965,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            "size": [
+              180,
+              50.4
+            ],
+            "anchor": [
+              0.5,
+              0.5
+            ],
+            "opacity": 255,
+            "color": 4284366397,
+            "active": true,
+            "sprite": null,
+            "label": {
+              "class": "cc.Label",
+              "_string": "超时自动打出",
+              "_fontSize": 30,
+              "_isSystemFontUsed": false,
+              "_underlineHeight": 2,
+              "_N$horizontalAlign": 1,
+              "_N$verticalAlign": 1,
+              "_materials": [
+                "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+              ],
+              "_N$file": "347751a4-16a4-491f-822f-18059aadfc98"
+            },
+            "widget": null,
+            "button": null,
+            "children": []
+          },
+          {
+            "name": "Hu",
+            "trs": [
+              91.481,
+              21.648,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            "size": [
+              48,
+              49
+            ],
+            "anchor": [
+              0.5,
+              0.5
+            ],
+            "opacity": 255,
+            "color": 4294967295,
+            "active": true,
+            "sprite": {
+              "class": "cc.Sprite",
+              "_materials": [
+                "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+              ],
+              "_spriteFrame": "75420c56-9d95-4ec7-ab16-edde9836e128@6c48a",
+              "frame": "75420c56-9d95-4ec7-ab16-edde9836e128@6c48a",
+              "builtinSolid": false
+            },
+            "label": null,
+            "widget": null,
+            "button": {
+              "class": "cc.Button",
+              "_N$pressedColor": [
+                4294967295
+              ],
+              "_N$hoverColor": [
+                4292072403
+              ],
+              "_N$normalSprite": "75420c56-9d95-4ec7-ab16-edde9836e128@6c48a"
+            },
+            "children": [
+              {
+                "name": "gou",
+                "trs": [
+                  6.344,
+                  2.719,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "size": [
+                  47,
+                  45
+                ],
+                "anchor": [
+                  0.5,
+                  0.5
+                ],
+                "opacity": 255,
+                "color": 4294967295,
+                "active": true,
+                "sprite": {
+                  "class": "cc.Sprite",
+                  "_materials": [
+                    "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                  ],
+                  "_spriteFrame": "8f03ae14-7486-49e9-a557-9b08ce2d8518@6c48a",
+                  "frame": "8f03ae14-7486-49e9-a557-9b08ce2d8518@6c48a",
+                  "builtinSolid": false
+                },
+                "label": null,
+                "widget": null,
+                "button": null,
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Pass",
+            "trs": [
+              91.054,
+              -65.385,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            "size": [
+              48,
+              49
+            ],
+            "anchor": [
+              0.5,
+              0.5
+            ],
+            "opacity": 255,
+            "color": 4294967295,
+            "active": true,
+            "sprite": {
+              "class": "cc.Sprite",
+              "_materials": [
+                "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+              ],
+              "_spriteFrame": "75420c56-9d95-4ec7-ab16-edde9836e128@6c48a",
+              "frame": "75420c56-9d95-4ec7-ab16-edde9836e128@6c48a",
+              "builtinSolid": false
+            },
+            "label": null,
+            "widget": null,
+            "button": {
+              "class": "cc.Button",
+              "_N$pressedColor": [
+                4294967295
+              ],
+              "_N$hoverColor": [
+                4292072403
+              ],
+              "_N$normalSprite": "75420c56-9d95-4ec7-ab16-edde9836e128@6c48a"
+            },
+            "children": [
+              {
+                "name": "gou",
+                "trs": [
+                  6.344,
+                  2.719,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "size": [
+                  47,
+                  45
+                ],
+                "anchor": [
+                  0.5,
+                  0.5
+                ],
+                "opacity": 255,
+                "color": 4294967295,
+                "active": true,
+                "sprite": {
+                  "class": "cc.Sprite",
+                  "_materials": [
+                    "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                  ],
+                  "_spriteFrame": "8f03ae14-7486-49e9-a557-9b08ce2d8518@6c48a",
+                  "frame": "8f03ae14-7486-49e9-a557-9b08ce2d8518@6c48a",
+                  "builtinSolid": false
+                },
+                "label": null,
+                "widget": null,
+                "button": null,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Close",
+        "trs": [
+          264.088,
+          138.113,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "size": [
+          60,
+          60
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "opacity": 255,
+        "color": 4294967295,
+        "active": true,
+        "sprite": null,
+        "label": null,
+        "widget": null,
+        "button": {
+          "class": "cc.Button",
+          "_N$pressedColor": [
+            4294967295
+          ],
+          "_N$hoverColor": [
+            4292072403
+          ]
+        },
+        "children": [
+          {
+            "name": "img_blueBtn_close",
+            "trs": [
+              1.143000000000029,
+              0.7970000000000255,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            "size": [
+              38,
+              37
+            ],
+            "anchor": [
+              0.5,
+              0.5
+            ],
+            "opacity": 255,
+            "color": 4294967295,
+            "active": true,
+            "sprite": {
+              "class": "cc.Sprite",
+              "_materials": [
+                "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+              ],
+              "_spriteFrame": "feec4ed5-df49-4757-ad98-21baf745e1a0",
+              "frame": "feec4ed5-df49-4757-ad98-21baf745e1a0",
+              "builtinSolid": false
+            },
+            "label": null,
+            "widget": null,
+            "button": null,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "recorder": {
+    "name": "MJrecorder",
+    "trs": [
+      640,
+      360,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "size": [
+      1280,
+      720
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "opacity": 255,
+    "color": 4294967295,
+    "active": true,
+    "sprite": null,
+    "label": null,
+    "widget": null,
+    "button": null,
+    "children": [
+      {
+        "name": "Mask",
+        "trs": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "size": [
+          1280,
+          720
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "opacity": 127.5,
+        "color": 4278190080,
+        "active": true,
+        "sprite": {
+          "class": "cc.Sprite",
+          "_sizeMode": 0,
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "a23235d1-15db-4b95-8439-a2e005bfff91",
+          "frame": null,
+          "builtinSolid": true
+        },
+        "label": null,
+        "widget": {
+          "class": "cc.Widget",
+          "_alignFlags": 45,
+          "_originalWidth": 1280,
+          "_originalHeight": 720
+        },
+        "button": {
+          "class": "cc.Button"
+        },
+        "children": []
+      },
+      {
+        "name": "root",
+        "trs": [
+          -11.305,
+          33.032,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "size": [
+          800,
+          418
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "opacity": 255,
+        "color": 4294967295,
+        "active": true,
+        "sprite": {
+          "class": "cc.Sprite",
+          "_type": 1,
+          "_sizeMode": 0,
+          "_isTrimmedMode": false,
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "d0badfb9-fa41-40d4-8b0d-e5a9ac0544bc",
+          "frame": "d0badfb9-fa41-40d4-8b0d-e5a9ac0544bc",
+          "builtinSolid": false
+        },
+        "label": null,
+        "widget": null,
+        "button": null,
+        "children": [
+          {
+            "name": "Tip",
+            "trs": [
+              20.575,
+              237.144,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            "size": [
+              376.4,
+              31.5
+            ],
+            "anchor": [
+              0.5,
+              0.5
+            ],
+            "opacity": 255,
+            "color": 4294967295,
+            "active": true,
+            "sprite": null,
+            "label": {
+              "class": "cc.Label",
+              "_string": "长 按 桌 面 可 打 开 记 牌 器 查 看",
+              "_fontSize": 25,
+              "_lineHeight": 25,
+              "_underlineHeight": 2,
+              "_N$horizontalAlign": 1,
+              "_N$verticalAlign": 1,
+              "_materials": [
+                "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+              ]
+            },
+            "widget": {
+              "class": "cc.Widget",
+              "_alignFlags": 17,
+              "_top": -43.89400000000002,
+              "_horizontalCenter": 20.575
+            },
+            "button": null,
+            "children": []
+          },
+          {
+            "name": "pic_tip",
+            "trs": [
+              -326.291,
+              3.962,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0.9,
+              0.9,
+              1
+            ],
+            "size": [
+              33,
+              490
+            ],
+            "anchor": [
+              0.5,
+              0.5
+            ],
+            "opacity": 255,
+            "color": 4294967295,
+            "active": true,
+            "sprite": {
+              "class": "cc.Sprite",
+              "_sizeMode": 2,
+              "_isTrimmedMode": false,
+              "_materials": [
+                "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+              ],
+              "_spriteFrame": "8423f472-e7c1-4d1f-98f9-e77c203236fa",
+              "frame": "8423f472-e7c1-4d1f-98f9-e77c203236fa",
+              "builtinSolid": false
+            },
+            "label": null,
+            "widget": {
+              "class": "cc.Widget",
+              "_alignFlags": 8,
+              "_left": 58.85899999999998
+            },
+            "button": null,
+            "children": []
+          },
+          {
+            "name": "bgs",
+            "trs": [
+              -253.78,
+              200.5,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            "size": [
+              645,
+              200
+            ],
+            "anchor": [
+              0,
+              1
+            ],
+            "opacity": 255,
+            "color": 4294967295,
+            "active": true,
+            "sprite": null,
+            "label": null,
+            "widget": {
+              "class": "cc.Widget",
+              "_alignFlags": 41,
+              "_left": 146.22,
+              "_right": 8.780000000000001,
+              "_top": 8.5,
+              "_originalWidth": 705
+            },
+            "button": null,
+            "children": [
+              {
+                "name": "img_di1",
+                "trs": [
+                  322.5,
+                  -50,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "size": [
+                  640,
+                  100
+                ],
+                "anchor": [
+                  0.5,
+                  0.5
+                ],
+                "opacity": 255,
+                "color": 4294967295,
+                "active": true,
+                "sprite": {
+                  "class": "cc.Sprite",
+                  "_sizeMode": 0,
+                  "_materials": [
+                    "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                  ],
+                  "builtinSolid": false
+                },
+                "label": null,
+                "widget": {
+                  "class": "cc.Widget",
+                  "_alignFlags": 40,
+                  "_left": 2.5,
+                  "_right": 2.5,
+                  "_originalWidth": 705
+                },
+                "button": null,
+                "children": []
+              },
+              {
+                "name": "img_di2",
+                "trs": [
+                  0,
+                  -150,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "size": [
+                  643,
+                  100
+                ],
+                "anchor": [
+                  0,
+                  0.5
+                ],
+                "opacity": 255,
+                "color": 4294967295,
+                "active": true,
+                "sprite": {
+                  "class": "cc.Sprite",
+                  "_type": 1,
+                  "_sizeMode": 0,
+                  "_materials": [
+                    "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                  ],
+                  "_spriteFrame": "5c307287-a734-444a-8d1a-fd4889b8d4d7",
+                  "frame": "5c307287-a734-444a-8d1a-fd4889b8d4d7",
+                  "builtinSolid": false
+                },
+                "label": null,
+                "widget": {
+                  "class": "cc.Widget",
+                  "_alignFlags": 40,
+                  "_right": 2,
+                  "_originalWidth": 705
+                },
+                "button": null,
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "nodes",
+            "trs": [
+              -253.151,
+              200.5,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            "size": [
+              645,
+              100
+            ],
+            "anchor": [
+              0,
+              1
+            ],
+            "opacity": 255,
+            "color": 4294967295,
+            "active": true,
+            "sprite": null,
+            "label": null,
+            "widget": {
+              "class": "cc.Widget",
+              "_alignFlags": 41,
+              "_left": 146.849,
+              "_right": 8.150999999999996,
+              "_top": 8.5,
+              "_originalWidth": 705
+            },
+            "button": null,
+            "children": [
+              {
+                "name": "wan",
+                "trs": [
+                  0,
+                  -50,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "size": [
+                  796,
+                  100
+                ],
+                "anchor": [
+                  0,
+                  0.5
+                ],
+                "opacity": 255,
+                "color": 4294967295,
+                "active": true,
+                "sprite": null,
+                "label": null,
+                "widget": null,
+                "button": null,
+                "children": [
+                  {
+                    "name": "list",
+                    "trs": [
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      1,
+                      1,
+                      1,
+                      1
+                    ],
+                    "size": [
+                      20,
+                      87
+                    ],
+                    "anchor": [
+                      0,
+                      0.5
+                    ],
+                    "opacity": 255,
+                    "color": 4294967295,
+                    "active": true,
+                    "sprite": null,
+                    "label": null,
+                    "widget": null,
+                    "button": null,
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "labels",
+            "trs": [
+              352.205,
+              199.84500000000006,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            "size": [
+              60,
+              99
+            ],
+            "anchor": [
+              0.5,
+              1
+            ],
+            "opacity": 255,
+            "color": 4294967295,
+            "active": true,
+            "sprite": null,
+            "label": null,
+            "widget": {
+              "class": "cc.Widget",
+              "_alignFlags": 33,
+              "_right": 17.795000000000016,
+              "_top": 9.154999999999944
+            },
+            "button": null,
+            "children": [
+              {
+                "name": "wanBg",
+                "trs": [
+                  0,
+                  -49.5,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "size": [
+                  53,
+                  53
+                ],
+                "anchor": [
+                  0.5,
+                  0.5
+                ],
+                "opacity": 255,
+                "color": 4294967295,
+                "active": true,
+                "sprite": {
+                  "class": "cc.Sprite",
+                  "_isTrimmedMode": false,
+                  "_materials": [
+                    "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                  ],
+                  "_spriteFrame": "65ff3ad7-5d9d-4b5e-a0de-805a90efd47a",
+                  "frame": "65ff3ad7-5d9d-4b5e-a0de-805a90efd47a",
+                  "builtinSolid": false
+                },
+                "label": null,
+                "widget": null,
+                "button": null,
+                "children": [
+                  {
+                    "name": "label",
+                    "trs": [
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      1,
+                      1,
+                      1,
+                      1
+                    ],
+                    "size": [
+                      27.8,
+                      30
+                    ],
+                    "anchor": [
+                      0.5,
+                      0.5
+                    ],
+                    "opacity": 255,
+                    "color": 4294967295,
+                    "active": true,
+                    "sprite": null,
+                    "label": {
+                      "class": "cc.Label",
+                      "_string": "33",
+                      "_fontSize": 25,
+                      "_lineHeight": 30,
+                      "_styleFlags": 1,
+                      "_N$horizontalAlign": 1,
+                      "_N$verticalAlign": 1,
+                      "_N$cacheMode": 2,
+                      "_materials": [
+                        "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                      ]
+                    },
+                    "widget": null,
+                    "button": null,
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "paiItem",
+            "trs": [
+              -1325,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0.5,
+              0.5,
+              1
+            ],
+            "size": [
+              91,
+              134
+            ],
+            "anchor": [
+              0.5,
+              0.5
+            ],
+            "opacity": 255,
+            "color": 4294967295,
+            "active": true,
+            "sprite": {
+              "class": "cc.Sprite",
+              "_sizeMode": 2,
+              "_isTrimmedMode": false,
+              "_materials": [
+                "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+              ],
+              "_spriteFrame": "0c5f2a30-88d7-433e-8a36-49e45b25f2ce",
+              "frame": "0c5f2a30-88d7-433e-8a36-49e45b25f2ce",
+              "builtinSolid": false
+            },
+            "label": null,
+            "widget": {
+              "class": "cc.Widget",
+              "_alignFlags": 2
+            },
+            "button": null,
+            "children": [
+              {
+                "name": "value",
+                "trs": [
+                  0,
+                  -5.027,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "size": [
+                  91,
+                  134
+                ],
+                "anchor": [
+                  0.5,
+                  0.5
+                ],
+                "opacity": 255,
+                "color": 4294967295,
+                "active": true,
+                "sprite": {
+                  "class": "cc.Sprite",
+                  "_sizeMode": 2,
+                  "_isTrimmedMode": false,
+                  "_materials": [
+                    "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                  ],
+                  "_spriteFrame": "4e323c81-4b06-4af6-99e7-aa110df2263a",
+                  "frame": "4e323c81-4b06-4af6-99e7-aa110df2263a",
+                  "builtinSolid": false
+                },
+                "label": null,
+                "widget": null,
+                "button": null,
+                "children": []
+              },
+              {
+                "name": "num",
+                "trs": [
+                  18.199,
+                  -39.699,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  2,
+                  2,
+                  1
+                ],
+                "size": [
+                  26,
+                  25
+                ],
+                "anchor": [
+                  0.5,
+                  0.5
+                ],
+                "opacity": 255,
+                "color": 4294967295,
+                "active": true,
+                "sprite": {
+                  "class": "cc.Sprite",
+                  "_sizeMode": 2,
+                  "_isTrimmedMode": false,
+                  "_materials": [
+                    "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                  ],
+                  "_spriteFrame": "a96916c9-4e13-4330-9e6c-b7275313d4c4",
+                  "frame": "a96916c9-4e13-4330-9e6c-b7275313d4c4",
+                  "builtinSolid": false
+                },
+                "label": null,
+                "widget": null,
+                "button": null,
+                "children": [
+                  {
+                    "name": "label",
+                    "trs": [
+                      6.211,
+                      -2.6025,
+                      0,
+                      0,
+                      0,
+                      0,
+                      1,
+                      1,
+                      1,
+                      1
+                    ],
+                    "size": [
+                      10.01,
+                      22.68
+                    ],
+                    "anchor": [
+                      0.5,
+                      0.5
+                    ],
+                    "opacity": 255,
+                    "color": 4294967295,
+                    "active": true,
+                    "sprite": null,
+                    "label": {
+                      "class": "cc.Label",
+                      "_string": "4",
+                      "_fontSize": 18,
+                      "_lineHeight": 18,
+                      "_isSystemFontUsed": false,
+                      "_styleFlags": 1,
+                      "_N$horizontalAlign": 1,
+                      "_N$verticalAlign": 1,
+                      "_materials": [
+                        "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                      ]
+                    },
+                    "widget": null,
+                    "button": null,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "mask",
+                "trs": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "size": [
+                  91,
+                  134
+                ],
+                "anchor": [
+                  0.5,
+                  0.5
+                ],
+                "opacity": 127.5,
+                "color": 4278190080,
+                "active": false,
+                "sprite": {
+                  "class": "cc.Sprite",
+                  "_sizeMode": 0,
+                  "_materials": [
+                    "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                  ],
+                  "_spriteFrame": "a23235d1-15db-4b95-8439-a2e005bfff91",
+                  "frame": null,
+                  "builtinSolid": true
+                },
+                "label": null,
+                "widget": null,
+                "button": null,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "tileFaces": {
+    "113": "c3e686de-ffb5-4fbf-8f9c-cb3beaa7e577",
+    "114": "498350da-155f-478e-87cb-c248e9994288",
+    "115": "4667463a-99a5-425c-9b96-50300ece8b43",
+    "163": "08c4d66d-7f5b-4f87-b353-bdf6d93f5802"
+  },
+  "tileBodies": [
+    [
+      "0c5f2a30-88d7-433e-8a36-49e45b25f2ce",
+      "0c5f2a30-88d7-433e-8a36-49e45b25f2ce",
+      "0c5f2a30-88d7-433e-8a36-49e45b25f2ce",
+      "0c5f2a30-88d7-433e-8a36-49e45b25f2ce",
+      "0c5f2a30-88d7-433e-8a36-49e45b25f2ce",
+      "0c5f2a30-88d7-433e-8a36-49e45b25f2ce",
+      "0c5f2a30-88d7-433e-8a36-49e45b25f2ce",
+      "0c5f2a30-88d7-433e-8a36-49e45b25f2ce",
+      "0c5f2a30-88d7-433e-8a36-49e45b25f2ce",
+      "0c5f2a30-88d7-433e-8a36-49e45b25f2ce",
+      "0c5f2a30-88d7-433e-8a36-49e45b25f2ce",
+      "0c5f2a30-88d7-433e-8a36-49e45b25f2ce",
+      "0c5f2a30-88d7-433e-8a36-49e45b25f2ce"
+    ],
+    [
+      "d264cc82-7585-400d-bf47-fdcf40bcafc8",
+      "0adc74c3-6dae-40ff-919b-2c28b621bfd6",
+      "77e759ea-32b6-4145-9767-7ddfceb8fe23",
+      "094f7709-971f-4e88-abd0-0b1968c33cf4",
+      "ca461cbd-05d2-43cf-8d42-7c1684baf844",
+      "70341457-6bf0-492e-b6a2-d3100cf2df75",
+      "e38aa5fb-39db-4fe3-9879-9fbe9cc7b1f4",
+      "47edc5ec-e900-43be-9d93-c7e648706c9a",
+      "e3934ca7-f7c4-4f4d-9210-b411cda51d2c",
+      "d55055af-e56c-4b5f-9f55-e02fe695f5f3",
+      "fb2e124c-f0aa-476d-b968-60621d94897e",
+      "247abedc-26a7-442b-a8aa-2fac360d6129",
+      "d08fa067-0535-43fa-a8a5-3ea6e8ff761d"
+    ],
+    [
+      "6de72ebc-fa69-4c12-a88d-7f7a03a55e71",
+      "0f003a0a-aac3-4a67-b679-c12f9389404d",
+      "a2b18f52-e32b-4128-be06-2efdff59f08a",
+      "824ef2eb-37bc-4385-ae69-59dc7ec9f7ec",
+      "a2df231e-ffeb-4d87-b24b-601a7cc340e2",
+      "1073ce89-1f85-4cef-a0e7-c3e4b48d6b2c",
+      "c9cd4850-bbc0-4deb-b747-bf7ae1c305e1",
+      "ec0e0182-f17a-4d91-85fb-44944dfb3b0c",
+      "622149f7-7b13-472f-b523-df14f4d7d925",
+      "c0d03ea2-edc2-43a5-8d97-2cba8fb6250f",
+      "11e1c633-29bd-436f-a751-246da5e1a94e",
+      "a21d045a-2571-4042-b4d7-9322a1920700",
+      "d0841835-627b-4f54-a142-047385246cc4"
+    ],
+    [
+      "50df9b7c-c96c-4e73-aced-f71c4a1ff4e1",
+      "99a3ba4f-dbcf-4013-b9ea-2393131f8596",
+      "e537d460-6f8e-42b8-a726-9c7a09e7fd58",
+      "8a70ec3b-4792-4f91-b733-ad5c49dd1ff6",
+      "d08fa067-0535-43fa-a8a5-3ea6e8ff761d",
+      "247abedc-26a7-442b-a8aa-2fac360d6129",
+      "fb2e124c-f0aa-476d-b968-60621d94897e",
+      "d55055af-e56c-4b5f-9f55-e02fe695f5f3",
+      "e3934ca7-f7c4-4f4d-9210-b411cda51d2c",
+      "47edc5ec-e900-43be-9d93-c7e648706c9a",
+      "e38aa5fb-39db-4fe3-9879-9fbe9cc7b1f4",
+      "70341457-6bf0-492e-b6a2-d3100cf2df75",
+      "ca461cbd-05d2-43cf-8d42-7c1684baf844"
+    ]
+  ],
+  "dealer": "9154376b-0e7a-4898-8a4c-038253e3cd70",
+  "assets": [
+    "sanguo-table-study/assets/dealt-avatar-front.png",
+    "sanguo-table-study/assets/dealt-avatar-right.png"
+  ],
+  "notes": [
+    "Menu.start adds 50 to panel_menuList.x; inactive Hu_Details/GameBehavior configuration is reflected by five compact 80-unit rows in the target.",
+    "SGMJ2=911 uses leftTopNode.left=260. Hidden exchange/old-fan slots collapse; the displayed recorder/fan centers are 30 and 98.5.",
+    "No actual wall values, turn, payments or opponents are synthesized. The visible 13-card hero hand and 82 remaining label are captured display data.",
+    "Recorder preview lists only the captured own hand counts. Full unseen-card counts require the complete deck and live public state and are not inferred."
+  ]
+}

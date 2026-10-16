@@ -1,0 +1,383 @@
+[
+  {
+    "bundle": "common",
+    "id": 559,
+    "path": "NewSkin/Sudoku/pic_com08",
+    "name": "pic_com08",
+    "rect": [
+      404,
+      207,
+      53,
+      56
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      53,
+      56
+    ],
+    "rotated": 1,
+    "capInsets": [
+      25,
+      20,
+      18,
+      24
+    ],
+    "uuid": "b1ce235d-bf85-4847-8a55-b158dbc4c8c5",
+    "textureUUID": "157399797",
+    "image": "hall-rule-study/assets/common-559-pic_com08.png"
+  },
+  {
+    "bundle": "common",
+    "id": 106,
+    "path": "NewSkin/Sudoku/gonggongzuodi",
+    "name": "gonggongzuodi",
+    "rect": [
+      248,
+      268,
+      191,
+      533
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      191,
+      533
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "25245703-a1af-437d-b776-ebd3da10a2ea",
+    "textureUUID": "157399797",
+    "image": "hall-rule-study/assets/common-106-gonggongzuodi.png"
+  },
+  {
+    "bundle": "common",
+    "id": 63,
+    "path": "NewSkin/Sudoku/datanchuangshanglan",
+    "name": "datanchuangshanglan",
+    "rect": [
+      3,
+      42,
+      950,
+      70
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      950,
+      70
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "171511ad-4dac-425e-97a2-84099b79b2cf",
+    "textureUUID": "157399797",
+    "image": "hall-rule-study/assets/common-63-datanchuangshanglan.png"
+  },
+  {
+    "bundle": "fonts",
+    "id": 282,
+    "path": "NewSkin/title/fnt_biaotiz-export",
+    "name": "fnt_biaotiz-export",
+    "rect": [
+      0,
+      0,
+      920,
+      916
+    ],
+    "offset": [
+      -4,
+      4
+    ],
+    "originalSize": [
+      928,
+      924
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "f38fba04-f256-4c83-8867-0087385dfb0a",
+    "textureUUID": "6d6f0c5e-6db4-46cb-9c55-b010ab5c796a",
+    "image": "hall-rule-study/assets/fonts-282-fnt_biaotiz-export.png"
+  },
+  {
+    "bundle": "common",
+    "id": 816,
+    "path": "NewSkin/NewBtn/btn_com04",
+    "name": "btn_com04",
+    "rect": [
+      179,
+      736,
+      38,
+      37
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      38,
+      37
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "feec4ed5-df49-4757-ad98-21baf745e1a0",
+    "textureUUID": "1e8019203",
+    "image": "hall-rule-study/assets/common-816-btn_com04.png"
+  },
+  {
+    "bundle": "common",
+    "id": 102,
+    "path": "NewSkin/NewBtn/btn_tips13",
+    "name": "btn_tips13",
+    "rect": [
+      296,
+      346,
+      198,
+      45
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      198,
+      45
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "22ec70dd-de90-47e1-b6f9-4da3a7251d45",
+    "textureUUID": "1e8019203",
+    "image": "hall-rule-study/assets/common-102-btn_tips13.png"
+  },
+  {
+    "bundle": "common",
+    "id": 432,
+    "path": "NewSkin/NewBtn/btn_tips12",
+    "name": "btn_tips12",
+    "rect": [
+      296,
+      141,
+      199,
+      45
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      199,
+      45
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "89f18937-1b1d-4f49-970a-8e0a1554dd69",
+    "textureUUID": "1e8019203",
+    "image": "hall-rule-study/assets/common-432-btn_tips12.png"
+  },
+  {
+    "bundle": "main",
+    "id": 159,
+    "name": "default_scrollbar_vertical_bg",
+    "rect": [
+      0,
+      0,
+      15,
+      30
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      15,
+      30
+    ],
+    "capInsets": [
+      4,
+      10,
+      4,
+      10
+    ],
+    "uuid": "5fe5dcaa-b513-4dc5-a166-573627b3a159",
+    "textureUUID": "617323dd-11f4-4dd3-8eec-0caf6b3b45b9",
+    "image": "hall-rule-study/assets/main-159-default_scrollbar_vertical_bg.png"
+  },
+  {
+    "bundle": "main",
+    "id": 153,
+    "name": "default_scrollbar_vertical",
+    "rect": [
+      0,
+      0,
+      15,
+      30
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      15,
+      30
+    ],
+    "capInsets": [
+      4,
+      10,
+      4,
+      10
+    ],
+    "uuid": "5c3bb932-6c3c-468f-88a9-c8c61d458641",
+    "textureUUID": "d6d3ca85-4681-47c1-b5dd-d036a9d39ea2",
+    "image": "hall-rule-study/assets/main-153-default_scrollbar_vertical.png"
+  },
+  {
+    "bundle": "common",
+    "id": 520,
+    "path": "NewSkin/Sudoku/fengexian",
+    "name": "fengexian",
+    "rect": [
+      456,
+      26,
+      175,
+      1
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      175,
+      1
+    ],
+    "rotated": 1,
+    "capInsets": [
+      8,
+      0,
+      9,
+      0
+    ],
+    "uuid": "a524976f-184d-4ac6-8bda-e87e3ce70472",
+    "textureUUID": "157399797",
+    "image": "hall-rule-study/assets/common-520-fengexian.png"
+  },
+  {
+    "bundle": "common",
+    "id": 553,
+    "path": "NewSkin/Sudoku/heidian",
+    "name": "heidian",
+    "rect": [
+      443,
+      26,
+      7,
+      7
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      7,
+      7
+    ],
+    "capInsets": [
+      3,
+      3,
+      3,
+      3
+    ],
+    "uuid": "b02fa0fe-c348-4c1b-ba1e-5ec90d9fd50a",
+    "textureUUID": "157399797",
+    "image": "hall-rule-study/assets/common-553-heidian.png"
+  },
+  {
+    "bundle": "common",
+    "id": 279,
+    "path": "NewSkin/Sudoku/xuanzhong",
+    "name": "xuanzhong",
+    "rect": [
+      301,
+      42,
+      220,
+      97
+    ],
+    "offset": [
+      0,
+      -5.5
+    ],
+    "originalSize": [
+      220,
+      108
+    ],
+    "rotated": 1,
+    "capInsets": [
+      83,
+      20.5,
+      114,
+      63.5
+    ],
+    "uuid": "56d05b5e-cb39-4d00-bf3a-c93e1e4ea72a",
+    "textureUUID": "157399797",
+    "image": "hall-rule-study/assets/common-279-xuanzhong.png"
+  },
+  {
+    "bundle": "common",
+    "id": 751,
+    "path": "NewSkin/Sudoku/yuandian",
+    "name": "yuandian",
+    "rect": [
+      443,
+      3,
+      17,
+      17
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      17,
+      17
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "e9aecedb-f8d1-4138-8d86-6130419888cb",
+    "textureUUID": "157399797",
+    "image": "hall-rule-study/assets/common-751-yuandian.png"
+  }
+]

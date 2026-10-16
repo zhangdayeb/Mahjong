@@ -1,0 +1,2310 @@
+[
+  {
+    "count": 1,
+    "suffix": "-final",
+    "seats": [
+      {
+        "anchor": [
+          74,
+          555
+        ],
+        "handStart": [
+          329.5,
+          585.5
+        ],
+        "step": [
+          62,
+          0
+        ],
+        "remaining": 11,
+        "placements": [
+          {
+            "group": 0,
+            "index": 0,
+            "pos": [
+              0,
+              0
+            ],
+            "z": 1,
+            "body": "92ccb9fe-106e-4f42-9adb-b88fce0f6857",
+            "face": "35680248-ca58-4191-93c2-2edda796936e",
+            "value": 11,
+            "tileScale": 1.3,
+            "nodeScale": [
+              0.8,
+              0.8
+            ],
+            "colorPos": [
+              -4,
+              9
+            ],
+            "colorScale": [
+              0.6,
+              0.54
+            ],
+            "colorSkew": [
+              6.5,
+              0
+            ],
+            "colorRotation": 0
+          },
+          {
+            "group": 0,
+            "index": 1,
+            "pos": [
+              66,
+              0
+            ],
+            "z": 2,
+            "body": "19063646-8f2d-4477-89a4-1cb602e01e2f",
+            "face": "35680248-ca58-4191-93c2-2edda796936e",
+            "value": 11,
+            "tileScale": 1.3,
+            "nodeScale": [
+              0.8,
+              0.8
+            ],
+            "colorPos": [
+              -4,
+              9
+            ],
+            "colorScale": [
+              0.6,
+              0.54
+            ],
+            "colorSkew": [
+              6.5,
+              0
+            ],
+            "colorRotation": 0
+          },
+          {
+            "group": 0,
+            "index": 2,
+            "pos": [
+              132,
+              0
+            ],
+            "z": 3,
+            "body": "455145fc-85e5-45ec-8e85-2c466cfacf25",
+            "face": "35680248-ca58-4191-93c2-2edda796936e",
+            "value": 11,
+            "tileScale": 1.3,
+            "nodeScale": [
+              0.8,
+              0.8
+            ],
+            "colorPos": [
+              -4,
+              9
+            ],
+            "colorScale": [
+              0.6,
+              0.54
+            ],
+            "colorSkew": [
+              6.5,
+              0
+            ],
+            "colorRotation": 0
+          }
+        ]
+      },
+      {
+        "anchor": [
+          1060,
+          470
+        ],
+        "handStart": [
+          1035.43,
+          347.93
+        ],
+        "step": [
+          -5.5,
+          -25.3
+        ],
+        "remaining": 11,
+        "placements": [
+          {
+            "group": 0,
+            "index": 2,
+            "pos": [
+              17,
+              75
+            ],
+            "z": -3,
+            "body": "d7df6f43-de9f-4319-b4e8-3fb29834ebad",
+            "face": "2402e0cc-671b-4df5-a3aa-59f44f236d7c",
+            "value": 11,
+            "tileScale": 1,
+            "nodeScale": [
+              -0.78,
+              0.78
+            ],
+            "colorPos": [
+              -3,
+              10
+            ],
+            "colorScale": [
+              -1,
+              1
+            ],
+            "colorSkew": [
+              0,
+              0
+            ],
+            "colorRotation": 0
+          },
+          {
+            "group": 0,
+            "index": 1,
+            "pos": [
+              8.5,
+              37.5
+            ],
+            "z": -2,
+            "body": "4946d067-f2ff-4883-93e0-e2f391fec1e8",
+            "face": "2402e0cc-671b-4df5-a3aa-59f44f236d7c",
+            "value": 11,
+            "tileScale": 1,
+            "nodeScale": [
+              -0.78,
+              0.78
+            ],
+            "colorPos": [
+              -3,
+              10
+            ],
+            "colorScale": [
+              -1,
+              1
+            ],
+            "colorSkew": [
+              0,
+              0
+            ],
+            "colorRotation": 0
+          },
+          {
+            "group": 0,
+            "index": 0,
+            "pos": [
+              0,
+              0
+            ],
+            "z": -1,
+            "body": "c641e135-0275-421e-a868-7033e54e4529",
+            "face": "2402e0cc-671b-4df5-a3aa-59f44f236d7c",
+            "value": 11,
+            "tileScale": 1,
+            "nodeScale": [
+              -0.78,
+              0.78
+            ],
+            "colorPos": [
+              -3,
+              10
+            ],
+            "colorScale": [
+              -1,
+              1
+            ],
+            "colorSkew": [
+              0,
+              0
+            ],
+            "colorRotation": 0
+          }
+        ]
+      },
+      {
+        "anchor": [
+          818,
+          40
+        ],
+        "handStart": [
+          702.2,
+          40
+        ],
+        "step": [
+          -25.5,
+          0
+        ],
+        "remaining": 11,
+        "placements": [
+          {
+            "group": 0,
+            "index": 0,
+            "pos": [
+              0,
+              0
+            ],
+            "z": 1,
+            "body": "2288c421-73fd-4938-95a7-33e9f416cbfe",
+            "face": "a248c1ec-29b4-4ef5-8f9a-d3e94b7516f3",
+            "value": 11,
+            "tileScale": 1,
+            "nodeScale": [
+              0.6,
+              0.6
+            ],
+            "colorPos": [
+              0,
+              10
+            ],
+            "colorScale": [
+              1,
+              1
+            ],
+            "colorSkew": [
+              -2,
+              0
+            ],
+            "colorRotation": 0
+          },
+          {
+            "group": 0,
+            "index": 1,
+            "pos": [
+              -51,
+              0
+            ],
+            "z": 2,
+            "body": "6d08a466-0033-4176-94d6-2956e9c9cbfe",
+            "face": "a248c1ec-29b4-4ef5-8f9a-d3e94b7516f3",
+            "value": 11,
+            "tileScale": 1,
+            "nodeScale": [
+              0.6,
+              0.6
+            ],
+            "colorPos": [
+              0,
+              10
+            ],
+            "colorScale": [
+              1,
+              1
+            ],
+            "colorSkew": [
+              -2,
+              0
+            ],
+            "colorRotation": 0
+          },
+          {
+            "group": 0,
+            "index": 2,
+            "pos": [
+              -102,
+              0
+            ],
+            "z": 3,
+            "body": "283e9ed2-75a0-4343-a8fb-5e0566e697b4",
+            "face": "a248c1ec-29b4-4ef5-8f9a-d3e94b7516f3",
+            "value": 11,
+            "tileScale": 1,
+            "nodeScale": [
+              0.6,
+              0.6
+            ],
+            "colorPos": [
+              0,
+              10
+            ],
+            "colorScale": [
+              1,
+              1
+            ],
+            "colorSkew": [
+              -2,
+              0
+            ],
+            "colorRotation": 0
+          }
+        ]
+      },
+      {
+        "anchor": [
+          245,
+          50
+        ],
+        "handStart": [
+          225.025,
+          155.39999999999998
+        ],
+        "step": [
+          -5.5,
+          24.2
+        ],
+        "remaining": 11,
+        "placements": [
+          {
+            "group": 0,
+            "index": 0,
+            "pos": [
+              0,
+              0
+            ],
+            "z": 1,
+            "body": "200ac349-bc0c-4ca4-96b2-ab46a35794e8",
+            "face": "425eec49-9229-42da-94c5-772426e12be1",
+            "value": 11,
+            "tileScale": 1,
+            "nodeScale": [
+              0.85,
+              0.85
+            ],
+            "colorPos": [
+              -4,
+              11
+            ],
+            "colorScale": [
+              0.7,
+              0.7
+            ],
+            "colorSkew": [
+              0,
+              0
+            ],
+            "colorRotation": 0
+          },
+          {
+            "group": 0,
+            "index": 1,
+            "pos": [
+              -5.5,
+              -28
+            ],
+            "z": 2,
+            "body": "62b4124a-7957-4b46-bbb7-14768f386dc4",
+            "face": "425eec49-9229-42da-94c5-772426e12be1",
+            "value": 11,
+            "tileScale": 1,
+            "nodeScale": [
+              0.85,
+              0.85
+            ],
+            "colorPos": [
+              -4,
+              11
+            ],
+            "colorScale": [
+              0.7,
+              0.7
+            ],
+            "colorSkew": [
+              0,
+              0
+            ],
+            "colorRotation": 0
+          },
+          {
+            "group": 0,
+            "index": 2,
+            "pos": [
+              -11,
+              -56
+            ],
+            "z": 3,
+            "body": "393aec7c-90b6-4788-a775-a1684ed675da",
+            "face": "425eec49-9229-42da-94c5-772426e12be1",
+            "value": 11,
+            "tileScale": 1,
+            "nodeScale": [
+              0.85,
+              0.85
+            ],
+            "colorPos": [
+              -4,
+              11
+            ],
+            "colorScale": [
+              0.7,
+              0.7
+            ],
+            "colorSkew": [
+              0,
+              0
+            ],
+            "colorRotation": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "count": 4,
+    "suffix": "-final",
+    "seats": [
+      {
+        "anchor": [
+          74,
+          555
+        ],
+        "handStart": [
+          823.6,
+          585.5
+        ],
+        "step": [
+          62,
+          0
+        ],
+        "remaining": 2,
+        "placements": [
+          {
+            "group": 0,
+            "index": 0,
+            "pos": [
+              0,
+              0
+            ],
+            "z": 1,
+            "body": "92ccb9fe-106e-4f42-9adb-b88fce0f6857",
+            "face": "35680248-ca58-4191-93c2-2edda796936e",
+            "value": 11,
+            "tileScale": 1.3,
+            "nodeScale": [
+              0.8,
+              0.8
+            ],
+            "colorPos": [
+              -4,
+              9
+            ],
+            "colorScale": [
+              0.6,
+              0.54
+            ],
+            "colorSkew": [
+              6.5,
+              0
+            ],
+            "colorRotation": 0
+          },
+          {
+            "group": 1,
+            "index": 0,
+            "pos": [
+              220,
+              2
+            ],
+            "z": 1,
+            "body": "46cb835a-836d-448e-8965-4278e8a63fb7",
+            "face": null,
+            "value": 22,
+            "tileScale": 1.3,
+            "nodeScale": [
+              0.8,
+              0.8
+            ],
+            "colorPos": [
+              -2,
+              9
+            ],
+            "colorScale": [
+              0.6,
+              0.54
+            ],
+            "colorSkew": [
+              4,
+              0
+            ],
+            "colorRotation": 0
+          },
+          {
+            "group": 2,
+            "index": 0,
+            "pos": [
+              440,
+              0
+            ],
+            "z": 1,
+            "body": "afaef68a-f33e-4521-9a27-8e4384ffb19f",
+            "face": "65d57bab-847d-4764-a92c-6d3945d84cd2",
+            "value": 33,
+            "tileScale": 1.3,
+            "nodeScale": [
+              0.8,
+              0.8
+            ],
+            "colorPos": [
+              -1.5,
+              9
+            ],
+            "colorScale": [
+              0.6,
+              0.54
+            ],
+            "colorSkew": [
+              1,
+              0
+            ],
+            "colorRotation": 0
+          },
+          {
+            "group": 3,
+            "index": 0,
+            "pos": [
+              660,
+              0
+            ],
+            "z": 1,
+            "body": "283e9ed2-75a0-4343-a8fb-5e0566e697b4",
+            "face": "a972fbf7-c41a-4139-a14e-87521f6829ba",
+            "value": 18,
+            "tileScale": 1.3,
+            "nodeScale": [
+              0.8,
+              0.8
+            ],
+            "colorPos": [
+              -0.5,
+              9
+            ],
+            "colorScale": [
+              0.6,
+              0.54
+            ],
+            "colorSkew": [
+              -3,
+              0
+            ],
+            "colorRotation": 0
+          },
+          {
+            "group": 0,
+            "index": 1,
+            "pos": [
+              66,
+              0
+            ],
+            "z": 2,
+            "body": "19063646-8f2d-4477-89a4-1cb602e01e2f",
+            "face": "35680248-ca58-4191-93c2-2edda796936e",
+            "value": 11,
+            "tileScale": 1.3,
+            "nodeScale": [
+              0.8,
+              0.8
+            ],
+            "colorPos": [
+              -4,
+              9
+            ],
+            "colorScale": [
+              0.6,
+              0.54
+            ],
+            "colorSkew": [
+              6.5,
+              0
+            ],
+            "colorRotation": 0
+          },
+          {
+            "group": 1,
+            "index": 1,
+            "pos": [
+              286,
+              2
+            ],
+            "z": 2,
+            "body": "694c0024-ee0b-4293-885f-923e6eb453cf",
+            "face": null,
+            "value": 22,
+            "tileScale": 1.3,
+            "nodeScale": [
+              0.8,
+              0.8
+            ],
+            "colorPos": [
+              -2,
+              9
+            ],
+            "colorScale": [
+              0.6,
+              0.54
+            ],
+            "colorSkew": [
+              4,
+              0
+            ],
+            "colorRotation": 0
+          },
+          {
+            "group": 2,
+            "index": 1,
+            "pos": [
+              506,
+              0
+            ],
+            "z": 2,
+            "body": "939123bf-29e5-4649-8d26-db064864a6a9",
+            "face": "65d57bab-847d-4764-a92c-6d3945d84cd2",
+            "value": 33,
+            "tileScale": 1.3,
+            "nodeScale": [
+              0.8,
+              0.8
+            ],
+            "colorPos": [
+              -1.5,
+              9
+            ],
+            "colorScale": [
+              0.6,
+              0.54
+            ],
+            "colorSkew": [
+              1,
+              0
+            ],
+            "colorRotation": 0
+          },
+          {
+            "group": 3,
+            "index": 1,
+            "pos": [
+              726,
+              0
+            ],
+            "z": 2,
+            "body": "6d08a466-0033-4176-94d6-2956e9c9cbfe",
+            "face": "a972fbf7-c41a-4139-a14e-87521f6829ba",
+            "value": 18,
+            "tileScale": 1.3,
+            "nodeScale": [
+              0.8,
+              0.8
+            ],
+            "colorPos": [
+              -0.5,
+              9
+            ],
+            "colorScale": [
+              0.6,
+              0.54
+            ],
+            "colorSkew": [
+              -3,
+              0
+            ],
+            "colorRotation": 0
+          },
+          {
+            "group": 0,
+            "index": 2,
+            "pos": [
+              132,
+              0
+            ],
+            "z": 3,
+            "body": "455145fc-85e5-45ec-8e85-2c466cfacf25",
+            "face": "35680248-ca58-4191-93c2-2edda796936e",
+            "value": 11,
+            "tileScale": 1.3,
+            "nodeScale": [
+              0.8,
+              0.8
+            ],
+            "colorPos": [
+              -4,
+              9
+            ],
+            "colorScale": [
+              0.6,
+              0.54
+            ],
+            "colorSkew": [
+              6.5,
+              0
+            ],
+            "colorRotation": 0
+          },
+          {
+            "group": 1,
+            "index": 2,
+            "pos": [
+              352,
+              2
+            ],
+            "z": 3,
+            "body": "4babdaaa-3914-4035-99e8-c3934f21db4c",
+            "face": null,
+            "value": 22,
+            "tileScale": 1.3,
+            "nodeScale": [
+              0.8,
+              0.8
+            ],
+            "colorPos": [
+              -2,
+              9
+            ],
+            "colorScale": [
+              0.6,
+              0.54
+            ],
+            "colorSkew": [
+              4,
+              0
+            ],
+            "colorRotation": 0
+          },
+          {
+            "group": 2,
+            "index": 2,
+            "pos": [
+              572,
+              0
+            ],
+            "z": 3,
+            "body": "6eb853ed-b00d-4bdb-bf06-4e8ad239f46d",
+            "face": "65d57bab-847d-4764-a92c-6d3945d84cd2",
+            "value": 33,
+            "tileScale": 1.3,
+            "nodeScale": [
+              0.8,
+              0.8
+            ],
+            "colorPos": [
+              -1.5,
+              9
+            ],
+            "colorScale": [
+              0.6,
+              0.54
+            ],
+            "colorSkew": [
+              1,
+              0
+            ],
+            "colorRotation": 0
+          },
+          {
+            "group": 3,
+            "index": 2,
+            "pos": [
+              792,
+              0
+            ],
+            "z": 3,
+            "body": "2288c421-73fd-4938-95a7-33e9f416cbfe",
+            "face": "a972fbf7-c41a-4139-a14e-87521f6829ba",
+            "value": 18,
+            "tileScale": 1.3,
+            "nodeScale": [
+              0.8,
+              0.8
+            ],
+            "colorPos": [
+              -0.5,
+              9
+            ],
+            "colorScale": [
+              0.6,
+              0.54
+            ],
+            "colorSkew": [
+              -3,
+              0
+            ],
+            "colorRotation": 0
+          },
+          {
+            "group": 1,
+            "index": 3,
+            "pos": [
+              283,
+              24
+            ],
+            "z": 4,
+            "body": "f5326f68-e855-4d33-a22e-8bf28f915a3a",
+            "face": "de889db8-cdb4-4d24-bb1f-31641d29f24e",
+            "value": 22,
+            "tileScale": 1.3,
+            "nodeScale": [
+              0.8,
+              0.8
+            ],
+            "colorPos": [
+              -2,
+              9
+            ],
+            "colorScale": [
+              0.6,
+              0.54
+            ],
+            "colorSkew": [
+              4,
+              0
+            ],
+            "colorRotation": 0
+          },
+          {
+            "group": 2,
+            "index": 3,
+            "pos": [
+              505,
+              22
+            ],
+            "z": 4,
+            "body": "6eb853ed-b00d-4bdb-bf06-4e8ad239f46d",
+            "face": "65d57bab-847d-4764-a92c-6d3945d84cd2",
+            "value": 33,
+            "tileScale": 1.3,
+            "nodeScale": [
+              0.8,
+              0.8
+            ],
+            "colorPos": [
+              -1.5,
+              9
+            ],
+            "colorScale": [
+              0.6,
+              0.54
+            ],
+            "colorSkew": [
+              1,
+              0
+            ],
+            "colorRotation": 0
+          },
+          {
+            "group": 3,
+            "index": 3,
+            "pos": [
+              727,
+              22
+            ],
+            "z": 4,
+            "body": "2288c421-73fd-4938-95a7-33e9f416cbfe",
+            "face": "a972fbf7-c41a-4139-a14e-87521f6829ba",
+            "value": 18,
+            "tileScale": 1.3,
+            "nodeScale": [
+              0.8,
+              0.8
+            ],
+            "colorPos": [
+              -0.5,
+              9
+            ],
+            "colorScale": [
+              0.6,
+              0.54
+            ],
+            "colorSkew": [
+              -3,
+              0
+            ],
+            "colorRotation": 0
+          }
+        ]
+      },
+      {
+        "anchor": [
+          1060,
+          470
+        ],
+        "handStart": [
+          985.12,
+          65.95999999999998
+        ],
+        "step": [
+          -5.5,
+          -25.3
+        ],
+        "remaining": 2,
+        "placements": [
+          {
+            "group": 3,
+            "index": 2,
+            "pos": [
+              85,
+              443
+            ],
+            "z": -300,
+            "body": "b19e55c7-e52a-4c76-9537-211d2190335c",
+            "face": "09e34b06-ddd0-4a5b-a78e-c450e99e0d94",
+            "value": 18,
+            "tileScale": 1,
+            "nodeScale": [
+              -0.78,
+              0.78
+            ],
+            "colorPos": [
+              -3,
+              11
+            ],
+            "colorScale": [
+              -0.85,
+              0.8
+            ],
+            "colorSkew": [
+              0,
+              0
+            ],
+            "colorRotation": 0
+          },
+          {
+            "group": 3,
+            "index": 1,
+            "pos": [
+              80,
+              412
+            ],
+            "z": -200,
+            "body": "43c70f43-c10c-4a70-a08c-012a65760ee0",
+            "face": "09e34b06-ddd0-4a5b-a78e-c450e99e0d94",
+            "value": 18,
+            "tileScale": 1,
+            "nodeScale": [
+              -0.78,
+              0.78
+            ],
+            "colorPos": [
+              -3,
+              11
+            ],
+            "colorScale": [
+              -0.85,
+              0.8
+            ],
+            "colorSkew": [
+              0,
+              0
+            ],
+            "colorRotation": 0
+          },
+          {
+            "group": 3,
+            "index": 0,
+            "pos": [
+              75,
+              381
+            ],
+            "z": -100,
+            "body": "9b748530-f22a-4967-86f6-24f8b75c6c32",
+            "face": "09e34b06-ddd0-4a5b-a78e-c450e99e0d94",
+            "value": 18,
+            "tileScale": 1,
+            "nodeScale": [
+              -0.78,
+              0.78
+            ],
+            "colorPos": [
+              -3,
+              11
+            ],
+            "colorScale": [
+              -0.85,
+              0.8
+            ],
+            "colorSkew": [
+              0,
+              0
+            ],
+            "colorRotation": 0
+          },
+          {
+            "group": 2,
+            "index": 2,
+            "pos": [
+              65.5,
+              326
+            ],
+            "z": -63,
+            "body": "6d716eac-3add-4290-9fef-fd3d35734538",
+            "face": "9341a5d3-30a3-4483-973f-973643be897e",
+            "value": 33,
+            "tileScale": 1,
+            "nodeScale": [
+              -0.78,
+              0.78
+            ],
+            "colorPos": [
+              -3,
+              10
+            ],
+            "colorScale": [
+              -0.9,
+              0.8
+            ],
+            "colorSkew": [
+              0,
+              0
+            ],
+            "colorRotation": 0
+          },
+          {
+            "group": 2,
+            "index": 1,
+            "pos": [
+              59,
+              293
+            ],
+            "z": -42,
+            "body": "8b335ed2-e9e7-45cb-97c0-b53c2cffd358",
+            "face": "9341a5d3-30a3-4483-973f-973643be897e",
+            "value": 33,
+            "tileScale": 1,
+            "nodeScale": [
+              -0.78,
+              0.78
+            ],
+            "colorPos": [
+              -3,
+              10
+            ],
+            "colorScale": [
+              -0.9,
+              0.8
+            ],
+            "colorSkew": [
+              0,
+              0
+            ],
+            "colorRotation": 0
+          },
+          {
+            "group": 2,
+            "index": 0,
+            "pos": [
+              52.5,
+              260
+            ],
+            "z": -21,
+            "body": "f3062f5b-cfc3-4301-b4ac-d54385081b1b",
+            "face": "9341a5d3-30a3-4483-973f-973643be897e",
+            "value": 33,
+            "tileScale": 1,
+            "nodeScale": [
+              -0.78,
+              0.78
+            ],
+            "colorPos": [
+              -3,
+              10
+            ],
+            "colorScale": [
+              -0.9,
+              0.8
+            ],
+            "colorSkew": [
+              0,
+              0
+            ],
+            "colorRotation": 0
+          },
+          {
+            "group": 1,
+            "index": 2,
+            "pos": [
+              40.5,
+              203.5
+            ],
+            "z": -15,
+            "body": "e6c15dd5-bad4-4d7e-be94-5e7072564541",
+            "face": null,
+            "value": 22,
+            "tileScale": 1,
+            "nodeScale": [
+              -0.78,
+              0.78
+            ],
+            "colorPos": [
+              -3,
+              10
+            ],
+            "colorScale": [
+              -0.95,
+              0.9
+            ],
+            "colorSkew": [
+              0,
+              0
+            ],
+            "colorRotation": 0
+          },
+          {
+            "group": 1,
+            "index": 1,
+            "pos": [
+              33.5,
+              169
+            ],
+            "z": -10,
+            "body": "5580a07b-c64e-45f1-889e-1e7410a96d6d",
+            "face": null,
+            "value": 22,
+            "tileScale": 1,
+            "nodeScale": [
+              -0.78,
+              0.78
+            ],
+            "colorPos": [
+              -3,
+              10
+            ],
+            "colorScale": [
+              -0.95,
+              0.9
+            ],
+            "colorSkew": [
+              0,
+              0
+            ],
+            "colorRotation": 0
+          },
+          {
+            "group": 1,
+            "index": 0,
+            "pos": [
+              26.5,
+              134.5
+            ],
+            "z": -5,
+            "body": "78e3e15b-b900-4252-91dd-4faabfe5cbcd",
+            "face": null,
+            "value": 22,
+            "tileScale": 1,
+            "nodeScale": [
+              -0.78,
+              0.78
+            ],
+            "colorPos": [
+              -3,
+              10
+            ],
+            "colorScale": [
+              -0.95,
+              0.9
+            ],
+            "colorSkew": [
+              0,
+              0
+            ],
+            "colorRotation": 0
+          },
+          {
+            "group": 0,
+            "index": 2,
+            "pos": [
+              17,
+              75
+            ],
+            "z": -3,
+            "body": "d7df6f43-de9f-4319-b4e8-3fb29834ebad",
+            "face": "2402e0cc-671b-4df5-a3aa-59f44f236d7c",
+            "value": 11,
+            "tileScale": 1,
+            "nodeScale": [
+              -0.78,
+              0.78
+            ],
+            "colorPos": [
+              -3,
+              10
+            ],
+            "colorScale": [
+              -1,
+              1
+            ],
+            "colorSkew": [
+              0,
+              0
+            ],
+            "colorRotation": 0
+          },
+          {
+            "group": 0,
+            "index": 1,
+            "pos": [
+              8.5,
+              37.5
+            ],
+            "z": -2,
+            "body": "4946d067-f2ff-4883-93e0-e2f391fec1e8",
+            "face": "2402e0cc-671b-4df5-a3aa-59f44f236d7c",
+            "value": 11,
+            "tileScale": 1,
+            "nodeScale": [
+              -0.78,
+              0.78
+            ],
+            "colorPos": [
+              -3,
+              10
+            ],
+            "colorScale": [
+              -1,
+              1
+            ],
+            "colorSkew": [
+              0,
+              0
+            ],
+            "colorRotation": 0
+          },
+          {
+            "group": 0,
+            "index": 0,
+            "pos": [
+              0,
+              0
+            ],
+            "z": -1,
+            "body": "c641e135-0275-421e-a868-7033e54e4529",
+            "face": "2402e0cc-671b-4df5-a3aa-59f44f236d7c",
+            "value": 11,
+            "tileScale": 1,
+            "nodeScale": [
+              -0.78,
+              0.78
+            ],
+            "colorPos": [
+              -3,
+              10
+            ],
+            "colorScale": [
+              -1,
+              1
+            ],
+            "colorSkew": [
+              0,
+              0
+            ],
+            "colorRotation": 0
+          },
+          {
+            "group": 1,
+            "index": 3,
+            "pos": [
+              26.5,
+              188
+            ],
+            "z": 4,
+            "body": "8abaeaec-dfdd-444d-ab73-2b5ae1472670",
+            "face": "b755c627-38a6-44fb-afd9-98902400ebe8",
+            "value": 22,
+            "tileScale": 1,
+            "nodeScale": [
+              -0.78,
+              0.78
+            ],
+            "colorPos": [
+              -3,
+              10
+            ],
+            "colorScale": [
+              -0.95,
+              0.9
+            ],
+            "colorSkew": [
+              0,
+              0
+            ],
+            "colorRotation": 0
+          },
+          {
+            "group": 2,
+            "index": 3,
+            "pos": [
+              53,
+              311
+            ],
+            "z": 4,
+            "body": "6d716eac-3add-4290-9fef-fd3d35734538",
+            "face": "9341a5d3-30a3-4483-973f-973643be897e",
+            "value": 33,
+            "tileScale": 1,
+            "nodeScale": [
+              -0.78,
+              0.78
+            ],
+            "colorPos": [
+              -3,
+              10
+            ],
+            "colorScale": [
+              -0.9,
+              0.8
+            ],
+            "colorSkew": [
+              0,
+              0
+            ],
+            "colorRotation": 0
+          },
+          {
+            "group": 3,
+            "index": 3,
+            "pos": [
+              74,
+              430
+            ],
+            "z": 4,
+            "body": "b19e55c7-e52a-4c76-9537-211d2190335c",
+            "face": "09e34b06-ddd0-4a5b-a78e-c450e99e0d94",
+            "value": 18,
+            "tileScale": 1,
+            "nodeScale": [
+              -0.78,
+              0.78
+            ],
+            "colorPos": [
+              -3,
+              11
+            ],
+            "colorScale": [
+              -0.85,
+              0.8
+            ],
+            "colorSkew": [
+              0,
+              0
+            ],
+            "colorRotation": 0
+          }
+        ]
+      },
+      {
+        "anchor": [
+          818,
+          40
+        ],
+        "handStart": [
+          390.8,
+          40
+        ],
+        "step": [
+          -25.5,
+          0
+        ],
+        "remaining": 2,
+        "placements": [
+          {
+            "group": 1,
+            "index": 2,
+            "pos": [
+              -275,
+              2
+            ],
+            "z": -3,
+            "body": "c2c7cfb3-0ae0-4ace-b60d-9c654896d85e",
+            "face": null,
+            "value": 22,
+            "tileScale": 1,
+            "nodeScale": [
+              0.6,
+              0.6
+            ],
+            "colorPos": [
+              -2,
+              10
+            ],
+            "colorScale": [
+              1,
+              1
+            ],
+            "colorSkew": [
+              1,
+              0
+            ],
+            "colorRotation": 0
+          },
+          {
+            "group": 2,
+            "index": 2,
+            "pos": [
+              -448,
+              0
+            ],
+            "z": -3,
+            "body": "dd47d3d2-5fe1-418c-a1d1-cad74046936d",
+            "face": "970eced1-ca1c-48db-8565-d54cd9221c93",
+            "value": 33,
+            "tileScale": 1,
+            "nodeScale": [
+              0.6,
+              0.6
+            ],
+            "colorPos": [
+              -2.5,
+              10
+            ],
+            "colorScale": [
+              1,
+              1
+            ],
+            "colorSkew": [
+              5,
+              0
+            ],
+            "colorRotation": 0
+          },
+          {
+            "group": 3,
+            "index": 2,
+            "pos": [
+              -621,
+              0
+            ],
+            "z": -3,
+            "body": "92ccb9fe-106e-4f42-9adb-b88fce0f6857",
+            "face": "3d8e7628-0e8c-4316-b3cc-59c1dd226b76",
+            "value": 18,
+            "tileScale": 1,
+            "nodeScale": [
+              0.6,
+              0.6
+            ],
+            "colorPos": [
+              -3,
+              10
+            ],
+            "colorScale": [
+              1,
+              1
+            ],
+            "colorSkew": [
+              8,
+              0
+            ],
+            "colorRotation": 0
+          },
+          {
+            "group": 1,
+            "index": 1,
+            "pos": [
+              -224,
+              2
+            ],
+            "z": -2,
+            "body": "63d1bd21-a84a-4689-b9b9-83e2c5063cc3",
+            "face": null,
+            "value": 22,
+            "tileScale": 1,
+            "nodeScale": [
+              0.6,
+              0.6
+            ],
+            "colorPos": [
+              -2,
+              10
+            ],
+            "colorScale": [
+              1,
+              1
+            ],
+            "colorSkew": [
+              1,
+              0
+            ],
+            "colorRotation": 0
+          },
+          {
+            "group": 2,
+            "index": 1,
+            "pos": [
+              -397,
+              0
+            ],
+            "z": -2,
+            "body": "f5326f68-e855-4d33-a22e-8bf28f915a3a",
+            "face": "970eced1-ca1c-48db-8565-d54cd9221c93",
+            "value": 33,
+            "tileScale": 1,
+            "nodeScale": [
+              0.6,
+              0.6
+            ],
+            "colorPos": [
+              -2.5,
+              10
+            ],
+            "colorScale": [
+              1,
+              1
+            ],
+            "colorSkew": [
+              5,
+              0
+            ],
+            "colorRotation": 0
+          },
+          {
+            "group": 3,
+            "index": 1,
+            "pos": [
+              -570,
+              0
+            ],
+            "z": -2,
+            "body": "19063646-8f2d-4477-89a4-1cb602e01e2f",
+            "face": "3d8e7628-0e8c-4316-b3cc-59c1dd226b76",
+            "value": 18,
+            "tileScale": 1,
+            "nodeScale": [
+              0.6,
+              0.6
+            ],
+            "colorPos": [
+              -3,
+              10
+            ],
+            "colorScale": [
+              1,
+              1
+            ],
+            "colorSkew": [
+              8,
+              0
+            ],
+            "colorRotation": 0
+          },
+          {
+            "group": 1,
+            "index": 0,
+            "pos": [
+              -173,
+              2
+            ],
+            "z": -1,
+            "body": "bf5e5cfe-63ae-461f-8223-a9a7fdd49f74",
+            "face": null,
+            "value": 22,
+            "tileScale": 1,
+            "nodeScale": [
+              0.6,
+              0.6
+            ],
+            "colorPos": [
+              -2,
+              10
+            ],
+            "colorScale": [
+              1,
+              1
+            ],
+            "colorSkew": [
+              1,
+              0
+            ],
+            "colorRotation": 0
+          },
+          {
+            "group": 2,
+            "index": 0,
+            "pos": [
+              -346,
+              0
+            ],
+            "z": -1,
+            "body": "871519ff-2ba9-4289-80c9-5c031b74fc79",
+            "face": "970eced1-ca1c-48db-8565-d54cd9221c93",
+            "value": 33,
+            "tileScale": 1,
+            "nodeScale": [
+              0.6,
+              0.6
+            ],
+            "colorPos": [
+              -2.5,
+              10
+            ],
+            "colorScale": [
+              1,
+              1
+            ],
+            "colorSkew": [
+              5,
+              0
+            ],
+            "colorRotation": 0
+          },
+          {
+            "group": 3,
+            "index": 0,
+            "pos": [
+              -519,
+              0
+            ],
+            "z": -1,
+            "body": "455145fc-85e5-45ec-8e85-2c466cfacf25",
+            "face": "3d8e7628-0e8c-4316-b3cc-59c1dd226b76",
+            "value": 18,
+            "tileScale": 1,
+            "nodeScale": [
+              0.6,
+              0.6
+            ],
+            "colorPos": [
+              -3,
+              10
+            ],
+            "colorScale": [
+              1,
+              1
+            ],
+            "colorSkew": [
+              8,
+              0
+            ],
+            "colorRotation": 0
+          },
+          {
+            "group": 0,
+            "index": 0,
+            "pos": [
+              0,
+              0
+            ],
+            "z": 1,
+            "body": "2288c421-73fd-4938-95a7-33e9f416cbfe",
+            "face": "a248c1ec-29b4-4ef5-8f9a-d3e94b7516f3",
+            "value": 11,
+            "tileScale": 1,
+            "nodeScale": [
+              0.6,
+              0.6
+            ],
+            "colorPos": [
+              0,
+              10
+            ],
+            "colorScale": [
+              1,
+              1
+            ],
+            "colorSkew": [
+              -2,
+              0
+            ],
+            "colorRotation": 0
+          },
+          {
+            "group": 0,
+            "index": 1,
+            "pos": [
+              -51,
+              0
+            ],
+            "z": 2,
+            "body": "6d08a466-0033-4176-94d6-2956e9c9cbfe",
+            "face": "a248c1ec-29b4-4ef5-8f9a-d3e94b7516f3",
+            "value": 11,
+            "tileScale": 1,
+            "nodeScale": [
+              0.6,
+              0.6
+            ],
+            "colorPos": [
+              0,
+              10
+            ],
+            "colorScale": [
+              1,
+              1
+            ],
+            "colorSkew": [
+              -2,
+              0
+            ],
+            "colorRotation": 0
+          },
+          {
+            "group": 0,
+            "index": 2,
+            "pos": [
+              -102,
+              0
+            ],
+            "z": 3,
+            "body": "283e9ed2-75a0-4343-a8fb-5e0566e697b4",
+            "face": "a248c1ec-29b4-4ef5-8f9a-d3e94b7516f3",
+            "value": 11,
+            "tileScale": 1,
+            "nodeScale": [
+              0.6,
+              0.6
+            ],
+            "colorPos": [
+              0,
+              10
+            ],
+            "colorScale": [
+              1,
+              1
+            ],
+            "colorSkew": [
+              -2,
+              0
+            ],
+            "colorRotation": 0
+          },
+          {
+            "group": 1,
+            "index": 3,
+            "pos": [
+              -224,
+              18
+            ],
+            "z": 4,
+            "body": "939123bf-29e5-4649-8d26-db064864a6a9",
+            "face": "a829f251-5c9e-45f9-bc52-3c4f87af3af4",
+            "value": 22,
+            "tileScale": 1,
+            "nodeScale": [
+              0.6,
+              0.6
+            ],
+            "colorPos": [
+              -2,
+              10
+            ],
+            "colorScale": [
+              1,
+              1
+            ],
+            "colorSkew": [
+              1,
+              0
+            ],
+            "colorRotation": 0
+          },
+          {
+            "group": 2,
+            "index": 3,
+            "pos": [
+              -400,
+              16
+            ],
+            "z": 4,
+            "body": "dd47d3d2-5fe1-418c-a1d1-cad74046936d",
+            "face": "970eced1-ca1c-48db-8565-d54cd9221c93",
+            "value": 33,
+            "tileScale": 1,
+            "nodeScale": [
+              0.6,
+              0.6
+            ],
+            "colorPos": [
+              -2.5,
+              10
+            ],
+            "colorScale": [
+              1,
+              1
+            ],
+            "colorSkew": [
+              5,
+              0
+            ],
+            "colorRotation": 0
+          },
+          {
+            "group": 3,
+            "index": 3,
+            "pos": [
+              -575,
+              16
+            ],
+            "z": 4,
+            "body": "92ccb9fe-106e-4f42-9adb-b88fce0f6857",
+            "face": "3d8e7628-0e8c-4316-b3cc-59c1dd226b76",
+            "value": 18,
+            "tileScale": 1,
+            "nodeScale": [
+              0.6,
+              0.6
+            ],
+            "colorPos": [
+              -3,
+              10
+            ],
+            "colorScale": [
+              1,
+              1
+            ],
+            "colorSkew": [
+              8,
+              0
+            ],
+            "colorRotation": 0
+          }
+        ]
+      },
+      {
+        "anchor": [
+          245,
+          50
+        ],
+        "handStart": [
+          165.10000000000002,
+          456.3
+        ],
+        "step": [
+          -5.5,
+          24.2
+        ],
+        "remaining": 2,
+        "placements": [
+          {
+            "group": 0,
+            "index": 0,
+            "pos": [
+              0,
+              0
+            ],
+            "z": 1,
+            "body": "200ac349-bc0c-4ca4-96b2-ab46a35794e8",
+            "face": "425eec49-9229-42da-94c5-772426e12be1",
+            "value": 11,
+            "tileScale": 1,
+            "nodeScale": [
+              0.85,
+              0.85
+            ],
+            "colorPos": [
+              -4,
+              11
+            ],
+            "colorScale": [
+              0.7,
+              0.7
+            ],
+            "colorSkew": [
+              0,
+              0
+            ],
+            "colorRotation": 0
+          },
+          {
+            "group": 1,
+            "index": 0,
+            "pos": [
+              -20,
+              -104
+            ],
+            "z": 1,
+            "body": "a870d3bb-e247-4c0f-aae5-82adf34696b8",
+            "face": null,
+            "value": 22,
+            "tileScale": 1,
+            "nodeScale": [
+              0.85,
+              0.85
+            ],
+            "colorPos": [
+              -4,
+              11
+            ],
+            "colorScale": [
+              0.75,
+              0.75
+            ],
+            "colorSkew": [
+              0,
+              0
+            ],
+            "colorRotation": 0
+          },
+          {
+            "group": 2,
+            "index": 0,
+            "pos": [
+              -41.5,
+              -214
+            ],
+            "z": 1,
+            "body": "6d716eac-3add-4290-9fef-fd3d35734538",
+            "face": "935a84f2-c47e-4a6a-890c-e68c5e96f805",
+            "value": 33,
+            "tileScale": 1,
+            "nodeScale": [
+              0.85,
+              0.85
+            ],
+            "colorPos": [
+              -4,
+              11
+            ],
+            "colorScale": [
+              0.8,
+              0.8
+            ],
+            "colorSkew": [
+              0,
+              0
+            ],
+            "colorRotation": 0
+          },
+          {
+            "group": 3,
+            "index": 0,
+            "pos": [
+              -66,
+              -333
+            ],
+            "z": 1,
+            "body": "f37b18a8-0549-40d5-b711-b270236f7e9d",
+            "face": "8e56b5e2-2567-4623-b369-92f47eb0d90a",
+            "value": 18,
+            "tileScale": 1,
+            "nodeScale": [
+              0.85,
+              0.85
+            ],
+            "colorPos": [
+              -2,
+              9
+            ],
+            "colorScale": [
+              0.85,
+              0.85
+            ],
+            "colorSkew": [
+              0,
+              0
+            ],
+            "colorRotation": 0
+          },
+          {
+            "group": 0,
+            "index": 1,
+            "pos": [
+              -5.5,
+              -28
+            ],
+            "z": 2,
+            "body": "62b4124a-7957-4b46-bbb7-14768f386dc4",
+            "face": "425eec49-9229-42da-94c5-772426e12be1",
+            "value": 11,
+            "tileScale": 1,
+            "nodeScale": [
+              0.85,
+              0.85
+            ],
+            "colorPos": [
+              -4,
+              11
+            ],
+            "colorScale": [
+              0.7,
+              0.7
+            ],
+            "colorSkew": [
+              0,
+              0
+            ],
+            "colorRotation": 0
+          },
+          {
+            "group": 1,
+            "index": 1,
+            "pos": [
+              -26,
+              -134
+            ],
+            "z": 2,
+            "body": "ae970a4f-7653-48ea-830e-86dc943877ad",
+            "face": null,
+            "value": 22,
+            "tileScale": 1,
+            "nodeScale": [
+              0.85,
+              0.85
+            ],
+            "colorPos": [
+              -4,
+              11
+            ],
+            "colorScale": [
+              0.75,
+              0.75
+            ],
+            "colorSkew": [
+              0,
+              0
+            ],
+            "colorRotation": 0
+          },
+          {
+            "group": 2,
+            "index": 1,
+            "pos": [
+              -48.5,
+              -247
+            ],
+            "z": 2,
+            "body": "8b335ed2-e9e7-45cb-97c0-b53c2cffd358",
+            "face": "935a84f2-c47e-4a6a-890c-e68c5e96f805",
+            "value": 33,
+            "tileScale": 1,
+            "nodeScale": [
+              0.85,
+              0.85
+            ],
+            "colorPos": [
+              -4,
+              11
+            ],
+            "colorScale": [
+              0.8,
+              0.8
+            ],
+            "colorSkew": [
+              0,
+              0
+            ],
+            "colorRotation": 0
+          },
+          {
+            "group": 3,
+            "index": 1,
+            "pos": [
+              -73,
+              -368
+            ],
+            "z": 2,
+            "body": "8abaeaec-dfdd-444d-ab73-2b5ae1472670",
+            "face": "8e56b5e2-2567-4623-b369-92f47eb0d90a",
+            "value": 18,
+            "tileScale": 1,
+            "nodeScale": [
+              0.85,
+              0.85
+            ],
+            "colorPos": [
+              -2,
+              9
+            ],
+            "colorScale": [
+              0.85,
+              0.85
+            ],
+            "colorSkew": [
+              0,
+              0
+            ],
+            "colorRotation": 0
+          },
+          {
+            "group": 0,
+            "index": 2,
+            "pos": [
+              -11,
+              -56
+            ],
+            "z": 3,
+            "body": "393aec7c-90b6-4788-a775-a1684ed675da",
+            "face": "425eec49-9229-42da-94c5-772426e12be1",
+            "value": 11,
+            "tileScale": 1,
+            "nodeScale": [
+              0.85,
+              0.85
+            ],
+            "colorPos": [
+              -4,
+              11
+            ],
+            "colorScale": [
+              0.7,
+              0.7
+            ],
+            "colorSkew": [
+              0,
+              0
+            ],
+            "colorRotation": 0
+          },
+          {
+            "group": 1,
+            "index": 2,
+            "pos": [
+              -32,
+              -164
+            ],
+            "z": 3,
+            "body": "629bcfa9-ad50-49a0-b48e-ed7d220274c3",
+            "face": null,
+            "value": 22,
+            "tileScale": 1,
+            "nodeScale": [
+              0.85,
+              0.85
+            ],
+            "colorPos": [
+              -4,
+              11
+            ],
+            "colorScale": [
+              0.75,
+              0.75
+            ],
+            "colorSkew": [
+              0,
+              0
+            ],
+            "colorRotation": 0
+          },
+          {
+            "group": 2,
+            "index": 2,
+            "pos": [
+              -55.5,
+              -280
+            ],
+            "z": 3,
+            "body": "f3062f5b-cfc3-4301-b4ac-d54385081b1b",
+            "face": "935a84f2-c47e-4a6a-890c-e68c5e96f805",
+            "value": 33,
+            "tileScale": 1,
+            "nodeScale": [
+              0.85,
+              0.85
+            ],
+            "colorPos": [
+              -4,
+              11
+            ],
+            "colorScale": [
+              0.8,
+              0.8
+            ],
+            "colorSkew": [
+              0,
+              0
+            ],
+            "colorRotation": 0
+          },
+          {
+            "group": 3,
+            "index": 2,
+            "pos": [
+              -80,
+              -403
+            ],
+            "z": 3,
+            "body": "0255a585-84c9-4f0d-be71-ab39b786b932",
+            "face": "8e56b5e2-2567-4623-b369-92f47eb0d90a",
+            "value": 18,
+            "tileScale": 1,
+            "nodeScale": [
+              0.85,
+              0.85
+            ],
+            "colorPos": [
+              -2,
+              9
+            ],
+            "colorScale": [
+              0.85,
+              0.85
+            ],
+            "colorSkew": [
+              0,
+              0
+            ],
+            "colorRotation": 0
+          },
+          {
+            "group": 1,
+            "index": 3,
+            "pos": [
+              -30,
+              -118
+            ],
+            "z": 4,
+            "body": "43c70f43-c10c-4a70-a08c-012a65760ee0",
+            "face": "64ed1566-a7b4-4e0c-8a72-a347142f64e2",
+            "value": 22,
+            "tileScale": 1,
+            "nodeScale": [
+              0.85,
+              0.85
+            ],
+            "colorPos": [
+              -4,
+              11
+            ],
+            "colorScale": [
+              0.75,
+              0.75
+            ],
+            "colorSkew": [
+              0,
+              0
+            ],
+            "colorRotation": 0
+          },
+          {
+            "group": 2,
+            "index": 3,
+            "pos": [
+              -54.5,
+              -231
+            ],
+            "z": 4,
+            "body": "f3062f5b-cfc3-4301-b4ac-d54385081b1b",
+            "face": "935a84f2-c47e-4a6a-890c-e68c5e96f805",
+            "value": 33,
+            "tileScale": 1,
+            "nodeScale": [
+              0.85,
+              0.85
+            ],
+            "colorPos": [
+              -4,
+              11
+            ],
+            "colorScale": [
+              0.8,
+              0.8
+            ],
+            "colorSkew": [
+              0,
+              0
+            ],
+            "colorRotation": 0
+          },
+          {
+            "group": 3,
+            "index": 3,
+            "pos": [
+              -80,
+              -352
+            ],
+            "z": 4,
+            "body": "0255a585-84c9-4f0d-be71-ab39b786b932",
+            "face": "8e56b5e2-2567-4623-b369-92f47eb0d90a",
+            "value": 18,
+            "tileScale": 1,
+            "nodeScale": [
+              0.85,
+              0.85
+            ],
+            "colorPos": [
+              -2,
+              9
+            ],
+            "colorScale": [
+              0.85,
+              0.85
+            ],
+            "colorSkew": [
+              0,
+              0
+            ],
+            "colorRotation": 0
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,37 @@
+按钮、弃牌金钻和新人豪礼资源
+
+原包版本：601907。所有图像从已收集的原图集裁出，恢复原始尺寸、offset、rotated。
+收集器：demo/collect-control-study.mjs；裁图器：demo/extract-control-sprites.py。
+
+原操作按钮：prefabs92 UserControlLayer；prefabs2085 item_ctrl；prefabs4086 item_sub。
+item_ctrl 宽 103、高 110、anchor(0.5,0)。动画子节点相对按钮中心位于 (0,67)。
+原按钮间距 25。Root 控制层静态偏移 (333,-158)，实时是否显示及排序由 userCtrlInterface 决定。
+game985 guo 119×110 是 item_ctrl 默认“过”，不能使用另一张旧版 game736 Btn_Guo 替代。
+胡、碰、杠、听、自摸图片及环光分别来自对应原 prefab/clip；均为 2 秒循环。
+胡：resources1127 / 2510；碰：2220 / 1939；杠：2605 / 2265；听：1060 / 607；自摸：662 / 1508。
+
+金钻：resources1224 fx_zhizhen，原循环 clip1268，时长 1.25 秒。
+独立 resources1224 prefab 中，zhizhen_1 是三个光圈/微光节点的父节点，因此整个效果随指针上下浮动。
+真正牌桌 tile 内嵌的 Diamond 为不同版本：pointer、Particle_1、两圈和微光都是同级子节点。
+本模块默认使用 tile 内嵌版本（markerTile），保留源 clip 字面路径；仅匹配实际节点的轨道播放，未把不匹配路径强制重绑。
+指针 position：0s(0,-6)，0.45s(0,0)，0.6667s(0,2)，1.0833s(0,-5)，1.25s(0,-6)。
+两层 ring_0421：scale 0.2→0.55→0.8，0.45s opacity255→1.0833s opacity0。
+微光：opacity255→0.6333s168→1.25s255。
+原 ZMJOutTileRow.dispatchAnimEvent 在出牌动画结束后恢复 2D 牌并调用 showDiamond；最新弃牌标记随后显示。
+已补下载 a_point201a_4 SpriteFrame UUID 7a87d203-b904-419c-a5aa-d42e96c40ba8 原元数据，位于 raw/marker-glow-import.json；使用原图集 rect(172,686,54,54)、originalSize64×64、offset(0,0)，不再采用同名替代。
+同时补下载 zhizhen_lizi.plist 和 kaiju_lizi.plist 原粒子配置，raw 目录可查看。
+牌桌星芒：resources9 zhizhen_lizi 原图，粒子每秒5个、最多5个、life1±0.5、size40±5缩到0、alpha0到255、旋转90±30到30±1度。
+
+八个弃牌 row 的实际四家 tilePrefab 为2537/3223/1599/1535，Diamond 固定为 tile 直接子节点 position(2,50)、scale(1,1)。
+原世界原点：x=loc.x+2*loc.bodyScale[0]，y=loc.y-50*loc.bodyScale[1]，完整缩放及镜像沿用 loc.bodyScale。
+调用 marker.set({x,y,scale:loc.bodyScale,origin:true,visible:true})，origin:true 自动消除旧底部锚点的21.5px偏移。
+marker-placement.json 保存逐个 row→tilePrefab→Diamond 的解引用几何，inspect-marker-placement.mjs 可重建。
+
+新人豪礼：prefabs1595 NewUserPackTipLayer / btnBagAni，common326 bag_icon，91×94。
+new-player-gift.png 原图包含“新人豪礼”文字，界面中不要叠加额外文字。
+
+运行模块：control-effects.js；样式 control-effects.css。
+createControlEffects(parent)：自动扫描 .claim-* 按钮并运行原关键帧。
+createDiscardMarker(parent,{variant:'tile'})：四层原牌桌金钻+连续原星芒；set({x,y,visible,scale,origin})；element 可沿用原 marker 的 hidden/left/top 接口。
+variant:'prefab' 可单独研究 resources1224 原嵌套版本。
+Canvas 使用原混合模式和色乘；WebGL 与 Canvas 的边缘混合仍有细微差别，未承诺逐像素一致。

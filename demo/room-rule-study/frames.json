@@ -1,0 +1,387 @@
+[
+  {
+    "bundle": "main",
+    "id": 159,
+    "name": "default_scrollbar_vertical_bg",
+    "rect": [
+      0,
+      0,
+      15,
+      30
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      15,
+      30
+    ],
+    "capInsets": [
+      4,
+      10,
+      4,
+      10
+    ],
+    "uuid": "5fe5dcaa-b513-4dc5-a166-573627b3a159",
+    "texture": "asset-study/media/images/main/_unnamed/617323dd-11f4-4dd3-8eec-0caf6b3b45b9.png",
+    "image": "room-rule-study/assets/main-159.png"
+  },
+  {
+    "bundle": "common",
+    "id": 63,
+    "path": "NewSkin/Sudoku/datanchuangshanglan",
+    "name": "datanchuangshanglan",
+    "rect": [
+      3,
+      42,
+      950,
+      70
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      950,
+      70
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "171511ad-4dac-425e-97a2-84099b79b2cf",
+    "texture": "asset-study/media/images/common/_unnamed/157399797.png",
+    "image": "room-rule-study/assets/common-63.png"
+  },
+  {
+    "bundle": "common",
+    "id": 383,
+    "path": "module/Rule/leftOff",
+    "name": "leftOff",
+    "rect": [
+      3,
+      224,
+      215,
+      55
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      215,
+      55
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "7ce21e1b-39c1-4306-93af-c46355185f67",
+    "texture": "asset-study/media/images/common/_unnamed/16546dc69.png",
+    "image": "room-rule-study/assets/common-383.png"
+  },
+  {
+    "bundle": "common",
+    "id": 10,
+    "path": "module/Rule/midOff",
+    "name": "midOff",
+    "rect": [
+      3,
+      445,
+      211,
+      55
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      211,
+      55
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "0534f807-e7af-4939-93cd-29d1c0a4be53",
+    "texture": "asset-study/media/images/common/_unnamed/16546dc69.png",
+    "image": "room-rule-study/assets/common-10.png"
+  },
+  {
+    "bundle": "common",
+    "id": 49,
+    "path": "module/Rule/rightOff",
+    "name": "rightOff",
+    "rect": [
+      3,
+      3,
+      215,
+      55
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      215,
+      55
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "11b20a2a-0dd5-4326-b818-04f27a3e828b",
+    "texture": "asset-study/media/images/common/_unnamed/16546dc69.png",
+    "image": "room-rule-study/assets/common-49.png"
+  },
+  {
+    "bundle": "common",
+    "id": 102,
+    "path": "NewSkin/NewBtn/btn_tips13",
+    "name": "btn_tips13",
+    "rect": [
+      296,
+      346,
+      198,
+      45
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      198,
+      45
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "22ec70dd-de90-47e1-b6f9-4da3a7251d45",
+    "texture": "asset-study/media/images/common/_unnamed/1e8019203.png",
+    "image": "room-rule-study/assets/common-102.png"
+  },
+  {
+    "bundle": "common",
+    "id": 683,
+    "path": "module/Rule/leftOn",
+    "name": "leftOn",
+    "rect": [
+      64,
+      437,
+      211,
+      47
+    ],
+    "offset": [
+      2,
+      4
+    ],
+    "originalSize": [
+      215,
+      55
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "d72ca3cd-2fc9-4a2f-ad75-38e3a2540038",
+    "texture": "asset-study/media/images/common/_unnamed/16546dc69.png",
+    "image": "room-rule-study/assets/common-683.png"
+  },
+  {
+    "bundle": "common",
+    "id": 96,
+    "path": "module/Rule/midOn",
+    "name": "midOn",
+    "rect": [
+      64,
+      3,
+      211,
+      47
+    ],
+    "offset": [
+      0,
+      4
+    ],
+    "originalSize": [
+      211,
+      55
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "219f2e08-1b72-459a-b4f9-05078f44fea2",
+    "texture": "asset-study/media/images/common/_unnamed/16546dc69.png",
+    "image": "room-rule-study/assets/common-96.png"
+  },
+  {
+    "bundle": "common",
+    "id": 375,
+    "path": "module/Rule/rightOn",
+    "name": "rightOn",
+    "rect": [
+      64,
+      220,
+      211,
+      47
+    ],
+    "offset": [
+      -2,
+      4
+    ],
+    "originalSize": [
+      215,
+      55
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "7a535299-66ee-4fe1-ad89-974f4c482a49",
+    "texture": "asset-study/media/images/common/_unnamed/16546dc69.png",
+    "image": "room-rule-study/assets/common-375.png"
+  },
+  {
+    "bundle": "common",
+    "id": 432,
+    "path": "NewSkin/NewBtn/btn_tips12",
+    "name": "btn_tips12",
+    "rect": [
+      296,
+      141,
+      199,
+      45
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      199,
+      45
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "89f18937-1b1d-4f49-970a-8e0a1554dd69",
+    "texture": "asset-study/media/images/common/_unnamed/1e8019203.png",
+    "image": "room-rule-study/assets/common-432.png"
+  },
+  {
+    "bundle": "common",
+    "id": 559,
+    "path": "NewSkin/Sudoku/pic_com08",
+    "name": "pic_com08",
+    "rect": [
+      404,
+      207,
+      53,
+      56
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      53,
+      56
+    ],
+    "rotated": 1,
+    "capInsets": [
+      25,
+      20,
+      18,
+      24
+    ],
+    "uuid": "b1ce235d-bf85-4847-8a55-b158dbc4c8c5",
+    "texture": "asset-study/media/images/common/_unnamed/157399797.png",
+    "image": "room-rule-study/assets/common-559.png"
+  },
+  {
+    "bundle": "common",
+    "id": 816,
+    "path": "NewSkin/NewBtn/btn_com04",
+    "name": "btn_com04",
+    "rect": [
+      179,
+      736,
+      38,
+      37
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      38,
+      37
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "feec4ed5-df49-4757-ad98-21baf745e1a0",
+    "texture": "asset-study/media/images/common/_unnamed/1e8019203.png",
+    "image": "room-rule-study/assets/common-816.png"
+  },
+  {
+    "bundle": "main",
+    "id": 153,
+    "name": "default_scrollbar_vertical",
+    "rect": [
+      0,
+      0,
+      15,
+      30
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      15,
+      30
+    ],
+    "capInsets": [
+      4,
+      10,
+      4,
+      10
+    ],
+    "uuid": "5c3bb932-6c3c-468f-88a9-c8c61d458641",
+    "texture": "asset-study/media/images/main/_unnamed/d6d3ca85-4681-47c1-b5dd-d036a9d39ea2.png",
+    "image": "room-rule-study/assets/main-153.png"
+  }
+]

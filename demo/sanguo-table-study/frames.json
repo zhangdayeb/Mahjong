@@ -1,0 +1,1428 @@
+[
+  {
+    "bundle": "game",
+    "id": 1374,
+    "path": "Other/sanguo/sanguoditu/resource/table/pic_09",
+    "name": "pic_09",
+    "rect": [
+      0,
+      0,
+      1600,
+      720
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1600,
+      720
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "f7ee7da7-94d0-4af3-bd11-9cc2469b7ea6",
+    "textureUUID": "8b79d5a8-463c-4675-b36b-6efd9d6734c3",
+    "texture": "asset-study/media/images/game/Other/sanguo/sanguoditu/resource/table/pic_09.png",
+    "image": "sanguo-table-study/assets/game-1374.png"
+  },
+  {
+    "bundle": "game",
+    "id": 178,
+    "path": "Other/sanguo/sanguoditu/resource/table/pic_10",
+    "name": "pic_10",
+    "rect": [
+      0,
+      0,
+      152,
+      112
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      152,
+      112
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "254cdf8d-a5f5-428d-aa25-f9fec8e39397",
+    "textureUUID": "84bf2599-d76d-49d6-a55e-64e674292edd",
+    "texture": "asset-study/media/images/game/Other/sanguo/sanguoditu/resource/table/pic_10.png",
+    "image": "sanguo-table-study/assets/game-178.png"
+  },
+  {
+    "bundle": "game",
+    "id": 1203,
+    "path": "Other/sanguo/sanguoditu/resource/table/fwp/zhedang1",
+    "name": "zhedang1",
+    "rect": [
+      328,
+      3,
+      317,
+      720
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      317,
+      720
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "d8c068be-dc6c-4166-9d94-c3468a14b762@6c48a",
+    "textureUUID": "1bca62272",
+    "texture": "asset-study/media/images/game/_unnamed/1bca62272.png",
+    "image": "sanguo-table-study/assets/game-1203.png"
+  },
+  {
+    "bundle": "game",
+    "id": 316,
+    "path": "Other/sanguo/sanguoditu/resource/table/fwp/zhedang2",
+    "name": "zhedang2",
+    "rect": [
+      3,
+      3,
+      319,
+      720
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      319,
+      720
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "3f747d28-e242-416b-9f35-846a43eb6b5d@6c48a",
+    "textureUUID": "1bca62272",
+    "texture": "asset-study/media/images/game/_unnamed/1bca62272.png",
+    "image": "sanguo-table-study/assets/game-316.png"
+  },
+  {
+    "bundle": "game",
+    "id": 993,
+    "path": "Other/sanguo/sanguoditu/resource/table/fnt_sz",
+    "name": "fnt_sz",
+    "rect": [
+      0,
+      0,
+      144,
+      139
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      144,
+      139
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "b82465e3-9d7c-4f85-af26-f6c2bd7a5527",
+    "textureUUID": "39e2920f-eadf-40f4-923e-903a800ac0b2",
+    "texture": "asset-study/media/images/game/Other/sanguo/sanguoditu/resource/table/fnt_sz.png",
+    "image": "sanguo-table-study/assets/game-993.png"
+  },
+  {
+    "bundle": "game",
+    "id": 628,
+    "path": "Other/sanguo/sanguoditu/resource/table/fwp/txt_dong1",
+    "name": "txt_dong1",
+    "rect": [
+      704,
+      216,
+      29,
+      38
+    ],
+    "offset": [
+      1,
+      0
+    ],
+    "originalSize": [
+      53,
+      58
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "780d4df7-ada3-4f06-8d8e-bf04fa94fed0@6c48a",
+    "textureUUID": "1bca62272",
+    "texture": "asset-study/media/images/game/_unnamed/1bca62272.png",
+    "image": "sanguo-table-study/assets/game-628.png"
+  },
+  {
+    "bundle": "game",
+    "id": 424,
+    "path": "Other/sanguo/sanguoditu/resource/table/fwp/txt_nan1",
+    "name": "txt_nan1",
+    "rect": [
+      651,
+      340,
+      27,
+      37
+    ],
+    "offset": [
+      1,
+      0.5
+    ],
+    "originalSize": [
+      53,
+      58
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "5178429c-c271-47e6-967f-cde1a262ffb6@6c48a",
+    "textureUUID": "1bca62272",
+    "texture": "asset-study/media/images/game/_unnamed/1bca62272.png",
+    "image": "sanguo-table-study/assets/game-424.png"
+  },
+  {
+    "bundle": "game",
+    "id": 63,
+    "path": "Other/sanguo/sanguoditu/resource/table/fwp/txt_xi1",
+    "name": "txt_xi1",
+    "rect": [
+      684,
+      340,
+      29,
+      30
+    ],
+    "offset": [
+      1,
+      0
+    ],
+    "originalSize": [
+      53,
+      58
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "0d6cf258-6617-46a8-96ca-43f0e0619c6f@6c48a",
+    "textureUUID": "1bca62272",
+    "texture": "asset-study/media/images/game/_unnamed/1bca62272.png",
+    "image": "sanguo-table-study/assets/game-63.png"
+  },
+  {
+    "bundle": "game",
+    "id": 261,
+    "path": "Other/sanguo/sanguoditu/resource/table/fwp/txt_bei1",
+    "name": "txt_bei1",
+    "rect": [
+      651,
+      383,
+      33,
+      32
+    ],
+    "offset": [
+      1,
+      0
+    ],
+    "originalSize": [
+      53,
+      58
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "350676a1-8b33-48f5-9165-4874e5781993@6c48a",
+    "textureUUID": "1bca62272",
+    "texture": "asset-study/media/images/game/_unnamed/1bca62272.png",
+    "image": "sanguo-table-study/assets/game-261.png"
+  },
+  {
+    "bundle": "game",
+    "id": 1287,
+    "path": "Other/sanguo/sanguoditu/resource/table/fwp/txt_dong2",
+    "name": "txt_dong2",
+    "rect": [
+      651,
+      222,
+      47,
+      55
+    ],
+    "offset": [
+      2,
+      1.5
+    ],
+    "originalSize": [
+      53,
+      58
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "e8ae97e9-96a2-4c30-92fe-f457efec5608@6c48a",
+    "textureUUID": "1bca62272",
+    "texture": "asset-study/media/images/game/_unnamed/1bca62272.png",
+    "image": "sanguo-table-study/assets/game-1287.png"
+  },
+  {
+    "bundle": "game",
+    "id": 858,
+    "path": "Other/sanguo/sanguoditu/resource/table/fwp/txt_bei2",
+    "name": "txt_bei2",
+    "rect": [
+      651,
+      283,
+      51,
+      49
+    ],
+    "offset": [
+      1,
+      0.5
+    ],
+    "originalSize": [
+      53,
+      58
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "a2b94270-a5ca-499c-a2c5-3c6953c7e162@6c48a",
+    "textureUUID": "1bca62272",
+    "texture": "asset-study/media/images/game/_unnamed/1bca62272.png",
+    "image": "sanguo-table-study/assets/game-858.png"
+  },
+  {
+    "bundle": "game",
+    "id": 1354,
+    "path": "Other/sanguo/sanguoditu/resource/table/fwp/txt_xi2",
+    "name": "txt_xi2",
+    "rect": [
+      704,
+      161,
+      49,
+      48
+    ],
+    "offset": [
+      1,
+      1
+    ],
+    "originalSize": [
+      53,
+      58
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "f33120c5-543e-463e-96b6-d3112bed9aa2@6c48a",
+    "textureUUID": "1bca62272",
+    "texture": "asset-study/media/images/game/_unnamed/1bca62272.png",
+    "image": "sanguo-table-study/assets/game-1354.png"
+  },
+  {
+    "bundle": "game",
+    "id": 72,
+    "path": "Other/sanguo/sanguoditu/resource/table/fwp/txt_nan2",
+    "name": "txt_nan2",
+    "rect": [
+      651,
+      161,
+      47,
+      55
+    ],
+    "offset": [
+      1,
+      1.5
+    ],
+    "originalSize": [
+      53,
+      58
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "0f519b66-9b7e-4b8c-a2a2-203f812f092e@6c48a",
+    "textureUUID": "1bca62272",
+    "texture": "asset-study/media/images/game/_unnamed/1bca62272.png",
+    "image": "sanguo-table-study/assets/game-72.png"
+  },
+  {
+    "bundle": "game",
+    "id": 481,
+    "path": "NewSkin/GamePanelBtn/zhunbei",
+    "name": "zhunbei",
+    "rect": [
+      0,
+      0,
+      133,
+      105
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      133,
+      105
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "5c4ed857-7c7c-45aa-9574-3b6dd849bed2",
+    "textureUUID": "e3f41e3d-7e24-4e6d-a5e4-37a2974e2fe1",
+    "texture": "asset-study/media/images/game/NewSkin/GamePanelBtn/zhunbei.png",
+    "image": "sanguo-table-study/assets/game-481.png"
+  },
+  {
+    "bundle": "common",
+    "id": 250,
+    "path": "global/img_Point",
+    "name": "img_Point",
+    "rect": [
+      516,
+      803,
+      49,
+      54
+    ],
+    "offset": [
+      0,
+      -1
+    ],
+    "originalSize": [
+      53,
+      56
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "51241527-559e-4d96-82a4-e66092e184d4",
+    "textureUUID": "1c0b6e64f",
+    "texture": "asset-study/media/images/common/_unnamed/1c0b6e64f.png",
+    "image": "sanguo-table-study/assets/common-250.png"
+  },
+  {
+    "bundle": "common",
+    "id": 392,
+    "path": "CoinNum&FareNum/coin",
+    "name": "coin",
+    "rect": [
+      3,
+      97,
+      83,
+      89
+    ],
+    "offset": [
+      -1.5,
+      -2
+    ],
+    "originalSize": [
+      86,
+      97
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "7ed0acfb-5252-470f-be21-065cb3995815",
+    "textureUUID": "128f721b8",
+    "texture": "asset-study/media/images/common/_unnamed/128f721b8.png",
+    "image": "sanguo-table-study/assets/common-392.png"
+  },
+  {
+    "bundle": "common",
+    "id": 473,
+    "path": "CoinNum&FareNum/img_ZCoin",
+    "name": "img_ZCoin",
+    "rect": [
+      65,
+      308,
+      49,
+      53
+    ],
+    "offset": [
+      0,
+      -1.5
+    ],
+    "originalSize": [
+      53,
+      56
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "994eff60-c956-43aa-a297-ec6309840aeb",
+    "textureUUID": "128f721b8",
+    "texture": "asset-study/media/images/common/_unnamed/128f721b8.png",
+    "image": "sanguo-table-study/assets/common-473.png"
+  },
+  {
+    "bundle": "common",
+    "id": 586,
+    "path": "CoinNum&FareNum/img_DCoin",
+    "name": "img_DCoin",
+    "rect": [
+      3,
+      266,
+      55,
+      56
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      55,
+      57
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "b86b4a66-58ae-4f71-86c9-f632aff28964",
+    "textureUUID": "128f721b8",
+    "texture": "asset-study/media/images/common/_unnamed/128f721b8.png",
+    "image": "sanguo-table-study/assets/common-586.png"
+  },
+  {
+    "bundle": "common",
+    "id": 297,
+    "path": "CoinNum&FareNum/icon_clock",
+    "name": "icon_clock",
+    "rect": [
+      98,
+      97,
+      16,
+      16
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      16,
+      16
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "5f66bca3-6959-4498-9e26-929befc18f98",
+    "textureUUID": "128f721b8",
+    "texture": "asset-study/media/images/common/_unnamed/128f721b8.png",
+    "image": "sanguo-table-study/assets/common-297.png"
+  },
+  {
+    "bundle": "game",
+    "id": 1323,
+    "path": "NewSkin/GamePanelBtn/team/dui",
+    "name": "dui",
+    "rect": [
+      0,
+      0,
+      30,
+      32
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      30,
+      32
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "eec804c6-0bf0-4cf1-8533-df2a4a888ce9",
+    "textureUUID": "09da4a82-d80c-498e-a231-99fd271f57a7",
+    "texture": "asset-study/media/images/game/NewSkin/GamePanelBtn/team/dui.png",
+    "image": "sanguo-table-study/assets/game-1323.png"
+  },
+  {
+    "bundle": "game",
+    "id": 1694,
+    "name": "img_UserTag_0",
+    "rect": [
+      290,
+      178,
+      46,
+      46
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      48,
+      48
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "491d1b74-b0c6-4a98-82d3-a98a9d4e9eff",
+    "textureUUID": "3d7b6b7b-f23d-4584-af03-b80a084d3cd6",
+    "texture": "asset-study/media/images/game/NewSkin/GamePanelBtn/UserInfo/UserInfoAlats.png",
+    "image": "sanguo-table-study/assets/game-1694.png"
+  },
+  {
+    "bundle": "common",
+    "id": 569,
+    "path": "head/Head/head_0",
+    "name": "head_0",
+    "rect": [
+      3,
+      552,
+      90,
+      90
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      90,
+      90
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "b3951280-29c6-4fd4-82f7-464142cb3879",
+    "textureUUID": "1d189e348",
+    "texture": "asset-study/media/images/common/_unnamed/1d189e348.png",
+    "image": "sanguo-table-study/assets/common-569.png"
+  },
+  {
+    "bundle": "common",
+    "id": 245,
+    "path": "global/head_trustee",
+    "name": "head_trustee",
+    "rect": [
+      319,
+      955,
+      73,
+      66
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      73,
+      66
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "4f4864ce-4bc6-4695-9b91-0ec1bfb5ca58",
+    "textureUUID": "1c0b6e64f",
+    "texture": "asset-study/media/images/common/_unnamed/1c0b6e64f.png",
+    "image": "sanguo-table-study/assets/common-245.png"
+  },
+  {
+    "bundle": "common",
+    "id": 5,
+    "path": "head/headFrame/1_52",
+    "name": "1_52",
+    "rect": [
+      3,
+      221,
+      222,
+      211
+    ],
+    "offset": [
+      -7,
+      10.5
+    ],
+    "originalSize": [
+      262,
+      262
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "0282496f-ed58-4c32-bef9-697c7e9df287",
+    "textureUUID": "19b9d706f",
+    "texture": "asset-study/media/images/common/_unnamed/19b9d706f.png",
+    "image": "sanguo-table-study/assets/common-5.png"
+  },
+  {
+    "bundle": "common",
+    "id": 519,
+    "path": "head/headFrame/SectionHeadFrame_mk",
+    "name": "SectionHeadFrame_mk",
+    "rect": [
+      435,
+      243,
+      199,
+      204
+    ],
+    "offset": [
+      -0.5,
+      1
+    ],
+    "originalSize": [
+      262,
+      262
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "a4781d6c-720f-4e2b-9483-89a1918009ea",
+    "textureUUID": "19b9d706f",
+    "texture": "asset-study/media/images/common/_unnamed/19b9d706f.png",
+    "image": "sanguo-table-study/assets/common-519.png"
+  },
+  {
+    "bundle": "common",
+    "id": 228,
+    "path": "NewSkin/other/mJ_bg",
+    "name": "mJ_bg",
+    "rect": [
+      959,
+      493,
+      77,
+      37
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      77,
+      37
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "4a434b14-ed73-4e9c-8190-a3ebcddda921",
+    "textureUUID": "1d05abae0",
+    "texture": "asset-study/media/images/common/_unnamed/1d05abae0.png",
+    "image": "sanguo-table-study/assets/common-228.png"
+  },
+  {
+    "bundle": "common",
+    "id": 123,
+    "path": "NewSkin/other/2_100",
+    "name": "2_100",
+    "rect": [
+      839,
+      591,
+      143,
+      192
+    ],
+    "offset": [
+      -1.5,
+      -0.5
+    ],
+    "originalSize": [
+      204,
+      207
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "299981aa-3b6c-4c15-b3a0-aa429aa8eed5",
+    "textureUUID": "1d05abae0",
+    "texture": "asset-study/media/images/common/_unnamed/1d05abae0.png",
+    "image": "sanguo-table-study/assets/common-123.png"
+  },
+  {
+    "bundle": "common",
+    "id": 477,
+    "path": "NewSkin/other/font_bean",
+    "name": "font_bean",
+    "rect": [
+      3,
+      897,
+      116,
+      120
+    ],
+    "offset": [
+      -2.5,
+      2.5
+    ],
+    "originalSize": [
+      121,
+      125
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "9a188194-7079-4104-99aa-3abb14710099",
+    "textureUUID": "1d05abae0",
+    "texture": "asset-study/media/images/common/_unnamed/1d05abae0.png",
+    "image": "sanguo-table-study/assets/common-477.png"
+  },
+  {
+    "bundle": "common",
+    "id": 143,
+    "path": "NewSkin/BubTip/tishiheidiqipaojiugongge",
+    "name": "tishiheidiqipaojiugongge",
+    "rect": [
+      3,
+      3,
+      47,
+      43
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      47,
+      43
+    ],
+    "capInsets": [
+      8,
+      7,
+      7,
+      7
+    ],
+    "uuid": "2dee8464-dd69-407c-bbd0-9e4d6a8d6f80",
+    "textureUUID": "1b2fe0eaa",
+    "texture": "asset-study/media/images/common/_unnamed/1b2fe0eaa.png",
+    "image": "sanguo-table-study/assets/common-143.png"
+  },
+  {
+    "bundle": "common",
+    "id": 708,
+    "path": "NewSkin/other/duiwujifen",
+    "name": "duiwujifen",
+    "rect": [
+      601,
+      897,
+      54,
+      54
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      54,
+      54
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "debff1cb-dea2-4c35-af80-98231fc2ebd1",
+    "textureUUID": "1d05abae0",
+    "texture": "asset-study/media/images/common/_unnamed/1d05abae0.png",
+    "image": "sanguo-table-study/assets/common-708.png"
+  },
+  {
+    "bundle": "common",
+    "id": 572,
+    "path": "tile/Battery_icon_bg",
+    "name": "Battery_icon_bg",
+    "rect": [
+      77,
+      141,
+      29,
+      15
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      29,
+      15
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "b4221ea5-7cd4-4f22-af99-229e2ff67817",
+    "textureUUID": "18ca7a63d",
+    "texture": "asset-study/media/images/common/_unnamed/18ca7a63d.png",
+    "image": "sanguo-table-study/assets/common-572.png"
+  },
+  {
+    "bundle": "common",
+    "id": 623,
+    "path": "tile/Battery_icon0",
+    "name": "Battery_icon0",
+    "rect": [
+      114,
+      3,
+      23,
+      11
+    ],
+    "offset": [
+      -1,
+      0
+    ],
+    "originalSize": [
+      29,
+      15
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "c42b74e6-00e5-4634-b1e0-84b17e0992f0",
+    "textureUUID": "18ca7a63d",
+    "texture": "asset-study/media/images/common/_unnamed/18ca7a63d.png",
+    "image": "sanguo-table-study/assets/common-623.png"
+  },
+  {
+    "bundle": "common",
+    "id": 679,
+    "path": "tile/network_wifi_icon4",
+    "name": "network_wifi_icon4",
+    "rect": [
+      102,
+      170,
+      23,
+      19
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      25,
+      22
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "d3c95eb3-5e15-4134-ac1e-34308230cfd0",
+    "textureUUID": "18ca7a63d",
+    "texture": "asset-study/media/images/common/_unnamed/18ca7a63d.png",
+    "image": "sanguo-table-study/assets/common-679.png"
+  },
+  {
+    "bundle": "game",
+    "id": 1230,
+    "path": "Other/Main/leagueBg",
+    "name": "leagueBg",
+    "rect": [
+      167,
+      359,
+      114,
+      55
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      114,
+      55
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "ddf1da7b-2de4-43a7-a632-923944de5456",
+    "textureUUID": "1d3763f6c",
+    "texture": "asset-study/media/images/game/_unnamed/1d3763f6c.png",
+    "image": "sanguo-table-study/assets/game-1230.png"
+  },
+  {
+    "bundle": "game",
+    "id": 1006,
+    "path": "Other/menu/btn_menu",
+    "name": "btn_menu",
+    "rect": [
+      2,
+      266,
+      76,
+      56
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      76,
+      56
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "ba345fad-c723-4156-919f-e86043d45fb1",
+    "textureUUID": "1c2e97542",
+    "texture": "asset-study/media/images/game/_unnamed/1c2e97542.png",
+    "image": "sanguo-table-study/assets/game-1006.png"
+  },
+  {
+    "bundle": "common",
+    "id": 458,
+    "path": "NewSkin/NewBtn/pic_24",
+    "name": "pic_24",
+    "rect": [
+      3,
+      736,
+      98,
+      41
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      98,
+      41
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "928ce877-a85e-4f05-8879-aa29d4efdfe4",
+    "textureUUID": "1e8019203",
+    "texture": "asset-study/media/images/common/_unnamed/1e8019203.png",
+    "image": "sanguo-table-study/assets/common-458.png"
+  },
+  {
+    "bundle": "common",
+    "id": 171,
+    "path": "tile/tip_text_icon",
+    "name": "tip_text_icon",
+    "rect": [
+      3,
+      3,
+      226,
+      68
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      226,
+      68
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "356fd61e-4fe5-498d-9c45-1709b4971ab1",
+    "textureUUID": "18ca7a63d",
+    "texture": "asset-study/media/images/common/_unnamed/18ca7a63d.png",
+    "image": "sanguo-table-study/assets/common-171.png"
+  },
+  {
+    "bundle": "Match",
+    "id": 277,
+    "path": "NewSkin/DiyRoomSel/item/pic_25",
+    "name": "pic_25",
+    "rect": [
+      0,
+      1,
+      69,
+      65
+    ],
+    "offset": [
+      -0.5,
+      1.5
+    ],
+    "originalSize": [
+      70,
+      70
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "aa4cca9c-4ba4-4953-8691-d87be6ac9376",
+    "textureUUID": "93849817-65b2-4f89-aae4-c1e233812806",
+    "texture": "asset-study/media/images/Match/NewSkin/DiyRoomSel/item/pic_25.png",
+    "image": "sanguo-table-study/assets/Match-277.png"
+  },
+  {
+    "bundle": "Match",
+    "id": 46,
+    "path": "NewSkin/DiyRoomSel/item/pic_26",
+    "name": "pic_26",
+    "rect": [
+      4,
+      1,
+      53,
+      53
+    ],
+    "offset": [
+      -4.5,
+      7.5
+    ],
+    "originalSize": [
+      70,
+      70
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "1f0e370b-cf47-400c-9572-6faf008ada7b",
+    "textureUUID": "8e778f0b-2062-4938-b455-5eeee7747fab",
+    "texture": "asset-study/media/images/Match/NewSkin/DiyRoomSel/item/pic_26.png",
+    "image": "sanguo-table-study/assets/Match-46.png"
+  },
+  {
+    "bundle": "game",
+    "id": 700,
+    "path": "NewSkin/MenuBtn/gengduo",
+    "name": "gengduo",
+    "rect": [
+      0,
+      1,
+      60,
+      60
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      60,
+      62
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "8763a73e-9d14-4987-9f53-e6cd4d9cf037",
+    "textureUUID": "c02a918e-d79c-49d2-b0ee-56d3c92ac7e8",
+    "texture": "asset-study/media/images/game/NewSkin/MenuBtn/gengduo.png",
+    "image": "sanguo-table-study/assets/game-700.png"
+  },
+  {
+    "bundle": "common",
+    "id": 796,
+    "path": "MJMasterPath/s_1",
+    "name": "s_1",
+    "rect": [
+      426,
+      964,
+      172,
+      51
+    ],
+    "offset": [
+      11.5,
+      -3
+    ],
+    "originalSize": [
+      205,
+      95
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "f959fcd1-0443-4620-b47b-ec103a8fc210",
+    "textureUUID": "1e5b64136",
+    "texture": "asset-study/media/images/common/_unnamed/1e5b64136.png",
+    "image": "sanguo-table-study/assets/common-796.png"
+  },
+  {
+    "bundle": "common",
+    "id": 254,
+    "path": "MJMasterPath/s_2",
+    "name": "s_2",
+    "rect": [
+      248,
+      964,
+      172,
+      53
+    ],
+    "offset": [
+      11.5,
+      -5
+    ],
+    "originalSize": [
+      205,
+      95
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "51f652a6-8b55-430b-ab23-6952ff8efac9",
+    "textureUUID": "1e5b64136",
+    "texture": "asset-study/media/images/common/_unnamed/1e5b64136.png",
+    "image": "sanguo-table-study/assets/common-254.png"
+  },
+  {
+    "bundle": "common",
+    "id": 364,
+    "path": "MJMasterPath/s_3",
+    "name": "s_3",
+    "rect": [
+      519,
+      881,
+      178,
+      60
+    ],
+    "offset": [
+      9.5,
+      -3.5
+    ],
+    "originalSize": [
+      205,
+      95
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "7621ffd7-92c0-425d-bd1d-b6b4def2de4d",
+    "textureUUID": "1e5b64136",
+    "texture": "asset-study/media/images/common/_unnamed/1e5b64136.png",
+    "image": "sanguo-table-study/assets/common-364.png"
+  },
+  {
+    "bundle": "common",
+    "id": 118,
+    "path": "MJMasterPath/s_4",
+    "name": "s_4",
+    "rect": [
+      273,
+      3,
+      201,
+      85
+    ],
+    "offset": [
+      -2,
+      5
+    ],
+    "originalSize": [
+      205,
+      95
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "28ab3196-f2ad-42f2-bbd9-6ff1fa8430ea",
+    "textureUUID": "11d591760",
+    "texture": "asset-study/media/images/common/_unnamed/11d591760.png",
+    "image": "sanguo-table-study/assets/common-118.png"
+  },
+  {
+    "bundle": "common",
+    "id": 178,
+    "path": "MJMasterPath/s_5",
+    "name": "s_5",
+    "rect": [
+      274,
+      94,
+      195,
+      88
+    ],
+    "offset": [
+      1,
+      3.5
+    ],
+    "originalSize": [
+      205,
+      95
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "37944c84-9fce-4718-8ff3-332de519c631",
+    "textureUUID": "11d591760",
+    "texture": "asset-study/media/images/common/_unnamed/11d591760.png",
+    "image": "sanguo-table-study/assets/common-178.png"
+  },
+  {
+    "bundle": "common",
+    "id": 428,
+    "path": "MJMasterPath/s_6",
+    "name": "s_6",
+    "rect": [
+      3,
+      179,
+      201,
+      88
+    ],
+    "offset": [
+      -2,
+      3.5
+    ],
+    "originalSize": [
+      205,
+      95
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "883bebcd-691f-401e-be8d-6ef1dc9fec0d",
+    "textureUUID": "11d591760",
+    "texture": "asset-study/media/images/common/_unnamed/11d591760.png",
+    "image": "sanguo-table-study/assets/common-428.png"
+  },
+  {
+    "bundle": "common",
+    "id": 179,
+    "path": "MJMasterPath/s_7",
+    "name": "s_7",
+    "rect": [
+      210,
+      188,
+      204,
+      93
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      205,
+      95
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "37c046b0-b36b-486b-ba3d-95719a59e564",
+    "textureUUID": "11d591760",
+    "texture": "asset-study/media/images/common/_unnamed/11d591760.png",
+    "image": "sanguo-table-study/assets/common-179.png"
+  }
+]

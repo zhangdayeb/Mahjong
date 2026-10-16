@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>青绿牌桌 · 本地麻将 Demo</title>
+<link rel="stylesheet" href="style.css">
+<script type="importmap">{"imports":{"three":"./node_modules/three/build/three.module.js","three/addons/":"./node_modules/three/examples/jsm/"}}</script>
+</head>
+<body>
+<main class="app">
+<header><a class="brand" href="./"><span class="logo">麻</span><span>青绿牌桌<small>MAHJONG / LOCAL DEMO</small></span></a><div class="head-actions"><span class="local"><i></i> 本地运行</span><button id="sound" class="quiet" aria-pressed="true">音效 开</button><button id="music" class="quiet" aria-pressed="false">音乐 关</button><button id="reset" class="quiet">重新开局</button><button id="help" class="quiet" aria-label="玩法说明">?</button></div></header>
+<section class="arena" aria-label="3D 麻将牌桌">
+<div id="scene"></div><div id="render-error" hidden></div>
+<div class="table-label">四川麻将<span>换三张 · 定缺 · 自摸体验</span></div>
+<div class="seat seat-top" id="seat-2"><span class="avatar">林</span><div>林先生<small>电脑 · 对家</small></div><b></b></div>
+<div class="seat seat-left" id="seat-3"><span class="avatar">苏</span><div>小苏<small>电脑 · 上家</small></div><b></b></div>
+<div class="seat seat-right" id="seat-1"><span class="avatar">唐</span><div>阿唐<small>电脑 · 下家</small></div><b></b></div>
+<div class="wall-count"><span>牌墙剩余</span><strong id="remaining">55</strong><span>张</span></div>
+<div id="announcement" class="announcement" aria-live="polite"></div>
+<div class="round-tag">练习桌 <span>01</span></div>
+<div class="log-panel"><span>牌局动态</span><ol id="log"></ol></div>
+</section>
+<section class="player-panel">
+<div class="player-meta"><div class="me"><span class="avatar">你</span><div>我的手牌<small id="hand-count"></small></div><span id="missing-badge" class="badge">待定缺</span></div><div class="status"><span class="step" id="stage-label">01 / 换三张</span><span id="status" aria-live="polite"></span></div></div>
+<div id="hand" class="hand" aria-label="我的麻将手牌"></div>
+<div class="controls"><span id="hint">选出 3 张同一花色的牌</span><div id="suit-controls" hidden><button data-suit="1" class="suit-btn">缺 万</button><button data-suit="2" class="suit-btn">缺 条</button><button data-suit="3" class="suit-btn">缺 筒</button></div><div class="main-buttons"><button id="auto" class="secondary">帮我选牌</button><button id="win" class="secondary" hidden>自摸胡牌</button><button id="action" class="primary" disabled>确认换牌 <span>0 / 3</span></button></div></div>
+</section>
+<footer><span>3D 牌桌 · 本地资源 · 离线可运行</span><span>学习演示 / 简化电脑策略与基础胡牌检测</span></footer>
+</main>
+<dialog id="help-dialog"><button id="close-help" class="close" aria-label="关闭说明">×</button><p class="eyebrow">LOCAL PLAYGROUND</p><h2>从一桌麻将开始</h2><p>先选三张同一花色的牌，交换给下家。随后选择缺门：只要手里还有缺门牌，就必须优先打出。</p><p>轮到你时，点击选牌，再点击「出牌」或双击麻将。其他三家会自动摸牌、出牌。支持基础四组一对、七对的自摸检测。</p><p class="muted">这是独立编写的本地演示。牌面与声音来自已收集的客户端资源；未接入原游戏服务器，暂未实现吃碰杠、血战结算、完整番型与人物手部动画。</p><button id="help-ok" class="primary">开始体验</button></dialog>
+<script type="module" src="main.js"></script>
+</body></html>

@@ -1,0 +1,19 @@
+原开局动画 fx_kaiju
+
+原包版本601907。AnimationDefine.GameAnimPrefabMap.kaiju 对应 anims/game/AnimTextuerRes/fx_kaiju。
+resources640 为 prefab，resources995 为 AnimationClip，时长 1.1666666666666667 秒。
+NewCPGHAnim.playPJKS 实例化并播放动画，finished 后销毁/隐藏特效并执行后续回调。
+
+收集了22张原图、19节点、20个闪电 SpriteFrame 关键帧引用。
+逐层恢复了位置、缩放、角度、透明度、active、颜色、父子变换、半环和文字残影、源混合模式。
+文字“开”“局”使用原图；蓝金横幅中的麻将牌/骰子为原图内容。
+固定检查建议：preview(.4)。.35～.55 秒有主闪电、巨大圆光、斜线；.6333 秒后主闪电已关闭，.5833 秒后斜线已关闭。
+
+粒子：原 resources24 kaiju_lizi 是柔光点贴图，不是另一套麻将牌序列。
+根据原 prefab 的80个粒子、duration0.01、life0±1.2、speed600±300、angle360±360、startSize34.11±45、endSize13.59±6等参数重放。
+原 .plist 已补下载，raw/kaiju_lizi.plist 与 particle-native.json 可查看参数。原 Cocos 在 life0 时将 emissionRate 设为 Number.MAX_VALUE，因此它是短 burst 发射。
+Cocos 随机数不在本实现中；Canvas 与 WebGL 的混合可能不同。粒子发射时间采用0.2秒后的0.01秒固定种子 burst，不能声称逐帧一致。
+
+createOpeningEffects(parent,{center:{x:640,y:320},particles:true})。
+ready 为预加载 Promise；play() 为 Promise 并带 finished、durationMs、durationSeconds；cancel()/clear()/destroy() 可中止。
+播放结束或取消时 Canvas 隐藏；root 应在完成后开始发牌。

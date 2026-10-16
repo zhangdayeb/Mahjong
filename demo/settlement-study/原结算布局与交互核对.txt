@@ -1,0 +1,24 @@
+来源：原客户端601907，prefabs147 CoinGameResultPage，prefabs118 PlayerItemCommon，prefabs20 FanDetailItem；原源码保存在source目录。
+
+布局基准1280×720，统一按可用高度/720和宽度/1280中的较小值缩放。native-layout.json保留各节点父链变换和原坐标。
+
+明细原视口68高，底边原坐标460.491；每行30高，行距2；原界面没有绑定横/竖滚动条。
+黄箭头原onClickChangeView：隐藏手牌、btn_change.y+=100、scaleY取反、明细父节点height+=100，滚至顶部。收缩逆操作。
+本地采用相同上移100、68→168、高度底边固定、图标翻转与手牌隐藏；支持触屏/鼠标拖动，屏幕距离除以当前stage scale换算回原坐标。浏览器滚动条和文本选择均关闭。
+
+原FanDetailItem：收入#ef421e，支出#303030；位置前缀字号25，番名23，倍数字号23；番名字宽450，倍数右锚定原行中心x201.833。
+原dealLiuShuiDetailInfo给付出的倍数加负号，收入倍数不加正号。本地保留负倍数，列表来自huEvents/kongPayments；缺失的原服务端番种及规则条目不会通过截图虚构填入。
+
+段位图：left2.436 top204.645 size341×273。
+小段位牌：原205×95，scale0.7；left−0.75 top406.75 size143.5×66.5。
+进度条：left51.031 top468.189 size240×25；0/40文字上移1.5；背景MJMasterPath/pic_25-1为获胜蓝底、pic_25-2为失败棕底，填充独立pic_26原青色PNG。
+礼盒：left276.227 top443.819 size63×65。各节点独立定位，未把段位图的offset重复加到牌/进度/礼盒上。
+本地没有线上经验接口，缺失时0/40保留为本地示例，并有提示，不伪装原账号35/40。
+
+主得失位图字：fonts47 fnt_win、fonts133 fnt_lose；提取原字形及fnt配置，原fontsize30/fontSize32，非CSS斜体替代。
+三家小卡片正得失不带+号（CoinGameResultPageItemView.setWinCoin），本家主得失带+号（CoinGameResultPageView.setMyResultInfo）。
+
+长按牌桌提示：原zhiwen149×78且节点scale0.8，即119.2×62.4；left1155.16 top614.598。
+再来一局：原Button_NextGame size280×97，单一按钮时横布局居中。底图为原9slice btn_com09，文字42号，上移10。
+
+preview.html?auto=lose 为独立视觉夹具，9条明细供触屏拖动核对；加expanded自动展开，加zero检查0/40；?auto=win检查主得失金色字体。测试数据明确标识，不修改游戏运行状态。

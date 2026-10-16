@@ -1,0 +1,93 @@
+{
+  "button": {
+    "width": 103,
+    "height": 110,
+    "anchor": [
+      0.5,
+      0
+    ],
+    "effectOffset": [
+      0,
+      67
+    ],
+    "layer": "UserControlLayer/Control",
+    "originalOffset": [
+      333,
+      -158
+    ],
+    "spacing": 25
+  },
+  "pass": {
+    "btnType": 0,
+    "image": "control-study/assets/game-985-guo.png",
+    "size": [
+      119,
+      110
+    ]
+  },
+  "passLegacy": {
+    "image": "control-study/assets/game-736-Btn_Guo.png",
+    "size": [
+      107,
+      108
+    ]
+  },
+  "effects": [
+    {
+      "name": "peng",
+      "btnType": 2,
+      "prefab": 2220,
+      "clip": 1939,
+      "duration": 2,
+      "wrapMode": 2
+    },
+    {
+      "name": "gang",
+      "btnType": 3,
+      "prefab": 2605,
+      "clip": 2265,
+      "duration": 2,
+      "wrapMode": 2
+    },
+    {
+      "name": "hu",
+      "btnType": 4,
+      "prefab": 1127,
+      "clip": 2510,
+      "duration": 2,
+      "wrapMode": 2
+    },
+    {
+      "name": "ting",
+      "btnType": 5,
+      "prefab": 1060,
+      "clip": 607,
+      "duration": 2,
+      "wrapMode": 2
+    },
+    {
+      "name": "zimo",
+      "btnType": 7,
+      "prefab": 662,
+      "clip": 1508,
+      "duration": 2,
+      "wrapMode": 2
+    },
+    {
+      "name": "marker",
+      "btnType": null,
+      "prefab": 1224,
+      "clip": 1268,
+      "duration": 1.25,
+      "wrapMode": "2"
+    },
+    {
+      "name": "markerTile",
+      "btnType": null,
+      "prefab": 2537,
+      "clip": 1268,
+      "duration": 1.25,
+      "wrapMode": "2"
+    }
+  ]
+}

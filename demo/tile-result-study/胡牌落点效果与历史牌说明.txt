@@ -1,0 +1,31 @@
+来源：601907 AnimationDefine.GameAnimPrefabMap。
+huDian -> resources 2752 fx_hupai1，clip 1463，1.1666667 秒，12 个图层＋根节点。
+ZiMoLight -> resources 1821 fx_hupai2，clip 495，1.0833333 秒，19 帧金色序列。
+本目录导出原40张 PNG、节点属性、各层序列帧与关键帧，无 CSS 蓝电替代或重新绘制文字。
+缺失的 resources 2112 SpriteFrame import 已从原公开601907资源 URL 恢复，原始 JSON 在 raw/frame-b3d7212d-0025-4b7f-8da7-506580518060.json。
+
+HU_TILE 普通路径：
+BlockDiscardWin.onResult 同一 orderedPlayAnim 回调中发 ANIM_HU 与 HU_TILE。
+BlockSelfDrawn.onResult 同一回调中发 ANIM_ZIMO 与 HU_TILE。
+ZMJTileInterface.HU_TILE 先移除自摸手牌或点炮弃牌，再立即添加一张正面的历史胡牌 tile。
+该方法最后调用 huTile(viewSeat,value,true,false)，即普通路径的自摸和点炮都会播放蓝电 huDian；不能因自摸自行改成金色 ZiMoLight。
+ZMJHuTileCtrl.pushHuTile 没有落牌飞行 tween；新增历史牌即时可见，蓝电与横幅并行。
+恢复牌局时 huTile(...,false) 不重放蓝电或横幅。
+
+蓝电绑定：ZMJTile.showHuDian -> this.node.convertToWorldSpaceAR(0,0) -> NewCPGHAnim.playHuDian -> effectLayer.convertToNodeSpaceAR(worldPosition)。
+所以传入最后一张历史胡牌 tile 的 ROOT 位置；不是 face 中心、头像、横幅中心、手牌原位置或弃牌原位置。
+NewCPGHAnim.playAnimation(...,position,1) 将效果放在 GameAnimLayer 内独立 scale1。用当前 Canvas 比例（1280 × 640 为8/9）缩放效果，不能继承右侧牌的镜像或透视比例。
+效果原图层包含 y-up+38 左右的光团及原闪电纵束角度；不要再人工将光团中心与 tile origin 对齐。
+本模块同时支持多家 HU_TILE 事件，保留各家自己的效果位置，不会播放新效果时清掉上一家。
+
+历史牌布局：hu-placement-source.json 导出四家 hu node、tilePrefab、tileStep、rowStep、tileScale、rowZorder、face属性。
+本地 huTilePlacements 按相同原公式列排，rowCount 为13；每13张开始下一行/列，rowStep 累加行号。
+常驻胡牌牌数应取各家真实 huEvents，不应拿全手牌代替；自摸需从手牌删实际摸到的牌，点炮从弃牌区移除被胡的牌。
+
+API：createTileResultEffects(uiLayer) -> ready / play / clear / preview / destroy。
+play({x:loc.x,y:loc.y,scale:nativeTable.scale,kind:'hu'})，loc 来自该家新增历史牌的 huTilePlacements 最后一项。
+返回 Promise 自带 finished、durationMs=1166.6667、durationSeconds=1.1666667。
+横幅与落点蓝电并行，不串接；多家胡牌每家调用一次。
+reset/离开牌桌清理 clear；初次开局等待 ready 避免资源解码延迟产生两者不同步。
+preview({x,y,scale,kind:'hu',time:.4}) 可固定时间核对。
+本模块是原 PNG 与 Cocos clip 的 Canvas 重放；Canvas/WebGL 混合细节与逐帧取样会有实现差异，未声称逐帧完全一致。

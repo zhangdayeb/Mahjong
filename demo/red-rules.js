@@ -1,0 +1,28 @@
+// Local practice configuration. It is not a verified online room profile.
+export const RED=51;
+export const naturalTiles=Array.from({length:27},(_,i)=>(Math.floor(i/9)+1)*10+i%9+1);
+export const redPractice={red:true,exchange:false,jokerCount:4,cap:16,settlement:true,name:'本地红中练习（配置待核对）'};
+export function redWin(hand,missing,melds=[],tripletsOnly=false){
+ if(hand.length!==14-melds.length*3||hand.some(v=>Math.floor(v/10)===missing)||melds.some(m=>Math.floor(m.value/10)===missing))return false;
+ const counts=Array(60).fill(0);let wild=0;
+ for(const v of hand){if(v===RED){if(++wild>4)return false;}else if(!naturalTiles.includes(v)||++counts[v]>4)return false;}
+ const total=counts.slice();for(const m of melds){if(m.value===RED||!naturalTiles.includes(m.value))return false;total[m.value]+=m.type==='peng'?3:4;if(total[m.value]>4)return false;}
+ if(!tripletsOnly&&!melds.length&&counts.filter(n=>n%2).length<=wild)return true;
+ const memo=new Map();
+ function groups(j){const v=counts.findIndex(n=>n>0);if(v<0)return j%3===0;const key=counts.join(',')+':'+j;if(memo.has(key))return memo.get(key);let ok=false;
+ const n=Math.min(3,counts[v]);if(3-n<=j){counts[v]-=n;ok=groups(j-(3-n));counts[v]+=n;}
+ if(!ok&&!tripletsOnly){const rank=v%10;for(let start=Math.max(1,rank-2);start<=Math.min(7,rank)&&!ok;start++){const base=Math.floor(v/10)*10+start,taken=[];let need=0;for(let x=base;x<base+3;x++){if(counts[x]){counts[x]--;taken.push(x);}else need++;}if(need<=j)ok=groups(j-need);for(const x of taken)counts[x]++;}}
+ memo.set(key,ok);return ok;}
+ if(wild>=2&&groups(wild-2))return true;
+ for(const v of naturalTiles)if(counts[v]){const take=Math.min(2,counts[v]),need=2-take;if(need>wild)continue;counts[v]-=take;const ok=groups(wild-need);counts[v]+=take;if(ok)return true;}return false;
+}
+export function redScore(hand,missing,melds=[],cap=16){
+ if(!redWin(hand,missing,melds))return null;
+ const fans=[{name:'平胡',multiple:1}];
+ if(redWin(hand,missing,melds,true))fans.push({name:'对对胡',multiple:2});
+ const suits=new Set([...hand.filter(v=>v!==RED),...melds.map(m=>m.value)].map(v=>Math.floor(v/10)));
+ if(suits.size===1)fans.push({name:'清一色',multiple:4});
+ // Screenshot confirms these basic fan types do not stack. Other fan types remain pending.
+ const fan=fans.reduce((a,b)=>b.multiple>a.multiple?b:a);
+ return {...fan,multiple:Math.min(cap,fan.multiple),candidates:fans};
+}

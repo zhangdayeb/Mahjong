@@ -1,0 +1,13 @@
+import {sanguoRoomScreenshotFixture} from './hall-games-study/sanguo-rooms-fixture.js';
+import {zodiacRoomScreenshotFixture} from './hall-games-study/zodiac-rooms-fixture.js';
+export {sanguoRoomScreenshotFixture,zodiacRoomScreenshotFixture};
+export const variants={classic:{name:'血流麻将',en:'CLASSIC MAHJONG'},red:{name:'血流红中',en:'XUELIUHONGZHONG'},six:{name:'血流六红中',en:'XUELIULIUHONGZHONG'},sixFixed:{name:'6红中不洗牌',en:'HONGZHONGBUXIPAI'},exchange:{name:'血流换三张',en:'XUELIUHUANSANZHANG'},crazy:{name:'疯狂8红中',en:'FENGKUANGBAHONGZHONG'},eightFixed:{name:'8红中不洗牌',en:'BAHONGZHONGBUXIPAI'},sanguo:{name:'三国麻将',en:'SANGUOMAJIANG',typeID:911,sceneIDs:[621,622,623,624,625],group:'sanguo',playable:true,localPractice:true,engine:'sanguo-local',source:'GameTypeCfgs.SGMJ2 / PluginCfgs[911] / Hall_TableSelPanel prefab43'},zodiac:{name:'十二生肖',en:'SHIERSHENGXIAO',typeID:898,sceneIDs:[556,557,558,559,560],group:'zodiac',playable:false,source:'GameTypeCfgs.SESXMJ / PluginCfgs[898] / Hall_TableSelPanel prefab43'}};
+export const rooms=[{id:'beginner',name:'新手场',base:2000,number:'2000',image:2359,people:26073,limit:'2万–200万'},{id:'primary',name:'初级场',base:8000,number:'8000',image:1152,people:20244,limit:'100万–600万'},{id:'advanced',name:'进阶场',base:50000,number:'50000',image:1877,people:20506,limit:'500万–30亿'},{id:'expert',name:'高级场',base:100000,number:'10万',image:1963,people:4558,limit:'5000万–无限制'}];
+export const variantGroups={classic:['classic','exchange'],red:['red','six','sixFixed','exchange','crazy','eightFixed'],sanguo:['sanguo'],zodiac:['zodiac']};
+export function variantKeys(mode='classic'){const group=variants[mode]?.group||(mode==='classic'?'classic':'red');return (variantGroups[group]||variantGroups.classic).slice();}
+// These native games retain their known scene IDs and separately captured
+// appearance data. Screenshot fields do not implement their table engines.
+export const nativeRoomGroups={sanguo:sanguoRoomScreenshotFixture.rooms,zodiac:zodiacRoomScreenshotFixture.rooms};
+export function roomsForMode(mode='classic',observedScenes=null){if(observedScenes)return observedScenes.map(scene=>({...scene}));return (nativeRoomGroups[mode]||rooms).map(room=>({...room}));}
+export function recommendedRoomForMode(mode='classic',sceneList=roomsForMode(mode)){return sceneList.find(room=>room.recommended)||sceneList[0];}
+export function currentRoom(search=globalThis.location?.search||''){const q=new URLSearchParams(search),key=q.get('mode') in variants?q.get('mode'):'classic',sceneList=roomsForMode(key);return {variant:variants[key],key,room:sceneList.find(r=>r.id===q.get('room'))||recommendedRoomForMode(key,sceneList)};}

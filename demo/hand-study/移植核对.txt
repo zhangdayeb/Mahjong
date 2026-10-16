@@ -1,0 +1,54 @@
+原版手部模型与动作移植核对
+
+本次使用真实原模型，不是截图贴片、CSS 手形或重新建模。
+女性手部：fbx 54，3335 顶点，5567 三角形，18 蒙皮关节。
+皮肤贴图：f41ba3d4-d9be-4479-9790-891e2ef514a2，girl_hand_material。
+材质重定向 internal 9 builtin-unlit：原贴图已包含皮肤阴影，因此使用无光照材质。
+原纹理fbx105使用Linear过滤、没有mipmap，Cocos默认_flipY=false。
+Three默认flipY=true会使手掌和前臂UV采到错误皮肤块，已明确改为原方向。
+固定0.35秒左侧出牌帧已在真实浏览器核查，前臂三角伪裂缝消失，手从画面左缘
+连续伸入约365屏幕像素。核查图：alignment-study/hand-fixed-proof.png。
+复现页：hand-study/preview.html?time=.35&seat=3（真实1280×640牌桌背景）。
+每段动作转换66条原生 position / quaternion / scale 曲线；保留关键帧及原 clip 时长。
+
+出牌：模型19、骨骼63、动画4、prefab3931；0.9166667秒，0.4时点落牌。
+碰杠：模型87、骨骼75、动画73、prefab701；0.7083333秒，0.28时点接触。
+换三张：模型46、骨骼31、动画98、prefab3121；0.9583333秒，0.35时点接触。
+原 prefab 的挂点是隐藏 mjpai 节点；出牌含 Dummy001，碰杠和换三张含组001。
+保留碰杠 prefab 的负Z缩放，以及换三张 RootNode 的90度旋转。
+以接触时原挂点的世界位置校准根节点，四席复用原版90/180/270/0度朝向。
+
+浏览器核查后补齐原 main3 场景父链，避免仅使用 prefab200 而手部偏小：
+anim→tiles→posBox(scale10,10,12)→pos(scale3.6,3.6,3.6，Y15.1)→Desk_new(Y-3.062)。
+原 hand3D Camera 为112.566/131.373，宿主相机整体缩至十分之一后，手容器父比例
+应为3.6/3.6/4.32；该非统一缩放必须在子 prefab 的座位旋转外侧，不能混入子缩放。
+原接触平面转换后Y=1.2038。输入屏幕落点沿宿主相机射线重投影到这个高度，屏幕
+坐标仍与静态牌落点一致；显式Vector3输入保留调用者世界坐标。
+全部原父链和相机数据保存在animations.json.tableSpace及raw/main-3.json。
+
+原蒙皮权重为向量长度归一，权重和部分大于1。原 shader 保留齐次位置的w。
+Three 的默认蒙皮 shader 会截断w，因此转换时按权重和归一，额外在投影后
+恢复原权重和；CPU校验直接比较原 shader 矩阵算法的四维投影，避免手指膨胀。
+
+旧收集器按同路径保存多个二进制资产，导致 mesh/clip 互相覆盖。
+本次按 UUID 和 ID 独立存储 mesh54、clip73、clip98，记录 SHA256，校验曲线字节长度。
+collect-hand-native.mjs 只下载固定公开原站资源；collect-hand-study.mjs 静态解析数据，
+不执行原站脚本。
+
+开局不是手部模型：ZMJTileAnim先等待1.2秒，每4张一批，每批间隔0.5秒，
+牌由原Y+100、透明度0，按easeSineInOut在0.5秒内落到原位；14张总时长3.2秒。
+托管状态的摸牌不播放手搓牌：原ZMJDrawTileAnim会跳过NORMALTRUSTEE等搓牌流程。
+因此draw/deal不伪造手部动作，返回duration0；openingTiming供牌桌实现原发牌时序。
+
+当前范围：女性原手、出牌／碰杠／换三张、真实牌挂手与落桌接触回调。
+男性手部及手搓牌、胡牌专属手势尚未移植。原骨骼关键帧已复用，使用Three的
+四元数插值与原Cocos渲染管线，仍需在集成牌桌与原站连续画面对照核查视觉。
+此模块不增加、修改牌局规则、计分或托管算法。
+
+API：await createHandEffects({THREE,scene,camera,renderer,makeTile,screenToWorld})。
+play({action,seat,value,values,to,onContact}) -> {duration,contactTime,durationMs,contactTimeMs,startTime,finished}。
+duration/contactTime单位秒；Ms字段毫秒。to可为THREE.Vector3或1280x640桌面像素{x,y}。
+startTime是performance.now()同单位的毫秒时间戳；固定帧预览用其加动作秒数，避免构造耗时误差。
+默认自行requestAnimationFrame更新；externalClock:true时由宿主调用update(performance.now())。
+clear取消播放并解除挂手牌；dispose额外释放自身网格、材质和贴图。
+手牌factory创建的共享tile几何、贴图、材质不在此销毁。

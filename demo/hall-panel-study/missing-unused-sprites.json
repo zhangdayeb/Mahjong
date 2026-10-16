@@ -1,0 +1,26 @@
+[
+  {
+    "uuid": "31d8962d-babb-4ec7-be19-8e9f54a4ea99",
+    "node": "prefabs:16/Background"
+  },
+  {
+    "uuid": "31d8962d-babb-4ec7-be19-8e9f54a4ea99",
+    "node": "prefabs:16/progressBar_music"
+  },
+  {
+    "uuid": "31d8962d-babb-4ec7-be19-8e9f54a4ea99",
+    "node": "prefabs:16/Background"
+  },
+  {
+    "uuid": "31d8962d-babb-4ec7-be19-8e9f54a4ea99",
+    "node": "prefabs:16/progressBar_sound"
+  },
+  {
+    "uuid": "31d8962d-babb-4ec7-be19-8e9f54a4ea99",
+    "node": "prefabs:16/Background"
+  },
+  {
+    "uuid": "31d8962d-babb-4ec7-be19-8e9f54a4ea99",
+    "node": "prefabs:16/progressBar_sound"
+  }
+]

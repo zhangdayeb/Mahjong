@@ -1,0 +1,16 @@
+入场加载与换三张动画
+
+来源：mainPrefab/PersistRootNode (id1)，prefabs/game/HSZ/Prefab/pannel_HSZ (id3840)，AnimChangeMode (id748)，huansanzhang clip (id306)，fx_huansanzhang (id2054)。
+提取40个原图片，frames.json保存原裁切与透明边距，raw保存原预制体/clip，source保存可读控制器，original-nodes.json保存静态节点字段。
+
+加载图：img_load_res_bg 111×110，旋转环 img_load_res 111×110，中间静止发字 img_icon_fa 52×52。原遮罩opacity60/255。com_loadingView.update 每帧angle+=5；本地以60fps换算1.2秒/圈，未直接复刻原版逐帧依赖以免不同刷新率改变速度。
+createRoomEntry(parent).show(progress)/update(progress)/hide 输入真实百分比0–100；原版≥99.9%隐藏百分比，本地保留同样行为。没有写入虚构百分比计时器。
+enterRoom(href,{parent,preload,minVisibleMs,navigate,onError}) 可接受实际资源预加载函数report或URL数组，progress按完成下载数量更新；导航成功时保留遮罩到旧页面pagehide，失败则解除遮罩并返回错误。
+
+换牌动画：复用img_arrows、三家三张绿色背牌帧、原模式文字图片和tableTip黑背景。原场次开始前选择三张同花色手牌，确定后四家背牌落在桌面，收到换牌结果后播放模式箭头、移入实际新牌、再定缺。
+GDPlayerHSZView中普通场次背牌中心坐标：本家(0,-145)、左家(-271,25)、对家(0,220)、右家(275,25)。原AnimChangeMode的顺/逆模式旋转180°耗时1.5秒，OPPO使用huansanzhang clip，原时长1.25秒。RuleHSZ.launchChangeCardRst将消息循环暂停1.5秒。
+createExchangeEffects(parent,{sound,center}).play({direction,duration,style}) 默认1.5秒，返回Promise，并带finished、duration(ms)、durationSeconds；clear/cancel会解除视觉和完成等待。
+用户最新截图里“本局对家换牌”配四个环形箭头，与静态控制器里OPPO上下双箭头不同。默认style:'observed'按截图画环形四箭头；style:'source'且direction:'opposite'才按原上下双箭头关键帧复播。不能据此声称线上逐帧时序完全一致。
+人物推牌手势属于独立3D骨骼：gameHandAnimHuansanzhang，模型handOK/huanSanZhang_man 与 girl_huansanzhang_02。本组件没有加入假人物手势。
+
+规则证据：eChangeMode来自1701 MaJiang.TCmdS2CNotifyChangeCard服务器消息，bAllColor也来自服务器；客户端支持任意三张或同花色三张两种模式，未从截图推断所有场次规则。最新血流红中截图足够证明当前目标场次存在换三张，但不能确定全部线上规则/发牌方式。

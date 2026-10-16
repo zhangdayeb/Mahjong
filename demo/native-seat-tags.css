@@ -1,0 +1,6 @@
+.native-seat-tag-layer{position:absolute;inset:0;pointer-events:none;z-index:4}
+.native-seat-tag-layer img{position:absolute;pointer-events:none;object-fit:fill;user-select:none}
+.native-seat-tag-big{transform-origin:center center}
+.has-native-seat-tags .profile .que{visibility:hidden!important}
+.has-native-seat-tags .hand-tile.que-tile .face,.has-native-seat-tags .hand-tile.que-tile .body{filter:none}
+.has-native-seat-tags .hand-tile.que-tile::after{content:"";position:absolute;left:var(--native-que-tag-left);top:var(--native-que-tag-top);width:var(--native-que-tag-width);height:var(--native-que-tag-height);background:var(--native-que-tag-image) center/100% 100% no-repeat;pointer-events:none}

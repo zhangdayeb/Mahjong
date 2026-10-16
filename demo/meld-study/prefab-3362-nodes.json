@@ -1,0 +1,99 @@
+[
+  {
+    "id": 1,
+    "name": "ClassicDesk",
+    "trs": [
+      0,
+      360,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "size": [
+      5,
+      1600,
+      720
+    ],
+    "components": [
+      {
+        "class": "cc.Sprite",
+        "_sizeMode": 2,
+        "node": -2,
+        "_materials": [
+          4
+        ],
+        "_spriteFrame": 5
+      },
+      {
+        "class": "cc.Widget",
+        "_alignFlags": 5,
+        "_originalHeight": 720,
+        "node": -3
+      },
+      {
+        "class": "d0bcescxTRKoq7qUlYTiRkh",
+        "GameDeskType": -43,
+        "node": -6,
+        "WaterMarkNode": -5,
+        "DeskTextureNode": -4
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "texture",
+    "parent": 1,
+    "size": [
+      5,
+      880,
+      522
+    ],
+    "components": [
+      {
+        "class": "cc.Sprite",
+        "node": -9,
+        "_materials": [
+          0
+        ],
+        "_spriteFrame": 1
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "logo",
+    "parent": 1,
+    "trs": [
+      -248.452,
+      -155.283,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "size": [
+      5,
+      203,
+      73
+    ],
+    "components": [
+      {
+        "class": "cc.Sprite",
+        "node": -10,
+        "_materials": [
+          2
+        ],
+        "_spriteFrame": 3
+      }
+    ]
+  }
+]

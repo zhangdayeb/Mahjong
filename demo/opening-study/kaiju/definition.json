@@ -1,0 +1,1800 @@
+{
+  "name": "fx_kaiju",
+  "prefab": {
+    "bundle": "resources",
+    "id": 640
+  },
+  "clip": {
+    "bundle": "resources",
+    "id": 995
+  },
+  "duration": 1.1666666666666667,
+  "baseSize": [
+    1280,
+    640
+  ],
+  "nodes": [
+    {
+      "index": 1,
+      "name": "fx_chipenggang",
+      "parent": null,
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "position": [
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "angle": 0,
+      "size": [
+        0,
+        0
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "path": "fx_chipenggang"
+    },
+    {
+      "index": 2,
+      "name": "quan",
+      "parent": 1,
+      "active": true,
+      "opacity": 0,
+      "color": 4294943684,
+      "position": [
+        0,
+        0
+      ],
+      "scale": [
+        0.01,
+        0.01
+      ],
+      "angle": 0,
+      "size": [
+        0,
+        0
+      ],
+      "anchor": [
+        0,
+        0
+      ],
+      "path": "quan"
+    },
+    {
+      "index": 3,
+      "name": "yingzi",
+      "parent": 1,
+      "active": true,
+      "opacity": 0,
+      "color": 4286238975,
+      "position": [
+        0,
+        0
+      ],
+      "scale": [
+        0.9,
+        0.9
+      ],
+      "angle": 0,
+      "size": [
+        0,
+        0
+      ],
+      "anchor": [
+        0,
+        0
+      ],
+      "path": "yingzi"
+    },
+    {
+      "index": 4,
+      "name": "kuai_blue",
+      "parent": 1,
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "position": [
+        1500,
+        -38.0872
+      ],
+      "scale": [
+        1.5,
+        1.3
+      ],
+      "angle": 0,
+      "size": [
+        410,
+        184
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sprite": "opening-study/kaiju/assets/resources-2835-kuai_blue.png",
+      "blend": "source-over",
+      "spriteUUID": "cb71fd65-7467-449f-94ff-bc92a58bb991",
+      "spriteName": "kuai_blue",
+      "path": "kuai_blue"
+    },
+    {
+      "index": 5,
+      "name": "kuai_yellow__12",
+      "parent": 1,
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "position": [
+        -1500,
+        -14.3425
+      ],
+      "scale": [
+        1.5,
+        1.3
+      ],
+      "angle": 0,
+      "size": [
+        403,
+        184
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sprite": "opening-study/kaiju/assets/resources-2763-kuai_yellow_.png",
+      "blend": "source-over",
+      "spriteUUID": "bd89f035-cf4e-45cc-8349-864ce96b5f3f",
+      "spriteName": "kuai_yellow_",
+      "path": "kuai_yellow__12"
+    },
+    {
+      "index": 6,
+      "name": "blend_glow_17",
+      "parent": 1,
+      "active": true,
+      "opacity": 0,
+      "color": 4294923456,
+      "position": [
+        9.7433,
+        -4.8741
+      ],
+      "scale": [
+        6,
+        6
+      ],
+      "angle": 0,
+      "size": [
+        128,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sprite": "opening-study/kaiju/assets/resources-764-blend_glow.png",
+      "blend": "source-over",
+      "spriteUUID": "359b8c20-a747-45e7-8028-62ae1d629ef5",
+      "spriteName": "blend_glow",
+      "path": "blend_glow_17"
+    },
+    {
+      "index": 7,
+      "name": "zi_ju_14",
+      "parent": 1,
+      "active": true,
+      "opacity": 0,
+      "color": 4294967295,
+      "position": [
+        125.3,
+        -31.4843
+      ],
+      "scale": [
+        0.01,
+        0.01
+      ],
+      "angle": 0,
+      "size": [
+        143,
+        148
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sprite": "opening-study/kaiju/assets/resources-2863-zi_ju.png",
+      "blend": "source-over",
+      "spriteUUID": "d3157feb-6d28-4f81-a3b4-de9ee675788a",
+      "spriteName": "zi_ju",
+      "path": "zi_ju_14"
+    },
+    {
+      "index": 8,
+      "name": "zi_kai_13",
+      "parent": 1,
+      "active": true,
+      "opacity": 0,
+      "color": 4294967295,
+      "position": [
+        -151.54,
+        -8.6198
+      ],
+      "scale": [
+        0.01,
+        0.01
+      ],
+      "angle": 0,
+      "size": [
+        140,
+        171
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sprite": "opening-study/kaiju/assets/resources-97-zi_kai.png",
+      "blend": "source-over",
+      "spriteUUID": "08444d92-3e1d-4023-b39f-e262e0f72ad0",
+      "spriteName": "zi_kai",
+      "path": "zi_kai_13"
+    },
+    {
+      "index": 9,
+      "name": "blend_glow_guanshu",
+      "parent": 1,
+      "active": true,
+      "opacity": 0,
+      "color": 4294939988,
+      "position": [
+        9.7433,
+        -4.8741
+      ],
+      "scale": [
+        6,
+        4.8
+      ],
+      "angle": 0,
+      "size": [
+        128,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sprite": "opening-study/kaiju/assets/resources-764-blend_glow.png",
+      "blend": "lighter",
+      "spriteUUID": "359b8c20-a747-45e7-8028-62ae1d629ef5",
+      "spriteName": "blend_glow",
+      "path": "blend_glow_guanshu"
+    },
+    {
+      "index": 10,
+      "name": "ty_shine02_15",
+      "parent": 1,
+      "active": true,
+      "opacity": 255,
+      "color": 4294955818,
+      "position": [
+        1.6301,
+        -16.279
+      ],
+      "scale": [
+        0.01,
+        0.01
+      ],
+      "angle": -45,
+      "size": [
+        128,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sprite": "opening-study/kaiju/assets/resources-2787-ty_shine02.png",
+      "blend": "lighter",
+      "spriteUUID": "c1f4ab1f-ad64-4a0b-983e-e92e3d9c54f6",
+      "spriteName": "ty_shine02",
+      "path": "ty_shine02_15"
+    },
+    {
+      "index": 11,
+      "name": "glow_0118_16",
+      "parent": 1,
+      "active": true,
+      "opacity": 0,
+      "color": 4294954291,
+      "position": [
+        6.5957,
+        -6.3864
+      ],
+      "scale": [
+        0.01,
+        0.01
+      ],
+      "angle": 61.7159,
+      "size": [
+        256,
+        104
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sprite": "opening-study/kaiju/assets/resources-2815-glow_0118.png",
+      "blend": "lighter",
+      "spriteUUID": "c73019b9-2627-44b3-bdd0-eef54e0ad1ac",
+      "spriteName": "glow_0118",
+      "path": "glow_0118_16"
+    },
+    {
+      "index": 12,
+      "name": "shandian__01_18",
+      "parent": 1,
+      "active": false,
+      "opacity": 255,
+      "color": 4294967295,
+      "position": [
+        -28.8342,
+        11.4115
+      ],
+      "scale": [
+        2,
+        2
+      ],
+      "angle": 0,
+      "size": [
+        256,
+        51
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sprite": "opening-study/kaiju/assets/resources-1412-shandian__01.png",
+      "blend": "lighter",
+      "spriteUUID": "57f0c549-a9cc-4856-93b6-08d4ee8a4eb3",
+      "spriteName": "shandian__01",
+      "path": "shandian__01_18"
+    },
+    {
+      "index": 13,
+      "name": "M_shandian6_000_20",
+      "parent": 1,
+      "active": false,
+      "opacity": 255,
+      "color": 4294967295,
+      "position": [
+        278.2173,
+        -76.7212
+      ],
+      "scale": [
+        4,
+        4
+      ],
+      "angle": 0,
+      "size": [
+        64,
+        42
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sprite": "opening-study/kaiju/assets/resources-1536-M_shandian6_000.png",
+      "blend": "lighter",
+      "spriteUUID": "7bf96b2d-58d1-416b-bb03-2829b1e51578",
+      "spriteName": "M_shandian6_000",
+      "path": "M_shandian6_000_20"
+    },
+    {
+      "index": 14,
+      "name": "M_shandian6_000_20_0",
+      "parent": 1,
+      "active": false,
+      "opacity": 255,
+      "color": 4294967295,
+      "position": [
+        -204.5688,
+        -73.4158
+      ],
+      "scale": [
+        -4,
+        4
+      ],
+      "angle": 0,
+      "size": [
+        64,
+        42
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sprite": "opening-study/kaiju/assets/resources-1536-M_shandian6_000.png",
+      "blend": "lighter",
+      "spriteUUID": "7bf96b2d-58d1-416b-bb03-2829b1e51578",
+      "spriteName": "M_shandian6_000",
+      "path": "M_shandian6_000_20_0"
+    },
+    {
+      "index": 15,
+      "name": "fx_GuanQuan_1_0",
+      "parent": 2,
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "position": [
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        -1
+      ],
+      "angle": 0,
+      "size": [
+        256,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0
+      ],
+      "sprite": "opening-study/kaiju/assets/resources-2739-saoguangtiao01.png",
+      "blend": "lighter",
+      "spriteUUID": "b6a4c0e6-3d27-447d-aae2-38248a5919be",
+      "spriteName": "saoguangtiao01",
+      "path": "quan/fx_GuanQuan_1_0"
+    },
+    {
+      "index": 16,
+      "name": "fx_GuanQuan_1",
+      "parent": 2,
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "position": [
+        0,
+        -1
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "angle": 0,
+      "size": [
+        256,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0
+      ],
+      "sprite": "opening-study/kaiju/assets/resources-2739-saoguangtiao01.png",
+      "blend": "lighter",
+      "spriteUUID": "b6a4c0e6-3d27-447d-aae2-38248a5919be",
+      "spriteName": "saoguangtiao01",
+      "path": "quan/fx_GuanQuan_1"
+    },
+    {
+      "index": 17,
+      "name": "zi_ju_bai_3",
+      "parent": 3,
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "position": [
+        120.831,
+        -19.61
+      ],
+      "scale": [
+        2,
+        2
+      ],
+      "angle": 0,
+      "size": [
+        90,
+        93
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sprite": "opening-study/kaiju/assets/resources-714-zi_ju_bai.png",
+      "blend": "lighter",
+      "spriteUUID": "2392ad7d-a47c-4529-9475-796ea7bff344",
+      "spriteName": "zi_ju_bai",
+      "path": "yingzi/zi_ju_bai_3"
+    },
+    {
+      "index": 18,
+      "name": "zi_kai_bai_2",
+      "parent": 3,
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "position": [
+        -156.407,
+        -4.4337
+      ],
+      "scale": [
+        2.4,
+        2.4
+      ],
+      "angle": 0,
+      "size": [
+        90,
+        93
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "sprite": "opening-study/kaiju/assets/resources-2943-zi_kai_bai.png",
+      "blend": "lighter",
+      "spriteUUID": "e61013f8-563b-4453-a0b1-7975708ee96e",
+      "spriteName": "zi_kai_bai",
+      "path": "yingzi/zi_kai_bai_2"
+    },
+    {
+      "index": 19,
+      "name": "Particle_1",
+      "parent": 1,
+      "active": false,
+      "opacity": 255,
+      "color": 4294967295,
+      "position": [
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "angle": 0,
+      "size": [
+        0,
+        0
+      ],
+      "anchor": [
+        0,
+        0
+      ],
+      "particle": {
+        "type": "cc.ParticleSystem",
+        "_dstBlendFactor": 1,
+        "playOnLoad": false,
+        "totalParticles": 80,
+        "duration": 0.01,
+        "emissionRate": null,
+        "life": 0,
+        "lifeVar": 1.2,
+        "angle": 360,
+        "angleVar": 360,
+        "startSize": 34.110001,
+        "startSizeVar": 45,
+        "endSize": 13.59,
+        "endSizeVar": 6,
+        "_positionType": 1,
+        "speed": 600,
+        "speedVar": 300,
+        "tangentialAccel": 0,
+        "node": -36,
+        "_startColor": [
+          4,
+          4294920667
+        ],
+        "_startColorVar": [
+          4,
+          8851312
+        ],
+        "_endColor": [
+          4,
+          4278190080
+        ],
+        "_endColorVar": [
+          4,
+          0
+        ],
+        "gravity": [
+          0,
+          1.15,
+          1.58
+        ],
+        "_file": 15
+      },
+      "particleSprite": "opening-study/kaiju/assets/resources-24-kaiju_lizi.png",
+      "path": "Particle_1"
+    }
+  ],
+  "tracks": {
+    "paths": {
+      "kuai_blue": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                1500,
+                -38.0872
+              ]
+            },
+            {
+              "frame": 0.16666666666666666,
+              "value": [
+                208,
+                -38.0872
+              ]
+            },
+            {
+              "frame": 0.21666666666666667,
+              "value": [
+                212,
+                -38.0872
+              ]
+            },
+            {
+              "frame": 0.3,
+              "value": [
+                210.89,
+                -38.0872
+              ]
+            },
+            {
+              "frame": 1,
+              "value": [
+                210.89,
+                -38.0872
+              ]
+            },
+            {
+              "frame": 1.1666666666666667,
+              "value": [
+                1000,
+                -38.0872
+              ]
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 1.5
+            },
+            {
+              "frame": 0.16666666666666666,
+              "value": 1.42
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1.3
+            },
+            {
+              "frame": 0.16666666666666666,
+              "value": 1.42
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 1,
+              "value": 255
+            },
+            {
+              "frame": 1.1666666666666667,
+              "value": 0
+            }
+          ],
+          "angle": [
+            {
+              "frame": 0.16666666666666666,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "kuai_yellow__12": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -1500,
+                -14.3425
+              ]
+            },
+            {
+              "frame": 0.16666666666666666,
+              "value": [
+                -208,
+                -14.3425
+              ]
+            },
+            {
+              "frame": 0.21666666666666667,
+              "value": [
+                -216,
+                -14.3425
+              ]
+            },
+            {
+              "frame": 0.3,
+              "value": [
+                -214.4569,
+                -14.3425
+              ]
+            },
+            {
+              "frame": 1,
+              "value": [
+                -214.4569,
+                -14.3425
+              ]
+            },
+            {
+              "frame": 1.1666666666666667,
+              "value": [
+                -1000,
+                -14.3425
+              ]
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 1.5
+            },
+            {
+              "frame": 0.16666666666666666,
+              "value": 1.43
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1.3
+            },
+            {
+              "frame": 0.16666666666666666,
+              "value": 1.43
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 1,
+              "value": 255
+            },
+            {
+              "frame": 1.1666666666666667,
+              "value": 0
+            }
+          ],
+          "angle": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "zi_ju_14": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0.1,
+              "value": 0.01
+            },
+            {
+              "frame": 0.21666666666666667,
+              "value": 1.5
+            },
+            {
+              "frame": 0.2833333333333333,
+              "value": 1.25
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.1,
+              "value": 0.01
+            },
+            {
+              "frame": 0.21666666666666667,
+              "value": 1.5
+            },
+            {
+              "frame": 0.2833333333333333,
+              "value": 1.25
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0.1,
+              "value": 0
+            },
+            {
+              "frame": 0.21666666666666667,
+              "value": 255
+            },
+            {
+              "frame": 1,
+              "value": 255
+            },
+            {
+              "frame": 1.1666666666666667,
+              "value": 0
+            }
+          ],
+          "position": [
+            {
+              "frame": 1,
+              "value": [
+                125.3,
+                -31.4843
+              ]
+            },
+            {
+              "frame": 1.1666666666666667,
+              "value": [
+                1000,
+                -31.4843
+              ]
+            }
+          ]
+        }
+      },
+      "zi_kai_13": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0.1,
+              "value": 0.01
+            },
+            {
+              "frame": 0.21666666666666667,
+              "value": 1.5
+            },
+            {
+              "frame": 0.2833333333333333,
+              "value": 1.25
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.1,
+              "value": 0.01
+            },
+            {
+              "frame": 0.21666666666666667,
+              "value": 1.5
+            },
+            {
+              "frame": 0.2833333333333333,
+              "value": 1.25
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0.1,
+              "value": 0
+            },
+            {
+              "frame": 0.21666666666666667,
+              "value": 255
+            },
+            {
+              "frame": 1,
+              "value": 255
+            },
+            {
+              "frame": 1.1666666666666667,
+              "value": 0
+            }
+          ],
+          "position": [
+            {
+              "frame": 1,
+              "value": [
+                -151.54,
+                -8.6198
+              ]
+            },
+            {
+              "frame": 1.1666666666666667,
+              "value": [
+                -1000,
+                -8.6198
+              ]
+            }
+          ]
+        }
+      },
+      "yingzi/zi_ju_bai_3": {
+        "props": {
+          "position": [
+            {
+              "frame": 0.8333333333333334,
+              "value": [
+                120.831,
+                -19.61
+              ]
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0.8333333333333334,
+              "value": 2
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.8333333333333334,
+              "value": 2
+            }
+          ]
+        }
+      },
+      "yingzi/zi_kai_bai_2": {
+        "props": {
+          "position": [
+            {
+              "frame": 0.8333333333333334,
+              "value": [
+                -156.407,
+                -4.4337
+              ]
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0.8333333333333334,
+              "value": 2.4
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.8333333333333334,
+              "value": 2.4
+            }
+          ]
+        }
+      },
+      "Particle_1": {
+        "props": {
+          "active": [
+            {
+              "frame": 0.18333333333333332,
+              "value": false
+            },
+            {
+              "frame": 0.2,
+              "value": true
+            }
+          ]
+        }
+      },
+      "blend_glow_17": {
+        "props": {
+          "position": [
+            {
+              "frame": 0.3333333333333333,
+              "value": [
+                9.7433,
+                -4.8741
+              ]
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0.3333333333333333,
+              "value": 6
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.3333333333333333,
+              "value": 6
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0.16666666666666666,
+              "value": 0
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": 217
+            },
+            {
+              "frame": 0.4166666666666667,
+              "value": 121
+            },
+            {
+              "frame": 0.9166666666666666,
+              "value": 113
+            },
+            {
+              "frame": 1.0333333333333334,
+              "value": 0
+            }
+          ],
+          "color": [
+            {
+              "frame": 0.3333333333333333,
+              "value": 4294923456
+            }
+          ]
+        }
+      },
+      "blend_glow_guanshu": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0.5333333333333333,
+              "value": 6
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.5333333333333333,
+              "value": 4.8
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0.16666666666666666,
+              "value": 0
+            },
+            {
+              "frame": 0.23333333333333334,
+              "value": 255
+            },
+            {
+              "frame": 0.5,
+              "value": 197
+            },
+            {
+              "frame": 0.7166666666666667,
+              "value": 160
+            },
+            {
+              "frame": 0.9166666666666666,
+              "value": 155
+            },
+            {
+              "frame": 1,
+              "value": 0
+            }
+          ],
+          "angle": [
+            {
+              "frame": 0.5333333333333333,
+              "value": 0
+            }
+          ],
+          "color": [
+            {
+              "frame": 0.5333333333333333,
+              "value": 4294939988
+            }
+          ]
+        }
+      },
+      "ty_shine02_15": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0.11666666666666667,
+              "value": 0.01,
+              "curve": "sineOut"
+            },
+            {
+              "frame": 0.4166666666666667,
+              "value": 8,
+              "curve": "sineOut"
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.11666666666666667,
+              "value": 0.01,
+              "curve": "sineOut"
+            },
+            {
+              "frame": 0.4166666666666667,
+              "value": 8,
+              "curve": "sineOut"
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0.2833333333333333,
+              "value": 255
+            },
+            {
+              "frame": 0.4166666666666667,
+              "value": 0
+            }
+          ],
+          "color": [
+            {
+              "frame": 0.2833333333333333,
+              "value": 4294955818
+            }
+          ]
+        }
+      },
+      "glow_0118_16": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0.13333333333333333,
+              "value": 0.01
+            },
+            {
+              "frame": 0.4166666666666667,
+              "value": 5
+            },
+            {
+              "frame": 0.5833333333333334,
+              "value": 7
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.13333333333333333,
+              "value": 0.01
+            },
+            {
+              "frame": 0.4166666666666667,
+              "value": 1.8
+            },
+            {
+              "frame": 0.5833333333333334,
+              "value": 0.01
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0.13333333333333333,
+              "value": 0
+            },
+            {
+              "frame": 0.16666666666666666,
+              "value": 255
+            },
+            {
+              "frame": 0.55,
+              "value": 255
+            },
+            {
+              "frame": 0.5833333333333334,
+              "value": 0
+            }
+          ],
+          "angle": [
+            {
+              "frame": 0.4166666666666667,
+              "value": 61.7159
+            }
+          ],
+          "color": [
+            {
+              "frame": 0.13333333333333333,
+              "value": 4294954291
+            }
+          ]
+        }
+      },
+      "shandian__01_18": {
+        "props": {
+          "position": [
+            {
+              "frame": 0.4,
+              "value": [
+                -28.8342,
+                11.4115
+              ]
+            },
+            {
+              "frame": 0.45,
+              "value": [
+                54.4894,
+                8.2065
+              ]
+            },
+            {
+              "frame": 0.5,
+              "value": [
+                0.0005,
+                4.9999
+              ]
+            },
+            {
+              "frame": 0.6,
+              "value": [
+                0,
+                10
+              ]
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0.35,
+              "value": 2
+            },
+            {
+              "frame": 0.4,
+              "value": 3
+            },
+            {
+              "frame": 0.45,
+              "value": 2.2239
+            },
+            {
+              "frame": 0.5,
+              "value": 2.5
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.35,
+              "value": 2
+            },
+            {
+              "frame": 0.4,
+              "value": 3
+            },
+            {
+              "frame": 0.45,
+              "value": 4.131
+            },
+            {
+              "frame": 0.5,
+              "value": 3.8824
+            }
+          ],
+          "active": [
+            {
+              "frame": 0.3333333333333333,
+              "value": false
+            },
+            {
+              "frame": 0.35,
+              "value": true
+            },
+            {
+              "frame": 0.5,
+              "value": true
+            },
+            {
+              "frame": 0.6333333333333333,
+              "value": false
+            }
+          ],
+          "angle": [
+            {
+              "frame": 0.5,
+              "value": 0
+            }
+          ]
+        },
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0.35,
+                "value": {
+                  "image": "opening-study/kaiju/assets/resources-1412-shandian__01.png",
+                  "uuid": "57f0c549-a9cc-4856-93b6-08d4ee8a4eb3"
+                }
+              },
+              {
+                "frame": 0.4,
+                "value": {
+                  "image": "opening-study/kaiju/assets/resources-2920-shandian__02.png",
+                  "uuid": "df7b6df5-fc86-4862-abe7-79cb7a5f2ede"
+                }
+              },
+              {
+                "frame": 0.45,
+                "value": {
+                  "image": "opening-study/kaiju/assets/resources-1534-shandian__03.png",
+                  "uuid": "7baa18dd-02f3-45b0-be06-e30d1cb54bb8"
+                }
+              },
+              {
+                "frame": 0.5,
+                "value": {
+                  "image": "opening-study/kaiju/assets/resources-2850-shandian__04.png",
+                  "uuid": "ceee5be4-6631-45bd-b022-c5c01f3bb884"
+                }
+              },
+              {
+                "frame": 0.55,
+                "value": {
+                  "image": "opening-study/kaiju/assets/resources-1411-shandian__05.png",
+                  "uuid": "578783b4-d90a-481f-818d-e0ab3b3a8ebd"
+                }
+              },
+              {
+                "frame": 0.6,
+                "value": {
+                  "image": "opening-study/kaiju/assets/resources-1412-shandian__01.png",
+                  "uuid": "57f0c549-a9cc-4856-93b6-08d4ee8a4eb3"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "M_shandian6_000_20": {
+        "props": {
+          "position": [
+            {
+              "frame": 0.5,
+              "value": [
+                278.2173,
+                -76.7212
+              ]
+            },
+            {
+              "frame": 0.55,
+              "value": [
+                24.4648,
+                -43.7639
+              ]
+            },
+            {
+              "frame": 0.6,
+              "value": [
+                124.9729,
+                -103.0694
+              ]
+            },
+            {
+              "frame": 0.65,
+              "value": [
+                128.2665,
+                43.5812
+              ]
+            },
+            {
+              "frame": 0.7,
+              "value": [
+                92.0286,
+                -101.3822
+              ]
+            },
+            {
+              "frame": 0.75,
+              "value": [
+                55.7799,
+                -66.7768
+              ]
+            },
+            {
+              "frame": 0.8,
+              "value": [
+                -277.4651,
+                18.4658
+              ]
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0.55,
+              "value": 4
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.55,
+              "value": 4
+            }
+          ],
+          "active": [
+            {
+              "frame": 0.48333333333333334,
+              "value": false
+            },
+            {
+              "frame": 0.5,
+              "value": true
+            },
+            {
+              "frame": 0.75,
+              "value": true
+            },
+            {
+              "frame": 0.8166666666666667,
+              "value": false
+            }
+          ],
+          "angle": [
+            {
+              "frame": 0.55,
+              "value": 0
+            },
+            {
+              "frame": 0.6,
+              "value": -30
+            },
+            {
+              "frame": 0.65,
+              "value": 4.4963
+            },
+            {
+              "frame": 0.7,
+              "value": 26.8147
+            },
+            {
+              "frame": 0.75,
+              "value": 0
+            },
+            {
+              "frame": 0.8,
+              "value": 4.4961
+            }
+          ]
+        },
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0.5,
+                "value": {
+                  "image": "opening-study/kaiju/assets/resources-1536-M_shandian6_000.png",
+                  "uuid": "7bf96b2d-58d1-416b-bb03-2829b1e51578"
+                }
+              },
+              {
+                "frame": 0.55,
+                "value": {
+                  "image": "opening-study/kaiju/assets/resources-664-M_shandian6_001.png",
+                  "uuid": "1ce9cd87-c0f0-466c-98f2-522ca5cb48f6"
+                }
+              },
+              {
+                "frame": 0.6,
+                "value": {
+                  "image": "opening-study/kaiju/assets/resources-691-M_shandian6_002.png",
+                  "uuid": "1f25b69f-9441-41a9-b4df-75907a2c1763"
+                }
+              },
+              {
+                "frame": 0.65,
+                "value": {
+                  "image": "opening-study/kaiju/assets/resources-2829-M_shandian6_003.png",
+                  "uuid": "c9802b21-1028-4969-be73-4a3661f42c54"
+                }
+              },
+              {
+                "frame": 0.7,
+                "value": {
+                  "image": "opening-study/kaiju/assets/resources-1860-M_shandian6_004.png",
+                  "uuid": "8e894222-6b7a-461b-88d0-89afc2a7bbfb"
+                }
+              },
+              {
+                "frame": 0.75,
+                "value": {
+                  "image": "opening-study/kaiju/assets/resources-1392-M_shandian6_005.png",
+                  "uuid": "49458cb5-3977-49a9-a9c4-64e6d6c8b423"
+                }
+              },
+              {
+                "frame": 0.8,
+                "value": {
+                  "image": "opening-study/kaiju/assets/resources-2829-M_shandian6_003.png",
+                  "uuid": "c9802b21-1028-4969-be73-4a3661f42c54"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "M_shandian6_000_20_0": {
+        "props": {
+          "position": [
+            {
+              "frame": 0.5,
+              "value": [
+                -204.5688,
+                -73.4158
+              ]
+            },
+            {
+              "frame": 0.55,
+              "value": [
+                -158.4307,
+                -37.169
+              ]
+            },
+            {
+              "frame": 0.6,
+              "value": [
+                -1.8985,
+                78.1881
+              ]
+            },
+            {
+              "frame": 0.65,
+              "value": [
+                -85.9353,
+                -23.969
+              ]
+            },
+            {
+              "frame": 0.7,
+              "value": [
+                -199.609,
+                -53.588
+              ]
+            },
+            {
+              "frame": 0.75,
+              "value": [
+                -76.0347,
+                10.6701
+              ]
+            },
+            {
+              "frame": 0.7833333333333333,
+              "value": [
+                -156.4899,
+                -12.6349
+              ]
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0.5,
+              "value": -4
+            },
+            {
+              "frame": 0.55,
+              "value": 4
+            },
+            {
+              "frame": 0.7,
+              "value": -4
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.5,
+              "value": 4
+            },
+            {
+              "frame": 0.55,
+              "value": 4
+            },
+            {
+              "frame": 0.7,
+              "value": 4
+            }
+          ],
+          "active": [
+            {
+              "frame": 0.48333333333333334,
+              "value": false
+            },
+            {
+              "frame": 0.5,
+              "value": true
+            },
+            {
+              "frame": 0.75,
+              "value": true
+            },
+            {
+              "frame": 0.8166666666666667,
+              "value": false
+            }
+          ],
+          "angle": [
+            {
+              "frame": 0.55,
+              "value": 0
+            },
+            {
+              "frame": 0.6,
+              "value": 0
+            },
+            {
+              "frame": 0.65,
+              "value": -7.2187
+            },
+            {
+              "frame": 0.7,
+              "value": -341.9255
+            },
+            {
+              "frame": 0.75,
+              "value": 0
+            },
+            {
+              "frame": 0.7833333333333333,
+              "value": 48.8799
+            }
+          ]
+        },
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0.5,
+                "value": {
+                  "image": "opening-study/kaiju/assets/resources-1536-M_shandian6_000.png",
+                  "uuid": "7bf96b2d-58d1-416b-bb03-2829b1e51578"
+                }
+              },
+              {
+                "frame": 0.55,
+                "value": {
+                  "image": "opening-study/kaiju/assets/resources-664-M_shandian6_001.png",
+                  "uuid": "1ce9cd87-c0f0-466c-98f2-522ca5cb48f6"
+                }
+              },
+              {
+                "frame": 0.6,
+                "value": {
+                  "image": "opening-study/kaiju/assets/resources-691-M_shandian6_002.png",
+                  "uuid": "1f25b69f-9441-41a9-b4df-75907a2c1763"
+                }
+              },
+              {
+                "frame": 0.65,
+                "value": {
+                  "image": "opening-study/kaiju/assets/resources-691-M_shandian6_002.png",
+                  "uuid": "1f25b69f-9441-41a9-b4df-75907a2c1763"
+                }
+              },
+              {
+                "frame": 0.7,
+                "value": {
+                  "image": "opening-study/kaiju/assets/resources-1536-M_shandian6_000.png",
+                  "uuid": "7bf96b2d-58d1-416b-bb03-2829b1e51578"
+                }
+              },
+              {
+                "frame": 0.75,
+                "value": {
+                  "image": "opening-study/kaiju/assets/resources-1860-M_shandian6_004.png",
+                  "uuid": "8e894222-6b7a-461b-88d0-89afc2a7bbfb"
+                }
+              },
+              {
+                "frame": 0.7833333333333333,
+                "value": {
+                  "image": "opening-study/kaiju/assets/resources-691-M_shandian6_002.png",
+                  "uuid": "1f25b69f-9441-41a9-b4df-75907a2c1763"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "quan": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0.21666666666666667,
+              "value": 0.01
+            },
+            {
+              "frame": 0.43333333333333335,
+              "value": 2
+            },
+            {
+              "frame": 1,
+              "value": 5
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.21666666666666667,
+              "value": 0.01
+            },
+            {
+              "frame": 0.43333333333333335,
+              "value": 2
+            },
+            {
+              "frame": 1,
+              "value": 5
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0.21666666666666667,
+              "value": 0
+            },
+            {
+              "frame": 0.43333333333333335,
+              "value": 155
+            },
+            {
+              "frame": 1,
+              "value": 0
+            }
+          ],
+          "color": [
+            {
+              "frame": 0.43333333333333335,
+              "value": 4294943684
+            }
+          ]
+        }
+      },
+      "yingzi": {
+        "props": {
+          "position": [
+            {
+              "frame": 0.8333333333333334,
+              "value": [
+                0,
+                0
+              ]
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0.21666666666666667,
+              "value": 0.9,
+              "curve": "sineOut"
+            },
+            {
+              "frame": 0.4166666666666667,
+              "value": 1.6,
+              "curve": "sineOut"
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.21666666666666667,
+              "value": 0.9,
+              "curve": "sineOut"
+            },
+            {
+              "frame": 0.4166666666666667,
+              "value": 1.6,
+              "curve": "sineOut"
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0.2,
+              "value": 0
+            },
+            {
+              "frame": 0.25,
+              "value": 182
+            },
+            {
+              "frame": 0.4166666666666667,
+              "value": 0
+            }
+          ],
+          "color": [
+            {
+              "frame": 0.4166666666666667,
+              "value": 4286238975
+            }
+          ]
+        }
+      }
+    }
+  },
+  "notes": [
+    "图像与动画关键帧来自原公开资源包，未更换文字字形。",
+    "粒子使用原贴图及 prefab 粒子参数重放；原 Cocos 随机数、发射器初始化与 WebGL 混合细节可能影响逐帧形态。"
+  ]
+}

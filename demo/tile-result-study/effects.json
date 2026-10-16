@@ -1,0 +1,2352 @@
+[
+  {
+    "name": "hu",
+    "prefab": {
+      "bundle": "resources",
+      "id": 2752
+    },
+    "clip": {
+      "bundle": "resources",
+      "id": 1463
+    },
+    "duration": 1.1666666666666667,
+    "nodes": [
+      {
+        "index": 1,
+        "name": "fx_chipenggang",
+        "parent": null,
+        "active": true,
+        "opacity": 255,
+        "color": 4294967295,
+        "position": [
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1
+        ],
+        "angle": 0,
+        "size": [
+          0,
+          0
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "path": ""
+      },
+      {
+        "index": 2,
+        "name": "dilie03_2",
+        "parent": 1,
+        "active": true,
+        "opacity": 0,
+        "color": 4294967295,
+        "position": [
+          2.52,
+          38.9258
+        ],
+        "scale": [
+          0.01,
+          0.0082
+        ],
+        "angle": 0,
+        "size": [
+          256,
+          256
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "sprite": "tile-result-study/assets/resources-543-dilie03.png",
+        "spriteSizeMode": 2,
+        "trim": true,
+        "blend": "source-over",
+        "path": "dilie03_2"
+      },
+      {
+        "index": 3,
+        "name": "zhushandian",
+        "parent": 1,
+        "active": true,
+        "opacity": 255,
+        "color": 4294967295,
+        "position": [
+          -0.0015,
+          0
+        ],
+        "scale": [
+          1.8,
+          1
+        ],
+        "angle": -90,
+        "size": [
+          256,
+          102
+        ],
+        "anchor": [
+          1,
+          0.5
+        ],
+        "sprite": "tile-result-study/assets/resources-1058-bl-dian03_000.png",
+        "spriteSizeMode": 2,
+        "trim": true,
+        "blend": "source-over",
+        "path": "zhushandian"
+      },
+      {
+        "index": 4,
+        "name": "a_point211a_3",
+        "parent": 1,
+        "active": true,
+        "opacity": 255,
+        "color": 4294967295,
+        "position": [
+          0.8307,
+          38.3424
+        ],
+        "scale": [
+          0.01,
+          0.01
+        ],
+        "angle": 0,
+        "size": [
+          128,
+          128
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "sprite": "tile-result-study/assets/resources-722-a_point211a.png",
+        "spriteSizeMode": 2,
+        "trim": true,
+        "blend": "lighter",
+        "path": "a_point211a_3"
+      },
+      {
+        "index": 5,
+        "name": "ty_glow_4",
+        "parent": 1,
+        "active": true,
+        "opacity": 0,
+        "color": 4294967295,
+        "position": [
+          -2.9518,
+          38.0697
+        ],
+        "scale": [
+          2,
+          1.7136
+        ],
+        "angle": 0,
+        "size": [
+          128,
+          128
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "sprite": "tile-result-study/assets/resources-748-ty_glow.png",
+        "spriteSizeMode": 2,
+        "trim": true,
+        "blend": "lighter",
+        "path": "ty_glow_4"
+      },
+      {
+        "index": 6,
+        "name": "tykuosan_5",
+        "parent": 1,
+        "active": true,
+        "opacity": 0,
+        "color": 4294965719,
+        "position": [
+          6.2141,
+          41.7358
+        ],
+        "scale": [
+          0.01,
+          0.0076
+        ],
+        "angle": 0,
+        "size": [
+          256,
+          256
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "sprite": "tile-result-study/assets/resources-1413-tykuosan.png",
+        "spriteSizeMode": 2,
+        "trim": true,
+        "blend": "lighter",
+        "path": "tykuosan_5"
+      },
+      {
+        "index": 7,
+        "name": "M_shandian6",
+        "parent": 1,
+        "active": false,
+        "opacity": 255,
+        "color": 4294967295,
+        "position": [
+          -46.2681,
+          79.5543
+        ],
+        "scale": [
+          1,
+          1
+        ],
+        "angle": 0,
+        "size": [
+          64,
+          42
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "sprite": "tile-result-study/assets/resources-821-M_shandian6_004.png",
+        "spriteSizeMode": 2,
+        "trim": true,
+        "blend": "lighter",
+        "path": "M_shandian6"
+      },
+      {
+        "index": 8,
+        "name": "M_shandian6_0",
+        "parent": 1,
+        "active": false,
+        "opacity": 255,
+        "color": 4294967295,
+        "position": [
+          -2.3993,
+          19.0449
+        ],
+        "scale": [
+          3,
+          3
+        ],
+        "angle": -70,
+        "size": [
+          64,
+          42
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "sprite": "tile-result-study/assets/resources-71-M_shandian6_003.png",
+        "spriteSizeMode": 2,
+        "trim": true,
+        "blend": "lighter",
+        "path": "M_shandian6_0"
+      },
+      {
+        "index": 9,
+        "name": "guanzhu_8",
+        "parent": 1,
+        "active": true,
+        "opacity": 255,
+        "color": 4294660608,
+        "position": [
+          1.7938,
+          38.4518
+        ],
+        "scale": [
+          0.01,
+          0.2
+        ],
+        "angle": 0,
+        "size": [
+          64,
+          64
+        ],
+        "anchor": [
+          0.5,
+          0.1
+        ],
+        "sprite": "tile-result-study/assets/resources-759-guanzhu.png",
+        "spriteSizeMode": 2,
+        "trim": true,
+        "blend": "lighter",
+        "path": "guanzhu_8"
+      },
+      {
+        "index": 10,
+        "name": "cj_quan_1",
+        "parent": 1,
+        "active": true,
+        "opacity": 0,
+        "color": 4294940205,
+        "position": [
+          2.3606,
+          32.5294
+        ],
+        "scale": [
+          0.01,
+          0.0075
+        ],
+        "angle": 0,
+        "size": [
+          128,
+          128
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "sprite": "tile-result-study/assets/resources-1879-cj_quan.png",
+        "spriteSizeMode": 2,
+        "trim": true,
+        "blend": "lighter",
+        "path": "cj_quan_1"
+      },
+      {
+        "index": 11,
+        "name": "fx_GuanQuan_1",
+        "parent": 1,
+        "active": true,
+        "opacity": 255,
+        "color": 4294967295,
+        "position": [
+          2.3635,
+          33.4228
+        ],
+        "scale": [
+          0.01,
+          0.0075
+        ],
+        "angle": 0,
+        "size": [
+          128,
+          128
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "sprite": "tile-result-study/assets/resources-2112-fx_GuanQuan.png",
+        "spriteSizeMode": 2,
+        "trim": true,
+        "blend": "source-over",
+        "path": "fx_GuanQuan_1"
+      },
+      {
+        "index": 12,
+        "name": "fx_GuanQuan_1_0",
+        "parent": 1,
+        "active": true,
+        "opacity": 255,
+        "color": 4294967295,
+        "position": [
+          2.36,
+          33.42
+        ],
+        "scale": [
+          0.01,
+          0.0075
+        ],
+        "angle": 0,
+        "size": [
+          128,
+          128
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "sprite": "tile-result-study/assets/resources-2112-fx_GuanQuan.png",
+        "spriteSizeMode": 2,
+        "trim": true,
+        "blend": "source-over",
+        "path": "fx_GuanQuan_1_0"
+      },
+      {
+        "index": 13,
+        "name": "dilie03_2_0",
+        "parent": 1,
+        "active": true,
+        "opacity": 0,
+        "color": 4294967295,
+        "position": [
+          2.52,
+          38.93
+        ],
+        "scale": [
+          0.01,
+          0.0082
+        ],
+        "angle": 0,
+        "size": [
+          256,
+          256
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "sprite": "tile-result-study/assets/resources-543-dilie03.png",
+        "spriteSizeMode": 2,
+        "trim": true,
+        "blend": "lighter",
+        "path": "dilie03_2_0"
+      }
+    ],
+    "tracks": {
+      "paths": {
+        "dilie03_2": {
+          "props": {
+            "scaleX": [
+              {
+                "frame": 0.08333333333333333,
+                "value": 0.01
+              },
+              {
+                "frame": 0.15,
+                "value": 0.9
+              },
+              {
+                "frame": 0.25,
+                "value": 1.2
+              }
+            ],
+            "scaleY": [
+              {
+                "frame": 0.08333333333333333,
+                "value": 0.0082
+              },
+              {
+                "frame": 0.15,
+                "value": 0.7395
+              },
+              {
+                "frame": 0.25,
+                "value": 0.986
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0.08333333333333333,
+                "value": 0
+              },
+              {
+                "frame": 0.15,
+                "value": 255
+              },
+              {
+                "frame": 0.7666666666666667,
+                "value": 255
+              },
+              {
+                "frame": 1.1666666666666667,
+                "value": 0
+              }
+            ]
+          }
+        },
+        "a_point211a_3": {
+          "props": {
+            "scaleX": [
+              {
+                "frame": 0.11666666666666667,
+                "value": 0.01,
+                "curve": "cubicOut"
+              },
+              {
+                "frame": 0.21666666666666667,
+                "value": 1.8
+              },
+              {
+                "frame": 0.36666666666666664,
+                "value": 2.2
+              },
+              {
+                "frame": 0.4,
+                "value": 0.6
+              },
+              {
+                "frame": 0.43333333333333335,
+                "value": 2
+              },
+              {
+                "frame": 0.5,
+                "value": 0.01
+              },
+              {
+                "frame": 0.5666666666666667,
+                "value": 1
+              },
+              {
+                "frame": 0.6,
+                "value": 1.5
+              },
+              {
+                "frame": 0.65,
+                "value": 0.01
+              }
+            ],
+            "scaleY": [
+              {
+                "frame": 0.11666666666666667,
+                "value": 0.01,
+                "curve": "cubicOut"
+              },
+              {
+                "frame": 0.21666666666666667,
+                "value": 1.8
+              },
+              {
+                "frame": 0.36666666666666664,
+                "value": 2.2
+              },
+              {
+                "frame": 0.4,
+                "value": 0.6
+              },
+              {
+                "frame": 0.43333333333333335,
+                "value": 2
+              },
+              {
+                "frame": 0.5,
+                "value": 0.01
+              },
+              {
+                "frame": 0.5666666666666667,
+                "value": 1
+              },
+              {
+                "frame": 0.6,
+                "value": 1.5
+              },
+              {
+                "frame": 0.65,
+                "value": 0.01
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0.11666666666666667,
+                "value": 255
+              },
+              {
+                "frame": 0.21666666666666667,
+                "value": 255
+              },
+              {
+                "frame": 0.36666666666666664,
+                "value": 0
+              },
+              {
+                "frame": 0.4,
+                "value": 255
+              },
+              {
+                "frame": 0.43333333333333335,
+                "value": 255
+              },
+              {
+                "frame": 0.5,
+                "value": 255
+              },
+              {
+                "frame": 0.55,
+                "value": 0
+              },
+              {
+                "frame": 0.5666666666666667,
+                "value": 255
+              },
+              {
+                "frame": 0.6,
+                "value": 255
+              },
+              {
+                "frame": 0.65,
+                "value": 255
+              },
+              {
+                "frame": 0.6666666666666666,
+                "value": 0
+              }
+            ]
+          }
+        },
+        "ty_glow_4": {
+          "props": {
+            "position": [
+              {
+                "frame": 0.16666666666666666,
+                "value": [
+                  -2.9518,
+                  38.0697
+                ]
+              }
+            ],
+            "scaleX": [
+              {
+                "frame": 0.16666666666666666,
+                "value": 2
+              }
+            ],
+            "scaleY": [
+              {
+                "frame": 0.16666666666666666,
+                "value": 1.7136
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0.11666666666666667,
+                "value": 0
+              },
+              {
+                "frame": 0.16666666666666666,
+                "value": 164
+              },
+              {
+                "frame": 0.5833333333333334,
+                "value": 159
+              },
+              {
+                "frame": 1,
+                "value": 0
+              }
+            ]
+          }
+        },
+        "fx_GuanQuan_1": {
+          "props": {
+            "scaleX": [
+              {
+                "frame": 0.4166666666666667,
+                "value": 0.01
+              },
+              {
+                "frame": 0.48333333333333334,
+                "value": 1.8
+              },
+              {
+                "frame": 0.5833333333333334,
+                "value": 2.5
+              }
+            ],
+            "scaleY": [
+              {
+                "frame": 0.4166666666666667,
+                "value": 0.0075
+              },
+              {
+                "frame": 0.48333333333333334,
+                "value": 1.35
+              },
+              {
+                "frame": 0.5833333333333334,
+                "value": 1.875
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0.4166666666666667,
+                "value": 255
+              },
+              {
+                "frame": 0.48333333333333334,
+                "value": 77
+              },
+              {
+                "frame": 0.5833333333333334,
+                "value": 0
+              }
+            ]
+          }
+        },
+        "fx_GuanQuan_1_0": {
+          "props": {
+            "position": [
+              {
+                "frame": 0.6166666666666667,
+                "value": [
+                  2.36,
+                  33.42
+                ]
+              }
+            ],
+            "scaleX": [
+              {
+                "frame": 0.5666666666666667,
+                "value": 0.01
+              },
+              {
+                "frame": 0.6166666666666667,
+                "value": 1.5
+              },
+              {
+                "frame": 0.7,
+                "value": 1.8
+              }
+            ],
+            "scaleY": [
+              {
+                "frame": 0.5666666666666667,
+                "value": 0.0075
+              },
+              {
+                "frame": 0.6166666666666667,
+                "value": 1.2335
+              },
+              {
+                "frame": 0.7,
+                "value": 1.4802
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0.5666666666666667,
+                "value": 255
+              },
+              {
+                "frame": 0.6166666666666667,
+                "value": 77
+              },
+              {
+                "frame": 0.7,
+                "value": 0
+              }
+            ]
+          }
+        },
+        "dilie03_2_0": {
+          "props": {
+            "scaleX": [
+              {
+                "frame": 0.08333333333333333,
+                "value": 0.01
+              },
+              {
+                "frame": 0.15,
+                "value": 0.7
+              },
+              {
+                "frame": 0.25,
+                "value": 1
+              }
+            ],
+            "scaleY": [
+              {
+                "frame": 0.08333333333333333,
+                "value": 0.0082
+              },
+              {
+                "frame": 0.15,
+                "value": 0.5752
+              },
+              {
+                "frame": 0.25,
+                "value": 0.8217
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0.08333333333333333,
+                "value": 0
+              },
+              {
+                "frame": 0.15,
+                "value": 255
+              },
+              {
+                "frame": 0.7666666666666667,
+                "value": 132
+              },
+              {
+                "frame": 1.05,
+                "value": 0
+              }
+            ]
+          }
+        },
+        "zhushandian": {
+          "props": {
+            "scaleX": [
+              {
+                "frame": 0.3333333333333333,
+                "value": 1.8
+              },
+              {
+                "frame": 0.38333333333333336,
+                "value": 1.8
+              },
+              {
+                "frame": 0.43333333333333335,
+                "value": 1.8
+              },
+              {
+                "frame": 0.48333333333333334,
+                "value": 1.8
+              },
+              {
+                "frame": 0.5333333333333333,
+                "value": 1.8
+              }
+            ],
+            "scaleY": [
+              {
+                "frame": 0.3333333333333333,
+                "value": 1
+              },
+              {
+                "frame": 0.38333333333333336,
+                "value": 1
+              },
+              {
+                "frame": 0.43333333333333335,
+                "value": 0.8
+              },
+              {
+                "frame": 0.48333333333333334,
+                "value": 0.6
+              },
+              {
+                "frame": 0.5333333333333333,
+                "value": 0.9
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0.6666666666666666,
+                "value": 255
+              },
+              {
+                "frame": 0.7333333333333333,
+                "value": 0
+              }
+            ]
+          },
+          "comps": {
+            "cc.Sprite": {
+              "spriteFrame": [
+                {
+                  "frame": 0,
+                  "value": {
+                    "image": "tile-result-study/assets/resources-1058-bl-dian03_000.png",
+                    "uuid": "42a3f04a-285f-4895-a448-5e8b04a6b6b4"
+                  }
+                },
+                {
+                  "frame": 0.08333333333333333,
+                  "value": {
+                    "image": "tile-result-study/assets/resources-717-bl-dian03_001.png",
+                    "uuid": "24093771-74d1-4799-b1e4-42475be88915"
+                  }
+                },
+                {
+                  "frame": 0.16666666666666666,
+                  "value": {
+                    "image": "tile-result-study/assets/resources-2097-bl-dian03_002.png",
+                    "uuid": "afbde082-b336-4325-97ad-c6ded429e7fc"
+                  }
+                },
+                {
+                  "frame": 0.25,
+                  "value": {
+                    "image": "tile-result-study/assets/resources-1837-bl-dian03_003.png",
+                    "uuid": "86f5d8f1-0358-4628-81e6-68259bbb50ca"
+                  }
+                },
+                {
+                  "frame": 0.3333333333333333,
+                  "value": {
+                    "image": "tile-result-study/assets/resources-1823-bl-dian03_005.png",
+                    "uuid": "80d72e3b-c8b1-4a56-8834-ebb2cfcb6e07"
+                  }
+                },
+                {
+                  "frame": 0.38333333333333336,
+                  "value": {
+                    "image": "tile-result-study/assets/resources-2761-bl-dian03_008.png",
+                    "uuid": "bcb6c1a6-fa1d-422f-bf8b-b34d9a7abc0e"
+                  }
+                },
+                {
+                  "frame": 0.43333333333333335,
+                  "value": {
+                    "image": "tile-result-study/assets/resources-2778-bl-dian03_007.png",
+                    "uuid": "bfa9f35b-5523-47a1-a932-ed38c5e2690a"
+                  }
+                },
+                {
+                  "frame": 0.48333333333333334,
+                  "value": {
+                    "image": "tile-result-study/assets/resources-2097-bl-dian03_002.png",
+                    "uuid": "afbde082-b336-4325-97ad-c6ded429e7fc"
+                  }
+                },
+                {
+                  "frame": 0.5333333333333333,
+                  "value": {
+                    "image": "tile-result-study/assets/resources-1823-bl-dian03_005.png",
+                    "uuid": "80d72e3b-c8b1-4a56-8834-ebb2cfcb6e07"
+                  }
+                },
+                {
+                  "frame": 0.6,
+                  "value": {
+                    "image": "tile-result-study/assets/resources-2761-bl-dian03_008.png",
+                    "uuid": "bcb6c1a6-fa1d-422f-bf8b-b34d9a7abc0e"
+                  }
+                },
+                {
+                  "frame": 0.6666666666666666,
+                  "value": {
+                    "image": "tile-result-study/assets/resources-2873-bl-dian03_009.png",
+                    "uuid": "d4fc6d2d-2d8d-48cf-98c7-c54cbd78e853"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "tykuosan_5": {
+          "props": {
+            "position": [
+              {
+                "frame": 0.16666666666666666,
+                "value": [
+                  6.2141,
+                  41.7358
+                ]
+              }
+            ],
+            "scaleX": [
+              {
+                "frame": 0.16666666666666666,
+                "value": 0.01
+              },
+              {
+                "frame": 0.2833333333333333,
+                "value": 1
+              },
+              {
+                "frame": 0.45,
+                "value": 1.5
+              }
+            ],
+            "scaleY": [
+              {
+                "frame": 0.16666666666666666,
+                "value": 0.0076
+              },
+              {
+                "frame": 0.2833333333333333,
+                "value": 0.7565
+              },
+              {
+                "frame": 0.45,
+                "value": 1.1348
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0.16666666666666666,
+                "value": 0
+              },
+              {
+                "frame": 0.23333333333333334,
+                "value": 255
+              },
+              {
+                "frame": 0.3333333333333333,
+                "value": 240
+              },
+              {
+                "frame": 0.45,
+                "value": 0
+              }
+            ],
+            "color": [
+              {
+                "frame": 0.26666666666666666,
+                "value": 4294965719
+              }
+            ]
+          }
+        },
+        "M_shandian6": {
+          "props": {
+            "position": [
+              {
+                "frame": 0.25,
+                "value": [
+                  -46.2681,
+                  79.5543
+                ]
+              },
+              {
+                "frame": 0.2833333333333333,
+                "value": [
+                  35.4192,
+                  78.0415
+                ]
+              },
+              {
+                "frame": 0.31666666666666665,
+                "value": [
+                  -2.3993,
+                  19.0449
+                ]
+              },
+              {
+                "frame": 0.35,
+                "value": [
+                  -53.8324,
+                  67.4524
+                ]
+              },
+              {
+                "frame": 0.4166666666666667,
+                "value": [
+                  9.7041,
+                  -0.6203
+                ]
+              },
+              {
+                "frame": 0.45,
+                "value": [
+                  15.7543,
+                  41.7362
+                ]
+              },
+              {
+                "frame": 0.48333333333333334,
+                "value": [
+                  53.5724,
+                  25.0961
+                ]
+              },
+              {
+                "frame": 0.5166666666666667,
+                "value": [
+                  -53.8317,
+                  59.8888
+                ]
+              },
+              {
+                "frame": 0.55,
+                "value": [
+                  -46.2681,
+                  79.5543
+                ]
+              },
+              {
+                "frame": 0.5833333333333334,
+                "value": [
+                  35.4192,
+                  78.0415
+                ]
+              },
+              {
+                "frame": 0.6166666666666667,
+                "value": [
+                  -2.3993,
+                  19.0449
+                ]
+              },
+              {
+                "frame": 0.65,
+                "value": [
+                  -53.8324,
+                  67.4524
+                ]
+              },
+              {
+                "frame": 0.6833333333333333,
+                "value": [
+                  53.5724,
+                  25.0961
+                ]
+              },
+              {
+                "frame": 0.7166666666666667,
+                "value": [
+                  -53.8317,
+                  59.8888
+                ]
+              },
+              {
+                "frame": 0.75,
+                "value": [
+                  -46.2681,
+                  79.5543
+                ]
+              },
+              {
+                "frame": 0.7833333333333333,
+                "value": [
+                  35.4192,
+                  78.0415
+                ]
+              },
+              {
+                "frame": 0.8166666666666667,
+                "value": [
+                  -2.3993,
+                  19.0449
+                ]
+              }
+            ],
+            "scaleX": [
+              {
+                "frame": 0.25,
+                "value": 1
+              },
+              {
+                "frame": 0.2833333333333333,
+                "value": 1.5
+              },
+              {
+                "frame": 0.31666666666666665,
+                "value": 3
+              },
+              {
+                "frame": 0.35,
+                "value": 2
+              },
+              {
+                "frame": 0.4166666666666667,
+                "value": 3
+              },
+              {
+                "frame": 0.45,
+                "value": 1.5
+              },
+              {
+                "frame": 0.48333333333333334,
+                "value": 2
+              },
+              {
+                "frame": 0.5166666666666667,
+                "value": 4
+              },
+              {
+                "frame": 0.55,
+                "value": 1
+              },
+              {
+                "frame": 0.5833333333333334,
+                "value": 1.5
+              },
+              {
+                "frame": 0.6166666666666667,
+                "value": 3
+              },
+              {
+                "frame": 0.65,
+                "value": 2
+              },
+              {
+                "frame": 0.6833333333333333,
+                "value": 2
+              },
+              {
+                "frame": 0.7166666666666667,
+                "value": 2
+              },
+              {
+                "frame": 0.75,
+                "value": 1
+              },
+              {
+                "frame": 0.7833333333333333,
+                "value": 1.5
+              },
+              {
+                "frame": 0.8166666666666667,
+                "value": 3
+              }
+            ],
+            "scaleY": [
+              {
+                "frame": 0.25,
+                "value": 1
+              },
+              {
+                "frame": 0.2833333333333333,
+                "value": 1.5
+              },
+              {
+                "frame": 0.31666666666666665,
+                "value": 3
+              },
+              {
+                "frame": 0.35,
+                "value": 2
+              },
+              {
+                "frame": 0.4166666666666667,
+                "value": 2
+              },
+              {
+                "frame": 0.45,
+                "value": 2
+              },
+              {
+                "frame": 0.48333333333333334,
+                "value": 2
+              },
+              {
+                "frame": 0.5166666666666667,
+                "value": 4
+              },
+              {
+                "frame": 0.55,
+                "value": 1
+              },
+              {
+                "frame": 0.5833333333333334,
+                "value": 1.5
+              },
+              {
+                "frame": 0.6166666666666667,
+                "value": 3
+              },
+              {
+                "frame": 0.65,
+                "value": 2
+              },
+              {
+                "frame": 0.6833333333333333,
+                "value": 2
+              },
+              {
+                "frame": 0.7166666666666667,
+                "value": 3
+              },
+              {
+                "frame": 0.75,
+                "value": 1
+              },
+              {
+                "frame": 0.7833333333333333,
+                "value": 1.5
+              },
+              {
+                "frame": 0.8166666666666667,
+                "value": 3
+              }
+            ],
+            "active": [
+              {
+                "frame": 0.23333333333333334,
+                "value": false
+              },
+              {
+                "frame": 0.25,
+                "value": true
+              },
+              {
+                "frame": 0.36666666666666664,
+                "value": false
+              },
+              {
+                "frame": 0.4,
+                "value": false
+              },
+              {
+                "frame": 0.4166666666666667,
+                "value": true
+              },
+              {
+                "frame": 0.6666666666666666,
+                "value": false
+              },
+              {
+                "frame": 0.6833333333333333,
+                "value": true
+              },
+              {
+                "frame": 0.8333333333333334,
+                "value": false
+              }
+            ]
+          },
+          "comps": {
+            "cc.Sprite": {
+              "spriteFrame": [
+                {
+                  "frame": 0.25,
+                  "value": {
+                    "image": "tile-result-study/assets/resources-821-M_shandian6_004.png",
+                    "uuid": "3cf56bfe-a722-49f7-8e89-1dcd9d1af1f8"
+                  }
+                },
+                {
+                  "frame": 0.2833333333333333,
+                  "value": {
+                    "image": "tile-result-study/assets/resources-1504-M_shandian6_005.png",
+                    "uuid": "75ca6881-1ac8-405f-9dd9-61dbe17c9d7a"
+                  }
+                },
+                {
+                  "frame": 0.31666666666666665,
+                  "value": {
+                    "image": "tile-result-study/assets/resources-71-M_shandian6_003.png",
+                    "uuid": "01a0e24b-aa33-41ed-919a-b1ad6fdc1210"
+                  }
+                },
+                {
+                  "frame": 0.35,
+                  "value": {
+                    "image": "tile-result-study/assets/resources-1398-M_shandian6_001.png",
+                    "uuid": "5400094e-a0da-4dd4-9bcb-36f79e797d9f"
+                  }
+                },
+                {
+                  "frame": 0.4166666666666667,
+                  "value": {
+                    "image": "tile-result-study/assets/resources-2874-M_shandian6_000.png",
+                    "uuid": "d50cbba2-e870-4161-9d4e-2b85c2ed8594"
+                  }
+                },
+                {
+                  "frame": 0.45,
+                  "value": {
+                    "image": "tile-result-study/assets/resources-1398-M_shandian6_001.png",
+                    "uuid": "5400094e-a0da-4dd4-9bcb-36f79e797d9f"
+                  }
+                },
+                {
+                  "frame": 0.48333333333333334,
+                  "value": {
+                    "image": "tile-result-study/assets/resources-1407-M_shandian6_002.png",
+                    "uuid": "5620e117-2c31-4038-8b05-ba1f7611f992"
+                  }
+                },
+                {
+                  "frame": 0.5166666666666667,
+                  "value": {
+                    "image": "tile-result-study/assets/resources-71-M_shandian6_003.png",
+                    "uuid": "01a0e24b-aa33-41ed-919a-b1ad6fdc1210"
+                  }
+                },
+                {
+                  "frame": 0.55,
+                  "value": {
+                    "image": "tile-result-study/assets/resources-821-M_shandian6_004.png",
+                    "uuid": "3cf56bfe-a722-49f7-8e89-1dcd9d1af1f8"
+                  }
+                },
+                {
+                  "frame": 0.5833333333333334,
+                  "value": {
+                    "image": "tile-result-study/assets/resources-1504-M_shandian6_005.png",
+                    "uuid": "75ca6881-1ac8-405f-9dd9-61dbe17c9d7a"
+                  }
+                },
+                {
+                  "frame": 0.6166666666666667,
+                  "value": {
+                    "image": "tile-result-study/assets/resources-71-M_shandian6_003.png",
+                    "uuid": "01a0e24b-aa33-41ed-919a-b1ad6fdc1210"
+                  }
+                },
+                {
+                  "frame": 0.65,
+                  "value": {
+                    "image": "tile-result-study/assets/resources-1398-M_shandian6_001.png",
+                    "uuid": "5400094e-a0da-4dd4-9bcb-36f79e797d9f"
+                  }
+                },
+                {
+                  "frame": 0.6833333333333333,
+                  "value": {
+                    "image": "tile-result-study/assets/resources-1407-M_shandian6_002.png",
+                    "uuid": "5620e117-2c31-4038-8b05-ba1f7611f992"
+                  }
+                },
+                {
+                  "frame": 0.7166666666666667,
+                  "value": {
+                    "image": "tile-result-study/assets/resources-71-M_shandian6_003.png",
+                    "uuid": "01a0e24b-aa33-41ed-919a-b1ad6fdc1210"
+                  }
+                },
+                {
+                  "frame": 0.75,
+                  "value": {
+                    "image": "tile-result-study/assets/resources-821-M_shandian6_004.png",
+                    "uuid": "3cf56bfe-a722-49f7-8e89-1dcd9d1af1f8"
+                  }
+                },
+                {
+                  "frame": 0.7833333333333333,
+                  "value": {
+                    "image": "tile-result-study/assets/resources-1504-M_shandian6_005.png",
+                    "uuid": "75ca6881-1ac8-405f-9dd9-61dbe17c9d7a"
+                  }
+                },
+                {
+                  "frame": 0.8166666666666667,
+                  "value": {
+                    "image": "tile-result-study/assets/resources-71-M_shandian6_003.png",
+                    "uuid": "01a0e24b-aa33-41ed-919a-b1ad6fdc1210"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "M_shandian6_0": {
+          "props": {
+            "position": [
+              {
+                "frame": 0.16666666666666666,
+                "value": [
+                  -2.3993,
+                  19.0449
+                ]
+              },
+              {
+                "frame": 0.2,
+                "value": [
+                  -53.8324,
+                  67.4524
+                ]
+              },
+              {
+                "frame": 0.26666666666666666,
+                "value": [
+                  9.7041,
+                  -0.6203
+                ]
+              },
+              {
+                "frame": 0.3,
+                "value": [
+                  15.7543,
+                  41.7362
+                ]
+              },
+              {
+                "frame": 0.3333333333333333,
+                "value": [
+                  53.5724,
+                  25.0961
+                ]
+              },
+              {
+                "frame": 0.36666666666666664,
+                "value": [
+                  -53.8317,
+                  59.8888
+                ]
+              },
+              {
+                "frame": 0.4,
+                "value": [
+                  -46.2681,
+                  79.5543
+                ]
+              },
+              {
+                "frame": 0.43333333333333335,
+                "value": [
+                  35.4192,
+                  78.0415
+                ]
+              },
+              {
+                "frame": 0.4666666666666667,
+                "value": [
+                  -2.3993,
+                  19.0449
+                ]
+              },
+              {
+                "frame": 0.5,
+                "value": [
+                  -53.8324,
+                  67.4524
+                ]
+              },
+              {
+                "frame": 0.5333333333333333,
+                "value": [
+                  53.5724,
+                  25.0961
+                ]
+              },
+              {
+                "frame": 0.5666666666666667,
+                "value": [
+                  -53.8317,
+                  59.8888
+                ]
+              },
+              {
+                "frame": 0.6,
+                "value": [
+                  -46.2681,
+                  79.5543
+                ]
+              },
+              {
+                "frame": 0.6333333333333333,
+                "value": [
+                  35.4192,
+                  78.0415
+                ]
+              },
+              {
+                "frame": 0.6666666666666666,
+                "value": [
+                  -2.3993,
+                  19.0449
+                ]
+              }
+            ],
+            "scaleX": [
+              {
+                "frame": 0.16666666666666666,
+                "value": 3
+              },
+              {
+                "frame": 0.2,
+                "value": 2
+              },
+              {
+                "frame": 0.26666666666666666,
+                "value": 3
+              },
+              {
+                "frame": 0.3,
+                "value": 1.5
+              },
+              {
+                "frame": 0.3333333333333333,
+                "value": 2
+              },
+              {
+                "frame": 0.36666666666666664,
+                "value": 4
+              },
+              {
+                "frame": 0.4,
+                "value": 1
+              },
+              {
+                "frame": 0.43333333333333335,
+                "value": 1.5
+              },
+              {
+                "frame": 0.4666666666666667,
+                "value": 3
+              },
+              {
+                "frame": 0.5,
+                "value": 2
+              },
+              {
+                "frame": 0.5333333333333333,
+                "value": 2
+              },
+              {
+                "frame": 0.5666666666666667,
+                "value": 2
+              },
+              {
+                "frame": 0.6,
+                "value": 1
+              },
+              {
+                "frame": 0.6333333333333333,
+                "value": 1.5
+              },
+              {
+                "frame": 0.6666666666666666,
+                "value": 3
+              }
+            ],
+            "scaleY": [
+              {
+                "frame": 0.16666666666666666,
+                "value": 3
+              },
+              {
+                "frame": 0.2,
+                "value": 2
+              },
+              {
+                "frame": 0.26666666666666666,
+                "value": 2
+              },
+              {
+                "frame": 0.3,
+                "value": 2
+              },
+              {
+                "frame": 0.3333333333333333,
+                "value": 2
+              },
+              {
+                "frame": 0.36666666666666664,
+                "value": 4
+              },
+              {
+                "frame": 0.4,
+                "value": 1
+              },
+              {
+                "frame": 0.43333333333333335,
+                "value": 1.5
+              },
+              {
+                "frame": 0.4666666666666667,
+                "value": 3
+              },
+              {
+                "frame": 0.5,
+                "value": 2
+              },
+              {
+                "frame": 0.5333333333333333,
+                "value": 2
+              },
+              {
+                "frame": 0.5666666666666667,
+                "value": 3
+              },
+              {
+                "frame": 0.6,
+                "value": 1
+              },
+              {
+                "frame": 0.6333333333333333,
+                "value": 1.5
+              },
+              {
+                "frame": 0.6666666666666666,
+                "value": 3
+              }
+            ],
+            "active": [
+              {
+                "frame": 0.15,
+                "value": false
+              },
+              {
+                "frame": 0.16666666666666666,
+                "value": true
+              },
+              {
+                "frame": 0.21666666666666667,
+                "value": false
+              },
+              {
+                "frame": 0.25,
+                "value": false
+              },
+              {
+                "frame": 0.26666666666666666,
+                "value": true
+              },
+              {
+                "frame": 0.5166666666666667,
+                "value": false
+              },
+              {
+                "frame": 0.5333333333333333,
+                "value": true
+              },
+              {
+                "frame": 0.6833333333333333,
+                "value": false
+              }
+            ]
+          },
+          "comps": {
+            "cc.Sprite": {
+              "spriteFrame": [
+                {
+                  "frame": 0.16666666666666666,
+                  "value": {
+                    "image": "tile-result-study/assets/resources-71-M_shandian6_003.png",
+                    "uuid": "01a0e24b-aa33-41ed-919a-b1ad6fdc1210"
+                  }
+                },
+                {
+                  "frame": 0.2,
+                  "value": {
+                    "image": "tile-result-study/assets/resources-1398-M_shandian6_001.png",
+                    "uuid": "5400094e-a0da-4dd4-9bcb-36f79e797d9f"
+                  }
+                },
+                {
+                  "frame": 0.26666666666666666,
+                  "value": {
+                    "image": "tile-result-study/assets/resources-2874-M_shandian6_000.png",
+                    "uuid": "d50cbba2-e870-4161-9d4e-2b85c2ed8594"
+                  }
+                },
+                {
+                  "frame": 0.3,
+                  "value": {
+                    "image": "tile-result-study/assets/resources-1398-M_shandian6_001.png",
+                    "uuid": "5400094e-a0da-4dd4-9bcb-36f79e797d9f"
+                  }
+                },
+                {
+                  "frame": 0.3333333333333333,
+                  "value": {
+                    "image": "tile-result-study/assets/resources-1407-M_shandian6_002.png",
+                    "uuid": "5620e117-2c31-4038-8b05-ba1f7611f992"
+                  }
+                },
+                {
+                  "frame": 0.36666666666666664,
+                  "value": {
+                    "image": "tile-result-study/assets/resources-71-M_shandian6_003.png",
+                    "uuid": "01a0e24b-aa33-41ed-919a-b1ad6fdc1210"
+                  }
+                },
+                {
+                  "frame": 0.4,
+                  "value": {
+                    "image": "tile-result-study/assets/resources-821-M_shandian6_004.png",
+                    "uuid": "3cf56bfe-a722-49f7-8e89-1dcd9d1af1f8"
+                  }
+                },
+                {
+                  "frame": 0.43333333333333335,
+                  "value": {
+                    "image": "tile-result-study/assets/resources-1504-M_shandian6_005.png",
+                    "uuid": "75ca6881-1ac8-405f-9dd9-61dbe17c9d7a"
+                  }
+                },
+                {
+                  "frame": 0.4666666666666667,
+                  "value": {
+                    "image": "tile-result-study/assets/resources-71-M_shandian6_003.png",
+                    "uuid": "01a0e24b-aa33-41ed-919a-b1ad6fdc1210"
+                  }
+                },
+                {
+                  "frame": 0.5,
+                  "value": {
+                    "image": "tile-result-study/assets/resources-1398-M_shandian6_001.png",
+                    "uuid": "5400094e-a0da-4dd4-9bcb-36f79e797d9f"
+                  }
+                },
+                {
+                  "frame": 0.5333333333333333,
+                  "value": {
+                    "image": "tile-result-study/assets/resources-1407-M_shandian6_002.png",
+                    "uuid": "5620e117-2c31-4038-8b05-ba1f7611f992"
+                  }
+                },
+                {
+                  "frame": 0.5666666666666667,
+                  "value": {
+                    "image": "tile-result-study/assets/resources-71-M_shandian6_003.png",
+                    "uuid": "01a0e24b-aa33-41ed-919a-b1ad6fdc1210"
+                  }
+                },
+                {
+                  "frame": 0.6,
+                  "value": {
+                    "image": "tile-result-study/assets/resources-821-M_shandian6_004.png",
+                    "uuid": "3cf56bfe-a722-49f7-8e89-1dcd9d1af1f8"
+                  }
+                },
+                {
+                  "frame": 0.6333333333333333,
+                  "value": {
+                    "image": "tile-result-study/assets/resources-1504-M_shandian6_005.png",
+                    "uuid": "75ca6881-1ac8-405f-9dd9-61dbe17c9d7a"
+                  }
+                },
+                {
+                  "frame": 0.6666666666666666,
+                  "value": {
+                    "image": "tile-result-study/assets/resources-71-M_shandian6_003.png",
+                    "uuid": "01a0e24b-aa33-41ed-919a-b1ad6fdc1210"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "guanzhu_8": {
+          "props": {
+            "position": [
+              {
+                "frame": 0.2833333333333333,
+                "value": [
+                  1.7938,
+                  38.4518
+                ]
+              }
+            ],
+            "scaleX": [
+              {
+                "frame": 0.16666666666666666,
+                "value": 0.01
+              },
+              {
+                "frame": 0.2833333333333333,
+                "value": 0.6
+              },
+              {
+                "frame": 0.5,
+                "value": 1.5
+              },
+              {
+                "frame": 0.6666666666666666,
+                "value": 1
+              },
+              {
+                "frame": 0.8333333333333334,
+                "value": 0.05
+              }
+            ],
+            "scaleY": [
+              {
+                "frame": 0.16666666666666666,
+                "value": 0.2
+              },
+              {
+                "frame": 0.2833333333333333,
+                "value": 3.5
+              },
+              {
+                "frame": 0.5,
+                "value": 5
+              },
+              {
+                "frame": 0.6666666666666666,
+                "value": 5.5
+              },
+              {
+                "frame": 0.8333333333333334,
+                "value": 5.5
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0.3333333333333333,
+                "value": 255
+              },
+              {
+                "frame": 0.5,
+                "value": 255
+              },
+              {
+                "frame": 0.6666666666666666,
+                "value": 137
+              },
+              {
+                "frame": 0.8333333333333334,
+                "value": 0
+              }
+            ],
+            "color": [
+              {
+                "frame": 0.16666666666666666,
+                "value": 4294660608
+              }
+            ]
+          }
+        },
+        "cj_quan_1": {
+          "props": {
+            "scaleX": [
+              {
+                "frame": 0.25,
+                "value": 0.01
+              },
+              {
+                "frame": 0.3333333333333333,
+                "value": 2.5
+              },
+              {
+                "frame": 0.5,
+                "value": 3
+              }
+            ],
+            "scaleY": [
+              {
+                "frame": 0.25,
+                "value": 0.0075
+              },
+              {
+                "frame": 0.3333333333333333,
+                "value": 1.88
+              },
+              {
+                "frame": 0.5,
+                "value": 2.256
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0.25,
+                "value": 0
+              },
+              {
+                "frame": 0.3333333333333333,
+                "value": 252
+              },
+              {
+                "frame": 0.5,
+                "value": 0
+              }
+            ],
+            "color": [
+              {
+                "frame": 0.3333333333333333,
+                "value": 4294940205
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "name": "zimoLight",
+    "prefab": {
+      "bundle": "resources",
+      "id": 1821
+    },
+    "clip": {
+      "bundle": "resources",
+      "id": 495
+    },
+    "duration": 1.0833333333333333,
+    "nodes": [
+      {
+        "index": 1,
+        "name": "fx_huipai02",
+        "parent": null,
+        "active": true,
+        "opacity": 255,
+        "color": 4294967295,
+        "position": [
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1
+        ],
+        "angle": 0,
+        "size": [
+          0,
+          0
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "path": ""
+      },
+      {
+        "index": 2,
+        "name": "hupai02_001_24",
+        "parent": 1,
+        "active": true,
+        "opacity": 0,
+        "color": 4294967295,
+        "position": [
+          0,
+          -60
+        ],
+        "scale": [
+          0.01,
+          0.01
+        ],
+        "angle": 0,
+        "size": [
+          176,
+          238
+        ],
+        "anchor": [
+          0.5,
+          0.25
+        ],
+        "sprite": "tile-result-study/assets/resources-1433-hupai02_001.png",
+        "spriteSizeMode": 2,
+        "trim": true,
+        "blend": "source-over",
+        "path": "hupai02_001_24"
+      }
+    ],
+    "tracks": {
+      "paths": {
+        "hupai02_001_24": {
+          "props": {
+            "scaleX": [
+              {
+                "frame": 0,
+                "value": 0.01
+              },
+              {
+                "frame": 0.08333333333333333,
+                "value": 1.3
+              },
+              {
+                "frame": 0.25,
+                "value": 1.7
+              },
+              {
+                "frame": 0.7166666666666667,
+                "value": 1.7
+              }
+            ],
+            "scaleY": [
+              {
+                "frame": 0,
+                "value": 0.01
+              },
+              {
+                "frame": 0.08333333333333333,
+                "value": 1.3
+              },
+              {
+                "frame": 0.25,
+                "value": 1.7
+              },
+              {
+                "frame": 0.7166666666666667,
+                "value": 1.7
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 0.08333333333333333,
+                "value": 255
+              },
+              {
+                "frame": 0.8333333333333334,
+                "value": 255
+              },
+              {
+                "frame": 1.0833333333333333,
+                "value": 0
+              }
+            ]
+          },
+          "comps": {
+            "cc.Sprite": {
+              "spriteFrame": [
+                {
+                  "frame": 0.08333333333333333,
+                  "value": {
+                    "image": "tile-result-study/assets/resources-1433-hupai02_001.png",
+                    "uuid": "5cffa41f-706a-4d6f-b438-dad37ab123c2"
+                  }
+                },
+                {
+                  "frame": 0.13333333333333333,
+                  "value": {
+                    "image": "tile-result-study/assets/resources-1414-hupai02_002.png",
+                    "uuid": "581b2f13-1c82-4fff-ba69-7ea0b6c3bb7c"
+                  }
+                },
+                {
+                  "frame": 0.18333333333333332,
+                  "value": {
+                    "image": "tile-result-study/assets/resources-2737-hupai02_003.png",
+                    "uuid": "b64d2138-aace-45c7-975e-f7ad1ca6bc98"
+                  }
+                },
+                {
+                  "frame": 0.23333333333333334,
+                  "value": {
+                    "image": "tile-result-study/assets/resources-2883-hupai02_004.png",
+                    "uuid": "d769d7a3-9669-412a-9fe6-18c30a1aebba"
+                  }
+                },
+                {
+                  "frame": 0.2833333333333333,
+                  "value": {
+                    "image": "tile-result-study/assets/resources-1455-hupai02_005.png",
+                    "uuid": "63df2eac-75f0-4ea1-85fb-f19b66fcf155"
+                  }
+                },
+                {
+                  "frame": 0.3333333333333333,
+                  "value": {
+                    "image": "tile-result-study/assets/resources-747-hupai02_006.png",
+                    "uuid": "2f2fa5ab-dc17-426b-ae89-3ba61b9dc8c4"
+                  }
+                },
+                {
+                  "frame": 0.38333333333333336,
+                  "value": {
+                    "image": "tile-result-study/assets/resources-2743-hupai02_007.png",
+                    "uuid": "b74a7179-d944-41f9-8eed-8ebcaaa747d0"
+                  }
+                },
+                {
+                  "frame": 0.43333333333333335,
+                  "value": {
+                    "image": "tile-result-study/assets/resources-85-hupai02_008.png",
+                    "uuid": "062cf564-0d5e-429b-b324-cd2ca04331f0"
+                  }
+                },
+                {
+                  "frame": 0.48333333333333334,
+                  "value": {
+                    "image": "tile-result-study/assets/resources-1870-hupai02_009.png",
+                    "uuid": "929e540a-2ef1-43e5-9015-41cc8d13bbdc"
+                  }
+                },
+                {
+                  "frame": 0.5333333333333333,
+                  "value": {
+                    "image": "tile-result-study/assets/resources-2930-hupai02_010.png",
+                    "uuid": "e28b03aa-58eb-45dc-9e9a-29fde731ca07"
+                  }
+                },
+                {
+                  "frame": 0.5833333333333334,
+                  "value": {
+                    "image": "tile-result-study/assets/resources-1509-hupai02_011.png",
+                    "uuid": "770301fd-08ea-4f4d-94d1-6bbc8843e8e6"
+                  }
+                },
+                {
+                  "frame": 0.6333333333333333,
+                  "value": {
+                    "image": "tile-result-study/assets/resources-1861-hupai02_012.png",
+                    "uuid": "8f04a639-7ae3-406b-8d79-d123b0b38286"
+                  }
+                },
+                {
+                  "frame": 0.6833333333333333,
+                  "value": {
+                    "image": "tile-result-study/assets/resources-1451-hupai02_013.png",
+                    "uuid": "630220bb-c2a1-442b-a5d3-539747117ab6"
+                  }
+                },
+                {
+                  "frame": 0.7333333333333333,
+                  "value": {
+                    "image": "tile-result-study/assets/resources-2825-hupai02_014.png",
+                    "uuid": "c933dd9c-f554-4f54-aaa1-51a0bf698c4d"
+                  }
+                },
+                {
+                  "frame": 0.7833333333333333,
+                  "value": {
+                    "image": "tile-result-study/assets/resources-2788-hupai02_015.png",
+                    "uuid": "c2145141-8c96-4b10-b17b-4000965a57d4"
+                  }
+                },
+                {
+                  "frame": 0.8333333333333334,
+                  "value": {
+                    "image": "tile-result-study/assets/resources-1480-hupai02_016.png",
+                    "uuid": "6a948ccf-9929-4ed0-b722-66cc36ffc32f"
+                  }
+                },
+                {
+                  "frame": 0.8833333333333333,
+                  "value": {
+                    "image": "tile-result-study/assets/resources-1449-hupai02_017.png",
+                    "uuid": "61a379f6-6a4b-4eea-8389-61c2aaac27a5"
+                  }
+                },
+                {
+                  "frame": 0.9333333333333333,
+                  "value": {
+                    "image": "tile-result-study/assets/resources-996-hupai02_018.png",
+                    "uuid": "4d500c03-5c1a-4b87-b75f-2cafc1bc222d"
+                  }
+                },
+                {
+                  "frame": 0.9833333333333333,
+                  "value": {
+                    "image": "tile-result-study/assets/resources-1326-hupai02_019.png",
+                    "uuid": "70299db7-ba57-4a1f-a4bb-893422fc8863"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "name": "meldSmoke",
+    "prefab": {
+      "bundle": "resources",
+      "id": 66
+    },
+    "clip": {
+      "bundle": "resources",
+      "id": 2926
+    },
+    "duration": 0.7833333333333333,
+    "nodes": [
+      {
+        "index": 1,
+        "name": "fx_chipenggang",
+        "parent": null,
+        "active": true,
+        "opacity": 255,
+        "color": 4294967295,
+        "position": [
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1
+        ],
+        "angle": 0,
+        "size": [
+          0,
+          0
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "path": ""
+      },
+      {
+        "index": 2,
+        "name": "chipenggang_001_1",
+        "parent": 1,
+        "active": true,
+        "opacity": 255,
+        "color": 4294967295,
+        "position": [
+          0,
+          0
+        ],
+        "scale": [
+          1.2,
+          1.2
+        ],
+        "angle": 0,
+        "size": [
+          200,
+          171
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "sprite": "tile-result-study/assets/resources-1446-chipenggang_005.png",
+        "spriteSizeMode": 2,
+        "trim": true,
+        "blend": "source-over",
+        "path": "chipenggang_001_1"
+      }
+    ],
+    "tracks": {
+      "paths": {
+        "chipenggang_001_1": {
+          "props": {
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 0.23333333333333334,
+                "value": 255
+              },
+              {
+                "frame": 0.4666666666666667,
+                "value": 255
+              },
+              {
+                "frame": 0.7833333333333333,
+                "value": 2
+              }
+            ],
+            "scale": [
+              {
+                "frame": 0,
+                "value": [
+                  0.24,
+                  0.24
+                ]
+              },
+              {
+                "frame": 0.21666666666666667,
+                "value": [
+                  0.83,
+                  0.83
+                ]
+              }
+            ]
+          },
+          "comps": {
+            "cc.Sprite": {
+              "spriteFrame": [
+                {
+                  "frame": 0,
+                  "value": {
+                    "image": "tile-result-study/assets/resources-1446-chipenggang_005.png",
+                    "uuid": "607bf499-ec5c-4620-b9c2-1c0ad21a4e63"
+                  }
+                },
+                {
+                  "frame": 0.2,
+                  "value": {
+                    "image": "tile-result-study/assets/resources-1446-chipenggang_005.png",
+                    "uuid": "607bf499-ec5c-4620-b9c2-1c0ad21a4e63"
+                  }
+                },
+                {
+                  "frame": 0.2833333333333333,
+                  "value": {
+                    "image": "tile-result-study/assets/resources-3019-chipenggang_006.png",
+                    "uuid": "fd62d401-17b3-48bf-920a-6b4f77f35c0e"
+                  }
+                },
+                {
+                  "frame": 0.36666666666666664,
+                  "value": {
+                    "image": "tile-result-study/assets/resources-2802-chipenggang_007.png",
+                    "uuid": "c473ea2b-438c-486a-aa5c-33ca0919584e"
+                  }
+                },
+                {
+                  "frame": 0.45,
+                  "value": {
+                    "image": "tile-result-study/assets/resources-2912-chipenggang_008.png",
+                    "uuid": "ddb40bc7-b0b3-4239-a2ff-02e0730c2991"
+                  }
+                },
+                {
+                  "frame": 0.5333333333333333,
+                  "value": {
+                    "image": "tile-result-study/assets/resources-1871-chipenggang_009.png",
+                    "uuid": "92f701a7-9f11-4af8-9eca-4f2f254a7eb4"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+]

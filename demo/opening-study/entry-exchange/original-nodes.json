@@ -1,0 +1,6970 @@
+[
+  {
+    "bundle": "mainPrefab",
+    "prefab": 1,
+    "type": "cc.Node",
+    "_name": "PersistRootNode",
+    "_children": [
+      -4,
+      -5
+    ],
+    "_components": [
+      [
+        16,
+        -2
+      ],
+      [
+        17,
+        false,
+        -3
+      ]
+    ],
+    "_prefab": [
+      18,
+      -1
+    ],
+    "_contentSize": [
+      5,
+      1280,
+      720
+    ],
+    "_trs": [
+      640,
+      360,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "mainPrefab",
+    "prefab": 1,
+    "type": "cc.Node",
+    "_name": "LoadNode",
+    "_children": [
+      -8,
+      -9,
+      -10
+    ],
+    "_components": [
+      [
+        1,
+        2,
+        45,
+        1280,
+        720,
+        -7,
+        -6
+      ]
+    ],
+    "_prefab": [
+      0,
+      "a6RnxDm19PtbtEVjt7qPk3",
+      1
+    ],
+    "_contentSize": [
+      5,
+      1280,
+      720
+    ]
+  },
+  {
+    "bundle": "mainPrefab",
+    "prefab": 1,
+    "type": "cc.Node",
+    "_name": "loading",
+    "_parent": 1,
+    "_children": [
+      2
+    ],
+    "_components": [
+      [
+        19,
+        -14,
+        2,
+        -13,
+        -12,
+        -11
+      ],
+      [
+        20,
+        -15
+      ],
+      [
+        1,
+        2,
+        45,
+        1280,
+        720,
+        -16,
+        1
+      ]
+    ],
+    "_prefab": [
+      0,
+      "bfTUecZmFMcZT0p96m68w3",
+      1
+    ],
+    "_contentSize": [
+      5,
+      1280,
+      720
+    ]
+  },
+  {
+    "bundle": "mainPrefab",
+    "prefab": 1,
+    "type": "cc.Node",
+    "_name": "loadResinfo",
+    "_parent": 2,
+    "_children": [
+      -18,
+      -19
+    ],
+    "_components": [
+      [
+        21,
+        1,
+        1,
+        5,
+        -17,
+        [
+          5,
+          108.9,
+          50.4
+        ]
+      ]
+    ],
+    "_prefab": [
+      0,
+      "f6FfIayvJA7qyKxpGxiekS",
+      1
+    ],
+    "_contentSize": [
+      5,
+      108.9,
+      50.4
+    ],
+    "_trs": [
+      0,
+      -71.2,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "mainPrefab",
+    "prefab": 1,
+    "type": "cc.Node",
+    "_name": "mask",
+    "_opacity": 60,
+    "_parent": 2,
+    "_components": [
+      [
+        5,
+        0,
+        false,
+        -20,
+        [
+          0
+        ],
+        1
+      ],
+      [
+        1,
+        2,
+        45,
+        1280,
+        720,
+        -21,
+        2
+      ],
+      [
+        24,
+        -22
+      ]
+    ],
+    "_prefab": [
+      0,
+      "28px5kg8dPtpdf+c0BfRJo",
+      1
+    ],
+    "_color": [
+      4,
+      4278190080
+    ],
+    "_contentSize": [
+      5,
+      1280,
+      720
+    ]
+  },
+  {
+    "bundle": "mainPrefab",
+    "prefab": 1,
+    "type": "cc.Node",
+    "_name": "icon_bg",
+    "_parent": 2,
+    "_children": [
+      -24,
+      -25
+    ],
+    "_components": [
+      [
+        22,
+        false,
+        -23,
+        [
+          6
+        ],
+        7
+      ]
+    ],
+    "_prefab": [
+      0,
+      "b0AcLVIPhB7LHJayyEmeNs",
+      1
+    ],
+    "_contentSize": [
+      5,
+      111,
+      110
+    ]
+  },
+  {
+    "bundle": "mainPrefab",
+    "prefab": 1,
+    "type": "cc.Node",
+    "_name": "RecommendNodePool",
+    "_parent": 1,
+    "_children": [
+      -28
+    ],
+    "_components": [
+      [
+        25,
+        -27,
+        -26
+      ]
+    ],
+    "_prefab": [
+      0,
+      "20uP4g9QZIRrZWEfiz4cZm",
+      1
+    ],
+    "_trs": [
+      699,
+      -356,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "mainPrefab",
+    "prefab": 1,
+    "type": "cc.Node",
+    "_name": "Icon",
+    "_parent": 6,
+    "_components": [
+      [
+        5,
+        2,
+        false,
+        -29,
+        [
+          4
+        ],
+        5
+      ]
+    ],
+    "_prefab": [
+      0,
+      "e1O13u09RBrpMDyjiglB6K",
+      1
+    ],
+    "_contentSize": [
+      5,
+      111,
+      110
+    ]
+  },
+  {
+    "bundle": "mainPrefab",
+    "prefab": 1,
+    "type": "cc.Node",
+    "_name": "loadResinfo",
+    "_parent": 4,
+    "_components": [
+      [
+        6,
+        "加载中...",
+        22,
+        1,
+        1,
+        -30,
+        [
+          8
+        ]
+      ],
+      [
+        4,
+        10,
+        -31
+      ]
+    ],
+    "_prefab": [
+      0,
+      "ec3Uyw8jtCqpYotn02CiFR",
+      1
+    ],
+    "_color": [
+      4,
+      4287558655
+    ],
+    "_contentSize": [
+      5,
+      84.34,
+      50.4
+    ],
+    "_trs": [
+      -12.280000000000001,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "mainPrefab",
+    "prefab": 1,
+    "type": "cc.Node",
+    "_name": "loadResValue",
+    "_parent": 4,
+    "_components": [
+      [
+        -32,
+        [
+          4,
+          34,
+          -33
+        ]
+      ],
+      1,
+      4
+    ],
+    "_prefab": [
+      0,
+      "10rvu190lKv51oT2TqmaUn",
+      1
+    ],
+    "_color": [
+      4,
+      4287558655
+    ],
+    "_contentSize": [
+      5,
+      19.56,
+      50.4
+    ],
+    "_anchorPoint": [
+      0,
+      1,
+      0.5
+    ],
+    "_trs": [
+      54.45,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "mainPrefab",
+    "prefab": 1,
+    "type": "cc.Node",
+    "_name": "nodeContainer",
+    "_active": false,
+    "_parent": 7,
+    "_prefab": [
+      0,
+      "2598i1LlBETqFR4Exk9VMR",
+      1
+    ]
+  },
+  {
+    "bundle": "mainPrefab",
+    "prefab": 1,
+    "type": "cc.Node",
+    "_name": "img_icon_fa",
+    "_parent": 6,
+    "_components": [
+      [
+        23,
+        -34,
+        [
+          2
+        ],
+        3
+      ]
+    ],
+    "_prefab": [
+      0,
+      "44vFcypmFLC7ZUiB8z9Urr",
+      1
+    ],
+    "_contentSize": [
+      5,
+      52,
+      52
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 748,
+    "type": "cc.Node",
+    "_name": "Anim_ChangeMode",
+    "_children": [
+      -8,
+      -9,
+      -10
+    ],
+    "_components": [
+      [
+        20,
+        -7,
+        -6,
+        -5,
+        [
+          24,
+          25,
+          26
+        ],
+        -4,
+        -3,
+        -2
+      ]
+    ],
+    "_prefab": [
+      18,
+      -1
+    ],
+    "_trs": [
+      0,
+      28,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 748,
+    "type": "cc.Node",
+    "_name": "rotate",
+    "_active": false,
+    "_parent": 1,
+    "_children": [
+      -11,
+      -12,
+      -13,
+      -14
+    ],
+    "_prefab": [
+      0,
+      "16f6qdD3ZGo7+fyUkXnmf0",
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 748,
+    "type": "cc.Node",
+    "_name": "memberChange",
+    "_active": false,
+    "_children": [
+      -15,
+      -16,
+      -17,
+      -18
+    ],
+    "_prefab": [
+      0,
+      "d3qcKRKT9CHa2EPbQUlFXq",
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 748,
+    "type": "cc.Node",
+    "_name": "opposite",
+    "_active": false,
+    "_parent": 1,
+    "_children": [
+      -20,
+      -21
+    ],
+    "_components": [
+      [
+        19,
+        -19,
+        [
+          13
+        ],
+        12
+      ]
+    ],
+    "_prefab": [
+      0,
+      "04qXXl5aFPhqhyvEYuHoRX",
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 748,
+    "type": "cc.Node",
+    "_name": "img_bg_word",
+    "_parent": 1,
+    "_children": [
+      -22,
+      -23,
+      3
+    ],
+    "_prefab": [
+      0,
+      "cbz/uU4u1O4JC/EOFYcEUZ",
+      1
+    ],
+    "_contentSize": [
+      5,
+      500,
+      250
+    ],
+    "_trs": [
+      0,
+      160,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 748,
+    "type": "cc.Node",
+    "_name": "img_EChangeMode_OPPO",
+    "_parent": 5,
+    "_children": [
+      -25,
+      -26
+    ],
+    "_components": [
+      -24
+    ],
+    "_prefab": [
+      0,
+      "0axvokOQFDQ5bNkFgIyQ2C",
+      1
+    ],
+    "_contentSize": [
+      5,
+      255,
+      100
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 748,
+    "type": "cc.Node",
+    "_name": "arrows_0",
+    "_parent": 2,
+    "_components": [
+      [
+        1,
+        -27,
+        [
+          0
+        ],
+        1
+      ]
+    ],
+    "_prefab": [
+      0,
+      "beAphXusVN0rDllrJy/3Qa",
+      1
+    ],
+    "_contentSize": [
+      5,
+      301,
+      90
+    ],
+    "_trs": [
+      0,
+      130,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0.6,
+      0.6,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 748,
+    "type": "cc.Node",
+    "_name": "arrows_1",
+    "_parent": 2,
+    "_components": [
+      [
+        1,
+        -28,
+        [
+          2
+        ],
+        3
+      ]
+    ],
+    "_prefab": [
+      0,
+      "45yzH6PlFOPqznu/2nt4Lp",
+      1
+    ],
+    "_contentSize": [
+      5,
+      301,
+      90
+    ],
+    "_trs": [
+      130,
+      0,
+      0,
+      0,
+      0,
+      -0.7071067811865475,
+      0.7071067811865476,
+      0.6,
+      0.6,
+      1
+    ],
+    "_eulerAngles": [
+      1,
+      0,
+      0,
+      -90
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 748,
+    "type": "cc.Node",
+    "_name": "arrows_2",
+    "_parent": 2,
+    "_components": [
+      [
+        1,
+        -29,
+        [
+          4
+        ],
+        5
+      ]
+    ],
+    "_prefab": [
+      0,
+      "7b3dTAqMtOA5UxX636EsGu",
+      1
+    ],
+    "_contentSize": [
+      5,
+      301,
+      90
+    ],
+    "_trs": [
+      0,
+      -130,
+      0,
+      0,
+      0,
+      -1,
+      6.123233995736766e-17,
+      0.6,
+      0.6,
+      1
+    ],
+    "_eulerAngles": [
+      1,
+      0,
+      0,
+      -180
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 748,
+    "type": "cc.Node",
+    "_name": "arrows_3",
+    "_parent": 2,
+    "_components": [
+      [
+        1,
+        -30,
+        [
+          6
+        ],
+        7
+      ]
+    ],
+    "_prefab": [
+      0,
+      "8abq9f1DxPzJarPGABlSiT",
+      1
+    ],
+    "_contentSize": [
+      5,
+      301,
+      90
+    ],
+    "_trs": [
+      -130,
+      0,
+      0,
+      0,
+      0,
+      0.7071067811865475,
+      0.7071067811865476,
+      0.6,
+      0.6,
+      1
+    ],
+    "_eulerAngles": [
+      1,
+      0,
+      0,
+      90
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 748,
+    "type": "cc.Node",
+    "_name": "xia",
+    "_parent": 4,
+    "_components": [
+      [
+        1,
+        -31,
+        [
+          8
+        ],
+        9
+      ]
+    ],
+    "_prefab": [
+      0,
+      "fehDJBKcVN67r9HBOEAHE5",
+      1
+    ],
+    "_contentSize": [
+      5,
+      74,
+      210
+    ],
+    "_trs": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      -1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 748,
+    "type": "cc.Node",
+    "_name": "shang",
+    "_parent": 4,
+    "_components": [
+      [
+        1,
+        -32,
+        [
+          10
+        ],
+        11
+      ]
+    ],
+    "_prefab": [
+      0,
+      "d6lbZe9ttHPIy302IeoDxp",
+      1
+    ],
+    "_contentSize": [
+      5,
+      74,
+      210
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 748,
+    "type": "cc.Node",
+    "_name": "tableTip",
+    "_parent": 5,
+    "_components": [
+      [
+        16,
+        1,
+        0,
+        -33,
+        [
+          14
+        ],
+        15
+      ]
+    ],
+    "_prefab": [
+      0,
+      "63c2Ar/T1BF5+ip7WvSVmv",
+      1
+    ],
+    "_contentSize": [
+      5,
+      300,
+      150
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 748,
+    "type": "cc.Node",
+    "_name": "New Label",
+    "_parent": 6,
+    "_components": [
+      [
+        2,
+        "换牌中",
+        35,
+        35,
+        1,
+        1,
+        -34,
+        [
+          16
+        ]
+      ]
+    ],
+    "_prefab": [
+      0,
+      "244dUH/3FGyJiLrgtiNFvB",
+      1
+    ],
+    "_color": [
+      4,
+      4291558399
+    ],
+    "_contentSize": [
+      5,
+      105,
+      44.1
+    ],
+    "_trs": [
+      0,
+      29.301,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 748,
+    "type": "cc.Node",
+    "_name": "New Label",
+    "_parent": 6,
+    "_components": [
+      [
+        2,
+        "本局对家换牌",
+        35,
+        35,
+        1,
+        1,
+        -35,
+        [
+          17
+        ]
+      ]
+    ],
+    "_prefab": [
+      0,
+      "d7DFxwpyFAlZ0sQXrGUjAm",
+      1
+    ],
+    "_color": [
+      4,
+      4294901502
+    ],
+    "_contentSize": [
+      5,
+      210,
+      44.1
+    ],
+    "_trs": [
+      0,
+      -24.673,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 748,
+    "type": "cc.Node",
+    "_name": "img_changeMode_MEM",
+    "_active": false,
+    "_parent": 3,
+    "_components": [
+      [
+        1,
+        -36,
+        [
+          19
+        ],
+        20
+      ]
+    ],
+    "_prefab": [
+      0,
+      "630WWY+etPlLwypgHnLoO+",
+      1
+    ],
+    "_contentSize": [
+      5,
+      256,
+      49
+    ],
+    "_trs": [
+      0,
+      25.094,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 748,
+    "type": "cc.Node",
+    "_name": "lab_2v2Tips",
+    "_active": false,
+    "_parent": 3,
+    "_components": [
+      [
+        2,
+        "2V2对局中仅计分，结算时平分游戏豆",
+        26,
+        28,
+        1,
+        1,
+        -37,
+        [
+          21
+        ]
+      ]
+    ],
+    "_prefab": [
+      0,
+      "a2U05yEqZAmJgBiV7LrZfY",
+      1
+    ],
+    "_color": [
+      4,
+      4292730074
+    ],
+    "_contentSize": [
+      5,
+      436.26,
+      35.28
+    ],
+    "_trs": [
+      0,
+      -25.823,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 748,
+    "type": "cc.Node",
+    "_name": "New Label",
+    "_parent": 3,
+    "_components": [
+      [
+        2,
+        "与队友换牌中",
+        35,
+        35,
+        1,
+        1,
+        -38,
+        [
+          22
+        ]
+      ]
+    ],
+    "_prefab": [
+      0,
+      "7eQrOpFLNKPqGAshlm3UIc",
+      1
+    ],
+    "_color": [
+      4,
+      4291558399
+    ],
+    "_contentSize": [
+      5,
+      210,
+      44.1
+    ],
+    "_trs": [
+      0,
+      29.301,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 748,
+    "type": "cc.Node",
+    "_name": "New Label",
+    "_parent": 3,
+    "_components": [
+      [
+        2,
+        "2v2对局中仅计分，结算时平分游戏豆",
+        25,
+        25,
+        1,
+        1,
+        -39,
+        [
+          23
+        ]
+      ]
+    ],
+    "_prefab": [
+      0,
+      "1bkbH4RaRHm4FmrgmOIVVZ",
+      1
+    ],
+    "_color": [
+      4,
+      4294901502
+    ],
+    "_contentSize": [
+      5,
+      415.31,
+      31.5
+    ],
+    "_trs": [
+      0,
+      -23.272,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "pannel_HSZ",
+    "_children": [
+      -23,
+      -24,
+      -25,
+      -26,
+      -27,
+      -28,
+      -29
+    ],
+    "_components": [
+      [
+        [
+          59,
+          0,
+          45,
+          -2
+        ],
+        [
+          64,
+          -21,
+          -20,
+          -19,
+          [
+            -15,
+            -16,
+            -17,
+            -18
+          ],
+          -14,
+          [
+            -10,
+            -11,
+            -12,
+            -13
+          ],
+          -9,
+          -8,
+          -7,
+          -6,
+          -5,
+          -4,
+          -3,
+          208
+        ],
+        -22
+      ],
+      4,
+      4,
+      1
+    ],
+    "_prefab": [
+      55,
+      -1
+    ],
+    "_contentSize": [
+      5,
+      1280,
+      720
+    ],
+    "_trs": [
+      640,
+      360,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "tile_base1",
+    "_children": [
+      -39,
+      -40,
+      -41,
+      -42,
+      -43,
+      -44
+    ],
+    "_components": [
+      [
+        -30,
+        [
+          15,
+          -38,
+          -37,
+          -36,
+          -35,
+          -34,
+          [
+            99,
+            100
+          ],
+          -33,
+          -32,
+          -31,
+          98,
+          101,
+          102,
+          103,
+          104
+        ]
+      ],
+      1,
+      4
+    ],
+    "_prefab": [
+      0,
+      "41Po6nPU9DqKeEda2d2eXD",
+      1
+    ],
+    "_contentSize": [
+      5,
+      91,
+      134
+    ],
+    "_trs": [
+      -63,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0.65,
+      0.65,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "tile_base2",
+    "_children": [
+      -54,
+      -55,
+      -56,
+      -57,
+      -58,
+      -59
+    ],
+    "_components": [
+      [
+        -45,
+        [
+          15,
+          -53,
+          -52,
+          -51,
+          -50,
+          -49,
+          [
+            118,
+            119
+          ],
+          -48,
+          -47,
+          -46,
+          117,
+          120,
+          121,
+          122,
+          123
+        ]
+      ],
+      1,
+      4
+    ],
+    "_prefab": [
+      0,
+      "a21ws54qtKRL+BwqtBcIoj",
+      1
+    ],
+    "_contentSize": [
+      5,
+      91,
+      134
+    ],
+    "_trs": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0.65,
+      0.65,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "tile_base3",
+    "_children": [
+      -69,
+      -70,
+      -71,
+      -72,
+      -73,
+      -74
+    ],
+    "_components": [
+      [
+        -60,
+        [
+          15,
+          -68,
+          -67,
+          -66,
+          -65,
+          -64,
+          [
+            137,
+            138
+          ],
+          -63,
+          -62,
+          -61,
+          136,
+          139,
+          140,
+          141,
+          142
+        ]
+      ],
+      1,
+      4
+    ],
+    "_prefab": [
+      0,
+      "d0Bw/HPT9BFZdQxI/EhkNt",
+      1
+    ],
+    "_contentSize": [
+      5,
+      91,
+      134
+    ],
+    "_trs": [
+      63,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0.65,
+      0.65,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "tile_base1",
+    "_children": [
+      -84,
+      -85,
+      -86,
+      -87,
+      -88,
+      -89
+    ],
+    "_components": [
+      [
+        -75,
+        [
+          15,
+          -83,
+          -82,
+          -81,
+          -80,
+          -79,
+          [
+            159,
+            160
+          ],
+          -78,
+          -77,
+          -76,
+          158,
+          161,
+          162,
+          163,
+          164
+        ]
+      ],
+      1,
+      4
+    ],
+    "_prefab": [
+      0,
+      "70X8J0NS5MlrsKCnnne6YP",
+      1
+    ],
+    "_contentSize": [
+      5,
+      91,
+      134
+    ],
+    "_trs": [
+      -63,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0.65,
+      0.65,
+      0.65
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "tile_base2",
+    "_children": [
+      -99,
+      -100,
+      -101,
+      -102,
+      -103,
+      -104
+    ],
+    "_components": [
+      [
+        -90,
+        [
+          15,
+          -98,
+          -97,
+          -96,
+          -95,
+          -94,
+          [
+            178,
+            179
+          ],
+          -93,
+          -92,
+          -91,
+          177,
+          180,
+          181,
+          182,
+          183
+        ]
+      ],
+      1,
+      4
+    ],
+    "_prefab": [
+      0,
+      "58IuIMCP1LQrcWXVJgDKz8",
+      1
+    ],
+    "_contentSize": [
+      5,
+      91,
+      134
+    ],
+    "_trs": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0.65,
+      0.65,
+      0.65
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "tile_base3",
+    "_children": [
+      -114,
+      -115,
+      -116,
+      -117,
+      -118,
+      -119
+    ],
+    "_components": [
+      [
+        -105,
+        [
+          15,
+          -113,
+          -112,
+          -111,
+          -110,
+          -109,
+          [
+            197,
+            198
+          ],
+          -108,
+          -107,
+          -106,
+          196,
+          199,
+          200,
+          201,
+          202
+        ]
+      ],
+      1,
+      4
+    ],
+    "_prefab": [
+      0,
+      "fdBjErcr5AfoowDazZsBj7",
+      1
+    ],
+    "_contentSize": [
+      5,
+      91,
+      134
+    ],
+    "_trs": [
+      63,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0.65,
+      0.65,
+      0.65
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "imgBg2v2",
+    "_children": [
+      -120,
+      -121,
+      -122,
+      -123,
+      -124,
+      -125,
+      -126,
+      -127
+    ],
+    "_prefab": [
+      0,
+      "5aD2jc/oFNlYVWBotXHSCZ",
+      1
+    ],
+    "_contentSize": [
+      5,
+      237,
+      135
+    ],
+    "_trs": [
+      0,
+      95,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "Anim_HSZ",
+    "_groupIndex": 7,
+    "_parent": 1,
+    "_children": [
+      -129,
+      -130,
+      -131,
+      -132,
+      -133
+    ],
+    "_components": [
+      [
+        56,
+        45,
+        -128,
+        1
+      ]
+    ],
+    "_prefab": [
+      0,
+      "2ep1RGGkJFQIOrsRi0VOZh",
+      1
+    ],
+    "_contentSize": [
+      5,
+      1280,
+      720
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "Diamond",
+    "_active": false,
+    "_parent": 2,
+    "_children": [
+      -135,
+      -136,
+      -137,
+      -138,
+      -139
+    ],
+    "_components": [
+      [
+        14,
+        true,
+        -134,
+        [
+          93
+        ],
+        92
+      ]
+    ],
+    "_prefab": [
+      0,
+      "62193iILNJQ6DuUuryR3C3",
+      1
+    ],
+    "_trs": [
+      2,
+      50,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "Diamond",
+    "_active": false,
+    "_parent": 3,
+    "_children": [
+      -141,
+      -142,
+      -143,
+      -144,
+      -145
+    ],
+    "_components": [
+      [
+        14,
+        true,
+        -140,
+        [
+          112
+        ],
+        111
+      ]
+    ],
+    "_prefab": [
+      0,
+      "40oX0sUEZGRq9ERMERzUlS",
+      1
+    ],
+    "_trs": [
+      2,
+      50,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "Diamond",
+    "_active": false,
+    "_parent": 4,
+    "_children": [
+      -147,
+      -148,
+      -149,
+      -150,
+      -151
+    ],
+    "_components": [
+      [
+        14,
+        true,
+        -146,
+        [
+          131
+        ],
+        130
+      ]
+    ],
+    "_prefab": [
+      0,
+      "87GbXLUwRGTq3O3c9UJ0LA",
+      1
+    ],
+    "_trs": [
+      2,
+      50,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "Diamond",
+    "_active": false,
+    "_parent": 5,
+    "_children": [
+      -153,
+      -154,
+      -155,
+      -156,
+      -157
+    ],
+    "_components": [
+      [
+        14,
+        true,
+        -152,
+        [
+          153
+        ],
+        152
+      ]
+    ],
+    "_prefab": [
+      0,
+      "acCtE+aWhDmpGZ0C3Y20rI",
+      1
+    ],
+    "_trs": [
+      2,
+      50,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "Diamond",
+    "_active": false,
+    "_parent": 6,
+    "_children": [
+      -159,
+      -160,
+      -161,
+      -162,
+      -163
+    ],
+    "_components": [
+      [
+        14,
+        true,
+        -158,
+        [
+          172
+        ],
+        171
+      ]
+    ],
+    "_prefab": [
+      0,
+      "59hwB/yQ9IS4s2G/MysJ+y",
+      1
+    ],
+    "_trs": [
+      2,
+      50,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "Diamond",
+    "_active": false,
+    "_parent": 7,
+    "_children": [
+      -165,
+      -166,
+      -167,
+      -168,
+      -169
+    ],
+    "_components": [
+      [
+        14,
+        true,
+        -164,
+        [
+          191
+        ],
+        190
+      ]
+    ],
+    "_prefab": [
+      0,
+      "9ewoUCOxZHv7JKnoYuF0OG",
+      1
+    ],
+    "_trs": [
+      2,
+      50,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "mine",
+    "_active": false,
+    "_groupIndex": 7,
+    "_parent": 9,
+    "_children": [
+      -171,
+      -172,
+      -173
+    ],
+    "_components": [
+      [
+        35,
+        false,
+        1,
+        1,
+        -4,
+        -170,
+        [
+          5,
+          165,
+          150
+        ]
+      ]
+    ],
+    "_prefab": [
+      0,
+      "3djhv5e2BAC4/YwShy5KNZ",
+      1
+    ],
+    "_contentSize": [
+      5,
+      165,
+      150
+    ],
+    "_trs": [
+      0,
+      -115,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "left",
+    "_active": false,
+    "_groupIndex": 7,
+    "_parent": 9,
+    "_children": [
+      -175,
+      -176,
+      -177
+    ],
+    "_components": [
+      [
+        36,
+        false,
+        1,
+        2,
+        -22,
+        -174,
+        [
+          5,
+          308,
+          108
+        ]
+      ]
+    ],
+    "_prefab": [
+      0,
+      "51LeN9iFZKfb7Ru2Hy+eiO",
+      1
+    ],
+    "_contentSize": [
+      5,
+      308,
+      108
+    ],
+    "_trs": [
+      -271,
+      25,
+      0,
+      0,
+      0,
+      0.026176948307873153,
+      0.9996573249755573,
+      1,
+      1,
+      1
+    ],
+    "_eulerAngles": [
+      1,
+      0,
+      0,
+      3
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "front",
+    "_active": false,
+    "_groupIndex": 7,
+    "_parent": 9,
+    "_children": [
+      -179,
+      -180,
+      -181
+    ],
+    "_components": [
+      [
+        35,
+        false,
+        1,
+        1,
+        -4,
+        -178,
+        [
+          5,
+          165,
+          150
+        ]
+      ]
+    ],
+    "_prefab": [
+      0,
+      "28ovQUj6JIZbcGHQI5GfFy",
+      1
+    ],
+    "_contentSize": [
+      5,
+      165,
+      150
+    ],
+    "_trs": [
+      0,
+      232,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0.8,
+      0.8,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "right",
+    "_active": false,
+    "_groupIndex": 7,
+    "_parent": 9,
+    "_children": [
+      -183,
+      -184,
+      -185
+    ],
+    "_components": [
+      [
+        36,
+        false,
+        1,
+        2,
+        -21,
+        -182,
+        [
+          5,
+          308,
+          123
+        ]
+      ]
+    ],
+    "_prefab": [
+      0,
+      "40hJ4AwpROSI7Da9mD18cc",
+      1
+    ],
+    "_contentSize": [
+      5,
+      308,
+      123
+    ],
+    "_trs": [
+      275,
+      25,
+      0,
+      0,
+      0,
+      -0.026176948307873153,
+      0.9996573249755573,
+      -1,
+      1,
+      1
+    ],
+    "_eulerAngles": [
+      1,
+      0,
+      0,
+      -3
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "img_HszTip",
+    "_children": [
+      -186,
+      -187,
+      -188,
+      -189
+    ],
+    "_prefab": [
+      0,
+      "1c07MVCxdNdploM3v72Hki",
+      1
+    ],
+    "_contentSize": [
+      5,
+      500,
+      200
+    ],
+    "_trs": [
+      0,
+      -50.5,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "img_slectedFrame",
+    "_children": [
+      -191,
+      2,
+      3,
+      4
+    ],
+    "_components": [
+      -190
+    ],
+    "_prefab": [
+      0,
+      "aeT9FWiqdBO58PKalLtqHd",
+      1
+    ],
+    "_contentSize": [
+      5,
+      206,
+      100
+    ],
+    "_trs": [
+      0,
+      76.992,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "img_slectedFrame",
+    "_children": [
+      -193,
+      5,
+      6,
+      7
+    ],
+    "_components": [
+      -192
+    ],
+    "_prefab": [
+      0,
+      "83H8EL0GhHRKSnkiNEGjWY",
+      1
+    ],
+    "_contentSize": [
+      5,
+      206,
+      100
+    ],
+    "_trs": [
+      0,
+      -76.992,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "btn_reqHSZ",
+    "_parent": 20,
+    "_children": [
+      -196
+    ],
+    "_components": [
+      [
+        [
+          18,
+          2,
+          false,
+          -194,
+          [
+            27
+          ],
+          28
+        ],
+        -195
+      ],
+      4,
+      1
+    ],
+    "_prefab": [
+      0,
+      "86YVfadmNIubczqgiBh4Qn",
+      1
+    ],
+    "_contentSize": [
+      5,
+      233,
+      85
+    ],
+    "_trs": [
+      0,
+      -46.069,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "RichText",
+    "_children": [
+      -198,
+      -199,
+      -200
+    ],
+    "_components": [
+      [
+        40,
+        "<color=#fffbcb>选择</c><color=#ff5a2b>任意3张</c><color=#fffbcb>手牌</color>",
+        35,
+        50,
+        -197
+      ]
+    ],
+    "_prefab": [
+      0,
+      "90ipxKL7lMcojmQ3pfLli4",
+      1
+    ],
+    "_contentSize": [
+      5,
+      264.47,
+      63
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "RichText",
+    "_children": [
+      -202,
+      -203,
+      -204
+    ],
+    "_components": [
+      [
+        40,
+        "<color=#fffbcb>选择三张</c><color=#ff5a2b>同花色</c><color=#fffbcb>手牌</color>",
+        35,
+        50,
+        -201
+      ]
+    ],
+    "_prefab": [
+      0,
+      "2fnIb3DLRChYkcRJFza1kh",
+      1
+    ],
+    "_contentSize": [
+      5,
+      315,
+      63
+    ],
+    "_trs": [
+      0,
+      2.062,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "DotNode",
+    "_children": [
+      -205,
+      -206,
+      -207
+    ],
+    "_prefab": [
+      0,
+      "06yV5o99FGfbdP3biW7yYR",
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "DotNode",
+    "_children": [
+      -208,
+      -209,
+      -210
+    ],
+    "_prefab": [
+      0,
+      "3eQETnMeZKYLZH05ZeHQO4",
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "DotNode",
+    "_children": [
+      -211,
+      -212,
+      -213
+    ],
+    "_prefab": [
+      0,
+      "d75t9BiVdK4YCKOqXqn83A",
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "DotNode",
+    "_children": [
+      -214,
+      -215,
+      -216
+    ],
+    "_prefab": [
+      0,
+      "f4Y7XUAlBBU6Shhi69kGUx",
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "btn_green",
+    "_parent": 8,
+    "_children": [
+      -219
+    ],
+    "_components": [
+      [
+        18,
+        2,
+        false,
+        -217,
+        [
+          205
+        ],
+        206
+      ],
+      [
+        62,
+        0,
+        1.1,
+        true,
+        3,
+        -218,
+        [
+          [
+            39,
+            "3b46dY9WzNM0btFl29NluvG",
+            "onClickHSZ",
+            1
+          ]
+        ],
+        [
+          4,
+          4292269782
+        ],
+        207
+      ]
+    ],
+    "_prefab": [
+      0,
+      "99I86/LyNHDqIYlWOL8JfV",
+      1
+    ],
+    "_contentSize": [
+      5,
+      233,
+      85
+    ],
+    "_trs": [
+      0,
+      -180,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "img_SameCorlorWord",
+    "_active": false,
+    "_parent": 20,
+    "_children": [
+      25
+    ],
+    "_components": [
+      [
+        53,
+        false,
+        -220,
+        [
+          35
+        ],
+        36
+      ]
+    ],
+    "_prefab": [
+      0,
+      "f9+4f1OJZDk5jaM9xxl9Ia",
+      1
+    ],
+    "_contentSize": [
+      5,
+      377,
+      40
+    ],
+    "_trs": [
+      0,
+      58.219,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "img_waitHSZ_mine",
+    "_active": false,
+    "_parent": 1,
+    "_children": [
+      -222
+    ],
+    "_components": [
+      [
+        37,
+        0,
+        5,
+        258,
+        487,
+        165,
+        68,
+        -221
+      ]
+    ],
+    "_prefab": [
+      0,
+      "b7fIQX1zdOIIxOwRNXxZIr",
+      1
+    ],
+    "_contentSize": [
+      5,
+      150,
+      68
+    ],
+    "_trs": [
+      4,
+      -161,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "ChoosingItem",
+    "_parent": 32,
+    "_children": [
+      -224,
+      26
+    ],
+    "_components": [
+      [
+        23,
+        -223,
+        26
+      ]
+    ],
+    "_prefab": [
+      0,
+      "68Nq7u/u5EMZPgnXGE4GXO",
+      1
+    ],
+    "_contentSize": [
+      5,
+      165,
+      74
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "img_waitHSZ_left",
+    "_active": false,
+    "_parent": 1,
+    "_children": [
+      -226
+    ],
+    "_components": [
+      [
+        37,
+        0,
+        5,
+        258,
+        292,
+        360,
+        68,
+        -225
+      ]
+    ],
+    "_prefab": [
+      0,
+      "20YCXeeMNNFpjDhVx0JplW",
+      1
+    ],
+    "_contentSize": [
+      5,
+      150,
+      68
+    ],
+    "_trs": [
+      -307,
+      34,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "ChoosingItem",
+    "_parent": 34,
+    "_children": [
+      -228,
+      27
+    ],
+    "_components": [
+      [
+        23,
+        -227,
+        27
+      ]
+    ],
+    "_prefab": [
+      0,
+      "abHjvk6EJNu7d5NjMAaDrU",
+      1
+    ],
+    "_contentSize": [
+      5,
+      165,
+      74
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "img_waitHSZ_front",
+    "_active": false,
+    "_parent": 1,
+    "_children": [
+      -230
+    ],
+    "_components": [
+      [
+        57,
+        0,
+        41,
+        565,
+        565,
+        134,
+        150,
+        -229
+      ]
+    ],
+    "_prefab": [
+      0,
+      "9efyoIb39E5oo97D5z9JzE",
+      1
+    ],
+    "_contentSize": [
+      5,
+      150,
+      68
+    ],
+    "_trs": [
+      0,
+      192,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "ChoosingItem",
+    "_parent": 36,
+    "_children": [
+      -232,
+      28
+    ],
+    "_components": [
+      [
+        23,
+        -231,
+        28
+      ]
+    ],
+    "_prefab": [
+      0,
+      "3clOo9Fy5PV6cEphduXEKe",
+      1
+    ],
+    "_contentSize": [
+      5,
+      165,
+      74
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "img_waitHSZ_right",
+    "_active": false,
+    "_parent": 1,
+    "_children": [
+      -234
+    ],
+    "_components": [
+      [
+        58,
+        0,
+        5,
+        241.5,
+        292,
+        360,
+        68,
+        -233
+      ]
+    ],
+    "_prefab": [
+      0,
+      "ce8pRtL+xFDbyTMiOPNz7/",
+      1
+    ],
+    "_contentSize": [
+      5,
+      150,
+      68
+    ],
+    "_trs": [
+      323.5,
+      34,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "ChoosingItem",
+    "_parent": 38,
+    "_children": [
+      -236,
+      29
+    ],
+    "_components": [
+      [
+        23,
+        -235,
+        29
+      ]
+    ],
+    "_prefab": [
+      0,
+      "42ZHB0AI9E5agO2+AlNsdc",
+      1
+    ],
+    "_contentSize": [
+      5,
+      165,
+      74
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "2V2",
+    "_active": false,
+    "_parent": 1,
+    "_children": [
+      8
+    ],
+    "_prefab": [
+      0,
+      "7ck0CZc3pFOKUJWkroo4Gw",
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "normal",
+    "_parent": 1,
+    "_children": [
+      20
+    ],
+    "_prefab": [
+      0,
+      "86hg54ielA0IMBQhgfbfW4",
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "img_AllCorlorWord",
+    "_parent": 20,
+    "_children": [
+      24
+    ],
+    "_prefab": [
+      0,
+      "b4z/ZtU/tIs6wjOfK+fOFJ",
+      1
+    ],
+    "_contentSize": [
+      5,
+      309,
+      39
+    ],
+    "_trs": [
+      0,
+      58.362,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "img_sign",
+    "_active": false,
+    "_parent": 21,
+    "_components": [
+      [
+        1,
+        -237,
+        [
+          78
+        ],
+        79
+      ]
+    ],
+    "_prefab": [
+      0,
+      "47euaUqkxFmbsUr5pI8H9B",
+      1
+    ],
+    "_contentSize": [
+      5,
+      43,
+      32
+    ],
+    "_trs": [
+      134.567,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "img_sign",
+    "_active": false,
+    "_parent": 22,
+    "_components": [
+      [
+        1,
+        -238,
+        [
+          144
+        ],
+        145
+      ]
+    ],
+    "_prefab": [
+      0,
+      "a0UGyHiohH6ZTuZeuBxTPW",
+      1
+    ],
+    "_contentSize": [
+      5,
+      43,
+      32
+    ],
+    "_trs": [
+      134.567,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "img_Tile",
+    "_groupIndex": 7,
+    "_parent": 16,
+    "_components": [
+      [
+        1,
+        -239,
+        [
+          0
+        ],
+        1
+      ]
+    ],
+    "_prefab": [
+      0,
+      "9e8kax7PtIhqi27jKWmsPP",
+      1
+    ],
+    "_contentSize": [
+      5,
+      59,
+      77
+    ],
+    "_trs": [
+      -52,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "img_Tile",
+    "_groupIndex": 7,
+    "_parent": 16,
+    "_components": [
+      [
+        1,
+        -240,
+        [
+          2
+        ],
+        3
+      ]
+    ],
+    "_prefab": [
+      0,
+      "f1SSrSj2xFrLfOk+uKC9Qg",
+      1
+    ],
+    "_contentSize": [
+      5,
+      58,
+      77
+    ],
+    "_trs": [
+      -2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "img_Tile",
+    "_groupIndex": 7,
+    "_parent": 16,
+    "_components": [
+      [
+        1,
+        -241,
+        [
+          4
+        ],
+        5
+      ]
+    ],
+    "_prefab": [
+      0,
+      "0cIJ2rTtZAHZojtFBgiZkx",
+      1
+    ],
+    "_contentSize": [
+      5,
+      56,
+      77
+    ],
+    "_trs": [
+      48,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "img_Tile",
+    "_groupIndex": 7,
+    "_parent": 17,
+    "_components": [
+      [
+        1,
+        -242,
+        [
+          6
+        ],
+        7
+      ]
+    ],
+    "_prefab": [
+      0,
+      "07O2OatO1MgLda6EDdYrbS",
+      1
+    ],
+    "_contentSize": [
+      5,
+      80,
+      59
+    ],
+    "_trs": [
+      -4,
+      52.8,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "img_Tile",
+    "_groupIndex": 7,
+    "_parent": 17,
+    "_components": [
+      [
+        1,
+        -243,
+        [
+          8
+        ],
+        9
+      ]
+    ],
+    "_prefab": [
+      0,
+      "88RgA9+OFJa4ONm/rfhKCJ",
+      1
+    ],
+    "_contentSize": [
+      5,
+      81,
+      60
+    ],
+    "_trs": [
+      -11.8,
+      11.8,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "img_Tile",
+    "_groupIndex": 7,
+    "_parent": 17,
+    "_components": [
+      [
+        1,
+        -244,
+        [
+          10
+        ],
+        11
+      ]
+    ],
+    "_prefab": [
+      0,
+      "931iI+INtMyI3gnwm1/u3p",
+      1
+    ],
+    "_contentSize": [
+      5,
+      82,
+      61
+    ],
+    "_trs": [
+      -19.5,
+      -29.4,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "img_Tile",
+    "_groupIndex": 7,
+    "_parent": 18,
+    "_components": [
+      [
+        1,
+        -245,
+        [
+          12
+        ],
+        13
+      ]
+    ],
+    "_prefab": [
+      0,
+      "83mirqdZ5NuoF+lLbfKJd0",
+      1
+    ],
+    "_contentSize": [
+      5,
+      59,
+      77
+    ],
+    "_trs": [
+      -48,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "img_Tile",
+    "_groupIndex": 7,
+    "_parent": 18,
+    "_components": [
+      [
+        1,
+        -246,
+        [
+          14
+        ],
+        15
+      ]
+    ],
+    "_prefab": [
+      0,
+      "47VPJVXU1GqYhF8RJRs1jS",
+      1
+    ],
+    "_contentSize": [
+      5,
+      58,
+      77
+    ],
+    "_trs": [
+      2.5,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "img_Tile",
+    "_groupIndex": 7,
+    "_parent": 18,
+    "_components": [
+      [
+        1,
+        -247,
+        [
+          16
+        ],
+        17
+      ]
+    ],
+    "_prefab": [
+      0,
+      "e5N3/HpKdEZ5ZvG7oP7lPD",
+      1
+    ],
+    "_contentSize": [
+      5,
+      56,
+      77
+    ],
+    "_trs": [
+      53,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "img_Tile",
+    "_groupIndex": 7,
+    "_parent": 19,
+    "_components": [
+      [
+        1,
+        -248,
+        [
+          18
+        ],
+        19
+      ]
+    ],
+    "_prefab": [
+      0,
+      "dcUrZ8g+BCMph78c/9ZRqF",
+      1
+    ],
+    "_contentSize": [
+      5,
+      80,
+      59
+    ],
+    "_trs": [
+      1.9,
+      48.8,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "img_Tile",
+    "_groupIndex": 7,
+    "_parent": 19,
+    "_components": [
+      [
+        1,
+        -249,
+        [
+          20
+        ],
+        21
+      ]
+    ],
+    "_prefab": [
+      0,
+      "daq/vZIglLMIFq4jA0a8TT",
+      1
+    ],
+    "_contentSize": [
+      5,
+      81,
+      60
+    ],
+    "_trs": [
+      -5.8,
+      8.7,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "img_Tile",
+    "_groupIndex": 7,
+    "_parent": 19,
+    "_components": [
+      [
+        1,
+        -250,
+        [
+          22
+        ],
+        23
+      ]
+    ],
+    "_prefab": [
+      0,
+      "baA6Lv/7FDy7wrt5lRwnU6",
+      1
+    ],
+    "_contentSize": [
+      5,
+      82,
+      61
+    ],
+    "_trs": [
+      -13.8,
+      -31.8,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "Anim_arrows_Rotation",
+    "_active": false,
+    "_groupIndex": 7,
+    "_parent": 9,
+    "_prefab": [
+      0,
+      "5fKLvg85lK4onfVCVksHk0",
+      1
+    ],
+    "_trs": [
+      0,
+      28,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "tableTip",
+    "_parent": 20,
+    "_components": [
+      [
+        52,
+        1,
+        0,
+        -251,
+        [
+          24
+        ],
+        25
+      ]
+    ],
+    "_prefab": [
+      0,
+      "65Q31r+Q9AQ4FeI1DGLI9s",
+      1
+    ],
+    "_contentSize": [
+      5,
+      500,
+      200
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "New Label",
+    "_parent": 23,
+    "_components": [
+      -252
+    ],
+    "_prefab": [
+      0,
+      "c2fZsdWIpPEYpzwz/fy0PY",
+      1
+    ],
+    "_color": [
+      4,
+      4279196870
+    ],
+    "_contentSize": [
+      5,
+      86.89,
+      56.7
+    ],
+    "_trs": [
+      0,
+      8,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "SpriteNode",
+    "_parent": 33,
+    "_components": [
+      [
+        1,
+        -259,
+        [
+          37
+        ],
+        38
+      ]
+    ],
+    "_prefab": [
+      0,
+      "f3l0VW5TtIV64FE59AmIC7",
+      1
+    ],
+    "_contentSize": [
+      5,
+      149,
+      57
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "tingDotImg",
+    "_parent": 26,
+    "_components": [
+      [
+        1,
+        -260,
+        [
+          39
+        ],
+        40
+      ]
+    ],
+    "_prefab": [
+      0,
+      "48zzafEvhEqZUpml/RjLMz",
+      1
+    ],
+    "_contentSize": [
+      5,
+      10,
+      12
+    ],
+    "_trs": [
+      87,
+      -12,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "tingDotImg",
+    "_parent": 26,
+    "_components": [
+      [
+        1,
+        -261,
+        [
+          41
+        ],
+        42
+      ]
+    ],
+    "_prefab": [
+      0,
+      "06c3+Eav9K46kL1PKvW9HX",
+      1
+    ],
+    "_contentSize": [
+      5,
+      10,
+      12
+    ],
+    "_trs": [
+      109,
+      -12,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "tingDotImg",
+    "_parent": 26,
+    "_components": [
+      [
+        1,
+        -262,
+        [
+          43
+        ],
+        44
+      ]
+    ],
+    "_prefab": [
+      0,
+      "85135f5wpG5ZNRYf6Fycku",
+      1
+    ],
+    "_contentSize": [
+      5,
+      10,
+      12
+    ],
+    "_trs": [
+      132,
+      -12,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "SpriteNode",
+    "_parent": 35,
+    "_components": [
+      [
+        1,
+        -263,
+        [
+          45
+        ],
+        46
+      ]
+    ],
+    "_prefab": [
+      0,
+      "24lNuRNYpHY7/PVjhr1DjJ",
+      1
+    ],
+    "_contentSize": [
+      5,
+      149,
+      57
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "tingDotImg",
+    "_parent": 27,
+    "_components": [
+      [
+        1,
+        -264,
+        [
+          47
+        ],
+        48
+      ]
+    ],
+    "_prefab": [
+      0,
+      "03vrGDei9PdZRsdMXpIAd1",
+      1
+    ],
+    "_contentSize": [
+      5,
+      10,
+      12
+    ],
+    "_trs": [
+      87,
+      -12,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "tingDotImg",
+    "_parent": 27,
+    "_components": [
+      [
+        1,
+        -265,
+        [
+          49
+        ],
+        50
+      ]
+    ],
+    "_prefab": [
+      0,
+      "40b0J1NuBMXZ2DwJ5/bBUf",
+      1
+    ],
+    "_contentSize": [
+      5,
+      10,
+      12
+    ],
+    "_trs": [
+      109,
+      -12,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "tingDotImg",
+    "_parent": 27,
+    "_components": [
+      [
+        1,
+        -266,
+        [
+          51
+        ],
+        52
+      ]
+    ],
+    "_prefab": [
+      0,
+      "b5xtD5D8tJAKQtRcXg+1Q8",
+      1
+    ],
+    "_contentSize": [
+      5,
+      10,
+      12
+    ],
+    "_trs": [
+      132,
+      -12,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "SpriteNode",
+    "_parent": 37,
+    "_components": [
+      [
+        1,
+        -267,
+        [
+          53
+        ],
+        54
+      ]
+    ],
+    "_prefab": [
+      0,
+      "47af83fb9CAqGiix//z5Zc",
+      1
+    ],
+    "_contentSize": [
+      5,
+      149,
+      57
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "tingDotImg",
+    "_parent": 28,
+    "_components": [
+      [
+        1,
+        -268,
+        [
+          55
+        ],
+        56
+      ]
+    ],
+    "_prefab": [
+      0,
+      "d2wRHbbGZKO5/U8fs35DAM",
+      1
+    ],
+    "_contentSize": [
+      5,
+      10,
+      12
+    ],
+    "_trs": [
+      87,
+      -12,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "tingDotImg",
+    "_parent": 28,
+    "_components": [
+      [
+        1,
+        -269,
+        [
+          57
+        ],
+        58
+      ]
+    ],
+    "_prefab": [
+      0,
+      "2bhWargotPdacnQ0DDNVUA",
+      1
+    ],
+    "_contentSize": [
+      5,
+      10,
+      12
+    ],
+    "_trs": [
+      109,
+      -12,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "tingDotImg",
+    "_parent": 28,
+    "_components": [
+      [
+        1,
+        -270,
+        [
+          59
+        ],
+        60
+      ]
+    ],
+    "_prefab": [
+      0,
+      "0dHt8QioZAzIzLpzbYS2io",
+      1
+    ],
+    "_contentSize": [
+      5,
+      10,
+      12
+    ],
+    "_trs": [
+      132,
+      -12,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "SpriteNode",
+    "_parent": 39,
+    "_components": [
+      [
+        1,
+        -271,
+        [
+          61
+        ],
+        62
+      ]
+    ],
+    "_prefab": [
+      0,
+      "d89zzyX7VH0qI0TGCqKkag",
+      1
+    ],
+    "_contentSize": [
+      5,
+      149,
+      57
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "tingDotImg",
+    "_parent": 29,
+    "_components": [
+      [
+        1,
+        -272,
+        [
+          63
+        ],
+        64
+      ]
+    ],
+    "_prefab": [
+      0,
+      "fdu9mpYSxIvK/IshqbrzRM",
+      1
+    ],
+    "_contentSize": [
+      5,
+      10,
+      12
+    ],
+    "_trs": [
+      87,
+      -12,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "tingDotImg",
+    "_parent": 29,
+    "_components": [
+      [
+        1,
+        -273,
+        [
+          65
+        ],
+        66
+      ]
+    ],
+    "_prefab": [
+      0,
+      "d33nlD6IdDwaf5YidszYXO",
+      1
+    ],
+    "_contentSize": [
+      5,
+      10,
+      12
+    ],
+    "_trs": [
+      109,
+      -12,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "tingDotImg",
+    "_parent": 29,
+    "_components": [
+      [
+        1,
+        -274,
+        [
+          67
+        ],
+        68
+      ]
+    ],
+    "_prefab": [
+      0,
+      "0384Pg6FFHW6FuhW6DyBit",
+      1
+    ],
+    "_contentSize": [
+      5,
+      10,
+      12
+    ],
+    "_trs": [
+      132,
+      -12,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "img_2v2_bg",
+    "_parent": 8,
+    "_components": [
+      [
+        1,
+        -275,
+        [
+          69
+        ],
+        70
+      ]
+    ],
+    "_prefab": [
+      0,
+      "aeQgl/rc5B975zlmrnyBZI",
+      1
+    ],
+    "_contentSize": [
+      5,
+      482,
+      270
+    ],
+    "_anchorPoint": [
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "img_2v2_bg",
+    "_parent": 8,
+    "_components": [
+      [
+        1,
+        -276,
+        [
+          71
+        ],
+        72
+      ]
+    ],
+    "_prefab": [
+      0,
+      "d47+IDVeBK1YvvbEpjWiFV",
+      1
+    ],
+    "_contentSize": [
+      5,
+      482,
+      270
+    ],
+    "_anchorPoint": [
+      0,
+      1,
+      1
+    ],
+    "_trs": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      -1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "img_2v2_bg",
+    "_parent": 8,
+    "_components": [
+      [
+        1,
+        -277,
+        [
+          73
+        ],
+        74
+      ]
+    ],
+    "_prefab": [
+      0,
+      "40B8XjCuFNvYhpKf49wXL6",
+      1
+    ],
+    "_contentSize": [
+      5,
+      482,
+      270
+    ],
+    "_anchorPoint": [
+      0,
+      1,
+      1
+    ],
+    "_trs": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      -1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "img_2v2_bg",
+    "_parent": 8,
+    "_components": [
+      [
+        1,
+        -278,
+        [
+          75
+        ],
+        76
+      ]
+    ],
+    "_prefab": [
+      0,
+      "4eggQa9JRFlaBXHp1ovFY0",
+      1
+    ],
+    "_contentSize": [
+      5,
+      482,
+      270
+    ],
+    "_anchorPoint": [
+      0,
+      1,
+      1
+    ],
+    "_trs": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      -1,
+      -1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "lab_tip",
+    "_parent": 8,
+    "_components": [
+      -279
+    ],
+    "_prefab": [
+      0,
+      "a08zwsYoxBXqywNKJwkp5D",
+      1
+    ],
+    "_color": [
+      4,
+      4291030006
+    ],
+    "_contentSize": [
+      5,
+      50.01,
+      50.4
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "MemeberSelectedCards",
+    "_parent": 8,
+    "_children": [
+      21
+    ],
+    "_prefab": [
+      0,
+      "95Akiz6+JOHblqmOtcsL51",
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "color",
+    "_active": false,
+    "_parent": 2,
+    "_components": [
+      -280
+    ],
+    "_prefab": [
+      0,
+      "fbex/V1FhMrZRzsGsd7Kjy",
+      1
+    ],
+    "_contentSize": [
+      5,
+      91,
+      134
+    ],
+    "_trs": [
+      0,
+      -1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "zhizhen_1",
+    "_parent": 10,
+    "_components": [
+      [
+        18,
+        2,
+        false,
+        -281,
+        [
+          81
+        ],
+        82
+      ]
+    ],
+    "_prefab": [
+      0,
+      "4fAwdbZbJNJreMu4L8DQOu",
+      1
+    ],
+    "_contentSize": [
+      5,
+      36,
+      43
+    ],
+    "_trs": [
+      0,
+      -6,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "Particle_1",
+    "_parent": 10,
+    "_components": [
+      [
+        63,
+        1,
+        5,
+        5,
+        0.5,
+        90.099998,
+        32.049999,
+        40,
+        5,
+        90,
+        30,
+        30,
+        1,
+        1,
+        20,
+        5,
+        0,
+        -282,
+        [
+          83
+        ],
+        [
+          4,
+          16777215
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          4,
+          4294967295
+        ],
+        [
+          4,
+          3997696
+        ],
+        [
+          0,
+          12,
+          10
+        ],
+        [
+          0,
+          0,
+          -1
+        ],
+        84,
+        85
+      ]
+    ],
+    "_prefab": [
+      0,
+      "16Wjs6GLxMkIbYKHye6jRO",
+      1
+    ],
+    "_anchorPoint": [
+      0,
+      0,
+      0
+    ],
+    "_trs": [
+      -2.6466,
+      10.3016,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "ring_0421_3",
+    "_opacity": 167,
+    "_parent": 10,
+    "_components": [
+      [
+        18,
+        2,
+        false,
+        -283,
+        [
+          86
+        ],
+        87
+      ]
+    ],
+    "_prefab": [
+      0,
+      "2eSG9fEDlPs5CGyVhvgzGo",
+      1
+    ],
+    "_color": [
+      4,
+      4284985599
+    ],
+    "_contentSize": [
+      5,
+      128,
+      128
+    ],
+    "_trs": [
+      -1.4323,
+      6.4322,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0.6355,
+      0.6355,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "ring_0421_3_0",
+    "_opacity": 167,
+    "_parent": 10,
+    "_components": [
+      [
+        18,
+        2,
+        false,
+        -284,
+        [
+          88
+        ],
+        89
+      ]
+    ],
+    "_prefab": [
+      0,
+      "a5Aco7n4hOqIGjGdT4MzvU",
+      1
+    ],
+    "_color": [
+      4,
+      4286305279
+    ],
+    "_contentSize": [
+      5,
+      128,
+      128
+    ],
+    "_trs": [
+      -1.4323,
+      6.4322,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0.6355,
+      0.6355,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "a_point201a_4",
+    "_opacity": 172,
+    "_parent": 10,
+    "_components": [
+      [
+        54,
+        1,
+        2,
+        false,
+        -285,
+        [
+          90
+        ],
+        91
+      ]
+    ],
+    "_prefab": [
+      0,
+      "f6cxidpSpFDpe/mKvkttZ7",
+      1
+    ],
+    "_color": [
+      4,
+      4279313132
+    ],
+    "_contentSize": [
+      5,
+      64,
+      64
+    ],
+    "_trs": [
+      -2.3843,
+      6.028,
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      2,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "hu_tile_hint",
+    "_active": false,
+    "_parent": 2,
+    "_components": [
+      -286
+    ],
+    "_prefab": [
+      0,
+      "23FPpinWFKs4ozXhgzLivl",
+      1
+    ],
+    "_contentSize": [
+      5,
+      40,
+      46
+    ],
+    "_trs": [
+      0,
+      90,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "zhongMaFlag",
+    "_active": false,
+    "_parent": 2,
+    "_components": [
+      -287
+    ],
+    "_prefab": [
+      0,
+      "889haeDSNDfrz1tG2e6v0t",
+      1
+    ],
+    "_contentSize": [
+      5,
+      118,
+      152
+    ],
+    "_trs": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1.3,
+      1.3,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "img_Tag",
+    "_active": false,
+    "_parent": 2,
+    "_components": [
+      -288
+    ],
+    "_prefab": [
+      0,
+      "75CKg3hi5LUZle8mhRi9XC",
+      1
+    ],
+    "_contentSize": [
+      5,
+      84,
+      109
+    ],
+    "_trs": [
+      -2,
+      -2,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "cpg_source_hint",
+    "_active": false,
+    "_parent": 2,
+    "_components": [
+      -289
+    ],
+    "_prefab": [
+      0,
+      "01OMv/pvNAToGxFuimxjHu",
+      1
+    ],
+    "_contentSize": [
+      5,
+      40,
+      46
+    ],
+    "_trs": [
+      -17,
+      -34,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "color",
+    "_active": false,
+    "_parent": 3,
+    "_components": [
+      -290
+    ],
+    "_prefab": [
+      0,
+      "ebUMapK05CxLRBq5hOIwaB",
+      1
+    ],
+    "_contentSize": [
+      5,
+      91,
+      134
+    ],
+    "_trs": [
+      0,
+      -1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "zhizhen_1",
+    "_parent": 11,
+    "_components": [
+      [
+        6,
+        2,
+        false,
+        -291,
+        106
+      ]
+    ],
+    "_prefab": [
+      0,
+      "eajFAe/F5JFIUFLaWagJsU",
+      1
+    ],
+    "_contentSize": [
+      5,
+      36,
+      43
+    ],
+    "_trs": [
+      0,
+      -6,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "Particle_1",
+    "_parent": 11,
+    "_components": [
+      [
+        20,
+        1,
+        5,
+        5,
+        0.5,
+        90.099998,
+        32.049999,
+        40,
+        5,
+        90,
+        30,
+        30,
+        1,
+        1,
+        20,
+        5,
+        0,
+        -292,
+        [
+          4,
+          16777215
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          4,
+          4294967295
+        ],
+        [
+          4,
+          3997696
+        ],
+        [
+          0,
+          12,
+          10
+        ],
+        [
+          0,
+          0,
+          -1
+        ],
+        107
+      ]
+    ],
+    "_prefab": [
+      0,
+      "1ats7H/YtJnYFJElohfvsX",
+      1
+    ],
+    "_anchorPoint": [
+      0,
+      0,
+      0
+    ],
+    "_trs": [
+      -2.6466,
+      10.3016,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "ring_0421_3",
+    "_opacity": 167,
+    "_parent": 11,
+    "_components": [
+      [
+        6,
+        2,
+        false,
+        -293,
+        108
+      ]
+    ],
+    "_prefab": [
+      0,
+      "d2FAKRYU5PH4bIUQe17Oor",
+      1
+    ],
+    "_color": [
+      4,
+      4284985599
+    ],
+    "_contentSize": [
+      5,
+      128,
+      128
+    ],
+    "_trs": [
+      -1.4323,
+      6.4322,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0.6355,
+      0.6355,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "ring_0421_3_0",
+    "_opacity": 167,
+    "_parent": 11,
+    "_components": [
+      [
+        6,
+        2,
+        false,
+        -294,
+        109
+      ]
+    ],
+    "_prefab": [
+      0,
+      "3044lc6B5AYpPI81UAE3Po",
+      1
+    ],
+    "_color": [
+      4,
+      4286305279
+    ],
+    "_contentSize": [
+      5,
+      128,
+      128
+    ],
+    "_trs": [
+      -1.4323,
+      6.4322,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0.6355,
+      0.6355,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "a_point201a_4",
+    "_opacity": 172,
+    "_parent": 11,
+    "_components": [
+      [
+        19,
+        1,
+        2,
+        false,
+        -295,
+        110
+      ]
+    ],
+    "_prefab": [
+      0,
+      "14RPsXg81Js77HceKFmOdN",
+      1
+    ],
+    "_color": [
+      4,
+      4279313132
+    ],
+    "_contentSize": [
+      5,
+      64,
+      64
+    ],
+    "_trs": [
+      -2.3843,
+      6.028,
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      2,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "hu_tile_hint",
+    "_active": false,
+    "_parent": 3,
+    "_components": [
+      -296
+    ],
+    "_prefab": [
+      0,
+      "32q2cK4v5J0L40J5+AoNlg",
+      1
+    ],
+    "_contentSize": [
+      5,
+      40,
+      46
+    ],
+    "_trs": [
+      0,
+      90,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "zhongMaFlag",
+    "_active": false,
+    "_parent": 3,
+    "_components": [
+      -297
+    ],
+    "_prefab": [
+      0,
+      "17cE5vU+tFlJ5PSGyNY8CX",
+      1
+    ],
+    "_contentSize": [
+      5,
+      118,
+      152
+    ],
+    "_trs": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1.3,
+      1.3,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "img_Tag",
+    "_active": false,
+    "_parent": 3,
+    "_components": [
+      -298
+    ],
+    "_prefab": [
+      0,
+      "4fLb+QdvVDRZSs9XztafP9",
+      1
+    ],
+    "_contentSize": [
+      5,
+      84,
+      109
+    ],
+    "_trs": [
+      -2,
+      -2,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "cpg_source_hint",
+    "_active": false,
+    "_parent": 3,
+    "_components": [
+      -299
+    ],
+    "_prefab": [
+      0,
+      "eevB/9aStE35lCem21jjZh",
+      1
+    ],
+    "_contentSize": [
+      5,
+      40,
+      46
+    ],
+    "_trs": [
+      -17,
+      -34,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "color",
+    "_active": false,
+    "_parent": 4,
+    "_components": [
+      -300
+    ],
+    "_prefab": [
+      0,
+      "02qpkCQ7xJBJ7QiJ2lR3Ab",
+      1
+    ],
+    "_contentSize": [
+      5,
+      91,
+      134
+    ],
+    "_trs": [
+      0,
+      -1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "zhizhen_1",
+    "_parent": 12,
+    "_components": [
+      [
+        6,
+        2,
+        false,
+        -301,
+        125
+      ]
+    ],
+    "_prefab": [
+      0,
+      "e9xZkycplACIDzh5dZSAYj",
+      1
+    ],
+    "_contentSize": [
+      5,
+      36,
+      43
+    ],
+    "_trs": [
+      0,
+      -6,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "Particle_1",
+    "_parent": 12,
+    "_components": [
+      [
+        20,
+        1,
+        5,
+        5,
+        0.5,
+        90.099998,
+        32.049999,
+        40,
+        5,
+        90,
+        30,
+        30,
+        1,
+        1,
+        20,
+        5,
+        0,
+        -302,
+        [
+          4,
+          16777215
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          4,
+          4294967295
+        ],
+        [
+          4,
+          3997696
+        ],
+        [
+          0,
+          12,
+          10
+        ],
+        [
+          0,
+          0,
+          -1
+        ],
+        126
+      ]
+    ],
+    "_prefab": [
+      0,
+      "d5HYctXCtGCLmL7f2Q/SOI",
+      1
+    ],
+    "_anchorPoint": [
+      0,
+      0,
+      0
+    ],
+    "_trs": [
+      -2.6466,
+      10.3016,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "ring_0421_3",
+    "_opacity": 167,
+    "_parent": 12,
+    "_components": [
+      [
+        6,
+        2,
+        false,
+        -303,
+        127
+      ]
+    ],
+    "_prefab": [
+      0,
+      "27kJng5p9MAJ4FRe5Kf+6O",
+      1
+    ],
+    "_color": [
+      4,
+      4284985599
+    ],
+    "_contentSize": [
+      5,
+      128,
+      128
+    ],
+    "_trs": [
+      -1.4323,
+      6.4322,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0.6355,
+      0.6355,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "ring_0421_3_0",
+    "_opacity": 167,
+    "_parent": 12,
+    "_components": [
+      [
+        6,
+        2,
+        false,
+        -304,
+        128
+      ]
+    ],
+    "_prefab": [
+      0,
+      "7bu3k6JqxE8LvV0j5gkHjo",
+      1
+    ],
+    "_color": [
+      4,
+      4286305279
+    ],
+    "_contentSize": [
+      5,
+      128,
+      128
+    ],
+    "_trs": [
+      -1.4323,
+      6.4322,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0.6355,
+      0.6355,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "a_point201a_4",
+    "_opacity": 172,
+    "_parent": 12,
+    "_components": [
+      [
+        19,
+        1,
+        2,
+        false,
+        -305,
+        129
+      ]
+    ],
+    "_prefab": [
+      0,
+      "49i3M0CwhETKVJB+xI1ehL",
+      1
+    ],
+    "_color": [
+      4,
+      4279313132
+    ],
+    "_contentSize": [
+      5,
+      64,
+      64
+    ],
+    "_trs": [
+      -2.3843,
+      6.028,
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      2,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "hu_tile_hint",
+    "_active": false,
+    "_parent": 4,
+    "_components": [
+      -306
+    ],
+    "_prefab": [
+      0,
+      "359uvQklpFaodmhYUdUPCL",
+      1
+    ],
+    "_contentSize": [
+      5,
+      40,
+      46
+    ],
+    "_trs": [
+      0,
+      90,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "zhongMaFlag",
+    "_active": false,
+    "_parent": 4,
+    "_components": [
+      -307
+    ],
+    "_prefab": [
+      0,
+      "59ha5et1lCgrZGmENzQV60",
+      1
+    ],
+    "_contentSize": [
+      5,
+      118,
+      152
+    ],
+    "_trs": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1.3,
+      1.3,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "img_Tag",
+    "_active": false,
+    "_parent": 4,
+    "_components": [
+      -308
+    ],
+    "_prefab": [
+      0,
+      "d1U5a0fsdORoHhnXKDgtdU",
+      1
+    ],
+    "_contentSize": [
+      5,
+      84,
+      109
+    ],
+    "_trs": [
+      -2,
+      -2,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "cpg_source_hint",
+    "_active": false,
+    "_parent": 4,
+    "_components": [
+      -309
+    ],
+    "_prefab": [
+      0,
+      "77jPmN7CNEspBLPHNfzvfJ",
+      1
+    ],
+    "_contentSize": [
+      5,
+      40,
+      46
+    ],
+    "_trs": [
+      -17,
+      -34,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "MeSelectedCards",
+    "_parent": 8,
+    "_children": [
+      22
+    ],
+    "_prefab": [
+      0,
+      "32HF/OtphNzpw9km6n4+4D",
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "color",
+    "_active": false,
+    "_parent": 5,
+    "_components": [
+      -310
+    ],
+    "_prefab": [
+      0,
+      "5crtY9BVJAX6uMczz8NOwz",
+      1
+    ],
+    "_contentSize": [
+      5,
+      91,
+      134
+    ],
+    "_trs": [
+      0,
+      -1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "zhizhen_1",
+    "_parent": 13,
+    "_components": [
+      [
+        6,
+        2,
+        false,
+        -311,
+        147
+      ]
+    ],
+    "_prefab": [
+      0,
+      "87oSYXVwRNfrLiOFDYkD/L",
+      1
+    ],
+    "_contentSize": [
+      5,
+      36,
+      43
+    ],
+    "_trs": [
+      0,
+      -6,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "Particle_1",
+    "_parent": 13,
+    "_components": [
+      [
+        20,
+        1,
+        5,
+        5,
+        0.5,
+        90.099998,
+        32.049999,
+        40,
+        5,
+        90,
+        30,
+        30,
+        1,
+        1,
+        20,
+        5,
+        0,
+        -312,
+        [
+          4,
+          16777215
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          4,
+          4294967295
+        ],
+        [
+          4,
+          3997696
+        ],
+        [
+          0,
+          12,
+          10
+        ],
+        [
+          0,
+          0,
+          -1
+        ],
+        148
+      ]
+    ],
+    "_prefab": [
+      0,
+      "bcTg2nl6RKsagTrQVP5OI1",
+      1
+    ],
+    "_anchorPoint": [
+      0,
+      0,
+      0
+    ],
+    "_trs": [
+      -2.6466,
+      10.3016,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "ring_0421_3",
+    "_opacity": 167,
+    "_parent": 13,
+    "_components": [
+      [
+        6,
+        2,
+        false,
+        -313,
+        149
+      ]
+    ],
+    "_prefab": [
+      0,
+      "63lmzjablKXYdK4ehxU074",
+      1
+    ],
+    "_color": [
+      4,
+      4284985599
+    ],
+    "_contentSize": [
+      5,
+      128,
+      128
+    ],
+    "_trs": [
+      -1.4323,
+      6.4322,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0.6355,
+      0.6355,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "ring_0421_3_0",
+    "_opacity": 167,
+    "_parent": 13,
+    "_components": [
+      [
+        6,
+        2,
+        false,
+        -314,
+        150
+      ]
+    ],
+    "_prefab": [
+      0,
+      "d62OFNjWhFRKyy01lcJlEb",
+      1
+    ],
+    "_color": [
+      4,
+      4286305279
+    ],
+    "_contentSize": [
+      5,
+      128,
+      128
+    ],
+    "_trs": [
+      -1.4323,
+      6.4322,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0.6355,
+      0.6355,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "a_point201a_4",
+    "_opacity": 172,
+    "_parent": 13,
+    "_components": [
+      [
+        19,
+        1,
+        2,
+        false,
+        -315,
+        151
+      ]
+    ],
+    "_prefab": [
+      0,
+      "92nIhk6XhPobesU7d8abu3",
+      1
+    ],
+    "_color": [
+      4,
+      4279313132
+    ],
+    "_contentSize": [
+      5,
+      64,
+      64
+    ],
+    "_trs": [
+      -2.3843,
+      6.028,
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      2,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "hu_tile_hint",
+    "_active": false,
+    "_parent": 5,
+    "_components": [
+      -316
+    ],
+    "_prefab": [
+      0,
+      "57wUI27VdBa59eWWw9uTdI",
+      1
+    ],
+    "_contentSize": [
+      5,
+      40,
+      46
+    ],
+    "_trs": [
+      0,
+      90,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "zhongMaFlag",
+    "_active": false,
+    "_parent": 5,
+    "_components": [
+      -317
+    ],
+    "_prefab": [
+      0,
+      "b65uGO1EtFdJC1P/Do/5X2",
+      1
+    ],
+    "_contentSize": [
+      5,
+      118,
+      152
+    ],
+    "_trs": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1.3,
+      1.3,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "img_Tag",
+    "_active": false,
+    "_parent": 5,
+    "_components": [
+      -318
+    ],
+    "_prefab": [
+      0,
+      "feS6N33UhC27SskrbfDu9v",
+      1
+    ],
+    "_contentSize": [
+      5,
+      84,
+      109
+    ],
+    "_trs": [
+      -2,
+      -2,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "cpg_source_hint",
+    "_active": false,
+    "_parent": 5,
+    "_components": [
+      -319
+    ],
+    "_prefab": [
+      0,
+      "ffqedvSlJL451SuXTGZvKw",
+      1
+    ],
+    "_contentSize": [
+      5,
+      40,
+      46
+    ],
+    "_trs": [
+      -17,
+      -34,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "color",
+    "_active": false,
+    "_parent": 6,
+    "_components": [
+      -320
+    ],
+    "_prefab": [
+      0,
+      "e4IrW1BSNJZKrTNoFyfzQZ",
+      1
+    ],
+    "_contentSize": [
+      5,
+      91,
+      134
+    ],
+    "_trs": [
+      0,
+      -1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "zhizhen_1",
+    "_parent": 14,
+    "_components": [
+      [
+        6,
+        2,
+        false,
+        -321,
+        166
+      ]
+    ],
+    "_prefab": [
+      0,
+      "98wyGo+kZKb5poRDalZEhR",
+      1
+    ],
+    "_contentSize": [
+      5,
+      36,
+      43
+    ],
+    "_trs": [
+      0,
+      -6,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "Particle_1",
+    "_parent": 14,
+    "_components": [
+      [
+        20,
+        1,
+        5,
+        5,
+        0.5,
+        90.099998,
+        32.049999,
+        40,
+        5,
+        90,
+        30,
+        30,
+        1,
+        1,
+        20,
+        5,
+        0,
+        -322,
+        [
+          4,
+          16777215
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          4,
+          4294967295
+        ],
+        [
+          4,
+          3997696
+        ],
+        [
+          0,
+          12,
+          10
+        ],
+        [
+          0,
+          0,
+          -1
+        ],
+        167
+      ]
+    ],
+    "_prefab": [
+      0,
+      "b6lRmX2axJdo0soPjyt6Wa",
+      1
+    ],
+    "_anchorPoint": [
+      0,
+      0,
+      0
+    ],
+    "_trs": [
+      -2.6466,
+      10.3016,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "ring_0421_3",
+    "_opacity": 167,
+    "_parent": 14,
+    "_components": [
+      [
+        6,
+        2,
+        false,
+        -323,
+        168
+      ]
+    ],
+    "_prefab": [
+      0,
+      "6aeATtN1dEJ6ef7da2MEb/",
+      1
+    ],
+    "_color": [
+      4,
+      4284985599
+    ],
+    "_contentSize": [
+      5,
+      128,
+      128
+    ],
+    "_trs": [
+      -1.4323,
+      6.4322,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0.6355,
+      0.6355,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "ring_0421_3_0",
+    "_opacity": 167,
+    "_parent": 14,
+    "_components": [
+      [
+        6,
+        2,
+        false,
+        -324,
+        169
+      ]
+    ],
+    "_prefab": [
+      0,
+      "a2iV+SuM9Ko65eXL7LgecH",
+      1
+    ],
+    "_color": [
+      4,
+      4286305279
+    ],
+    "_contentSize": [
+      5,
+      128,
+      128
+    ],
+    "_trs": [
+      -1.4323,
+      6.4322,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0.6355,
+      0.6355,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "a_point201a_4",
+    "_opacity": 172,
+    "_parent": 14,
+    "_components": [
+      [
+        19,
+        1,
+        2,
+        false,
+        -325,
+        170
+      ]
+    ],
+    "_prefab": [
+      0,
+      "bdscYqUJFJ7oNoTeEaKvzd",
+      1
+    ],
+    "_color": [
+      4,
+      4279313132
+    ],
+    "_contentSize": [
+      5,
+      64,
+      64
+    ],
+    "_trs": [
+      -2.3843,
+      6.028,
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      2,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "hu_tile_hint",
+    "_active": false,
+    "_parent": 6,
+    "_components": [
+      -326
+    ],
+    "_prefab": [
+      0,
+      "1eaSxSMDNMkJJucbMOmN5p",
+      1
+    ],
+    "_contentSize": [
+      5,
+      40,
+      46
+    ],
+    "_trs": [
+      0,
+      90,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "zhongMaFlag",
+    "_active": false,
+    "_parent": 6,
+    "_components": [
+      -327
+    ],
+    "_prefab": [
+      0,
+      "5axvcPBAxJ8pLA1DdNI9QW",
+      1
+    ],
+    "_contentSize": [
+      5,
+      118,
+      152
+    ],
+    "_trs": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1.3,
+      1.3,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "img_Tag",
+    "_active": false,
+    "_parent": 6,
+    "_components": [
+      -328
+    ],
+    "_prefab": [
+      0,
+      "daf8YUemhP6aCgQnOrElEL",
+      1
+    ],
+    "_contentSize": [
+      5,
+      84,
+      109
+    ],
+    "_trs": [
+      -2,
+      -2,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "cpg_source_hint",
+    "_active": false,
+    "_parent": 6,
+    "_components": [
+      -329
+    ],
+    "_prefab": [
+      0,
+      "6bhvOZPN1N3pO/auHZDK/b",
+      1
+    ],
+    "_contentSize": [
+      5,
+      40,
+      46
+    ],
+    "_trs": [
+      -17,
+      -34,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "color",
+    "_active": false,
+    "_parent": 7,
+    "_components": [
+      -330
+    ],
+    "_prefab": [
+      0,
+      "efEP5jJUVHZJVJdwy/HL4F",
+      1
+    ],
+    "_contentSize": [
+      5,
+      91,
+      134
+    ],
+    "_trs": [
+      0,
+      -1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "zhizhen_1",
+    "_parent": 15,
+    "_components": [
+      [
+        6,
+        2,
+        false,
+        -331,
+        185
+      ]
+    ],
+    "_prefab": [
+      0,
+      "4aA2r3szBPloJr/GeAmZVn",
+      1
+    ],
+    "_contentSize": [
+      5,
+      36,
+      43
+    ],
+    "_trs": [
+      0,
+      -6,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "Particle_1",
+    "_parent": 15,
+    "_components": [
+      [
+        20,
+        1,
+        5,
+        5,
+        0.5,
+        90.099998,
+        32.049999,
+        40,
+        5,
+        90,
+        30,
+        30,
+        1,
+        1,
+        20,
+        5,
+        0,
+        -332,
+        [
+          4,
+          16777215
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          4,
+          4294967295
+        ],
+        [
+          4,
+          3997696
+        ],
+        [
+          0,
+          12,
+          10
+        ],
+        [
+          0,
+          0,
+          -1
+        ],
+        186
+      ]
+    ],
+    "_prefab": [
+      0,
+      "1b0nsFGqBLeZdIRKUk1PzV",
+      1
+    ],
+    "_anchorPoint": [
+      0,
+      0,
+      0
+    ],
+    "_trs": [
+      -2.6466,
+      10.3016,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "ring_0421_3",
+    "_opacity": 167,
+    "_parent": 15,
+    "_components": [
+      [
+        6,
+        2,
+        false,
+        -333,
+        187
+      ]
+    ],
+    "_prefab": [
+      0,
+      "c963YCFD5I2YPVbf0qgxfm",
+      1
+    ],
+    "_color": [
+      4,
+      4284985599
+    ],
+    "_contentSize": [
+      5,
+      128,
+      128
+    ],
+    "_trs": [
+      -1.4323,
+      6.4322,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0.6355,
+      0.6355,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "ring_0421_3_0",
+    "_opacity": 167,
+    "_parent": 15,
+    "_components": [
+      [
+        6,
+        2,
+        false,
+        -334,
+        188
+      ]
+    ],
+    "_prefab": [
+      0,
+      "24Ct1w/wtCTq35+ztvqKn0",
+      1
+    ],
+    "_color": [
+      4,
+      4286305279
+    ],
+    "_contentSize": [
+      5,
+      128,
+      128
+    ],
+    "_trs": [
+      -1.4323,
+      6.4322,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0.6355,
+      0.6355,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "a_point201a_4",
+    "_opacity": 172,
+    "_parent": 15,
+    "_components": [
+      [
+        19,
+        1,
+        2,
+        false,
+        -335,
+        189
+      ]
+    ],
+    "_prefab": [
+      0,
+      "bcVWxQjKpOIIhGFDOJIxvj",
+      1
+    ],
+    "_color": [
+      4,
+      4279313132
+    ],
+    "_contentSize": [
+      5,
+      64,
+      64
+    ],
+    "_trs": [
+      -2.3843,
+      6.028,
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      2,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "hu_tile_hint",
+    "_active": false,
+    "_parent": 7,
+    "_components": [
+      -336
+    ],
+    "_prefab": [
+      0,
+      "a8XmM6GOpFZog3i245fghp",
+      1
+    ],
+    "_contentSize": [
+      5,
+      40,
+      46
+    ],
+    "_trs": [
+      0,
+      90,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "zhongMaFlag",
+    "_active": false,
+    "_parent": 7,
+    "_components": [
+      -337
+    ],
+    "_prefab": [
+      0,
+      "4bZmNgVY9GkImehJST1syl",
+      1
+    ],
+    "_contentSize": [
+      5,
+      118,
+      152
+    ],
+    "_trs": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1.3,
+      1.3,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "img_Tag",
+    "_active": false,
+    "_parent": 7,
+    "_components": [
+      -338
+    ],
+    "_prefab": [
+      0,
+      "d1bu/pQxJMvbH3G6QTdy9z",
+      1
+    ],
+    "_contentSize": [
+      5,
+      84,
+      109
+    ],
+    "_trs": [
+      -2,
+      -2,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "cpg_source_hint",
+    "_active": false,
+    "_parent": 7,
+    "_components": [
+      -339
+    ],
+    "_prefab": [
+      0,
+      "b7mNZeU6VGU4qHs+H7mT0U",
+      1
+    ],
+    "_contentSize": [
+      5,
+      40,
+      46
+    ],
+    "_trs": [
+      -17,
+      -34,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 3840,
+    "type": "cc.Node",
+    "_name": "lab",
+    "_parent": 30,
+    "_components": [
+      -340
+    ],
+    "_prefab": [
+      0,
+      "3aarPCpudKcrWj6PylAA5D",
+      1
+    ],
+    "_color": [
+      4,
+      4279196870
+    ],
+    "_contentSize": [
+      5,
+      90.64,
+      56.7
+    ],
+    "_trs": [
+      0,
+      6,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 2054,
+    "type": "cc.Node",
+    "_name": "fx_huansanzhang",
+    "_children": [
+      -3,
+      -4
+    ],
+    "_components": [
+      [
+        6,
+        -2,
+        [
+          5
+        ],
+        4
+      ]
+    ],
+    "_prefab": [
+      0,
+      "4fxrb8JsRAy56v3mpjySQc",
+      -1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 2054,
+    "type": "cc.Node",
+    "_name": "xia",
+    "_parent": 1,
+    "_components": [
+      [
+        1,
+        -5,
+        [
+          0
+        ],
+        1
+      ]
+    ],
+    "_prefab": [
+      0,
+      "ceUHYCS5lFrLpkctn4YdMW",
+      1
+    ],
+    "_contentSize": [
+      5,
+      74,
+      210
+    ],
+    "_trs": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      -1,
+      1
+    ]
+  },
+  {
+    "bundle": "prefabs",
+    "prefab": 2054,
+    "type": "cc.Node",
+    "_name": "shang",
+    "_parent": 1,
+    "_components": [
+      [
+        1,
+        -6,
+        [
+          2
+        ],
+        3
+      ]
+    ],
+    "_prefab": [
+      0,
+      "09/8LyRvhKMaf2HL/Y7Dpj",
+      1
+    ],
+    "_contentSize": [
+      5,
+      74,
+      210
+    ]
+  }
+]

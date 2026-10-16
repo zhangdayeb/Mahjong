@@ -1,0 +1,11 @@
+import http from 'node:http';
+import {createMysqlStore} from './mysql-store.js';
+import {createWalletService} from './wallet-service.js';
+import {createWalletApi} from './http-api.js';
+const store=createMysqlStore({host:process.env.DB_HOST||'127.0.0.1',port:Number(process.env.DB_PORT||3306),user:process.env.DB_USER,password:process.env.DB_PASSWORD,database:process.env.DB_NAME||'majong_demo'});
+const service=createWalletService(store);service.storageName='mysql';
+await store.health();
+const handler=createWalletApi(service,{origin:process.env.PUBLIC_ORIGIN||'https://majong.xgmajong.top',secure:process.env.COOKIE_SECURE!=='false'});
+const server=http.createServer(handler);server.requestTimeout=30000;server.headersTimeout=15000;
+server.listen(Number(process.env.PORT||8771),'127.0.0.1',()=>console.log('Mahjong practice backend ready'));
+process.on('SIGTERM',()=>server.close(async()=>{await store.close();process.exit(0);}));

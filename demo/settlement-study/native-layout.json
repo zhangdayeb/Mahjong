@@ -1,0 +1,3969 @@
+[
+  {
+    "prefab": 147,
+    "name": "ComGameResult",
+    "world": {
+      "x": 0,
+      "y": 0,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      1280,
+      720
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 0,
+    "top": 0,
+    "components": [
+      {
+        "type": "13d99NhMV1GbpiwE2AObdoO"
+      },
+      {
+        "type": "8a2c5IIaK1DwLgK0RzJM3n1"
+      },
+      {
+        "type": "54fc7R94FhDvq9B6MPdKtXL"
+      },
+      {
+        "type": "d57abviXr1D366G5PuNbhuP"
+      },
+      {
+        "type": "3d3d5KqzJhALqQacYINybi4"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "ComGameResultTempatePic",
+    "parent": "detail_scrollView",
+    "world": {
+      "x": 209.612,
+      "y": 18.891000000000005,
+      "sx": 1.1,
+      "sy": 1.1
+    },
+    "size": [
+      710,
+      90
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 459.1119999999999,
+    "top": 291.609,
+    "components": [
+      {
+        "type": "7c006oUamJJe7BZwNc19788"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "MJMasterPath",
+    "parent": "ComGameResult",
+    "world": {
+      "x": 0,
+      "y": 0,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      0,
+      0
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 640,
+    "top": 360,
+    "components": [
+      {
+        "type": "707422q/ZJKBJSk6D2L8atI"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "HappyBumpEntry",
+    "parent": "ComGameResult",
+    "world": {
+      "x": -520,
+      "y": -285,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      110,
+      117
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 65,
+    "top": 586.5,
+    "components": [
+      {
+        "type": "84db3rqsbZObKz8uxPbr20I"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "btn_supplementEnergy",
+    "parent": "btn_group",
+    "world": {
+      "x": -45,
+      "y": -296.979,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      200,
+      85
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 495,
+    "top": 614.479,
+    "components": [
+      {
+        "type": "cc.Sprite",
+        "spriteFrame": "350ac429-8715-44a6-a677-661093da5f46"
+      },
+      {
+        "type": "cc.Button"
+      },
+      {
+        "type": "7d427JBK8pOG57jTXQO7XyT"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "showAward",
+    "parent": "awardIcon",
+    "world": {
+      "x": -305.569,
+      "y": -14.429999999999993,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      100,
+      110
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 284.431,
+    "top": 319.43,
+    "components": [
+      {
+        "type": "cc.Sprite",
+        "spriteFrame": "2f127462-01f7-44ad-a4e9-e552899b61df"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "btn_group",
+    "parent": "ComGameResult",
+    "world": {
+      "x": 0,
+      "y": -296.979,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      730,
+      100
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 275,
+    "top": 606.979,
+    "components": [
+      {
+        "type": "cc.Layout"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "button_guide",
+    "parent": "btn_group",
+    "world": {
+      "x": -145,
+      "y": -296.979,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      233,
+      85
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 378.5,
+    "top": 614.479,
+    "components": [
+      {
+        "type": "cc.Sprite",
+        "spriteFrame": "350ac429-8715-44a6-a677-661093da5f46"
+      },
+      {
+        "type": "cc.Button"
+      },
+      {
+        "type": "b64cfvTxJBJEYYWIJOVKJNR"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "button_video",
+    "parent": "btn_group",
+    "world": {
+      "x": -160,
+      "y": -296.979,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      200,
+      85
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 380,
+    "top": 614.479,
+    "components": [
+      {
+        "type": "cc.Sprite",
+        "spriteFrame": "350ac429-8715-44a6-a677-661093da5f46"
+      },
+      {
+        "type": "cc.Button"
+      },
+      {
+        "type": "b64cfvTxJBJEYYWIJOVKJNR"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "button_JPQ",
+    "parent": "btn_group",
+    "world": {
+      "x": -45,
+      "y": -296.979,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      200,
+      85
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 495,
+    "top": 614.479,
+    "components": [
+      {
+        "type": "cc.Sprite",
+        "spriteFrame": "350ac429-8715-44a6-a677-661093da5f46"
+      },
+      {
+        "type": "cc.Button"
+      },
+      {
+        "type": "b64cfvTxJBJEYYWIJOVKJNR"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "Button_NextGame",
+    "parent": "btn_group",
+    "world": {
+      "x": 225,
+      "y": -296.979,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      280,
+      97
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 725,
+    "top": 608.479,
+    "components": [
+      {
+        "type": "cc.Sprite",
+        "spriteFrame": "7221734e-fc95-4a60-9233-efe7be327e96"
+      },
+      {
+        "type": "cc.Button"
+      },
+      {
+        "type": "b64cfvTxJBJEYYWIJOVKJNR"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "RecommendNodeLayout",
+    "parent": "ComGameResult",
+    "world": {
+      "x": 180.232,
+      "y": -149.421,
+      "sx": 0.6,
+      "sy": 0.6
+    },
+    "size": [
+      750,
+      126
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 595.232,
+    "top": 471.621,
+    "components": [
+      {
+        "type": "cc.Layout"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "detailNode",
+    "parent": "ComGameResult",
+    "world": {
+      "x": 0,
+      "y": 0,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      1280,
+      343
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 0,
+    "top": 188.5,
+    "components": []
+  },
+  {
+    "prefab": 147,
+    "name": "GameCoinLayout",
+    "parent": "detailNode",
+    "world": {
+      "x": 83.142,
+      "y": 132.899,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      484.56,
+      80
+    ],
+    "anchor": [
+      0,
+      0.5
+    ],
+    "left": 723.142,
+    "top": 187.101,
+    "components": [
+      {
+        "type": "cc.Layout"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "ProgressBar",
+    "parent": "MJMasterPath",
+    "world": {
+      "x": -468.969,
+      "y": -120.689,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      240,
+      25
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 51.031000000000006,
+    "top": 468.18899999999996,
+    "components": [
+      {
+        "type": "cc.Sprite",
+        "spriteFrame": "87e15d59-a89b-4ce7-b12d-1183817beaaa"
+      },
+      {
+        "type": "cc.ProgressBar"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "Button_ChangeTable",
+    "parent": "btn_group",
+    "world": {
+      "x": -270,
+      "y": -296.979,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      190,
+      85
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 275,
+    "top": 614.479,
+    "components": [
+      {
+        "type": "cc.Sprite",
+        "spriteFrame": "3ab8d819-5339-42f9-9844-c831cd8ce81e"
+      },
+      {
+        "type": "cc.Button"
+      },
+      {
+        "type": "b64cfvTxJBJEYYWIJOVKJNR"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "Button_back",
+    "parent": "ComGameResult",
+    "world": {
+      "x": -594.5,
+      "y": 277,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      91,
+      92
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 0,
+    "top": 37,
+    "components": [
+      {
+        "type": "cc.Sprite",
+        "spriteFrame": "9a8bba23-d9bd-4ff6-8524-b5aacc0a840f"
+      },
+      {
+        "type": "cc.Button"
+      },
+      {
+        "type": "b64cfvTxJBJEYYWIJOVKJNR"
+      },
+      {
+        "type": "cc.Widget"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "PlayerHeadNode",
+    "parent": "detailNode",
+    "world": {
+      "x": -129.807,
+      "y": 116.727,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      96,
+      96
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 462.193,
+    "top": 195.273,
+    "components": []
+  },
+  {
+    "prefab": 147,
+    "name": "detail_scrollView",
+    "parent": "detailNode",
+    "world": {
+      "x": 159.612,
+      "y": -96.5,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      800,
+      125
+    ],
+    "anchor": [
+      0.5,
+      0
+    ],
+    "left": 399.61199999999997,
+    "top": 331.5,
+    "components": [
+      {
+        "type": "cc.ScrollView"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "detailTips",
+    "parent": "detailNode",
+    "world": {
+      "x": 200,
+      "y": -40,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      880,
+      485
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 400,
+    "top": 157.5,
+    "components": [
+      {
+        "type": "cc.BlockInputEvents"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "btn",
+    "parent": "HappyBumpEntry",
+    "world": {
+      "x": -520,
+      "y": -285,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      94,
+      106
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 73,
+    "top": 592,
+    "components": [
+      {
+        "type": "cc.Button"
+      },
+      {
+        "type": "b64cfvTxJBJEYYWIJOVKJNR"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "mask",
+    "parent": "ProgressBar",
+    "world": {
+      "x": -588.969,
+      "y": -120.689,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      50,
+      25
+    ],
+    "anchor": [
+      0,
+      0.5
+    ],
+    "left": 51.03099999999995,
+    "top": 468.18899999999996,
+    "components": [
+      {
+        "type": "cc.Mask"
+      },
+      {
+        "type": "cc.Widget"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "fx_xc_sg3",
+    "parent": "mask",
+    "world": {
+      "x": -516.469,
+      "y": -120.689,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      0,
+      0
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 123.53099999999995,
+    "top": 480.68899999999996,
+    "components": [
+      {
+        "type": "cc.Animation"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "RMBRedBagEntry",
+    "parent": "ComGameResult",
+    "world": {
+      "x": -582.976,
+      "y": -188.355,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      93,
+      150
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 10.524000000000001,
+    "top": 473.355,
+    "components": [
+      {
+        "type": "a64d55uyftC+a31qy3PZKEc"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "img_tips",
+    "parent": "RMBRedBagEntry",
+    "world": {
+      "x": -562.976,
+      "y": -153.355,
+      "sx": 0.8,
+      "sy": 0.8
+    },
+    "size": [
+      177,
+      51
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 6.224000000000004,
+    "top": 492.95500000000004,
+    "components": [
+      {
+        "type": "cc.Button"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "LeftBotom",
+    "parent": "ComGameResult",
+    "world": {
+      "x": -641.104,
+      "y": -292.881,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      275,
+      100
+    ],
+    "anchor": [
+      0,
+      0.5
+    ],
+    "left": -1.1040000000000418,
+    "top": 602.881,
+    "components": [
+      {
+        "type": "cc.Layout"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "head_mask",
+    "parent": "PlayerHeadNode",
+    "world": {
+      "x": -129.94299999999998,
+      "y": 116.727,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      80,
+      80
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 470.057,
+    "top": 203.273,
+    "components": [
+      {
+        "type": "cc.Mask",
+        "spriteFrame": "2a4dbe4f-f461-40a4-9014-8cce89f0ea3b"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "nFront",
+    "parent": "ComGameResultTempatePic",
+    "world": {
+      "x": 209.612,
+      "y": 18.891000000000005,
+      "sx": 0.8800000000000001,
+      "sy": 0.8800000000000001
+    },
+    "size": [
+      48,
+      71
+    ],
+    "anchor": [
+      0,
+      0.5
+    ],
+    "left": 849.612,
+    "top": 309.86899999999997,
+    "components": []
+  },
+  {
+    "prefab": 147,
+    "name": "btn_xiala",
+    "parent": "detail_scrollView",
+    "world": {
+      "x": 469.61199999999997,
+      "y": -56.783,
+      "sx": 1,
+      "sy": -1
+    },
+    "size": [
+      44,
+      44
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 1087.612,
+    "top": 438.783,
+    "components": [
+      {
+        "type": "cc.Sprite",
+        "spriteFrame": "b519dc5d-3535-40fb-bee0-6720670520e9"
+      },
+      {
+        "type": "cc.Button"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "content",
+    "parent": "view",
+    "world": {
+      "x": 159.612,
+      "y": -32.491,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      600,
+      65
+    ],
+    "anchor": [
+      0.5,
+      1
+    ],
+    "left": 499.61199999999997,
+    "top": 392.491,
+    "components": [
+      {
+        "type": "cc.Layout"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "ReachMaxFanCount",
+    "parent": "detailNode",
+    "world": {
+      "x": 461.88,
+      "y": 124.136,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      0,
+      0
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 1101.88,
+    "top": 235.864,
+    "components": []
+  },
+  {
+    "prefab": 147,
+    "name": "bg",
+    "parent": "detailTips",
+    "world": {
+      "x": 154.709,
+      "y": 74.575,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      400,
+      100
+    ],
+    "anchor": [
+      0.9,
+      0
+    ],
+    "left": 434.70900000000006,
+    "top": 185.425,
+    "components": [
+      {
+        "type": "cc.Sprite",
+        "spriteFrame": "2dee8464-dd69-407c-bbd0-9e4d6a8d6f80"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "node_PlayerGrounp",
+    "parent": "ComGameResult",
+    "world": {
+      "x": 18.962,
+      "y": 75.515,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      0,
+      0
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 658.962,
+    "top": 284.485,
+    "components": []
+  },
+  {
+    "prefab": 147,
+    "name": "icon",
+    "parent": "btn",
+    "world": {
+      "x": -520,
+      "y": -285,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      96,
+      99
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 72,
+    "top": 595.5,
+    "components": [
+      {
+        "type": "cc.Sprite",
+        "spriteFrame": "b0363581-a2c5-4a6c-b593-c3f2d7d6b99f"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "awardIcon",
+    "parent": "ProgressBar",
+    "world": {
+      "x": -332.273,
+      "y": -116.31899999999999,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      63,
+      65
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 276.227,
+    "top": 443.81899999999996,
+    "components": [
+      {
+        "type": "cc.Sprite",
+        "spriteFrame": "fd46a0d3-64e4-4056-a5e6-0d894c895e43"
+      },
+      {
+        "type": "cc.Button"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "tiao",
+    "parent": "img_bubble",
+    "world": {
+      "x": -135,
+      "y": -228.62,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      412.25,
+      35.8
+    ],
+    "anchor": [
+      0.5,
+      0.46
+    ],
+    "left": 298.875,
+    "top": 569.288,
+    "components": [
+      {
+        "type": "cc.Sprite",
+        "spriteFrame": "053cb066-7f9c-464f-8c48-bfe7298dcf5f"
+      },
+      {
+        "type": "cc.Layout"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "tiao",
+    "parent": "img_video_bubble",
+    "world": {
+      "x": -150,
+      "y": -228.62,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      292.25,
+      35.8
+    ],
+    "anchor": [
+      0.5,
+      0.46
+    ],
+    "left": 343.875,
+    "top": 569.288,
+    "components": [
+      {
+        "type": "cc.Sprite",
+        "spriteFrame": "053cb066-7f9c-464f-8c48-bfe7298dcf5f"
+      },
+      {
+        "type": "cc.Layout"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "tiao",
+    "parent": "img_tips",
+    "world": {
+      "x": -578.976,
+      "y": -148.56619999999998,
+      "sx": 0.8,
+      "sy": 0.8
+    },
+    "size": [
+      130,
+      35.8
+    ],
+    "anchor": [
+      0.5,
+      0.46
+    ],
+    "left": 9.024000000000001,
+    "top": 493.1006,
+    "components": [
+      {
+        "type": "cc.Sprite",
+        "spriteFrame": "053cb066-7f9c-464f-8c48-bfe7298dcf5f"
+      },
+      {
+        "type": "cc.Layout"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "FanXingResearchEntry",
+    "parent": "FanXingResearchGame",
+    "world": {
+      "x": -421.10400000000004,
+      "y": -292.881,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      0,
+      0
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 218.89599999999996,
+    "top": 652.881,
+    "components": [
+      {
+        "type": "b64cfvTxJBJEYYWIJOVKJNR"
+      },
+      {
+        "type": "e2c3bdabTpLDa7Mw/GJOZCc"
+      },
+      {
+        "type": "95fc469EsJE35/Es9agFVho"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "mengBan",
+    "parent": "ComGameResult",
+    "world": {
+      "x": 0,
+      "y": 0,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      1280,
+      720
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 0,
+    "top": 0,
+    "components": [
+      {
+        "type": "cc.Sprite",
+        "spriteFrame": "a23235d1-15db-4b95-8439-a2e005bfff91",
+        "color": [
+          4278190080
+        ]
+      },
+      {
+        "type": "cc.Widget",
+        "color": [
+          4278190080
+        ]
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "midBg",
+    "parent": "ComGameResult",
+    "world": {
+      "x": 0,
+      "y": -3.009,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      1558,
+      425
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": -139,
+    "top": 150.50900000000001,
+    "components": []
+  },
+  {
+    "prefab": 147,
+    "name": "WinBg",
+    "parent": "midBg",
+    "world": {
+      "x": 0,
+      "y": -3.009,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      1558,
+      414
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": -139,
+    "top": 156.00900000000001,
+    "components": [
+      {
+        "type": "cc.Sprite",
+        "spriteFrame": "59398c24-79ec-486a-bdfe-9b0f18770a1e"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "LoseBg",
+    "parent": "midBg",
+    "world": {
+      "x": 0,
+      "y": -3.009,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      1558,
+      414
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": -139,
+    "top": 156.00900000000001,
+    "components": [
+      {
+        "type": "cc.Sprite",
+        "spriteFrame": "de118d11-576d-456e-8182-6f653ed1e8d8"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "bigWinMan",
+    "parent": "PlayerHeadNode",
+    "world": {
+      "x": -16.656999999999982,
+      "y": 131.348,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      117,
+      38
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 564.8430000000001,
+    "top": 209.652,
+    "components": [
+      {
+        "type": "cc.Sprite",
+        "spriteFrame": "242ef5d2-11f0-4e4b-9789-da3a637c3adf"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "img_head",
+    "parent": "head_mask",
+    "world": {
+      "x": -129.94299999999998,
+      "y": 116.727,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      80,
+      80
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 470.057,
+    "top": 203.273,
+    "components": [
+      {
+        "type": "cc.Sprite",
+        "spriteFrame": "f1d41e3b-4301-4b2c-b90a-e446faaf4abf"
+      },
+      {
+        "type": "cc.Widget"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "nNull",
+    "parent": "ComGameResultTempatePic",
+    "world": {
+      "x": 209.612,
+      "y": 18.891000000000005,
+      "sx": 0.8800000000000001,
+      "sy": 0.8800000000000001
+    },
+    "size": [
+      16,
+      71
+    ],
+    "anchor": [
+      0,
+      0.5
+    ],
+    "left": 849.612,
+    "top": 309.86899999999997,
+    "components": [
+      {
+        "type": "cc.Sprite"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "nBack",
+    "parent": "ComGameResultTempatePic",
+    "world": {
+      "x": 209.612,
+      "y": 18.891000000000005,
+      "sx": 0.8800000000000001,
+      "sy": 0.8800000000000001
+    },
+    "size": [
+      48,
+      71
+    ],
+    "anchor": [
+      0,
+      0.5
+    ],
+    "left": 849.612,
+    "top": 309.86899999999997,
+    "components": [
+      {
+        "type": "cc.Sprite"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "view",
+    "parent": "detail_scrollView",
+    "world": {
+      "x": 159.612,
+      "y": -100.491,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      800,
+      68
+    ],
+    "anchor": [
+      0.5,
+      0
+    ],
+    "left": 399.61199999999997,
+    "top": 392.491,
+    "components": [
+      {
+        "type": "cc.Mask"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "fengding",
+    "parent": "ReachMaxFanCount",
+    "world": {
+      "x": 461.88,
+      "y": 139.80599999999998,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      49,
+      26.2
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 1077.38,
+    "top": 207.09400000000002,
+    "components": [
+      {
+        "type": "cc.Label",
+        "fontSize": 24,
+        "lineHeight": 20,
+        "text": "封顶",
+        "color": [
+          4284959231
+        ]
+      },
+      {
+        "type": "cc.LabelOutline",
+        "color": [
+          4284959231
+        ]
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "maxFanCount",
+    "parent": "ReachMaxFanCount",
+    "world": {
+      "x": 461.88,
+      "y": 117.40299999999999,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      54.37,
+      26.2
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 1074.6950000000002,
+    "top": 229.497,
+    "components": [
+      {
+        "type": "cc.Label",
+        "fontSize": 20,
+        "lineHeight": 20,
+        "text": "300倍",
+        "color": [
+          4284959231
+        ]
+      },
+      {
+        "type": "cc.LabelOutline",
+        "color": [
+          4284959231
+        ]
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "BankruptTag",
+    "parent": "detailNode",
+    "world": {
+      "x": -16.613,
+      "y": 130.905,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      0,
+      0
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 623.387,
+    "top": 229.095,
+    "components": []
+  },
+  {
+    "prefab": 147,
+    "name": "mask",
+    "parent": "detailTips",
+    "world": {
+      "x": 200,
+      "y": -40,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      880,
+      485
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 400,
+    "top": 157.5,
+    "components": [
+      {
+        "type": "cc.Widget"
+      },
+      {
+        "type": "cc.Button"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "lab",
+    "parent": "ProgressBar",
+    "world": {
+      "x": -468.969,
+      "y": -119.189,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      0,
+      31.5
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 171.031,
+    "top": 463.43899999999996,
+    "components": [
+      {
+        "type": "cc.Label",
+        "fontSize": 24,
+        "lineHeight": 25
+      },
+      {
+        "type": "cc.LabelOutline"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "num",
+    "parent": "showAward",
+    "world": {
+      "x": -297.74,
+      "y": -25.676999999999992,
+      "sx": 0.1,
+      "sy": 0.1
+    },
+    "size": [
+      465.45,
+      203
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 318.9875,
+    "top": 375.52700000000004,
+    "components": [
+      {
+        "type": "cc.Label",
+        "fontSize": 140,
+        "lineHeight": 150,
+        "color": [
+          4290804021
+        ]
+      },
+      {
+        "type": "cc.LabelOutline",
+        "color": [
+          4290804021
+        ]
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "rankIcon",
+    "parent": "MJMasterPath",
+    "world": {
+      "x": -569,
+      "y": -80,
+      "sx": 0.7,
+      "sy": 0.7
+    },
+    "size": [
+      205,
+      95
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": -0.75,
+    "top": 406.75,
+    "components": [
+      {
+        "type": "cc.Sprite"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "rankNum",
+    "parent": "rankIcon",
+    "world": {
+      "x": -599.6551,
+      "y": -78.1023,
+      "sx": 0.7,
+      "sy": 0.7
+    },
+    "size": [
+      4,
+      31.72
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 38.944900000000054,
+    "top": 427.00030000000004,
+    "components": [
+      {
+        "type": "cc.Label",
+        "fontSize": 22,
+        "lineHeight": 22
+      },
+      {
+        "type": "cc.LabelOutline"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "img_bubble",
+    "parent": "button_guide",
+    "world": {
+      "x": -135,
+      "y": -228.62,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      300,
+      36
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 355,
+    "top": 570.62,
+    "components": []
+  },
+  {
+    "prefab": 147,
+    "name": "lab",
+    "parent": "button_guide",
+    "world": {
+      "x": -145,
+      "y": -286.979,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      136,
+      42.84
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 427,
+    "top": 625.5590000000001,
+    "components": [
+      {
+        "type": "cc.Label",
+        "fontSize": 34,
+        "lineHeight": 34,
+        "text": "玩法指引",
+        "color": [
+          4280306688
+        ]
+      },
+      {
+        "type": "cc.LabelOutline",
+        "color": [
+          4280306688
+        ]
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "img_video_bubble",
+    "parent": "button_video",
+    "world": {
+      "x": -150,
+      "y": -228.62,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      300,
+      36
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 340,
+    "top": 570.62,
+    "components": []
+  },
+  {
+    "prefab": 147,
+    "name": "lab_videoBtn",
+    "parent": "button_video",
+    "world": {
+      "x": -157.769,
+      "y": -289.979,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      128,
+      40.32
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 418.231,
+    "top": 629.8190000000001,
+    "components": [
+      {
+        "type": "cc.Label",
+        "fontSize": 32,
+        "lineHeight": 32,
+        "text": "免费领豆",
+        "color": [
+          4280306688
+        ]
+      },
+      {
+        "type": "cc.LabelOutline",
+        "color": [
+          4280306688
+        ]
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "Label",
+    "parent": "btn_supplementEnergy",
+    "world": {
+      "x": -45,
+      "y": -289.979,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      170,
+      42.84
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 510,
+    "top": 628.5590000000001,
+    "components": [
+      {
+        "type": "cc.Label",
+        "fontSize": 34,
+        "lineHeight": 34,
+        "text": "补充能量值",
+        "color": [
+          4280306688
+        ]
+      },
+      {
+        "type": "cc.Widget",
+        "color": [
+          4280306688
+        ]
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "img_TicketBg",
+    "parent": "btn_supplementEnergy",
+    "world": {
+      "x": -45,
+      "y": -231.97899999999998,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      197,
+      31
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 496.5,
+    "top": 576.479,
+    "components": [
+      {
+        "type": "cc.Sprite",
+        "spriteFrame": "45473634-2ffd-47eb-8a23-50e8fe2a8953"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "lab_videoBtn",
+    "parent": "button_JPQ",
+    "world": {
+      "x": -26.629,
+      "y": -289.979,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      128,
+      40.32
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 549.371,
+    "top": 629.8190000000001,
+    "components": [
+      {
+        "type": "cc.Label",
+        "fontSize": 32,
+        "lineHeight": 32,
+        "text": "记牌开局",
+        "color": [
+          4280306688
+        ]
+      },
+      {
+        "type": "cc.LabelOutline",
+        "color": [
+          4280306688
+        ]
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "img_gameAwardEndTip",
+    "parent": "Button_NextGame",
+    "world": {
+      "x": 230,
+      "y": -235.11599999999999,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      184,
+      46
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 778,
+    "top": 572.116,
+    "components": [
+      {
+        "type": "cc.Sprite",
+        "spriteFrame": "7b8db836-fe09-41a4-9e26-f3473d7a73c4"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "img_Finger",
+    "parent": "ComGameResult",
+    "world": {
+      "x": 571.782,
+      "y": -287.887,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      200,
+      90
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 1111.7820000000002,
+    "top": 602.887,
+    "components": []
+  },
+  {
+    "prefab": 147,
+    "name": "FanXingResearchGame",
+    "parent": "LeftBotom",
+    "world": {
+      "x": -421.10400000000004,
+      "y": -292.881,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      110,
+      110
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 163.89599999999996,
+    "top": 597.881,
+    "components": [
+      {
+        "type": "75f83CAzcpA3IfjvGq2A4Xl"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "img_HeadFrame",
+    "parent": "PlayerHeadNode",
+    "world": {
+      "x": -129.807,
+      "y": 116.727,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      109,
+      106
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 455.693,
+    "top": 190.273,
+    "components": [
+      {
+        "type": "cc.Sprite",
+        "spriteFrame": "11123ee8-8d3c-48b7-881f-9d8c6bd5c60d"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "lab_nicName",
+    "parent": "PlayerHeadNode",
+    "world": {
+      "x": -24.15599999999999,
+      "y": 95.98700000000001,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      58.72,
+      30.24
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 586.484,
+    "top": 248.89299999999997,
+    "components": [
+      {
+        "type": "cc.Label",
+        "fontSize": 24,
+        "lineHeight": 24,
+        "text": "Label",
+        "color": [
+          4278193282
+        ]
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "HeadLineIcon",
+    "parent": "PlayerHeadNode",
+    "world": {
+      "x": -129.807,
+      "y": 116.727,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      80,
+      82
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 470.193,
+    "top": 202.273,
+    "components": [
+      {
+        "type": "cc.Sprite",
+        "spriteFrame": "8dc6430d-b05b-41cb-b03d-06efb44ccb03"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "spBg",
+    "parent": "nFront",
+    "world": {
+      "x": 209.612,
+      "y": 18.891000000000005,
+      "sx": 0.8800000000000001,
+      "sy": 0.8800000000000001
+    },
+    "size": [
+      48,
+      71
+    ],
+    "anchor": [
+      0,
+      0.5
+    ],
+    "left": 849.612,
+    "top": 309.86899999999997,
+    "components": [
+      {
+        "type": "cc.Sprite"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "spValue",
+    "parent": "nFront",
+    "world": {
+      "x": 209.612,
+      "y": 18.891000000000005,
+      "sx": 0.8800000000000001,
+      "sy": 0.8800000000000001
+    },
+    "size": [
+      48,
+      71
+    ],
+    "anchor": [
+      0,
+      0.5
+    ],
+    "left": 849.612,
+    "top": 309.86899999999997,
+    "components": [
+      {
+        "type": "cc.Sprite"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "picNode",
+    "parent": "ComGameResultTempatePic",
+    "world": {
+      "x": 209.612,
+      "y": 18.891000000000005,
+      "sx": 1.1,
+      "sy": 1.1
+    },
+    "size": [
+      0,
+      0
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 849.612,
+    "top": 341.109,
+    "components": []
+  },
+  {
+    "prefab": 147,
+    "name": "winLabel",
+    "parent": "GameCoinLayout",
+    "world": {
+      "x": 247.672,
+      "y": 134.899,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      329.06,
+      40
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 723.142,
+    "top": 205.101,
+    "components": [
+      {
+        "type": "cc.Label",
+        "fontSize": 30,
+        "text": "+129.392万",
+        "font": "2ed6c99c-1ccf-4293-bb92-f7d54e6fa00a"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "vipLabel_win",
+    "parent": "GameCoinLayout",
+    "world": {
+      "x": 417.202,
+      "y": 122.899,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      150.5,
+      40
+    ],
+    "anchor": [
+      0,
+      0.5
+    ],
+    "left": 1057.202,
+    "top": 217.101,
+    "components": [
+      {
+        "type": "cc.Label",
+        "fontSize": 28,
+        "text": "(麻卡+0万)",
+        "font": "54b1de72-815f-4249-aed8-47a5b0195a4d"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "loseLabel",
+    "parent": "GameCoinLayout",
+    "world": {
+      "x": 709.767,
+      "y": 134.899,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      95.63,
+      40
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 1301.952,
+    "top": 205.101,
+    "components": [
+      {
+        "type": "cc.Label",
+        "fontSize": 30,
+        "text": "-0",
+        "font": "72b1b252-eb37-4396-ac8c-e39f8896689c"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "vipLabel_lose",
+    "parent": "GameCoinLayout",
+    "world": {
+      "x": 661.952,
+      "y": 122.899,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      28.88,
+      40
+    ],
+    "anchor": [
+      0,
+      0.5
+    ],
+    "left": 1301.952,
+    "top": 217.101,
+    "components": [
+      {
+        "type": "cc.Label",
+        "fontSize": 28,
+        "text": "()",
+        "font": "483e8643-1c7a-466b-a3c2-1153d3d8b17e",
+        "color": [
+          4294953251
+        ]
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "bg",
+    "parent": "ReachMaxFanCount",
+    "world": {
+      "x": 461.88,
+      "y": 124.136,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      87,
+      87
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 1058.38,
+    "top": 192.364,
+    "components": [
+      {
+        "type": "cc.Sprite",
+        "spriteFrame": "ee7f9767-35e2-485d-9b97-e21fc7694e81"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "bg",
+    "parent": "BankruptTag",
+    "world": {
+      "x": -16.613,
+      "y": 130.905,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      117,
+      38
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 564.887,
+    "top": 210.095,
+    "components": [
+      {
+        "type": "cc.Sprite",
+        "spriteFrame": "c439dd16-7e1e-4614-85d2-ccd283cdc223"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "label_msg",
+    "parent": "bg",
+    "world": {
+      "x": -11.290999999999997,
+      "y": 89.575,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      370,
+      63.279999999999994
+    ],
+    "anchor": [
+      0.5,
+      0
+    ],
+    "left": 443.70900000000006,
+    "top": 207.145,
+    "components": [
+      {
+        "type": "cc.Label",
+        "fontSize": 28,
+        "lineHeight": 28,
+        "text": "四暗刻，清一色，天胡，风花雪月，对对碰，门清，起手叫"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "jiantou",
+    "parent": "bg",
+    "world": {
+      "x": 111.462,
+      "y": 63.822,
+      "sx": 1.2,
+      "sy": 1.2
+    },
+    "size": [
+      24,
+      18
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 737.062,
+    "top": 285.378,
+    "components": [
+      {
+        "type": "cc.Sprite",
+        "spriteFrame": "eeb12cd0-162e-4cad-815d-215d572925b1"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "node_PlayerItem_0",
+    "parent": "node_PlayerGrounp",
+    "world": {
+      "x": -311.038,
+      "y": 280.515,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      0,
+      0
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 328.962,
+    "top": 79.48500000000001,
+    "components": []
+  },
+  {
+    "prefab": 147,
+    "name": "node_PlayerItem_1",
+    "parent": "node_PlayerGrounp",
+    "world": {
+      "x": 55.163,
+      "y": 280.515,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      0,
+      0
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 695.163,
+    "top": 79.48500000000001,
+    "components": []
+  },
+  {
+    "prefab": 147,
+    "name": "node_PlayerItem_2",
+    "parent": "node_PlayerGrounp",
+    "world": {
+      "x": 417.916,
+      "y": 280.515,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      0,
+      0
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 1057.916,
+    "top": 79.48500000000001,
+    "components": []
+  },
+  {
+    "prefab": 147,
+    "name": "img_redBall",
+    "parent": "HappyBumpEntry",
+    "world": {
+      "x": -490,
+      "y": -245,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      21,
+      22
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 139.5,
+    "top": 594,
+    "components": [
+      {
+        "type": "cc.Sprite",
+        "spriteFrame": "87ee852a-9826-43fe-b2bb-8062daf9bec6"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "gradeIcon",
+    "parent": "MJMasterPath",
+    "world": {
+      "x": -467.064,
+      "y": 18.855,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      341,
+      273
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 2.4359999999999786,
+    "top": 204.64499999999998,
+    "components": [
+      {
+        "type": "cc.Sprite"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "bar",
+    "parent": "ProgressBar",
+    "world": {
+      "x": -588.969,
+      "y": -120.689,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      0,
+      25
+    ],
+    "anchor": [
+      0,
+      0.5
+    ],
+    "left": 51.03099999999995,
+    "top": 468.18899999999996,
+    "components": [
+      {
+        "type": "cc.Sprite",
+        "spriteFrame": "811e1177-c549-4cb7-8d54-3fe4282da1fe"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "bg0",
+    "parent": "showAward",
+    "world": {
+      "x": -313.91400000000004,
+      "y": -79.64599999999999,
+      "sx": 1.5,
+      "sy": 1.5
+    },
+    "size": [
+      19,
+      14
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 311.83599999999996,
+    "top": 429.14599999999996,
+    "components": [
+      {
+        "type": "cc.Sprite",
+        "spriteFrame": "d23467fb-baf1-4668-9bd8-408ca2f7afcc"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "bg1",
+    "parent": "showAward",
+    "world": {
+      "x": -305.86400000000003,
+      "y": -3.7729999999999926,
+      "sx": 1.43,
+      "sy": 1.43
+    },
+    "size": [
+      44,
+      43
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 302.676,
+    "top": 333.02799999999996,
+    "components": [
+      {
+        "type": "cc.Sprite",
+        "spriteFrame": "29d984f9-6ecb-4e1b-9c99-377a3b333277"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "award",
+    "parent": "showAward",
+    "world": {
+      "x": -304.30100000000004,
+      "y": -4.598999999999993,
+      "sx": 0.5,
+      "sy": 0.5
+    },
+    "size": [
+      133,
+      74
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 302.44899999999996,
+    "top": 346.099,
+    "components": [
+      {
+        "type": "cc.Sprite"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "desc",
+    "parent": "showAward",
+    "world": {
+      "x": -305.464,
+      "y": -49.830999999999996,
+      "sx": 0.1,
+      "sy": 0.1
+    },
+    "size": [
+      900,
+      252
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 289.536,
+    "top": 397.231,
+    "components": [
+      {
+        "type": "cc.Label",
+        "fontSize": 180,
+        "lineHeight": 200,
+        "color": [
+          4294967038
+        ]
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "xc_sg_01",
+    "parent": "fx_xc_sg3",
+    "world": {
+      "x": -516.469,
+      "y": -120.689,
+      "sx": 1,
+      "sy": 0.38
+    },
+    "size": [
+      103,
+      70
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 72.03099999999995,
+    "top": 467.38899999999995,
+    "components": [
+      {
+        "type": "cc.Sprite",
+        "spriteFrame": "15bb93d2-4b37-4ea6-81bd-90ba6ab1fd70"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "btn",
+    "parent": "MJMasterPath",
+    "world": {
+      "x": -486.096,
+      "y": 33.901,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      300,
+      200
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 3.9039999999999964,
+    "top": 226.099,
+    "components": [
+      {
+        "type": "cc.Button"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "btn",
+    "parent": "MJMasterPath",
+    "world": {
+      "x": -503.706,
+      "y": -102.382,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      220,
+      100
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 26.293999999999983,
+    "top": 412.382,
+    "components": [
+      {
+        "type": "cc.Button"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "New Label",
+    "parent": "Button_ChangeTable",
+    "world": {
+      "x": -270,
+      "y": -289.979,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      72.89,
+      40.32
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 333.555,
+    "top": 629.8190000000001,
+    "components": [
+      {
+        "type": "cc.Label",
+        "fontSize": 32,
+        "lineHeight": 32,
+        "text": "换 桌",
+        "color": [
+          4285612544
+        ]
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "lab_bubble",
+    "parent": "tiao",
+    "world": {
+      "x": -135,
+      "y": -226.043,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      382.25,
+      37.8
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 313.875,
+    "top": 567.143,
+    "components": [
+      {
+        "type": "cc.Label",
+        "fontSize": 20,
+        "lineHeight": 30,
+        "text": "学习完整指引可领取20万游戏豆及精美牌桌",
+        "color": [
+          4294572537
+        ]
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "hongjiantou",
+    "parent": "img_bubble",
+    "world": {
+      "x": -145,
+      "y": -249.269,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      17,
+      11
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 486.5,
+    "top": 603.769,
+    "components": [
+      {
+        "type": "cc.Sprite",
+        "spriteFrame": "ecb36d70-1d2d-4d32-a4bb-f819acf76855"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "lab_bubble",
+    "parent": "tiao",
+    "world": {
+      "x": -150,
+      "y": -226.043,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      262.25,
+      37.8
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 358.875,
+    "top": 567.143,
+    "components": [
+      {
+        "type": "cc.Label",
+        "fontSize": 20,
+        "lineHeight": 30,
+        "text": "观看完整视频最高能领10万豆",
+        "color": [
+          4294572537
+        ]
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "hongjiantou",
+    "parent": "img_video_bubble",
+    "world": {
+      "x": -160,
+      "y": -249.269,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      17,
+      11
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 471.5,
+    "top": 603.769,
+    "components": [
+      {
+        "type": "cc.Sprite",
+        "spriteFrame": "ecb36d70-1d2d-4d32-a4bb-f819acf76855"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "lab_energyNum",
+    "parent": "img_TicketBg",
+    "world": {
+      "x": -45,
+      "y": -229.97899999999998,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      44,
+      32.76
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 573,
+    "top": 573.599,
+    "components": [
+      {
+        "type": "cc.Label",
+        "fontSize": 22,
+        "lineHeight": 26,
+        "text": "当前"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "btn_com15",
+    "parent": "button_JPQ",
+    "world": {
+      "x": -110.358,
+      "y": -291.078,
+      "sx": 1.2,
+      "sy": 1.2
+    },
+    "size": [
+      31,
+      30
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 511.04200000000003,
+    "top": 633.078,
+    "components": [
+      {
+        "type": "cc.Sprite",
+        "spriteFrame": "5a6a6a59-8983-4cf8-b013-3055267a7028",
+        "color": [
+          4281626123
+        ]
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "New Label",
+    "parent": "Button_NextGame",
+    "world": {
+      "x": 225,
+      "y": -286.979,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      126,
+      52.92
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 802,
+    "top": 620.519,
+    "components": [
+      {
+        "type": "cc.Label",
+        "fontSize": 42,
+        "lineHeight": 42,
+        "text": "下一局",
+        "color": [
+          4278203031
+        ]
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "zhiwen",
+    "parent": "img_Finger",
+    "world": {
+      "x": 574.76,
+      "y": -285.798,
+      "sx": 0.8,
+      "sy": 0.8
+    },
+    "size": [
+      149,
+      78
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 1155.16,
+    "top": 614.598,
+    "components": [
+      {
+        "type": "cc.Sprite",
+        "spriteFrame": "4bb86eab-c5ee-4a75-8e71-f3bcdfa493a3"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "rec_1",
+    "parent": "RecommendNodeLayout",
+    "world": {
+      "x": -44.768,
+      "y": -149.421,
+      "sx": 0.6,
+      "sy": 0.6
+    },
+    "size": [
+      0,
+      0
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 595.232,
+    "top": 509.421,
+    "components": []
+  },
+  {
+    "prefab": 147,
+    "name": "rec_2",
+    "parent": "RecommendNodeLayout",
+    "world": {
+      "x": 45.232,
+      "y": -149.421,
+      "sx": 0.6,
+      "sy": 0.6
+    },
+    "size": [
+      0,
+      0
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 685.232,
+    "top": 509.421,
+    "components": []
+  },
+  {
+    "prefab": 147,
+    "name": "rec_3",
+    "parent": "RecommendNodeLayout",
+    "world": {
+      "x": 135.232,
+      "y": -149.421,
+      "sx": 0.6,
+      "sy": 0.6
+    },
+    "size": [
+      0,
+      0
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 775.232,
+    "top": 509.421,
+    "components": []
+  },
+  {
+    "prefab": 147,
+    "name": "rec_4",
+    "parent": "RecommendNodeLayout",
+    "world": {
+      "x": 225.232,
+      "y": -149.421,
+      "sx": 0.6,
+      "sy": 0.6
+    },
+    "size": [
+      0,
+      0
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 865.232,
+    "top": 509.421,
+    "components": []
+  },
+  {
+    "prefab": 147,
+    "name": "rec_5",
+    "parent": "RecommendNodeLayout",
+    "world": {
+      "x": 315.23199999999997,
+      "y": -149.421,
+      "sx": 0.6,
+      "sy": 0.6
+    },
+    "size": [
+      0,
+      0
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 955.232,
+    "top": 509.421,
+    "components": []
+  },
+  {
+    "prefab": 147,
+    "name": "rec_6",
+    "parent": "RecommendNodeLayout",
+    "world": {
+      "x": 405.23199999999997,
+      "y": -149.421,
+      "sx": 0.6,
+      "sy": 0.6
+    },
+    "size": [
+      0,
+      0
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 1045.232,
+    "top": 509.421,
+    "components": []
+  },
+  {
+    "prefab": 147,
+    "name": "fareNumRoot",
+    "parent": "RMBRedBagEntry",
+    "world": {
+      "x": -595.923,
+      "y": -203.355,
+      "sx": 1.1,
+      "sy": 1.1
+    },
+    "size": [
+      97,
+      97
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": -9.273000000000003,
+    "top": 510.005,
+    "components": [
+      {
+        "type": "95fc469EsJE35/Es9agFVho"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "lab_bubble",
+    "parent": "tiao",
+    "world": {
+      "x": -578.976,
+      "y": -146.50459999999998,
+      "sx": 0.8,
+      "sy": 0.8
+    },
+    "size": [
+      100,
+      37.8
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 21.024,
+    "top": 491.3846,
+    "components": [
+      {
+        "type": "cc.Label",
+        "fontSize": 20,
+        "lineHeight": 30,
+        "text": "打牌送话费",
+        "color": [
+          4294572537
+        ]
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "hongjiantou",
+    "parent": "img_tips",
+    "world": {
+      "x": -586.976,
+      "y": -165.0854,
+      "sx": 0.8,
+      "sy": 0.8
+    },
+    "size": [
+      17,
+      11
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 46.224000000000004,
+    "top": 520.6854,
+    "components": [
+      {
+        "type": "cc.Sprite",
+        "spriteFrame": "ecb36d70-1d2d-4d32-a4bb-f819acf76855"
+      }
+    ]
+  },
+  {
+    "prefab": 147,
+    "name": "MoneyBoxEntry",
+    "parent": "LeftBotom",
+    "world": {
+      "x": -583.604,
+      "y": -292.881,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      115,
+      115
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": -1.1040000000000418,
+    "top": 595.381,
+    "components": [
+      {
+        "type": "95fc469EsJE35/Es9agFVho"
+      }
+    ]
+  },
+  {
+    "prefab": 118,
+    "name": "PlayerItemCommon",
+    "world": {
+      "x": 0,
+      "y": 0,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      313,
+      75
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 483.5,
+    "top": 322.5,
+    "components": [
+      {
+        "type": "76ed619+BxN/ouL3e3lS7SK"
+      }
+    ]
+  },
+  {
+    "prefab": 118,
+    "name": "item_bg",
+    "parent": "PlayerItemCommon",
+    "world": {
+      "x": 0,
+      "y": 0,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      313,
+      76
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 483.5,
+    "top": 322,
+    "components": [
+      {
+        "type": "cc.Sprite",
+        "spriteFrame": "363a6d52-35d4-4c58-a68f-ca13f070de5a"
+      }
+    ]
+  },
+  {
+    "prefab": 118,
+    "name": "head_mask",
+    "parent": "PlayerHeadNode",
+    "world": {
+      "x": -117.834,
+      "y": 0,
+      "sx": 0.75,
+      "sy": 0.75
+    },
+    "size": [
+      80,
+      80
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 492.16599999999994,
+    "top": 330,
+    "components": [
+      {
+        "type": "cc.Mask",
+        "spriteFrame": "2a4dbe4f-f461-40a4-9014-8cce89f0ea3b"
+      }
+    ]
+  },
+  {
+    "prefab": 118,
+    "name": "ReachMaxFanCount",
+    "parent": "item_bg",
+    "world": {
+      "x": -115.26,
+      "y": -29.388,
+      "sx": 0.7,
+      "sy": 0.7
+    },
+    "size": [
+      157,
+      38
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 469.79,
+    "top": 376.08799999999997,
+    "components": []
+  },
+  {
+    "prefab": 118,
+    "name": "PlayerHeadNode",
+    "parent": "item_bg",
+    "world": {
+      "x": -117.732,
+      "y": 0,
+      "sx": 0.75,
+      "sy": 0.75
+    },
+    "size": [
+      96,
+      96
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 486.26800000000003,
+    "top": 324,
+    "components": []
+  },
+  {
+    "prefab": 118,
+    "name": "img_head",
+    "parent": "head_mask",
+    "world": {
+      "x": -117.834,
+      "y": 0,
+      "sx": 0.75,
+      "sy": 0.75
+    },
+    "size": [
+      80,
+      80
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 492.16599999999994,
+    "top": 330,
+    "components": [
+      {
+        "type": "cc.Sprite",
+        "spriteFrame": "f1d41e3b-4301-4b2c-b90a-e446faaf4abf"
+      },
+      {
+        "type": "cc.Widget"
+      }
+    ]
+  },
+  {
+    "prefab": 118,
+    "name": "img_coinNode",
+    "parent": "item_bg",
+    "world": {
+      "x": -56.048,
+      "y": -5.739,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      1,
+      44
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 583.452,
+    "top": 343.739,
+    "components": []
+  },
+  {
+    "prefab": 118,
+    "name": "img_total_fanCount",
+    "parent": "item_bg",
+    "world": {
+      "x": 117.737,
+      "y": -18.017,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      59,
+      30
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 728.237,
+    "top": 363.017,
+    "components": [
+      {
+        "type": "cc.Sprite",
+        "spriteFrame": "538608e2-25f2-4622-ac27-fa21d281b7bf"
+      }
+    ]
+  },
+  {
+    "prefab": 118,
+    "name": "fengding",
+    "parent": "ReachMaxFanCount",
+    "world": {
+      "x": -136.4504,
+      "y": -26.588,
+      "sx": 0.7,
+      "sy": 0.7
+    },
+    "size": [
+      45,
+      28.72
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 487.7996,
+    "top": 376.536,
+    "components": [
+      {
+        "type": "cc.Label",
+        "fontSize": 22,
+        "lineHeight": 22,
+        "text": "封顶"
+      },
+      {
+        "type": "cc.LabelOutline"
+      }
+    ]
+  },
+  {
+    "prefab": 118,
+    "name": "maxFanCount",
+    "parent": "ReachMaxFanCount",
+    "world": {
+      "x": -118.9658,
+      "y": -26.588,
+      "sx": 0.7,
+      "sy": 0.7
+    },
+    "size": [
+      59.71,
+      28.72
+    ],
+    "anchor": [
+      0,
+      0.5
+    ],
+    "left": 521.0342,
+    "top": 376.536,
+    "components": [
+      {
+        "type": "cc.Label",
+        "fontSize": 22,
+        "lineHeight": 22,
+        "text": "400倍"
+      },
+      {
+        "type": "cc.LabelOutline"
+      }
+    ]
+  },
+  {
+    "prefab": 118,
+    "name": "BankruptTag",
+    "parent": "item_bg",
+    "world": {
+      "x": -117.418,
+      "y": -29.31,
+      "sx": 0.75,
+      "sy": 0.75
+    },
+    "size": [
+      117,
+      38
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 478.707,
+    "top": 375.06,
+    "components": []
+  },
+  {
+    "prefab": 118,
+    "name": "dayingjia",
+    "parent": "item_bg",
+    "world": {
+      "x": -116.927,
+      "y": -29.443,
+      "sx": 0.7,
+      "sy": 0.7
+    },
+    "size": [
+      117,
+      38
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 482.123,
+    "top": 376.143,
+    "components": [
+      {
+        "type": "cc.Sprite",
+        "spriteFrame": "242ef5d2-11f0-4e4b-9789-da3a637c3adf"
+      }
+    ]
+  },
+  {
+    "prefab": 118,
+    "name": "HeadLineIcon",
+    "parent": "PlayerHeadNode",
+    "world": {
+      "x": -117.732,
+      "y": 0,
+      "sx": 0.75,
+      "sy": 0.75
+    },
+    "size": [
+      80,
+      82
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 492.26800000000003,
+    "top": 329.25,
+    "components": [
+      {
+        "type": "cc.Sprite",
+        "spriteFrame": "8dc6430d-b05b-41cb-b03d-06efb44ccb03"
+      }
+    ]
+  },
+  {
+    "prefab": 118,
+    "name": "lab_pos",
+    "parent": "item_bg",
+    "world": {
+      "x": 109,
+      "y": 14,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      48,
+      30.24
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 725,
+    "top": 330.88,
+    "components": [
+      {
+        "type": "cc.Label",
+        "fontSize": 24,
+        "lineHeight": 24,
+        "text": "上家"
+      }
+    ]
+  },
+  {
+    "prefab": 118,
+    "name": "img_HeadFrame",
+    "parent": "item_bg",
+    "world": {
+      "x": -117.18,
+      "y": 0,
+      "sx": 0.75,
+      "sy": 0.75
+    },
+    "size": [
+      109,
+      106
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 481.94499999999994,
+    "top": 320.25,
+    "components": [
+      {
+        "type": "cc.Sprite",
+        "spriteFrame": "11123ee8-8d3c-48b7-881f-9d8c6bd5c60d"
+      }
+    ]
+  },
+  {
+    "prefab": 118,
+    "name": "label_NickName",
+    "parent": "item_bg",
+    "world": {
+      "x": -72.416,
+      "y": 16.544,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      120,
+      32
+    ],
+    "anchor": [
+      0,
+      0.5
+    ],
+    "left": 567.5840000000001,
+    "top": 327.456,
+    "components": [
+      {
+        "type": "cc.Label",
+        "fontSize": 22,
+        "lineHeight": 25,
+        "text": "最多五个字",
+        "color": [
+          4290589240
+        ]
+      }
+    ]
+  },
+  {
+    "prefab": 118,
+    "name": "label_LoseGameCoin",
+    "parent": "img_coinNode",
+    "world": {
+      "x": -45.048,
+      "y": -15.739,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      182,
+      28
+    ],
+    "anchor": [
+      0,
+      0.5
+    ],
+    "left": 594.952,
+    "top": 361.739,
+    "components": [
+      {
+        "type": "cc.Label",
+        "fontSize": 28,
+        "lineHeight": 28,
+        "text": "-100",
+        "color": [
+          4290589240
+        ]
+      }
+    ]
+  },
+  {
+    "prefab": 118,
+    "name": "label_WinGameCoin",
+    "parent": "img_coinNode",
+    "world": {
+      "x": -45.048,
+      "y": -15.739,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      182,
+      28
+    ],
+    "anchor": [
+      0,
+      0.5
+    ],
+    "left": 594.952,
+    "top": 361.739,
+    "components": [
+      {
+        "type": "cc.Label",
+        "fontSize": 28,
+        "lineHeight": 28,
+        "text": "+12800",
+        "color": [
+          4279774448
+        ]
+      }
+    ]
+  },
+  {
+    "prefab": 118,
+    "name": "img_bank",
+    "parent": "item_bg",
+    "world": {
+      "x": -143.796,
+      "y": 24.246,
+      "sx": 0.8,
+      "sy": 0.8
+    },
+    "size": [
+      28,
+      29
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 485.004,
+    "top": 324.154,
+    "components": [
+      {
+        "type": "cc.Sprite",
+        "spriteFrame": "c468be4f-3461-4c0a-94eb-5bf87bb878e0"
+      }
+    ]
+  },
+  {
+    "prefab": 118,
+    "name": "fanCountLabel",
+    "parent": "img_total_fanCount",
+    "world": {
+      "x": 117.737,
+      "y": -15.639,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      30.63,
+      23.94
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 742.4219999999999,
+    "top": 363.669,
+    "components": [
+      {
+        "type": "cc.Label",
+        "fontSize": 19,
+        "lineHeight": 19,
+        "text": "x16",
+        "color": [
+          4289330174
+        ]
+      }
+    ]
+  },
+  {
+    "prefab": 118,
+    "name": "bg",
+    "parent": "ReachMaxFanCount",
+    "world": {
+      "x": -115.26,
+      "y": -29.388,
+      "sx": 0.7,
+      "sy": 0.7
+    },
+    "size": [
+      157,
+      38
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 469.79,
+    "top": 376.08799999999997,
+    "components": [
+      {
+        "type": "cc.Sprite",
+        "spriteFrame": "4935ac4d-0fc4-485b-8406-679b761c794e"
+      }
+    ]
+  },
+  {
+    "prefab": 118,
+    "name": "bg",
+    "parent": "BankruptTag",
+    "world": {
+      "x": -117.418,
+      "y": -29.31,
+      "sx": 0.75,
+      "sy": 0.75
+    },
+    "size": [
+      117,
+      38
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 478.707,
+    "top": 375.06,
+    "components": [
+      {
+        "type": "cc.Sprite",
+        "spriteFrame": "c439dd16-7e1e-4614-85d2-ccd283cdc223"
+      }
+    ]
+  },
+  {
+    "prefab": 20,
+    "name": "FanDetailItem",
+    "world": {
+      "x": 0,
+      "y": 5,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      700,
+      30
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 290,
+    "top": 340,
+    "components": [
+      {
+        "type": "1785e9WykBI458PQCO7FAW0"
+      }
+    ]
+  },
+  {
+    "prefab": 20,
+    "name": "layout",
+    "parent": "view",
+    "world": {
+      "x": -350,
+      "y": 5,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      110.89,
+      30
+    ],
+    "anchor": [
+      0,
+      0.5
+    ],
+    "left": 290,
+    "top": 340,
+    "components": [
+      {
+        "type": "cc.Layout"
+      },
+      {
+        "type": "cc.Widget"
+      }
+    ]
+  },
+  {
+    "prefab": 20,
+    "name": "view",
+    "parent": "FanDetailItem",
+    "world": {
+      "x": -350,
+      "y": 5,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      410,
+      30
+    ],
+    "anchor": [
+      0,
+      0.5
+    ],
+    "left": 290,
+    "top": 340,
+    "components": [
+      {
+        "type": "cc.Mask"
+      },
+      {
+        "type": "cc.Widget"
+      }
+    ]
+  },
+  {
+    "prefab": 20,
+    "name": "lab_click",
+    "parent": "FanDetailItem",
+    "world": {
+      "x": 81.819,
+      "y": 3.343,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      43,
+      33
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 700.319,
+    "top": 340.157,
+    "components": [
+      {
+        "type": "cc.Sprite",
+        "spriteFrame": "3a292774-7c44-476a-aac7-5188e0665e17"
+      },
+      {
+        "type": "cc.Button"
+      }
+    ]
+  },
+  {
+    "prefab": 20,
+    "name": "yd999",
+    "parent": "layout",
+    "world": {
+      "x": -368.711,
+      "y": 5,
+      "sx": 0.9,
+      "sy": 0.9
+    },
+    "size": [
+      39,
+      39
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "left": 253.73899999999998,
+    "top": 337.45,
+    "components": [
+      {
+        "type": "cc.Sprite",
+        "spriteFrame": "52669a03-f682-46fe-8dfa-22fb04c34d9b"
+      }
+    ]
+  },
+  {
+    "prefab": 20,
+    "name": "lab_fanFront",
+    "parent": "layout",
+    "world": {
+      "x": -350,
+      "y": 5,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      63.89,
+      37.8
+    ],
+    "anchor": [
+      0,
+      0.5
+    ],
+    "left": 290,
+    "top": 336.1,
+    "components": [
+      {
+        "type": "cc.Label",
+        "fontSize": 25,
+        "lineHeight": 30,
+        "text": "[本家]"
+      }
+    ]
+  },
+  {
+    "prefab": 20,
+    "name": "fanNameLab",
+    "parent": "layout",
+    "world": {
+      "x": -285.11,
+      "y": 5,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      46,
+      37.8
+    ],
+    "anchor": [
+      0,
+      0.5
+    ],
+    "left": 354.89,
+    "top": 336.1,
+    "components": [
+      {
+        "type": "cc.Label",
+        "fontSize": 23,
+        "lineHeight": 30,
+        "text": "待定"
+      }
+    ]
+  },
+  {
+    "prefab": 20,
+    "name": "fanNumLab",
+    "parent": "FanDetailItem",
+    "world": {
+      "x": 201.833,
+      "y": 5,
+      "sx": 1,
+      "sy": 1
+    },
+    "size": [
+      43.45,
+      36.54
+    ],
+    "anchor": [
+      1,
+      0.5
+    ],
+    "left": 798.3829999999999,
+    "top": 336.73,
+    "components": [
+      {
+        "type": "cc.Label",
+        "fontSize": 23,
+        "lineHeight": 29.9,
+        "text": "-5番",
+        "color": [
+          4281348144
+        ]
+      }
+    ]
+  }
+]

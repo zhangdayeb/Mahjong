@@ -1,0 +1,1277 @@
+[
+  {
+    "bundle": "resources",
+    "id": 543,
+    "name": "dilie03",
+    "rect": [
+      2,
+      2,
+      232,
+      256
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      256,
+      256
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "134ef5d3-32b1-4169-be01-fa039c287e79",
+    "textureUUID": "aca60dbe-ae57-4f6e-ba44-d7a0b57ec4ba",
+    "image": "tile-result-study/assets/resources-543-dilie03.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 1058,
+    "name": "bl-dian03_000",
+    "rect": [
+      294,
+      627,
+      108,
+      98
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      256,
+      102
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "42a3f04a-285f-4895-a448-5e8b04a6b6b4",
+    "textureUUID": "aca60dbe-ae57-4f6e-ba44-d7a0b57ec4ba",
+    "image": "tile-result-study/assets/resources-1058-bl-dian03_000.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 722,
+    "name": "a_point211a",
+    "rect": [
+      763,
+      132,
+      114,
+      114
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      128,
+      128
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "25fd3404-18a0-4ebe-8ed5-09bd8515b071",
+    "textureUUID": "aca60dbe-ae57-4f6e-ba44-d7a0b57ec4ba",
+    "image": "tile-result-study/assets/resources-722-a_point211a.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 748,
+    "name": "ty_glow",
+    "rect": [
+      633,
+      142,
+      128,
+      128
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      128,
+      128
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "2fa9d7e2-185d-47bb-8d25-d1749d8f3d80",
+    "textureUUID": "aca60dbe-ae57-4f6e-ba44-d7a0b57ec4ba",
+    "image": "tile-result-study/assets/resources-748-ty_glow.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 1413,
+    "name": "tykuosan",
+    "rect": [
+      106,
+      494,
+      190,
+      180
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      200,
+      200
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "57f49772-c096-4993-853e-26c81318d127",
+    "textureUUID": "aca60dbe-ae57-4f6e-ba44-d7a0b57ec4ba",
+    "image": "tile-result-study/assets/resources-1413-tykuosan.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 821,
+    "name": "M_shandian6_004",
+    "rect": [
+      228,
+      686,
+      44,
+      26
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      64,
+      42
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "3cf56bfe-a722-49f7-8e89-1dcd9d1af1f8",
+    "textureUUID": "aca60dbe-ae57-4f6e-ba44-d7a0b57ec4ba",
+    "image": "tile-result-study/assets/resources-821-M_shandian6_004.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 71,
+    "name": "M_shandian6_003",
+    "rect": [
+      310,
+      158,
+      40,
+      36
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      64,
+      42
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "01a0e24b-aa33-41ed-919a-b1ad6fdc1210",
+    "textureUUID": "aca60dbe-ae57-4f6e-ba44-d7a0b57ec4ba",
+    "image": "tile-result-study/assets/resources-71-M_shandian6_003.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 759,
+    "name": "guanzhu",
+    "rect": [
+      106,
+      686,
+      62,
+      64
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      64,
+      64
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "35587872-22bf-4b1c-8068-1bdefb867802",
+    "textureUUID": "aca60dbe-ae57-4f6e-ba44-d7a0b57ec4ba",
+    "image": "tile-result-study/assets/resources-759-guanzhu.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 1879,
+    "name": "cj_quan",
+    "rect": [
+      368,
+      899,
+      122,
+      124
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      128,
+      128
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "963ac462-c03d-4633-9251-cbd857ab1e17",
+    "textureUUID": "aca60dbe-ae57-4f6e-ba44-d7a0b57ec4ba",
+    "image": "tile-result-study/assets/resources-1879-cj_quan.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 2112,
+    "name": "fx_GuanQuan",
+    "rect": [
+      396,
+      353,
+      112,
+      112
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      128,
+      128
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "b3d7212d-0025-4b7f-8da7-506580518060",
+    "textureUUID": "aca60dbe-ae57-4f6e-ba44-d7a0b57ec4ba",
+    "image": "tile-result-study/assets/resources-2112-fx_GuanQuan.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 717,
+    "name": "bl-dian03_001",
+    "rect": [
+      100,
+      260,
+      232,
+      102
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      256,
+      102
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "24093771-74d1-4799-b1e4-42475be88915",
+    "textureUUID": "aca60dbe-ae57-4f6e-ba44-d7a0b57ec4ba",
+    "image": "tile-result-study/assets/resources-717-bl-dian03_001.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 2097,
+    "name": "bl-dian03_002",
+    "rect": [
+      2,
+      508,
+      240,
+      102
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      256,
+      102
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "afbde082-b336-4325-97ad-c6ded429e7fc",
+    "textureUUID": "aca60dbe-ae57-4f6e-ba44-d7a0b57ec4ba",
+    "image": "tile-result-study/assets/resources-2097-bl-dian03_002.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 1837,
+    "name": "bl-dian03_003",
+    "rect": [
+      2,
+      260,
+      246,
+      96
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      256,
+      102
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "86f5d8f1-0358-4628-81e6-68259bbb50ca",
+    "textureUUID": "aca60dbe-ae57-4f6e-ba44-d7a0b57ec4ba",
+    "image": "tile-result-study/assets/resources-1837-bl-dian03_003.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 1823,
+    "name": "bl-dian03_005",
+    "rect": [
+      2,
+      750,
+      218,
+      92
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      256,
+      102
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "80d72e3b-c8b1-4a56-8834-ebb2cfcb6e07",
+    "textureUUID": "aca60dbe-ae57-4f6e-ba44-d7a0b57ec4ba",
+    "image": "tile-result-study/assets/resources-1823-bl-dian03_005.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 2761,
+    "name": "bl-dian03_008",
+    "rect": [
+      184,
+      742,
+      178,
+      76
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      256,
+      102
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "bcb6c1a6-fa1d-422f-bf8b-b34d9a7abc0e",
+    "textureUUID": "aca60dbe-ae57-4f6e-ba44-d7a0b57ec4ba",
+    "image": "tile-result-study/assets/resources-2761-bl-dian03_008.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 2778,
+    "name": "bl-dian03_007",
+    "rect": [
+      96,
+      750,
+      204,
+      86
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      256,
+      102
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "bfa9f35b-5523-47a1-a932-ed38c5e2690a",
+    "textureUUID": "aca60dbe-ae57-4f6e-ba44-d7a0b57ec4ba",
+    "image": "tile-result-study/assets/resources-2778-bl-dian03_007.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 2873,
+    "name": "bl-dian03_009",
+    "rect": [
+      232,
+      425,
+      162,
+      40
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      256,
+      102
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "d4fc6d2d-2d8d-48cf-98c7-c54cbd78e853",
+    "textureUUID": "aca60dbe-ae57-4f6e-ba44-d7a0b57ec4ba",
+    "image": "tile-result-study/assets/resources-2873-bl-dian03_009.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 1504,
+    "name": "M_shandian6_005",
+    "rect": [
+      2,
+      970,
+      52,
+      24
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      64,
+      42
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "75ca6881-1ac8-405f-9dd9-61dbe17c9d7a",
+    "textureUUID": "aca60dbe-ae57-4f6e-ba44-d7a0b57ec4ba",
+    "image": "tile-result-study/assets/resources-1504-M_shandian6_005.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 1398,
+    "name": "M_shandian6_001",
+    "rect": [
+      210,
+      922,
+      20,
+      26
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      64,
+      42
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "5400094e-a0da-4dd4-9bcb-36f79e797d9f",
+    "textureUUID": "aca60dbe-ae57-4f6e-ba44-d7a0b57ec4ba",
+    "image": "tile-result-study/assets/resources-1398-M_shandian6_001.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 2874,
+    "name": "M_shandian6_000",
+    "rect": [
+      184,
+      922,
+      24,
+      28
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      64,
+      42
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "d50cbba2-e870-4161-9d4e-2b85c2ed8594",
+    "textureUUID": "aca60dbe-ae57-4f6e-ba44-d7a0b57ec4ba",
+    "image": "tile-result-study/assets/resources-2874-M_shandian6_000.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 1407,
+    "name": "M_shandian6_002",
+    "rect": [
+      204,
+      425,
+      42,
+      26
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      64,
+      42
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "5620e117-2c31-4038-8b05-ba1f7611f992",
+    "textureUUID": "aca60dbe-ae57-4f6e-ba44-d7a0b57ec4ba",
+    "image": "tile-result-study/assets/resources-1407-M_shandian6_002.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 1433,
+    "name": "hupai02_001",
+    "rect": [
+      2,
+      946,
+      62,
+      70
+    ],
+    "offset": [
+      0,
+      -51
+    ],
+    "originalSize": [
+      176,
+      238
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "5cffa41f-706a-4d6f-b438-dad37ab123c2",
+    "textureUUID": "b173fa01-fabc-4ed3-afe0-4451eb4bdcf2",
+    "image": "tile-result-study/assets/resources-1433-hupai02_001.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 1414,
+    "name": "hupai02_002",
+    "rect": [
+      568,
+      456,
+      108,
+      216
+    ],
+    "offset": [
+      2,
+      -1
+    ],
+    "originalSize": [
+      176,
+      238
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "581b2f13-1c82-4fff-ba69-7ea0b6c3bb7c",
+    "textureUUID": "b173fa01-fabc-4ed3-afe0-4451eb4bdcf2",
+    "image": "tile-result-study/assets/resources-1414-hupai02_002.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 2737,
+    "name": "hupai02_003",
+    "rect": [
+      490,
+      236,
+      114,
+      218
+    ],
+    "offset": [
+      1,
+      -2
+    ],
+    "originalSize": [
+      176,
+      238
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "b64d2138-aace-45c7-975e-f7ad1ca6bc98",
+    "textureUUID": "b173fa01-fabc-4ed3-afe0-4451eb4bdcf2",
+    "image": "tile-result-study/assets/resources-2737-hupai02_003.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 2883,
+    "name": "hupai02_004",
+    "rect": [
+      452,
+      472,
+      114,
+      222
+    ],
+    "offset": [
+      1,
+      -3
+    ],
+    "originalSize": [
+      176,
+      238
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "d769d7a3-9669-412a-9fe6-18c30a1aebba",
+    "textureUUID": "b173fa01-fabc-4ed3-afe0-4451eb4bdcf2",
+    "image": "tile-result-study/assets/resources-2883-hupai02_004.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 1455,
+    "name": "hupai02_005",
+    "rect": [
+      332,
+      702,
+      116,
+      228
+    ],
+    "offset": [
+      2,
+      -1
+    ],
+    "originalSize": [
+      176,
+      238
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "63df2eac-75f0-4ea1-85fb-f19b66fcf155",
+    "textureUUID": "b173fa01-fabc-4ed3-afe0-4451eb4bdcf2",
+    "image": "tile-result-study/assets/resources-1455-hupai02_005.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 747,
+    "name": "hupai02_006",
+    "rect": [
+      330,
+      472,
+      120,
+      228
+    ],
+    "offset": [
+      0,
+      1
+    ],
+    "originalSize": [
+      176,
+      238
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "2f2fa5ab-dc17-426b-ae89-3ba61b9dc8c4",
+    "textureUUID": "b173fa01-fabc-4ed3-afe0-4451eb4bdcf2",
+    "image": "tile-result-study/assets/resources-747-hupai02_006.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 2743,
+    "name": "hupai02_007",
+    "rect": [
+      474,
+      2,
+      134,
+      232
+    ],
+    "offset": [
+      0,
+      -1
+    ],
+    "originalSize": [
+      176,
+      238
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "b74a7179-d944-41f9-8eed-8ebcaaa747d0",
+    "textureUUID": "b173fa01-fabc-4ed3-afe0-4451eb4bdcf2",
+    "image": "tile-result-study/assets/resources-2743-hupai02_007.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 85,
+    "name": "hupai02_008",
+    "rect": [
+      328,
+      2,
+      144,
+      232
+    ],
+    "offset": [
+      -1,
+      -1
+    ],
+    "originalSize": [
+      176,
+      238
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "062cf564-0d5e-429b-b324-cd2ca04331f0",
+    "textureUUID": "b173fa01-fabc-4ed3-afe0-4451eb4bdcf2",
+    "image": "tile-result-study/assets/resources-85-hupai02_008.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 1870,
+    "name": "hupai02_009",
+    "rect": [
+      172,
+      238,
+      152,
+      234
+    ],
+    "offset": [
+      4,
+      -1
+    ],
+    "originalSize": [
+      176,
+      238
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "929e540a-2ef1-43e5-9015-41cc8d13bbdc",
+    "textureUUID": "b173fa01-fabc-4ed3-afe0-4451eb4bdcf2",
+    "image": "tile-result-study/assets/resources-1870-hupai02_009.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 2930,
+    "name": "hupai02_010",
+    "rect": [
+      172,
+      2,
+      154,
+      234
+    ],
+    "offset": [
+      2,
+      -1
+    ],
+    "originalSize": [
+      176,
+      238
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "e28b03aa-58eb-45dc-9e9a-29fde731ca07",
+    "textureUUID": "b173fa01-fabc-4ed3-afe0-4451eb4bdcf2",
+    "image": "tile-result-study/assets/resources-2930-hupai02_010.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 1509,
+    "name": "hupai02_011",
+    "rect": [
+      170,
+      474,
+      158,
+      234
+    ],
+    "offset": [
+      0,
+      -1
+    ],
+    "originalSize": [
+      176,
+      238
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "770301fd-08ea-4f4d-94d1-6bbc8843e8e6",
+    "textureUUID": "b173fa01-fabc-4ed3-afe0-4451eb4bdcf2",
+    "image": "tile-result-study/assets/resources-1509-hupai02_011.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 1861,
+    "name": "hupai02_012",
+    "rect": [
+      2,
+      710,
+      164,
+      234
+    ],
+    "offset": [
+      -2,
+      -1
+    ],
+    "originalSize": [
+      176,
+      238
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "8f04a639-7ae3-406b-8d79-d123b0b38286",
+    "textureUUID": "b173fa01-fabc-4ed3-afe0-4451eb4bdcf2",
+    "image": "tile-result-study/assets/resources-1861-hupai02_012.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 1451,
+    "name": "hupai02_013",
+    "rect": [
+      2,
+      474,
+      166,
+      234
+    ],
+    "offset": [
+      -2,
+      -1
+    ],
+    "originalSize": [
+      176,
+      238
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "630220bb-c2a1-442b-a5d3-539747117ab6",
+    "textureUUID": "b173fa01-fabc-4ed3-afe0-4451eb4bdcf2",
+    "image": "tile-result-study/assets/resources-1451-hupai02_013.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 2825,
+    "name": "hupai02_014",
+    "rect": [
+      2,
+      238,
+      168,
+      234
+    ],
+    "offset": [
+      -2,
+      -1
+    ],
+    "originalSize": [
+      176,
+      238
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "c933dd9c-f554-4f54-aaa1-51a0bf698c4d",
+    "textureUUID": "b173fa01-fabc-4ed3-afe0-4451eb4bdcf2",
+    "image": "tile-result-study/assets/resources-2825-hupai02_014.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 2788,
+    "name": "hupai02_015",
+    "rect": [
+      2,
+      2,
+      168,
+      234
+    ],
+    "offset": [
+      -2,
+      -1
+    ],
+    "originalSize": [
+      176,
+      238
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "c2145141-8c96-4b10-b17b-4000965a57d4",
+    "textureUUID": "b173fa01-fabc-4ed3-afe0-4451eb4bdcf2",
+    "image": "tile-result-study/assets/resources-2788-hupai02_015.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 1480,
+    "name": "hupai02_016",
+    "rect": [
+      168,
+      710,
+      162,
+      234
+    ],
+    "offset": [
+      -2,
+      -1
+    ],
+    "originalSize": [
+      176,
+      238
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "6a948ccf-9929-4ed0-b722-66cc36ffc32f",
+    "textureUUID": "b173fa01-fabc-4ed3-afe0-4451eb4bdcf2",
+    "image": "tile-result-study/assets/resources-1480-hupai02_016.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 1449,
+    "name": "hupai02_017",
+    "rect": [
+      326,
+      238,
+      162,
+      232
+    ],
+    "offset": [
+      -2,
+      -1
+    ],
+    "originalSize": [
+      176,
+      238
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "61a379f6-6a4b-4eea-8389-61c2aaac27a5",
+    "textureUUID": "b173fa01-fabc-4ed3-afe0-4451eb4bdcf2",
+    "image": "tile-result-study/assets/resources-1449-hupai02_017.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 996,
+    "name": "hupai02_018",
+    "rect": [
+      450,
+      702,
+      160,
+      224
+    ],
+    "offset": [
+      -1,
+      -5
+    ],
+    "originalSize": [
+      176,
+      238
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "4d500c03-5c1a-4b87-b75f-2cafc1bc222d",
+    "textureUUID": "b173fa01-fabc-4ed3-afe0-4451eb4bdcf2",
+    "image": "tile-result-study/assets/resources-996-hupai02_018.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 1326,
+    "name": "hupai02_019",
+    "rect": [
+      66,
+      946,
+      34,
+      116
+    ],
+    "offset": [
+      18,
+      48
+    ],
+    "originalSize": [
+      176,
+      238
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "70299db7-ba57-4a1f-a4bb-893422fc8863",
+    "textureUUID": "b173fa01-fabc-4ed3-afe0-4451eb4bdcf2",
+    "image": "tile-result-study/assets/resources-1326-hupai02_019.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 1446,
+    "name": "chipenggang_005",
+    "rect": [
+      2,
+      848,
+      174,
+      141
+    ],
+    "offset": [
+      2,
+      -4
+    ],
+    "originalSize": [
+      200,
+      171
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "607bf499-ec5c-4620-b9c2-1c0ad21a4e63",
+    "textureUUID": "3c439621-73d7-4452-89d4-86f7e225a553",
+    "image": "tile-result-study/assets/resources-1446-chipenggang_005.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 3019,
+    "name": "chipenggang_006",
+    "rect": [
+      709,
+      848,
+      180,
+      143
+    ],
+    "offset": [
+      1,
+      -3
+    ],
+    "originalSize": [
+      200,
+      171
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "fd62d401-17b3-48bf-920a-6b4f77f35c0e",
+    "textureUUID": "3c439621-73d7-4452-89d4-86f7e225a553",
+    "image": "tile-result-study/assets/resources-3019-chipenggang_006.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 2802,
+    "name": "chipenggang_007",
+    "rect": [
+      521,
+      848,
+      186,
+      149
+    ],
+    "offset": [
+      3,
+      -4
+    ],
+    "originalSize": [
+      200,
+      171
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "c473ea2b-438c-486a-aa5c-33ca0919584e",
+    "textureUUID": "3c439621-73d7-4452-89d4-86f7e225a553",
+    "image": "tile-result-study/assets/resources-2802-chipenggang_007.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 2912,
+    "name": "chipenggang_008",
+    "rect": [
+      333,
+      848,
+      186,
+      151
+    ],
+    "offset": [
+      3,
+      -3
+    ],
+    "originalSize": [
+      200,
+      171
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "ddb40bc7-b0b3-4239-a2ff-02e0730c2991",
+    "textureUUID": "3c439621-73d7-4452-89d4-86f7e225a553",
+    "image": "tile-result-study/assets/resources-2912-chipenggang_008.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 1871,
+    "name": "chipenggang_009",
+    "rect": [
+      145,
+      848,
+      186,
+      151
+    ],
+    "offset": [
+      3,
+      -3
+    ],
+    "originalSize": [
+      200,
+      171
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "92f701a7-9f11-4af8-9eca-4f2f254a7eb4",
+    "textureUUID": "3c439621-73d7-4452-89d4-86f7e225a553",
+    "image": "tile-result-study/assets/resources-1871-chipenggang_009.png"
+  }
+]

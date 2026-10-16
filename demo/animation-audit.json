@@ -1,0 +1,1716 @@
+[
+  {
+    "bundle": "common",
+    "id": 272,
+    "path": "module/PassCheck/effect/animation/ui_mrxs02",
+    "_name": "ui_mrxs02",
+    "_duration": 0.9333333333333333,
+    "sample": 15
+  },
+  {
+    "bundle": "common",
+    "id": 531,
+    "path": "module/PassCheck/effect/animation/ui_mrxs",
+    "_name": "ui_mrxs",
+    "_duration": 0.9333333333333333,
+    "sample": 15
+  },
+  {
+    "bundle": "game",
+    "id": 4,
+    "path": "Other/sanguo/sanguoditu/Animation/wuguo_bankuai_03",
+    "_name": "wuguo_bankuai_03",
+    "_duration": 1.3333333333333333,
+    "sample": 15
+  },
+  {
+    "bundle": "game",
+    "id": 77,
+    "path": "LeagueGameCompleteResult/leaguecircle",
+    "_name": "leaguecircle",
+    "_duration": 30,
+    "sample": 1,
+    "wrapMode": 2
+  },
+  {
+    "bundle": "game",
+    "id": 152,
+    "path": "LeagueGameResult/saoguang",
+    "_name": "saoguang",
+    "_duration": 1,
+    "sample": 15,
+    "wrapMode": 2
+  },
+  {
+    "bundle": "game",
+    "id": 190,
+    "path": "Other/RoundToy/SJCCBXP/test",
+    "_name": "test",
+    "_duration": 0.3333333333333333
+  },
+  {
+    "bundle": "game",
+    "id": 242,
+    "path": "LeagueGameResult/num_one",
+    "_name": "num_one",
+    "_duration": 0.2857142857142857,
+    "sample": 35
+  },
+  {
+    "bundle": "game",
+    "id": 281,
+    "path": "Other/sanguo/sanguoditu/Animation/weiguo_bankuai_03",
+    "_name": "weiguo_bankuai_03",
+    "_duration": 1.2,
+    "sample": 15
+  },
+  {
+    "bundle": "game",
+    "id": 334,
+    "path": "DistributionResult/saoguangAnim",
+    "_name": "saoguangAnim",
+    "_duration": 1.5,
+    "sample": 10,
+    "wrapMode": 2
+  },
+  {
+    "bundle": "game",
+    "id": 336,
+    "path": "Other/sanguo/sanguoditu/Animation/qun04",
+    "_name": "qun04",
+    "_duration": 1.3333333333333333,
+    "sample": 15
+  },
+  {
+    "bundle": "game",
+    "id": 351,
+    "path": "Other/sanguo/sanguoditu/Animation/wuguo_bankuai_01",
+    "_name": "wuguo_bankuai_01",
+    "_duration": 1.3333333333333333,
+    "sample": 15
+  },
+  {
+    "bundle": "game",
+    "id": 397,
+    "path": "Other/Matching/countDown",
+    "_name": "countDown",
+    "_duration": 2.5,
+    "sample": 4,
+    "wrapMode": 2
+  },
+  {
+    "bundle": "game",
+    "id": 409,
+    "path": "Other/sanguo/sanguoditu/Animation/shuguo_bankuai_01",
+    "_name": "shuguo_bankuai_01",
+    "_duration": 1.3333333333333333,
+    "sample": 15
+  },
+  {
+    "bundle": "game",
+    "id": 413,
+    "path": "LeagueGameCompleteResult/completeAnim",
+    "_name": "completeAnim",
+    "_duration": 1.5555555555555556,
+    "sample": 45
+  },
+  {
+    "bundle": "game",
+    "id": 503,
+    "path": "LeagueGameResult/rankAnim",
+    "_name": "rankAnim",
+    "_duration": 0.3333333333333333,
+    "sample": 30
+  },
+  {
+    "bundle": "game",
+    "id": 533,
+    "path": "Other/sanguo/sanguoditu/Animation/shuguo_bankuai_03",
+    "_name": "shuguo_bankuai_03",
+    "_duration": 1.3333333333333333,
+    "sample": 15
+  },
+  {
+    "bundle": "game",
+    "id": 601,
+    "path": "Other/sanguo/sanguoditu/Animation/qun03",
+    "_name": "qun03",
+    "_duration": 1.3333333333333333,
+    "sample": 15
+  },
+  {
+    "bundle": "game",
+    "id": 637,
+    "path": "DistributionResult/upAnim",
+    "_name": "upAnim",
+    "_duration": 0.6666666666666666,
+    "sample": 15,
+    "wrapMode": 2
+  },
+  {
+    "bundle": "game",
+    "id": 650,
+    "path": "Other/sanguo/sanguoditu/Animation/shuguo_bankuai_02",
+    "_name": "shuguo_bankuai_02",
+    "_duration": 1.3333333333333333,
+    "sample": 15
+  },
+  {
+    "bundle": "game",
+    "id": 773,
+    "path": "DistributionResult/xzlight",
+    "_name": "xzlight",
+    "_duration": 0.3333333333333333,
+    "sample": 30,
+    "wrapMode": 2
+  },
+  {
+    "bundle": "game",
+    "id": 802,
+    "path": "Other/sanguo/sanguoditu/Animation/weiguo_bankuai_02",
+    "_name": "weiguo_bankuai_02",
+    "_duration": 1.3333333333333333,
+    "sample": 15
+  },
+  {
+    "bundle": "game",
+    "id": 828,
+    "path": "Other/sanguo/sanguoditu/Animation/weiguo_bankuai_01",
+    "_name": "weiguo_bankuai_01",
+    "_duration": 1.2,
+    "sample": 15
+  },
+  {
+    "bundle": "game",
+    "id": 923,
+    "path": "Other/sanguo/sanguoditu/Animation/heliu",
+    "_name": "heliu",
+    "_duration": 1,
+    "sample": 15,
+    "wrapMode": 2
+  },
+  {
+    "bundle": "game",
+    "id": 1104,
+    "path": "DistributionResult/scLightAnim",
+    "_name": "scLightAnim",
+    "_duration": 2,
+    "sample": 10,
+    "wrapMode": 2
+  },
+  {
+    "bundle": "game",
+    "id": 1134,
+    "path": "DistributionResult/lightAnim",
+    "_name": "lightAnim",
+    "_duration": 2,
+    "sample": 20,
+    "wrapMode": 2
+  },
+  {
+    "bundle": "game",
+    "id": 1197,
+    "path": "Other/sanguo/sanguoditu/Animation/shu_dianliang",
+    "_name": "shu_dianliang",
+    "_duration": 1.1333333333333333,
+    "sample": 15
+  },
+  {
+    "bundle": "game",
+    "id": 1258,
+    "path": "Other/sanguo/sanguoditu/Animation/bank_mask",
+    "_name": "bank_mask",
+    "_duration": 0.7333333333333333,
+    "sample": 15
+  },
+  {
+    "bundle": "game",
+    "id": 1285,
+    "path": "Other/sanguo/sanguoditu/Animation/wuguo_bankuai_02",
+    "_name": "wuguo_bankuai_02",
+    "_duration": 1.3333333333333333,
+    "sample": 15
+  },
+  {
+    "bundle": "game",
+    "id": 1348,
+    "path": "Other/sanguo/sanguoditu/Animation/qun01",
+    "_name": "qun01",
+    "_duration": 1.2,
+    "sample": 15
+  },
+  {
+    "bundle": "game",
+    "id": 1353,
+    "path": "DistributionResult/distributionAnim",
+    "_name": "distributionAnim",
+    "_duration": 0.5
+  },
+  {
+    "bundle": "game",
+    "id": 1410,
+    "path": "Other/Matching/matchingAnim",
+    "_name": "matchingAnim",
+    "_duration": 4,
+    "sample": 5,
+    "wrapMode": 2
+  },
+  {
+    "bundle": "lobby",
+    "id": 76,
+    "path": "RegressionActRes/tequan/tequanAnimation",
+    "_name": "tequanAnimation",
+    "_duration": 0.6666666666666666
+  },
+  {
+    "bundle": "lobby",
+    "id": 946,
+    "path": "RegressionActRes/shangdian/animation",
+    "_name": "animation",
+    "_duration": 1.1666666666666667,
+    "sample": 30
+  },
+  {
+    "bundle": "lobby",
+    "id": 1109,
+    "path": "RegressionActRes/shangdian/shangDianAnimation",
+    "_name": "shangDianAnimation",
+    "_duration": 0.5833333333333334
+  },
+  {
+    "bundle": "lobby",
+    "id": 1318,
+    "path": "RegressionActRes/common/tequanAnim",
+    "_name": "tequanAnim"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1692,
+    "path": "RegressionActRes/qiandao/animation",
+    "_name": "animation",
+    "_duration": 1.8333333333333333,
+    "sample": 30
+  },
+  {
+    "bundle": "lobby",
+    "id": 1716,
+    "path": "LoginLuckyAward/YH/LoginLuckyAwardDiceYanHua/Animation/ui_yanhua",
+    "_name": "ui_yanhua",
+    "_duration": 0.6,
+    "sample": 30
+  },
+  {
+    "bundle": "lobby",
+    "id": 2093,
+    "path": "RegressionActRes/task/animation-001",
+    "_name": "animation-001",
+    "_duration": 1.5666666666666667,
+    "sample": 30
+  },
+  {
+    "bundle": "lobby",
+    "id": 2192,
+    "path": "RegressionActRes/common/animation-001",
+    "_name": "animation-001",
+    "_duration": 2.0166666666666666,
+    "wrapMode": 2
+  },
+  {
+    "bundle": "prefabs",
+    "id": 106,
+    "path": "game/GameResult/DiyRoomResult/DiyRoomFinalResult/Prefab/arrow_fx",
+    "_name": "arrow_fx",
+    "_duration": 1.3333333333333333,
+    "sample": 30,
+    "wrapMode": 2
+  },
+  {
+    "bundle": "prefabs",
+    "id": 14,
+    "path": "common/getAward/anim/jindouFX_action/douzi_2",
+    "_name": "douzi_2",
+    "_duration": 0.9833333333333333
+  },
+  {
+    "bundle": "prefabs",
+    "id": 19,
+    "path": "common/getAward/anim/jindouFX_action/douzi_3",
+    "_name": "douzi_3",
+    "_duration": 0.9833333333333333
+  },
+  {
+    "bundle": "prefabs",
+    "id": 123,
+    "path": "common/getAward/anim/jindouFX_action/douzi_1",
+    "_name": "douzi_1",
+    "_duration": 0.9833333333333333
+  },
+  {
+    "bundle": "prefabs",
+    "id": 219,
+    "path": "common/getAward/anim/jindouFX_action/jindouFX",
+    "_name": "jindouFX",
+    "_duration": 3.9833333333333334
+  },
+  {
+    "bundle": "prefabs",
+    "id": 283,
+    "path": "common/getAward/anim/jindouFX_action/douzi_4",
+    "_name": "douzi_4",
+    "_duration": 0.9833333333333333
+  },
+  {
+    "bundle": "prefabs",
+    "id": 1516,
+    "_name": "leaguematchAnim",
+    "_duration": 2,
+    "sample": 15,
+    "wrapMode": 2
+  },
+  {
+    "bundle": "prefabs",
+    "id": 1547,
+    "_name": "leagueHallAnim",
+    "_duration": 0.25
+  },
+  {
+    "bundle": "prefabs",
+    "id": 2351,
+    "_name": "leagueshopAnim",
+    "_duration": 3.2857142857142856,
+    "sample": 7,
+    "wrapMode": 2
+  },
+  {
+    "bundle": "prefabs",
+    "id": 2430,
+    "_name": "leagueMatchStarAnim",
+    "_duration": 3,
+    "sample": 10,
+    "wrapMode": 2
+  },
+  {
+    "bundle": "resources",
+    "id": 925,
+    "path": "mjhj/anims/game/face/aminList/chat_2",
+    "_name": "chat_2",
+    "_duration": 2.7
+  },
+  {
+    "bundle": "resources",
+    "id": 1333,
+    "path": "mjhj/anims/gameAnims_ex/exAnims/ex_sanjieGao/ex_jiejieGao/Animation/sanjiegao",
+    "_name": "sanjiegao",
+    "_duration": 1.64,
+    "sample": 25
+  },
+  {
+    "bundle": "resources",
+    "id": 1667,
+    "path": "mjhj/anims/gameAnims_ex/exAnims/ex_gspao/ex_gspao/Animation/gangshangpao_boom",
+    "_name": "gangshangpao_boom",
+    "_duration": 1.52,
+    "sample": 25
+  },
+  {
+    "bundle": "resources",
+    "id": 894,
+    "path": "mjhj/anims/gameAnims_ex/exAnims/ex_sixi/ex_sixi/Animation/dasixi",
+    "_name": "dasixi",
+    "_duration": 1.8666666666666667,
+    "sample": 15
+  },
+  {
+    "bundle": "resources",
+    "id": 246,
+    "path": "mjhj/anims/game/tileHot/mine/Animation/mingpai_hot",
+    "_name": "mingpai_hot",
+    "_duration": 0.75,
+    "sample": 20,
+    "wrapMode": 2
+  },
+  {
+    "bundle": "resources",
+    "id": 2510,
+    "path": "mjhj/anims/game/AnimTextuerRes/animRes/fx_UI_hupai_hu",
+    "_name": "fx_UI_hupai_hu",
+    "_duration": 2,
+    "wrapMode": 2
+  },
+  {
+    "bundle": "resources",
+    "id": 1734,
+    "path": "mjhj/anims/gameAnims_ex/exAnims/ex_jiulian/ex_jiulian/Animation/jlbd02",
+    "_name": "jlbd02",
+    "_duration": 2.2,
+    "sample": 15
+  },
+  {
+    "bundle": "resources",
+    "id": 1994,
+    "path": "mjhj/anims/gameAnims_ex/exAnims/ex_yd999/ex_yd999/Animation/huoyanzhan",
+    "_name": "huoyanzhan",
+    "_duration": 1.6111111111111112,
+    "sample": 18
+  },
+  {
+    "bundle": "resources",
+    "id": 2534,
+    "path": "mjhj/anims/game/biaoqing/emoji_yb/Animation/xiqu_bq_yuanbao1",
+    "_name": "xiqu_bq_yuanbao1",
+    "_duration": 1.68,
+    "sample": 25
+  },
+  {
+    "bundle": "resources",
+    "id": 2538,
+    "path": "mjhj/anims/gameAnims_ex/exAnims/ex_hanjiangdudiao/ex_hanjiangdudiao/Animation/hanjiangdudiao",
+    "_name": "hanjiangdudiao",
+    "_duration": 2.9166666666666665,
+    "sample": 12
+  },
+  {
+    "bundle": "resources",
+    "id": 2435,
+    "path": "mjhj/anims/game/BattleHandsel/anime/songhuafei",
+    "_name": "songhuafei",
+    "_duration": 0.9666666666666667,
+    "wrapMode": "2"
+  },
+  {
+    "bundle": "resources",
+    "id": 2406,
+    "path": "mjhj/anims/Match/anim/fx_zaijiezaili",
+    "_name": "fx_zaijiezaili",
+    "_duration": 1.8333333333333333,
+    "sample": 30,
+    "wrapMode": 0
+  },
+  {
+    "bundle": "resources",
+    "id": 186,
+    "path": "mjhj/anims/game/AnimTextuerRes/animRes/changchun/fx_UI_mobao",
+    "_name": "fx_UI_mobao",
+    "_duration": 2,
+    "wrapMode": "2"
+  },
+  {
+    "bundle": "resources",
+    "id": 1656,
+    "path": "mjhj/anims/gameAnims_ex/exAnims/ex_qichizhulian/ex_qichizhulian/Animation/qichizhulian_anim",
+    "_name": "qichizhulian_anim",
+    "_duration": 1.9333333333333333,
+    "sample": 15
+  },
+  {
+    "bundle": "resources",
+    "id": 2697,
+    "path": "mjhj/anims/game/AnimTextuerRes/common_cpgh/Animation/cpgh_anima",
+    "_name": "cpgh_anima",
+    "_duration": 1.1,
+    "sample": 20
+  },
+  {
+    "bundle": "resources",
+    "id": 796,
+    "path": "mjhj/anims/gameAnims_ex/exAnims/ex_buqiuren/ex_buqiuren/Animation/buqiuren",
+    "_name": "buqiuren",
+    "_duration": 1.2333333333333334,
+    "sample": 30
+  },
+  {
+    "bundle": "resources",
+    "id": 970,
+    "path": "mjhj/anims/Match/anim/fx_taotai",
+    "_name": "fx_taotai",
+    "_duration": 1.3333333333333333,
+    "sample": 30,
+    "wrapMode": 0
+  },
+  {
+    "bundle": "resources",
+    "id": 884,
+    "path": "mjhj/anims/game/tileHot_red/mine/Animation/mingpai_hot",
+    "_name": "mingpai_hot",
+    "_duration": 0.75,
+    "sample": 20,
+    "wrapMode": 2
+  },
+  {
+    "bundle": "resources",
+    "id": 2265,
+    "path": "mjhj/anims/game/AnimTextuerRes/animRes/fx_UI_hupai_gang",
+    "_name": "fx_UI_hupai_gang",
+    "_duration": 2,
+    "wrapMode": 2
+  },
+  {
+    "bundle": "resources",
+    "id": 433,
+    "path": "mjhj/anims/gameAnims_ex/exAnims/ex_sanjieGao/ex_jiejieGao/Animation/sijiegao",
+    "_name": "sijiegao",
+    "_duration": 1.68,
+    "sample": 25
+  },
+  {
+    "bundle": "resources",
+    "id": 400,
+    "path": "mjhj/anims/game/SESX/Prefab/anims/jk_orange",
+    "_name": "jk_orange",
+    "_duration": 1,
+    "sample": 15,
+    "wrapMode": 2
+  },
+  {
+    "bundle": "resources",
+    "id": 1181,
+    "path": "mjhj/anims/gameAnims_ex/exAnims/ex_jingoudiao/ex_jingoudiao/Animation/jingou",
+    "_name": "jingou",
+    "_duration": 1.2,
+    "sample": 25
+  },
+  {
+    "bundle": "resources",
+    "id": 317,
+    "path": "mjhj/anims/gameAnims_ex/exAnims/ex_gspao/ex_gspao/Animation/gangshangpao",
+    "_name": "gangshangpao",
+    "_duration": 0.88,
+    "sample": 25
+  },
+  {
+    "bundle": "resources",
+    "id": 1219,
+    "path": "mjhj/anims/section/SectionMatch/SectionIcon/tex/star",
+    "_name": "star",
+    "_duration": 6.1,
+    "sample": 30,
+    "wrapMode": "2"
+  },
+  {
+    "bundle": "resources",
+    "id": 1307,
+    "path": "mjhj/anims/gameAnims_ex/exAnims/ex_sanyuan/Animation/dasanyuan",
+    "_name": "dasanyuan",
+    "_duration": 2,
+    "sample": 15
+  },
+  {
+    "bundle": "resources",
+    "id": 1339,
+    "path": "mjhj/anims/game/face/aminList/chat_12",
+    "_name": "chat_12",
+    "_duration": 2.95
+  },
+  {
+    "bundle": "resources",
+    "id": 1182,
+    "path": "mjhj/anims/gameAnims_ex/exAnims/ex_tianhu/ex_tianhu/Animation/tianhu_dongxiao",
+    "_name": "tianhu_dongxiao",
+    "_duration": 2,
+    "sample": 15
+  },
+  {
+    "bundle": "resources",
+    "id": 355,
+    "path": "mjhj/anims/game/AnimTextuerRes/animRes/fx_UI_wang",
+    "_name": "fx_UI_wang",
+    "_duration": 1.25,
+    "wrapMode": 2
+  },
+  {
+    "bundle": "resources",
+    "id": 1287,
+    "path": "mjhj/anims/section/SectionMatch/SectionAnim/res/anim/fx_huodestar",
+    "_name": "fx_huodestar",
+    "_duration": 1.6666666666666667,
+    "sample": 30,
+    "wrapMode": "1"
+  },
+  {
+    "bundle": "resources",
+    "id": 1580,
+    "path": "mjhj/anims/section/SectionMatch/SectionAnim/res/anim/fx_zdw",
+    "_name": "fx_zdw",
+    "_duration": 2.466666666666667,
+    "sample": 30,
+    "wrapMode": 0
+  },
+  {
+    "bundle": "resources",
+    "id": 34,
+    "path": "mjhj/anims/game/AnimTextuerRes/animRes/changchun/fx_UI_hupai_dan",
+    "_name": "fx_UI_hupai_dan",
+    "_duration": 2,
+    "wrapMode": "2"
+  },
+  {
+    "bundle": "resources",
+    "id": 182,
+    "path": "mjhj/anims/gameAnims_ex/exAnims/ex_hongquebaoxi/ex_hongquebaoxi/Animation/hongkongque",
+    "_name": "hongkongque",
+    "_duration": 1.7333333333333334,
+    "sample": 15
+  },
+  {
+    "bundle": "resources",
+    "id": 35,
+    "path": "mjhj/anims/section/SectionMatch/SectionAnim/res/anim/fx_diaoduan",
+    "_name": "fx_diaoduan",
+    "_duration": 2.5,
+    "sample": 30,
+    "wrapMode": "0"
+  },
+  {
+    "bundle": "resources",
+    "id": 2388,
+    "path": "mjhj/anims/game/AnimTextuerRes/animRes/fx_UI_hupai_qiangganghu",
+    "_name": "fx_UI_hupai_qiangganghu",
+    "_duration": 2,
+    "wrapMode": 2
+  },
+  {
+    "bundle": "resources",
+    "id": 1299,
+    "path": "mjhj/anims/game/face/aminList/chat_11",
+    "_name": "chat_11",
+    "_duration": 3.0166666666666666
+  },
+  {
+    "bundle": "resources",
+    "id": 2366,
+    "path": "mjhj/anims/Match/anim/fx_yousheng",
+    "_name": "fx_yousheng",
+    "_duration": 1.8333333333333333,
+    "sample": 30,
+    "wrapMode": 0
+  },
+  {
+    "bundle": "resources",
+    "id": 117,
+    "path": "mjhj/anims/section/SectionMatch/SectionAnim/res/anim/fx_diaoxin",
+    "_name": "fx_diaoxin",
+    "_duration": 2.1666666666666665,
+    "sample": 30,
+    "wrapMode": "0"
+  },
+  {
+    "bundle": "resources",
+    "id": 1217,
+    "path": "mjhj/anims/Match/anim/fx_juesai",
+    "_name": "fx_juesai",
+    "_duration": 1.1666666666666667,
+    "sample": 30,
+    "wrapMode": 0
+  },
+  {
+    "bundle": "resources",
+    "id": 2206,
+    "path": "mjhj/anims/section/SectionMatch/SectionIcon/tex/duanwei_fx",
+    "_name": "duanwei_fx",
+    "_duration": 3.3333333333333335,
+    "sample": 30,
+    "wrapMode": "2"
+  },
+  {
+    "bundle": "resources",
+    "id": 2361,
+    "path": "mjhj/anims/gameAnims_ex/exAnims/ex_doubleDragon/ex_doubleDragon/Animation/shuanglong_donghua",
+    "_name": "shuanglong_donghua",
+    "_duration": 2.0833333333333335,
+    "sample": 12
+  },
+  {
+    "bundle": "resources",
+    "id": 871,
+    "path": "mjhj/anims/gameAnims_ex/exAnims/ex_sssjg/Animation/sansejiegao",
+    "_name": "sansejiegao",
+    "_duration": 2.1333333333333333,
+    "sample": 15
+  },
+  {
+    "bundle": "resources",
+    "id": 2596,
+    "path": "mjhj/anims/game/SanGuo/Scrolls/res/Animation/ui_juanzhou_jin",
+    "_name": "ui_juanzhou_jin",
+    "_duration": 1,
+    "sample": 15,
+    "wrapMode": 2
+  },
+  {
+    "bundle": "resources",
+    "id": 2494,
+    "path": "mjhj/anims/section/SectionMatch/SectionAnim/res/anim/fx_xsj",
+    "_name": "fx_xsj",
+    "_duration": 3.433333333333333,
+    "sample": 30,
+    "wrapMode": "1"
+  },
+  {
+    "bundle": "resources",
+    "id": 1618,
+    "path": "mjhj/anims/gameAnims_ex/exAnims/ex_guoshiwushuang/ex_guoshiwushuang/Animation/guoshiwushuang",
+    "_name": "guoshiwushuang",
+    "_duration": 2.25,
+    "sample": 12
+  },
+  {
+    "bundle": "resources",
+    "id": 1589,
+    "path": "mjhj/anims/game/AnimTextuerRes/animRes/fx_UI_hupai_gangshanghua",
+    "_name": "fx_UI_hupai_gangshanghua",
+    "_duration": 2,
+    "wrapMode": 2
+  },
+  {
+    "bundle": "resources",
+    "id": 2506,
+    "path": "mjhj/anims/game/zhuoji/prefab/chongfengji_ani_WG",
+    "_name": "chongfengji_ani_WG",
+    "_duration": 2.8333333333333335,
+    "sample": 30
+  },
+  {
+    "bundle": "resources",
+    "id": 1687,
+    "path": "mjhj/anims/gameAnims_ex/exAnims/ex_fenghuang/ex_fenghuang/Animation/fenghuang",
+    "_name": "fenghuang",
+    "_duration": 3.1666666666666665,
+    "sample": 12
+  },
+  {
+    "bundle": "resources",
+    "id": 1268,
+    "path": "mjhj/anims/game/AnimTextuerRes/animRes/fx_zhizhen",
+    "_name": "fx_zhizhen",
+    "_duration": 1.25,
+    "wrapMode": "2"
+  },
+  {
+    "bundle": "resources",
+    "id": 2515,
+    "path": "mjhj/anims/game/AnimTextuerRes/animRes/changchun/fx_UI_tongbao",
+    "_name": "fx_UI_tongbao",
+    "_duration": 2,
+    "wrapMode": "2"
+  },
+  {
+    "bundle": "resources",
+    "id": 2634,
+    "path": "mjhj/anims/gameAnims_ex/exAnims/ex_yd999/ex_yd999/Animation/kanyidao",
+    "_name": "kanyidao",
+    "_duration": 1.3888888888888888,
+    "sample": 18
+  },
+  {
+    "bundle": "resources",
+    "id": 447,
+    "path": "mjhj/anims/game/AnimTextuerRes/animRes/fx_kaiju_zhunbei",
+    "_name": "fx_kaiju_zhunbei",
+    "_duration": 1
+  },
+  {
+    "bundle": "resources",
+    "id": 1194,
+    "path": "mjhj/anims/gameAnims_ex/exAnims/ex_dihu/ex_dihu/Animation/dihu",
+    "_name": "dihu",
+    "_duration": 2.25,
+    "sample": 12
+  },
+  {
+    "bundle": "resources",
+    "id": 1792,
+    "path": "mjhj/anims/game/SESX/Prefab/anims/jixiao_black",
+    "_name": "jixiao_black",
+    "_duration": 1.2666666666666666,
+    "sample": 15,
+    "wrapMode": 0
+  },
+  {
+    "bundle": "resources",
+    "id": 2402,
+    "path": "mjhj/anims/gameAnims_ex/exAnims/ex_dahu/dahu/hupai/fx_qingyise",
+    "_name": "fx_qingyise",
+    "_duration": 2.3333333333333335,
+    "sample": 30,
+    "wrapMode": "2"
+  },
+  {
+    "bundle": "resources",
+    "id": 1981,
+    "path": "mjhj/anims/game/AnimTextuerRes/animRes/fx_UI_hupai_mingpai",
+    "_name": "fx_UI_hupai_mingpai",
+    "_duration": 2,
+    "wrapMode": "2"
+  },
+  {
+    "bundle": "resources",
+    "id": 2026,
+    "path": "mjhj/anims/gameAnims_ex/exAnims/ex_gangkai/gskh_dongxiao/Animation/gskh_dx_anim",
+    "_name": "gskh_dx_anim",
+    "_duration": 1.6,
+    "sample": 20,
+    "wrapMode": 0
+  },
+  {
+    "bundle": "resources",
+    "id": 975,
+    "path": "mjhj/anims/game/face/aminList/chat_4",
+    "_name": "chat_4",
+    "_duration": 3.0166666666666666
+  },
+  {
+    "bundle": "resources",
+    "id": 2288,
+    "path": "mjhj/anims/game/AnimTextuerRes/animRes/fx_UI_tong",
+    "_name": "fx_UI_tong",
+    "_duration": 1.25,
+    "wrapMode": 2
+  },
+  {
+    "bundle": "resources",
+    "id": 2358,
+    "path": "mjhj/anims/game/SESX/Prefab/anims/jk_green",
+    "_name": "jk_green",
+    "_duration": 1,
+    "sample": 15,
+    "wrapMode": 2
+  },
+  {
+    "bundle": "resources",
+    "id": 1928,
+    "path": "mjhj/anims/game/BattleHandsel/anime/songhuafei02",
+    "_name": "songhuafei02",
+    "_duration": 4,
+    "wrapMode": "2"
+  },
+  {
+    "bundle": "resources",
+    "id": 341,
+    "path": "mjhj/anims/Match/anim/fx_jingji",
+    "_name": "fx_jingji",
+    "_duration": 1.1666666666666667,
+    "sample": 30,
+    "wrapMode": 0
+  },
+  {
+    "bundle": "resources",
+    "id": 245,
+    "path": "mjhj/anims/game/tileHot/top/Animation/mingpai_hot",
+    "_name": "mingpai_hot",
+    "_duration": 0.75,
+    "sample": 20,
+    "wrapMode": 2
+  },
+  {
+    "bundle": "resources",
+    "id": 1102,
+    "path": "mjhj/anims/game/SESX/Prefab/anims/jika_bian",
+    "_name": "jika_bian",
+    "_duration": 1.2,
+    "sample": 15
+  },
+  {
+    "bundle": "resources",
+    "id": 2587,
+    "path": "mjhj/anims/gameAnims_ex/exAnims/ex_wuhuaguo/ex_wuhuaguo/Animation/wuhuaguo",
+    "_name": "wuhuaguo",
+    "_duration": 2.5,
+    "sample": 12
+  },
+  {
+    "bundle": "resources",
+    "id": 2364,
+    "path": "mjhj/anims/game/SESX/Prefab/anims/jk_blue",
+    "_name": "jk_blue",
+    "_duration": 1,
+    "sample": 15,
+    "wrapMode": 2
+  },
+  {
+    "bundle": "resources",
+    "id": 2622,
+    "path": "mjhj/anims/game/tileHot/left/Animation/mingpai_hot",
+    "_name": "mingpai_hot",
+    "_duration": 0.75,
+    "sample": 20,
+    "wrapMode": 2
+  },
+  {
+    "bundle": "resources",
+    "id": 1138,
+    "path": "mjhj/anims/game/AnimTextuerRes/MingPai/mingpai_wenzi",
+    "_name": "mingpai_wenzi",
+    "_duration": 0.8,
+    "sample": 15
+  },
+  {
+    "bundle": "resources",
+    "id": 868,
+    "path": "mjhj/anims/gameAnims_ex/exAnims/ex_protectGift/ex_protectGift/Animation/tianshi_efc",
+    "_name": "tianshi_efc",
+    "_duration": 1.75,
+    "sample": 12,
+    "wrapMode": 0
+  },
+  {
+    "bundle": "resources",
+    "id": 2146,
+    "path": "mjhj/anims/section/SectionMatch/SectionAnim/res/anim/fx_shengduan_01",
+    "_name": "fx_shengduan_01",
+    "_duration": 2.6666666666666665,
+    "sample": 30,
+    "wrapMode": "1"
+  },
+  {
+    "bundle": "resources",
+    "id": 1280,
+    "path": "mjhj/anims/game/biaoqing/anime/fanqie_animation",
+    "_name": "fanqie_animation",
+    "_duration": 1.7,
+    "sample": 30
+  },
+  {
+    "bundle": "resources",
+    "id": 2501,
+    "path": "mjhj/anims/game/biaoqing/emoji_yb/Animation/xiqu_bq_yuanbao10",
+    "_name": "xiqu_bq_yuanbao10",
+    "_duration": 2.08,
+    "sample": 25
+  },
+  {
+    "bundle": "resources",
+    "id": 2277,
+    "path": "mjhj/anims/game/AntiCheating/anim/kaijujiance/prefab/kaijujiance",
+    "_name": "kaijujiance"
+  },
+  {
+    "bundle": "resources",
+    "id": 2445,
+    "path": "mjhj/anims/Match/anim/fx_jiesuanfen",
+    "_name": "fx_jiesuanfen",
+    "_duration": 1.1666666666666667,
+    "sample": 30,
+    "wrapMode": 0
+  },
+  {
+    "bundle": "resources",
+    "id": 1767,
+    "path": "mjhj/anims/section/SectionMatch/SectionAnim/res/anim/fx_shiqustar",
+    "_name": "fx_shiqustar",
+    "_duration": 1.4333333333333333,
+    "sample": 30,
+    "wrapMode": "1"
+  },
+  {
+    "bundle": "resources",
+    "id": 2249,
+    "path": "mjhj/anims/hall/KeepLoginFinger/keepLoginHand",
+    "_name": "keepLoginHand",
+    "_duration": 0.9666666666666667,
+    "wrapMode": "2"
+  },
+  {
+    "bundle": "resources",
+    "id": 842,
+    "path": "mjhj/anims/game/biaoqing/anime/chahu_animation",
+    "_name": "chahu_animation",
+    "_duration": 2.5,
+    "sample": 30,
+    "wrapMode": "2"
+  },
+  {
+    "bundle": "resources",
+    "id": 1019,
+    "path": "mjhj/anims/gameAnims_ex/exAnims/ex_dahu/dahu/hupai/fx_shibaluohan",
+    "_name": "fx_shibaluohan",
+    "_duration": 1.8333333333333333,
+    "sample": 30,
+    "wrapMode": 2
+  },
+  {
+    "bundle": "resources",
+    "id": 2346,
+    "path": "mjhj/anims/game/face/aminList/chat_6",
+    "_name": "chat_6",
+    "_duration": 3.0166666666666666
+  },
+  {
+    "bundle": "resources",
+    "id": 1735,
+    "path": "mjhj/anims/section/SectionMatch/SectionAnim/res/anim/fx_shengxing_01",
+    "_name": "fx_shengxing_01",
+    "_duration": 1.8333333333333333,
+    "sample": 30,
+    "wrapMode": "1"
+  },
+  {
+    "bundle": "resources",
+    "id": 2189,
+    "path": "mjhj/anims/game/SanGuo/Scrolls/res/Animation/ui_juanzhou_red",
+    "_name": "ui_juanzhou_red",
+    "_duration": 1,
+    "sample": 15,
+    "wrapMode": 2
+  },
+  {
+    "bundle": "resources",
+    "id": 2975,
+    "path": "mjhj/anims/game/tileHot_red/top/Animation/mingpai_hot",
+    "_name": "mingpai_hot",
+    "_duration": 0.75,
+    "sample": 20,
+    "wrapMode": 2
+  },
+  {
+    "bundle": "resources",
+    "id": 1939,
+    "path": "mjhj/anims/game/AnimTextuerRes/animRes/fx_UI_hupai_peng",
+    "_name": "fx_UI_hupai_peng",
+    "_duration": 2,
+    "wrapMode": 2
+  },
+  {
+    "bundle": "resources",
+    "id": 164,
+    "path": "mjhj/anims/game/AnimTextuerRes/animRes/changchun/fx_UI_hupai_cha",
+    "_name": "fx_UI_hupai_cha",
+    "_duration": 2,
+    "wrapMode": "2"
+  },
+  {
+    "bundle": "resources",
+    "id": 1558,
+    "path": "mjhj/anims/game/face/aminList/chat_8",
+    "_name": "chat_8",
+    "_duration": 3.783333333333333
+  },
+  {
+    "bundle": "resources",
+    "id": 2164,
+    "path": "mjhj/anims/game/AnimTextuerRes/animRes/fx_UI_tiao",
+    "_name": "fx_UI_tiao",
+    "_duration": 1.25,
+    "wrapMode": 2
+  },
+  {
+    "bundle": "resources",
+    "id": 1024,
+    "path": "mjhj/anims/game/UserInfoFire/Animation/mingpai_touxiang",
+    "_name": "mingpai_touxiang",
+    "_duration": 0.75,
+    "sample": 20,
+    "wrapMode": 2
+  },
+  {
+    "bundle": "resources",
+    "id": 2149,
+    "path": "mjhj/anims/game/SanGuo/Scrolls/res/Animation/ui_juanzhou_green",
+    "_name": "ui_juanzhou_green",
+    "_duration": 1,
+    "sample": 15,
+    "wrapMode": 2
+  },
+  {
+    "bundle": "resources",
+    "id": 1641,
+    "path": "mjhj/anims/game/AnimTextuerRes/animRes/fx_kaoxiang",
+    "_name": "fx_kaoxiang",
+    "_duration": 2,
+    "wrapMode": 2
+  },
+  {
+    "bundle": "resources",
+    "id": 1089,
+    "path": "mjhj/anims/gameAnims_ex/exAnims/ex_duiduihu/ex_duiduihu/Animation/duiduihu",
+    "_name": "duiduihu",
+    "_duration": 1.2333333333333334,
+    "sample": 30
+  },
+  {
+    "bundle": "resources",
+    "id": 2523,
+    "path": "mjhj/anims/game/tileHot_red/left/Animation/mingpai_hot",
+    "_name": "mingpai_hot",
+    "_duration": 0.75,
+    "sample": 20,
+    "wrapMode": 2
+  },
+  {
+    "bundle": "resources",
+    "id": 2022,
+    "path": "mjhj/anims/game/biaoqing/anime/zuanshi_animation",
+    "_name": "zuanshi_animation",
+    "_duration": 2.566666666666667,
+    "sample": 30,
+    "wrapMode": "2"
+  },
+  {
+    "bundle": "resources",
+    "id": 333,
+    "path": "mjhj/anims/game/face/aminList/chat_10",
+    "_name": "chat_10",
+    "_duration": 2.966666666666667
+  },
+  {
+    "bundle": "resources",
+    "id": 263,
+    "path": "mjhj/anims/Match/anim/fx_jiesuanfen2",
+    "_name": "fx_jiesuanfen2",
+    "_duration": 1,
+    "sample": 30,
+    "wrapMode": 0
+  },
+  {
+    "bundle": "resources",
+    "id": 365,
+    "path": "mjhj/anims/game/biaoqing/anime/lengshui_animation",
+    "_name": "lengshui_animation",
+    "_duration": 1.5,
+    "sample": 30,
+    "wrapMode": "2"
+  },
+  {
+    "bundle": "resources",
+    "id": 1017,
+    "path": "mjhj/anims/game/biaoqing/emoji_zhan/Animation/xiqu_zhan10",
+    "_name": "xiqu_zhan10",
+    "_duration": 1.2666666666666666,
+    "sample": 15
+  },
+  {
+    "bundle": "resources",
+    "id": 2006,
+    "path": "mjhj/anims/game/face/aminList/chat_5",
+    "_name": "chat_5",
+    "_duration": 3.0166666666666666
+  },
+  {
+    "bundle": "resources",
+    "id": 364,
+    "path": "mjhj/anims/game/AnimTextuerRes/animRes/fx_UI_hupai_chi",
+    "_name": "fx_UI_hupai_chi",
+    "_duration": 2,
+    "wrapMode": 2
+  },
+  {
+    "bundle": "resources",
+    "id": 1946,
+    "path": "mjhj/anims/game/AnimTextuerRes/animRes/changchun/fx_UI_duibao",
+    "_name": "fx_UI_duibao",
+    "_duration": 2,
+    "wrapMode": "2"
+  },
+  {
+    "bundle": "resources",
+    "id": 162,
+    "path": "mjhj/anims/game/face/aminList/chat_7",
+    "_name": "chat_7",
+    "_duration": 3
+  },
+  {
+    "bundle": "resources",
+    "id": 167,
+    "path": "mjhj/anims/Match/anim/fx_jingjimingci",
+    "_name": "fx_jingjimingci",
+    "_duration": 1.2666666666666666,
+    "sample": 30,
+    "wrapMode": 0
+  },
+  {
+    "bundle": "resources",
+    "id": 2379,
+    "path": "mjhj/anims/gameAnims_ex/exAnims/ex_jinchai/ex_jinchai/Animation/shierjinchai",
+    "_name": "shierjinchai",
+    "_duration": 2.3333333333333335,
+    "sample": 15
+  },
+  {
+    "bundle": "resources",
+    "id": 1980,
+    "path": "mjhj/anims/gameAnims_ex/exAnims/ex_haidilaoyue/haidilaoyue/Animation/haidilaoyue",
+    "_name": "haidilaoyue",
+    "_duration": 1.4666666666666666,
+    "sample": 15
+  },
+  {
+    "bundle": "resources",
+    "id": 2195,
+    "path": "mjhj/anims/game/SESX/Prefab/anims/jixiao_blue",
+    "_name": "jixiao_blue",
+    "_duration": 1.2666666666666666,
+    "sample": 15
+  },
+  {
+    "bundle": "resources",
+    "id": 2271,
+    "path": "mjhj/anims/game/zhuoji/prefab/fx_zhuojipai_ani",
+    "_name": "fx_zhuojipai_ani",
+    "_duration": 3.1333333333333333,
+    "sample": 30,
+    "wrapMode": "1"
+  },
+  {
+    "bundle": "resources",
+    "id": 1780,
+    "path": "mjhj/anims/gameAnims_ex/exAnims/ex_sixi/ex_sixi/Animation/xiaosixi",
+    "_name": "xiaosixi",
+    "_duration": 2.4,
+    "sample": 15
+  },
+  {
+    "bundle": "resources",
+    "id": 2239,
+    "path": "mjhj/anims/game/AnimTextuerRes/liuJuAnim/prefab/fx_liuju_ani",
+    "_name": "fx_liuju_ani",
+    "_duration": 1,
+    "sample": 30,
+    "wrapMode": "1"
+  },
+  {
+    "bundle": "resources",
+    "id": 371,
+    "path": "mjhj/anims/game/face/aminList/chat_1",
+    "_name": "chat_1",
+    "_duration": 3.0166666666666666
+  },
+  {
+    "bundle": "resources",
+    "id": 1298,
+    "path": "mjhj/anims/game/SanGuo/Scrolls/res/Animation/ui_juanzhou_zi",
+    "_name": "ui_juanzhou_zi",
+    "_duration": 1,
+    "sample": 15,
+    "wrapMode": 2
+  },
+  {
+    "bundle": "resources",
+    "id": 458,
+    "path": "mjhj/anims/gameAnims_ex/exAnims/ex_fengdingjinpai/ex_fengdingjinpai/Animation/jinpai",
+    "_name": "jinpai",
+    "_duration": 1.8,
+    "sample": 15
+  },
+  {
+    "bundle": "resources",
+    "id": 1655,
+    "path": "mjhj/anims/gameAnims_ex/exAnims/ex_qixinglanyue/ex_qixinglanyue/Animation/qixinglanyue",
+    "_name": "qixinglanyue",
+    "_duration": 2,
+    "sample": 15
+  },
+  {
+    "bundle": "resources",
+    "id": 865,
+    "path": "mjhj/anims/game/SanGuo/Scrolls/res/Animation/ui_juanzhou_blue",
+    "_name": "ui_juanzhou_blue",
+    "_duration": 1,
+    "sample": 15,
+    "wrapMode": 2
+  },
+  {
+    "bundle": "resources",
+    "id": 1518,
+    "path": "mjhj/anims/Match/anim/fx_wutaideng",
+    "_name": "fx_wutaideng",
+    "_duration": 2.6666666666666665,
+    "sample": 30,
+    "wrapMode": "2"
+  },
+  {
+    "bundle": "resources",
+    "id": 1212,
+    "path": "mjhj/anims/Match/anim/fx_jinrujiangliquan",
+    "_name": "fx_jinrujiangliquan",
+    "_duration": 1.1666666666666667,
+    "sample": 30,
+    "wrapMode": 0
+  },
+  {
+    "bundle": "resources",
+    "id": 268,
+    "path": "mjhj/anims/game/SESX/Prefab/anims/jixiao_red",
+    "_name": "jixiao_red",
+    "_duration": 1.2666666666666666,
+    "sample": 15
+  },
+  {
+    "bundle": "resources",
+    "id": 1804,
+    "path": "mjhj/anims/game/face/aminList/chat_9",
+    "_name": "chat_9",
+    "_duration": 3.0166666666666666
+  },
+  {
+    "bundle": "resources",
+    "id": 1577,
+    "path": "mjhj/anims/game/biaoqing/anime/meigui_animation",
+    "_name": "meigui_animation",
+    "_duration": 1.9,
+    "sample": 30,
+    "wrapMode": "0"
+  },
+  {
+    "bundle": "resources",
+    "id": 2415,
+    "path": "mjhj/anims/game/SESX/Prefab/anims/jk_purple",
+    "_name": "jk_purple",
+    "_duration": 1,
+    "sample": 15,
+    "wrapMode": 2
+  },
+  {
+    "bundle": "resources",
+    "id": 837,
+    "path": "mjhj/anims/gameAnims_ex/exAnims/ex_lvyise/ex_lvyise/Animation/lvyise",
+    "_name": "lvyise",
+    "_duration": 1.1666666666666667,
+    "sample": 18
+  },
+  {
+    "bundle": "resources",
+    "id": 226,
+    "path": "mjhj/anims/game/zhuoji/prefab/chongfengji_ani",
+    "_name": "chongfengji_ani",
+    "_duration": 2.8333333333333335,
+    "sample": 30
+  },
+  {
+    "bundle": "resources",
+    "id": 1037,
+    "path": "mjhj/anims/game/biaoqing/emoji_zhan/Animation/xiqu_bq_zhan1",
+    "_name": "xiqu_bq_zhan1",
+    "_duration": 0.6666666666666666,
+    "sample": 15
+  },
+  {
+    "bundle": "resources",
+    "id": 1210,
+    "path": "mjhj/anims/gameAnims_ex/exAnims/ex_luohan/ex_luohan/Animation/shibaluohan",
+    "_name": "shibaluohan",
+    "_duration": 2.5,
+    "sample": 12
+  },
+  {
+    "bundle": "resources",
+    "id": 2181,
+    "path": "mjhj/anims/game/ProtectGift/effect/Animation/tianshi_touxiang",
+    "_name": "tianshi_touxiang",
+    "_duration": 0.8333333333333334,
+    "sample": 12,
+    "wrapMode": 2
+  },
+  {
+    "bundle": "resources",
+    "id": 392,
+    "path": "mjhj/anims/game/face/aminList/chat_3",
+    "_name": "chat_3",
+    "_duration": 2.716666666666667
+  },
+  {
+    "bundle": "resources",
+    "id": 2571,
+    "path": "mjhj/anims/game/AnimTextuerRes/animRes/changchun/fx_UI_donghua_cha",
+    "_name": "fx_UI_donghua_cha",
+    "_duration": 1.0333333333333334
+  },
+  {
+    "bundle": "prefabs",
+    "id": 306,
+    "path": "game/HSZ/Prefab/prefab/huansanzhang",
+    "_name": "huansanzhang",
+    "_duration": 1.25,
+    "wrapMode": "2"
+  },
+  {
+    "bundle": "prefabs",
+    "id": 1066,
+    "path": "common/getAward/anim/getAwardAnime/gongxihuode",
+    "_name": "gongxihuode",
+    "_duration": 0.9333333333333333,
+    "sample": 30
+  },
+  {
+    "bundle": "prefabs",
+    "id": 1551,
+    "path": "common/getAward/anim/getAwardAnime/gongxihuode_loop",
+    "_name": "gongxihuode_loop",
+    "sample": 30,
+    "wrapMode": "2"
+  },
+  {
+    "bundle": "resources",
+    "id": 67,
+    "path": "mjhj/anims/game/AnimTextuerRes/animRes/selectSceneAni/prefab/fx_xc_sg",
+    "_name": "fx_xc_sg",
+    "_duration": 1.7666666666666666,
+    "sample": 30,
+    "wrapMode": 2
+  },
+  {
+    "bundle": "resources",
+    "id": 91,
+    "path": "mjhj/anims/game/AnimTextuerRes/animRes/selectSceneAni/prefab/fx_xc_sg2",
+    "_name": "fx_xc_sg2",
+    "_duration": 3.033333333333333,
+    "sample": 30,
+    "wrapMode": 2
+  },
+  {
+    "bundle": "resources",
+    "id": 495,
+    "path": "mjhj/anims/game/AnimTextuerRes/animRes/fx_hupai2",
+    "_name": "fx_hupai2",
+    "_duration": 1.0833333333333333
+  },
+  {
+    "bundle": "resources",
+    "id": 529,
+    "path": "mjhj/anims/game/AnimTextuerRes/animRes/selectSceneAni/prefab/fx_xc_sg3",
+    "_name": "fx_xc_sg3",
+    "_duration": 3,
+    "sample": 30,
+    "wrapMode": 2
+  },
+  {
+    "bundle": "resources",
+    "id": 566,
+    "path": "mjhj/anims/game/AnimTextuerRes/animRes/fx_UI_donghua_ting",
+    "_name": "fx_UI_donghua_ting",
+    "_duration": 1.0333333333333334
+  },
+  {
+    "bundle": "resources",
+    "id": 607,
+    "path": "mjhj/anims/game/AnimTextuerRes/animRes/fx_UI_hupai_ting",
+    "_name": "fx_UI_hupai_ting",
+    "_duration": 2,
+    "wrapMode": 2
+  },
+  {
+    "bundle": "resources",
+    "id": 677,
+    "path": "mjhj/anims/game/AnimTextuerRes/animRes/changchun/fx_UI_donghua_mobao",
+    "_name": "fx_UI_donghua_mobao",
+    "_duration": 1.1333333333333333
+  },
+  {
+    "bundle": "resources",
+    "id": 687,
+    "path": "mjhj/anims/Match/anim/fx_yajun",
+    "_name": "fx_yajun",
+    "_duration": 1.6666666666666667,
+    "sample": 30,
+    "wrapMode": 0
+  },
+  {
+    "bundle": "resources",
+    "id": 995,
+    "path": "mjhj/anims/game/AnimTextuerRes/animRes/fx_kaiju",
+    "_name": "fx_kaiju",
+    "_duration": 1.1666666666666667
+  },
+  {
+    "bundle": "resources",
+    "id": 1061,
+    "path": "mjhj/anims/Match/anim/fx_guangjun",
+    "_name": "fx_guangjun",
+    "_duration": 1.6666666666666667,
+    "sample": 30,
+    "wrapMode": 0
+  },
+  {
+    "bundle": "resources",
+    "id": 1069,
+    "path": "mjhj/anims/game/AnimTextuerRes/animRes/changchun/fx_UI_donghua_mingdan",
+    "_name": "fx_UI_donghua_mingdan",
+    "_duration": 1.1333333333333333
+  },
+  {
+    "bundle": "resources",
+    "id": 1375,
+    "path": "mjhj/anims/game/AnimTextuerRes/animRes/changchun/fx_UI_donghua_duibao",
+    "_name": "fx_UI_donghua_duibao",
+    "_duration": 1.1333333333333333
+  },
+  {
+    "bundle": "resources",
+    "id": 1417,
+    "path": "mjhj/anims/game/AnimTextuerRes/animRes/fx_xiayu",
+    "_name": "fx_xiayu",
+    "_duration": 1.0833333333333333
+  },
+  {
+    "bundle": "resources",
+    "id": 1463,
+    "path": "mjhj/anims/game/AnimTextuerRes/animRes/fx_hupai1",
+    "_name": "fx_hupai1",
+    "_duration": 1.1666666666666667
+  },
+  {
+    "bundle": "resources",
+    "id": 1491,
+    "path": "mjhj/anims/game/AnimTextuerRes/animRes/Match/MatchStartGame",
+    "_name": "MatchStartGame",
+    "_duration": 1.1666666666666667
+  },
+  {
+    "bundle": "resources",
+    "id": 1499,
+    "path": "mjhj/anims/game/zhuoji/prefab/wuguzerenji_ani",
+    "_name": "wuguzerenji_ani",
+    "_duration": 2.5,
+    "sample": 30,
+    "wrapMode": "1"
+  },
+  {
+    "bundle": "resources",
+    "id": 1508,
+    "path": "mjhj/anims/game/AnimTextuerRes/animRes/fx_UI_hupai_zimohu",
+    "_name": "fx_UI_hupai_zimohu",
+    "_duration": 2,
+    "wrapMode": 2
+  },
+  {
+    "bundle": "resources",
+    "id": 1818,
+    "path": "mjhj/anims/hall/selectSceneAni/prefab/fx_xc_sg",
+    "_name": "fx_xc_sg",
+    "_duration": 4.333333333333333,
+    "sample": 30,
+    "wrapMode": "2"
+  },
+  {
+    "bundle": "resources",
+    "id": 1852,
+    "path": "mjhj/anims/section/SectionMatch/SectionIcon/tex/ShowAnime",
+    "_name": "ShowAnime",
+    "_duration": 0.625,
+    "sample": 40
+  },
+  {
+    "bundle": "resources",
+    "id": 1868,
+    "path": "mjhj/anims/gameAnims_ex/exAnims/ex_sanyuan/Animation/xiaosanyuan",
+    "_name": "xiaosanyuan",
+    "_duration": 2,
+    "sample": 15
+  },
+  {
+    "bundle": "resources",
+    "id": 1884,
+    "path": "mjhj/anims/game/AnimTextuerRes/animRes/fx_shaizi",
+    "_name": "fx_shaizi",
+    "_duration": 2
+  },
+  {
+    "bundle": "resources",
+    "id": 1901,
+    "path": "mjhj/anims/game/AnimTextuerRes/animRes/changchun/fx_UI_donghua_tongbao",
+    "_name": "fx_UI_donghua_tongbao",
+    "_duration": 1.1333333333333333
+  },
+  {
+    "bundle": "resources",
+    "id": 1909,
+    "path": "mjhj/anims/hall/hallAnimation/texture/shouzhiDianJi/prefab/finger",
+    "_name": "finger",
+    "_duration": 1.1666666666666667,
+    "sample": 30,
+    "wrapMode": 2
+  },
+  {
+    "bundle": "resources",
+    "id": 2059,
+    "path": "mjhj/anims/game/BattleHandsel/anime/songhuafei03",
+    "_name": "songhuafei03",
+    "_duration": 4,
+    "wrapMode": "2"
+  },
+  {
+    "bundle": "resources",
+    "id": 2075,
+    "path": "mjhj/anims/game/zhuoji/prefab/zerenji_ani ",
+    "_name": "zerenji_ani ",
+    "_duration": 2.5,
+    "sample": 30,
+    "wrapMode": "1"
+  },
+  {
+    "bundle": "resources",
+    "id": 2092,
+    "path": "mjhj/anims/hall/hallAnimation/texture/shouzhiDianJi/prefab/shouzhi",
+    "_name": "shouzhi",
+    "_duration": 1.1666666666666667,
+    "sample": 30,
+    "wrapMode": "2"
+  },
+  {
+    "bundle": "resources",
+    "id": 2781,
+    "path": "mjhj/anims/game/ProtectGift/effect/Animation/tianshi_dh",
+    "_name": "tianshi_dh",
+    "_duration": 1.75,
+    "sample": 12,
+    "wrapMode": 2
+  },
+  {
+    "bundle": "resources",
+    "id": 2836,
+    "path": "mjhj/anims/game/AnimTextuerRes/animRes/fx_longjuanfeng",
+    "_name": "fx_longjuanfeng",
+    "_duration": 0.5833333333333334
+  },
+  {
+    "bundle": "resources",
+    "id": 2838,
+    "path": "mjhj/anims/game/AnimTextuerRes/fx_UI_donghua_renshu_action/fx_UI_donghua_renshu",
+    "_name": "fx_UI_donghua_renshu",
+    "_duration": 1
+  },
+  {
+    "bundle": "resources",
+    "id": 2919,
+    "path": "mjhj/anims/Match/anim/fx_jijun",
+    "_name": "fx_jijun",
+    "_duration": 1.6666666666666667,
+    "sample": 30,
+    "wrapMode": 0
+  },
+  {
+    "bundle": "resources",
+    "id": 2926,
+    "path": "mjhj/anims/game/AnimTextuerRes/animRes/fx_chipenggang",
+    "_name": "fx_chipenggang",
+    "_duration": 0.7833333333333333
+  },
+  {
+    "bundle": "resources",
+    "id": 2954,
+    "path": "mjhj/anims/game/AnimTextuerRes/animRes/fx_K_hu_ani",
+    "_name": "fx_K_hu_ani",
+    "_duration": 1.7333333333333334,
+    "sample": 30,
+    "wrapMode": 0
+  },
+  {
+    "bundle": "resources",
+    "id": 2986,
+    "path": "mjhj/anims/game/AnimTextuerRes/animRes/changchun/fx_UI_donghua_guodan",
+    "_name": "fx_UI_donghua_guodan",
+    "_duration": 1.1333333333333333
+  },
+  {
+    "bundle": "resources",
+    "id": 2998,
+    "path": "mjhj/anims/game/AnimTextuerRes/animRes/changchun/fx_UI_donghua_andan",
+    "_name": "fx_UI_donghua_andan",
+    "_duration": 1.1333333333333333
+  },
+  {
+    "bundle": "resources",
+    "id": 3030,
+    "path": "mjhj/anims/game/AnimTextuerRes/animRes/Match/MatchFinalGame",
+    "_name": "MatchFinalGame",
+    "_duration": 1.1666666666666667
+  }
+]

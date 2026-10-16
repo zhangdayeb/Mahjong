@@ -1,0 +1,33 @@
+手牌与碰杠区联动核对
+
+原版源码依据
+ZMJCPGTileCtrl.js 279：牌节点position和tileScale分别赋值，tileScale只缩放牌本身，不放大牌节点的位置间距。
+ZMJCPGTileCtrl.js 293-304：叠杠第四张不继续推进cursor；每组结束加gap。
+ZMJCPGTileCtrl.js 311-317：结尾额外加一次gap，发CPG_UPDATE(edgeWorldPos,stackCont,direction)。
+ZMJTileInterface.js 1112-1125：CPG_UPDATE先更新OpenTile，OPEN_UPDATE再更新HandTile。
+ZMJOpenTileCtrl.js 118-139,163-176：没有明牌时open边界就是CPG传入的边界；自己方向另加10个open节点局部单位。
+ZMJHandTileCtrl.js 140-156,740-757：对手第一张手牌从新的边界开始排；自己方向另加20个父节点局部单位。
+ZMJHandTileCtrl.js 348-364：新建暗手牌按逻辑牌序n取tileFront[n]，未发现按CPG组数增加帧索引的代码。
+
+当前本地1280x640适配
+Anchor mine=[74,555], right=[1060,470], front=[818,40], left=[245,50]。
+对手存在碰杠后，应先用meldEdge得到CPG局部边界；screenX=anchorX+edgeX*nodeScaleX，screenY=anchorY-edgeY*nodeScaleY。
+每家剩余手牌沿其原有step继续排。不能仍使用完整13张手牌的固定起点。
+自己第一张手牌中心的最低x约为CPG边界screenX+28（open额外10*.8加hand额外20），保留本地手牌y。
+
+单组碰/叠杠时的手牌边界：
+mine CPG edge x267.6，手牌中心不小于295.6。
+right [1035.43,347.93]，其余牌沿[-5.5,-25.3]排列。
+front [702.2,40]，其余牌沿[-25.5,0]排列。
+left [225.025,155.4]，其余牌沿[-5.5,24.2]排列。
+
+全四家独立静态QA
+preview-1-groups-final.jpg：各家一组碰杠，均有剩余手牌；16种手牌/碰杠区配对（含同家）未检测到alpha交叠。
+preview-4-groups-final.jpg：各家四组碰杠且两张剩余手牌；同样16种配对未检测到alpha交叠。
+preview-collisions.json保存两组场景的检测结果，为空数组。
+preview-boundary-clips.json保存原精灵body/face变换后透明边界和自己CSS手牌边界的裁切检测结果，为空数组。自己手牌最大y636，离640画布底边4像素。
+mine CPG anchorY=555解决了原510位置的极端左下角交叠；555是原1280x720改成本地1280x640后的适配坐标，并非原版原生640坐标，不能据此声称所有游戏布局完全一致。
+几何QA使用固定的1组与4组场景，未模拟原版动画中的瞬时位移；桌面头像、牌墙、按钮也不在此独立碰杠静态预览中。
+
+可重复验证：node --test demo/meld-study/placements.test.js
+静态渲染：python demo/meld-study/render-preview.py（读取preview-geometry.json，不操作浏览器）。

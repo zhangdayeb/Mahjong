@@ -1,0 +1,30 @@
+[
+  {
+    "action": "peng",
+    "id": 325,
+    "path": "mjhj/audios/sound/LanguageSound/SiChuanChinese/female/peng_1",
+    "file": "guide-study/audio/peng.mp3",
+    "duration": 0.60075
+  },
+  {
+    "action": "gang",
+    "id": 640,
+    "path": "mjhj/audios/sound/LanguageSound/SiChuanChinese/female/angang_1",
+    "file": "guide-study/audio/gang.mp3",
+    "duration": 2.0115
+  },
+  {
+    "action": "hu",
+    "id": 408,
+    "path": "mjhj/audios/sound/LanguageSound/SiChuanChinese/female/hu_1",
+    "file": "guide-study/audio/hu.mp3",
+    "duration": 0.99275
+  },
+  {
+    "action": "zimo",
+    "id": 496,
+    "path": "mjhj/audios/sound/LanguageSound/SiChuanChinese/female/zimo_1",
+    "file": "guide-study/audio/zimo.mp3",
+    "duration": 2.56
+  }
+]

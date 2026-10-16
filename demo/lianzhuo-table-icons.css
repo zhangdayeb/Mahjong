@@ -1,0 +1,24 @@
+/* Ivory, jade and warm gold controls; original table hit areas stay intact. */
+#game .lianzhuo-table-medallion{display:grid;place-items:center;flex:0 0 auto;width:48px;height:48px;border:1px solid #ceb373;border-radius:15px;background:linear-gradient(150deg,#fffaf0,#f0ead4);box-shadow:inset 0 0 0 3px #fffaf070,0 2px 5px #002b2570;color:#286956;pointer-events:none}
+#game .lianzhuo-table-icon{display:block;width:31px;height:31px;pointer-events:none}
+#game .sprite-button.lianzhuo-icon-button{filter:none;background:none;border:0;box-shadow:none}
+#game .lianzhuo-icon-button:hover .lianzhuo-table-medallion{background:linear-gradient(150deg,#fffdf4,#f8eed0);border-color:#f2d889;box-shadow:inset 0 0 0 3px #fffaf070,0 2px 8px #002b2580}
+#game .lianzhuo-icon-button:active .lianzhuo-table-medallion{background:#e8dfc4;box-shadow:inset 0 1px 4px #4c653d30}
+#game .lianzhuo-icon-button:focus-visible{outline:2px solid #f8dea1;outline-offset:2px;border-radius:17px}
+#game .menu.lianzhuo-icon-button{z-index:50}
+#game .menu.lianzhuo-icon-button .lianzhuo-table-medallion{width:50px;height:50px}
+#game:has(#menu-panel:not([hidden])) .menu.lianzhuo-icon-button .lianzhuo-table-medallion{width:38px;height:38px;border-radius:12px;transform:translateY(-4px)}
+#game:has(#menu-panel:not([hidden])) .menu.lianzhuo-icon-button .lianzhuo-table-icon{width:25px;height:25px}
+#game .right-tools .lianzhuo-table-medallion{border-radius:50%}
+#game .menu-shade{background:linear-gradient(90deg,#0d332fea 0,#123e37dd 160px,#163d3466 230px,transparent 330px)}
+#game #menu-panel.lianzhuo-menu{background:linear-gradient(150deg,#214d43f5,#10382fed);border:1px solid #baaa70a8;border-radius:16px;box-shadow:inset 0 0 0 3px #e2d5ab0a,0 6px 22px #001e2380}
+#game #menu-panel .lianzhuo-menu-item{justify-content:flex-start;gap:11px;padding:0 8px;background:none;border:0;border-radius:12px;color:#fbf3d8;filter:none}
+#game #menu-panel .lianzhuo-table-medallion{width:44px;height:44px;border-radius:14px;box-shadow:inset 0 0 0 3px #fffaf040,0 2px 4px #002b2580}
+#game #menu-panel .lianzhuo-table-icon{width:28px;height:28px}
+#game .lianzhuo-menu-label{font-family:"Microsoft YaHei",sans-serif;font-size:24px;letter-spacing:2px;white-space:nowrap;text-shadow:0 1px 1px #082b27;pointer-events:none}
+#game #menu-panel .lianzhuo-menu-item:hover{background:#fff2cf12}
+#game #menu-panel .lianzhuo-menu-item:active{background:#f4d89020}
+#game #menu-panel .lianzhuo-menu-item[aria-pressed="true"]{color:#ffe6a4;background:#ddc47718}
+#game #menu-panel .lianzhuo-menu-item[aria-pressed="true"] .lianzhuo-table-medallion{background:#e2eddb;border-color:#e8cc83}
+#game #menu-panel .lianzhuo-menu-item:focus-visible{outline:2px solid #efd694;outline-offset:-2px}
+#game .player-card .profile-info small{font-variant-numeric:tabular-nums}

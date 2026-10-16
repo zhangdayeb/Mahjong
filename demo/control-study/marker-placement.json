@@ -1,0 +1,569 @@
+{
+  "rows": [
+    {
+      "row": "main-228",
+      "direction": 0,
+      "tilePrefab": 2537,
+      "tilePath": "game/Tiles/prefeb/base/tile_base_mine",
+      "tile": {
+        "name": "tile_base",
+        "position": [
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "size": [
+          91,
+          134
+        ],
+        "angle": 0
+      },
+      "diamond": {
+        "name": "Diamond",
+        "position": [
+          2,
+          50
+        ],
+        "scale": [
+          1,
+          1
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "size": [
+          0,
+          0
+        ],
+        "angle": 0,
+        "parent": "tile_base"
+      },
+      "chain": [
+        {
+          "name": "Diamond",
+          "position": [
+            2,
+            50
+          ],
+          "scale": [
+            1,
+            1
+          ],
+          "anchor": [
+            0.5,
+            0.5
+          ],
+          "size": [
+            0,
+            0
+          ],
+          "angle": 0,
+          "parent": "tile_base"
+        }
+      ]
+    },
+    {
+      "row": "main-150",
+      "direction": 0,
+      "tilePrefab": 2537,
+      "tilePath": "game/Tiles/prefeb/base/tile_base_mine",
+      "tile": {
+        "name": "tile_base",
+        "position": [
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "size": [
+          91,
+          134
+        ],
+        "angle": 0
+      },
+      "diamond": {
+        "name": "Diamond",
+        "position": [
+          2,
+          50
+        ],
+        "scale": [
+          1,
+          1
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "size": [
+          0,
+          0
+        ],
+        "angle": 0,
+        "parent": "tile_base"
+      },
+      "chain": [
+        {
+          "name": "Diamond",
+          "position": [
+            2,
+            50
+          ],
+          "scale": [
+            1,
+            1
+          ],
+          "anchor": [
+            0.5,
+            0.5
+          ],
+          "size": [
+            0,
+            0
+          ],
+          "angle": 0,
+          "parent": "tile_base"
+        }
+      ]
+    },
+    {
+      "row": "main-43",
+      "direction": 3,
+      "tilePrefab": 3223,
+      "tilePath": "game/Tiles/prefeb/base/tile_base_right",
+      "tile": {
+        "name": "tile_base",
+        "position": [
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "size": [
+          63,
+          48
+        ],
+        "angle": 0
+      },
+      "diamond": {
+        "name": "Diamond",
+        "position": [
+          2,
+          50
+        ],
+        "scale": [
+          1,
+          1
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "size": [
+          0,
+          0
+        ],
+        "angle": 0,
+        "parent": "tile_base"
+      },
+      "chain": [
+        {
+          "name": "Diamond",
+          "position": [
+            2,
+            50
+          ],
+          "scale": [
+            1,
+            1
+          ],
+          "anchor": [
+            0.5,
+            0.5
+          ],
+          "size": [
+            0,
+            0
+          ],
+          "angle": 0,
+          "parent": "tile_base"
+        }
+      ]
+    },
+    {
+      "row": "main-298",
+      "direction": 3,
+      "tilePrefab": 3223,
+      "tilePath": "game/Tiles/prefeb/base/tile_base_right",
+      "tile": {
+        "name": "tile_base",
+        "position": [
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "size": [
+          63,
+          48
+        ],
+        "angle": 0
+      },
+      "diamond": {
+        "name": "Diamond",
+        "position": [
+          2,
+          50
+        ],
+        "scale": [
+          1,
+          1
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "size": [
+          0,
+          0
+        ],
+        "angle": 0,
+        "parent": "tile_base"
+      },
+      "chain": [
+        {
+          "name": "Diamond",
+          "position": [
+            2,
+            50
+          ],
+          "scale": [
+            1,
+            1
+          ],
+          "anchor": [
+            0.5,
+            0.5
+          ],
+          "size": [
+            0,
+            0
+          ],
+          "angle": 0,
+          "parent": "tile_base"
+        }
+      ]
+    },
+    {
+      "row": "main-354",
+      "direction": 2,
+      "tilePrefab": 1599,
+      "tilePath": "game/Tiles/prefeb/base/tile_base_front",
+      "tile": {
+        "name": "tile_base",
+        "position": [
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "size": [
+          49,
+          63
+        ],
+        "angle": 0
+      },
+      "diamond": {
+        "name": "Diamond",
+        "position": [
+          2,
+          50
+        ],
+        "scale": [
+          1,
+          1
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "size": [
+          0,
+          0
+        ],
+        "angle": 0,
+        "parent": "tile_base"
+      },
+      "chain": [
+        {
+          "name": "Diamond",
+          "position": [
+            2,
+            50
+          ],
+          "scale": [
+            1,
+            1
+          ],
+          "anchor": [
+            0.5,
+            0.5
+          ],
+          "size": [
+            0,
+            0
+          ],
+          "angle": 0,
+          "parent": "tile_base"
+        }
+      ]
+    },
+    {
+      "row": "main-395",
+      "direction": 2,
+      "tilePrefab": 1599,
+      "tilePath": "game/Tiles/prefeb/base/tile_base_front",
+      "tile": {
+        "name": "tile_base",
+        "position": [
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "size": [
+          49,
+          63
+        ],
+        "angle": 0
+      },
+      "diamond": {
+        "name": "Diamond",
+        "position": [
+          2,
+          50
+        ],
+        "scale": [
+          1,
+          1
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "size": [
+          0,
+          0
+        ],
+        "angle": 0,
+        "parent": "tile_base"
+      },
+      "chain": [
+        {
+          "name": "Diamond",
+          "position": [
+            2,
+            50
+          ],
+          "scale": [
+            1,
+            1
+          ],
+          "anchor": [
+            0.5,
+            0.5
+          ],
+          "size": [
+            0,
+            0
+          ],
+          "angle": 0,
+          "parent": "tile_base"
+        }
+      ]
+    },
+    {
+      "row": "main-337",
+      "direction": 1,
+      "tilePrefab": 1535,
+      "tilePath": "game/Tiles/prefeb/base/tile_base_left",
+      "tile": {
+        "name": "tile_base",
+        "position": [
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "size": [
+          83,
+          63
+        ],
+        "angle": 0
+      },
+      "diamond": {
+        "name": "Diamond",
+        "position": [
+          2,
+          50
+        ],
+        "scale": [
+          1,
+          1
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "size": [
+          0,
+          0
+        ],
+        "angle": 0,
+        "parent": "tile_base"
+      },
+      "chain": [
+        {
+          "name": "Diamond",
+          "position": [
+            2,
+            50
+          ],
+          "scale": [
+            1,
+            1
+          ],
+          "anchor": [
+            0.5,
+            0.5
+          ],
+          "size": [
+            0,
+            0
+          ],
+          "angle": 0,
+          "parent": "tile_base"
+        }
+      ]
+    },
+    {
+      "row": "main-335",
+      "direction": 0,
+      "tilePrefab": 1535,
+      "tilePath": "game/Tiles/prefeb/base/tile_base_left",
+      "tile": {
+        "name": "tile_base",
+        "position": [
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "size": [
+          83,
+          63
+        ],
+        "angle": 0
+      },
+      "diamond": {
+        "name": "Diamond",
+        "position": [
+          2,
+          50
+        ],
+        "scale": [
+          1,
+          1
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "size": [
+          0,
+          0
+        ],
+        "angle": 0,
+        "parent": "tile_base"
+      },
+      "chain": [
+        {
+          "name": "Diamond",
+          "position": [
+            2,
+            50
+          ],
+          "scale": [
+            1,
+            1
+          ],
+          "anchor": [
+            0.5,
+            0.5
+          ],
+          "size": [
+            0,
+            0
+          ],
+          "angle": 0,
+          "parent": "tile_base"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "FrontParam 只更换牌身图片、牌面的位置/缩放/旋转/倾斜，不改变 tile 或 oDiamond 的变换。",
+    "弃牌控制层/row 的父变换必须与 rowLocation.bodyScale 一致。",
+    "原金钻是 tile 的子节点，按完整 transform chain 取世界位置和缩放。"
+  ]
+}

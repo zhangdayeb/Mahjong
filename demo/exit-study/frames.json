@@ -1,0 +1,149 @@
+[
+  {
+    "bundle": "fonts",
+    "id": 282,
+    "path": "NewSkin/title/fnt_biaotiz-export",
+    "name": "fnt_biaotiz-export",
+    "rect": [
+      0,
+      0,
+      920,
+      916
+    ],
+    "offset": [
+      -4,
+      4
+    ],
+    "originalSize": [
+      928,
+      924
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "f38fba04-f256-4c83-8867-0087385dfb0a",
+    "textureUUID": "6d6f0c5e-6db4-46cb-9c55-b010ab5c796a",
+    "image": "exit-study/assets/fonts-282-fnt_biaotiz-export.png"
+  },
+  {
+    "bundle": "common",
+    "id": 559,
+    "path": "NewSkin/Sudoku/pic_com08",
+    "name": "pic_com08",
+    "rect": [
+      404,
+      207,
+      53,
+      56
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      53,
+      56
+    ],
+    "rotated": 1,
+    "capInsets": [
+      25,
+      20,
+      18,
+      24
+    ],
+    "uuid": "b1ce235d-bf85-4847-8a55-b158dbc4c8c5",
+    "textureUUID": "157399797",
+    "image": "exit-study/assets/common-559-pic_com08.png"
+  },
+  {
+    "bundle": "common",
+    "id": 287,
+    "path": "NewSkin/Sudoku/xiaotanchuangshanglan",
+    "name": "xiaotanchuangshanglan",
+    "rect": [
+      79,
+      207,
+      700,
+      71
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      700,
+      71
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "5a96bae5-d3cf-41fe-8693-122810ec353a",
+    "textureUUID": "157399797",
+    "image": "exit-study/assets/common-287-xiaotanchuangshanglan.png"
+  },
+  {
+    "bundle": "common",
+    "id": 61,
+    "path": "NewSkin/NewBtn/da-lvanniu",
+    "name": "da-lvanniu",
+    "rect": [
+      3,
+      141,
+      287,
+      104
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      287,
+      104
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "15ef8f1c-8ec6-4066-a4df-f9975d78f535",
+    "textureUUID": "1e8019203",
+    "image": "exit-study/assets/common-61-da-lvanniu.png"
+  },
+  {
+    "bundle": "common",
+    "id": 350,
+    "path": "NewSkin/NewBtn/da-huanganniu",
+    "name": "da-huanganniu",
+    "rect": [
+      3,
+      361,
+      278,
+      97
+    ],
+    "offset": [
+      1,
+      0
+    ],
+    "originalSize": [
+      280,
+      97
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "7221734e-fc95-4a60-9233-efe7be327e96",
+    "textureUUID": "1e8019203",
+    "image": "exit-study/assets/common-350-da-huanganniu.png"
+  }
+]

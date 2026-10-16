@@ -1,0 +1,5 @@
+import fs from 'node:fs';
+const alphabet='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/';
+export function expandUUID(s){if(s.length!==22)return s;let h=s.slice(0,2);for(let i=2;i<22;i+=2){const a=alphabet.indexOf(s[i]),b=alphabet.indexOf(s[i+1]);h+=(a>>2).toString(16)+(((a&3)<<2)|(b>>4)).toString(16)+(b&15).toString(16);}return [h.slice(0,8),h.slice(8,12),h.slice(12,16),h.slice(16,20),h.slice(20)].join('-');}
+export function lookup(bundle,id){const c=JSON.parse(fs.readFileSync(`asset-study/${bundle}-config.json`));for(const [p,ids]of Object.entries(c.packs||{})){const i=ids.indexOf(id);if(i>=0){const a=JSON.parse(fs.readFileSync(`asset-study/imports/${bundle}/${p}.json`));if(a.type==='cc.Texture2D')return {type:a.type,data:a.data.split('|')[i]};return [...a.slice(0,5),...a[5][i]];}}return JSON.parse(fs.readFileSync(`asset-study/imports/${bundle}/${expandUUID(c.uuids[id])}.json`));}
+if(process.argv[2])console.log(JSON.stringify(lookup(process.argv[2],Number(process.argv[3])),null,2));

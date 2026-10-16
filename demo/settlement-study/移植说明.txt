@@ -1,0 +1,13 @@
+金币场结算素材和本地展示
+
+原版定位：prefabs 147 CoinGameResultPage、118 CoinGameResultPageItem、20 FanDetailItem、415 CoinGameResult。
+原版逻辑：CoinGameResultPageView.setMyResultInfo / CoinGameResultPageItemView.setWinCoin。
+本人结算按 nWinCoin 选择 NewSkin/JieSuan/yingdi 或 shudi；三家按得失选择 yingxiao / shuxiao；原版为本人总得失、三家小卡片、手牌/番型详情，绝非绿色四列表格。
+已提取 38 个原始图片，保留原始裁切与透明边距，元数据在 frames.json，预制体原件在 raw，节点和静态坐标在 original-layout.json，可读源码在 source。最新补入 prefab 的实际蓝色钻形返回 common480 btn_com01。
+
+本地实现：settlement-view.js/.css，复用主底图、玩家卡片、绿色再来一局按钮 common169、蓝色钻形返回、圆形详情箭头和真实本地手牌精灵。去掉多余的本局结算标题和房间文字，以1280×720原节点的8/9尺度适配本地1280×640牌桌。左侧初阶段位使用原 r_1、s_1，级数来自 profiles.level。进度条使用 profiles.experience / experienceRequired，缺少线上数据时是本地0/40演示，标题明确未接入线上经验；礼盒只作原图装饰，不触发假奖励。
+结算 scores 输入直接显示，不重新算分、不改变余额。数值保留小额整数，大额按原页面万/亿格式，不插入千位逗号。大赢家标签只按四家实际最大正分显示。
+红/蓝番型列表读取真实 details.round.huEvents、kongPayments，显示实际番型、付分/赢分座位与倍数，不从原截图伪造门清、双暗刻等尚未实现番型。缺少记录时显示暂无已记录番型。展开可查看真实 records / log 流水。
+本地每次胡牌事件保存含本次胡张的hand和melds快照；结算手牌区优先显示本家最大番的胡牌牌型，同倍率使用最新快照。没有本家胡牌快照时显示末局真实手牌及碰杠牌。复制快照数据，避免牌局后续摸打修改已经显示的牌型。
+详情区域可以内部滚动，外层结算与底部操作按钮始终完整显示，按窗口宽高等比缩放。
+本次按用户提供的原版结算截图核对了三家条、斜切满幅底图、段位、头像、积分、手牌、番型与底部按钮。右下原“长按查看牌桌”实现按住临时隐藏结算及遮罩、释放恢复。保留 onAgain/onExit/onClose 和 close API。背景/按钮为原始资源，得失字体和节点采用本地适配，尚需与线上连续画面核对；不声称像素或动态流程已全部相同。原版广告、红包、奖励和真实余额不在本地虚构或调用。

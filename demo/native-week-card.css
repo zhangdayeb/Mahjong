@@ -1,0 +1,11 @@
+.native-week-card-layer{position:absolute;inset:0;z-index:81;pointer-events:auto;font-family:Arial,"Microsoft YaHei",sans-serif}
+.native-week-card-layer[hidden],.native-week-card-layer [hidden]{display:none!important}
+.native-week-card-mask{position:absolute;inset:0;width:100%;height:100%;margin:0!important;padding:0!important;border:0!important;background:rgba(0,0,0,.78431372549)!important;cursor:default}
+.native-week-card-panel,.native-week-card-canvas,.native-week-card-controls{position:absolute;inset:0;width:100%;height:100%;outline:0;pointer-events:none}
+.native-week-card-canvas{display:block}
+.native-week-card-tabs{position:absolute;inset:0;pointer-events:none}
+.native-week-card-control{position:absolute;border:0!important;border-radius:0!important;margin:0!important;padding:0!important;background:transparent!important;color:transparent!important;pointer-events:auto;translate:none!important;filter:none!important;cursor:pointer}
+.native-week-card-scroll{position:absolute;pointer-events:auto;touch-action:none;cursor:grab;outline:0}
+.native-week-card-scroll:active{cursor:grabbing}
+.native-week-card-control:focus-visible,.native-week-card-scroll:focus-visible{outline:2px solid #9cefff!important;outline-offset:2px!important}
+.native-week-card-message{position:absolute;left:50%;top:43%;transform:translate(-50%,-50%);max-width:75%;padding:12px 23px;background:#000d;border-radius:7px;color:#fff;font:20px/1.5 Arial,"Microsoft YaHei",sans-serif;text-align:center;white-space:nowrap;pointer-events:none}

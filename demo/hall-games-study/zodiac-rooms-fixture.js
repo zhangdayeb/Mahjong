@@ -1,0 +1,23 @@
+// Room display values transcribed from the user's original 十二生肖 screenshot.
+// Source scene IDs are retained; counts, entry ranges and bases are a captured
+// visual snapshot, not a live catalog, player eligibility or game-engine state.
+const rows=[
+ ['556',556,'新手场',10,474,'10万-4000万',2271],
+ ['557',557,'初级场',10,432,'2000万-6亿',666],
+ ['558',558,'进阶场',1000,717,'5亿-无限制',1630],
+ ['559',559,'高级场',10000,290,'20亿-无限制',1750],
+ ['560',560,'大师场',10000,294,'60亿-无限制',257],
+];
+export const zodiacRoomScreenshotFixture=Object.freeze({
+ beforeScreenshot:'hall-games-study/references/zodiac-rooms-before.png',
+ sourceScreenshot:'hall-games-study/references/zodiac-rooms-target.png',
+ typeID:898,
+ recommendedRoomID:'557',
+ quickDescription:'十二生肖.初级场',
+ rooms:Object.freeze(rows.map(([id,sceneID,name,base,people,limit,image],index)=>Object.freeze({
+  id,sceneID,name,base,number:String(base),people,limit,currency:'coins',fullDesc:`十二生肖.${name}`,
+  nativeImage:`hall-games-study/assets/lobby-${image}.png`,sceneIndex:index,
+  displayOnly:true,referenceOnly:false,recommended:id==='557',
+  source:'User zodiac room screenshot display fields; original GameTypeCfgs.SESXMJ.SCENEID[0..4] retained. No online catalog request or zodiac engine is implied.',
+ }))),
+});

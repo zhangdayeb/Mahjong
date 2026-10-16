@@ -1,0 +1,35 @@
+牌桌弹窗来源核对（2026-10-03）
+
+table-panels.js / table-panels.css 是本地DOM实现，使用92个原版SpriteFrame。
+源Prefab：168 chatChooseLayer，242 ComHuDetail，1889 UserDetailLayer，3499 TingTip，4055 UserSectionInfo。
+collect-table-panels.mjs导出组件引用、原图和节点几何；extract-table-panels.py导出PNG。
+
+聊天：contentWrap559×519，anchor[1,.5]、position[539,0]相对画布中心。
+在1280×640 stage中左上[622.2222,89.3333]，缩放8/9，不是贴右侧固定101px。
+4个tab采用原选中/未选中SpriteFrame；限定tab沿用原锁图。
+表情列表源ChatChooseView.sp_faceItems，共12个原表情。
+换SpriteFrame后图像的原尺寸为135×135，不能沿用placeholder100×100。
+原emojiBox layout：paddingTop5、spacingY25；viewtop10；434逻辑像素分3列，每格144.667。
+文字列表来自game_ChatDefine.StandradChinese；玛卡免费次数只保存在本地本次会话。
+
+流水：原bg880×485、相对画布中心x+100，渐变标题882×58。
+本地金额来自huEvents.deltas和kongPayments.amount，不凭“倍数×底分”重算。
+总和直接显示Round.scores，展开牌局记录显示Round.log。
+目前Round两种事件数组没有统一时间戳，列表先列胡事件再列杠事件；展开记录保留Round原日志顺序。
+
+听牌：TingTip.js:147–195按牌数动态改宽，1050−(9−每行牌数)×85。
+TingTip.js:227–233 普通桌bottom150，直播桌bottom210。
+本地等待牌算法消费已实现的waits/redScore。
+余张仅依据自己的手牌、公开弃牌、公开碰杠与单独存储的物理自摸/抢杠牌；不读取暗手和牌墙。
+不能重复计数huEvents里仍保留于discards的同一个物理弃牌。
+14张时需要传discardIndex，且不修改Round.hands。
+
+资料：原740×450 dialog，pink♀/blue♂来自原sexSpriteFrame数组；分隔线来自原game1399。
+徽章背景game612，徽章左右半片从UserSectionInfo.SectionIcon取原图并对称拼接。
+资料财富条和流水金豆统一使用已收集大厅金豆assets/lobby/476.png。
+总对局/胜率只接受data.localGames/localWins，本地缺省0/--；徽章文本缺省“本地演示”。
+5种礼物采用原Emoji.icon图，发送只触发本地回调，不调用线上接口。
+
+API：createTablePanels(parent,{onPause,onResume,onChat})。
+chat(round)、ledger(round)、hint(round,{discardIndex?})、profile(data,round,seat)、close()、get open。
+table-panel-preview.html提供固定且明确标注的测试数据预览，不是实际牌局结果。

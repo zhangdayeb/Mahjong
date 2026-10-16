@@ -1,0 +1,23 @@
+.room-entry{position:absolute;inset:0;z-index:120;overflow:hidden;pointer-events:auto;background:rgba(0,0,0,.235294);font-family:"Microsoft YaHei",sans-serif}
+.room-entry[hidden]{display:none}.room-entry-fixed{position:fixed}
+.room-entry-content{position:absolute;left:50%;top:50%;width:200px;height:170px;transform:translate(-50%,-50%) scale(var(--entry-scale,1));transform-origin:center}
+.room-entry-icon{position:absolute;left:44.5px;top:30px;width:111px;height:110px}
+.room-entry-icon img{position:absolute;inset:0;pointer-events:none}
+.room-entry-icon .entry-icon-bg,.room-entry-icon .entry-icon-ring{width:111px;height:110px}
+.room-entry-icon .entry-icon-ring{animation:entry-ring-spin 1.2s linear infinite}
+.room-entry-icon .entry-icon-face{left:29.5px;top:29px;width:52px;height:52px}
+.room-entry-label{position:absolute;left:-20px;right:-20px;top:147px;text-align:center;color:#ffefa6;font-size:22px;font-weight:600;white-space:nowrap;line-height:28px;text-shadow:0 1px 1px #332b24}
+@keyframes entry-ring-spin{to{transform:rotate(-360deg)}}
+.exchange-effects{position:absolute;inset:0;pointer-events:none}
+.exchange-effects[hidden],.exchange-circle[hidden],.exchange-opposite[hidden]{display:none}
+.exchange-circle{position:absolute;width:350px;height:350px;transform:translate(-50%,-50%);z-index:44}
+.exchange-gold-arrow{position:absolute;left:84.7px;top:17px;width:180.6px;height:54px;transform-origin:90.3px 158px}
+.exchange-tip{position:absolute;width:300px;height:150px;transform:translate(-50%,-50%);z-index:44}
+.exchange-tip-bg{position:absolute;inset:0;width:100%;height:100%}
+.exchange-tip-word{position:absolute;left:22.5px;top:25px;width:255px;height:100px;object-fit:contain}
+.exchange-backs{position:absolute;inset:0;z-index:42}
+.exchange-back-group{position:absolute;width:0;height:0;transform-origin:0 0}
+.exchange-back-group img{position:absolute;object-fit:fill}
+.exchange-opposite{position:absolute;transform:translate(-50%,-50%);z-index:44}
+.exchange-opposite img{position:absolute;left:0;top:0;width:74px;height:210px;object-fit:contain}
+@media(prefers-reduced-motion:reduce){.room-entry-icon .entry-icon-ring{animation-duration:4s}}

@@ -1,0 +1,477 @@
+{
+  "date": "2026-10-06",
+  "demo": "http://127.0.0.1:8770/hall.html",
+  "checkedTopLevelEntries": [
+    "个人资料",
+    "麻卡巴卡",
+    "游戏豆商城",
+    "指尖币商城",
+    "钻石商城",
+    "每日福利",
+    "自选宝藏",
+    "幸运转盘",
+    "开运福利",
+    "指尖周卡",
+    "奇珍阁",
+    "番型收集",
+    "每日悬赏",
+    "血流麻将",
+    "三国麻将",
+    "十二生肖",
+    "血流红中",
+    "赛事中心",
+    "玩法合集",
+    "娱乐",
+    "商城",
+    "更多",
+    "背包",
+    "活动",
+    "邮件",
+    "设置",
+    "快速开始",
+    "平台浮窗"
+  ],
+  "mobileViewport": [
+    812,
+    375
+  ],
+  "verifiedDrags": [
+    "每日福利横向卡片",
+    "玩法合集横向卡片",
+    "麻卡巴卡纵向权益"
+  ],
+  "sourceLayouts": [
+    "prefab2692/63/4/899/709/193/2366/2567",
+    "prefab16/207/45/246/371/178/3712",
+    "main2底部更多",
+    "prefab224大厅规则",
+    "prefab43场次",
+    "prefab37赛事及娱乐",
+    "prefab6玩法合集"
+  ],
+  "fixesFoundInBrowser": [
+    "头像由整张大厅截图改为原头像裁片",
+    "profile背景定位",
+    "福利文字错误折行",
+    "活动规则及记录关闭标签",
+    "规则列表空Sprite崩溃",
+    "三国与生肖模式分组",
+    "快速开始直接进入本地牌局",
+    "桌面标题麻将重复"
+  ],
+  "regression": {
+    "passed": 215,
+    "failed": 0
+  },
+  "sanguoReadyTableReferenceCheck": {
+    "target": "../sanguo-table-study/references/target.png",
+    "before": "../sanguo-table-study/references/before.png",
+    "desktopScreenshot": "local-sanguo-table-ready.jpg",
+    "quickScreenshot": "local-sanguo-table-quick.jpg",
+    "mobileScreenshot": "local-sanguo-table-ready-mobile.jpg",
+    "rulesScreenshot": "local-sanguo-table-rules.jpg",
+    "desktopViewport": [
+      986,
+      504
+    ],
+    "mobileViewport": [
+      812,
+      375
+    ],
+    "sourcePrefabs": [
+      2910,
+      653,
+      827,
+      2595,
+      904,
+      974
+    ],
+    "fixes": [
+      "大厅和直接场次页面的三国场次点击进入独立sanguo-table页面",
+      "快速开始保留622初级场，六个入口均携带各自场次；至尊不编造626",
+      "原三国地图、中央旗与四白方向，准备期隐藏回合倒计时",
+      "原金色准备末帧只显示自己、上家、对家，下家等待",
+      "原四家头像壳、段位和指尖币，四张头像仅取用户截图头像区域",
+      "原菜单、空牌数、时间电量控件与棕色底注及封顶说明",
+      "真实预加载统计原素材与头像文件，不使用虚假加载百分比"
+    ],
+    "verifiedInteraction": [
+      "实际点击三国新手场跳转room621并显示底注10",
+      "实际点击快速开始跳转room622并显示底注100",
+      "桌面及812×375手机横屏地图、四家和三处准备状态可见",
+      "实际打开牌桌菜单及三国911文字规则",
+      "本地浏览器保留新手场准备桌面"
+    ],
+    "dataScope": "本次只恢复用户已给出的准备桌面。玩家头像、昵称、余额和时间为截图快照；无真实匹配、发牌、英雄逻辑、结算或余额写入。原准备动画早段一张光带未收集，末帧透明，不影响稳定准备状态。"
+  },
+  "zodiacRoomsReferenceCheck": {
+    "target": "../hall-games-study/references/zodiac-rooms-target.png",
+    "before": "../hall-games-study/references/zodiac-rooms-before.png",
+    "desktopScreenshot": "local-zodiac-rooms-fixed-target-size.jpg",
+    "hallEntryScreenshot": "local-zodiac-rooms-fixed.jpg",
+    "mobileScreenshot": "local-zodiac-rooms-mobile.jpg",
+    "requestedDesktopViewport": [
+      992,
+      502
+    ],
+    "desktopScreenshotSize": [
+      991,
+      502
+    ],
+    "mobileViewport": [
+      812,
+      375
+    ],
+    "fixes": [
+      "五个原场次556到560，按目标恢复全部底分、人数和入场范围",
+      "新手及初级底分均10，后三场1000、10000、10000",
+      "原位图字体、五种场次皮肤、蓝色指尖币及右到左门槛布局",
+      "原1237番型收集入口按898类型启用，与规则介绍相邻",
+      "快速开始推荐557初级场，按原QuikStart显示十二生肖.初级场",
+      "顶部问号的文字规则、底部生肖四页介绍和番型收集分别接入独立页面"
+    ],
+    "verifiedInteraction": [
+      "大厅十二生肖和娱乐十二生肖使用相同五场资料",
+      "桌面和手机横屏五场及底部入口完整显示",
+      "实际逐页打开生肖介绍四页，首末翻页边界正确",
+      "番型收集实际选中十二生肖",
+      "顶部问号实际打开898文字与配牌规则",
+      "直接rooms.html?mode=zodiac展示相同场次"
+    ],
+    "dataScope": "底分、人数和范围为用户截图固定资料，五场原ID已确认；本地十二生肖牌局引擎尚未实现，场次及快速开始不会误进入血流规则。"
+  },
+  "zodiacGuideReferenceCheck": {
+    "sourcePrefab": 1034,
+    "source": "../zodiac-guide-study/source/SESXGuideView.js",
+    "pageScreenshots": [
+      "local-zodiac-guide-page-1.jpg",
+      "local-zodiac-guide-page-2.jpg",
+      "local-zodiac-guide-page-3.jpg",
+      "local-zodiac-guide-page-4.jpg"
+    ],
+    "mobileScreenshot": "local-zodiac-guide-mobile.jpg",
+    "collectionScreenshot": "local-zodiac-collection.jpg",
+    "rulesScreenshot": "local-zodiac-rules.jpg",
+    "desktopViewport": [
+      1009,
+      504
+    ],
+    "mobileViewport": [
+      812,
+      375
+    ],
+    "fixes": [
+      "四页原标题、内容PNG与说明恢复，18张原素材保留源尺寸",
+      "原翻页箭头、手指动画、300ms入场及350ms收回入口",
+      "末页之后手指持续隐藏，关闭恢复规则介绍按钮焦点",
+      "生肖介绍与三国介绍按类型分别路由，生肖不改写三国已见记录"
+    ],
+    "dataScope": "仅手动打开。生肖自动弹出依赖尚未取得的在线showGuide设置，未擅自启用。源第三、四页标题与说明组合看似错位，已按原脚本和prefab索引原样保留，见原版页序核对.txt。"
+  },
+  "entertainmentReferenceCheck": {
+    "target": "../hall-games-study/references/entertainment-target.png",
+    "before": "../hall-games-study/references/entertainment-before.png",
+    "scrolledTarget": "../hall-games-study/references/entertainment-scrolled-target.png",
+    "desktopScreenshot": "local-entertainment-fixed.jpg",
+    "scrolledDesktopScreenshot": "local-entertainment-scrolled.jpg",
+    "endScreenshot": "local-entertainment-end.jpg",
+    "mobileScreenshot": "local-entertainment-mobile.jpg",
+    "mobileScrolledScreenshot": "local-entertainment-mobile-scrolled.jpg",
+    "desktopViewport": [
+      1009,
+      504
+    ],
+    "mobileViewport": [
+      812,
+      375
+    ],
+    "fixes": [
+      "替换两张2V2备用内容，补全目标六张娱乐卡",
+      "按顺序恢复十二生肖、四季常春不洗牌、疯狂8红中、8红中不洗牌、6红中不洗牌、四季常春",
+      "原typeBgSF六种背景及typeBgIconSF插图，靠花枝和躺椅分别消歧883与870",
+      "显示原豆、币、钻三种余额及对应商城按钮",
+      "源343宽卡片、35间距、左右15留白，内容2263、遮罩1209、滚动上限1054",
+      "原位图标题和英文，长标题按SHRINK从32缩到29",
+      "普通玩法进入各自场次，已实现六红不洗牌独立进入sixFixed"
+    ],
+    "verifiedInteraction": [
+      "桌面实际左拖约1000设计像素显示目标后半段",
+      "继续左拖到1054最右边界，最后一张完整显示",
+      "手机横屏右拖回首屏、左拖查看后半段",
+      "拖动未触发卡片选择，顶栏与标题保持固定"
+    ],
+    "dataScope": "六张入口名称、顺序和外观来自首屏及拖动截图，ID由原配置及插图索引确认。余额为现有大厅本地样例；入口外的在线人数、场次收费配置及未实现牌局逻辑未补造。"
+  },
+  "sichuanCollectionReferenceCheck": {
+    "target": "../hall-games-study/references/collection-target.png",
+    "before": "../hall-games-study/references/collection-before.png",
+    "scrolledTarget": "../hall-games-study/references/collection-scrolled-target.png",
+    "scrolledBefore": "../hall-games-study/references/collection-scrolled-before.png",
+    "desktopScreenshot": "local-sichuan-collection-fixed.jpg",
+    "mobileScreenshot": "local-sichuan-collection-mobile.jpg",
+    "mobileScrolledScreenshot": "local-sichuan-collection-mobile-scrolled.jpg",
+    "scrolledDesktopScreenshot": "local-sichuan-collection-rear-fixed.jpg",
+    "endScreenshot": "local-sichuan-collection-end.jpg",
+    "requestedDesktopViewport": [
+      1009,
+      501
+    ],
+    "desktopScreenshotSize": [
+      1010,
+      501
+    ],
+    "mobileViewport": [
+      812,
+      375
+    ],
+    "fixes": [
+      "四川麻将标题与原leftPart Widget位置",
+      "补齐12张卡片及全部截图人数，恢复四川倒倒胡及内江麻将完整名",
+      "原始13项隐藏866后重排为上7下5，保留下排尾部空白",
+      "后续巴中麻将、大众麻将、血战换三张、血战到底原皮肤及位置",
+      "血流换三张及大众麻将热门角标",
+      "按各原皮肤323/324实际宽计算行宽2391/1703及滚动上限1211",
+      "左起首屏和原遮罩裁切，固定人数图标/文字坐标",
+      "快速开始保持隐藏866的红中新手场推荐",
+      "六红中与六红中不洗牌分开映射本地模式",
+      "正常轻点不捕获指针，超过5px才拖动，避免卡片点击丢失"
+    ],
+    "verifiedInteraction": [
+      "桌面实际左右拖动到后半段、最右边界及回到首屏",
+      "手机横屏实际拖动查看新增内容，两行同步",
+      "鼠标点击6红中不洗牌进入sixFixed",
+      "鼠标点击血流6红中进入six",
+      "合集快速开始进入red/beginner本地牌局",
+      "测试验证缩放下触摸轻点与拖动、边界及拖动后抑制误点",
+      "测试验证后续卡片保留841/829/830/181/148/143原类型，不误进入血流玩法"
+    ],
+    "dataScope": "首屏及拖动截图固定资料，全部12张外观及人数已补齐；血战规则引擎尚未实现。两种同名血流玩法ID仍保留候选，不用未锁定ID执行跳转。其他地区与实时在线配置未取得。"
+  },
+  "sanguoRoomsReferenceCheck": {
+    "target": "../hall-games-study/references/sanguo-rooms-target.png",
+    "before": "../hall-games-study/references/sanguo-rooms-before.png",
+    "desktopScreenshot": "local-sanguo-rooms-fixed.jpg",
+    "mobileScreenshot": "local-sanguo-rooms-mobile.jpg",
+    "desktopViewport": [
+      1003,
+      510
+    ],
+    "mobileViewport": [
+      812,
+      375
+    ],
+    "fixes": [
+      "六个场次，补齐原红色至尊场卡片",
+      "底分10、100、1000及后三项10000，人数和范围按目标截图",
+      "原BMFont字体、行高和锚点定位",
+      "人数及指尖币原白色贴图恢复源蓝色染色",
+      "门槛右到左布局按实际文字宽度定位",
+      "快速开始显示三国麻将 初级场",
+      "按原leftPart Widget对齐返回和标题区域",
+      "平台浮窗恢复在场次层上方"
+    ],
+    "verifiedInteraction": [
+      "大厅入口显示全部六个场次",
+      "手机横屏全部卡片与底部按钮完整显示",
+      "测试验证直接场次链接与快速开始推荐初级场"
+    ],
+    "dataScope": "固定截图状态。前五项保留621–625；第六项服务器ID未知，不推测626。三国牌局引擎未实现。"
+  },
+  "sanguoReferenceCheck": {
+    "target": "../sanguo-guide-study/references/target-page-1.png",
+    "sourcePrefab": 1318,
+    "desktopScreenshot": "local-sanguo-guide-page-1.jpg",
+    "mobileScreenshot": "local-sanguo-guide-mobile.jpg",
+    "otherPageScreenshots": [
+      "local-sanguo-guide-page-2.jpg",
+      "local-sanguo-guide-page-3.jpg",
+      "local-sanguo-guide-page-4.jpg"
+    ],
+    "requestedDesktopViewport": [
+      991,
+      496
+    ],
+    "mobileViewport": [
+      812,
+      375
+    ],
+    "fixes": [
+      "大厅和直接场次链接接入每日首次/新用户三国介绍",
+      "4页原标题和内容图，首尾页箭头边界",
+      "原300ms弹出和350ms缩回规则介绍入口",
+      "规则介绍与问号玩法规则分开",
+      "启用原1237三国番型收集入口并传玩法911",
+      "按原水平Layout修正左下两个入口的锚点与2px间距",
+      "直接场次页面的余额样例与当前大厅一致"
+    ],
+    "verifiedInteraction": [
+      "大厅进入时自动显示第1页",
+      "四页逐页打开及上/下页按钮",
+      "关闭后保留三国场次",
+      "同日再次进入不自动重弹",
+      "规则介绍手动重开第1页",
+      "手机横屏翻页",
+      "番型收集显示三国麻将",
+      "问号打开911规则内容",
+      "直接rooms.html?mode=sanguo可打开介绍"
+    ],
+    "dataScope": "本地单独已见标记MAHJONG_SGMJGuide；未读写原账户键。场次随后按用户六项截图显示，见sanguoRoomsReferenceCheck；三国牌局引擎未实现。"
+  },
+  "bountyReferenceCheck": {
+    "target": "../hall-activity-study/references/bounty-target.png",
+    "desktopScreenshot": "local-bounty-fixed-target-size.png",
+    "mobileScrolledScreenshot": "local-bounty-fixed-mobile-scrolled.png",
+    "requestedDesktopViewport": [
+      983,
+      510
+    ],
+    "mobileViewport": [
+      812,
+      375
+    ],
+    "fixes": [
+      "绑定原五条任务模板、进度、奖励及领取状态",
+      "十二格奖池按原award ID填入截图奖品",
+      "恢复原指尖币、玉兔呈祥、章鱼、悬赏令、EXP图",
+      "悬赏令0及截图剩余时间",
+      "源ui_Canvas动态Widget让全屏遮罩覆盖宽屏",
+      "鼠标及触摸任务上下滚动并限制在原裁切区"
+    ],
+    "verifiedInteraction": [
+      "手机上下拖动可查看第五条完整任务",
+      "领取按钮产生本地预览提示，余额不变"
+    ],
+    "dataScope": "截图显示状态；倒计时为固定参考值；第五条0/5来自可见完成5局目标的推断。每周任务尚无来源。"
+  },
+  "wheelReferenceCheck": {
+    "target": "../hall-activity-study/references/wheel-target.png",
+    "desktopScreenshot": "local-wheel-fixed-target-size.png",
+    "mobileScreenshot": "local-wheel-fixed-mobile.png",
+    "desktopViewport": [
+      995,
+      498
+    ],
+    "mobileViewport": [
+      812,
+      375
+    ],
+    "fixes": [
+      "生成原prefab93的8格奖品，按目标顺时针排列",
+      "恢复原22.5度主盘初始角度",
+      "切换看视频免费抽奖提示及截图显示的8次",
+      "免费抽奖按钮删除占位计数",
+      "动态提示按原23px字体测量宽度并在原锚点居中"
+    ],
+    "dataScope": "奖品及8次来自用户截图，只用于本地视觉预览；点击提供本地反馈，不扣次数、不派奖、不修改余额。"
+  },
+  "limitations": [
+    "原站嵌套跨域画布坐标点击会落到iframe中心；独立画布同意协议后停在80%加载。未逐个实机核对原站全部弹窗。",
+    "奖池、领取条件、活动任务、背包及邮件、会员价格与资格依赖尚未取得的在线数据，采用空数据或—。",
+    "三国、生肖、赛事、2V2及其他玩法目前为原页面预览，牌局引擎未实现。",
+    "平台浮窗是原网站宿主功能，未移植该平台服务。",
+    "原大厅玩法列表由在线消息下发，本地使用已确认条目和有名称的静态规则资料；未确认线上完整排序。"
+  ],
+  "sanguoDealtTableReferenceCheck": {
+    "target": "sanguo-table-study/references/dealt-target.png",
+    "before": "sanguo-table-study/references/dealt-before.png",
+    "desktopMenuProof": "hall-audit-study/local-sanguo-table-dealt-menu.jpg",
+    "desktopProof": "hall-audit-study/local-sanguo-table-dealt.jpg",
+    "mobileMenuProof": "hall-audit-study/local-sanguo-table-dealt-mobile.jpg",
+    "timeoutProof": "hall-audit-study/local-sanguo-table-timeout.jpg",
+    "viewports": [
+      {
+        "width": 999,
+        "height": 508
+      },
+      {
+        "width": 812,
+        "height": 375
+      }
+    ],
+    "sourcePrefabs": [
+      2910,
+      2595,
+      904,
+      974,
+      264,
+      1052,
+      952,
+      3709
+    ],
+    "heroAtlas": 1397,
+    "phase": "dealt-preview",
+    "fixes": [
+      "default dealt capture instead of ready-only capture",
+      "thirteen native hero cards and three native concealed hands",
+      "five original menu rows and original fade background",
+      "remaining tile count, recorder/fan, chat/ledger and screenshot header",
+      "canonical room-specific base and actual measured resource preload"
+    ],
+    "limits": [
+      "fixed screenshot display, not full Sanguo game logic",
+      "left account head is obscured by target menu and is not invented",
+      "recorder previews captured hand counts only; no unknown deck inferred",
+      "quick fan recommendation data unavailable; opens existing full Sanguo fan rules"
+    ]
+  },
+  "sanguoPlayableCheck": {
+    "engine": "sanguo-local",
+    "defaultRoute": "sanguo-table.html?room=621",
+    "deckCount": 135,
+    "initialHandCounts": [
+      14,
+      13,
+      13,
+      13
+    ],
+    "initialWall": 82,
+    "manualProof": "hall-audit-study/local-sanguo-play-manual.jpg",
+    "settlementProof": "hall-audit-study/local-sanguo-play-settlement.jpg",
+    "desktopProof": "hall-audit-study/local-sanguo-play-ready.jpg",
+    "mobileProof": "hall-audit-study/local-sanguo-play-mobile.jpg",
+    "frames": 280,
+    "newNativePNGs": 64,
+    "completedBotRounds": 80,
+    "testsPassed": 215,
+    "features": [
+      "manual selection/discard",
+      "NPC turns and pending responses",
+      "peng and exposed/concealed/added kongs",
+      "robbed kong and multiple winners",
+      "self draw and continuing play",
+      "seal replacement and seal kong",
+      "both treasure actions and unique map progress",
+      "recorded HU/map multipliers and draw settlement",
+      "real trustee, pause on overlay, fresh game and first-gesture wait"
+    ],
+    "limits": [
+      "local practice only, no account or network match",
+      "triple draw represented as consecutive single-draw turns",
+      "full server skill probabilities, fan interactions and balance caps not reproduced",
+      "map collection is calculated; original unlock lighting animations are not transplanted"
+    ],
+    "proofSizes": {
+      "local-sanguo-play-manual.jpg": [
+        1114,
+        538
+      ],
+      "local-sanguo-play-settlement.jpg": [
+        1114,
+        538
+      ],
+      "local-sanguo-play-ready.jpg": [
+        1114,
+        538
+      ],
+      "local-sanguo-play-mobile.jpg": [
+        812,
+        375
+      ]
+    },
+    "actualRoomEntryVerified": true,
+    "actualManualDiscardVerified": true,
+    "actualFullRoundAndAgainVerified": true,
+    "temporaryViewportReset": true,
+    "browserErrors": []
+  }
+}

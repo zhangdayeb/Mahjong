@@ -1,0 +1,214 @@
+    RuleView: [
+      function (e, t) {
+        "use strict";
+        cc._RF.push(t, "ff805EKWotGzZ/FIRkn37Mj", "RuleView");
+        var i = e("CommonUtils"),
+          a = cc.Enum({ BASERULE: -1, CUSTOMRULE: -1, FANRULE: -1 }),
+          o = {
+            143: 171,
+            144: 172,
+            148: 171,
+            149: 171,
+            182: 173,
+            181: 174,
+            183: 175,
+            184: 176,
+            185: 177,
+            186: 178,
+            187: 179,
+            188: 191,
+            189: 192,
+            190: 193,
+            801: 194,
+            802: 195,
+            803: 196,
+            804: 197,
+            805: 198,
+            806: 199,
+            807: 811,
+            808: 812,
+            809: 813,
+            810: 814,
+            821: 815,
+            822: 816,
+            823: 817,
+            824: 818,
+            825: 819,
+            826: 820,
+            827: 831,
+            828: 832,
+            829: 833,
+            830: 834,
+            841: 835,
+            845: 839,
+            846: 840,
+            847: 851,
+            848: 852,
+            864: 864,
+            866: 863,
+            871: 871,
+            883: 868,
+          },
+          n = e("AlertDlgBaseView");
+        (cc.Class({
+          extends: n,
+          properties: {
+            initRuleHelpToggle: {
+              default: null,
+              type: cc.Toggle,
+              tooltip:
+                "RadioButton:\u9700\u8981\u521d\u59cb\u5316\u7684\u89c4\u5219\u9762\u677f\u7684toggle",
+            },
+            viewScrollView: {
+              default: null,
+              type: cc.ScrollView,
+              tooltip: "\u89c4\u5219\u9762\u677f\u6587\u672c",
+            },
+            view: cc.Node,
+            content: cc.Node,
+            nTemplate: cc.Node,
+            nDiyNode: cc.Node,
+          },
+          Awake: function () {
+            ((this._lastContentY = 0),
+              (this._ruleShowing = !1),
+              (this._updateTimer = 0),
+              (this.updateInterval = 1),
+              (this._onLoad = !1),
+              (this._offIndex = this.viewScrollView.node.height > 400 ? 8 : 7),
+              (this.nDiyNode.active = !0),
+              this.node.on("INIT_RULE", this.initUI, this),
+              this.onMessageEvent());
+          },
+          start: function () {
+            this._onLoad = !0;
+          },
+          onMessageEvent: function () {
+            this.autoDispose(
+              g_oEvent.addEventListener(g_tEvent.RULE_SET_CHANGE, this.changeRule, this),
+            );
+          },
+          initUI: function (e) {
+            ((this._nGameType = e),
+              i.isOnLobbyScene() && tileLogicHelper.setGTCardLib(e),
+              (this._eTagRuleType = a.FANRULE),
+              this.initRuleHelpToggle.check(),
+              this.onClickRuleType(void 0, "FANRULE"));
+          },
+          onClickRuleType: function (e, t) {
+            (this.viewScrollView.stopAutoScroll(),
+              this.viewScrollView.scrollToTop(0),
+              (this._ruleShowing = !1),
+              cc.assert(void 0 !== a[t], "eTagRuleType EventData error, CustomEventData = " + t),
+              (this._eTagRuleType = a[t]));
+            var i = g_oData.get(g_tData.RuleModule).getCfgByGameType("rulePair") || o,
+              n = g_oData.get(g_tData.RuleModule).getCfgByGameType(this._nGameType),
+              s = [];
+            if (n) s = n[t];
+            else {
+              Log.warn(
+                "BIRD >>>",
+                "RuleView.js",
+                "\u73a9\u6cd5 " + this._nGameType + " \u7684\u89c4\u5219\u8bf4\u660e\u4e3a\u7a7a",
+              );
+              var r = i[this._nGameType];
+              (n = g_oData.get(g_tData.RuleModule).getCfgByGameType(r)) && (s = n[t]);
+            }
+            (n &&
+              (n.CUSTOMRULE
+                ? 0 === n.CUSTOMRULE.length
+                  ? (this.nDiyNode.active = !1)
+                  : (this.nDiyNode.active = !0)
+                : (this.nDiyNode.active = !1)),
+              this.changeRule(s));
+          },
+          onClickClose: function () {
+            this.close();
+          },
+          changeRule: function (e) {
+            for (var t = this, i = [], a = [], o = 0; o < e.length; o++) {
+              var n = e[o];
+              n.startsWith("<pic>")
+                ? (a.length > 0 &&
+                    (i.push({ type: 0, value: a, gameType: this._nGameType }), (a = [])),
+                  i.push({ type: 1, value: n.replace("<pic>", ""), gameType: this._nGameType }))
+                : ((n = n.replace(/<[\/]?color[=#a-f0-9]*>/g, "")), a.push(n));
+            }
+            (a.length > 0 && i.push({ type: 0, value: a, gameType: this._nGameType }),
+              this.content.removeAllChildren(),
+              this.unscheduleAllCallbacks(),
+              (this._data = i),
+              (this._showToIndex = 0),
+              this.scheduleOnce(function () {
+                ((t._lastContentY = t.content.y), t.showRule());
+              }, 0.1));
+          },
+          addOneRule: function (e) {
+            for (
+              var t = this,
+                i = e.length,
+                a = 0,
+                o = function (e) {
+                  if (cc.isValid(t)) {
+                    var o = cc.instantiate(t.nTemplate);
+                    ((o.active = !0),
+                      (o.parent = t.content),
+                      o.getComponent("RuleHallTemplate").show(e.type, e.value, e.gameType),
+                      ++a === i && (t._ruleShowing = !1));
+                  }
+                },
+                n = 0;
+              n < e.length;
+              n++
+            ) {
+              var s = e[n];
+              n > 0 ? t.scheduleOnce(o.bind(t, s), 0.04 * n) : o(s);
+            }
+          },
+          showRule: function () {
+            if (
+              (Log.info("Edwin want to show new rule"),
+              this._ruleShowing && Log.info("Edwin rule showing"),
+              this._showToIndex < this._data.length && !this._ruleShowing)
+            ) {
+              this._ruleShowing = !0;
+              var e = this._showToIndex + this._offIndex;
+              ((e = this._data.length > e ? e : this._data.length),
+                this.addOneRule(this._data.slice(this._showToIndex, e)),
+                (this._showToIndex = e));
+            }
+          },
+          scrollEvent: function (e, t) {
+            switch ((Log.info("event:", t), t)) {
+              case 0:
+                break;
+              case 1:
+                this.content.y - this._lastContentY > 0 &&
+                  (this.showRule(), (this._lastContentY = this.content.y));
+            }
+          },
+          update: function (e) {
+            if (
+              this._onLoad &&
+              ((this._updateTimer += e), !(this._updateTimer < this.updateInterval))
+            )
+              for (
+                var t = cc.rect(
+                    -this.view.width / 2,
+                    -this.content.y - this.view.height - this.view.y,
+                    this.view.width,
+                    this.view.height,
+                  ),
+                  i = 0;
+                i < this.content.children.length;
+                i++
+              ) {
+                var a = this.content.children[i];
+                t.intersects(a.getBoundingBox()) ? (a.opacity = 255) : (a.opacity = 0);
+              }
+          },
+        }),
+          cc._RF.pop());
+      },
+      { AlertDlgBaseView: "AlertDlgBaseView", CommonUtils: "CommonUtils" },
+    ],

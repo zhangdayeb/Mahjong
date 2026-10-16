@@ -1,0 +1,497 @@
+[
+  {
+    "bundle": "main",
+    "id": 4,
+    "uuid": "a1c2db9b-d99c-4fad-b856-2e501caf652e",
+    "name": "game_default_sprite_splash",
+    "rect": [
+      29,
+      932,
+      2,
+      2
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      2,
+      2
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "16131c231"
+  },
+  {
+    "bundle": "main",
+    "id": 0,
+    "uuid": "0cf94c9d-99e7-4dd9-b05b-f843298ba24c",
+    "name": "pic_com08",
+    "rect": [
+      142,
+      732,
+      53,
+      56
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      53,
+      56
+    ],
+    "rotated": 1,
+    "capInsets": [
+      16,
+      21,
+      19,
+      24
+    ],
+    "textureUUID": "16131c231"
+  },
+  {
+    "bundle": "main",
+    "id": 5,
+    "uuid": "b83c4580-33ca-419f-8103-b418b031bad2",
+    "name": "btn_com07",
+    "rect": [
+      142,
+      493,
+      233,
+      85
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      233,
+      85
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "16131c231"
+  },
+  {
+    "bundle": "main",
+    "id": 361,
+    "uuid": "e7aba14b-f956-4480-b254-8d57832e273f",
+    "name": "default_radio_button_off",
+    "rect": [
+      3,
+      3,
+      26,
+      26
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      32,
+      32
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "567dcd80-8bf4-4535-8a5a-313f1caf078a"
+  },
+  {
+    "bundle": "main",
+    "id": 264,
+    "uuid": "a5f2c21e-c885-45df-bedf-296dbc7f45ac",
+    "name": "img_logo",
+    "rect": [
+      78,
+      5,
+      516,
+      217
+    ],
+    "offset": [
+      0.5,
+      -2.5
+    ],
+    "originalSize": [
+      671,
+      222
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "834b7694-9189-4c96-9ce1-f2ce8384f68c"
+  },
+  {
+    "bundle": "main",
+    "id": 6,
+    "uuid": "d3cddf50-925e-449a-be6c-58e6d709b677",
+    "name": "xiaotanchuangshanglan",
+    "rect": [
+      51,
+      3,
+      700,
+      71
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      700,
+      71
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "16131c231"
+  },
+  {
+    "bundle": "main",
+    "id": 1,
+    "uuid": "27278137-466c-471b-bcee-1c0af29fa3f0",
+    "name": "img_login_bg",
+    "rect": [
+      0,
+      0,
+      1558,
+      720
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1558,
+      720
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "3146c5b0-83f8-4bd4-a300-e00c6de32a41"
+  },
+  {
+    "bundle": "main",
+    "id": 62,
+    "uuid": "23d0853e-d33d-4741-8667-19e8683626b6",
+    "name": "tu1",
+    "rect": [
+      51,
+      709,
+      85,
+      106
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      85,
+      106
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "16131c231"
+  },
+  {
+    "bundle": "main",
+    "id": 47,
+    "uuid": "1a21585e-59b0-49d7-965a-579f56c7aef8",
+    "name": "btn_com02",
+    "rect": [
+      128,
+      3,
+      245,
+      81
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      245,
+      81
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "16131c231"
+  },
+  {
+    "bundle": "main",
+    "id": 88,
+    "uuid": "36ba50ca-44d9-49e2-820d-a08be751cabb",
+    "name": "xiaoshaizi",
+    "rect": [
+      204,
+      732,
+      34,
+      35
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      34,
+      35
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "16131c231"
+  },
+  {
+    "bundle": "main",
+    "id": 307,
+    "uuid": "c898577b-18a2-4724-8825-5a55c5e2181a",
+    "name": "jindutiaodi",
+    "rect": [
+      3,
+      3,
+      928,
+      20
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      928,
+      20
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "16131c231"
+  },
+  {
+    "bundle": "main",
+    "id": 83,
+    "uuid": "3507b9b8-f6d0-492d-b754-3ed58bac2489",
+    "name": "img_rect_bg",
+    "rect": [
+      204,
+      773,
+      22,
+      23
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      22,
+      23
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "16131c231"
+  },
+  {
+    "bundle": "main",
+    "id": 102,
+    "uuid": "3ff58b14-edd8-4e5e-b71b-689a49860154",
+    "name": "lianxikefu",
+    "rect": [
+      51,
+      870,
+      179,
+      43
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      179,
+      43
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "16131c231"
+  },
+  {
+    "bundle": "main",
+    "id": 101,
+    "uuid": "3f5f351e-b867-47c1-b766-70cbc7f1b99c",
+    "name": "xiufuyouxi",
+    "rect": [
+      51,
+      821,
+      179,
+      43
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      179,
+      43
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "16131c231"
+  },
+  {
+    "bundle": "main",
+    "id": 253,
+    "uuid": "a22c8373-23c7-4c0f-ad26-70b638d3e0f7",
+    "name": "btn_com09",
+    "rect": [
+      128,
+      254,
+      233,
+      85
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      233,
+      85
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "16131c231"
+  },
+  {
+    "bundle": "main",
+    "id": 110,
+    "uuid": "43ff568d-c139-4e43-901c-3811bdbd6fb6",
+    "name": "jindutiao",
+    "rect": [
+      29,
+      3,
+      923,
+      16
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      923,
+      16
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "16131c231"
+  },
+  {
+    "bundle": "resources",
+    "id": 732,
+    "uuid": "29158224-f8dd-4661-a796-1ffab537140e",
+    "name": "default_btn_disabled",
+    "rect": [
+      0,
+      0,
+      40,
+      40
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      40,
+      40
+    ],
+    "capInsets": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "textureUUID": "71561142-4c83-4933-afca-cb7a17f67053"
+  },
+  {
+    "bundle": "main",
+    "id": 368,
+    "uuid": "ec3389e7-1730-4fc7-9317-aa73f8048790",
+    "name": "img_rect_on",
+    "rect": [
+      142,
+      791,
+      22,
+      23
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      22,
+      23
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "16131c231"
+  }
+]

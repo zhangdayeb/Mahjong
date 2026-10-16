@@ -1,0 +1,6 @@
+.native-zodiac-guide{position:absolute;inset:0;z-index:195;overflow:clip;isolation:isolate;touch-action:none}
+.native-zodiac-guide[hidden]{display:none!important}
+.native-zodiac-guide-canvas,.native-zodiac-guide-hits{position:absolute;inset:0;width:100%;height:100%}
+.native-zodiac-guide-canvas{pointer-events:none}
+#lobby .native-zodiac-guide button,.native-zodiac-guide button{position:absolute;margin:0;padding:0;border:0;border-radius:0;background:transparent!important;box-shadow:none!important;color:transparent!important;cursor:pointer;touch-action:none}
+.native-zodiac-guide button:focus-visible{outline:2px solid #ffe57d;outline-offset:-3px}

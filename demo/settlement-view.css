@@ -1,0 +1,64 @@
+.settlement-view{position:fixed;inset:0;margin:0;padding:0;width:100vw;height:100dvh;max-width:none;max-height:none;border:0;background:transparent;color:#603318;overflow:hidden;box-sizing:border-box;font-family:Arial,sans-serif;user-select:none;-webkit-user-select:none;-webkit-touch-callout:none}
+.settlement-view::backdrop{background:#000b}
+.settlement-view:not([open]){display:none}
+.settlement-view img{pointer-events:none;-webkit-user-drag:none}
+.settlement-view button{margin:0}
+.settlement-stage{position:absolute;left:50%;top:50%;width:1280px;height:720px;transform:translate(-50%,-50%) scale(var(--settlement-scale,1));transform-origin:center}
+/* CoinGameResultPage prefab147 and FanDetailItem prefab20, native 1280x720.
+   Each rank child keeps its own source transform rather than a shared offset. */
+.settlement-main-bg{position:absolute;left:-139px;top:156.009px;width:1558px;height:414px;pointer-events:none}
+.settlement-opponents{position:absolute;left:0;top:41.485px;width:1280px;height:76px}
+.settlement-player{position:absolute;width:313px;height:76px;background-size:100% 100%;background-repeat:no-repeat}
+.settlement-player:nth-child(1){left:172.462px}.settlement-player:nth-child(2){left:538.663px}.settlement-player:nth-child(3){left:901.416px}
+.settlement-player-head{position:absolute;left:8.768px;top:8px;width:60px;height:60px;overflow:hidden;display:grid;place-items:center;background:#674977;font:34px serif;border:0;color:#fff2b0;box-sizing:border-box}
+.settlement-avatar{width:100%;height:100%;object-fit:cover;display:block}
+.settlement-player-name{position:absolute;left:84.084px;top:5.456px;width:120px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;font-size:22px;font-weight:400;color:#f02c18;line-height:32px}
+.settlement-player-position{position:absolute;left:241.5px;top:8.88px;width:48px;text-align:center;font-size:24px;color:#fff;line-height:30.24px}
+.settlement-player-score{position:absolute;left:111.452px;top:39.739px;font:bold 28px Arial,sans-serif;color:#e1451b;line-height:28px;white-space:nowrap}
+.settlement-player.losing .settlement-player-name,.settlement-player.losing .settlement-player-score{color:#3832bd}
+.settlement-winner-tag{position:absolute;left:-1.377px;top:54.143px;width:81.9px;height:26.6px;object-fit:contain}
+.settlement-rank{position:absolute;inset:0;pointer-events:none}
+.settlement-rank-image{position:absolute;left:2.436px;top:204.645px;width:341px;height:273px;object-fit:contain}
+.settlement-rank-tag{position:absolute;left:-.75px;top:406.75px;width:143.5px;height:66.5px}
+.settlement-rank-tag>img{width:100%;height:100%;object-fit:contain}
+.settlement-rank-name{position:absolute;left:29px;right:0;top:22px;white-space:nowrap;font-size:15.4px;text-align:center;color:#fff4c8;text-shadow:0 2px 3px #54201d}
+.settlement-rank-level{position:absolute;left:28px;top:23px;width:26px;color:#ffe6bc;text-shadow:1px 1px #522512;text-align:center;font:15.4px Arial,sans-serif;line-height:18px}
+.settlement-progress{position:absolute;left:51.031px;top:468.189px;width:240px;height:25px;background-repeat:no-repeat;background-size:100% 100%;color:#fff;font:24px Arial,sans-serif}
+.settlement-progress-fill{position:absolute;left:0;top:0;bottom:0;box-sizing:border-box;border-width:10px 21px 13px 26px;border-style:solid;border-color:transparent;border-image-slice:10 21 13 26 fill;border-image-repeat:stretch;min-width:0;overflow:hidden}
+.settlement-progress-fill[style*="width: 0%"]{display:none}
+.settlement-progress-value{position:absolute;left:0;top:-4.75px;width:240px;height:31.5px;text-align:center;font-size:24px;line-height:31.5px;color:white;font-weight:400}
+.settlement-rank-gift{position:absolute;left:276.227px;top:443.819px;width:63px;height:65px;object-fit:contain}
+.settlement-my-head{position:absolute;left:470.193px;top:203.273px;width:80px;height:80px;overflow:hidden;border:0;box-sizing:border-box;display:grid;place-items:center;background:#805065;color:#ffe5a3;font:40px serif}
+.settlement-my-name{position:absolute;left:615.844px;top:248.893px;max-width:190px;transform:translateX(-50%);color:#ad4720;text-align:center;font-size:24px;font-weight:400;line-height:30.24px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+.settlement-summary{position:absolute;left:723.142px;top:195.57px;height:63px;display:flex;align-items:center;justify-content:flex-start}
+.settlement-my-score{font:italic 700 63px Arial,sans-serif;color:#f67a09;line-height:63px;white-space:nowrap}
+.settlement-score-bitmap{display:block;image-rendering:auto}
+.settlement-hand{position:absolute;left:459.112px;top:301px;width:710px;height:66.375px;display:flex;gap:9px;align-items:center;justify-content:flex-start;transform:scale(var(--hand-scale,1));transform-origin:left top}
+.settlement-tile-group{display:flex;align-items:center;flex-shrink:0}
+.settlement-tile{position:relative;display:inline-block;flex-shrink:0;width:45px;height:66.375px}
+.settlement-tile-body{position:absolute;inset:0;width:100%;height:100%}
+.settlement-tile-face{position:absolute;left:5.625px;top:6.75px;width:33.1875px;height:51.525px;object-fit:contain}
+.settlement-fans{position:absolute;left:399.612px;top:392.491px;width:800px;height:68px;padding:0 50px;overflow-x:hidden;overflow-y:auto;scrollbar-width:none;-ms-overflow-style:none;box-sizing:border-box;overscroll-behavior:contain;touch-action:none;cursor:grab}
+.settlement-fans:active{cursor:grabbing}.settlement-fans::-webkit-scrollbar{display:none;width:0;height:0}
+.settlement-fan-row{position:relative;width:700px;height:30px;margin:0 0 2px;font:23px Arial,sans-serif;line-height:30px;color:#ef421e;flex-shrink:0}
+.settlement-fan-label{position:absolute;left:0;top:0;width:450px;height:30px;display:flex;align-items:baseline;gap:1px;overflow:hidden;white-space:nowrap}
+.settlement-fan-prefix{font-size:25px;flex-shrink:0}.settlement-fan-name{font-size:23px;overflow:hidden;text-overflow:ellipsis}
+.settlement-fan-value{position:absolute;right:148.167px;top:0;white-space:nowrap;font-size:23px;line-height:30px;text-align:right}
+.settlement-fan-row.loss{color:#303030}
+.settlement-no-fan{margin:0;font-size:23px;line-height:30px;color:#303030}
+.settlement-more{position:absolute;left:1087.612px;top:394.783px;width:44px;height:44px;padding:0;border:0;background:none;cursor:pointer;touch-action:manipulation}
+.settlement-more img{width:100%;height:100%;object-fit:contain;transform:scaleY(-1)}
+.settlement-more[hidden]{display:none}
+.settlement-expanded .settlement-hand{visibility:hidden}.settlement-expanded .settlement-fans{top:292.491px;height:168px}.settlement-expanded .settlement-more{top:294.783px}.settlement-expanded .settlement-more img{transform:none}
+.settlement-actions{position:absolute;left:0;right:0;top:608.479px;display:flex;align-items:center;justify-content:center}
+.settlement-actions button{position:relative;width:280px;height:97px;box-sizing:border-box;background:transparent;border-style:solid;border-color:transparent;border-width:29px 94px 45px 117px;border-image-slice:29 94 45 117 fill;border-image-repeat:stretch;padding:0;color:#16825a;font:42px Arial,sans-serif;cursor:pointer;touch-action:manipulation}
+.settlement-actions button span{position:absolute;left:23px;top:9.5px;width:240px;height:52.92px;line-height:52.92px;white-space:nowrap;text-align:center;transform:translate(-50%,-50%);font-size:42px}
+.settlement-actions button:hover{filter:brightness(1.08)}
+.settlement-back{position:absolute;left:0;top:37px;border:0;padding:0;width:91px;height:92px;background:none;cursor:pointer;touch-action:manipulation}
+.settlement-back img{width:100%;height:100%;object-fit:contain;display:block}
+.settlement-peek{position:absolute;left:1155.16px;top:614.598px;width:119.2px;height:62.4px;border:0;padding:0;background:none;cursor:pointer;touch-action:none}
+.settlement-peek img{width:100%;height:100%;object-fit:contain;display:block}
+.settlement-view.peeking::backdrop{background:transparent}.settlement-view.peeking .settlement-stage>*:not(.settlement-peek){visibility:hidden}
+.settlement-loss .settlement-my-name{color:#ad4720}.settlement-loss .settlement-my-score{color:#3832bd}
+.settlement-back:focus-visible,.settlement-actions button:focus-visible,.settlement-more:focus-visible,.settlement-peek:focus-visible{outline:3px solid #fffbd9;outline-offset:3px}
+.settlement-fans:focus-visible{outline:none}

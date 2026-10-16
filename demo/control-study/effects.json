@@ -1,0 +1,2334 @@
+[
+  {
+    "name": "peng",
+    "btnType": 2,
+    "prefab": 2220,
+    "animation": 1939,
+    "duration": 2,
+    "wrapMode": 2,
+    "tracks": {
+      "paths": {
+        "huan_02": {
+          "props": {
+            "scaleX": [
+              {
+                "frame": 0,
+                "value": 1.3,
+                "curve": "sineOut"
+              },
+              {
+                "frame": 1,
+                "value": 2
+              },
+              {
+                "frame": 1.0166666666666666,
+                "value": 1.3,
+                "curve": "sineOut"
+              },
+              {
+                "frame": 2,
+                "value": 2,
+                "curve": "sineOut"
+              }
+            ],
+            "scaleY": [
+              {
+                "frame": 0,
+                "value": 1.3,
+                "curve": "sineOut"
+              },
+              {
+                "frame": 1,
+                "value": 2
+              },
+              {
+                "frame": 1.0166666666666666,
+                "value": 1.3,
+                "curve": "sineOut"
+              },
+              {
+                "frame": 2,
+                "value": 2,
+                "curve": "sineOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 0.16666666666666666,
+                "value": 184
+              },
+              {
+                "frame": 0.5833333333333334,
+                "value": 255
+              },
+              {
+                "frame": 1,
+                "value": 0
+              },
+              {
+                "frame": 1.0166666666666666,
+                "value": 0
+              },
+              {
+                "frame": 1.1666666666666667,
+                "value": 184
+              },
+              {
+                "frame": 1.5833333333333333,
+                "value": 255
+              },
+              {
+                "frame": 2,
+                "value": 0
+              }
+            ]
+          }
+        },
+        "tishi_peng_glow_1": {
+          "props": {
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 0.03333333333333333,
+                "value": 23.759460000728723
+              },
+              {
+                "frame": 0.4166666666666667,
+                "value": 138
+              },
+              {
+                "frame": 0.75,
+                "value": 108
+              },
+              {
+                "frame": 1,
+                "value": 0
+              },
+              {
+                "frame": 1.0166666666666666,
+                "value": 0
+              },
+              {
+                "frame": 1.4166666666666667,
+                "value": 138
+              },
+              {
+                "frame": 1.75,
+                "value": 108
+              },
+              {
+                "frame": 1.8833333333333333,
+                "value": 86.24812000605743
+              },
+              {
+                "frame": 2,
+                "value": 0
+              }
+            ]
+          }
+        },
+        "huan": {
+          "props": {
+            "scaleX": [
+              {
+                "frame": 2,
+                "value": 1.3
+              }
+            ],
+            "scaleY": [
+              {
+                "frame": 2,
+                "value": 1.3
+              }
+            ],
+            "angle": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 2,
+                "value": -1080
+              }
+            ],
+            "color": [
+              {
+                "frame": 2,
+                "value": 4287752191
+              }
+            ]
+          }
+        }
+      }
+    },
+    "layers": [
+      {
+        "index": 2,
+        "parent": 1,
+        "name": "peng",
+        "active": true,
+        "opacity": 255,
+        "size": [
+          134,
+          138
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "trs": [
+          5.5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "angle": 0,
+        "image": "control-study/assets/game-141-peng.png",
+        "sprite": "peng",
+        "path": "peng"
+      },
+      {
+        "index": 3,
+        "parent": 1,
+        "name": "huan",
+        "active": true,
+        "opacity": 255,
+        "size": [
+          128,
+          128
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "trs": [
+          9.5,
+          11.5,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1.3,
+          1.3,
+          1
+        ],
+        "angle": 0,
+        "color": 4287752191,
+        "image": "control-study/assets/resources-2821-tishi_quan.png",
+        "sprite": "tishi_quan",
+        "blend": 1,
+        "path": "huan"
+      },
+      {
+        "index": 4,
+        "parent": 1,
+        "name": "huan_02",
+        "active": true,
+        "opacity": 255,
+        "size": [
+          128,
+          128
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "trs": [
+          9.5,
+          11,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1.3,
+          1.3,
+          1
+        ],
+        "angle": 0,
+        "color": 4284345343,
+        "image": "control-study/assets/resources-2917-tishi_quan02.png",
+        "sprite": "tishi_quan02",
+        "blend": 1,
+        "path": "huan_02"
+      },
+      {
+        "index": 5,
+        "parent": 1,
+        "name": "tishi_peng_glow_1",
+        "active": false,
+        "opacity": 255,
+        "size": [
+          140,
+          140
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "trs": [
+          9.5,
+          11.5,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1.25,
+          1.25,
+          1
+        ],
+        "angle": 0,
+        "image": "control-study/assets/resources-1477-tishi_peng_glow.png",
+        "sprite": "tishi_peng_glow",
+        "blend": 1,
+        "path": "tishi_peng_glow_1"
+      }
+    ]
+  },
+  {
+    "name": "gang",
+    "btnType": 3,
+    "prefab": 2605,
+    "animation": 2265,
+    "duration": 2,
+    "wrapMode": 2,
+    "tracks": {
+      "paths": {
+        "huan_02": {
+          "props": {
+            "scaleX": [
+              {
+                "frame": 0,
+                "value": 1.3,
+                "curve": "sineOut"
+              },
+              {
+                "frame": 1,
+                "value": 2
+              },
+              {
+                "frame": 1.0166666666666666,
+                "value": 1.3,
+                "curve": "sineOut"
+              },
+              {
+                "frame": 2,
+                "value": 2,
+                "curve": "sineOut"
+              }
+            ],
+            "scaleY": [
+              {
+                "frame": 0,
+                "value": 1.3,
+                "curve": "sineOut"
+              },
+              {
+                "frame": 1,
+                "value": 2
+              },
+              {
+                "frame": 1.0166666666666666,
+                "value": 1.3,
+                "curve": "sineOut"
+              },
+              {
+                "frame": 2,
+                "value": 2,
+                "curve": "sineOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 0.16666666666666666,
+                "value": 184
+              },
+              {
+                "frame": 0.5833333333333334,
+                "value": 255
+              },
+              {
+                "frame": 1,
+                "value": 0
+              },
+              {
+                "frame": 1.0166666666666666,
+                "value": 0
+              },
+              {
+                "frame": 1.1666666666666667,
+                "value": 184
+              },
+              {
+                "frame": 1.5833333333333333,
+                "value": 255
+              },
+              {
+                "frame": 2,
+                "value": 0
+              }
+            ]
+          }
+        },
+        "tishi_peng_glow_1": {
+          "props": {
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 0.4166666666666667,
+                "value": 138
+              },
+              {
+                "frame": 0.75,
+                "value": 104
+              },
+              {
+                "frame": 1,
+                "value": 0
+              },
+              {
+                "frame": 1.0166666666666666,
+                "value": 0
+              },
+              {
+                "frame": 1.4166666666666667,
+                "value": 138
+              },
+              {
+                "frame": 1.75,
+                "value": 104
+              },
+              {
+                "frame": 2,
+                "value": 0
+              }
+            ]
+          }
+        },
+        "huan": {
+          "props": {
+            "scaleX": [
+              {
+                "frame": 2,
+                "value": 1.3
+              }
+            ],
+            "scaleY": [
+              {
+                "frame": 2,
+                "value": 1.3
+              }
+            ],
+            "angle": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 2,
+                "value": -1080
+              }
+            ],
+            "color": [
+              {
+                "frame": 2,
+                "value": 4287752191
+              }
+            ]
+          }
+        }
+      }
+    },
+    "layers": [
+      {
+        "index": 2,
+        "parent": 1,
+        "name": "gang",
+        "active": true,
+        "opacity": 255,
+        "size": [
+          134,
+          138
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "trs": [
+          -10.038,
+          -3.585,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "angle": 0,
+        "image": "control-study/assets/game-1345-gang.png",
+        "sprite": "gang",
+        "path": "gang"
+      },
+      {
+        "index": 3,
+        "parent": 1,
+        "name": "huan",
+        "active": true,
+        "opacity": 255,
+        "size": [
+          128,
+          128
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "trs": [
+          -6.1255,
+          8.4756,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1.3,
+          1.3,
+          1
+        ],
+        "angle": 0,
+        "color": 4287752191,
+        "image": "control-study/assets/resources-2821-tishi_quan.png",
+        "sprite": "tishi_quan",
+        "blend": 1,
+        "path": "huan"
+      },
+      {
+        "index": 4,
+        "parent": 1,
+        "name": "huan_02",
+        "active": true,
+        "opacity": 0,
+        "size": [
+          128,
+          128
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "trs": [
+          -6.3465,
+          6.0092,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1.3,
+          1.3,
+          1
+        ],
+        "angle": 0,
+        "color": 4284345343,
+        "image": "control-study/assets/resources-2917-tishi_quan02.png",
+        "sprite": "tishi_quan02",
+        "blend": 1,
+        "path": "huan_02"
+      }
+    ]
+  },
+  {
+    "name": "hu",
+    "btnType": 4,
+    "prefab": 1127,
+    "animation": 2510,
+    "duration": 2,
+    "wrapMode": 2,
+    "tracks": {
+      "paths": {
+        "huan_02": {
+          "props": {
+            "scaleX": [
+              {
+                "frame": 0,
+                "value": 1.3,
+                "curve": "sineOut"
+              },
+              {
+                "frame": 1,
+                "value": 2
+              },
+              {
+                "frame": 1.0166666666666666,
+                "value": 1.3,
+                "curve": "sineOut"
+              },
+              {
+                "frame": 2,
+                "value": 2,
+                "curve": "sineOut"
+              }
+            ],
+            "scaleY": [
+              {
+                "frame": 0,
+                "value": 1.3,
+                "curve": "sineOut"
+              },
+              {
+                "frame": 1,
+                "value": 2
+              },
+              {
+                "frame": 1.0166666666666666,
+                "value": 1.3,
+                "curve": "sineOut"
+              },
+              {
+                "frame": 2,
+                "value": 2,
+                "curve": "sineOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 0.16666666666666666,
+                "value": 255
+              },
+              {
+                "frame": 0.5833333333333334,
+                "value": 255
+              },
+              {
+                "frame": 1,
+                "value": 0
+              },
+              {
+                "frame": 1.0166666666666666,
+                "value": 0
+              },
+              {
+                "frame": 1.1666666666666667,
+                "value": 255
+              },
+              {
+                "frame": 1.5833333333333333,
+                "value": 255
+              },
+              {
+                "frame": 2,
+                "value": 0
+              }
+            ]
+          }
+        },
+        "tishi_peng_glow_1": {
+          "props": {
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 0.4166666666666667,
+                "value": 200
+              },
+              {
+                "frame": 0.75,
+                "value": 138
+              },
+              {
+                "frame": 1,
+                "value": 0
+              },
+              {
+                "frame": 1.0166666666666666,
+                "value": 0
+              },
+              {
+                "frame": 1.4166666666666667,
+                "value": 200
+              },
+              {
+                "frame": 1.75,
+                "value": 138
+              },
+              {
+                "frame": 2,
+                "value": 0
+              }
+            ]
+          }
+        },
+        "huan_02_0": {
+          "props": {
+            "scaleX": [
+              {
+                "frame": 0,
+                "value": 1.3,
+                "curve": "sineOut"
+              },
+              {
+                "frame": 1,
+                "value": 2
+              },
+              {
+                "frame": 1.0166666666666666,
+                "value": 1.3,
+                "curve": "sineOut"
+              },
+              {
+                "frame": 2,
+                "value": 2
+              }
+            ],
+            "scaleY": [
+              {
+                "frame": 0,
+                "value": 1.3,
+                "curve": "sineOut"
+              },
+              {
+                "frame": 1,
+                "value": 2
+              },
+              {
+                "frame": 1.0166666666666666,
+                "value": 1.3,
+                "curve": "sineOut"
+              },
+              {
+                "frame": 2,
+                "value": 2
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 0.25,
+                "value": 255
+              },
+              {
+                "frame": 0.5833333333333334,
+                "value": 177
+              },
+              {
+                "frame": 0.9166666666666666,
+                "value": 0
+              },
+              {
+                "frame": 1.0166666666666666,
+                "value": 0
+              },
+              {
+                "frame": 1.25,
+                "value": 255
+              },
+              {
+                "frame": 1.5833333333333333,
+                "value": 177
+              },
+              {
+                "frame": 1.9166666666666667,
+                "value": 0
+              }
+            ]
+          }
+        },
+        "huan": {
+          "props": {
+            "scaleX": [
+              {
+                "frame": 2,
+                "value": 1.3
+              }
+            ],
+            "scaleY": [
+              {
+                "frame": 2,
+                "value": 1.3
+              }
+            ],
+            "angle": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 2,
+                "value": -1080
+              }
+            ],
+            "color": [
+              {
+                "frame": 2,
+                "value": 4290036223
+              }
+            ]
+          }
+        }
+      }
+    },
+    "layers": [
+      {
+        "index": 2,
+        "parent": 1,
+        "name": "hu",
+        "active": true,
+        "opacity": 255,
+        "size": [
+          169,
+          141
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "trs": [
+          -5.464,
+          -3.035,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "angle": 0,
+        "image": "control-study/assets/game-422-hu.png",
+        "sprite": "hu",
+        "path": "hu"
+      },
+      {
+        "index": 3,
+        "parent": 1,
+        "name": "huan",
+        "active": true,
+        "opacity": 255,
+        "size": [
+          128,
+          128
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "trs": [
+          -3.1257,
+          7.4755,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1.3,
+          1.3,
+          1
+        ],
+        "angle": 0,
+        "color": 4290036223,
+        "image": "control-study/assets/resources-2821-tishi_quan.png",
+        "sprite": "tishi_quan",
+        "blend": 1,
+        "path": "huan"
+      },
+      {
+        "index": 4,
+        "parent": 1,
+        "name": "huan_02",
+        "active": true,
+        "opacity": 0,
+        "size": [
+          128,
+          128
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "trs": [
+          -2,
+          7.009,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1.3,
+          1.3,
+          1
+        ],
+        "angle": 0,
+        "color": 4278190847,
+        "image": "control-study/assets/resources-2917-tishi_quan02.png",
+        "sprite": "tishi_quan02",
+        "blend": 1,
+        "path": "huan_02"
+      },
+      {
+        "index": 6,
+        "parent": 1,
+        "name": "huan_02_0",
+        "active": true,
+        "opacity": 0,
+        "size": [
+          128,
+          128
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "trs": [
+          -2,
+          7.01,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1.3,
+          1.3,
+          1
+        ],
+        "angle": 0,
+        "color": 4281685503,
+        "image": "control-study/assets/resources-2917-tishi_quan02.png",
+        "sprite": "tishi_quan02",
+        "blend": 1,
+        "path": "huan_02_0"
+      }
+    ]
+  },
+  {
+    "name": "ting",
+    "btnType": 5,
+    "prefab": 1060,
+    "animation": 607,
+    "duration": 2,
+    "wrapMode": 2,
+    "tracks": {
+      "paths": {
+        "huan_02": {
+          "props": {
+            "scaleX": [
+              {
+                "frame": 0,
+                "value": 1.3,
+                "curve": "sineOut"
+              },
+              {
+                "frame": 1,
+                "value": 2
+              },
+              {
+                "frame": 1.0166666666666666,
+                "value": 1.3,
+                "curve": "sineOut"
+              },
+              {
+                "frame": 1.3666666666666667,
+                "value": 1.3
+              },
+              {
+                "frame": 2,
+                "value": 2,
+                "curve": "sineOut"
+              }
+            ],
+            "scaleY": [
+              {
+                "frame": 0,
+                "value": 1.3,
+                "curve": "sineOut"
+              },
+              {
+                "frame": 1,
+                "value": 2
+              },
+              {
+                "frame": 1.0166666666666666,
+                "value": 1.3,
+                "curve": "sineOut"
+              },
+              {
+                "frame": 1.3666666666666667,
+                "value": 1.3
+              },
+              {
+                "frame": 2,
+                "value": 2,
+                "curve": "sineOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 0.16666666666666666,
+                "value": 184
+              },
+              {
+                "frame": 0.5833333333333334,
+                "value": 255
+              },
+              {
+                "frame": 1,
+                "value": 0
+              },
+              {
+                "frame": 1.0166666666666666,
+                "value": 0
+              },
+              {
+                "frame": 1.1666666666666667,
+                "value": 184
+              },
+              {
+                "frame": 1.3666666666666667,
+                "value": 0
+              },
+              {
+                "frame": 1.5833333333333333,
+                "value": 255
+              },
+              {
+                "frame": 2,
+                "value": 0
+              }
+            ]
+          }
+        },
+        "tishi_peng_glow_1": {
+          "props": {
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 0.4166666666666667,
+                "value": 124
+              },
+              {
+                "frame": 0.75,
+                "value": 104
+              },
+              {
+                "frame": 1,
+                "value": 0
+              },
+              {
+                "frame": 1.0166666666666666,
+                "value": 0
+              },
+              {
+                "frame": 1.4166666666666667,
+                "value": 104
+              },
+              {
+                "frame": 1.6,
+                "value": 124
+              },
+              {
+                "frame": 1.75,
+                "value": 104
+              },
+              {
+                "frame": 2,
+                "value": 0
+              }
+            ]
+          }
+        },
+        "huan": {
+          "props": {
+            "scaleX": [
+              {
+                "frame": 2,
+                "value": 1.3
+              }
+            ],
+            "scaleY": [
+              {
+                "frame": 2,
+                "value": 1.3
+              }
+            ],
+            "angle": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 2,
+                "value": -1080
+              }
+            ],
+            "color": [
+              {
+                "frame": 2,
+                "value": 4287752191
+              }
+            ]
+          }
+        }
+      }
+    },
+    "layers": [
+      {
+        "index": 2,
+        "parent": 1,
+        "name": "peng",
+        "active": true,
+        "opacity": 255,
+        "size": [
+          134,
+          138
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "trs": [
+          -13.356,
+          -0.607,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "angle": 0,
+        "image": "control-study/assets/game-257-ting.png",
+        "sprite": "ting",
+        "path": "peng"
+      },
+      {
+        "index": 3,
+        "parent": 1,
+        "name": "huan",
+        "active": true,
+        "opacity": 255,
+        "size": [
+          128,
+          128
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "trs": [
+          -9.3166,
+          11.6814,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1.3,
+          1.3,
+          1
+        ],
+        "angle": 0,
+        "color": 4287752191,
+        "image": "control-study/assets/resources-2821-tishi_quan.png",
+        "sprite": "tishi_quan",
+        "blend": 1,
+        "path": "huan"
+      },
+      {
+        "index": 4,
+        "parent": 1,
+        "name": "huan_02",
+        "active": true,
+        "opacity": 0,
+        "size": [
+          128,
+          128
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "trs": [
+          -10.1407,
+          8.8103,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1.3,
+          1.3,
+          1
+        ],
+        "angle": 0,
+        "color": 4284345343,
+        "image": "control-study/assets/resources-2917-tishi_quan02.png",
+        "sprite": "tishi_quan02",
+        "blend": 1,
+        "path": "huan_02"
+      }
+    ]
+  },
+  {
+    "name": "zimo",
+    "btnType": 7,
+    "prefab": 662,
+    "animation": 1508,
+    "duration": 2,
+    "wrapMode": 2,
+    "tracks": {
+      "paths": {
+        "huan": {
+          "props": {
+            "scaleX": [
+              {
+                "frame": 2,
+                "value": 1.3
+              }
+            ],
+            "scaleY": [
+              {
+                "frame": 2,
+                "value": 1.3
+              }
+            ],
+            "angle": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 2,
+                "value": -1080
+              }
+            ],
+            "color": [
+              {
+                "frame": 2,
+                "value": 4287730175
+              }
+            ]
+          }
+        },
+        "huan_02": {
+          "props": {
+            "scaleX": [
+              {
+                "frame": 0,
+                "value": 1.3,
+                "curve": "sineOut"
+              },
+              {
+                "frame": 1,
+                "value": 2
+              },
+              {
+                "frame": 1.0166666666666666,
+                "value": 1.3,
+                "curve": "sineOut"
+              },
+              {
+                "frame": 2,
+                "value": 2,
+                "curve": "sineOut"
+              }
+            ],
+            "scaleY": [
+              {
+                "frame": 0,
+                "value": 1.3,
+                "curve": "sineOut"
+              },
+              {
+                "frame": 1,
+                "value": 2
+              },
+              {
+                "frame": 1.0166666666666666,
+                "value": 1.3,
+                "curve": "sineOut"
+              },
+              {
+                "frame": 2,
+                "value": 2,
+                "curve": "sineOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 0.16666666666666666,
+                "value": 184
+              },
+              {
+                "frame": 0.5166666666666667,
+                "value": 243
+              },
+              {
+                "frame": 0.5833333333333334,
+                "value": 255
+              },
+              {
+                "frame": 1,
+                "value": 0
+              },
+              {
+                "frame": 1.0166666666666666,
+                "value": 0
+              },
+              {
+                "frame": 1.1666666666666667,
+                "value": 184
+              },
+              {
+                "frame": 1.5833333333333333,
+                "value": 255
+              },
+              {
+                "frame": 2,
+                "value": 0
+              }
+            ],
+            "color": [
+              {
+                "frame": 0,
+                "value": 4278190335
+              }
+            ]
+          }
+        },
+        "tishi_peng_glow_1": {
+          "props": {
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 0.4166666666666667,
+                "value": 184
+              },
+              {
+                "frame": 0.75,
+                "value": 178
+              },
+              {
+                "frame": 1,
+                "value": 0
+              },
+              {
+                "frame": 1.0166666666666666,
+                "value": 0
+              },
+              {
+                "frame": 1.4166666666666667,
+                "value": 184
+              },
+              {
+                "frame": 1.75,
+                "value": 178
+              },
+              {
+                "frame": 2,
+                "value": 0
+              }
+            ],
+            "scale": [
+              {
+                "frame": 0,
+                "value": [
+                  0,
+                  1,
+                  0.97
+                ]
+              }
+            ]
+          }
+        },
+        "huan_03": {
+          "props": {
+            "scaleX": [
+              {
+                "frame": 0,
+                "value": 1.3,
+                "curve": "sineOut"
+              },
+              {
+                "frame": 1,
+                "value": 2
+              },
+              {
+                "frame": 1.0166666666666666,
+                "value": 1.3,
+                "curve": "sineOut"
+              },
+              {
+                "frame": 1.1833333333333333,
+                "value": 1.5923700993311232
+              },
+              {
+                "frame": 2,
+                "value": 2,
+                "curve": "sineOut"
+              }
+            ],
+            "scaleY": [
+              {
+                "frame": 0,
+                "value": 1.3,
+                "curve": "sineOut"
+              },
+              {
+                "frame": 1,
+                "value": 2
+              },
+              {
+                "frame": 1.0166666666666666,
+                "value": 1.3,
+                "curve": "sineOut"
+              },
+              {
+                "frame": 1.1833333333333333,
+                "value": 1.5923700993311232
+              },
+              {
+                "frame": 2,
+                "value": 2,
+                "curve": "sineOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 0.25,
+                "value": 255
+              },
+              {
+                "frame": 0.5833333333333334,
+                "value": 177
+              },
+              {
+                "frame": 0.9166666666666666,
+                "value": 0
+              },
+              {
+                "frame": 1.0166666666666666,
+                "value": 0
+              },
+              {
+                "frame": 1.1833333333333333,
+                "value": 253.86160714285717
+              },
+              {
+                "frame": 1.25,
+                "value": 255
+              },
+              {
+                "frame": 1.5833333333333333,
+                "value": 177
+              },
+              {
+                "frame": 1.9166666666666667,
+                "value": 0
+              }
+            ],
+            "color": [
+              {
+                "frame": 0,
+                "value": 4281685503
+              },
+              {
+                "frame": 1.1833333333333333,
+                "value": 4281685503
+              }
+            ]
+          }
+        }
+      }
+    },
+    "layers": [
+      {
+        "index": 2,
+        "parent": 1,
+        "name": "peng",
+        "active": true,
+        "opacity": 255,
+        "size": [
+          169,
+          141
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "angle": 0,
+        "image": "control-study/assets/game-876-zimo.png",
+        "sprite": "zimo",
+        "path": "peng"
+      },
+      {
+        "index": 3,
+        "parent": 1,
+        "name": "huan",
+        "active": true,
+        "opacity": 255,
+        "size": [
+          128,
+          128
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "trs": [
+          3,
+          10.375,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1.3,
+          1.3,
+          1
+        ],
+        "angle": 0,
+        "color": 4287730175,
+        "image": "control-study/assets/resources-2821-tishi_quan.png",
+        "sprite": "tishi_quan",
+        "blend": 1,
+        "path": "huan"
+      },
+      {
+        "index": 4,
+        "parent": 1,
+        "name": "huan_02",
+        "active": true,
+        "opacity": 0,
+        "size": [
+          128,
+          128
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "trs": [
+          0.614,
+          8.81,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1.3,
+          1.3,
+          1
+        ],
+        "angle": 0,
+        "color": 4284345343,
+        "image": "control-study/assets/resources-2917-tishi_quan02.png",
+        "sprite": "tishi_quan02",
+        "blend": 1,
+        "path": "huan_02"
+      },
+      {
+        "index": 6,
+        "parent": 1,
+        "name": "huan_03",
+        "active": true,
+        "opacity": 0,
+        "size": [
+          128,
+          128
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "trs": [
+          4.199,
+          8.81,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1.3,
+          1.3,
+          1
+        ],
+        "angle": 0,
+        "color": 4284345343,
+        "image": "control-study/assets/resources-2917-tishi_quan02.png",
+        "sprite": "tishi_quan02",
+        "blend": 1,
+        "path": "huan_03"
+      }
+    ]
+  },
+  {
+    "name": "marker",
+    "btnType": null,
+    "prefab": 1224,
+    "animation": 1268,
+    "duration": 1.25,
+    "wrapMode": "2",
+    "tracks": {
+      "paths": {
+        "zhizhen_1/Particle_1": {
+          "props": {
+            "position": [
+              {
+                "frame": 0,
+                "value": [
+                  -2.6465999999999994,
+                  8.3016
+                ]
+              }
+            ]
+          }
+        },
+        "zhizhen_1/a_point201a_4": {
+          "props": {
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 255
+              },
+              {
+                "frame": 0.6333333333333333,
+                "value": 168
+              },
+              {
+                "frame": 1.25,
+                "value": 255
+              }
+            ]
+          }
+        },
+        "zhizhen_1": {
+          "props": {
+            "position": [
+              {
+                "frame": 0,
+                "value": [
+                  0,
+                  -6
+                ]
+              },
+              {
+                "frame": 0.45,
+                "value": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "frame": 0.6666666666666666,
+                "value": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "frame": 1.0833333333333333,
+                "value": [
+                  0,
+                  -5
+                ]
+              },
+              {
+                "frame": 1.25,
+                "value": [
+                  0,
+                  -6
+                ]
+              }
+            ]
+          }
+        },
+        "zhizhen_1/ring_0421_3": {
+          "props": {
+            "position": [
+              {
+                "frame": 0,
+                "value": [
+                  -1.4323000000000015,
+                  4.432200000000002
+                ]
+              }
+            ],
+            "scaleX": [
+              {
+                "frame": 0,
+                "value": 0.2
+              },
+              {
+                "frame": 0.45,
+                "value": 0.55
+              },
+              {
+                "frame": 1.0833333333333333,
+                "value": 0.8
+              }
+            ],
+            "scaleY": [
+              {
+                "frame": 0,
+                "value": 0.2
+              },
+              {
+                "frame": 0.45,
+                "value": 0.55
+              },
+              {
+                "frame": 1.0833333333333333,
+                "value": 0.8
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0.45,
+                "value": 255
+              },
+              {
+                "frame": 1.0833333333333333,
+                "value": 0
+              }
+            ],
+            "color": [
+              {
+                "frame": 0,
+                "value": 4284985599
+              }
+            ]
+          }
+        },
+        "zhizhen_1/ring_0421_3_0": {
+          "props": {
+            "position": [
+              {
+                "frame": 0,
+                "value": [
+                  -1.4323000000000015,
+                  4.432200000000002
+                ]
+              }
+            ],
+            "scaleX": [
+              {
+                "frame": 0,
+                "value": 0.2
+              },
+              {
+                "frame": 0.45,
+                "value": 0.55
+              },
+              {
+                "frame": 1.0833333333333333,
+                "value": 0.8
+              }
+            ],
+            "scaleY": [
+              {
+                "frame": 0,
+                "value": 0.2
+              },
+              {
+                "frame": 0.45,
+                "value": 0.55
+              },
+              {
+                "frame": 1.0833333333333333,
+                "value": 0.8
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0.45,
+                "value": 255
+              },
+              {
+                "frame": 1.0833333333333333,
+                "value": 0
+              }
+            ],
+            "color": [
+              {
+                "frame": 0,
+                "value": 4286305279
+              }
+            ]
+          }
+        }
+      }
+    },
+    "layers": [
+      {
+        "index": 2,
+        "parent": 1,
+        "name": "zhizhen_1",
+        "active": true,
+        "opacity": 255,
+        "size": [
+          36,
+          43
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "trs": [
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "angle": 0,
+        "image": "control-study/assets/resources-1897-zhizhen.png",
+        "sprite": "zhizhen",
+        "path": "zhizhen_1"
+      },
+      {
+        "index": 3,
+        "parent": 2,
+        "name": "ring_0421_3",
+        "active": true,
+        "opacity": 167,
+        "size": [
+          128,
+          128
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "trs": [
+          -1.4323000000000015,
+          4.432200000000002,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0.6355,
+          0.6355,
+          1
+        ],
+        "angle": 0,
+        "color": 4284985599,
+        "image": "control-study/assets/resources-2101-ring_0421.png",
+        "sprite": "ring_0421",
+        "path": "zhizhen_1/ring_0421_3"
+      },
+      {
+        "index": 4,
+        "parent": 2,
+        "name": "ring_0421_3_0",
+        "active": true,
+        "opacity": 167,
+        "size": [
+          128,
+          128
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "trs": [
+          -1.4323000000000015,
+          4.432200000000002,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0.6355,
+          0.6355,
+          1
+        ],
+        "angle": 0,
+        "color": 4286305279,
+        "image": "control-study/assets/resources-2101-ring_0421.png",
+        "sprite": "ring_0421",
+        "path": "zhizhen_1/ring_0421_3_0"
+      },
+      {
+        "index": 5,
+        "parent": 2,
+        "name": "a_point201a_4",
+        "active": true,
+        "opacity": 172,
+        "size": [
+          64,
+          64
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "trs": [
+          -2.3842999999999996,
+          4.027999999999999,
+          0,
+          0,
+          0,
+          0,
+          1,
+          2,
+          2,
+          1
+        ],
+        "angle": 0,
+        "color": 4279313132,
+        "image": "control-study/assets/resources-1532-a_point201a.png",
+        "sprite": "a_point201a",
+        "blend": 1,
+        "path": "zhizhen_1/a_point201a_4"
+      }
+    ]
+  },
+  {
+    "name": "markerTile",
+    "btnType": null,
+    "prefab": 2537,
+    "animation": 1268,
+    "duration": 1.25,
+    "wrapMode": "2",
+    "tracks": {
+      "paths": {
+        "zhizhen_1/Particle_1": {
+          "props": {
+            "position": [
+              {
+                "frame": 0,
+                "value": [
+                  -2.6465999999999994,
+                  8.3016
+                ]
+              }
+            ]
+          }
+        },
+        "zhizhen_1/a_point201a_4": {
+          "props": {
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 255
+              },
+              {
+                "frame": 0.6333333333333333,
+                "value": 168
+              },
+              {
+                "frame": 1.25,
+                "value": 255
+              }
+            ]
+          }
+        },
+        "zhizhen_1": {
+          "props": {
+            "position": [
+              {
+                "frame": 0,
+                "value": [
+                  0,
+                  -6
+                ]
+              },
+              {
+                "frame": 0.45,
+                "value": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "frame": 0.6666666666666666,
+                "value": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "frame": 1.0833333333333333,
+                "value": [
+                  0,
+                  -5
+                ]
+              },
+              {
+                "frame": 1.25,
+                "value": [
+                  0,
+                  -6
+                ]
+              }
+            ]
+          }
+        },
+        "zhizhen_1/ring_0421_3": {
+          "props": {
+            "position": [
+              {
+                "frame": 0,
+                "value": [
+                  -1.4323000000000015,
+                  4.432200000000002
+                ]
+              }
+            ],
+            "scaleX": [
+              {
+                "frame": 0,
+                "value": 0.2
+              },
+              {
+                "frame": 0.45,
+                "value": 0.55
+              },
+              {
+                "frame": 1.0833333333333333,
+                "value": 0.8
+              }
+            ],
+            "scaleY": [
+              {
+                "frame": 0,
+                "value": 0.2
+              },
+              {
+                "frame": 0.45,
+                "value": 0.55
+              },
+              {
+                "frame": 1.0833333333333333,
+                "value": 0.8
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0.45,
+                "value": 255
+              },
+              {
+                "frame": 1.0833333333333333,
+                "value": 0
+              }
+            ],
+            "color": [
+              {
+                "frame": 0,
+                "value": 4284985599
+              }
+            ]
+          }
+        },
+        "zhizhen_1/ring_0421_3_0": {
+          "props": {
+            "position": [
+              {
+                "frame": 0,
+                "value": [
+                  -1.4323000000000015,
+                  4.432200000000002
+                ]
+              }
+            ],
+            "scaleX": [
+              {
+                "frame": 0,
+                "value": 0.2
+              },
+              {
+                "frame": 0.45,
+                "value": 0.55
+              },
+              {
+                "frame": 1.0833333333333333,
+                "value": 0.8
+              }
+            ],
+            "scaleY": [
+              {
+                "frame": 0,
+                "value": 0.2
+              },
+              {
+                "frame": 0.45,
+                "value": 0.55
+              },
+              {
+                "frame": 1.0833333333333333,
+                "value": 0.8
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0.45,
+                "value": 255
+              },
+              {
+                "frame": 1.0833333333333333,
+                "value": 0
+              }
+            ],
+            "color": [
+              {
+                "frame": 0,
+                "value": 4286305279
+              }
+            ]
+          }
+        }
+      }
+    },
+    "layers": [
+      {
+        "index": 0,
+        "parent": null,
+        "path": "zhizhen_1",
+        "name": "zhizhen_1",
+        "active": true,
+        "opacity": 255,
+        "size": [
+          36,
+          43
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "trs": [
+          0,
+          -6,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "image": "control-study/assets/resources-1897-zhizhen.png",
+        "sprite": "zhizhen"
+      },
+      {
+        "index": 2,
+        "parent": null,
+        "path": "ring_0421_3",
+        "name": "ring_0421_3",
+        "active": true,
+        "opacity": 167,
+        "size": [
+          128,
+          128
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "trs": [
+          -1.4323,
+          6.4322,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0.6355,
+          0.6355,
+          1
+        ],
+        "color": 4284985599,
+        "image": "control-study/assets/resources-2101-ring_0421.png",
+        "sprite": "ring_0421"
+      },
+      {
+        "index": 3,
+        "parent": null,
+        "path": "ring_0421_3_0",
+        "name": "ring_0421_3_0",
+        "active": true,
+        "opacity": 167,
+        "size": [
+          128,
+          128
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "trs": [
+          -1.4323,
+          6.4322,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0.6355,
+          0.6355,
+          1
+        ],
+        "color": 4286305279,
+        "image": "control-study/assets/resources-2101-ring_0421.png",
+        "sprite": "ring_0421"
+      },
+      {
+        "index": 4,
+        "parent": null,
+        "path": "a_point201a_4",
+        "name": "a_point201a_4",
+        "active": true,
+        "opacity": 172,
+        "size": [
+          64,
+          64
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "trs": [
+          -2.3843,
+          6.028,
+          0,
+          0,
+          0,
+          0,
+          1,
+          2,
+          2,
+          1
+        ],
+        "color": 4279313132,
+        "image": "control-study/assets/resources-1532-a_point201a.png",
+        "sprite": "a_point201a",
+        "blend": 1
+      }
+    ],
+    "bundle": "prefabs",
+    "origin": [
+      2,
+      50
+    ],
+    "particles": [
+      {
+        "name": "Particle_1",
+        "position": [
+          -2.6466,
+          10.3016
+        ],
+        "scale": [
+          1,
+          1
+        ],
+        "image": "control-study/assets/resources-9-zhizhen_lizi.png",
+        "params": {
+          "class": "cc.ParticleSystem",
+          "_dstBlendFactor": 1,
+          "totalParticles": 5,
+          "emissionRate": 5,
+          "lifeVar": 0.5,
+          "angle": 90.099998,
+          "angleVar": 32.049999,
+          "startSize": 40,
+          "startSizeVar": 5,
+          "startSpin": 90,
+          "startSpinVar": 30,
+          "endSpin": 30,
+          "endSpinVar": 1,
+          "_positionType": 1,
+          "speed": 20,
+          "speedVar": 5,
+          "tangentialAccel": 0,
+          "_startColor": [
+            16777215
+          ],
+          "_startColorVar": [
+            0
+          ],
+          "_endColor": [
+            4294967295
+          ],
+          "_endColorVar": [
+            3997696
+          ],
+          "posVar": [
+            12,
+            10
+          ],
+          "gravity": [
+            0,
+            -1
+          ],
+          "_file": "cf146523-577f-4d92-a5c4-4e658393d210"
+        }
+      }
+    ],
+    "unboundTracks": [
+      "zhizhen_1/Particle_1",
+      "zhizhen_1/a_point201a_4",
+      "zhizhen_1/ring_0421_3",
+      "zhizhen_1/ring_0421_3_0"
+    ]
+  }
+]

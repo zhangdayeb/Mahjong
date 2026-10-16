@@ -1,0 +1,2900 @@
+[
+  {
+    "bundle": "common",
+    "id": 812,
+    "path": "NewSkin/Bg/bg_01",
+    "name": "bg_01",
+    "rect": [
+      0,
+      0,
+      1600,
+      720
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1600,
+      720
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "fde074c1-0ed6-4d32-b50e-0b35df7ad242",
+    "textureUUID": "c45ec09c-564e-4663-af20-2cfce3d790d9",
+    "texture": "asset-study/media/images/common/NewSkin/Bg/bg_01.png",
+    "image": "hall-games-study/assets/common-812.png"
+  },
+  {
+    "bundle": "common",
+    "id": 759,
+    "path": "NewSkin/Bg/bg_02",
+    "name": "bg_02",
+    "rect": [
+      0,
+      0,
+      1600,
+      720
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1600,
+      720
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "ec4858ee-5ff5-4e90-9878-91d926459f98",
+    "textureUUID": "1b5d34f2-7d88-4b18-a9f1-f85562e57e09",
+    "texture": "asset-study/media/images/common/NewSkin/Bg/bg_02.png",
+    "image": "hall-games-study/assets/common-759.png"
+  },
+  {
+    "bundle": "main",
+    "id": 1,
+    "name": "img_login_bg",
+    "rect": [
+      0,
+      0,
+      1558,
+      720
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1558,
+      720
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "27278137-466c-471b-bcee-1c0af29fa3f0",
+    "textureUUID": "3146c5b0-83f8-4bd4-a300-e00c6de32a41",
+    "texture": "asset-study/media/images/main/_unnamed/3146c5b0-83f8-4bd4-a300-e00c6de32a41.jpg",
+    "image": "hall-games-study/assets/main-1.png"
+  },
+  {
+    "bundle": "common",
+    "id": 817,
+    "path": "NewSkin/Sudoku/pic_com03",
+    "name": "pic_com03",
+    "rect": [
+      79,
+      131,
+      75,
+      62
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      83,
+      70
+    ],
+    "capInsets": [
+      29,
+      0,
+      29,
+      0
+    ],
+    "uuid": "fefa49e7-643b-427f-abfc-d1e346deafb3",
+    "textureUUID": "157399797",
+    "texture": "asset-study/media/images/common/_unnamed/157399797.png",
+    "image": "hall-games-study/assets/common-817.png"
+  },
+  {
+    "bundle": "common",
+    "id": 520,
+    "path": "NewSkin/Sudoku/fengexian",
+    "name": "fengexian",
+    "rect": [
+      456,
+      26,
+      175,
+      1
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      175,
+      1
+    ],
+    "rotated": 1,
+    "capInsets": [
+      8,
+      0,
+      9,
+      0
+    ],
+    "uuid": "a524976f-184d-4ac6-8bda-e87e3ce70472",
+    "textureUUID": "157399797",
+    "texture": "asset-study/media/images/common/_unnamed/157399797.png",
+    "image": "hall-games-study/assets/common-520.png"
+  },
+  {
+    "bundle": "common",
+    "id": 480,
+    "path": "NewSkin/NewBtn/btn_com01",
+    "name": "btn_com01",
+    "rect": [
+      347,
+      242,
+      91,
+      92
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      91,
+      92
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "9a8bba23-d9bd-4ff6-8524-b5aacc0a840f",
+    "textureUUID": "1e8019203",
+    "texture": "asset-study/media/images/common/_unnamed/1e8019203.png",
+    "image": "hall-games-study/assets/common-480.png"
+  },
+  {
+    "bundle": "common",
+    "id": 170,
+    "path": "NewSkin/NewBtn/btn_com14",
+    "name": "btn_com14",
+    "rect": [
+      92,
+      985,
+      32,
+      33
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      32,
+      33
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "355095f1-b8f2-41db-b28a-e4a2b84dfb0f",
+    "textureUUID": "1e8019203",
+    "texture": "asset-study/media/images/common/_unnamed/1e8019203.png",
+    "image": "hall-games-study/assets/common-170.png"
+  },
+  {
+    "bundle": "common",
+    "id": 333,
+    "path": "NewSkin/other/pic_com07",
+    "name": "pic_com07",
+    "rect": [
+      959,
+      366,
+      121,
+      29
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      121,
+      29
+    ],
+    "rotated": 1,
+    "capInsets": [
+      51,
+      9,
+      23,
+      12
+    ],
+    "uuid": "6caa1662-716b-44a0-bfce-5ea2bcb0818f",
+    "textureUUID": "1d05abae0",
+    "texture": "asset-study/media/images/common/_unnamed/1d05abae0.png",
+    "image": "hall-games-study/assets/common-333.png"
+  },
+  {
+    "bundle": "common",
+    "id": 618,
+    "path": "NewSkin/NewBtn/btn_com03",
+    "name": "btn_com03",
+    "rect": [
+      200,
+      789,
+      26,
+      23
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      26,
+      23
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "c40a44de-ec3a-4a26-8d26-59c12ebbcfe8",
+    "textureUUID": "1e8019203",
+    "texture": "asset-study/media/images/common/_unnamed/1e8019203.png",
+    "image": "hall-games-study/assets/common-618.png"
+  },
+  {
+    "bundle": "common",
+    "id": 359,
+    "path": "NewSkin/NewBtn/btn_com02_1",
+    "name": "btn_com02_1",
+    "rect": [
+      3,
+      551,
+      245,
+      81
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      245,
+      81
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "75017207-1cac-4f66-be13-3b2fd4435be8",
+    "textureUUID": "1e8019203",
+    "texture": "asset-study/media/images/common/_unnamed/1e8019203.png",
+    "image": "hall-games-study/assets/common-359.png"
+  },
+  {
+    "bundle": "Match",
+    "id": 66,
+    "path": "NewSkin/MatchPlayType/1",
+    "name": "1",
+    "rect": [
+      0,
+      0,
+      318,
+      540
+    ],
+    "offset": [
+      0,
+      9.5
+    ],
+    "originalSize": [
+      318,
+      559
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "2c72d959-1b19-4889-b552-eb8982787c8d",
+    "textureUUID": "2e885c2a-fbb7-42c4-a5a3-8809e6a1fb2e",
+    "texture": "asset-study/media/images/Match/NewSkin/MatchPlayType/1.png",
+    "image": "hall-games-study/assets/Match-66.png"
+  },
+  {
+    "bundle": "Match",
+    "id": 41,
+    "path": "NewSkin/MatchPlayType/2",
+    "name": "2",
+    "rect": [
+      0,
+      0,
+      318,
+      540
+    ],
+    "offset": [
+      0,
+      9.5
+    ],
+    "originalSize": [
+      318,
+      559
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "1b455714-4a32-40b3-be97-f72b1a60dc87",
+    "textureUUID": "e01a40a0-926d-49f8-b402-5bc7abb09f2c",
+    "texture": "asset-study/media/images/Match/NewSkin/MatchPlayType/2.png",
+    "image": "hall-games-study/assets/Match-41.png"
+  },
+  {
+    "bundle": "Match",
+    "id": 158,
+    "path": "NewSkin/MatchPlayType/3",
+    "name": "3",
+    "rect": [
+      0,
+      0,
+      318,
+      540
+    ],
+    "offset": [
+      0,
+      9.5
+    ],
+    "originalSize": [
+      318,
+      559
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "69a77473-8e65-4a97-a4ee-41cf7f041924",
+    "textureUUID": "0d69b6e4-3457-44d6-bf7c-ea10fb513057",
+    "texture": "asset-study/media/images/Match/NewSkin/MatchPlayType/3.png",
+    "image": "hall-games-study/assets/Match-158.png"
+  },
+  {
+    "bundle": "Match",
+    "id": 8,
+    "path": "NewSkin/MatchPlayType/4",
+    "name": "4",
+    "rect": [
+      0,
+      0,
+      318,
+      540
+    ],
+    "offset": [
+      0,
+      9.5
+    ],
+    "originalSize": [
+      318,
+      559
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "07fdf43a-914c-4bfc-b04d-d4ff9c48d89e",
+    "textureUUID": "db8b045e-782a-4e2a-b075-88d56e78c219",
+    "texture": "asset-study/media/images/Match/NewSkin/MatchPlayType/4.png",
+    "image": "hall-games-study/assets/Match-8.png"
+  },
+  {
+    "bundle": "Match",
+    "id": 344,
+    "path": "NewSkin/MatchPlayType/5",
+    "name": "5",
+    "rect": [
+      0,
+      0,
+      318,
+      540
+    ],
+    "offset": [
+      0,
+      9.5
+    ],
+    "originalSize": [
+      318,
+      559
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "d3ce8e40-38fe-4e09-8049-6f1f038fbe9b",
+    "textureUUID": "6a09e7c6-3b45-44b5-9e25-38ae0cc8666b",
+    "texture": "asset-study/media/images/Match/NewSkin/MatchPlayType/5.png",
+    "image": "hall-games-study/assets/Match-344.png"
+  },
+  {
+    "bundle": "Match",
+    "id": 118,
+    "path": "NewSkin/MatchPlayType/6",
+    "name": "6",
+    "rect": [
+      0,
+      0,
+      318,
+      540
+    ],
+    "offset": [
+      0,
+      9.5
+    ],
+    "originalSize": [
+      318,
+      559
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "54ef2189-a193-41fc-89fb-9ed46b66903d",
+    "textureUUID": "f10e16bf-27ab-4be9-b2d4-6a35b47d7f73",
+    "texture": "asset-study/media/images/Match/NewSkin/MatchPlayType/6.png",
+    "image": "hall-games-study/assets/Match-118.png"
+  },
+  {
+    "bundle": "Match",
+    "id": 163,
+    "path": "NewSkin/MatchPlayType/tu-1",
+    "name": "tu-1",
+    "rect": [
+      1,
+      43,
+      289,
+      276
+    ],
+    "offset": [
+      0.5,
+      -13.5
+    ],
+    "originalSize": [
+      290,
+      335
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "6dafe89a-9785-4d36-a93e-45cece7969c2",
+    "textureUUID": "664c05ce-cb68-4200-9026-46d1fdbfac04",
+    "texture": "asset-study/media/images/Match/NewSkin/MatchPlayType/tu-1.png",
+    "image": "hall-games-study/assets/Match-163.png"
+  },
+  {
+    "bundle": "Match",
+    "id": 82,
+    "path": "NewSkin/MatchPlayType/tu-2",
+    "name": "tu-2",
+    "rect": [
+      2,
+      36,
+      287,
+      290
+    ],
+    "offset": [
+      0.5,
+      -13.5
+    ],
+    "originalSize": [
+      290,
+      335
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "36884de1-0623-4b26-aff7-cf17db6ef5c7",
+    "textureUUID": "72455e74-f177-4d7c-a83e-54705806d2eb",
+    "texture": "asset-study/media/images/Match/NewSkin/MatchPlayType/tu-2.png",
+    "image": "hall-games-study/assets/Match-82.png"
+  },
+  {
+    "bundle": "Match",
+    "id": 22,
+    "path": "NewSkin/MatchPlayType/tu-3",
+    "name": "tu-3",
+    "rect": [
+      4,
+      25,
+      284,
+      306
+    ],
+    "offset": [
+      1,
+      -10.5
+    ],
+    "originalSize": [
+      290,
+      335
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "0cdc646d-84e1-41fc-9822-0f692f3a3694",
+    "textureUUID": "e29f1cde-6616-4e25-8658-c5c2d6c8691b",
+    "texture": "asset-study/media/images/Match/NewSkin/MatchPlayType/tu-3.png",
+    "image": "hall-games-study/assets/Match-22.png"
+  },
+  {
+    "bundle": "Match",
+    "id": 418,
+    "path": "NewSkin/MatchPlayType/tu-4",
+    "name": "tu-4",
+    "rect": [
+      5,
+      45,
+      282,
+      271
+    ],
+    "offset": [
+      1,
+      -13
+    ],
+    "originalSize": [
+      290,
+      335
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "fefb74e2-6d4a-41d8-81db-b585fabec8a9",
+    "textureUUID": "1a11ff7f-1d2a-4061-ac67-6221c4acf539",
+    "texture": "asset-study/media/images/Match/NewSkin/MatchPlayType/tu-4.png",
+    "image": "hall-games-study/assets/Match-418.png"
+  },
+  {
+    "bundle": "Match",
+    "id": 90,
+    "path": "NewSkin/MatchPlayType/tu-5",
+    "name": "tu-5",
+    "rect": [
+      0,
+      24,
+      281,
+      308
+    ],
+    "offset": [
+      -4.5,
+      -10.5
+    ],
+    "originalSize": [
+      290,
+      335
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "3b985694-f98c-457e-a31d-65ea805dea5c",
+    "textureUUID": "c20e1f30-cfec-4923-94ae-8238150ccb2a",
+    "texture": "asset-study/media/images/Match/NewSkin/MatchPlayType/tu-5.png",
+    "image": "hall-games-study/assets/Match-90.png"
+  },
+  {
+    "bundle": "Match",
+    "id": 286,
+    "path": "NewSkin/MatchPlayType/tu-6",
+    "name": "tu-6",
+    "rect": [
+      14,
+      0,
+      271,
+      335
+    ],
+    "offset": [
+      4.5,
+      0
+    ],
+    "originalSize": [
+      290,
+      335
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "b1d4914a-081a-4261-b1e1-f3c090cefd99",
+    "textureUUID": "d915b8f2-a520-4589-9e73-ad88c1db610c",
+    "texture": "asset-study/media/images/Match/NewSkin/MatchPlayType/tu-6.png",
+    "image": "hall-games-study/assets/Match-286.png"
+  },
+  {
+    "bundle": "Match",
+    "id": 127,
+    "path": "NewSkin/MatchPlayType/biaoqian3",
+    "name": "biaoqian3",
+    "rect": [
+      0,
+      0,
+      142,
+      49
+    ],
+    "offset": [
+      -38.5,
+      0
+    ],
+    "originalSize": [
+      219,
+      49
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "58863bef-4c01-412a-aece-ca7af29c9e97",
+    "textureUUID": "cb7377fd-990f-4e70-b4be-04cd7bcc4811",
+    "texture": "asset-study/media/images/Match/NewSkin/MatchPlayType/biaoqian3.png",
+    "image": "hall-games-study/assets/Match-127.png"
+  },
+  {
+    "bundle": "Match",
+    "id": 20,
+    "path": "NewSkin/MatchPlayType/biaoqian2",
+    "name": "biaoqian2",
+    "rect": [
+      0,
+      0,
+      192,
+      49
+    ],
+    "offset": [
+      -13.5,
+      0
+    ],
+    "originalSize": [
+      219,
+      49
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "0bf3fd73-598a-4740-81fb-f85043223aaf",
+    "textureUUID": "722945c0-8eaf-4754-a293-283077960688",
+    "texture": "asset-study/media/images/Match/NewSkin/MatchPlayType/biaoqian2.png",
+    "image": "hall-games-study/assets/Match-20.png"
+  },
+  {
+    "bundle": "Match",
+    "id": 242,
+    "path": "NewSkin/MatchPlayType/biaoqian1",
+    "name": "biaoqian1",
+    "rect": [
+      0,
+      0,
+      219,
+      49
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      219,
+      49
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "94945a03-5cea-4d25-b237-5949f7eb52a1",
+    "textureUUID": "27d5df47-c8ee-497c-a115-f38b7648393c",
+    "texture": "asset-study/media/images/Match/NewSkin/MatchPlayType/biaoqian1.png",
+    "image": "hall-games-study/assets/Match-242.png"
+  },
+  {
+    "bundle": "Match",
+    "id": 200,
+    "path": "NewSkin/MatchPlayType/queyuliansai",
+    "name": "queyuliansai",
+    "rect": [
+      28,
+      0,
+      406,
+      547
+    ],
+    "offset": [
+      -0.5,
+      3
+    ],
+    "originalSize": [
+      463,
+      553
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "81eb0121-b38e-466e-bc52-b73fbc265266",
+    "textureUUID": "c60f5d8c-40ce-402f-b790-911714246c48",
+    "texture": "asset-study/media/images/Match/NewSkin/MatchPlayType/queyuliansai.png",
+    "image": "hall-games-study/assets/Match-200.png"
+  },
+  {
+    "bundle": "Match",
+    "id": 224,
+    "path": "NewSkin/MatchPlayType/paiweisai",
+    "name": "paiweisai",
+    "rect": [
+      29,
+      12,
+      386,
+      541
+    ],
+    "offset": [
+      -9.5,
+      -6
+    ],
+    "originalSize": [
+      463,
+      553
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "8eacc5f9-fcbe-472c-8286-d98be8a01abf",
+    "textureUUID": "0618b09f-b3a1-4f9c-9904-e5dfc96645cb",
+    "texture": "asset-study/media/images/Match/NewSkin/MatchPlayType/paiweisai.png",
+    "image": "hall-games-study/assets/Match-224.png"
+  },
+  {
+    "bundle": "Match",
+    "id": 104,
+    "path": "NewSkin/MatchPlayType/jinbiaosai",
+    "name": "jinbiaosai",
+    "rect": [
+      14,
+      12,
+      391,
+      541
+    ],
+    "offset": [
+      -22,
+      -6
+    ],
+    "originalSize": [
+      463,
+      553
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "4793f056-913a-413f-9b14-04a136fc7458",
+    "textureUUID": "6f40c93d-1b60-4103-a9d3-36553aa78d27",
+    "texture": "asset-study/media/images/Match/NewSkin/MatchPlayType/jinbiaosai.png",
+    "image": "hall-games-study/assets/Match-104.png"
+  },
+  {
+    "bundle": "Match",
+    "id": 371,
+    "path": "MatchSelect/match_enter_icon",
+    "name": "match_enter_icon",
+    "rect": [
+      394,
+      3,
+      209,
+      132
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      209,
+      132
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "e06ad213-36e0-4f45-a9fd-94257db38751",
+    "textureUUID": "1b87b7eac",
+    "texture": "asset-study/media/images/Match/_unnamed/1b87b7eac.png",
+    "image": "hall-games-study/assets/Match-371.png"
+  },
+  {
+    "bundle": "Match",
+    "id": 150,
+    "path": "NewSkin/MatchPlayType/lainsaijiangli",
+    "name": "lainsaijiangli",
+    "rect": [
+      0,
+      0,
+      109,
+      90
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      109,
+      90
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "649b3e76-268d-4b44-9116-bda60f32339c",
+    "textureUUID": "730e9dfe-c2aa-483a-8218-91d1aa270b59",
+    "texture": "asset-study/media/images/Match/NewSkin/MatchPlayType/lainsaijiangli.png",
+    "image": "hall-games-study/assets/Match-150.png"
+  },
+  {
+    "bundle": "common",
+    "id": 75,
+    "path": "NewSkin/other/pic_com17",
+    "name": "pic_com17",
+    "rect": [
+      994,
+      366,
+      24,
+      25
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      24,
+      25
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "1a90e871-5072-4dfa-8eb9-983e2d60ef00",
+    "textureUUID": "1d05abae0",
+    "texture": "asset-study/media/images/common/_unnamed/1d05abae0.png",
+    "image": "hall-games-study/assets/common-75.png"
+  },
+  {
+    "bundle": "Match",
+    "id": 130,
+    "path": "NewSkin/MatchPlayType/niurenbang",
+    "name": "niurenbang",
+    "rect": [
+      7,
+      2,
+      92,
+      88
+    ],
+    "offset": [
+      -1.5,
+      -1
+    ],
+    "originalSize": [
+      109,
+      90
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "59d9e499-bf71-432c-bb04-ae9149c5bd80",
+    "textureUUID": "9bcd1ba3-eb0c-4184-8cad-1c3704683f71",
+    "texture": "asset-study/media/images/Match/NewSkin/MatchPlayType/niurenbang.png",
+    "image": "hall-games-study/assets/Match-130.png"
+  },
+  {
+    "bundle": "fonts",
+    "id": 121,
+    "path": "NewSkin/LobbyGTFnt/fnt_datingsekuai-export",
+    "name": "fnt_datingsekuai-export",
+    "rect": [
+      0,
+      0,
+      654,
+      656
+    ],
+    "offset": [
+      -4,
+      4
+    ],
+    "originalSize": [
+      662,
+      664
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "6c76a983-6c08-47bf-ad0f-b57e7be7e1dc",
+    "textureUUID": "ebd6b5db-52f8-4c5e-93ab-45ab6a46425c",
+    "texture": "asset-study/media/images/fonts/NewSkin/LobbyGTFnt/fnt_datingsekuai-export.png",
+    "image": "hall-games-study/assets/fonts-121.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1120,
+    "path": "NewSkin/Hall_ProvinceGameTypes/pic_02",
+    "name": "pic_02",
+    "rect": [
+      3,
+      231,
+      324,
+      222
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      324,
+      222
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "7386a4c0-8a37-46cd-9a1f-000f518cfc9b",
+    "textureUUID": "1a0c7ba77",
+    "texture": "asset-study/media/images/lobby/_unnamed/1a0c7ba77.png",
+    "image": "hall-games-study/assets/lobby-1120.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1833,
+    "path": "NewSkin/Hall_ProvinceGameTypes/pic_03",
+    "name": "pic_03",
+    "rect": [
+      427,
+      3,
+      323,
+      222
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      323,
+      222
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "bfd19304-33e7-48d9-b1f2-b68a8a6c68a3",
+    "textureUUID": "1a0c7ba77",
+    "texture": "asset-study/media/images/lobby/_unnamed/1a0c7ba77.png",
+    "image": "hall-games-study/assets/lobby-1833.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 2329,
+    "path": "NewSkin/Hall_ProvinceGameTypes/pic_04",
+    "name": "pic_04",
+    "rect": [
+      332,
+      788,
+      324,
+      222
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      324,
+      222
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "f43c9607-d6ea-4548-8f11-dff6edbea534",
+    "textureUUID": "1a0c7ba77",
+    "texture": "asset-study/media/images/lobby/_unnamed/1a0c7ba77.png",
+    "image": "hall-games-study/assets/lobby-2329.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 2256,
+    "path": "NewSkin/Hall_ProvinceGameTypes/pic_05",
+    "name": "pic_05",
+    "rect": [
+      3,
+      687,
+      323,
+      222
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      323,
+      222
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "ebba0f37-146c-469d-97ea-60edb09adef8",
+    "textureUUID": "1a0c7ba77",
+    "texture": "asset-study/media/images/lobby/_unnamed/1a0c7ba77.png",
+    "image": "hall-games-study/assets/lobby-2256.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 2191,
+    "path": "NewSkin/Hall_ProvinceGameTypes/pic_06",
+    "name": "pic_06",
+    "rect": [
+      333,
+      560,
+      324,
+      222
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      324,
+      222
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "e6248e11-fb07-4aad-8221-80adbc4ca7de",
+    "textureUUID": "1a0c7ba77",
+    "texture": "asset-study/media/images/lobby/_unnamed/1a0c7ba77.png",
+    "image": "hall-games-study/assets/lobby-2191.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 477,
+    "path": "NewSkin/Hall_ProvinceGameTypes/pic_07",
+    "name": "pic_07",
+    "rect": [
+      97,
+      3,
+      324,
+      222
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      324,
+      222
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "2e0e1c6b-ab30-48f8-80c9-8eb926be2dc0",
+    "textureUUID": "1a0c7ba77",
+    "texture": "asset-study/media/images/lobby/_unnamed/1a0c7ba77.png",
+    "image": "hall-games-study/assets/lobby-477.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 2179,
+    "path": "NewSkin/Hall_ProvinceGameTypes/pic_08",
+    "name": "pic_08",
+    "rect": [
+      3,
+      459,
+      324,
+      222
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      324,
+      222
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "e4d1962c-54bc-4d0b-81dd-ff7464aff504",
+    "textureUUID": "1a0c7ba77",
+    "texture": "asset-study/media/images/lobby/_unnamed/1a0c7ba77.png",
+    "image": "hall-games-study/assets/lobby-2179.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 2046,
+    "path": "NewSkin/Hall_ProvinceGameTypes/pic_09",
+    "name": "pic_09",
+    "rect": [
+      333,
+      332,
+      324,
+      222
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      324,
+      222
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "d69cedb1-c469-4c33-a0af-a33d26fb0344",
+    "textureUUID": "1a0c7ba77",
+    "texture": "asset-study/media/images/lobby/_unnamed/1a0c7ba77.png",
+    "image": "hall-games-study/assets/lobby-2046.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1254,
+    "path": "NewSkin/Hall_ProvinceGameTypes/pic_01",
+    "name": "pic_01",
+    "rect": [
+      3,
+      3,
+      88,
+      87
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      88,
+      87
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "8201a1d4-d1d5-4884-9ab8-b1c8e1c2ae47",
+    "textureUUID": "1a0c7ba77",
+    "texture": "asset-study/media/images/lobby/_unnamed/1a0c7ba77.png",
+    "image": "hall-games-study/assets/lobby-1254.png"
+  },
+  {
+    "bundle": "fonts",
+    "id": 294,
+    "path": "NewSkin/provinceGT/fnt_wf-export",
+    "name": "fnt_wf-export",
+    "rect": [
+      0,
+      0,
+      753,
+      755
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      754,
+      756
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "fcf4e867-d3be-4c24-834a-1009118dc36f",
+    "textureUUID": "b3fae9ba-8117-45a8-8711-14d11d4d8a39",
+    "texture": "asset-study/media/images/fonts/NewSkin/provinceGT/fnt_wf-export.png",
+    "image": "hall-games-study/assets/fonts-294.png"
+  },
+  {
+    "bundle": "common",
+    "id": 668,
+    "path": "NewSkin/other/pic-ren",
+    "name": "pic-ren",
+    "rect": [
+      1003,
+      998,
+      16,
+      20
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      16,
+      20
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "d0f89db0-b4ca-47dd-b051-4c7a63785646",
+    "textureUUID": "1d05abae0",
+    "texture": "asset-study/media/images/common/_unnamed/1d05abae0.png",
+    "image": "hall-games-study/assets/common-668.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 166,
+    "path": "NewSkin/MainIcon/zhijianzhouka",
+    "name": "zhijianzhouka",
+    "rect": [
+      3,
+      807,
+      105,
+      105
+    ],
+    "offset": [
+      0.5,
+      1
+    ],
+    "originalSize": [
+      132,
+      123
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "102dd041-39cf-437e-af6d-8c02bb640df9",
+    "textureUUID": "176fd07e0",
+    "texture": "asset-study/media/images/lobby/_unnamed/176fd07e0.png",
+    "image": "hall-games-study/assets/lobby-166.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1505,
+    "path": "NewSkin/MainIcon/zhijianzhouka2",
+    "name": "zhijianzhouka2",
+    "rect": [
+      3,
+      696,
+      106,
+      105
+    ],
+    "offset": [
+      3,
+      1
+    ],
+    "originalSize": [
+      132,
+      123
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "9dc8559e-dee9-46e0-9964-06dc5ebfa9ce",
+    "textureUUID": "176fd07e0",
+    "texture": "asset-study/media/images/lobby/_unnamed/176fd07e0.png",
+    "image": "hall-games-study/assets/lobby-1505.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 611,
+    "path": "TableSel/fksjccbxpGuide",
+    "name": "fksjccbxpGuide",
+    "rect": [
+      3,
+      158,
+      117,
+      102
+    ],
+    "offset": [
+      0.5,
+      2
+    ],
+    "originalSize": [
+      120,
+      108
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "3d718144-4fa4-4657-85a1-e0ff05fa27e5",
+    "textureUUID": "1965cc29c",
+    "texture": "asset-study/media/images/lobby/_unnamed/1965cc29c.png",
+    "image": "hall-games-study/assets/lobby-611.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1079,
+    "path": "TableSel/guize",
+    "name": "guize",
+    "rect": [
+      3,
+      378,
+      116,
+      107
+    ],
+    "offset": [
+      -2,
+      -0.5
+    ],
+    "originalSize": [
+      120,
+      108
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "6fa1af32-140e-4df8-8e84-489534c647a5@6c48a",
+    "textureUUID": "1965cc29c",
+    "texture": "asset-study/media/images/lobby/_unnamed/1965cc29c.png",
+    "image": "hall-games-study/assets/lobby-1079.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 2425,
+    "path": "TableSel/SGMJGuide",
+    "name": "SGMJGuide",
+    "rect": [
+      3,
+      266,
+      106,
+      112
+    ],
+    "offset": [
+      2,
+      4.5
+    ],
+    "originalSize": [
+      132,
+      123
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "fffb70ba-d4ff-400b-a3c5-99f4d214cc0f@6c48a",
+    "textureUUID": "1965cc29c",
+    "texture": "asset-study/media/images/lobby/_unnamed/1965cc29c.png",
+    "image": "hall-games-study/assets/lobby-2425.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 2271,
+    "path": "NewSkin/TabelChoose/pic_cc01",
+    "name": "pic_cc01",
+    "rect": [
+      425,
+      653,
+      298,
+      205
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      298,
+      205
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "ed9fbaf3-2d10-4cc0-bb09-a70e07d41b3a",
+    "textureUUID": "1b51fd3f6",
+    "texture": "asset-study/media/images/lobby/_unnamed/1b51fd3f6.png",
+    "image": "hall-games-study/assets/lobby-2271.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 666,
+    "path": "NewSkin/TabelChoose/pic_cc02",
+    "name": "pic_cc02",
+    "rect": [
+      3,
+      470,
+      299,
+      205
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      299,
+      205
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "42db306b-4ecb-4612-a651-afe72429ba6e",
+    "textureUUID": "1b51fd3f6",
+    "texture": "asset-study/media/images/lobby/_unnamed/1b51fd3f6.png",
+    "image": "hall-games-study/assets/lobby-666.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1630,
+    "path": "NewSkin/TabelChoose/pic_cc03",
+    "name": "pic_cc03",
+    "rect": [
+      3,
+      681,
+      299,
+      205
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      299,
+      205
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "ab9540da-cc7a-4086-8d9f-fa702ffc2c2a",
+    "textureUUID": "1b51fd3f6",
+    "texture": "asset-study/media/images/lobby/_unnamed/1b51fd3f6.png",
+    "image": "hall-games-study/assets/lobby-1630.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1750,
+    "path": "NewSkin/TabelChoose/pic_cc04",
+    "name": "pic_cc04",
+    "rect": [
+      214,
+      681,
+      299,
+      205
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      299,
+      205
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "b614639b-0ce8-45f3-ae63-9bf88745f219",
+    "textureUUID": "1b51fd3f6",
+    "texture": "asset-study/media/images/lobby/_unnamed/1b51fd3f6.png",
+    "image": "hall-games-study/assets/lobby-1750.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 257,
+    "path": "NewSkin/TabelChoose/pic_cc05",
+    "name": "pic_cc05",
+    "rect": [
+      308,
+      442,
+      299,
+      205
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      299,
+      205
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "19229521-9224-4960-bc8c-f9b4fb9d782c",
+    "textureUUID": "1b51fd3f6",
+    "texture": "asset-study/media/images/lobby/_unnamed/1b51fd3f6.png",
+    "image": "hall-games-study/assets/lobby-257.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 213,
+    "path": "NewSkin/TabelChoose/pic_cc06",
+    "name": "pic_cc06",
+    "rect": [
+      3,
+      259,
+      299,
+      205
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      299,
+      205
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "1529ca79-df32-4377-b774-60e1df3f159a",
+    "textureUUID": "1b51fd3f6",
+    "texture": "asset-study/media/images/lobby/_unnamed/1b51fd3f6.png",
+    "image": "hall-games-study/assets/lobby-213.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1008,
+    "path": "NewSkin/TabelChoose/dianfengsai",
+    "name": "dianfengsai",
+    "rect": [
+      360,
+      3,
+      323,
+      222
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      323,
+      222
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "67546716-6c3f-4121-a9a7-cfc3a48bfdcb",
+    "textureUUID": "1b51fd3f6",
+    "texture": "asset-study/media/images/lobby/_unnamed/1b51fd3f6.png",
+    "image": "hall-games-study/assets/lobby-1008.png"
+  },
+  {
+    "bundle": "common",
+    "id": 468,
+    "path": "NewSkin/other/pic-dou",
+    "name": "pic-dou",
+    "rect": [
+      902,
+      981,
+      16,
+      14
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      16,
+      20
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "96dbc41c-f83d-4af2-a720-1708f94cc7f9",
+    "textureUUID": "1d05abae0",
+    "texture": "asset-study/media/images/common/_unnamed/1d05abae0.png",
+    "image": "hall-games-study/assets/common-468.png"
+  },
+  {
+    "bundle": "common",
+    "id": 707,
+    "path": "NewSkin/other/pic-bi",
+    "name": "pic-bi",
+    "rect": [
+      902,
+      959,
+      16,
+      16
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      16,
+      20
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "deb48f0f-3953-48d4-85eb-a4834988bb52",
+    "textureUUID": "1d05abae0",
+    "texture": "asset-study/media/images/common/_unnamed/1d05abae0.png",
+    "image": "hall-games-study/assets/common-707.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 877,
+    "path": "NewSkin/TabelChoose/waifaguang",
+    "name": "waifaguang",
+    "rect": [
+      3,
+      3,
+      351,
+      250
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      351,
+      250
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "59bdd253-fb32-49d7-b41b-2d4ae9453391",
+    "textureUUID": "1b51fd3f6",
+    "texture": "asset-study/media/images/lobby/_unnamed/1b51fd3f6.png",
+    "image": "hall-games-study/assets/lobby-877.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 177,
+    "path": "NewSkin/TabelChoose/table_item_fxsjccbxp",
+    "name": "table_item_fxsjccbxp",
+    "rect": [
+      360,
+      231,
+      299,
+      205
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      299,
+      205
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "115cb387-3f54-454d-96c9-c63495a572fe",
+    "textureUUID": "1b51fd3f6",
+    "texture": "asset-study/media/images/lobby/_unnamed/1b51fd3f6.png",
+    "image": "hall-games-study/assets/lobby-177.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 120,
+    "path": "NewSkin/TabelChoose/xianshiOpen",
+    "name": "xianshiOpen",
+    "rect": [
+      425,
+      864,
+      116,
+      114
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      116,
+      114
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "0c200a31-a02b-4959-aec5-9338b9fe4db1",
+    "textureUUID": "1b51fd3f6",
+    "texture": "asset-study/media/images/lobby/_unnamed/1b51fd3f6.png",
+    "image": "hall-games-study/assets/lobby-120.png"
+  },
+  {
+    "bundle": "fonts",
+    "id": 227,
+    "path": "NewSkin/TabelChoose/fnt_xc-export",
+    "name": "fnt_xc-export",
+    "rect": [
+      0,
+      0,
+      197,
+      241
+    ],
+    "offset": [
+      -29.5,
+      7.5
+    ],
+    "originalSize": [
+      256,
+      256
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "cbe32a6b-7398-4e93-ad04-f0bfd8ceac79",
+    "textureUUID": "fe085fc4-e1cc-44c1-99b0-a70ddfacdb55",
+    "texture": "asset-study/media/images/fonts/NewSkin/TabelChoose/fnt_xc-export.png",
+    "image": "hall-games-study/assets/fonts-227.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1639,
+    "path": "NewSkin/TabelChoose/pic_001",
+    "name": "pic_001",
+    "rect": [
+      613,
+      442,
+      81,
+      81
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      81,
+      81
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "acb70be5-464e-440c-a39f-953024fed391",
+    "textureUUID": "1b51fd3f6",
+    "texture": "asset-study/media/images/lobby/_unnamed/1b51fd3f6.png",
+    "image": "hall-games-study/assets/lobby-1639.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 759,
+    "path": "TableSel/img_section_Point",
+    "name": "img_section_Point",
+    "rect": [
+      3,
+      102,
+      117,
+      50
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      117,
+      50
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "4d6b3cde-0025-4a13-9c69-be44c3b50ffc",
+    "textureUUID": "1965cc29c",
+    "texture": "asset-study/media/images/lobby/_unnamed/1965cc29c.png",
+    "image": "hall-games-study/assets/lobby-759.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 577,
+    "path": "mjhj/anims/game/AnimTextuerRes/animRes/selectSceneAni/xc_sg_06",
+    "name": "xc_sg_06",
+    "rect": [
+      3,
+      824,
+      44,
+      65
+    ],
+    "offset": [
+      -12.5,
+      1.5
+    ],
+    "originalSize": [
+      103,
+      70
+    ],
+    "rotated": 1,
+    "capInsets": [
+      18,
+      13,
+      18,
+      18
+    ],
+    "uuid": "15bb93d2-4b37-4ea6-81bd-90ba6ab1fd70",
+    "textureUUID": "18d30451e",
+    "texture": "asset-study/media/images/resources/_unnamed/18d30451e.png",
+    "image": "hall-games-study/assets/resources-577.png"
+  },
+  {
+    "bundle": "Match",
+    "id": 294,
+    "path": "NewSkin/MatchSelect/pic_13",
+    "name": "pic_13",
+    "rect": [
+      0,
+      0,
+      305,
+      512
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      305,
+      512
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "b5db3cec-af8a-4465-b592-7420f6535de4",
+    "textureUUID": "815c4587-db50-42f9-8459-43138437a4b2",
+    "texture": "asset-study/media/images/Match/NewSkin/MatchSelect/pic_13.png",
+    "image": "hall-games-study/assets/Match-294.png"
+  },
+  {
+    "bundle": "Match",
+    "id": 112,
+    "path": "NewSkin/MatchSelect/pic_14",
+    "name": "pic_14",
+    "rect": [
+      0,
+      0,
+      309,
+      512
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      309,
+      512
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "50b0f719-31da-47b8-98a4-157cf52cc460",
+    "textureUUID": "a5584d94-dd57-41ea-8069-64a144c5e791",
+    "texture": "asset-study/media/images/Match/NewSkin/MatchSelect/pic_14.png",
+    "image": "hall-games-study/assets/Match-112.png"
+  },
+  {
+    "bundle": "Match",
+    "id": 365,
+    "path": "NewSkin/MatchSelect/pic_15",
+    "name": "pic_15",
+    "rect": [
+      0,
+      0,
+      310,
+      512
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      310,
+      512
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "ddf5516f-09d8-4ba7-ab09-e1fab5e9c442",
+    "textureUUID": "025df7f2-0a0c-4a4c-b8d4-eae4e8bfaf6f",
+    "texture": "asset-study/media/images/Match/NewSkin/MatchSelect/pic_15.png",
+    "image": "hall-games-study/assets/Match-365.png"
+  },
+  {
+    "bundle": "Match",
+    "id": 394,
+    "path": "NewSkin/MatchSelect/pic_16",
+    "name": "pic_16",
+    "rect": [
+      0,
+      0,
+      310,
+      512
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      310,
+      512
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "eea8f529-448f-477e-aeef-8adf15cb6400",
+    "textureUUID": "359b946b-8513-4711-9761-e3f44b3e0c5f",
+    "texture": "asset-study/media/images/Match/NewSkin/MatchSelect/pic_16.png",
+    "image": "hall-games-study/assets/Match-394.png"
+  },
+  {
+    "bundle": "Match",
+    "id": 54,
+    "path": "MatchSelect/match_type2_icon1",
+    "name": "match_type2_icon1",
+    "rect": [
+      3,
+      141,
+      285,
+      476
+    ],
+    "offset": [
+      2,
+      0
+    ],
+    "originalSize": [
+      289,
+      476
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "239b0600-4758-419b-8966-34437ef9dbef",
+    "textureUUID": "1b87b7eac",
+    "texture": "asset-study/media/images/Match/_unnamed/1b87b7eac.png",
+    "image": "hall-games-study/assets/Match-54.png"
+  },
+  {
+    "bundle": "Match",
+    "id": 169,
+    "path": "MatchSelect/match_type2_icon2",
+    "name": "match_type2_icon2",
+    "rect": [
+      485,
+      141,
+      288,
+      476
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      289,
+      476
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "70a5dbbb-1ac0-4d70-ae0b-918782610465",
+    "textureUUID": "1b87b7eac",
+    "texture": "asset-study/media/images/Match/_unnamed/1b87b7eac.png",
+    "image": "hall-games-study/assets/Match-169.png"
+  },
+  {
+    "bundle": "Match",
+    "id": 348,
+    "path": "MatchSelect/match_type2_icon3",
+    "name": "match_type2_icon3",
+    "rect": [
+      485,
+      435,
+      289,
+      476
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      289,
+      476
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "d5965b02-200f-49a9-846b-033ea10bdf55",
+    "textureUUID": "1b87b7eac",
+    "texture": "asset-study/media/images/Match/_unnamed/1b87b7eac.png",
+    "image": "hall-games-study/assets/Match-348.png"
+  },
+  {
+    "bundle": "Match",
+    "id": 343,
+    "path": "MatchSelect/match_type2_icon4",
+    "name": "match_type2_icon4",
+    "rect": [
+      3,
+      432,
+      288,
+      476
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      289,
+      476
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "d399fe1f-0dca-4ce7-87b5-56a36c6482b4",
+    "textureUUID": "1b87b7eac",
+    "texture": "asset-study/media/images/Match/_unnamed/1b87b7eac.png",
+    "image": "hall-games-study/assets/Match-343.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 654,
+    "path": "NewSkin/MainEntry/item/shangcheng",
+    "name": "shangcheng",
+    "rect": [
+      57,
+      185,
+      190,
+      107
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      190,
+      107
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "4157c76f-f06b-4bb1-b24e-e065bc56ebaa",
+    "textureUUID": "1ea4c80b4",
+    "texture": "asset-study/media/images/lobby/_unnamed/1ea4c80b4.png",
+    "image": "hall-games-study/assets/lobby-654.png"
+  },
+  {
+    "bundle": "fonts",
+    "id": 2,
+    "path": "match/fnt_MatchTypeName3",
+    "name": "fnt_MatchTypeName3",
+    "rect": [
+      3,
+      353,
+      313,
+      330
+    ],
+    "offset": [
+      -4,
+      4
+    ],
+    "originalSize": [
+      321,
+      338
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "03482fd2-cb41-4e0c-ae51-30baad9a8f25",
+    "textureUUID": "1544aa37b",
+    "texture": "asset-study/media/images/fonts/_unnamed/1544aa37b.png",
+    "image": "hall-games-study/assets/fonts-2.png"
+  },
+  {
+    "bundle": "Match",
+    "id": 405,
+    "path": "MatchSelect/tag_saveArchives",
+    "name": "tag_saveArchives",
+    "rect": [
+      30,
+      3,
+      40,
+      105
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      40,
+      105
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "f5f70375-8817-45ce-9267-8382d661ceb8",
+    "textureUUID": "1b87b7eac",
+    "texture": "asset-study/media/images/Match/_unnamed/1b87b7eac.png",
+    "image": "hall-games-study/assets/Match-405.png"
+  },
+  {
+    "bundle": "Match",
+    "id": 372,
+    "path": "NewSkin/MatchSelect/pic_11",
+    "name": "pic_11",
+    "rect": [
+      0,
+      0,
+      25,
+      31
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      25,
+      31
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "e1a85da7-df73-4bdc-9beb-4990b0554f98",
+    "textureUUID": "c3bd8f8f-c996-4733-a955-f719025fccda",
+    "texture": "asset-study/media/images/Match/NewSkin/MatchSelect/pic_11.png",
+    "image": "hall-games-study/assets/Match-372.png"
+  },
+  {
+    "bundle": "Match",
+    "id": 124,
+    "path": "MatchSelect/tagFree",
+    "name": "tagFree",
+    "rect": [
+      256,
+      3,
+      132,
+      130
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      132,
+      130
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "5788b80e-d11a-4061-87b3-7b3c912304b4",
+    "textureUUID": "1b87b7eac",
+    "texture": "asset-study/media/images/Match/_unnamed/1b87b7eac.png",
+    "image": "hall-games-study/assets/Match-124.png"
+  },
+  {
+    "bundle": "Match",
+    "id": 179,
+    "path": "MatchSelect/tag_today_first_free",
+    "name": "tag_today_first_free",
+    "rect": [
+      141,
+      3,
+      109,
+      103
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      109,
+      103
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "78838331-9fc2-4ef2-931c-b0a0b73c92a5",
+    "textureUUID": "1b87b7eac",
+    "texture": "asset-study/media/images/Match/_unnamed/1b87b7eac.png",
+    "image": "hall-games-study/assets/Match-179.png"
+  },
+  {
+    "bundle": "common",
+    "id": 559,
+    "path": "NewSkin/Sudoku/pic_com08",
+    "name": "pic_com08",
+    "rect": [
+      404,
+      207,
+      53,
+      56
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      53,
+      56
+    ],
+    "rotated": 1,
+    "capInsets": [
+      25,
+      20,
+      18,
+      24
+    ],
+    "uuid": "b1ce235d-bf85-4847-8a55-b158dbc4c8c5",
+    "textureUUID": "157399797",
+    "texture": "asset-study/media/images/common/_unnamed/157399797.png",
+    "image": "hall-games-study/assets/common-559.png"
+  },
+  {
+    "bundle": "common",
+    "id": 287,
+    "path": "NewSkin/Sudoku/xiaotanchuangshanglan",
+    "name": "xiaotanchuangshanglan",
+    "rect": [
+      79,
+      207,
+      700,
+      71
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      700,
+      71
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "5a96bae5-d3cf-41fe-8693-122810ec353a",
+    "textureUUID": "157399797",
+    "texture": "asset-study/media/images/common/_unnamed/157399797.png",
+    "image": "hall-games-study/assets/common-287.png"
+  },
+  {
+    "bundle": "fonts",
+    "id": 282,
+    "path": "NewSkin/title/fnt_biaotiz-export",
+    "name": "fnt_biaotiz-export",
+    "rect": [
+      0,
+      0,
+      920,
+      916
+    ],
+    "offset": [
+      -4,
+      4
+    ],
+    "originalSize": [
+      928,
+      924
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "f38fba04-f256-4c83-8867-0087385dfb0a",
+    "textureUUID": "6d6f0c5e-6db4-46cb-9c55-b010ab5c796a",
+    "texture": "asset-study/media/images/fonts/NewSkin/title/fnt_biaotiz-export.png",
+    "image": "hall-games-study/assets/fonts-282.png"
+  },
+  {
+    "bundle": "common",
+    "id": 816,
+    "path": "NewSkin/NewBtn/btn_com04",
+    "name": "btn_com04",
+    "rect": [
+      179,
+      736,
+      38,
+      37
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      38,
+      37
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "feec4ed5-df49-4757-ad98-21baf745e1a0",
+    "textureUUID": "1e8019203",
+    "texture": "asset-study/media/images/common/_unnamed/1e8019203.png",
+    "image": "hall-games-study/assets/common-816.png"
+  },
+  {
+    "bundle": "common",
+    "id": 676,
+    "path": "NewSkin/Sudoku/pic_com09",
+    "name": "pic_com09",
+    "rect": [
+      404,
+      130,
+      38,
+      37
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      38,
+      37
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "d32b3b02-9e93-4923-9789-aedb6faaf6fc",
+    "textureUUID": "157399797",
+    "texture": "asset-study/media/images/common/_unnamed/157399797.png",
+    "image": "hall-games-study/assets/common-676.png"
+  },
+  {
+    "bundle": "common",
+    "id": 206,
+    "path": "NewSkin/NewBtn/btn_tips06",
+    "name": "btn_tips06",
+    "rect": [
+      92,
+      783,
+      29,
+      29
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      29,
+      29
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "4161a502-4f0f-4ae7-8002-e723455ffdca",
+    "textureUUID": "1e8019203",
+    "texture": "asset-study/media/images/common/_unnamed/1e8019203.png",
+    "image": "hall-games-study/assets/common-206.png"
+  },
+  {
+    "bundle": "common",
+    "id": 133,
+    "path": "NewSkin/Sudoku/pic_com10",
+    "name": "pic_com10",
+    "rect": [
+      404,
+      86,
+      38,
+      38
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      38,
+      38
+    ],
+    "capInsets": [
+      5,
+      3,
+      4,
+      3
+    ],
+    "uuid": "2bead797-67a1-466c-8618-62950d6d2cfd",
+    "textureUUID": "157399797",
+    "texture": "asset-study/media/images/common/_unnamed/157399797.png",
+    "image": "hall-games-study/assets/common-133.png"
+  },
+  {
+    "bundle": "common",
+    "id": 351,
+    "path": "NewSkin/other/pic_com01",
+    "name": "pic_com01",
+    "rect": [
+      713,
+      959,
+      183,
+      35
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      183,
+      35
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "72745acf-5348-4ceb-a311-9321a6907255",
+    "textureUUID": "1d05abae0",
+    "texture": "asset-study/media/images/common/_unnamed/1d05abae0.png",
+    "image": "hall-games-study/assets/common-351.png"
+  },
+  {
+    "bundle": "common",
+    "id": 578,
+    "path": "NewSkin/other/pic_zjd",
+    "name": "pic_zjd",
+    "rect": [
+      474,
+      959,
+      47,
+      51
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      47,
+      51
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "b66757dc-f09b-4944-b834-8ac75175833f",
+    "textureUUID": "1d05abae0",
+    "texture": "asset-study/media/images/common/_unnamed/1d05abae0.png",
+    "image": "hall-games-study/assets/common-578.png"
+  },
+  {
+    "bundle": "common",
+    "id": 702,
+    "path": "NewSkin/NewBtn/btn_com05",
+    "name": "btn_com05",
+    "rect": [
+      232,
+      789,
+      21,
+      21
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      23,
+      23
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "dd45657a-7c95-4cf7-ace8-60709dde2d4b",
+    "textureUUID": "1e8019203",
+    "texture": "asset-study/media/images/common/_unnamed/1e8019203.png",
+    "image": "hall-games-study/assets/common-702.png"
+  },
+  {
+    "bundle": "common",
+    "id": 586,
+    "path": "CoinNum&FareNum/img_DCoin",
+    "name": "img_DCoin",
+    "rect": [
+      3,
+      266,
+      55,
+      56
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      55,
+      57
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "b86b4a66-58ae-4f71-86c9-f632aff28964",
+    "textureUUID": "128f721b8",
+    "texture": "asset-study/media/images/common/_unnamed/128f721b8.png",
+    "image": "hall-games-study/assets/common-586.png"
+  },
+  {
+    "bundle": "common",
+    "id": 620,
+    "path": "NewSkin/other/pic_zjb",
+    "name": "pic_zjb",
+    "rect": [
+      540,
+      952,
+      48,
+      53
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      48,
+      53
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "c4115296-c3cb-46ff-84f1-52d5b001e5fe",
+    "textureUUID": "1d05abae0",
+    "texture": "asset-study/media/images/common/_unnamed/1d05abae0.png",
+    "image": "hall-games-study/assets/common-620.png"
+  },
+  {
+    "bundle": "common",
+    "id": 749,
+    "path": "CoinNum&FareNum/btnGet",
+    "name": "btnGet",
+    "rect": [
+      85,
+      186,
+      60,
+      37
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      60,
+      37
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "e8c40957-7814-417d-bc53-601a6b63ba0b",
+    "textureUUID": "128f721b8",
+    "texture": "asset-study/media/images/common/_unnamed/128f721b8.png",
+    "image": "hall-games-study/assets/common-749.png"
+  },
+  {
+    "bundle": "common",
+    "id": 147,
+    "path": "NewSkin/other/pic_zs",
+    "name": "pic_zs",
+    "rect": [
+      540,
+      897,
+      55,
+      49
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      55,
+      49
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "2ec1b62d-3a87-457d-b0e7-a8df02dad37f",
+    "textureUUID": "1d05abae0",
+    "texture": "asset-study/media/images/common/_unnamed/1d05abae0.png",
+    "image": "hall-games-study/assets/common-147.png"
+  },
+  {
+    "bundle": "common",
+    "id": 211,
+    "path": "Item/common_fu_icon",
+    "name": "common_fu_icon",
+    "rect": [
+      116,
+      844,
+      47,
+      57
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      47,
+      57
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "42d8d09e-968e-45d8-9d58-caafdc22f18b",
+    "textureUUID": "13d25fe34",
+    "texture": "asset-study/media/images/common/_unnamed/13d25fe34.png",
+    "image": "hall-games-study/assets/common-211.png"
+  },
+  {
+    "bundle": "common",
+    "id": 393,
+    "path": "Item/common_egg_icon",
+    "name": "common_egg_icon",
+    "rect": [
+      169,
+      844,
+      46,
+      54
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      46,
+      55
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "7edcbf47-350c-49a1-8e5d-e0a29d7eb975",
+    "textureUUID": "13d25fe34",
+    "texture": "asset-study/media/images/common/_unnamed/13d25fe34.png",
+    "image": "hall-games-study/assets/common-393.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 2379,
+    "path": "NewSkin/MainIcon/FanGatherEntry",
+    "name": "FanGatherEntry",
+    "rect": [
+      141,
+      141,
+      107,
+      113
+    ],
+    "offset": [
+      -0.5,
+      5
+    ],
+    "originalSize": [
+      132,
+      123
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "fa40ea3a-65e6-430d-b585-902fd89f66e9",
+    "textureUUID": "176fd07e0",
+    "texture": "asset-study/media/images/lobby/_unnamed/176fd07e0.png",
+    "image": "hall-games-study/assets/lobby-2379.png"
+  }
+]

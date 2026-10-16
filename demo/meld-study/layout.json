@@ -1,0 +1,994 @@
+{
+  "source": "main scene 3; ZMJCPGTileCtrl",
+  "sourceStage": [
+    1280,
+    720
+  ],
+  "coordinateSystem": "Cocos bottom-left coordinates; local seat 0=mine,1=right,2=front,3=left",
+  "notes": [
+    "Original right node scaleX is negative and face scaleX is also negative; both signs are intentional.",
+    "Front node top widget=35; mine bottom widget=110. Side origins have no widget in this scene; current local anchors require visual adjustment.",
+    "Ming/added/dark gang use Stack=-1: fourth tile overlays second plus GangSkewPos; dark gang lower three use backs, fourth uses front[1].",
+    "ZMJTile.init applies position, scale and skew; passed colorRotation property is not consumed (only angle is checked)."
+  ],
+  "seats": {
+    "0": {
+      "name": "cpg_mine",
+      "sceneNodeIndex": 60,
+      "direction": 0,
+      "sourceOrigin": [
+        50,
+        110
+      ],
+      "nodeScale": [
+        0.8,
+        0.8
+      ],
+      "tileScale": 1.3,
+      "gap": [
+        22,
+        0
+      ],
+      "backTileOffset": [
+        0,
+        2
+      ],
+      "GangLayoutType": -1,
+      "CardTipTagScale_G": 0.96,
+      "CPGTexture": [
+        "69e85933-1ff7-4236-9878-8304bafa6206",
+        "3131ac5a-2bc4-450a-9d88-44a78d8932b7",
+        "b593347d-77a9-405c-87f2-976ffbcb7633",
+        "6e0be884-5993-4304-aaeb-4a7efbed95f2",
+        "c7847cb6-e98a-4e62-95a2-6de1b803c64c"
+      ],
+      "tilePrefab": {
+        "uuid": "96071a0d-a849-4960-9720-fb620bf28135",
+        "bundle": "main",
+        "id": 236
+      },
+      "atlas": {
+        "uuid": "fcbb066d-a51a-4985-b583-fdc6c30eebdf",
+        "bundle": "game",
+        "id": 1397
+      },
+      "widget": {
+        "class": "cc.Widget",
+        "alignMode": 2,
+        "_alignFlags": 4,
+        "_left": 50,
+        "_right": -50,
+        "_top": 670,
+        "_bottom": 110,
+        "node": -306,
+        "_target": 2
+      },
+      "faces": {
+        "11": "35680248-ca58-4191-93c2-2edda796936e",
+        "12": "673b8553-1d1f-4183-aefb-4f25667c666d",
+        "13": "51d7fc6d-6b34-495b-8ba5-927f2b472ffc",
+        "14": "24673cdf-6f69-46cc-8c24-c64af2585d1c",
+        "15": "af24f2d6-e6d9-4d7f-a82f-24730439b678",
+        "16": "3b9f981d-51ce-42ca-9a28-dd365162ad03",
+        "17": "95b044d7-a240-4c82-b539-78f88430ee37",
+        "18": "a972fbf7-c41a-4139-a14e-87521f6829ba",
+        "19": "cf44b01c-b7e9-4570-83e9-3e69f6af1fca",
+        "21": "9e8bcbb0-4c42-4945-a1df-afd2e9ce81fa",
+        "22": "de889db8-cdb4-4d24-bb1f-31641d29f24e",
+        "23": "f96fdf28-7159-40ed-ab50-1e4206b8b73f",
+        "24": "25c01967-89bc-42df-b58a-3374ec88ca06",
+        "25": "df9b8e73-45c2-4063-8303-54838cff6824",
+        "26": "98942dbf-5e41-4f8e-b7c7-21c114d97d84",
+        "27": "5e529f47-5e88-4e2c-a341-9147b7db031f",
+        "28": "d056f97b-d0dd-4dca-b933-1712e707ded6",
+        "29": "0d5f3348-6d4d-4144-9486-892bb7e60eef",
+        "31": "6d294ada-6f74-44d2-b1f3-d9116f552f9f",
+        "32": "cc5873c1-03bd-4b1c-88d3-6b6fb8dd0ee6",
+        "33": "65d57bab-847d-4764-a92c-6d3945d84cd2",
+        "34": "c8654575-a1e4-452c-b645-cc4830dc0d1b",
+        "35": "a507f74c-2a24-4edc-93b5-dd715aa449b1",
+        "36": "c9d1246c-3165-45f3-a962-89aa9bf57e26",
+        "37": "26c3356a-d325-4199-aad5-9a6a25e9c60f",
+        "38": "3be26c98-3c89-480b-9b8a-56f0322a60ad",
+        "39": "12f7dfce-fbd1-4980-ae90-deff133998fc",
+        "51": "780622dc-b52d-41e2-828d-cfb598a2f07d",
+        "52": "c1af2511-612c-4cc3-a256-2677ac09e0fd",
+        "53": "c8cc551e-5c06-4ef6-929c-d32a256f1bf8"
+      },
+      "stacks": [
+        {
+          "tileZOderStart": 1,
+          "tileCount": 4,
+          "front": [
+            "92ccb9fe-106e-4f42-9adb-b88fce0f6857",
+            "19063646-8f2d-4477-89a4-1cb602e01e2f",
+            "455145fc-85e5-45ec-8e85-2c466cfacf25",
+            "455145fc-85e5-45ec-8e85-2c466cfacf25"
+          ],
+          "back": [
+            "643cec50-5fcf-41c9-bf25-207456a3d519",
+            "1c42b64e-e39f-4faa-82c7-25e57ecc8627",
+            "929120b4-274d-4ef9-b792-8f01f81540bc",
+            "929120b4-274d-4ef9-b792-8f01f81540bc"
+          ],
+          "colorPos": [
+            -4,
+            9
+          ],
+          "colorScale": [
+            0.6,
+            0.54
+          ],
+          "colorSkew": [
+            6.5,
+            0
+          ],
+          "colorRotation": 0,
+          "tileInterval": [
+            66,
+            0
+          ],
+          "GangSkewPos": [
+            -7,
+            22
+          ],
+          "CardTipTagPos": [
+            -4,
+            -28
+          ]
+        },
+        {
+          "tileZOderStart": 1,
+          "tileCount": 4,
+          "front": [
+            "dd47d3d2-5fe1-418c-a1d1-cad74046936d",
+            "f5326f68-e855-4d33-a22e-8bf28f915a3a",
+            "871519ff-2ba9-4289-80c9-5c031b74fc79",
+            "871519ff-2ba9-4289-80c9-5c031b74fc79"
+          ],
+          "back": [
+            "46cb835a-836d-448e-8965-4278e8a63fb7",
+            "694c0024-ee0b-4293-885f-923e6eb453cf",
+            "4babdaaa-3914-4035-99e8-c3934f21db4c",
+            "4babdaaa-3914-4035-99e8-c3934f21db4c"
+          ],
+          "colorPos": [
+            -2,
+            9
+          ],
+          "colorScale": [
+            0.6,
+            0.54
+          ],
+          "colorSkew": [
+            4,
+            0
+          ],
+          "colorRotation": 0,
+          "tileInterval": [
+            66,
+            0
+          ],
+          "GangSkewPos": [
+            -3,
+            22
+          ],
+          "CardTipTagPos": [
+            -2,
+            -28
+          ]
+        },
+        {
+          "tileZOderStart": 1,
+          "tileCount": 4,
+          "front": [
+            "afaef68a-f33e-4521-9a27-8e4384ffb19f",
+            "939123bf-29e5-4649-8d26-db064864a6a9",
+            "6eb853ed-b00d-4bdb-bf06-4e8ad239f46d",
+            "6eb853ed-b00d-4bdb-bf06-4e8ad239f46d"
+          ],
+          "back": [
+            "c2c7cfb3-0ae0-4ace-b60d-9c654896d85e",
+            "63d1bd21-a84a-4689-b9b9-83e2c5063cc3",
+            "bf5e5cfe-63ae-461f-8223-a9a7fdd49f74",
+            "bf5e5cfe-63ae-461f-8223-a9a7fdd49f74"
+          ],
+          "colorPos": [
+            -1.5,
+            9
+          ],
+          "colorScale": [
+            0.6,
+            0.54
+          ],
+          "colorSkew": [
+            1,
+            0
+          ],
+          "colorRotation": 0,
+          "tileInterval": [
+            66,
+            0
+          ],
+          "GangSkewPos": [
+            -1,
+            22
+          ],
+          "CardTipTagPos": [
+            0,
+            -28
+          ]
+        },
+        {
+          "tileZOderStart": 1,
+          "tileCount": 4,
+          "front": [
+            "283e9ed2-75a0-4343-a8fb-5e0566e697b4",
+            "6d08a466-0033-4176-94d6-2956e9c9cbfe",
+            "2288c421-73fd-4938-95a7-33e9f416cbfe",
+            "2288c421-73fd-4938-95a7-33e9f416cbfe"
+          ],
+          "back": [
+            "5664f751-ae7b-4a41-b504-a1e6c604da38",
+            "ac5f650d-f85d-4a63-b0e9-9862cc574552",
+            "6aee3d98-953e-409b-8623-a6f68fd8f005",
+            "6aee3d98-953e-409b-8623-a6f68fd8f005"
+          ],
+          "colorPos": [
+            -0.5,
+            9
+          ],
+          "colorScale": [
+            0.6,
+            0.54
+          ],
+          "colorSkew": [
+            -3,
+            0
+          ],
+          "colorRotation": 0,
+          "tileInterval": [
+            66,
+            0
+          ],
+          "GangSkewPos": [
+            1,
+            22
+          ],
+          "CardTipTagPos": [
+            1,
+            -28
+          ]
+        }
+      ]
+    },
+    "1": {
+      "name": "cpg_right",
+      "sceneNodeIndex": 83,
+      "direction": 3,
+      "sourceOrigin": [
+        1138,
+        220
+      ],
+      "nodeScale": [
+        -0.78,
+        0.78
+      ],
+      "tileScale": 1,
+      "gap": [
+        3,
+        22
+      ],
+      "backTileOffset": [
+        -2,
+        0
+      ],
+      "GangLayoutType": -1,
+      "CardTipTagScale_G": 1.05,
+      "CPGTexture": [
+        "69e85933-1ff7-4236-9878-8304bafa6206",
+        "b593347d-77a9-405c-87f2-976ffbcb7633",
+        "3131ac5a-2bc4-450a-9d88-44a78d8932b7",
+        "6e0be884-5993-4304-aaeb-4a7efbed95f2",
+        "c7847cb6-e98a-4e62-95a2-6de1b803c64c"
+      ],
+      "tilePrefab": {
+        "uuid": "c4089371-b0ad-4ef7-bca7-9cf46576cf11",
+        "bundle": "main",
+        "id": 295
+      },
+      "atlas": {
+        "uuid": "19454a1a-3681-47a2-861f-ae75c013a375",
+        "bundle": "game",
+        "id": 121
+      },
+      "widget": null,
+      "faces": {
+        "11": "2402e0cc-671b-4df5-a3aa-59f44f236d7c",
+        "12": "28da75ab-45e5-4b26-a94f-092a921bb569",
+        "13": "1217b8d1-43ce-4482-abe1-b5ccfb22cc70",
+        "14": "d1b2a875-50a9-48b7-b47c-b104a7e1050e",
+        "15": "9e914364-4f0a-4130-ad19-93e2f05fb7bf",
+        "16": "63b4bdf1-5934-43d5-8cf7-aa873b347247",
+        "17": "e70b1e20-e8ce-4b7b-b614-a45cf99a1e7f",
+        "18": "09e34b06-ddd0-4a5b-a78e-c450e99e0d94",
+        "19": "fa1cd536-7225-456b-96d5-1eeef5fdefdd",
+        "21": "71069aca-b146-45a2-b925-2a8c98bab2c5",
+        "22": "b755c627-38a6-44fb-afd9-98902400ebe8",
+        "23": "a339b3cb-51c6-47c9-99e9-17777f6c7169",
+        "24": "38084561-e423-4acd-901a-3c9402923cda",
+        "25": "4a0f8573-a39d-4fb1-a8a6-0b8c4b6cf7d3",
+        "26": "880a8460-d839-48fc-8fcd-10fd97b62e0d",
+        "27": "ee83c4c4-5a8e-4c06-956b-dd0f7a0a1f6c",
+        "28": "d9956e72-6d6a-4fd5-b3af-f61d3923bb8d",
+        "29": "45e41461-5fdf-4d76-b976-8ac2af17056e",
+        "31": "1d87310e-07c4-435a-8b6c-eb450994bbb7",
+        "32": "17daa6e6-7f89-448e-9cd7-024a987d136c",
+        "33": "9341a5d3-30a3-4483-973f-973643be897e",
+        "34": "256fa463-ee2a-432f-bac1-15d7cad0f79a",
+        "35": "425a0581-196e-4ffe-8e11-fce91af84b6b",
+        "36": "aed33aae-ba6e-4e70-bf5e-95aede103535",
+        "37": "8f0251cb-859d-4704-9436-f22c8e1e1c15",
+        "38": "453e4709-bbea-4cb4-be9f-39b2026fc137",
+        "39": "0476ffc9-3971-4206-a08f-62937c75cfba",
+        "51": "e5b58d9d-8fbb-438b-ab85-58b576bd748e",
+        "52": "09439d29-ebe7-442d-b90d-7e0f0d977380",
+        "53": "c49af56b-4d4b-439b-a054-4f23ca062752"
+      },
+      "stacks": [
+        {
+          "tileZOderStart": -1,
+          "tileCount": 4,
+          "front": [
+            "c641e135-0275-421e-a868-7033e54e4529",
+            "4946d067-f2ff-4883-93e0-e2f391fec1e8",
+            "d7df6f43-de9f-4319-b4e8-3fb29834ebad",
+            "d7df6f43-de9f-4319-b4e8-3fb29834ebad"
+          ],
+          "back": [
+            "6080a7c9-e68f-4bf8-a55c-f432fe79dcfc",
+            "afc6a18d-17b4-467a-bee0-e765d3c7af27",
+            "6bca3544-83f6-4bb3-9a39-9445a65bd73c",
+            "6bca3544-83f6-4bb3-9a39-9445a65bd73c"
+          ],
+          "colorPos": [
+            -3,
+            10
+          ],
+          "colorScale": [
+            -1,
+            1
+          ],
+          "colorSkew": [
+            0,
+            0
+          ],
+          "colorRotation": 0,
+          "tileInterval": [
+            8.5,
+            37.5
+          ],
+          "GangSkewPos": [
+            -7,
+            19
+          ],
+          "CardTipTagPos": [
+            -4,
+            -15
+          ]
+        },
+        {
+          "tileZOderStart": -5,
+          "tileCount": 4,
+          "front": [
+            "0255a585-84c9-4f0d-be71-ab39b786b932",
+            "8abaeaec-dfdd-444d-ab73-2b5ae1472670",
+            "f37b18a8-0549-40d5-b711-b270236f7e9d",
+            "f37b18a8-0549-40d5-b711-b270236f7e9d"
+          ],
+          "back": [
+            "78e3e15b-b900-4252-91dd-4faabfe5cbcd",
+            "5580a07b-c64e-45f1-889e-1e7410a96d6d",
+            "e6c15dd5-bad4-4d7e-be94-5e7072564541",
+            "e6c15dd5-bad4-4d7e-be94-5e7072564541"
+          ],
+          "colorPos": [
+            -3,
+            10
+          ],
+          "colorScale": [
+            -0.95,
+            0.9
+          ],
+          "colorSkew": [
+            0,
+            0
+          ],
+          "colorRotation": 0,
+          "tileInterval": [
+            7,
+            34.5
+          ],
+          "GangSkewPos": [
+            -7,
+            19
+          ],
+          "CardTipTagPos": [
+            -4,
+            -15
+          ]
+        },
+        {
+          "tileZOderStart": -21,
+          "tileCount": 4,
+          "front": [
+            "f3062f5b-cfc3-4301-b4ac-d54385081b1b",
+            "8b335ed2-e9e7-45cb-97c0-b53c2cffd358",
+            "6d716eac-3add-4290-9fef-fd3d35734538",
+            "6d716eac-3add-4290-9fef-fd3d35734538"
+          ],
+          "back": [
+            "d3774ca6-84b5-4ba6-b3f4-1ce2184a4b84",
+            "5176a771-6611-4c46-aa74-36e3a7443e53",
+            "495ea618-4180-4c85-88c4-1d49bff3f420",
+            "495ea618-4180-4c85-88c4-1d49bff3f420"
+          ],
+          "colorPos": [
+            -3,
+            10
+          ],
+          "colorScale": [
+            -0.9,
+            0.8
+          ],
+          "colorSkew": [
+            0,
+            0
+          ],
+          "colorRotation": 0,
+          "tileInterval": [
+            6.5,
+            33
+          ],
+          "GangSkewPos": [
+            -6,
+            18
+          ],
+          "CardTipTagPos": [
+            -4,
+            -15
+          ]
+        },
+        {
+          "tileZOderStart": -100,
+          "tileCount": -1,
+          "front": [
+            "9b748530-f22a-4967-86f6-24f8b75c6c32",
+            "43c70f43-c10c-4a70-a08c-012a65760ee0",
+            "b19e55c7-e52a-4c76-9537-211d2190335c",
+            "b19e55c7-e52a-4c76-9537-211d2190335c"
+          ],
+          "back": [
+            "629bcfa9-ad50-49a0-b48e-ed7d220274c3",
+            "ae970a4f-7653-48ea-830e-86dc943877ad",
+            "a870d3bb-e247-4c0f-aae5-82adf34696b8",
+            "a870d3bb-e247-4c0f-aae5-82adf34696b8"
+          ],
+          "colorPos": [
+            -3,
+            11
+          ],
+          "colorScale": [
+            -0.85,
+            0.8
+          ],
+          "colorSkew": [
+            0,
+            0
+          ],
+          "colorRotation": 0,
+          "tileInterval": [
+            5,
+            31
+          ],
+          "GangSkewPos": [
+            -6,
+            18
+          ],
+          "CardTipTagPos": [
+            -4,
+            -15
+          ]
+        }
+      ]
+    },
+    "2": {
+      "name": "cpg_front",
+      "sceneNodeIndex": 57,
+      "direction": 2,
+      "sourceOrigin": [
+        880,
+        685
+      ],
+      "nodeScale": [
+        0.6,
+        0.6
+      ],
+      "tileScale": 1,
+      "gap": [
+        -20,
+        0
+      ],
+      "backTileOffset": [
+        0,
+        2
+      ],
+      "GangLayoutType": -1,
+      "CardTipTagScale_G": 1.3,
+      "CPGTexture": [
+        "69e85933-1ff7-4236-9878-8304bafa6206",
+        "3131ac5a-2bc4-450a-9d88-44a78d8932b7",
+        "b593347d-77a9-405c-87f2-976ffbcb7633",
+        "6e0be884-5993-4304-aaeb-4a7efbed95f2",
+        "c7847cb6-e98a-4e62-95a2-6de1b803c64c"
+      ],
+      "tilePrefab": {
+        "uuid": "55e34261-519d-4ed6-83fa-612662454852",
+        "bundle": "main",
+        "id": 141
+      },
+      "atlas": {
+        "uuid": "4abe0784-4ea1-4ce3-8478-03219320eb99",
+        "bundle": "game",
+        "id": 385
+      },
+      "widget": {
+        "class": "cc.Widget",
+        "alignMode": 2,
+        "_alignFlags": 1,
+        "_left": 915,
+        "_top": 35,
+        "node": -299,
+        "_target": 2
+      },
+      "faces": {
+        "11": "a248c1ec-29b4-4ef5-8f9a-d3e94b7516f3",
+        "12": "9bb49752-34b7-48f7-826d-07d239327241",
+        "13": "422daa50-b452-4a01-8746-72add3c1fa9d",
+        "14": "1672207e-da07-4252-ab59-29c14ca36e68",
+        "15": "325074ed-986a-4946-84ec-01e8a1ddf5f9",
+        "16": "ee8c61f7-e696-4827-b81d-c2761f10469e",
+        "17": "36c1c3c0-b777-4e26-909c-1f3819b931da",
+        "18": "3d8e7628-0e8c-4316-b3cc-59c1dd226b76",
+        "19": "613c89d9-0099-4cd3-ae0d-a5a8f03adf4f",
+        "21": "632bb5c8-5fe9-4572-beb9-983c30e430c5",
+        "22": "a829f251-5c9e-45f9-bc52-3c4f87af3af4",
+        "23": "8122de8f-0748-4a76-898b-5feef147183c",
+        "24": "42693efc-a13c-4a26-b38b-647589340f71",
+        "25": "2132a5c4-73c7-4596-a4bf-a50a1078cc8c",
+        "26": "fda8a4fe-07b8-46fd-a219-a2f9cc68645b",
+        "27": "4089ce9a-0f87-42a2-9287-f01f1d20bf35",
+        "28": "8e9eaccb-ba8e-448d-a884-ef81a71f8251",
+        "29": "e4e6e4ca-a34b-4a36-b1ea-9c457597f7ee",
+        "31": "238c7bef-dd0d-41c8-a2af-13c6afbf4a57",
+        "32": "c6bfacb2-f5e8-4a88-894f-dab014cf016e",
+        "33": "970eced1-ca1c-48db-8565-d54cd9221c93",
+        "34": "11668928-338a-42e3-958c-2c4b414e6ca9",
+        "35": "072f4fd6-2647-48f2-a360-c86e4cd33c6d",
+        "36": "88d08798-4cc7-4fb8-b778-89a58bdbdfe9",
+        "37": "4b199100-ef4b-494e-b2ea-c78185660bc7",
+        "38": "82561c65-f3da-43c0-b48e-bfe9773d0623",
+        "39": "3a9821fd-209e-4806-98da-80973dc897d2",
+        "51": "ea112e6c-bd2c-49f8-a6b4-4bbf90951d0e",
+        "52": "88a8aaf8-8565-4ee7-8d04-02be7f91780c",
+        "53": "4af10083-49ec-49e7-aabc-3f857f8f2458"
+      },
+      "stacks": [
+        {
+          "tileZOderStart": 1,
+          "tileCount": 4,
+          "front": [
+            "2288c421-73fd-4938-95a7-33e9f416cbfe",
+            "6d08a466-0033-4176-94d6-2956e9c9cbfe",
+            "283e9ed2-75a0-4343-a8fb-5e0566e697b4",
+            "283e9ed2-75a0-4343-a8fb-5e0566e697b4"
+          ],
+          "back": [
+            "6aee3d98-953e-409b-8623-a6f68fd8f005",
+            "ac5f650d-f85d-4a63-b0e9-9862cc574552",
+            "5664f751-ae7b-4a41-b504-a1e6c604da38",
+            "5664f751-ae7b-4a41-b504-a1e6c604da38"
+          ],
+          "colorPos": [
+            0,
+            10
+          ],
+          "colorScale": [
+            1,
+            1
+          ],
+          "colorSkew": [
+            -2,
+            0
+          ],
+          "colorRotation": 0,
+          "tileInterval": [
+            -51,
+            0
+          ],
+          "GangSkewPos": [
+            1,
+            16
+          ],
+          "CardTipTagPos": [
+            1,
+            -30
+          ]
+        },
+        {
+          "tileZOderStart": -1,
+          "tileCount": 4,
+          "front": [
+            "6eb853ed-b00d-4bdb-bf06-4e8ad239f46d",
+            "939123bf-29e5-4649-8d26-db064864a6a9",
+            "afaef68a-f33e-4521-9a27-8e4384ffb19f",
+            "afaef68a-f33e-4521-9a27-8e4384ffb19f"
+          ],
+          "back": [
+            "bf5e5cfe-63ae-461f-8223-a9a7fdd49f74",
+            "63d1bd21-a84a-4689-b9b9-83e2c5063cc3",
+            "c2c7cfb3-0ae0-4ace-b60d-9c654896d85e",
+            "c2c7cfb3-0ae0-4ace-b60d-9c654896d85e"
+          ],
+          "colorPos": [
+            -2,
+            10
+          ],
+          "colorScale": [
+            1,
+            1
+          ],
+          "colorSkew": [
+            1,
+            0
+          ],
+          "colorRotation": 0,
+          "tileInterval": [
+            -51,
+            0
+          ],
+          "GangSkewPos": [
+            0,
+            16
+          ],
+          "CardTipTagPos": [
+            0,
+            -30
+          ]
+        },
+        {
+          "tileZOderStart": -1,
+          "tileCount": 4,
+          "front": [
+            "871519ff-2ba9-4289-80c9-5c031b74fc79",
+            "f5326f68-e855-4d33-a22e-8bf28f915a3a",
+            "dd47d3d2-5fe1-418c-a1d1-cad74046936d",
+            "dd47d3d2-5fe1-418c-a1d1-cad74046936d"
+          ],
+          "back": [
+            "4babdaaa-3914-4035-99e8-c3934f21db4c",
+            "694c0024-ee0b-4293-885f-923e6eb453cf",
+            "46cb835a-836d-448e-8965-4278e8a63fb7",
+            "46cb835a-836d-448e-8965-4278e8a63fb7"
+          ],
+          "colorPos": [
+            -2.5,
+            10
+          ],
+          "colorScale": [
+            1,
+            1
+          ],
+          "colorSkew": [
+            5,
+            0
+          ],
+          "colorRotation": 0,
+          "tileInterval": [
+            -51,
+            0
+          ],
+          "GangSkewPos": [
+            -3,
+            16
+          ],
+          "CardTipTagPos": [
+            -1.5,
+            -30
+          ]
+        },
+        {
+          "tileZOderStart": -1,
+          "tileCount": -1,
+          "front": [
+            "455145fc-85e5-45ec-8e85-2c466cfacf25",
+            "19063646-8f2d-4477-89a4-1cb602e01e2f",
+            "92ccb9fe-106e-4f42-9adb-b88fce0f6857",
+            "92ccb9fe-106e-4f42-9adb-b88fce0f6857"
+          ],
+          "back": [
+            "929120b4-274d-4ef9-b792-8f01f81540bc",
+            "1c42b64e-e39f-4faa-82c7-25e57ecc8627",
+            "643cec50-5fcf-41c9-bf25-207456a3d519",
+            "643cec50-5fcf-41c9-bf25-207456a3d519"
+          ],
+          "colorPos": [
+            -3,
+            10
+          ],
+          "colorScale": [
+            1,
+            1
+          ],
+          "colorSkew": [
+            8,
+            0
+          ],
+          "colorRotation": 0,
+          "tileInterval": [
+            -51,
+            0
+          ],
+          "GangSkewPos": [
+            -5,
+            16
+          ],
+          "CardTipTagPos": [
+            -4,
+            -30
+          ]
+        }
+      ]
+    },
+    "3": {
+      "name": "cpg_left",
+      "sceneNodeIndex": 78,
+      "direction": 1,
+      "sourceOrigin": [
+        230,
+        680
+      ],
+      "nodeScale": [
+        0.85,
+        0.85
+      ],
+      "tileScale": 1,
+      "gap": [
+        -3.5,
+        -20
+      ],
+      "backTileOffset": [
+        0,
+        0
+      ],
+      "GangLayoutType": -1,
+      "CardTipTagScale_G": 0.99,
+      "CPGTexture": [
+        "69e85933-1ff7-4236-9878-8304bafa6206",
+        "3131ac5a-2bc4-450a-9d88-44a78d8932b7",
+        "b593347d-77a9-405c-87f2-976ffbcb7633",
+        "6e0be884-5993-4304-aaeb-4a7efbed95f2",
+        "c7847cb6-e98a-4e62-95a2-6de1b803c64c"
+      ],
+      "tilePrefab": {
+        "uuid": "51da8fbd-a7e4-4168-be48-a7590dbb9e84",
+        "bundle": "main",
+        "id": 135
+      },
+      "atlas": {
+        "uuid": "19454a1a-3681-47a2-861f-ae75c013a375",
+        "bundle": "game",
+        "id": 121
+      },
+      "widget": null,
+      "faces": {
+        "11": "425eec49-9229-42da-94c5-772426e12be1",
+        "12": "2baf4189-57b4-45ef-8c46-8bcdc4902828",
+        "13": "881a891b-2b5c-4f87-bde4-8a365f36dc12",
+        "14": "227b2071-b6df-438d-a3c1-e7ea9826bd8e",
+        "15": "c83a39c8-ea3a-4bd7-894f-7cea1caa13c9",
+        "16": "fc8cb57f-322d-456a-b5f3-7a466d6b3c80",
+        "17": "0f8f07db-8f42-4c7c-9e66-3c4e73710c45",
+        "18": "8e56b5e2-2567-4623-b369-92f47eb0d90a",
+        "19": "3855b07a-a190-4afc-9d77-8a330fc839fe",
+        "21": "a7abe97d-9598-46c0-8b79-442582974705",
+        "22": "64ed1566-a7b4-4e0c-8a72-a347142f64e2",
+        "23": "c2c76981-62ff-4dd1-9630-8a17a89cd1ca",
+        "24": "0e15519e-65a8-4155-8c32-159658e04283",
+        "25": "8e9fa741-7403-4649-a4a7-c91afdf7e58a",
+        "26": "7df5ef58-23d6-44c0-8a7e-a2cd7e3b6d43",
+        "27": "d1ec033c-205f-4f7e-8d64-1319ff94808b",
+        "28": "9e62a0d8-9532-428a-9871-e78a4ebfdc9c",
+        "29": "dcdae669-9a06-4bec-914f-14a08d2a1e95",
+        "31": "f65dd662-abdf-4c28-a4f9-9b0e2d713bda",
+        "32": "d56d75ee-4161-45dd-8474-51806f2cd204",
+        "33": "935a84f2-c47e-4a6a-890c-e68c5e96f805",
+        "34": "af55d289-3abe-43c2-9d31-2c992d882c77",
+        "35": "816c6c3e-5cb4-4695-ab43-346f5b15540d",
+        "36": "f95f4424-e98d-4cf3-8075-86d7a7a14449",
+        "37": "0f55cddb-1710-4961-8224-719c330d8bd2",
+        "38": "f5eada6d-152e-4828-8fb5-ff2e563717ab",
+        "39": "b43fdb5a-33c8-4e71-9572-1b31f500c743",
+        "51": "478facd9-a12a-421b-a7e1-28a6593fcd29",
+        "52": "a67b617c-e86c-4544-880e-3a48c045ee85",
+        "53": "0b55cb59-14af-4267-8754-3127474ab93b"
+      },
+      "stacks": [
+        {
+          "tileZOderStart": 1,
+          "tileCount": 4,
+          "front": [
+            "200ac349-bc0c-4ca4-96b2-ab46a35794e8",
+            "62b4124a-7957-4b46-bbb7-14768f386dc4",
+            "393aec7c-90b6-4788-a775-a1684ed675da",
+            "393aec7c-90b6-4788-a775-a1684ed675da"
+          ],
+          "back": [
+            "3d046349-ab8b-4eeb-9dce-ebd31ecb8a51",
+            "59960bb1-371f-4433-9a4c-d14dc8aaa1b4",
+            "3b5dd8ed-df59-4ff2-a24a-2cb267f13da1",
+            "3b5dd8ed-df59-4ff2-a24a-2cb267f13da1"
+          ],
+          "colorPos": [
+            -4,
+            11
+          ],
+          "colorScale": [
+            0.7,
+            0.7
+          ],
+          "colorSkew": [
+            0,
+            0
+          ],
+          "colorRotation": 0,
+          "tileInterval": [
+            -5.5,
+            -28
+          ],
+          "GangSkewPos": [
+            -5,
+            16
+          ],
+          "CardTipTagPos": [
+            -4,
+            -15
+          ]
+        },
+        {
+          "tileZOderStart": 1,
+          "tileCount": 4,
+          "front": [
+            "b19e55c7-e52a-4c76-9537-211d2190335c",
+            "43c70f43-c10c-4a70-a08c-012a65760ee0",
+            "9b748530-f22a-4967-86f6-24f8b75c6c32",
+            "9b748530-f22a-4967-86f6-24f8b75c6c32"
+          ],
+          "back": [
+            "a870d3bb-e247-4c0f-aae5-82adf34696b8",
+            "ae970a4f-7653-48ea-830e-86dc943877ad",
+            "629bcfa9-ad50-49a0-b48e-ed7d220274c3",
+            "629bcfa9-ad50-49a0-b48e-ed7d220274c3"
+          ],
+          "colorPos": [
+            -4,
+            11
+          ],
+          "colorScale": [
+            0.75,
+            0.75
+          ],
+          "colorSkew": [
+            0,
+            0
+          ],
+          "colorRotation": 0,
+          "tileInterval": [
+            -6,
+            -30
+          ],
+          "GangSkewPos": [
+            -4,
+            16
+          ],
+          "CardTipTagPos": [
+            -4,
+            -15
+          ]
+        },
+        {
+          "tileZOderStart": 1,
+          "tileCount": 4,
+          "front": [
+            "6d716eac-3add-4290-9fef-fd3d35734538",
+            "8b335ed2-e9e7-45cb-97c0-b53c2cffd358",
+            "f3062f5b-cfc3-4301-b4ac-d54385081b1b",
+            "f3062f5b-cfc3-4301-b4ac-d54385081b1b"
+          ],
+          "back": [
+            "495ea618-4180-4c85-88c4-1d49bff3f420",
+            "5176a771-6611-4c46-aa74-36e3a7443e53",
+            "d3774ca6-84b5-4ba6-b3f4-1ce2184a4b84",
+            "d3774ca6-84b5-4ba6-b3f4-1ce2184a4b84"
+          ],
+          "colorPos": [
+            -4,
+            11
+          ],
+          "colorScale": [
+            0.8,
+            0.8
+          ],
+          "colorSkew": [
+            0,
+            0
+          ],
+          "colorRotation": 0,
+          "tileInterval": [
+            -7,
+            -33
+          ],
+          "GangSkewPos": [
+            -6,
+            16
+          ],
+          "CardTipTagPos": [
+            -4,
+            -15
+          ]
+        },
+        {
+          "tileZOderStart": 1,
+          "tileCount": 4,
+          "front": [
+            "f37b18a8-0549-40d5-b711-b270236f7e9d",
+            "8abaeaec-dfdd-444d-ab73-2b5ae1472670",
+            "0255a585-84c9-4f0d-be71-ab39b786b932",
+            "0255a585-84c9-4f0d-be71-ab39b786b932"
+          ],
+          "back": [
+            "e6c15dd5-bad4-4d7e-be94-5e7072564541",
+            "5580a07b-c64e-45f1-889e-1e7410a96d6d",
+            "78e3e15b-b900-4252-91dd-4faabfe5cbcd",
+            "78e3e15b-b900-4252-91dd-4faabfe5cbcd"
+          ],
+          "colorPos": [
+            -2,
+            9
+          ],
+          "colorScale": [
+            0.85,
+            0.85
+          ],
+          "colorSkew": [
+            0,
+            0
+          ],
+          "colorRotation": 0,
+          "tileInterval": [
+            -7,
+            -35
+          ],
+          "GangSkewPos": [
+            -7,
+            16
+          ],
+          "CardTipTagPos": [
+            -4,
+            -15
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,645 @@
+[
+  {
+    "bundle": "game",
+    "id": 955,
+    "path": "Other/Main/UserCtrl/hu_showInfo_bg2",
+    "name": "hu_showInfo_bg2",
+    "rect": [
+      74,
+      920,
+      30,
+      30
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      30,
+      30
+    ],
+    "capInsets": [
+      13,
+      13,
+      13,
+      13
+    ],
+    "textureUUID": "1d3763f6c",
+    "image": "control-study/assets/game-955-hu_showInfo_bg2.png"
+  },
+  {
+    "bundle": "game",
+    "id": 873,
+    "path": "Other/Main/UserCtrl/hu_showInfo_bg3",
+    "name": "hu_showInfo_bg3",
+    "rect": [
+      177,
+      215,
+      138,
+      39
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      138,
+      39
+    ],
+    "rotated": 1,
+    "capInsets": [
+      62,
+      16,
+      63,
+      16
+    ],
+    "textureUUID": "1d3763f6c",
+    "image": "control-study/assets/game-873-hu_showInfo_bg3.png"
+  },
+  {
+    "bundle": "game",
+    "id": 1457,
+    "name": "img_normal_card",
+    "rect": [
+      819,
+      2,
+      91,
+      134
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9",
+    "image": "control-study/assets/game-1457-img_normal_card.png"
+  },
+  {
+    "bundle": "game",
+    "id": 51,
+    "path": "Diy/PlayBack/img_finger",
+    "name": "img_finger",
+    "rect": [
+      3,
+      245,
+      120,
+      133
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      120,
+      133
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "1a8fd92a5",
+    "image": "control-study/assets/game-51-img_finger.png"
+  },
+  {
+    "bundle": "game",
+    "id": 985,
+    "path": "NewSkin/GamePanelBtn/guo",
+    "name": "guo",
+    "rect": [
+      9,
+      0,
+      103,
+      110
+    ],
+    "offset": [
+      1,
+      0
+    ],
+    "originalSize": [
+      119,
+      110
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "22ce465f-ebf8-41c4-b445-0b02159ab0bb",
+    "image": "control-study/assets/game-985-guo.png"
+  },
+  {
+    "bundle": "game",
+    "id": 331,
+    "path": "Other/Main/UserCtrl/gangshanghua",
+    "name": "gangshanghua",
+    "rect": [
+      3,
+      846,
+      116,
+      39
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      116,
+      39
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "1d3763f6c",
+    "image": "control-study/assets/game-331-gangshanghua.png"
+  },
+  {
+    "bundle": "game",
+    "id": 1319,
+    "path": "NewSkin/GamePanelBtn/chiAndGang/chi_small",
+    "name": "chi_small",
+    "rect": [
+      0,
+      0,
+      62,
+      61
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      62,
+      61
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "7d09bdfb-b149-4444-8a02-69932ed63f45",
+    "image": "control-study/assets/game-1319-chi_small.png"
+  },
+  {
+    "bundle": "game",
+    "id": 1163,
+    "path": "NewSkin/GamePanelBtn/chiAndGang/gang_small",
+    "name": "gang_small",
+    "rect": [
+      0,
+      0,
+      63,
+      62
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      63,
+      62
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "6d38ecee-bbbd-4fc4-b558-0227d3f6d54e",
+    "image": "control-study/assets/game-1163-gang_small.png"
+  },
+  {
+    "bundle": "game",
+    "id": 1212,
+    "path": "NewSkin/GamePanelBtn/chiAndGang/di",
+    "name": "di",
+    "rect": [
+      0,
+      0,
+      148,
+      97
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      148,
+      97
+    ],
+    "capInsets": [
+      12,
+      15,
+      14,
+      21
+    ],
+    "textureUUID": "a15a5838-b9cc-438b-9114-8dacc268d343",
+    "image": "control-study/assets/game-1212-di.png"
+  },
+  {
+    "bundle": "common",
+    "id": 326,
+    "path": "btn/bag_icon",
+    "name": "bag_icon",
+    "rect": [
+      241,
+      928,
+      91,
+      94
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      91,
+      94
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "1d54d8d70",
+    "image": "control-study/assets/common-326-bag_icon.png"
+  },
+  {
+    "bundle": "game",
+    "id": 141,
+    "path": "NewSkin/GamePanelBtn/peng",
+    "name": "peng",
+    "rect": [
+      0,
+      0,
+      134,
+      138
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      134,
+      138
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "a873177a-a443-4a3a-af66-899a0972c960",
+    "image": "control-study/assets/game-141-peng.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 2821,
+    "name": "tishi_quan",
+    "rect": [
+      404,
+      627,
+      96,
+      94
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      128,
+      128
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "aca60dbe-ae57-4f6e-ba44-d7a0b57ec4ba",
+    "image": "control-study/assets/resources-2821-tishi_quan.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 2917,
+    "name": "tishi_quan02",
+    "rect": [
+      662,
+      2,
+      128,
+      128
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      128,
+      128
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "aca60dbe-ae57-4f6e-ba44-d7a0b57ec4ba",
+    "image": "control-study/assets/resources-2917-tishi_quan02.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 1477,
+    "name": "tishi_peng_glow",
+    "rect": [
+      495,
+      154,
+      138,
+      136
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      140,
+      140
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "aca60dbe-ae57-4f6e-ba44-d7a0b57ec4ba",
+    "image": "control-study/assets/resources-1477-tishi_peng_glow.png"
+  },
+  {
+    "bundle": "game",
+    "id": 1345,
+    "path": "NewSkin/GamePanelBtn/gang",
+    "name": "gang",
+    "rect": [
+      2,
+      0,
+      132,
+      138
+    ],
+    "offset": [
+      1,
+      0
+    ],
+    "originalSize": [
+      134,
+      138
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "8771c2f3-4de0-4504-a38c-5796932608cf",
+    "image": "control-study/assets/game-1345-gang.png"
+  },
+  {
+    "bundle": "game",
+    "id": 422,
+    "path": "NewSkin/GamePanelBtn/hu",
+    "name": "hu",
+    "rect": [
+      23,
+      3,
+      127,
+      138
+    ],
+    "offset": [
+      2,
+      -1.5
+    ],
+    "originalSize": [
+      169,
+      141
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "1349d916-84f5-45f0-bce7-bb0ffa1eece7",
+    "image": "control-study/assets/game-422-hu.png"
+  },
+  {
+    "bundle": "game",
+    "id": 257,
+    "path": "NewSkin/GamePanelBtn/ting",
+    "name": "ting",
+    "rect": [
+      4,
+      0,
+      130,
+      138
+    ],
+    "offset": [
+      2,
+      0
+    ],
+    "originalSize": [
+      134,
+      138
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "5ae1370e-ea34-4a27-8784-47fa4c9b03b4",
+    "image": "control-study/assets/game-257-ting.png"
+  },
+  {
+    "bundle": "game",
+    "id": 876,
+    "path": "NewSkin/GamePanelBtn/zimo",
+    "name": "zimo",
+    "rect": [
+      14,
+      1,
+      149,
+      133
+    ],
+    "offset": [
+      4,
+      3
+    ],
+    "originalSize": [
+      169,
+      141
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "1086d5f7-78c0-4c4e-95ee-110ccf9534ea",
+    "image": "control-study/assets/game-876-zimo.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 2101,
+    "name": "ring_0421",
+    "rect": [
+      579,
+      434,
+      128,
+      128
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      128,
+      128
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "aca60dbe-ae57-4f6e-ba44-d7a0b57ec4ba",
+    "image": "control-study/assets/resources-2101-ring_0421.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 1532,
+    "name": "a_point201a",
+    "rect": [
+      172,
+      686,
+      54,
+      54
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      64,
+      64
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "aca60dbe-ae57-4f6e-ba44-d7a0b57ec4ba",
+    "image": "control-study/assets/resources-1532-a_point201a.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 1897,
+    "name": "zhizhen",
+    "rect": [
+      256,
+      686,
+      36,
+      43
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      36,
+      43
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "aca60dbe-ae57-4f6e-ba44-d7a0b57ec4ba",
+    "image": "control-study/assets/resources-1897-zhizhen.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 9,
+    "path": "mjhj/anims/game/AnimTextuerRes/lizi/zhizhen_lizi",
+    "name": "zhizhen_lizi",
+    "rect": [
+      3,
+      3,
+      63,
+      64
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      64,
+      64
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "11827b79a",
+    "image": "control-study/assets/resources-9-zhizhen_lizi.png"
+  },
+  {
+    "bundle": "game",
+    "id": 736,
+    "path": "Other/Main/UserCtrl/Btn_Guo",
+    "name": "Btn_Guo",
+    "rect": [
+      126,
+      640,
+      104,
+      104
+    ],
+    "offset": [
+      -0.5,
+      1
+    ],
+    "originalSize": [
+      107,
+      108
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "1d3763f6c",
+    "image": "control-study/assets/game-736-Btn_Guo.png"
+  }
+]

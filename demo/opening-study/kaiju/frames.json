@@ -1,0 +1,632 @@
+[
+  {
+    "bundle": "resources",
+    "id": 2835,
+    "name": "kuai_blue",
+    "rect": [
+      2,
+      2,
+      408,
+      184
+    ],
+    "offset": [
+      -1,
+      0
+    ],
+    "originalSize": [
+      410,
+      184
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "cb71fd65-7467-449f-94ff-bc92a58bb991",
+    "textureUUID": "a04db8df-7432-4b14-bf48-19c216c3b412",
+    "image": "opening-study/kaiju/assets/resources-2835-kuai_blue.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 2763,
+    "name": "kuai_yellow_",
+    "rect": [
+      412,
+      2,
+      399,
+      184
+    ],
+    "offset": [
+      -2,
+      0
+    ],
+    "originalSize": [
+      403,
+      184
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "bd89f035-cf4e-45cc-8349-864ce96b5f3f",
+    "textureUUID": "a04db8df-7432-4b14-bf48-19c216c3b412",
+    "image": "opening-study/kaiju/assets/resources-2763-kuai_yellow_.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 764,
+    "name": "blend_glow",
+    "rect": [
+      328,
+      904,
+      118,
+      120
+    ],
+    "offset": [
+      -5,
+      4
+    ],
+    "originalSize": [
+      128,
+      128
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "359b8c20-a747-45e7-8028-62ae1d629ef5",
+    "textureUUID": "a04db8df-7432-4b14-bf48-19c216c3b412",
+    "image": "opening-study/kaiju/assets/resources-764-blend_glow.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 2863,
+    "name": "zi_ju",
+    "rect": [
+      281,
+      753,
+      136,
+      149
+    ],
+    "offset": [
+      -15,
+      20
+    ],
+    "originalSize": [
+      166,
+      189
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "d3157feb-6d28-4f81-a3b4-de9ee675788a",
+    "textureUUID": "a04db8df-7432-4b14-bf48-19c216c3b412",
+    "image": "opening-study/kaiju/assets/resources-2863-zi_ju.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 97,
+    "name": "zi_kai",
+    "rect": [
+      2,
+      802,
+      136,
+      160
+    ],
+    "offset": [
+      -19,
+      22
+    ],
+    "originalSize": [
+      174,
+      204
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "08444d92-3e1d-4023-b39f-e262e0f72ad0",
+    "textureUUID": "a04db8df-7432-4b14-bf48-19c216c3b412",
+    "image": "opening-study/kaiju/assets/resources-97-zi_kai.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 2787,
+    "name": "ty_shine02",
+    "rect": [
+      418,
+      290,
+      124,
+      122
+    ],
+    "offset": [
+      -2,
+      3
+    ],
+    "originalSize": [
+      128,
+      128
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "c1f4ab1f-ad64-4a0b-983e-e92e3d9c54f6",
+    "textureUUID": "a04db8df-7432-4b14-bf48-19c216c3b412",
+    "image": "opening-study/kaiju/assets/resources-2787-ty_shine02.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 2815,
+    "name": "glow_0118",
+    "rect": [
+      2,
+      290,
+      254,
+      104
+    ],
+    "offset": [
+      -1,
+      0
+    ],
+    "originalSize": [
+      256,
+      104
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "c73019b9-2627-44b3-bdd0-eef54e0ad1ac",
+    "textureUUID": "a04db8df-7432-4b14-bf48-19c216c3b412",
+    "image": "opening-study/kaiju/assets/resources-2815-glow_0118.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 1412,
+    "name": "shandian__01",
+    "rect": [
+      108,
+      290,
+      250,
+      51
+    ],
+    "offset": [
+      -3,
+      0
+    ],
+    "originalSize": [
+      256,
+      51
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "57f0c549-a9cc-4856-93b6-08d4ee8a4eb3",
+    "textureUUID": "a04db8df-7432-4b14-bf48-19c216c3b412",
+    "image": "opening-study/kaiju/assets/resources-1412-shandian__01.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 1536,
+    "name": "M_shandian6_000",
+    "rect": [
+      984,
+      38,
+      24,
+      26
+    ],
+    "offset": [
+      -20,
+      8
+    ],
+    "originalSize": [
+      64,
+      42
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "7bf96b2d-58d1-416b-bb03-2829b1e51578",
+    "textureUUID": "a04db8df-7432-4b14-bf48-19c216c3b412",
+    "image": "opening-study/kaiju/assets/resources-1536-M_shandian6_000.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 2739,
+    "name": "saoguangtiao01",
+    "rect": [
+      108,
+      542,
+      248,
+      124
+    ],
+    "offset": [
+      -4,
+      2
+    ],
+    "originalSize": [
+      256,
+      128
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "b6a4c0e6-3d27-447d-aae2-38248a5919be",
+    "textureUUID": "a04db8df-7432-4b14-bf48-19c216c3b412",
+    "image": "opening-study/kaiju/assets/resources-2739-saoguangtiao01.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 714,
+    "name": "zi_ju_bai",
+    "rect": [
+      87,
+      188,
+      76,
+      83
+    ],
+    "offset": [
+      -7,
+      5
+    ],
+    "originalSize": [
+      90,
+      93
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "2392ad7d-a47c-4529-9475-796ea7bff344",
+    "textureUUID": "a04db8df-7432-4b14-bf48-19c216c3b412",
+    "image": "opening-study/kaiju/assets/resources-714-zi_ju_bai.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 2943,
+    "name": "zi_kai_bai",
+    "rect": [
+      211,
+      188,
+      70,
+      79
+    ],
+    "offset": [
+      -10,
+      7
+    ],
+    "originalSize": [
+      90,
+      93
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "e61013f8-563b-4453-a0b1-7975708ee96e",
+    "textureUUID": "a04db8df-7432-4b14-bf48-19c216c3b412",
+    "image": "opening-study/kaiju/assets/resources-2943-zi_kai_bai.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 24,
+    "path": "mjhj/anims/game/AnimTextuerRes/lizi/kaiju_lizi",
+    "name": "kaiju_lizi",
+    "rect": [
+      3,
+      142,
+      62,
+      62
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      64,
+      64
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "039de6e8-a4d6-4b6f-9fc2-8f393429818d",
+    "textureUUID": "11827b79a",
+    "image": "opening-study/kaiju/assets/resources-24-kaiju_lizi.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 2920,
+    "name": "shandian__02",
+    "rect": [
+      2,
+      964,
+      250,
+      51
+    ],
+    "offset": [
+      -3,
+      0
+    ],
+    "originalSize": [
+      256,
+      51
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "df7b6df5-fc86-4862-abe7-79cb7a5f2ede",
+    "textureUUID": "a04db8df-7432-4b14-bf48-19c216c3b412",
+    "image": "opening-study/kaiju/assets/resources-2920-shandian__02.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 1534,
+    "name": "shandian__03",
+    "rect": [
+      2,
+      546,
+      254,
+      51
+    ],
+    "offset": [
+      -1,
+      0
+    ],
+    "originalSize": [
+      256,
+      51
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "7baa18dd-02f3-45b0-be06-e30d1cb54bb8",
+    "textureUUID": "a04db8df-7432-4b14-bf48-19c216c3b412",
+    "image": "opening-study/kaiju/assets/resources-1534-shandian__03.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 2850,
+    "name": "shandian__04",
+    "rect": [
+      55,
+      546,
+      250,
+      51
+    ],
+    "offset": [
+      -3,
+      0
+    ],
+    "originalSize": [
+      256,
+      51
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "ceee5be4-6631-45bd-b022-c5c01f3bb884",
+    "textureUUID": "a04db8df-7432-4b14-bf48-19c216c3b412",
+    "image": "opening-study/kaiju/assets/resources-2850-shandian__04.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 1411,
+    "name": "shandian__05",
+    "rect": [
+      234,
+      527,
+      224,
+      47
+    ],
+    "offset": [
+      -16,
+      2
+    ],
+    "originalSize": [
+      256,
+      51
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "578783b4-d90a-481f-818d-e0ab3b3a8ebd",
+    "textureUUID": "a04db8df-7432-4b14-bf48-19c216c3b412",
+    "image": "opening-study/kaiju/assets/resources-1411-shandian__05.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 664,
+    "name": "M_shandian6_001",
+    "rect": [
+      984,
+      150,
+      20,
+      24
+    ],
+    "offset": [
+      -22,
+      9
+    ],
+    "originalSize": [
+      64,
+      42
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "1ce9cd87-c0f0-466c-98f2-522ca5cb48f6",
+    "textureUUID": "a04db8df-7432-4b14-bf48-19c216c3b412",
+    "image": "opening-study/kaiju/assets/resources-664-M_shandian6_001.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 691,
+    "name": "M_shandian6_002",
+    "rect": [
+      984,
+      108,
+      40,
+      24
+    ],
+    "offset": [
+      -12,
+      9
+    ],
+    "originalSize": [
+      64,
+      42
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "1f25b69f-9441-41a9-b4df-75907a2c1763",
+    "textureUUID": "a04db8df-7432-4b14-bf48-19c216c3b412",
+    "image": "opening-study/kaiju/assets/resources-691-M_shandian6_002.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 2829,
+    "name": "M_shandian6_003",
+    "rect": [
+      984,
+      2,
+      38,
+      34
+    ],
+    "offset": [
+      -13,
+      4
+    ],
+    "originalSize": [
+      64,
+      42
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "c9802b21-1028-4969-be73-4a3661f42c54",
+    "textureUUID": "a04db8df-7432-4b14-bf48-19c216c3b412",
+    "image": "opening-study/kaiju/assets/resources-2829-M_shandian6_003.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 1860,
+    "name": "M_shandian6_004",
+    "rect": [
+      984,
+      64,
+      42,
+      24
+    ],
+    "offset": [
+      -11,
+      9
+    ],
+    "originalSize": [
+      64,
+      42
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "8e894222-6b7a-461b-88d0-89afc2a7bbfb",
+    "textureUUID": "a04db8df-7432-4b14-bf48-19c216c3b412",
+    "image": "opening-study/kaiju/assets/resources-1860-M_shandian6_004.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 1392,
+    "name": "M_shandian6_005",
+    "rect": [
+      984,
+      172,
+      50,
+      22
+    ],
+    "offset": [
+      -7,
+      10
+    ],
+    "originalSize": [
+      64,
+      42
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "49458cb5-3977-49a9-a9c4-64e6d6c8b423",
+    "textureUUID": "a04db8df-7432-4b14-bf48-19c216c3b412",
+    "image": "opening-study/kaiju/assets/resources-1392-M_shandian6_005.png"
+  }
+]

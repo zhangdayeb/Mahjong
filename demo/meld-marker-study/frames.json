@@ -1,0 +1,264 @@
+[
+  {
+    "uuid": "c0a03df2-01c3-44e9-b93a-e98c4ae0a37a",
+    "bundle": "game",
+    "id": 1998,
+    "name": "img_arror_left",
+    "rect": [
+      986,
+      1103,
+      35,
+      43
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      35,
+      43
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9",
+    "image": "meld-marker-study/assets/game-1998-img_arror_left.png"
+  },
+  {
+    "uuid": "969cccfd-0264-44ff-9024-4ff119376b2e",
+    "bundle": "game",
+    "id": 1894,
+    "name": "img_arror_right",
+    "rect": [
+      986,
+      1058,
+      35,
+      43
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      35,
+      43
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9",
+    "image": "meld-marker-study/assets/game-1894-img_arror_right.png"
+  },
+  {
+    "uuid": "d0fdd243-f904-42a3-8e2d-e9e14ac38ed5",
+    "bundle": "game",
+    "id": 2048,
+    "name": "img_arror_down",
+    "rect": [
+      372,
+      1250,
+      39,
+      40
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      39,
+      40
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9",
+    "image": "meld-marker-study/assets/game-2048-img_arror_down.png"
+  },
+  {
+    "uuid": "311b9a29-2f0f-4e9d-a17a-83ae9e7c7ae0",
+    "bundle": "game",
+    "id": 1633,
+    "name": "img_arror_up",
+    "rect": [
+      880,
+      1213,
+      39,
+      39
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      39,
+      39
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9",
+    "image": "meld-marker-study/assets/game-1633-img_arror_up.png"
+  },
+  {
+    "uuid": "69e85933-1ff7-4236-9878-8304bafa6206",
+    "bundle": "game",
+    "id": 561,
+    "path": "Other/Main/arrows_icon2",
+    "name": "arrows_icon2",
+    "rect": [
+      144,
+      923,
+      24,
+      25
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      24,
+      25
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "1d3763f6c",
+    "image": "meld-marker-study/assets/game-561-arrows_icon2.png"
+  },
+  {
+    "uuid": "3131ac5a-2bc4-450a-9d88-44a78d8932b7",
+    "bundle": "game",
+    "id": 247,
+    "path": "Other/Main/arrows_icon3",
+    "name": "arrows_icon3",
+    "rect": [
+      144,
+      893,
+      24,
+      25
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      24,
+      25
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "1d3763f6c",
+    "image": "meld-marker-study/assets/game-247-arrows_icon3.png"
+  },
+  {
+    "uuid": "b593347d-77a9-405c-87f2-976ffbcb7633",
+    "bundle": "game",
+    "id": 979,
+    "path": "Other/Main/arrows_icon4",
+    "name": "arrows_icon4",
+    "rect": [
+      176,
+      957,
+      24,
+      25
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      24,
+      25
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "1d3763f6c",
+    "image": "meld-marker-study/assets/game-979-arrows_icon4.png"
+  },
+  {
+    "uuid": "6e0be884-5993-4304-aaeb-4a7efbed95f2",
+    "bundle": "game",
+    "id": 589,
+    "path": "Other/Main/arrows_icon1",
+    "name": "arrows_icon1",
+    "rect": [
+      176,
+      927,
+      24,
+      25
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      24,
+      25
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "1d3763f6c",
+    "image": "meld-marker-study/assets/game-589-arrows_icon1.png"
+  },
+  {
+    "uuid": "c7847cb6-e98a-4e62-95a2-6de1b803c64c",
+    "bundle": "game",
+    "id": 1092,
+    "path": "Other/Main/palm_icon",
+    "name": "palm_icon",
+    "rect": [
+      176,
+      987,
+      24,
+      25
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      24,
+      25
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "1d3763f6c",
+    "image": "meld-marker-study/assets/game-1092-palm_icon.png"
+  }
+]

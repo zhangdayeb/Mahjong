@@ -1,0 +1,3086 @@
+[
+  {
+    "bundle": "common",
+    "id": 759,
+    "path": "NewSkin/Bg/bg_02",
+    "name": "bg_02",
+    "rect": [
+      0,
+      0,
+      1600,
+      720
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1600,
+      720
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "ec4858ee-5ff5-4e90-9878-91d926459f98",
+    "textureUUID": "1b5d34f2-7d88-4b18-a9f1-f85562e57e09",
+    "image": "shop-study/assets/common-759-bg_02.png"
+  },
+  {
+    "bundle": "common",
+    "id": 349,
+    "path": "NewSkin/other/pic_com04",
+    "name": "pic_com04",
+    "rect": [
+      3,
+      591,
+      194,
+      720
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      194,
+      720
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "71718e9c-92c7-400d-bee9-9ec4911d3b35",
+    "textureUUID": "1d05abae0",
+    "image": "shop-study/assets/common-349-pic_com04.png"
+  },
+  {
+    "bundle": "common",
+    "id": 483,
+    "path": "NewSkin/other/pic_com05",
+    "name": "pic_com05",
+    "rect": [
+      706,
+      791,
+      175,
+      1
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      175,
+      1
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "9b12d700-8a3e-4691-89a2-5b62a34291b4",
+    "textureUUID": "1d05abae0",
+    "image": "shop-study/assets/common-483-pic_com05.png"
+  },
+  {
+    "bundle": "common",
+    "id": 348,
+    "path": "NewSkin/other/pic_com06",
+    "name": "pic_com06",
+    "rect": [
+      713,
+      866,
+      205,
+      87
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      205,
+      87
+    ],
+    "capInsets": [
+      81,
+      17,
+      40,
+      37
+    ],
+    "uuid": "713c42a3-952a-4ab3-b798-f8bff86accbd",
+    "textureUUID": "1d05abae0",
+    "image": "shop-study/assets/common-348-pic_com06.png"
+  },
+  {
+    "bundle": "common",
+    "id": 817,
+    "path": "NewSkin/Sudoku/pic_com03",
+    "name": "pic_com03",
+    "rect": [
+      79,
+      131,
+      75,
+      62
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      83,
+      70
+    ],
+    "capInsets": [
+      29,
+      0,
+      29,
+      0
+    ],
+    "uuid": "fefa49e7-643b-427f-abfc-d1e346deafb3",
+    "textureUUID": "157399797",
+    "image": "shop-study/assets/common-817-pic_com03.png"
+  },
+  {
+    "bundle": "common",
+    "id": 520,
+    "path": "NewSkin/Sudoku/fengexian",
+    "name": "fengexian",
+    "rect": [
+      456,
+      26,
+      175,
+      1
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      175,
+      1
+    ],
+    "rotated": 1,
+    "capInsets": [
+      8,
+      0,
+      9,
+      0
+    ],
+    "uuid": "a524976f-184d-4ac6-8bda-e87e3ce70472",
+    "textureUUID": "157399797",
+    "image": "shop-study/assets/common-520-fengexian.png"
+  },
+  {
+    "bundle": "common",
+    "id": 480,
+    "path": "NewSkin/NewBtn/btn_com01",
+    "name": "btn_com01",
+    "rect": [
+      347,
+      242,
+      91,
+      92
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      91,
+      92
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "9a8bba23-d9bd-4ff6-8524-b5aacc0a840f",
+    "textureUUID": "1e8019203",
+    "image": "shop-study/assets/common-480-btn_com01.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 166,
+    "path": "NewSkin/MainIcon/zhijianzhouka",
+    "name": "zhijianzhouka",
+    "rect": [
+      3,
+      807,
+      105,
+      105
+    ],
+    "offset": [
+      0.5,
+      1
+    ],
+    "originalSize": [
+      132,
+      123
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "102dd041-39cf-437e-af6d-8c02bb640df9",
+    "textureUUID": "176fd07e0",
+    "image": "shop-study/assets/lobby-166-zhijianzhouka.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 115,
+    "path": "NewSkin/MainIcon/zhijianzhouka1",
+    "name": "zhijianzhouka1",
+    "rect": [
+      347,
+      467,
+      98,
+      100
+    ],
+    "offset": [
+      1,
+      3.5
+    ],
+    "originalSize": [
+      132,
+      123
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "0b8b25a6-179a-4353-ae5e-f611934e78cf",
+    "textureUUID": "176fd07e0",
+    "image": "shop-study/assets/lobby-115-zhijianzhouka1.png"
+  },
+  {
+    "bundle": "common",
+    "id": 75,
+    "path": "NewSkin/other/pic_com17",
+    "name": "pic_com17",
+    "rect": [
+      994,
+      366,
+      24,
+      25
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      24,
+      25
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "1a90e871-5072-4dfa-8eb9-983e2d60ef00",
+    "textureUUID": "1d05abae0",
+    "image": "shop-study/assets/common-75-pic_com17.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1028,
+    "path": "NewSkin/shop/pic_01",
+    "name": "pic_01",
+    "rect": [
+      3,
+      3,
+      216,
+      246
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      216,
+      246
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "69c9634f-4a8d-4dd8-9d6b-2059ed6c0f8c",
+    "textureUUID": "1f5d20710",
+    "image": "shop-study/assets/lobby-1028-pic_01.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 537,
+    "path": "NewSkin/shop/btn_com01",
+    "name": "btn_com01",
+    "rect": [
+      456,
+      230,
+      216,
+      52
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      216,
+      52
+    ],
+    "rotated": 1,
+    "capInsets": [
+      17,
+      0,
+      0,
+      0
+    ],
+    "uuid": "34011d29-8795-4962-9ea2-3247f9a40551",
+    "textureUUID": "1f5d20710",
+    "image": "shop-study/assets/lobby-537-btn_com01.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 688,
+    "path": "shop/bgFlower2",
+    "name": "bgFlower2",
+    "rect": [
+      131,
+      619,
+      121,
+      118
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      121,
+      118
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "453853ae-973c-44e8-baef-868d991c7c1b",
+    "textureUUID": "1c205a5e9",
+    "image": "shop-study/assets/lobby-688-bgFlower2.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 672,
+    "path": "NewSkin/shop/pic_29",
+    "name": "pic_29",
+    "rect": [
+      644,
+      271,
+      128,
+      124
+    ],
+    "offset": [
+      2.5,
+      -1.5
+    ],
+    "originalSize": [
+      159,
+      143
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "433dd91b-6131-48dc-8c3b-5779689fe90e",
+    "textureUUID": "11cac3ed8",
+    "image": "shop-study/assets/lobby-672-pic_29.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 712,
+    "path": "NewSkin/shop/shangcheng",
+    "name": "shangcheng",
+    "rect": [
+      332,
+      446,
+      101,
+      64
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      101,
+      64
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "48112c60-5c96-4e09-a074-ae473fca19ad@6c48a",
+    "textureUUID": "1f5d20710",
+    "image": "shop-study/assets/lobby-712-shangcheng.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1602,
+    "path": "shop/hot",
+    "name": "hot",
+    "rect": [
+      159,
+      357,
+      79,
+      74
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      79,
+      74
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "a8e3513a-c275-4d42-b6a0-ab4328fe905e",
+    "textureUUID": "1c205a5e9",
+    "image": "shop-study/assets/lobby-1602-hot.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 2398,
+    "path": "shop/biaoqian",
+    "name": "biaoqian",
+    "rect": [
+      164,
+      263,
+      88,
+      88
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      88,
+      88
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "fca374c2-5162-47f1-b39e-d3a5448f67e8",
+    "textureUUID": "1c205a5e9",
+    "image": "shop-study/assets/lobby-2398-biaoqian.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1685,
+    "path": "shop/img_share",
+    "name": "img_share",
+    "rect": [
+      219,
+      71,
+      29,
+      27
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      29,
+      27
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "b0e20c4d-17ef-4f15-9bbd-cd3b6df44bee",
+    "textureUUID": "1c205a5e9",
+    "image": "shop-study/assets/lobby-1685-img_share.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 874,
+    "path": "NewSkin/shop/pic_34",
+    "name": "pic_34",
+    "rect": [
+      328,
+      3,
+      279,
+      376
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      279,
+      376
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "59274c58-5943-4a3e-b984-aceabaa7f548",
+    "textureUUID": "11cac3ed8",
+    "image": "shop-study/assets/lobby-874-pic_34.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 356,
+    "path": "NewSkin/shop/btn_com01-1",
+    "name": "btn_com01-1",
+    "rect": [
+      292,
+      480,
+      216,
+      52
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      216,
+      52
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "23aa5d4a-8acf-44c4-91ae-066bcbd74bed",
+    "textureUUID": "11cac3ed8",
+    "image": "shop-study/assets/lobby-356-btn_com01-1.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 2064,
+    "path": "NewSkin/shop/pic_38",
+    "name": "pic_38",
+    "rect": [
+      228,
+      230,
+      210,
+      222
+    ],
+    "offset": [
+      -1.5,
+      -0.5
+    ],
+    "originalSize": [
+      221,
+      223
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "d8b251b5-3ded-4ef7-b949-52dbb0473b1b",
+    "textureUUID": "1f5d20710",
+    "image": "shop-study/assets/lobby-2064-pic_38.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 154,
+    "path": "shop/youhui/halftag",
+    "name": "halftag",
+    "rect": [
+      3,
+      3,
+      68,
+      67
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      68,
+      67
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "0f5e1672-b1a5-4d18-8eca-a6bd669b4f5d",
+    "textureUUID": "1ca7d4388",
+    "image": "shop-study/assets/lobby-154-halftag.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1439,
+    "path": "NewSkin/shop/pic_39",
+    "name": "pic_39",
+    "rect": [
+      859,
+      191,
+      213,
+      113
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      213,
+      113
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "97855777-d8d0-48c8-ab41-b2fa0944ebd7",
+    "textureUUID": "11cac3ed8",
+    "image": "shop-study/assets/lobby-1439-pic_39.png"
+  },
+  {
+    "bundle": "fonts",
+    "id": 248,
+    "path": "lobby/shop/fnt_bide-export",
+    "name": "fnt_bide-export",
+    "rect": [
+      0,
+      0,
+      67,
+      126
+    ],
+    "offset": [
+      -30.5,
+      1
+    ],
+    "originalSize": [
+      128,
+      128
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "ddec4c85-c29e-48cf-99c9-4f4afcd9d66b",
+    "textureUUID": "ab63fa80-f76a-4b3b-946b-adb2f9eb90d1",
+    "image": "shop-study/assets/fonts-248-fnt_bide-export.png"
+  },
+  {
+    "bundle": "common",
+    "id": 286,
+    "path": "NewSkin/NewBtn/btn_com15",
+    "name": "btn_com15",
+    "rect": [
+      130,
+      985,
+      31,
+      30
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      31,
+      30
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "5a6a6a59-8983-4cf8-b013-3055267a7028",
+    "textureUUID": "1e8019203",
+    "image": "shop-study/assets/common-286-btn_com15.png"
+  },
+  {
+    "bundle": "common",
+    "id": 147,
+    "path": "NewSkin/other/pic_zs",
+    "name": "pic_zs",
+    "rect": [
+      540,
+      897,
+      55,
+      49
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      55,
+      49
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "2ec1b62d-3a87-457d-b0e7-a8df02dad37f",
+    "textureUUID": "1d05abae0",
+    "image": "shop-study/assets/common-147-pic_zs.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1831,
+    "path": "GameDeskIcon/zhuozi_tyss",
+    "name": "zhuozi_tyss",
+    "rect": [
+      3,
+      365,
+      116,
+      115
+    ],
+    "offset": [
+      0.5,
+      1
+    ],
+    "originalSize": [
+      117,
+      117
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "bfa14cfc-be76-441a-b58f-253c94ca7e99",
+    "textureUUID": "183183426",
+    "image": "shop-study/assets/lobby-1831-zhuozi_tyss.png"
+  },
+  {
+    "bundle": "common",
+    "id": 117,
+    "path": "NewSkin/NewBtn/btn_com11",
+    "name": "btn_com11",
+    "rect": [
+      127,
+      789,
+      67,
+      23
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      67,
+      23
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "288ba5e3-c1b6-4802-aee1-6399a5512c45",
+    "textureUUID": "1e8019203",
+    "image": "shop-study/assets/common-117-btn_com11.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1030,
+    "path": "NewSkin/GameDeskTag/tag_-1",
+    "name": "tag_-1",
+    "rect": [
+      3,
+      264,
+      81,
+      38
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      81,
+      38
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "6a401a27-f185-4fff-ae86-db2a2b157ef0",
+    "textureUUID": "18c7f81ca",
+    "image": "shop-study/assets/lobby-1030-tag_-1.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1503,
+    "path": "NewSkin/shop/btn_com01-3",
+    "name": "btn_com01-3",
+    "rect": [
+      451,
+      452,
+      215,
+      52
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      215,
+      52
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "9d9a3606-0c0d-45dd-a44b-3895e807ea3f",
+    "textureUUID": "1f5d20710",
+    "image": "shop-study/assets/lobby-1503-btn_com01-3.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 2345,
+    "path": "NewSkin/shop/pic_49",
+    "name": "pic_49",
+    "rect": [
+      980,
+      547,
+      77,
+      34
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      77,
+      34
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "f5497d90-ceb2-41e2-89af-af3a41e503f8",
+    "textureUUID": "11cac3ed8",
+    "image": "shop-study/assets/lobby-2345-pic_49.png"
+  },
+  {
+    "bundle": "common",
+    "id": 25,
+    "path": "PropIcon/jipaiqi",
+    "name": "jipaiqi",
+    "rect": [
+      208,
+      821,
+      65,
+      64
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      67,
+      66
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "0a077606-f249-4e98-a114-406f4f824f78",
+    "textureUUID": "1c75bf90b",
+    "image": "shop-study/assets/common-25-jipaiqi.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 2120,
+    "path": "NewSkin/shop/pic_03",
+    "name": "pic_03",
+    "rect": [
+      978,
+      347,
+      194,
+      24
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      194,
+      24
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "df722537-0080-436e-84ff-90f9e67d536c",
+    "textureUUID": "11cac3ed8",
+    "image": "shop-study/assets/lobby-2120-pic_03.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1494,
+    "path": "NewSkin/coin/bean1",
+    "name": "bean1",
+    "rect": [
+      3,
+      478,
+      133,
+      74
+    ],
+    "offset": [
+      5,
+      -14.5
+    ],
+    "originalSize": [
+      159,
+      143
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "9c5a7033-ced0-46e2-a98e-41ee84d7bc38",
+    "textureUUID": "12d07ac36",
+    "image": "shop-study/assets/lobby-1494-bean1.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1108,
+    "path": "shop/zCoin/zhekou_bg",
+    "name": "zhekou_bg",
+    "rect": [
+      159,
+      437,
+      131,
+      67
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      131,
+      67
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "72616d6f-62ca-45c5-b70e-f2c47811e194",
+    "textureUUID": "1c205a5e9",
+    "image": "shop-study/assets/lobby-1108-zhekou_bg.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 7,
+    "path": "shop/zCoin/biaoqiandi",
+    "name": "biaoqiandi",
+    "rect": [
+      120,
+      860,
+      105,
+      105
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      105,
+      105
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "00b3c928-b71c-4203-a431-98c6944a5bdb",
+    "textureUUID": "1c205a5e9",
+    "image": "shop-study/assets/lobby-7-biaoqiandi.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1795,
+    "path": "NewSkin/shop/btn_com06",
+    "name": "btn_com06",
+    "rect": [
+      3,
+      948,
+      446,
+      45
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      446,
+      45
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "bba27cf9-fff0-408d-99e3-10c81b1347e6",
+    "textureUUID": "11cac3ed8",
+    "image": "shop-study/assets/lobby-1795-btn_com06.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1915,
+    "path": "NewSkin/shop/btn_com07",
+    "name": "btn_com07",
+    "rect": [
+      455,
+      948,
+      231,
+      45
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      231,
+      45
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "c7d71aca-c396-4446-978d-0c000075c2c4",
+    "textureUUID": "11cac3ed8",
+    "image": "shop-study/assets/lobby-1915-btn_com07.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 118,
+    "path": "NewSkin/shop/pic_31",
+    "name": "pic_31",
+    "rect": [
+      292,
+      538,
+      281,
+      381
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      281,
+      381
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "0bb475ef-c501-47f3-a1a1-25877ae99a34",
+    "textureUUID": "11cac3ed8",
+    "image": "shop-study/assets/lobby-118-pic_31.png"
+  },
+  {
+    "bundle": "common",
+    "id": 582,
+    "path": "NewSkin/NewBtn/btn_com02_2",
+    "name": "btn_com02_2",
+    "rect": [
+      3,
+      3,
+      339,
+      132
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      339,
+      132
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "b7864e45-f2b7-4125-8e58-b7194a728fcc",
+    "textureUUID": "1e8019203",
+    "image": "shop-study/assets/common-582-btn_com02_2.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 836,
+    "path": "NewSkin/shop/pic_33",
+    "name": "pic_33",
+    "rect": [
+      3,
+      480,
+      283,
+      382
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      283,
+      382
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "56323b24-535c-4177-b3b3-84e92d414a85",
+    "textureUUID": "11cac3ed8",
+    "image": "shop-study/assets/lobby-836-pic_33.png"
+  },
+  {
+    "bundle": "common",
+    "id": 351,
+    "path": "NewSkin/other/pic_com01",
+    "name": "pic_com01",
+    "rect": [
+      713,
+      959,
+      183,
+      35
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      183,
+      35
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "72745acf-5348-4ceb-a311-9321a6907255",
+    "textureUUID": "1d05abae0",
+    "image": "shop-study/assets/common-351-pic_com01.png"
+  },
+  {
+    "bundle": "common",
+    "id": 578,
+    "path": "NewSkin/other/pic_zjd",
+    "name": "pic_zjd",
+    "rect": [
+      474,
+      959,
+      47,
+      51
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      47,
+      51
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "b66757dc-f09b-4944-b834-8ac75175833f",
+    "textureUUID": "1d05abae0",
+    "image": "shop-study/assets/common-578-pic_zjd.png"
+  },
+  {
+    "bundle": "common",
+    "id": 702,
+    "path": "NewSkin/NewBtn/btn_com05",
+    "name": "btn_com05",
+    "rect": [
+      232,
+      789,
+      21,
+      21
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      23,
+      23
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "dd45657a-7c95-4cf7-ace8-60709dde2d4b",
+    "textureUUID": "1e8019203",
+    "image": "shop-study/assets/common-702-btn_com05.png"
+  },
+  {
+    "bundle": "common",
+    "id": 620,
+    "path": "NewSkin/other/pic_zjb",
+    "name": "pic_zjb",
+    "rect": [
+      540,
+      952,
+      48,
+      53
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      48,
+      53
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "c4115296-c3cb-46ff-84f1-52d5b001e5fe",
+    "textureUUID": "1d05abae0",
+    "image": "shop-study/assets/common-620-pic_zjb.png"
+  },
+  {
+    "bundle": "common",
+    "id": 749,
+    "path": "CoinNum&FareNum/btnGet",
+    "name": "btnGet",
+    "rect": [
+      85,
+      186,
+      60,
+      37
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      60,
+      37
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "e8c40957-7814-417d-bc53-601a6b63ba0b",
+    "textureUUID": "128f721b8",
+    "image": "shop-study/assets/common-749-btnGet.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 737,
+    "path": "NewSkin/shop/pic_23",
+    "name": "pic_23",
+    "rect": [
+      3,
+      444,
+      118,
+      132
+    ],
+    "offset": [
+      0.5,
+      5.5
+    ],
+    "originalSize": [
+      159,
+      143
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "4a65c06f-2953-4101-b08d-fba69184287e",
+    "textureUUID": "1f5d20710",
+    "image": "shop-study/assets/lobby-737-pic_23.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 2173,
+    "path": "NewSkin/shop/pic_24",
+    "name": "pic_24",
+    "rect": [
+      359,
+      640,
+      124,
+      76
+    ],
+    "offset": [
+      3.5,
+      -14.5
+    ],
+    "originalSize": [
+      159,
+      143
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "e45a7826-8a2d-403a-8207-26a422f963b9",
+    "textureUUID": "1f5d20710",
+    "image": "shop-study/assets/lobby-2173-pic_24.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1107,
+    "path": "NewSkin/shop/pic_25",
+    "name": "pic_25",
+    "rect": [
+      575,
+      825,
+      114,
+      87
+    ],
+    "offset": [
+      0.5,
+      -13
+    ],
+    "originalSize": [
+      159,
+      143
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "725e70cc-9d42-4f76-8c9c-8538e85c9b53",
+    "textureUUID": "11cac3ed8",
+    "image": "shop-study/assets/lobby-1107-pic_25.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1730,
+    "path": "NewSkin/shop/pic_26",
+    "name": "pic_26",
+    "rect": [
+      859,
+      935,
+      153,
+      85
+    ],
+    "offset": [
+      1,
+      -12
+    ],
+    "originalSize": [
+      159,
+      143
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "b4d592c7-6bfc-4b2d-ac55-c9ed77945545",
+    "textureUUID": "11cac3ed8",
+    "image": "shop-study/assets/lobby-1730-pic_26.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 2234,
+    "path": "NewSkin/shop/pic_27",
+    "name": "pic_27",
+    "rect": [
+      102,
+      776,
+      121,
+      96
+    ],
+    "offset": [
+      0,
+      -7.5
+    ],
+    "originalSize": [
+      159,
+      143
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "e9bd9039-e42b-4edc-a144-32358444f4c1",
+    "textureUUID": "1f5d20710",
+    "image": "shop-study/assets/lobby-2234-pic_27.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 33,
+    "path": "NewSkin/shop/pic_28",
+    "name": "pic_28",
+    "rect": [
+      3,
+      568,
+      112,
+      125
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      159,
+      143
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "0332c489-a828-4a8d-b0c5-8c1093b56100",
+    "textureUUID": "1f5d20710",
+    "image": "shop-study/assets/lobby-33-pic_28.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 285,
+    "path": "NewSkin/shop/pic_30",
+    "name": "pic_30",
+    "rect": [
+      679,
+      410,
+      140,
+      125
+    ],
+    "offset": [
+      -1.5,
+      0
+    ],
+    "originalSize": [
+      159,
+      143
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "1b8fd6b2-3eb6-41a9-b91e-5eb274adb46d",
+    "textureUUID": "11cac3ed8",
+    "image": "shop-study/assets/lobby-285-pic_30.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 458,
+    "path": "NewSkin/coin/bean2",
+    "name": "bean2",
+    "rect": [
+      3,
+      3,
+      143,
+      93
+    ],
+    "offset": [
+      1,
+      -15
+    ],
+    "originalSize": [
+      159,
+      143
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "2ca20612-06d1-4ce8-891f-d6081301855e",
+    "textureUUID": "12d07ac36",
+    "image": "shop-study/assets/lobby-458-bean2.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 803,
+    "path": "NewSkin/coin/bean3",
+    "name": "bean3",
+    "rect": [
+      3,
+      913,
+      118,
+      89
+    ],
+    "offset": [
+      0.5,
+      -8
+    ],
+    "originalSize": [
+      159,
+      143
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "52de95fb-0980-46e4-9cd3-d9a7276b80bb",
+    "textureUUID": "12d07ac36",
+    "image": "shop-study/assets/lobby-803-bean3.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1999,
+    "path": "NewSkin/coin/bean4",
+    "name": "bean4",
+    "rect": [
+      3,
+      804,
+      121,
+      103
+    ],
+    "offset": [
+      0,
+      -5
+    ],
+    "originalSize": [
+      159,
+      143
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "d202336c-e10d-4386-9596-6516a57f8ae1",
+    "textureUUID": "12d07ac36",
+    "image": "shop-study/assets/lobby-1999-bean4.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 463,
+    "path": "NewSkin/coin/bean5",
+    "name": "bean5",
+    "rect": [
+      3,
+      688,
+      110,
+      123
+    ],
+    "offset": [
+      0.5,
+      -2
+    ],
+    "originalSize": [
+      159,
+      143
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "2ce828fe-ea88-4f5b-82fd-b228a99e10a1",
+    "textureUUID": "12d07ac36",
+    "image": "shop-study/assets/lobby-463-bean5.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 2177,
+    "path": "NewSkin/coin/bean6",
+    "name": "bean6",
+    "rect": [
+      3,
+      558,
+      129,
+      124
+    ],
+    "offset": [
+      6,
+      -2.5
+    ],
+    "originalSize": [
+      159,
+      143
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "e4b0aa65-0f9a-4d0c-a735-5d1defcf2138",
+    "textureUUID": "12d07ac36",
+    "image": "shop-study/assets/lobby-2177-bean6.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 2066,
+    "path": "NewSkin/coin/bean7",
+    "name": "bean7",
+    "rect": [
+      3,
+      344,
+      134,
+      128
+    ],
+    "offset": [
+      1.5,
+      -0.5
+    ],
+    "originalSize": [
+      159,
+      143
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "d8e54cc9-902b-44b3-a424-ff3461b9a9cb",
+    "textureUUID": "12d07ac36",
+    "image": "shop-study/assets/lobby-2066-bean7.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1601,
+    "path": "NewSkin/coin/bean8",
+    "name": "bean8",
+    "rect": [
+      3,
+      210,
+      134,
+      128
+    ],
+    "offset": [
+      1.5,
+      -0.5
+    ],
+    "originalSize": [
+      159,
+      143
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "a8dbcd0e-6ba1-42c8-9f39-ee95d8c247f7",
+    "textureUUID": "12d07ac36",
+    "image": "shop-study/assets/lobby-1601-bean8.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 97,
+    "path": "GameDeskIcon/zhuozi_ytcx",
+    "name": "zhuozi_ytcx",
+    "rect": [
+      3,
+      123,
+      115,
+      114
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      117,
+      117
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "0951ea96-93a3-4e48-a929-fc5e342abe28",
+    "textureUUID": "183183426",
+    "image": "shop-study/assets/lobby-97-zhuozi_ytcx.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 128,
+    "path": "NewSkin/shop/pic_06",
+    "name": "pic_06",
+    "rect": [
+      692,
+      966,
+      23,
+      24
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      23,
+      24
+    ],
+    "capInsets": [
+      4,
+      6,
+      6,
+      6
+    ],
+    "uuid": "0ce09e1a-14a0-4d06-896e-1da24e174bf1",
+    "textureUUID": "11cac3ed8",
+    "image": "shop-study/assets/lobby-128-pic_06.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 159,
+    "path": "GameDeskIcon/zhuozi_xingyue",
+    "name": "zhuozi_xingyue",
+    "rect": [
+      124,
+      125,
+      116,
+      116
+    ],
+    "offset": [
+      0.5,
+      -0.5
+    ],
+    "originalSize": [
+      117,
+      117
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "0fe338f1-ede7-4262-a70a-91925e3f8322",
+    "textureUUID": "183183426",
+    "image": "shop-study/assets/lobby-159-zhuozi_xingyue.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 335,
+    "path": "NewSkin/shop/pic_04",
+    "name": "pic_04",
+    "rect": [
+      692,
+      935,
+      135,
+      25
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      135,
+      25
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "216b69ae-e1ad-4f66-8726-9fc21ff88292",
+    "textureUUID": "11cac3ed8",
+    "image": "shop-study/assets/lobby-335-pic_04.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 354,
+    "path": "NewSkin/shop/pic_37",
+    "name": "pic_37",
+    "rect": [
+      859,
+      3,
+      162,
+      182
+    ],
+    "offset": [
+      0.5,
+      -12.5
+    ],
+    "originalSize": [
+      221,
+      223
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "2395576c-9172-4978-9214-bf46e4573d3e",
+    "textureUUID": "11cac3ed8",
+    "image": "shop-study/assets/lobby-354-pic_37.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 430,
+    "path": "NewSkin/shop/pic_10",
+    "name": "pic_10",
+    "rect": [
+      3,
+      999,
+      423,
+      14
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      423,
+      14
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "29cc333b-ea2a-4892-81c9-864e532ad140",
+    "textureUUID": "11cac3ed8",
+    "image": "shop-study/assets/lobby-430-pic_10.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 470,
+    "path": "NewSkin/shop/pic_17",
+    "name": "pic_17",
+    "rect": [
+      3,
+      686,
+      143,
+      93
+    ],
+    "offset": [
+      1,
+      -15
+    ],
+    "originalSize": [
+      159,
+      143
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "2d61ace7-4d2c-491d-a703-59b7f0d2a7e4",
+    "textureUUID": "1f5d20710",
+    "image": "shop-study/assets/lobby-470-pic_17.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 497,
+    "path": "NewSkin/shop/pic_35",
+    "name": "pic_35",
+    "rect": [
+      255,
+      3,
+      221,
+      223
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      221,
+      223
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "2fc37e31-6afc-489e-974b-afb249118c5f",
+    "textureUUID": "1f5d20710",
+    "image": "shop-study/assets/lobby-497-pic_35.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 498,
+    "path": "NewSkin/shop/pic_40",
+    "name": "pic_40",
+    "rect": [
+      3,
+      3,
+      319,
+      471
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      319,
+      471
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "2fe9a569-7e18-4101-8a7c-6cf54e2b2aed",
+    "textureUUID": "11cac3ed8",
+    "image": "shop-study/assets/lobby-498-pic_40.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 614,
+    "path": "GameDeskIcon/zhuozi_classic",
+    "name": "zhuozi_classic",
+    "rect": [
+      3,
+      3,
+      114,
+      114
+    ],
+    "offset": [
+      0.5,
+      0.5
+    ],
+    "originalSize": [
+      117,
+      117
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "3da9e2c0-a353-4e36-805d-aa4a4d36b262",
+    "textureUUID": "183183426",
+    "image": "shop-study/assets/lobby-614-zhuozi_classic.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 662,
+    "path": "NewSkin/shop/pic_07",
+    "name": "pic_07",
+    "rect": [
+      721,
+      966,
+      22,
+      24
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      22,
+      24
+    ],
+    "capInsets": [
+      5,
+      5,
+      5,
+      4
+    ],
+    "uuid": "424591cd-23d5-49bf-b2b2-425a1316e6ca",
+    "textureUUID": "11cac3ed8",
+    "image": "shop-study/assets/lobby-662-pic_07.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 709,
+    "path": "NewSkin/shop/pic_11",
+    "name": "pic_11",
+    "rect": [
+      432,
+      999,
+      421,
+      12
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      421,
+      12
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "47a4c6aa-cae2-4732-9bab-4349f3f20679",
+    "textureUUID": "11cac3ed8",
+    "image": "shop-study/assets/lobby-709-pic_11.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 731,
+    "path": "NewSkin/shop/pic_42",
+    "name": "pic_42",
+    "rect": [
+      613,
+      3,
+      231,
+      262
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      231,
+      262
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "49bc6a08-99c1-4851-8c83-9539d56f3abb",
+    "textureUUID": "11cac3ed8",
+    "image": "shop-study/assets/lobby-731-pic_42.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 756,
+    "path": "NewSkin/shop/pic_44",
+    "name": "pic_44",
+    "rect": [
+      980,
+      630,
+      73,
+      30
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      73,
+      30
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "4d3d24b8-dc06-42ab-9d59-ab2ce6486096",
+    "textureUUID": "11cac3ed8",
+    "image": "shop-study/assets/lobby-756-pic_44.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 788,
+    "path": "NewSkin/shop/pic_48",
+    "name": "pic_48",
+    "rect": [
+      980,
+      709,
+      73,
+      30
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      73,
+      30
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "505f575a-2d5e-464d-9869-157a4237719e",
+    "textureUUID": "11cac3ed8",
+    "image": "shop-study/assets/lobby-788-pic_48.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 815,
+    "path": "NewSkin/shop/pic_45",
+    "name": "pic_45",
+    "rect": [
+      980,
+      788,
+      73,
+      30
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      73,
+      30
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "53eeaf8d-a509-421b-b094-c3f56614cbd0",
+    "textureUUID": "11cac3ed8",
+    "image": "shop-study/assets/lobby-815-pic_45.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 837,
+    "path": "NewSkin/shop/pic_18",
+    "name": "pic_18",
+    "rect": [
+      328,
+      385,
+      118,
+      89
+    ],
+    "offset": [
+      0.5,
+      -8
+    ],
+    "originalSize": [
+      159,
+      143
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "563358a8-77b4-4613-ba17-8d12205a0b1b",
+    "textureUUID": "11cac3ed8",
+    "image": "shop-study/assets/lobby-837-pic_18.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 848,
+    "path": "NewSkin/shop/pic_43",
+    "name": "pic_43",
+    "rect": [
+      213,
+      567,
+      122,
+      68
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      122,
+      68
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "5733c455-486f-423e-b920-2665be4874be",
+    "textureUUID": "1f5d20710",
+    "image": "shop-study/assets/lobby-848-pic_43.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 870,
+    "path": "NewSkin/shop/pic_12",
+    "name": "pic_12",
+    "rect": [
+      341,
+      516,
+      118,
+      99
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      118,
+      99
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "58a0e94b-5a75-45eb-a77b-611b509bbe69",
+    "textureUUID": "1f5d20710",
+    "image": "shop-study/assets/lobby-870-pic_12.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 954,
+    "path": "NewSkin/shop/pic_05",
+    "name": "pic_05",
+    "rect": [
+      978,
+      191,
+      150,
+      37
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      150,
+      37
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "620cc85c-5838-4cb9-a56c-e3412825d665",
+    "textureUUID": "11cac3ed8",
+    "image": "shop-study/assets/lobby-954-pic_05.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 965,
+    "path": "NewSkin/shop/pic_32",
+    "name": "pic_32",
+    "rect": [
+      692,
+      547,
+      282,
+      382
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      282,
+      382
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "633dd62f-1c37-44c9-8974-2b24cea55e96",
+    "textureUUID": "11cac3ed8",
+    "image": "shop-study/assets/lobby-965-pic_32.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 979,
+    "path": "NewSkin/shop/pic_xin",
+    "name": "pic_xin",
+    "rect": [
+      452,
+      385,
+      49,
+      42
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      49,
+      42
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "64c025b9-7ec7-4173-9db9-f91379cd6fce",
+    "textureUUID": "11cac3ed8",
+    "image": "shop-study/assets/lobby-979-pic_xin.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 981,
+    "path": "GameDeskIcon/zhuozi_mwsg",
+    "name": "zhuozi_mwsg",
+    "rect": [
+      126,
+      370,
+      126,
+      123
+    ],
+    "offset": [
+      2.5,
+      -4.5
+    ],
+    "originalSize": [
+      133,
+      138
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "650235d6-2e66-4e2b-95ad-a506ff31c22e",
+    "textureUUID": "183183426",
+    "image": "shop-study/assets/lobby-981-zhuozi_mwsg.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1142,
+    "path": "NewSkin/shop/btn_com04",
+    "name": "btn_com04",
+    "rect": [
+      451,
+      673,
+      43,
+      43
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      43,
+      43
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "753db9ca-78bc-445a-b6c3-91e69f591abb",
+    "textureUUID": "1f5d20710",
+    "image": "shop-study/assets/lobby-1142-btn_com04.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1151,
+    "path": "NewSkin/shop/pic_22",
+    "name": "pic_22",
+    "rect": [
+      825,
+      410,
+      134,
+      128
+    ],
+    "offset": [
+      1.5,
+      -0.5
+    ],
+    "originalSize": [
+      159,
+      143
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "76b774c5-58e8-4154-ae0d-31742b1b1b70",
+    "textureUUID": "11cac3ed8",
+    "image": "shop-study/assets/lobby-1151-pic_22.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1473,
+    "path": "GameDeskIcon/zhuozi_bfxr",
+    "name": "zhuozi_bfxr",
+    "rect": [
+      3,
+      732,
+      133,
+      138
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      133,
+      138
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "9a744900-0bdf-4073-b335-be0b5f36c5f2",
+    "textureUUID": "183183426",
+    "image": "shop-study/assets/lobby-1473-zhuozi_bfxr.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1499,
+    "path": "NewSkin/shop/btn_com03",
+    "name": "btn_com03",
+    "rect": [
+      451,
+      722,
+      43,
+      43
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      43,
+      43
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "9d51e7eb-86eb-4fbd-9533-f27c4fe695a5",
+    "textureUUID": "1f5d20710",
+    "image": "shop-study/assets/lobby-1499-btn_com03.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1658,
+    "path": "NewSkin/shop/pic_13",
+    "name": "pic_13",
+    "rect": [
+      3,
+      868,
+      566,
+      74
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      566,
+      74
+    ],
+    "capInsets": [
+      277,
+      30,
+      247,
+      16
+    ],
+    "uuid": "aee17333-d253-42df-82be-c009ff7fea11",
+    "textureUUID": "11cac3ed8",
+    "image": "shop-study/assets/lobby-1658-pic_13.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1815,
+    "path": "NewSkin/shop/pic_46",
+    "name": "pic_46",
+    "rect": [
+      292,
+      825,
+      73,
+      30
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      73,
+      30
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "bd8a17cd-c091-4c60-8097-3ac151371a81",
+    "textureUUID": "11cac3ed8",
+    "image": "shop-study/assets/lobby-1815-pic_46.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1861,
+    "path": "GameDeskIcon/zhuozi_xrzl",
+    "name": "zhuozi_xrzl",
+    "rect": [
+      124,
+      3,
+      115,
+      116
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      117,
+      117
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "c336fd17-a775-449d-afad-82d2f43e9fc9",
+    "textureUUID": "183183426",
+    "image": "shop-study/assets/lobby-1861-zhuozi_xrzl.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1885,
+    "path": "NewSkin/shop/pic_47",
+    "name": "pic_47",
+    "rect": [
+      371,
+      825,
+      73,
+      30
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      73,
+      30
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "c4f49afe-0e9d-46e8-aeac-1268c2e398dd",
+    "textureUUID": "11cac3ed8",
+    "image": "shop-study/assets/lobby-1885-pic_47.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1925,
+    "path": "NewSkin/shop/pic_08",
+    "name": "pic_08",
+    "rect": [
+      213,
+      446,
+      115,
+      113
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      115,
+      113
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "c92162fe-0ac7-4531-8093-9c4978e98339",
+    "textureUUID": "1f5d20710",
+    "image": "shop-study/assets/lobby-1925-pic_08.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1991,
+    "path": "GameDeskIcon/zhuozi_sxjq",
+    "name": "zhuozi_sxjq",
+    "rect": [
+      126,
+      502,
+      127,
+      128
+    ],
+    "offset": [
+      3,
+      -3
+    ],
+    "originalSize": [
+      133,
+      138
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "d1545133-ab08-4e63-becd-d6e18e0bf00d",
+    "textureUUID": "183183426",
+    "image": "shop-study/assets/lobby-1991-zhuozi_sxjq.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 2008,
+    "path": "NewSkin/shop/pic_20",
+    "name": "pic_20",
+    "rect": [
+      134,
+      647,
+      110,
+      123
+    ],
+    "offset": [
+      0.5,
+      -2
+    ],
+    "originalSize": [
+      159,
+      143
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "d2bfaaea-ef28-45db-8a9d-89f0819f83b8",
+    "textureUUID": "1f5d20710",
+    "image": "shop-study/assets/lobby-2008-pic_20.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 2132,
+    "path": "NewSkin/shop/pic_41",
+    "name": "pic_41",
+    "rect": [
+      3,
+      225,
+      219,
+      213
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      219,
+      213
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "e13dd486-7eaf-4730-bd33-8da866bb3c2a",
+    "textureUUID": "1f5d20710",
+    "image": "shop-study/assets/lobby-2132-pic_41.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 2171,
+    "path": "NewSkin/shop/btn_com01-2",
+    "name": "btn_com01-2",
+    "rect": [
+      229,
+      776,
+      216,
+      52
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      216,
+      52
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "e42e0f39-2a4c-4e45-b094-079b409d394a",
+    "textureUUID": "1f5d20710",
+    "image": "shop-study/assets/lobby-2171-btn_com01-2.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 2176,
+    "path": "NewSkin/shop/pic_16",
+    "name": "pic_16",
+    "rect": [
+      774,
+      271,
+      133,
+      74
+    ],
+    "offset": [
+      5,
+      -14.5
+    ],
+    "originalSize": [
+      159,
+      143
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "e4a8bad0-0c2a-4e37-a63a-42fbcd396fd9",
+    "textureUUID": "11cac3ed8",
+    "image": "shop-study/assets/lobby-2176-pic_16.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 2245,
+    "path": "NewSkin/shop/btn_com05",
+    "name": "btn_com05",
+    "rect": [
+      141,
+      444,
+      197,
+      66
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      197,
+      66
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "ea8f7deb-b2e5-4d65-a07c-162e2cafdcf3",
+    "textureUUID": "1f5d20710",
+    "image": "shop-study/assets/lobby-2245-btn_com05.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 2252,
+    "path": "NewSkin/shop/pic_19",
+    "name": "pic_19",
+    "rect": [
+      250,
+      641,
+      121,
+      103
+    ],
+    "offset": [
+      0,
+      -5
+    ],
+    "originalSize": [
+      159,
+      143
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "eb4561c3-b0a8-4389-82a8-546c480d9df6",
+    "textureUUID": "1f5d20710",
+    "image": "shop-study/assets/lobby-2252-pic_19.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 2299,
+    "path": "GameDeskIcon/zhuozi_purple_wind",
+    "name": "zhuozi_purple_wind",
+    "rect": [
+      3,
+      609,
+      117,
+      117
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      117,
+      117
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "f0d5e3ca-b9ff-4878-84a8-b46022fa05c7",
+    "textureUUID": "183183426",
+    "image": "shop-study/assets/lobby-2299-zhuozi_purple_wind.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 2304,
+    "path": "GameDeskIcon/zhuozi_slyj",
+    "name": "zhuozi_slyj",
+    "rect": [
+      3,
+      244,
+      115,
+      115
+    ],
+    "offset": [
+      0,
+      -3.5
+    ],
+    "originalSize": [
+      133,
+      138
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "f15a4442-b1c3-42a5-8b13-d5c193aadbfa",
+    "textureUUID": "183183426",
+    "image": "shop-study/assets/lobby-2304-zhuozi_slyj.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 2321,
+    "path": "GameDeskIcon/zhuozi_aurora_blue",
+    "name": "zhuozi_aurora_blue",
+    "rect": [
+      3,
+      487,
+      115,
+      116
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      117,
+      117
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "f3518284-09de-42cb-8a98-76e4e6e4e6b1",
+    "textureUUID": "183183426",
+    "image": "shop-study/assets/lobby-2321-zhuozi_aurora_blue.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 2356,
+    "path": "NewSkin/shop/pic_21",
+    "name": "pic_21",
+    "rect": [
+      514,
+      385,
+      129,
+      124
+    ],
+    "offset": [
+      6,
+      -2.5
+    ],
+    "originalSize": [
+      159,
+      143
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "f68c4193-45d3-4a5e-af28-32a717ee336c",
+    "textureUUID": "11cac3ed8",
+    "image": "shop-study/assets/lobby-2356-pic_21.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 2384,
+    "path": "GameDeskIcon/zhuozi_sjcc",
+    "name": "zhuozi_sjcc",
+    "rect": [
+      124,
+      247,
+      116,
+      117
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      117,
+      117
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "fb3f0f19-b5c7-4229-9d04-1033610c17a6",
+    "textureUUID": "183183426",
+    "image": "shop-study/assets/lobby-2384-zhuozi_sjcc.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 2402,
+    "path": "NewSkin/shop/btn_com02",
+    "name": "btn_com02",
+    "rect": [
+      980,
+      867,
+      36,
+      38
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      36,
+      38
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "fd4391b5-4a1b-47d2-afb3-bb37f95e0fa8",
+    "textureUUID": "11cac3ed8",
+    "image": "shop-study/assets/lobby-2402-btn_com02.png"
+  }
+]

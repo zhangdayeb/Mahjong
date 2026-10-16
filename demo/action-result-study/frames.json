@@ -1,0 +1,1326 @@
+[
+  {
+    "bundle": "game",
+    "id": 878,
+    "path": "NewSkin/GamePanelBtn/maZai/hu",
+    "name": "hu",
+    "rect": [
+      31,
+      22,
+      364,
+      155
+    ],
+    "offset": [
+      15.5,
+      -11
+    ],
+    "originalSize": [
+      395,
+      177
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "a6d6f303-bc49-4720-a257-428d7ba0c947",
+    "textureUUID": "e9656a7b-830b-4958-b2bc-9453908f5b16",
+    "image": "action-result-study/assets/game-878-hu.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 1615,
+    "path": "mjhj/anims/game/AnimTextuerRes/common_cpgh/Resource/gold_icon/hupai_lizi_0000",
+    "name": "hupai_lizi_0000",
+    "rect": [
+      968,
+      735,
+      52,
+      84
+    ],
+    "offset": [
+      -11,
+      -41
+    ],
+    "originalSize": [
+      400,
+      400
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "85ca2377-0b3b-4cd2-a911-ae8a37d32841",
+    "textureUUID": "1d12a36bd",
+    "image": "action-result-study/assets/resources-1615-hupai_lizi_0000.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 1276,
+    "path": "mjhj/anims/game/AnimTextuerRes/common_cpgh/Resource/gold_icon/hupai_lizi_0001",
+    "name": "hupai_lizi_0001",
+    "rect": [
+      196,
+      847,
+      148,
+      179
+    ],
+    "offset": [
+      2,
+      -14.5
+    ],
+    "originalSize": [
+      400,
+      400
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "77bd6e1c-6926-43f5-a122-7e1588dc3b88",
+    "textureUUID": "13a0bb3c1",
+    "image": "action-result-study/assets/resources-1276-hupai_lizi_0001.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 2045,
+    "path": "mjhj/anims/game/AnimTextuerRes/common_cpgh/Resource/gold_icon/hupai_lizi_0002",
+    "name": "hupai_lizi_0002",
+    "rect": [
+      3,
+      824,
+      190,
+      187
+    ],
+    "offset": [
+      3,
+      3.5
+    ],
+    "originalSize": [
+      400,
+      400
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "b2d8b9f0-6c84-4db7-9a5c-5464a4e0a715",
+    "textureUUID": "13a0bb3c1",
+    "image": "action-result-study/assets/resources-2045-hupai_lizi_0002.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 2131,
+    "path": "mjhj/anims/game/AnimTextuerRes/common_cpgh/Resource/gold_icon/hupai_lizi_0003",
+    "name": "hupai_lizi_0003",
+    "rect": [
+      3,
+      591,
+      230,
+      227
+    ],
+    "offset": [
+      2,
+      3.5
+    ],
+    "originalSize": [
+      400,
+      400
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "b5ba36d5-b187-4dfb-b767-229f3e2fb0be",
+    "textureUUID": "13a0bb3c1",
+    "image": "action-result-study/assets/resources-2131-hupai_lizi_0003.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 404,
+    "path": "mjhj/anims/game/AnimTextuerRes/common_cpgh/Resource/gold_icon/hupai_lizi_0004",
+    "name": "hupai_lizi_0004",
+    "rect": [
+      303,
+      582,
+      260,
+      259
+    ],
+    "offset": [
+      1,
+      0.5
+    ],
+    "originalSize": [
+      400,
+      400
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "2efcc053-ffee-452d-b368-00cd14133b17",
+    "textureUUID": "13a0bb3c1",
+    "image": "action-result-study/assets/resources-404-hupai_lizi_0004.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 2125,
+    "path": "mjhj/anims/game/AnimTextuerRes/common_cpgh/Resource/gold_icon/hupai_lizi_0005",
+    "name": "hupai_lizi_0005",
+    "rect": [
+      320,
+      292,
+      284,
+      285
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      400,
+      400
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "b530e34a-5f34-46fd-9ed3-f2bbba4395f3",
+    "textureUUID": "13a0bb3c1",
+    "image": "action-result-study/assets/resources-2125-hupai_lizi_0005.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 297,
+    "path": "mjhj/anims/game/AnimTextuerRes/common_cpgh/Resource/gold_icon/hupai_lizi_0006",
+    "name": "hupai_lizi_0006",
+    "rect": [
+      3,
+      3,
+      305,
+      311
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      400,
+      400
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "1fd55860-697c-44dd-8916-ec972f29181f",
+    "textureUUID": "13a0bb3c1",
+    "image": "action-result-study/assets/resources-297-hupai_lizi_0006.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 2408,
+    "path": "mjhj/anims/game/AnimTextuerRes/common_cpgh/Resource/gold_icon/hupai_lizi_0007",
+    "name": "hupai_lizi_0007",
+    "rect": [
+      320,
+      3,
+      306,
+      283
+    ],
+    "offset": [
+      -11,
+      23.5
+    ],
+    "originalSize": [
+      400,
+      400
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "d84a4a48-ad45-4be9-b85f-8d9f8661aac8",
+    "textureUUID": "13a0bb3c1",
+    "image": "action-result-study/assets/resources-2408-hupai_lizi_0007.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 225,
+    "path": "mjhj/anims/game/AnimTextuerRes/common_cpgh/Resource/gold_icon/hupai_lizi_0008",
+    "name": "hupai_lizi_0008",
+    "rect": [
+      303,
+      693,
+      346,
+      302
+    ],
+    "offset": [
+      -3,
+      21
+    ],
+    "originalSize": [
+      400,
+      400
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "1671e084-2da2-489f-87c7-31ed845ed7af",
+    "textureUUID": "1d12a36bd",
+    "image": "action-result-study/assets/resources-225-hupai_lizi_0008.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 1358,
+    "path": "mjhj/anims/game/AnimTextuerRes/common_cpgh/Resource/gold_icon/hupai_lizi_0009",
+    "name": "hupai_lizi_0009",
+    "rect": [
+      401,
+      3,
+      371,
+      321
+    ],
+    "offset": [
+      -1.5,
+      20.5
+    ],
+    "originalSize": [
+      400,
+      400
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "73a31e1b-2cab-4b00-b052-6fbe5c0ec439",
+    "textureUUID": "1d12a36bd",
+    "image": "action-result-study/assets/resources-1358-hupai_lizi_0009.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 1347,
+    "path": "mjhj/anims/game/AnimTextuerRes/common_cpgh/Resource/gold_icon/hupai_lizi_0010",
+    "name": "hupai_lizi_0010",
+    "rect": [
+      3,
+      3,
+      392,
+      336
+    ],
+    "offset": [
+      0,
+      20
+    ],
+    "originalSize": [
+      400,
+      400
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "725c5359-693c-4308-8495-d2cc296ecf9d",
+    "textureUUID": "1d12a36bd",
+    "image": "action-result-study/assets/resources-1347-hupai_lizi_0010.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 2568,
+    "path": "mjhj/anims/game/AnimTextuerRes/common_cpgh/Resource/gold_icon/hupai_lizi_0011",
+    "name": "hupai_lizi_0011",
+    "rect": [
+      668,
+      380,
+      324,
+      349
+    ],
+    "offset": [
+      -38,
+      19.5
+    ],
+    "originalSize": [
+      400,
+      400
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "eaeb2127-f733-4581-a3eb-3c729d9c6190",
+    "textureUUID": "1d12a36bd",
+    "image": "action-result-study/assets/resources-2568-hupai_lizi_0011.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 26,
+    "path": "mjhj/anims/game/AnimTextuerRes/common_cpgh/Resource/gold_icon/hupai_lizi_0012",
+    "name": "hupai_lizi_0012",
+    "rect": [
+      303,
+      380,
+      307,
+      359
+    ],
+    "offset": [
+      -22.5,
+      18.5
+    ],
+    "originalSize": [
+      400,
+      400
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "03bb795d-639d-44f8-880f-f2100ecfb7e7",
+    "textureUUID": "1d12a36bd",
+    "image": "action-result-study/assets/resources-26-hupai_lizi_0012.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 120,
+    "path": "mjhj/anims/game/AnimTextuerRes/common_cpgh/Resource/gold_icon/hupai_lizi_0013",
+    "name": "hupai_lizi_0013",
+    "rect": [
+      3,
+      345,
+      294,
+      367
+    ],
+    "offset": [
+      -9,
+      16.5
+    ],
+    "originalSize": [
+      400,
+      400
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "0acd7e7c-a37f-493f-8bb9-d432ac6a5a58",
+    "textureUUID": "1d12a36bd",
+    "image": "action-result-study/assets/resources-120-hupai_lizi_0013.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 2199,
+    "path": "mjhj/anims/game/AnimTextuerRes/common_cpgh/Resource/gold_icon/hupai_lizi_0014",
+    "name": "hupai_lizi_0014",
+    "rect": [
+      3,
+      314,
+      271,
+      294
+    ],
+    "offset": [
+      8.5,
+      -25
+    ],
+    "originalSize": [
+      400,
+      400
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "bde32b7f-1f57-468e-8362-fcfe20dd6f68",
+    "textureUUID": "13a0bb3c1",
+    "image": "action-result-study/assets/resources-2199-hupai_lizi_0014.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 2629,
+    "path": "mjhj/anims/game/AnimTextuerRes/common_cpgh/Resource/gold_icon/hupai_lizi_0016",
+    "name": "hupai_lizi_0016",
+    "rect": [
+      655,
+      735,
+      286,
+      307
+    ],
+    "offset": [
+      9,
+      -27.5
+    ],
+    "originalSize": [
+      400,
+      400
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "f39d5c1b-25c9-4476-9b39-3636bf2f6901",
+    "textureUUID": "1d12a36bd",
+    "image": "action-result-study/assets/resources-2629-hupai_lizi_0016.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 1759,
+    "path": "mjhj/anims/game/AnimTextuerRes/common_cpgh/Resource/gold_icon/hupai_lizi_0017",
+    "name": "hupai_lizi_0017",
+    "rect": [
+      728,
+      3,
+      291,
+      312
+    ],
+    "offset": [
+      9.5,
+      -29
+    ],
+    "originalSize": [
+      400,
+      400
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "9ae490dd-54d8-4edd-8f0b-918cf8020cfc",
+    "textureUUID": "1d12a36bd",
+    "image": "action-result-study/assets/resources-1759-hupai_lizi_0017.png"
+  },
+  {
+    "bundle": "game",
+    "id": 59,
+    "path": "NewSkin/GamePanelBtn/maZai/peng",
+    "name": "peng",
+    "rect": [
+      32,
+      28,
+      363,
+      149
+    ],
+    "offset": [
+      16,
+      -14
+    ],
+    "originalSize": [
+      395,
+      177
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "0ccaa8b9-01fd-4fcc-80e1-0302e580ffef",
+    "textureUUID": "8aa91120-5da3-4935-83d2-5eefba3d40df",
+    "image": "action-result-study/assets/game-59-peng.png"
+  },
+  {
+    "bundle": "game",
+    "id": 311,
+    "path": "NewSkin/GamePanelBtn/maZai/gang",
+    "name": "gang",
+    "rect": [
+      31,
+      22,
+      364,
+      155
+    ],
+    "offset": [
+      15.5,
+      -11
+    ],
+    "originalSize": [
+      395,
+      177
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "3eada66b-18ef-43d7-982b-a383daff28f4",
+    "textureUUID": "c5877c49-4d7c-45b9-b327-c0a12bb29fec",
+    "image": "action-result-study/assets/game-311-gang.png"
+  },
+  {
+    "bundle": "game",
+    "id": 1033,
+    "path": "NewSkin/GamePanelBtn/maZai/zimo",
+    "name": "zimo",
+    "rect": [
+      0,
+      0,
+      395,
+      177
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      395,
+      177
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "bebe6b79-c216-4163-8bc7-3206177d1e45",
+    "textureUUID": "1e5f4bf7-66b3-47ab-8938-bc07af3650a1",
+    "image": "action-result-study/assets/game-1033-zimo.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 2020,
+    "path": "mjhj/anims/game/AnimTextuerRes/qkh/Qkh_blend_glow",
+    "name": "Qkh_blend_glow",
+    "rect": [
+      74,
+      824,
+      62,
+      61
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      64,
+      64
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "af015db1-48e3-484b-866b-118cb45b6dd9",
+    "textureUUID": "18d30451e",
+    "image": "action-result-study/assets/resources-2020-Qkh_blend_glow.png"
+  },
+  {
+    "bundle": "game",
+    "id": 853,
+    "path": "NewSkin/GamePanelBtn/qiangganghu",
+    "name": "qiangganghu",
+    "rect": [
+      0,
+      3,
+      232,
+      88
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      232,
+      93
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "a222daa7-5acb-4a4b-91d4-11dbf1346a43",
+    "textureUUID": "dd931895-c503-488f-9e81-0ceb0d8a8062",
+    "image": "action-result-study/assets/game-853-qiangganghu.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 1174,
+    "path": "mjhj/anims/game/AnimTextuerRes/qkh/Qkh_ll_guang03",
+    "name": "Qkh_ll_guang03",
+    "rect": [
+      3,
+      180,
+      128,
+      121
+    ],
+    "offset": [
+      0,
+      -1.5
+    ],
+    "originalSize": [
+      128,
+      128
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "6471180f-917e-47dc-91f8-9b4026c02f23",
+    "textureUUID": "18d30451e",
+    "image": "action-result-study/assets/resources-1174-Qkh_ll_guang03.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 919,
+    "path": "mjhj/anims/game/AnimTextuerRes/qkh/Qkh_ty_guangxian02",
+    "name": "Qkh_ty_guangxian02",
+    "rect": [
+      3,
+      307,
+      128,
+      32
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      128,
+      32
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "4d25a311-3c02-4a22-b2c4-0e727652c0b5",
+    "textureUUID": "18d30451e",
+    "image": "action-result-study/assets/resources-919-Qkh_ty_guangxian02.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 1227,
+    "path": "mjhj/anims/game/AnimTextuerRes/qkh/Qkh_ty_shine02",
+    "name": "Qkh_ty_shine02",
+    "rect": [
+      3,
+      695,
+      127,
+      123
+    ],
+    "offset": [
+      -0.5,
+      -2.5
+    ],
+    "originalSize": [
+      128,
+      128
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "6cb17694-53b7-4824-b7f2-76bf97d7286f",
+    "textureUUID": "18d30451e",
+    "image": "action-result-study/assets/resources-1227-Qkh_ty_shine02.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 754,
+    "name": "Qk_sg_01",
+    "rect": [
+      87,
+      519,
+      38,
+      57
+    ],
+    "offset": [
+      -67,
+      1
+    ],
+    "originalSize": [
+      172,
+      63
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "32a2a399-fd72-49c9-8047-7582deca20a1",
+    "textureUUID": "6991620d-ebe1-40ed-91fa-43adcb100836",
+    "image": "action-result-study/assets/resources-754-Qk_sg_01.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 2989,
+    "name": "Qk_sg_02",
+    "rect": [
+      75,
+      584,
+      42,
+      59
+    ],
+    "offset": [
+      -65,
+      0
+    ],
+    "originalSize": [
+      172,
+      63
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "f35c66a0-fb50-4b7e-9cfb-d3c3c2b619c1",
+    "textureUUID": "6991620d-ebe1-40ed-91fa-43adcb100836",
+    "image": "action-result-study/assets/resources-2989-Qk_sg_02.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 2771,
+    "name": "Qk_sg_03",
+    "rect": [
+      1,
+      779,
+      46,
+      61
+    ],
+    "offset": [
+      -63,
+      0
+    ],
+    "originalSize": [
+      172,
+      63
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "bedb939f-5ab0-410a-a575-43c64577e841",
+    "textureUUID": "6991620d-ebe1-40ed-91fa-43adcb100836",
+    "image": "action-result-study/assets/resources-2771-Qk_sg_03.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 2927,
+    "name": "Qk_sg_04",
+    "rect": [
+      73,
+      649,
+      52,
+      61
+    ],
+    "offset": [
+      -60,
+      -1
+    ],
+    "originalSize": [
+      172,
+      63
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "e141f3ec-7474-4efc-91b2-03ca2912b6cc",
+    "textureUUID": "6991620d-ebe1-40ed-91fa-43adcb100836",
+    "image": "action-result-study/assets/resources-2927-Qk_sg_04.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 2729,
+    "name": "Qk_sg_05",
+    "rect": [
+      1,
+      714,
+      60,
+      63
+    ],
+    "offset": [
+      -56,
+      0
+    ],
+    "originalSize": [
+      172,
+      63
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "b3e99d31-1291-40e9-b972-697d60122eb2",
+    "textureUUID": "6991620d-ebe1-40ed-91fa-43adcb100836",
+    "image": "action-result-study/assets/resources-2729-Qk_sg_05.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 986,
+    "name": "Qk_sg_06",
+    "rect": [
+      1,
+      649,
+      70,
+      63
+    ],
+    "offset": [
+      -51,
+      0
+    ],
+    "originalSize": [
+      172,
+      63
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "4adc2eed-de48-44f0-ac31-5634ad6f008a",
+    "textureUUID": "6991620d-ebe1-40ed-91fa-43adcb100836",
+    "image": "action-result-study/assets/resources-986-Qk_sg_06.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 65,
+    "name": "Qk_sg_07",
+    "rect": [
+      1,
+      519,
+      84,
+      63
+    ],
+    "offset": [
+      -44,
+      0
+    ],
+    "originalSize": [
+      172,
+      63
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "000331a5-0d68-40d8-bded-6fdbdb4fc70e",
+    "textureUUID": "6991620d-ebe1-40ed-91fa-43adcb100836",
+    "image": "action-result-study/assets/resources-65-Qk_sg_07.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 3009,
+    "name": "Qk_sg_08",
+    "rect": [
+      1,
+      389,
+      94,
+      63
+    ],
+    "offset": [
+      -39,
+      0
+    ],
+    "originalSize": [
+      172,
+      63
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "fb14feb2-d7ae-4f80-ab2c-b727c30f7df2",
+    "textureUUID": "6991620d-ebe1-40ed-91fa-43adcb100836",
+    "image": "action-result-study/assets/resources-3009-Qk_sg_08.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 1503,
+    "name": "Qk_sg_09",
+    "rect": [
+      1,
+      131,
+      102,
+      63
+    ],
+    "offset": [
+      -31,
+      0
+    ],
+    "originalSize": [
+      172,
+      63
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "758a8847-c787-44d6-9e80-a16f4ef92307",
+    "textureUUID": "6991620d-ebe1-40ed-91fa-43adcb100836",
+    "image": "action-result-study/assets/resources-1503-Qk_sg_09.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 1864,
+    "name": "Qk_sg_10",
+    "rect": [
+      1,
+      196,
+      100,
+      63
+    ],
+    "offset": [
+      -21,
+      0
+    ],
+    "originalSize": [
+      172,
+      63
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "8fc400b0-fe70-4ae5-b32b-0b5b8ba84017",
+    "textureUUID": "6991620d-ebe1-40ed-91fa-43adcb100836",
+    "image": "action-result-study/assets/resources-1864-Qk_sg_10.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 2104,
+    "name": "Qk_sg_11",
+    "rect": [
+      1,
+      1,
+      106,
+      63
+    ],
+    "offset": [
+      -4,
+      0
+    ],
+    "originalSize": [
+      172,
+      63
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "b20b3c72-000d-4feb-a8af-011a0a3a3cde",
+    "textureUUID": "6991620d-ebe1-40ed-91fa-43adcb100836",
+    "image": "action-result-study/assets/resources-2104-Qk_sg_11.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 2057,
+    "name": "Qk_sg_12",
+    "rect": [
+      1,
+      66,
+      106,
+      63
+    ],
+    "offset": [
+      7,
+      0
+    ],
+    "originalSize": [
+      172,
+      63
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "a2dfddba-b8b4-410f-815f-eeb03019251a",
+    "textureUUID": "6991620d-ebe1-40ed-91fa-43adcb100836",
+    "image": "action-result-study/assets/resources-2057-Qk_sg_12.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 1377,
+    "name": "Qk_sg_13",
+    "rect": [
+      1,
+      261,
+      100,
+      63
+    ],
+    "offset": [
+      26,
+      0
+    ],
+    "originalSize": [
+      172,
+      63
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "41308cff-ed0d-4f14-a62c-011df929bf83",
+    "textureUUID": "6991620d-ebe1-40ed-91fa-43adcb100836",
+    "image": "action-result-study/assets/resources-1377-Qk_sg_13.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 88,
+    "name": "Qk_sg_14",
+    "rect": [
+      1,
+      326,
+      100,
+      61
+    ],
+    "offset": [
+      34,
+      1
+    ],
+    "originalSize": [
+      172,
+      63
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "066ba828-ee73-4036-9956-bbd3417dcb00",
+    "textureUUID": "6991620d-ebe1-40ed-91fa-43adcb100836",
+    "image": "action-result-study/assets/resources-88-Qk_sg_14.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 749,
+    "name": "Qk_sg_15",
+    "rect": [
+      1,
+      454,
+      88,
+      63
+    ],
+    "offset": [
+      42,
+      0
+    ],
+    "originalSize": [
+      172,
+      63
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "2fdbd91c-51d8-4566-b7ea-7b20335e84fd",
+    "textureUUID": "6991620d-ebe1-40ed-91fa-43adcb100836",
+    "image": "action-result-study/assets/resources-749-Qk_sg_15.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 1313,
+    "name": "Qk_sg_16",
+    "rect": [
+      1,
+      584,
+      72,
+      63
+    ],
+    "offset": [
+      50,
+      0
+    ],
+    "originalSize": [
+      172,
+      63
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "6d4c62de-c532-4fb7-b55d-c911956d4b49",
+    "textureUUID": "6991620d-ebe1-40ed-91fa-43adcb100836",
+    "image": "action-result-study/assets/resources-1313-Qk_sg_16.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 618,
+    "name": "Qk_sg_17",
+    "rect": [
+      63,
+      714,
+      58,
+      63
+    ],
+    "offset": [
+      57,
+      0
+    ],
+    "originalSize": [
+      172,
+      63
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "1930f31e-19da-4c7f-9f89-b47955aeed4c",
+    "textureUUID": "6991620d-ebe1-40ed-91fa-43adcb100836",
+    "image": "action-result-study/assets/resources-618-Qk_sg_17.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 1406,
+    "name": "Qk_sg_18",
+    "rect": [
+      64,
+      779,
+      46,
+      61
+    ],
+    "offset": [
+      63,
+      -1
+    ],
+    "originalSize": [
+      172,
+      63
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "55fc27ad-77a7-401d-a3c1-a56baa4cb1e9",
+    "textureUUID": "6991620d-ebe1-40ed-91fa-43adcb100836",
+    "image": "action-result-study/assets/resources-1406-Qk_sg_18.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 1820,
+    "name": "Qk_sg_19",
+    "rect": [
+      91,
+      454,
+      34,
+      61
+    ],
+    "offset": [
+      69,
+      -1
+    ],
+    "originalSize": [
+      172,
+      63
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "8025411d-67f1-4069-b115-dcbeb9ef9174",
+    "textureUUID": "6991620d-ebe1-40ed-91fa-43adcb100836",
+    "image": "action-result-study/assets/resources-1820-Qk_sg_19.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 92,
+    "name": "Qk_sg_20",
+    "rect": [
+      97,
+      389,
+      26,
+      57
+    ],
+    "offset": [
+      73,
+      -3
+    ],
+    "originalSize": [
+      172,
+      63
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "07ce4e69-52d7-45a8-a710-31a02fe58334",
+    "textureUUID": "6991620d-ebe1-40ed-91fa-43adcb100836",
+    "image": "action-result-study/assets/resources-92-Qk_sg_20.png"
+  }
+]

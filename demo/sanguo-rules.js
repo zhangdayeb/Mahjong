@@ -1,0 +1,93 @@
+// Local rules use native hexadecimal-style tile codes, independently of bloodflow.
+export const SANGUO_NUMBERS=Object.freeze([...[...Array(9)].map((_,i)=>17+i),...[...Array(9)].map((_,i)=>33+i)]);
+export const SANGUO_HEROES=Object.freeze([113,114,115,129,130,131,145,146,147,161,162,163]);
+export const SANGUO_SEALS=Object.freeze([177,178,179]);
+export const SANGUO_TREASURE=193;
+export const SANGUO_VALUES=Object.freeze([...SANGUO_NUMBERS,...SANGUO_HEROES,...SANGUO_SEALS,193]);
+const natural=[...SANGUO_NUMBERS,...SANGUO_HEROES],names={113:'董卓',114:'貂蝉',115:'吕布',129:'曹操',130:'郭嘉',131:'张辽',145:'刘备',146:'诸葛亮',147:'关羽',161:'孙权',162:'周瑜',163:'吕蒙',177:'龙玺',178:'狮玺',179:'龟玺',193:'宝牌'};
+export const isSanguoNumber=value=>SANGUO_NUMBERS.includes(value);
+export const isSanguoHero=value=>SANGUO_HEROES.includes(value);
+export const isSanguoSeal=value=>SANGUO_SEALS.includes(value);
+export const sanguoCopies=value=>isSanguoSeal(value)?3:value===193?6:SANGUO_VALUES.includes(value)?4:0;
+export const sanguoName=value=>names[value]??(isSanguoNumber(value)?`${value%16}${value<32?'万':'条'}`:'未知牌');
+export function createSanguoDeck(random=Math.random){const deck=SANGUO_VALUES.flatMap(value=>Array(sanguoCopies(value)).fill(value));for(let i=deck.length-1;i>0;i--){const j=Math.floor(random()*(i+1));[deck[i],deck[j]]=[deck[j],deck[i]];}return deck;}
+
+// Native RuleCfg: seals substitute values absent from the concealed hand.
+// A last-wall treasure after an earlier win is the separate unrestricted joker.
+export function sanguoShape(hand,melds=[],{treasureWild=false}={}){
+ if(hand.length!==14-melds.length*3||melds.length>4)return null;
+ if(melds.some(m=>!natural.includes(m.value)||!['peng','gang','dark','add'].includes(m.type)))return null;
+ if(SANGUO_VALUES.some(value=>hand.filter(tile=>tile===value).length+melds.filter(meld=>meld.value===value).reduce((sum,meld)=>sum+(meld.type==='peng'?3:4),0)>sanguoCopies(value)))return null;
+ const counts=natural.map(value=>hand.filter(tile=>tile===value).length),original=counts.slice();
+ if(hand.some(value=>!SANGUO_VALUES.includes(value))||SANGUO_VALUES.some(value=>hand.filter(tile=>tile===value).length>sanguoCopies(value)))return null;
+ const seals=hand.filter(isSanguoSeal).length,treasures=hand.filter(value=>value===193).length;
+ if(treasures&&!treasureWild)return null;
+ const absent=natural.find(value=>!hand.includes(value)),memo=new Map();
+ function groups(c,s,u,left){
+  if(left===0)return c.every(value=>value===0)&&s===0&&u===0?[]:null;
+  const key=c.join(',')+'/'+s+'/'+u+'/'+left;if(memo.has(key))return memo.get(key);
+  const index=c.findIndex(value=>value>0);
+  if(index<0){const value=s?absent:natural[0];const answer=value!==undefined&&s+u===left*3?Array.from({length:left},()=>({type:'triplet',value,wild:true})):null;memo.set(key,answer);return answer;}
+  const value=natural[index];let answer=null;
+  const take=Math.min(3,c[index]),needed=3-take;
+  // A seal cannot complete a natural value already present; treasure can.
+  if(needed<=u){const next=c.slice();next[index]-=take;const rest=groups(next,s,u-needed,left-1);if(rest)answer=[{type:'triplet',value},...rest];}
+  if(!answer&&isSanguoNumber(value))for(let start=Math.max(1,value%16-2);start<=Math.min(7,value%16);start++){
+   const sequence=Array.from({length:3},(_,offset)=>Math.floor(value/16)*16+start+offset),next=c.slice();let requiredUniversal=0,missing=0;
+   for(const tile of sequence){const i=natural.indexOf(tile);if(next[i]>0)next[i]--;else if(original[i]>0)requiredUniversal++;else missing++;}
+   if(requiredUniversal>u||requiredUniversal+missing>s+u)continue;
+   const sealUse=Math.min(s,missing),universalUse=requiredUniversal+missing-sealUse,rest=groups(next,s-sealUse,u-universalUse,left-1);
+   if(rest){answer=[{type:'sequence',values:sequence},...rest];break;}
+  }
+  memo.set(key,answer);return answer;
+ }
+ if(!melds.length){const singles=counts.filter(count=>count%2).length;if(singles<=treasures&&(seals+treasures-singles)%2===0)return{sevenPairs:true,groups:[],pair:null};}
+ for(let index=0;index<counts.length;index++)if(counts[index]>=2){const next=counts.slice();next[index]-=2;const result=groups(next,seals,treasures,4-melds.length);if(result)return{sevenPairs:false,pair:natural[index],groups:result};}
+ if(seals+treasures>=2){const use=Math.min(seals,2),result=groups(counts.slice(),seals-use,treasures-(2-use),4-melds.length);if(result)return{sevenPairs:false,pair:absent,groups:result};}
+ if(treasures)for(let index=0;index<counts.length;index++)if(counts[index]){const next=counts.slice();next[index]--;const result=groups(next,seals,treasures-1,4-melds.length);if(result)return{sevenPairs:false,pair:natural[index],groups:result};}
+ return null;
+}
+export const sanguoWinning=(hand,melds=[],options={})=>!!sanguoShape(hand,melds,options);
+export function sanguoWaits(hand,melds=[],options={}){return SANGUO_VALUES.filter(value=>value!==193||options.treasureWild).filter(value=>hand.filter(tile=>tile===value).length+melds.filter(m=>m.value===value).reduce((sum,m)=>sum+(m.type==='peng'?3:4),0)<sanguoCopies(value)&&sanguoWinning([...hand,value],melds,options));}
+const lords=[113,129,145,161],swords=[115,131,147,163],strategists=[114,130,146,162];
+export function sanguoMapFan(unlocks=[]){
+ const maps=new Set(unlocks),items=[],hasAll=values=>values.every(value=>maps.has(value)),count=maps.size;
+ if(count)items.push({name:`战图${count}块`,multiple:[1,2,4,6,16,20,24,42,48,54,60,88,96][Math.min(12,count)]});
+ for(const[name,values,multiple]of[['左三雄',[113,147,114],2],['右三英',[130,163,115],2],['四国之盟',lords,2],['三国之约',[145,161,129],4],['蜀中四雄',[145,146,147],4],['魏北四将',[129,130,131],4],['东吴四英',[161,162,163],4],['四方群雄',[113,114,115,130],4],['四国杰师',strategists,6],['四国良将',swords,6]])if(hasAll(values))items.push({name,multiple});
+ if(count>=6)items.push({name:'半壁江山',multiple:3});
+ return{items,multiple:items.reduce((value,item)=>value*item.multiple,1)};
+}
+// Recognized local fan groups take their highest member; additional source
+// multipliers and map sets then multiply, with the room cap applied once.
+export function sanguoScore(hand,melds=[],{selfDraw=false,unlocks=[],sealKongs=[],cap=999999,treasureWild=false,heavenly=false,rob=false,afterKong=false,lastWall=false}={}){
+ const shape=sanguoShape(hand,melds,{treasureWild});if(!shape)return null;
+ const all=[...hand,...melds.flatMap(m=>Array(m.type==='peng'?3:4).fill(m.value))],heroes=[...new Set(all.filter(isSanguoHero))],numbers=all.filter(isSanguoNumber),ranks=numbers.map(value=>value%16),count=value=>all.filter(tile=>tile===value).length,contains=values=>values.every(value=>heroes.includes(value));
+ const trips=[...shape.groups.filter(group=>group.type==='triplet').map(group=>group.value),...melds.map(m=>m.value)],heroTrips=trips.filter(isSanguoHero),pureRanks=values=>numbers.length>0&&ranks.every(rank=>values.includes(rank)),onlyHeroes=values=>heroes.length>0&&heroes.every(value=>values.includes(value)),wan=numbers.length>0&&numbers.every(value=>value<32),tiao=numbers.length>0&&numbers.every(value=>value>=32);
+ const main=[{name:'平胡',multiple:1}],add=(condition,name,multiple)=>{if(condition)main.push({name,multiple});};
+ add(shape.sevenPairs,'七对',16);add(!numbers.length&&heroes.length>0,'群雄逐鹿',72);add(heroTrips.length>=3,'三英群雄',88);add(heroTrips.length>=4,'四雄争霸',99);
+ add(contains([130])&&ranks.reduce((sum,value)=>sum+value,0)+[...hand,...sealKongs].filter(isSanguoSeal).length*10>=100,'百年鬼才',688);
+ add(contains([146,131])&&onlyHeroes([146,131])&&pureRanks([2,4,6,8]),'文武双全',488);
+ add(new Set(heroTrips.filter(value=>[145,146,147].includes(value))).size>=2&&onlyHeroes([145,146,147])&&tiao,'绿林好汉',466);
+ add(contains([162,146])&&onlyHeroes([162,146])&&pureRanks([1,2,3,4]),'一时瑜亮',414);
+ add(onlyHeroes([115])&&wan,'万人敌',399);add(heroes.some(value=>[145,146,147].includes(value))&&heroes.some(value=>[161,162,163].includes(value))&&wan,'火烧赤壁',268);
+ add(onlyHeroes([146])&&pureRanks([1,2,3,4]),'卧龙诸葛',233);add(heroes.some(value=>lords.includes(value))&&heroes.some(value=>swords.includes(value))&&pureRanks([4,5,6]),'中原霸主',222);
+ add(onlyHeroes([147])&&pureRanks([1,3,5,7,9]),'忠义无双',199);add(onlyHeroes([145])&&pureRanks([6,7,8,9]),'大展宏图',199);add(contains([129,145])&&onlyHeroes([129,145])&&pureRanks([6,7,8,9]),'青梅煮酒',168);
+ add(heroTrips.includes(114)&&heroTrips.length>=2&&pureRanks([1,3,5,7,9]),'美人计',133);add(heroTrips.some(value=>swords.includes(value))&&heroTrips.some(value=>strategists.includes(value))&&pureRanks([6,7,8,9]),'大智大勇',100);
+ const base=main.sort((a,b)=>b.multiple-a.multiple)[0],items=[base];
+ const extra=(condition,name,multiple)=>{if(condition)items.push({name,multiple});};
+ extra(heroes.length>=2,`${Math.min(5,heroes.length)}英雄`,[1,1,2,6,12,16][Math.min(5,heroes.length)]);
+ extra(new Set(heroTrips).size>=2,'双英刻',3);extra(heroTrips.filter(value=>swords.includes(value)).length>=2,'双剑合璧',24);extra(heroTrips.filter(value=>lords.includes(value)).length>=2,'双王争霸',16);
+ for(const[name,values]of[['蜀国之魂',[145,146,147]],['魏国之魂',[129,130,131]],['吴国之魂',[161,162,163]]])extra(onlyHeroes(values),name,2);
+ const dark=shape.groups.filter(group=>group.type==='triplet').length+melds.filter(m=>m.type==='dark').length;
+ extra(!shape.sevenPairs&&dark>=2,`${Math.min(4,dark)}暗刻`,[1,1,6,12,24][Math.min(4,dark)]);extra(!shape.sevenPairs&&shape.groups.every(group=>group.type==='triplet')&&dark<4,'对对胡',4);
+ extra(!heroes.length,'无花果',12);extra(selfDraw,'自摸',2);extra(selfDraw&&melds.every(m=>m.type==='dark'),'不求人',6);extra(!selfDraw&&melds.every(m=>m.type==='dark'),'门清',2);extra(heavenly,'天胡',48);extra(rob,'抢杠胡',2);extra(afterKong&&selfDraw,'杠上开花',3);extra(lastWall,selfDraw?'妙手回春':'海底捞月',selfDraw?3:2);
+ for(const meld of melds)extra(meld.type!=='peng',isSanguoHero(meld.value)?'英雄杠':'杠牌',isSanguoHero(meld.value)&&meld.type==='dark'?3:2);
+ const seals=hand.filter(isSanguoSeal),types=new Set(seals).size;extra(types>=2,types===3?'三印之威':'双玺临门',types===3?3:2);for(const[value,name]of[[177,'金龙传说'],[178,'青狮之王'],[179,'碧玉玄龟']])extra(count(value)>=3,name,6);extra(seals.length>=4,seals.length>=5?'九五至尊':'国之四维',seals.length>=5?12:8);
+ const map=sanguoMapFan(unlocks);items.push(...map.items);let multiple=Math.min(cap,items.reduce((result,item)=>Math.min(cap,result*item.multiple),1));
+ if(treasureWild&&hand.includes(193)){multiple=cap*2;items.push({name:'绝世珍宝',multiple:2});}
+ return{name:items.map(item=>item.name).join('、'),multiple,baseMultiple:base.multiple,mapMultiple:map.multiple,items};
+}
+export function sanguoDiscardIndex(hand){
+ const score=value=>value===193?1000:isSanguoSeal(value)?100:hand.filter(tile=>tile===value).length*4+(isSanguoNumber(value)?hand.filter(tile=>isSanguoNumber(tile)&&Math.floor(tile/16)===Math.floor(value/16)&&Math.abs(tile-value)<=2).length:0);
+ return hand.map((value,index)=>({value,index,score:score(value)})).sort((a,b)=>a.score-b.score||b.value-a.value)[0]?.index??-1;
+}

@@ -1,0 +1,14 @@
+.native-gold-button{appearance:none;background:none!important;border:0!important;border-radius:0!important;box-shadow:none!important;padding:0!important;overflow:visible;opacity:1!important;filter:none!important;font-weight:400;flex-shrink:0;touch-action:manipulation}
+.native-gold-button:hover{filter:none}
+.native-gold-visual{position:absolute;inset:0;display:block;pointer-events:none;transform-origin:center;transform:scale(1);transition:transform .1s linear}
+.native-gold-visual.is-pressed{transform:scale(1.2)}
+.native-gold-image{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:fill;opacity:1;filter:none;pointer-events:none}
+.native-gold-visual.is-disabled .native-gold-image{filter:grayscale(1)}
+.native-gold-button .native-gold-label{position:absolute;left:50%;top:calc(50% - 8px * var(--native-gold-scale,1));display:block;transform:translate(-50%,-50%);font-family:Arial,sans-serif;font-size:calc(34px * var(--native-gold-scale,1));line-height:calc(45px * var(--native-gold-scale,1));font-weight:400;letter-spacing:0;color:#c65c0f;white-space:pre;opacity:1;text-shadow:none;pointer-events:none}
+.native-gold-label>canvas,.native-exchange-prompt>canvas{display:block;width:100%;height:100%;pointer-events:none}
+.native-exchange-controls{position:absolute;width:500px;height:200px;transform-origin:center;pointer-events:none;z-index:3}
+.native-exchange-background{position:absolute;inset:0;width:500px;height:200px;pointer-events:none}
+.native-exchange-confirm{position:absolute!important;pointer-events:auto}
+.native-exchange-prompt{position:absolute;left:50%;transform:translate(-50%,-50%);width:max-content;height:50px;font-family:Arial,sans-serif;font-size:35px;line-height:50px;font-weight:400;color:#fffbcb;white-space:nowrap;text-shadow:none;pointer-events:none}
+.native-exchange-highlight{color:#ff5a2b}
+.native-exchange-controls[hidden]{display:none!important}

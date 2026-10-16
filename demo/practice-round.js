@@ -1,0 +1,49 @@
+import {Round} from './legacy-round.js';
+import {BloodflowRound} from './bloodflow-round.js';
+import {ruleProfile} from './rule-profiles.js';
+import {SanguoRound} from './sanguo-round.js';
+import {redPractice} from './legacy-red-rules.js';
+import {variants,roomsForMode} from './rooms-config.js';
+
+export const INITIAL_BALANCE=30000;
+export const RECORDED_METHODS=['auto','exchange','choose','discard','respond','rob','hu','gang','sealKong','dig','redKong','reveal'];
+export function seededRandom(seed){let state=seed>>>0;return()=>((state=(Math.imul(state,1664525)+1013904223)>>>0)/4294967296);}
+export function practiceConfig(mode,roomId,rulesVersion=1){
+ if(![1,2].includes(rulesVersion))throw Error('计分版本无效');
+ if(rulesVersion===2)ruleProfile(mode);
+ if(!Object.hasOwn(variants,mode)||variants[mode].playable===false)throw Error('这个玩法暂未开放练习');
+ const room=roomsForMode(mode).find(room=>String(room.id)===String(roomId));
+ if(!room||!Number.isSafeInteger(room.base)||room.base<=0)throw Error('场次无效');
+ return{mode,room:String(room.id),base:room.base,engine:mode==='sanguo'?'sanguo':'bloodflow'};
+}
+export function createPracticeRound(mode,roomId,seed,{rulesVersion=1,startBalance=INITIAL_BALANCE,rulesData={}}={}){
+ const config=practiceConfig(mode,roomId,rulesVersion),random=seededRandom(seed);
+ if(rulesVersion===2)return new BloodflowRound(random,{...ruleProfile(mode),base:config.base,startBalance,startBalances:rulesData.startBalances,continuation:rulesData.continuation});
+ const round=config.engine==='sanguo'?new SanguoRound(random,{base:config.base,cap:999999}):new Round(random,mode==='red'?{...redPractice,exchange:true,exchangeAnySuit:true,exchangeDirection:'opposite',cap:32}:{});
+ round.base=config.base;return round;
+}
+export function recordRoundActions(round,onAction){
+ let depth=0;
+ for(const method of RECORDED_METHODS){if(typeof round[method]!=='function')continue;const original=round[method];round[method]=function(...args){let succeeded=false;depth++;try{const result=original.apply(this,args);succeeded=true;return result;}finally{depth--;if(succeeded&&!depth)onAction({method,args:structuredClone(args)});}};}
+ return round;
+}
+export function replayAction(round,action){
+ if(!action||!RECORDED_METHODS.includes(action.method)||typeof round[action.method]!=='function'||!Array.isArray(action.args)||action.args.length>3||round.phase==='end')throw Error('牌局操作无效');
+ const {method,args}=action;
+ if(method==='exchange'){if(args.length!==1||!Array.isArray(args[0])||args[0].length!==3||args[0].some(value=>!Number.isSafeInteger(value)))throw Error('换牌操作无效');}
+ else if(method==='choose'){if(args.length!==1||!Number.isInteger(args[0])||args[0]<1||args[0]>3)throw Error('定缺操作无效');}
+ else{
+  const seat=args[0];if(!Number.isInteger(seat)||seat<0||seat>3||method!=='auto'&&seat!==0)throw Error('不能替其他玩家操作');
+  if(method==='auto'){
+   const pending=['exchange','choose'].includes(round.phase)?seat===0:round.phase==='play'?round.turn===seat:!!round.claim?.options[seat]&&!(seat in round.claim.responses);
+   if(!pending||args.length>2||args[1]&&(Object.keys(args[1]).some(key=>key!=='hu')||typeof args[1].hu!=='boolean'||seat!==0&&args[1].hu===false))throw Error('自动操作无效');
+  }else if(['respond','rob'].includes(method)){if(args.length!==2||!['hu','peng','gang','pass'].includes(args[1]))throw Error('响应操作无效');}
+  else if(['discard','sealKong'].includes(method)){if(args.length!==2||!Number.isSafeInteger(args[1]))throw Error('选牌操作无效');}
+  else if(method==='gang'){if(args.length<2||!Number.isSafeInteger(args[1])||args.length===3&&typeof args[2]!=='boolean')throw Error('杠牌操作无效');}
+  else if(args.length!==1)throw Error('牌局参数无效');
+ }
+ round[method](...args);
+ if(round.scores.some(score=>!Number.isSafeInteger(score))||round.scores.reduce((a,b)=>a+b,0)!==0)throw Error('牌局积分无效');
+ return round;
+}
+export function replayPracticeRound(game,actions=game.actions){const round=createPracticeRound(game.mode,game.room,game.seed,{rulesVersion:game.rulesVersion??1,startBalance:game.startBalance,rulesData:game.rulesData||{}});for(const action of actions)replayAction(round,action);return round;}

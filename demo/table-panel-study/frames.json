@@ -1,0 +1,2690 @@
+[
+  {
+    "bundle": "game",
+    "id": 147,
+    "path": "Other/chat/pic_06",
+    "name": "pic_06",
+    "rect": [
+      3,
+      3,
+      191,
+      49
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      191,
+      49
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "2004a55d-888b-4fd3-aa12-f4a61fc33730",
+    "texture": "asset-study/media/images/game/_unnamed/168dac735.png",
+    "image": "table-panel-study/assets/game-147.png"
+  },
+  {
+    "bundle": "game",
+    "id": 1065,
+    "path": "NewSkin/chatChoose/btn_09",
+    "name": "btn_09",
+    "rect": [
+      10,
+      279,
+      69,
+      132
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      69,
+      132
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "c39a6934-0c60-42ac-8919-dff02f24fe91",
+    "texture": "asset-study/media/images/game/_unnamed/159febaf0.png",
+    "image": "table-panel-study/assets/game-1065.png"
+  },
+  {
+    "bundle": "common",
+    "id": 559,
+    "path": "NewSkin/Sudoku/pic_com08",
+    "name": "pic_com08",
+    "rect": [
+      404,
+      207,
+      53,
+      56
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      53,
+      56
+    ],
+    "rotated": 1,
+    "capInsets": [
+      25,
+      20,
+      18,
+      24
+    ],
+    "uuid": "b1ce235d-bf85-4847-8a55-b158dbc4c8c5",
+    "texture": "asset-study/media/images/common/_unnamed/157399797.png",
+    "image": "table-panel-study/assets/common-559.png"
+  },
+  {
+    "bundle": "game",
+    "id": 1404,
+    "path": "NewSkin/chatChoose/di",
+    "name": "di",
+    "rect": [
+      3,
+      425,
+      203,
+      36
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      203,
+      36
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "fd7266a6-8ab9-4e39-a300-19067cd9fe2d",
+    "texture": "asset-study/media/images/game/_unnamed/159febaf0.png",
+    "image": "table-panel-study/assets/game-1404.png"
+  },
+  {
+    "bundle": "game",
+    "id": 398,
+    "path": "NewSkin/chatChoose/btn_07",
+    "name": "btn_07",
+    "rect": [
+      85,
+      139,
+      69,
+      130
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      69,
+      130
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "4db0f571-8a93-4863-bbc6-8773fa71e1d6",
+    "texture": "asset-study/media/images/game/_unnamed/159febaf0.png",
+    "image": "table-panel-study/assets/game-398.png"
+  },
+  {
+    "bundle": "game",
+    "id": 40,
+    "path": "NewSkin/chatChoose/btn_08",
+    "name": "btn_08",
+    "rect": [
+      45,
+      416,
+      69,
+      130
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      69,
+      130
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "094d1eec-030c-4111-91f6-3d2bfb957328",
+    "texture": "asset-study/media/images/game/_unnamed/159febaf0.png",
+    "image": "table-panel-study/assets/game-40.png"
+  },
+  {
+    "bundle": "game",
+    "id": 225,
+    "path": "NewSkin/chatChoose/btn_02",
+    "name": "btn_02",
+    "rect": [
+      10,
+      3,
+      69,
+      132
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      69,
+      132
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "2cc3966c-cdae-4b2d-a384-fb6799f0a2f7",
+    "texture": "asset-study/media/images/game/_unnamed/159febaf0.png",
+    "image": "table-panel-study/assets/game-225.png"
+  },
+  {
+    "bundle": "game",
+    "id": 839,
+    "path": "NewSkin/chatChoose/btn_01",
+    "name": "btn_01",
+    "rect": [
+      10,
+      141,
+      69,
+      132
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      69,
+      132
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "a0159eb7-b455-46d1-9274-7fe4b1f99306",
+    "texture": "asset-study/media/images/game/_unnamed/159febaf0.png",
+    "image": "table-panel-study/assets/game-839.png"
+  },
+  {
+    "bundle": "game",
+    "id": 776,
+    "path": "NewSkin/chatChoose/btn_03",
+    "name": "btn_03",
+    "rect": [
+      79,
+      552,
+      69,
+      130
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      69,
+      130
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "954c05b8-808f-4369-8827-7e5b98d88ce3",
+    "texture": "asset-study/media/images/game/_unnamed/159febaf0.png",
+    "image": "table-panel-study/assets/game-776.png"
+  },
+  {
+    "bundle": "game",
+    "id": 120,
+    "path": "NewSkin/chatChoose/btn_04",
+    "name": "btn_04",
+    "rect": [
+      85,
+      3,
+      69,
+      130
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      69,
+      130
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "1928eb66-d7df-47d4-9199-61b31e63ff41",
+    "texture": "asset-study/media/images/game/_unnamed/159febaf0.png",
+    "image": "table-panel-study/assets/game-120.png"
+  },
+  {
+    "bundle": "game",
+    "id": 915,
+    "path": "NewSkin/chatChoose/btn_06",
+    "name": "btn_06",
+    "rect": [
+      79,
+      824,
+      69,
+      130
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      69,
+      130
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "ac1fb328-1bf3-4fe9-989a-4ab9daad988f",
+    "texture": "asset-study/media/images/game/_unnamed/159febaf0.png",
+    "image": "table-panel-study/assets/game-915.png"
+  },
+  {
+    "bundle": "game",
+    "id": 823,
+    "path": "NewSkin/chatChoose/btn_05",
+    "name": "btn_05",
+    "rect": [
+      79,
+      688,
+      69,
+      130
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      69,
+      130
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "9d5b92c0-c7ff-48b5-b768-b322821d5755",
+    "texture": "asset-study/media/images/game/_unnamed/159febaf0.png",
+    "image": "table-panel-study/assets/game-823.png"
+  },
+  {
+    "bundle": "game",
+    "id": 490,
+    "path": "NewSkin/chatChoose/team",
+    "name": "team",
+    "rect": [
+      3,
+      634,
+      70,
+      173
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      70,
+      173
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "5d653884-c433-4eeb-9e91-8812d9e5df55",
+    "texture": "asset-study/media/images/game/_unnamed/159febaf0.png",
+    "image": "table-panel-study/assets/game-490.png"
+  },
+  {
+    "bundle": "game",
+    "id": 833,
+    "path": "NewSkin/chatChoose/team_0",
+    "name": "team_0",
+    "rect": [
+      3,
+      813,
+      70,
+      173
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      70,
+      173
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "9edf032b-e451-4136-aa8c-bee7792e683f",
+    "texture": "asset-study/media/images/game/_unnamed/159febaf0.png",
+    "image": "table-panel-study/assets/game-833.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 2240,
+    "path": "mjhj/anims/game/face/aminList/chat_1_2",
+    "name": "chat_1_2",
+    "rect": [
+      126,
+      3,
+      111,
+      102
+    ],
+    "offset": [
+      0.5,
+      -2
+    ],
+    "originalSize": [
+      140,
+      140
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "c338da1b-13ca-4d8f-8df4-a048c02f8f8f",
+    "texture": "asset-study/media/images/resources/_unnamed/153a7ca8e.png",
+    "image": "table-panel-study/assets/resources-2240.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 2304,
+    "path": "mjhj/anims/game/face/aminList/chat_2_3",
+    "name": "chat_2_3",
+    "rect": [
+      124,
+      209,
+      99,
+      92
+    ],
+    "offset": [
+      -6.5,
+      1
+    ],
+    "originalSize": [
+      140,
+      140
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "cb780407-21b6-461a-aef0-46b24f821587",
+    "texture": "asset-study/media/images/resources/_unnamed/153a7ca8e.png",
+    "image": "table-panel-study/assets/resources-2304.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 1110,
+    "path": "mjhj/anims/game/face/aminList/chat_3_4",
+    "name": "chat_3_4",
+    "rect": [
+      200,
+      395,
+      85,
+      85
+    ],
+    "offset": [
+      3.5,
+      7.5
+    ],
+    "originalSize": [
+      140,
+      140
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "5bd421cd-4aea-42ef-b805-2e8d39fcc300",
+    "texture": "asset-study/media/images/resources/_unnamed/153a7ca8e.png",
+    "image": "table-panel-study/assets/resources-1110.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 403,
+    "path": "mjhj/anims/game/face/aminList/chat_4_3",
+    "name": "chat_4_3",
+    "rect": [
+      3,
+      290,
+      92,
+      86
+    ],
+    "offset": [
+      1,
+      1
+    ],
+    "originalSize": [
+      140,
+      140
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "2ef7d567-c4b3-4c2a-af58-c0549e645981",
+    "texture": "asset-study/media/images/resources/_unnamed/153a7ca8e.png",
+    "image": "table-panel-study/assets/resources-403.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 801,
+    "path": "mjhj/anims/game/face/aminList/chat_5_3",
+    "name": "chat_5_3",
+    "rect": [
+      95,
+      573,
+      83,
+      83
+    ],
+    "offset": [
+      1.5,
+      2.5
+    ],
+    "originalSize": [
+      140,
+      140
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "3d544750-b4c2-44e5-a35e-4d099b9550fe",
+    "texture": "asset-study/media/images/resources/_unnamed/153a7ca8e.png",
+    "image": "table-panel-study/assets/resources-801.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 219,
+    "path": "mjhj/anims/game/face/aminList/chat_6_2",
+    "name": "chat_6_2",
+    "rect": [
+      3,
+      475,
+      82,
+      86
+    ],
+    "offset": [
+      0,
+      4
+    ],
+    "originalSize": [
+      140,
+      140
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "15887725-ad9f-4476-b96e-7dd92ecdf94a",
+    "texture": "asset-study/media/images/resources/_unnamed/153a7ca8e.png",
+    "image": "table-panel-study/assets/resources-219.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 1153,
+    "path": "mjhj/anims/game/face/aminList/chat_7_7",
+    "name": "chat_7_7",
+    "rect": [
+      92,
+      662,
+      83,
+      82
+    ],
+    "offset": [
+      -0.5,
+      -3
+    ],
+    "originalSize": [
+      140,
+      140
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "61c64ec5-8e9b-4064-9757-381858f9ef4a",
+    "texture": "asset-study/media/images/resources/_unnamed/153a7ca8e.png",
+    "image": "table-panel-study/assets/resources-1153.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 1707,
+    "path": "mjhj/anims/game/face/aminList/chat_8_1",
+    "name": "chat_8_1",
+    "rect": [
+      3,
+      827,
+      82,
+      82
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      140,
+      140
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "935fa28d-cd3e-4643-bd3d-162f6d14ff8c",
+    "texture": "asset-study/media/images/resources/_unnamed/153a7ca8e.png",
+    "image": "table-panel-study/assets/resources-1707.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 1283,
+    "path": "mjhj/anims/game/face/aminList/chat_9_3",
+    "name": "chat_9_3",
+    "rect": [
+      184,
+      661,
+      82,
+      84
+    ],
+    "offset": [
+      2,
+      14
+    ],
+    "originalSize": [
+      140,
+      140
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "7887ae9e-47fe-4f30-8caf-2240cc19d587",
+    "texture": "asset-study/media/images/resources/_unnamed/153a7ca8e.png",
+    "image": "table-panel-study/assets/resources-1283.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 2414,
+    "path": "mjhj/anims/game/face/aminList/chat_10_1",
+    "name": "chat_10_1",
+    "rect": [
+      90,
+      926,
+      82,
+      81
+    ],
+    "offset": [
+      3,
+      3.5
+    ],
+    "originalSize": [
+      140,
+      140
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "d8cc85be-9919-4946-a778-4826a4522059",
+    "texture": "asset-study/media/images/resources/_unnamed/153a7ca8e.png",
+    "image": "table-panel-study/assets/resources-2414.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 460,
+    "path": "mjhj/anims/game/face/aminList/chat_11_1",
+    "name": "chat_11_1",
+    "rect": [
+      3,
+      563,
+      86,
+      81
+    ],
+    "offset": [
+      1,
+      1.5
+    ],
+    "originalSize": [
+      140,
+      140
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "35bfd20d-dd22-4711-bb82-b33f6b512673",
+    "texture": "asset-study/media/images/resources/_unnamed/153a7ca8e.png",
+    "image": "table-panel-study/assets/resources-460.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 2197,
+    "path": "mjhj/anims/game/face/aminList/chat_12_1",
+    "name": "chat_12_1",
+    "rect": [
+      99,
+      398,
+      89,
+      81
+    ],
+    "offset": [
+      -0.5,
+      6.5
+    ],
+    "originalSize": [
+      140,
+      140
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "bd92709a-e377-4e32-a8a1-f928948cd0da",
+    "texture": "asset-study/media/images/resources/_unnamed/153a7ca8e.png",
+    "image": "table-panel-study/assets/resources-2197.png"
+  },
+  {
+    "bundle": "game",
+    "id": 911,
+    "path": "NewSkin/User/jinyan",
+    "name": "jinyan",
+    "rect": [
+      56,
+      902,
+      59,
+      59
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      60,
+      59
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "ab96ca09-cc3c-43cc-811b-ed6661b2d76f",
+    "texture": "asset-study/media/images/game/_unnamed/1a0bdbf85.png",
+    "image": "table-panel-study/assets/game-911.png"
+  },
+  {
+    "bundle": "game",
+    "id": 963,
+    "path": "NewSkin/User/jinbiaoqiang",
+    "name": "jinbiaoqiang",
+    "rect": [
+      125,
+      963,
+      58,
+      58
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      60,
+      59
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "b36841ce-00fa-4aa7-afa1-27beae4aa019",
+    "texture": "asset-study/media/images/game/_unnamed/1a0bdbf85.png",
+    "image": "table-panel-study/assets/game-963.png"
+  },
+  {
+    "bundle": "game",
+    "id": 455,
+    "path": "NewSkin/User/ti",
+    "name": "ti",
+    "rect": [
+      56,
+      837,
+      59,
+      59
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      60,
+      59
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "5834f0a8-70bc-4bbf-9701-58560fa7b78c",
+    "texture": "asset-study/media/images/game/_unnamed/1a0bdbf85.png",
+    "image": "table-panel-study/assets/game-455.png"
+  },
+  {
+    "bundle": "common",
+    "id": 816,
+    "path": "NewSkin/NewBtn/btn_com04",
+    "name": "btn_com04",
+    "rect": [
+      179,
+      736,
+      38,
+      37
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      38,
+      37
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "feec4ed5-df49-4757-ad98-21baf745e1a0",
+    "texture": "asset-study/media/images/common/_unnamed/1e8019203.png",
+    "image": "table-panel-study/assets/common-816.png"
+  },
+  {
+    "bundle": "game",
+    "id": 226,
+    "path": "NewSkin/User/daojulan",
+    "name": "daojulan",
+    "rect": [
+      3,
+      3,
+      743,
+      146
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      743,
+      146
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "2cf165a7-697e-4aec-b860-45018f900a29",
+    "texture": "asset-study/media/images/game/_unnamed/1a0bdbf85.png",
+    "image": "table-panel-study/assets/game-226.png"
+  },
+  {
+    "bundle": "common",
+    "id": 776,
+    "path": "head/Head/head_1",
+    "name": "head_1",
+    "rect": [
+      99,
+      553,
+      90,
+      90
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      90,
+      90
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "f1d41e3b-4301-4b2c-b90a-e446faaf4abf",
+    "texture": "asset-study/media/images/common/_unnamed/1d189e348.png",
+    "image": "table-panel-study/assets/common-776.png"
+  },
+  {
+    "bundle": "common",
+    "id": 578,
+    "path": "NewSkin/other/pic_zjd",
+    "name": "pic_zjd",
+    "rect": [
+      474,
+      959,
+      47,
+      51
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      47,
+      51
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "b66757dc-f09b-4944-b834-8ac75175833f",
+    "texture": "asset-study/media/images/common/_unnamed/1d05abae0.png",
+    "image": "table-panel-study/assets/common-578.png"
+  },
+  {
+    "bundle": "common",
+    "id": 620,
+    "path": "NewSkin/other/pic_zjb",
+    "name": "pic_zjb",
+    "rect": [
+      540,
+      952,
+      48,
+      53
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      48,
+      53
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "c4115296-c3cb-46ff-84f1-52d5b001e5fe",
+    "texture": "asset-study/media/images/common/_unnamed/1d05abae0.png",
+    "image": "table-panel-study/assets/common-620.png"
+  },
+  {
+    "bundle": "common",
+    "id": 586,
+    "path": "CoinNum&FareNum/img_DCoin",
+    "name": "img_DCoin",
+    "rect": [
+      3,
+      266,
+      55,
+      56
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      55,
+      57
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "b86b4a66-58ae-4f71-86c9-f632aff28964",
+    "texture": "asset-study/media/images/common/_unnamed/128f721b8.png",
+    "image": "table-panel-study/assets/common-586.png"
+  },
+  {
+    "bundle": "game",
+    "id": 686,
+    "path": "NewSkin/User/zhuangbei",
+    "name": "zhuangbei",
+    "rect": [
+      155,
+      3,
+      681,
+      51
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      681,
+      51
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "85230bd2-d900-41a3-8c77-c54f52a19d28",
+    "texture": "asset-study/media/images/game/_unnamed/1a0bdbf85.png",
+    "image": "table-panel-study/assets/game-686.png"
+  },
+  {
+    "bundle": "game",
+    "id": 788,
+    "path": "Other/UserDetails/no_use_good_icon",
+    "name": "no_use_good_icon",
+    "rect": [
+      3,
+      442,
+      30,
+      31
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      30,
+      31
+    ],
+    "rotated": 1,
+    "capInsets": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "uuid": "9772a75b-58ba-48e8-bc9f-007691321b40",
+    "texture": "asset-study/media/images/game/_unnamed/18b6faff3.png",
+    "image": "table-panel-study/assets/game-788.png"
+  },
+  {
+    "bundle": "game",
+    "id": 1356,
+    "path": "NewSkin/User/jin",
+    "name": "jin",
+    "rect": [
+      189,
+      963,
+      40,
+      42
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      40,
+      42
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "f3a03f12-9696-42dc-af3d-5e53b1ac036a",
+    "texture": "asset-study/media/images/game/_unnamed/1a0bdbf85.png",
+    "image": "table-panel-study/assets/game-1356.png"
+  },
+  {
+    "bundle": "common",
+    "id": 317,
+    "path": "head/headFrame/1_51",
+    "name": "1_51",
+    "rect": [
+      220,
+      243,
+      208,
+      209
+    ],
+    "offset": [
+      4,
+      9.5
+    ],
+    "originalSize": [
+      262,
+      262
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "68596aea-cc33-4b0c-9bd8-f4fcc6794646",
+    "texture": "asset-study/media/images/common/_unnamed/19b9d706f.png",
+    "image": "table-panel-study/assets/common-317.png"
+  },
+  {
+    "bundle": "common",
+    "id": 519,
+    "path": "head/headFrame/SectionHeadFrame_mk",
+    "name": "SectionHeadFrame_mk",
+    "rect": [
+      435,
+      243,
+      199,
+      204
+    ],
+    "offset": [
+      -0.5,
+      1
+    ],
+    "originalSize": [
+      262,
+      262
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "a4781d6c-720f-4e2b-9483-89a1918009ea",
+    "texture": "asset-study/media/images/common/_unnamed/19b9d706f.png",
+    "image": "table-panel-study/assets/common-519.png"
+  },
+  {
+    "bundle": "game",
+    "id": 246,
+    "path": "NewSkin/User/di2",
+    "name": "di2",
+    "rect": [
+      3,
+      752,
+      247,
+      47
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      247,
+      47
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "3098f823-6282-4061-8382-9357ac769b74",
+    "texture": "asset-study/media/images/game/_unnamed/1a0bdbf85.png",
+    "image": "table-panel-study/assets/game-246.png"
+  },
+  {
+    "bundle": "game",
+    "id": 1399,
+    "path": "NewSkin/User/shuxian",
+    "name": "shuxian",
+    "rect": [
+      237,
+      3,
+      1,
+      261
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1,
+      261
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "fcd7121f-7463-40fe-ac22-778386f1b22d",
+    "texture": "asset-study/media/images/game/_unnamed/1a0bdbf85.png",
+    "image": "table-panel-study/assets/game-1399.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1105,
+    "path": "NewSkin/User/wuman",
+    "name": "wuman",
+    "rect": [
+      3,
+      0,
+      25,
+      37
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      31,
+      37
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "7246815f-b442-4b98-8ddd-a015b119cd9c",
+    "texture": "asset-study/media/images/lobby/NewSkin/User/wuman.png",
+    "image": "table-panel-study/assets/lobby-1105.png"
+  },
+  {
+    "bundle": "game",
+    "id": 69,
+    "path": "Other/UserDetails/stop",
+    "name": "stop",
+    "rect": [
+      3,
+      398,
+      38,
+      38
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      38,
+      38
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "0e498fab-ecb5-4a8a-b176-75a391a9fe1e",
+    "texture": "asset-study/media/images/game/_unnamed/18b6faff3.png",
+    "image": "table-panel-study/assets/game-69.png"
+  },
+  {
+    "bundle": "common",
+    "id": 406,
+    "path": "global/icon_male",
+    "name": "icon_male",
+    "rect": [
+      330,
+      364,
+      32,
+      33
+    ],
+    "offset": [
+      0,
+      -2
+    ],
+    "originalSize": [
+      32,
+      39
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "828b62a2-3c7a-41a5-87b3-ee6c0c12824e",
+    "texture": "asset-study/media/images/common/_unnamed/1c0b6e64f.png",
+    "image": "table-panel-study/assets/common-406.png"
+  },
+  {
+    "bundle": "common",
+    "id": 476,
+    "path": "global/icon_female",
+    "name": "icon_female",
+    "rect": [
+      376,
+      803,
+      25,
+      39
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      32,
+      39
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "99f398e8-ae7b-466b-b321-e2edb96cffbe",
+    "texture": "asset-study/media/images/common/_unnamed/1c0b6e64f.png",
+    "image": "table-panel-study/assets/common-476.png"
+  },
+  {
+    "bundle": "game",
+    "id": 432,
+    "path": "NewSkin/HuDetail/di",
+    "name": "di",
+    "rect": [
+      0,
+      0,
+      302,
+      48
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      302,
+      48
+    ],
+    "capInsets": [
+      54,
+      0,
+      41,
+      0
+    ],
+    "uuid": "52c3f652-816e-4c1c-9724-727db463eb30",
+    "texture": "asset-study/media/images/game/NewSkin/HuDetail/di.png",
+    "image": "table-panel-study/assets/game-432.png"
+  },
+  {
+    "bundle": "game",
+    "id": 894,
+    "path": "NewSkin/HuDetail/bg_2",
+    "name": "bg_2",
+    "rect": [
+      0,
+      0,
+      882,
+      58
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      882,
+      58
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "a94d8c00-bfe5-4681-ba6d-504902103579",
+    "texture": "asset-study/media/images/game/NewSkin/HuDetail/bg_2.png",
+    "image": "table-panel-study/assets/game-894.png"
+  },
+  {
+    "bundle": "common",
+    "id": 102,
+    "path": "NewSkin/NewBtn/btn_tips13",
+    "name": "btn_tips13",
+    "rect": [
+      296,
+      346,
+      198,
+      45
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      198,
+      45
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "22ec70dd-de90-47e1-b6f9-4da3a7251d45",
+    "texture": "asset-study/media/images/common/_unnamed/1e8019203.png",
+    "image": "table-panel-study/assets/common-102.png"
+  },
+  {
+    "bundle": "common",
+    "id": 143,
+    "path": "NewSkin/BubTip/tishiheidiqipaojiugongge",
+    "name": "tishiheidiqipaojiugongge",
+    "rect": [
+      3,
+      3,
+      47,
+      43
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      47,
+      43
+    ],
+    "capInsets": [
+      8,
+      7,
+      7,
+      7
+    ],
+    "uuid": "2dee8464-dd69-407c-bbd0-9e4d6a8d6f80",
+    "texture": "asset-study/media/images/common/_unnamed/1b2fe0eaa.png",
+    "image": "table-panel-study/assets/common-143.png"
+  },
+  {
+    "bundle": "common",
+    "id": 435,
+    "path": "NewSkin/other/shuiyin",
+    "name": "shuiyin",
+    "rect": [
+      474,
+      897,
+      56,
+      60
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      56,
+      60
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "8b28f7f1-cd7b-492d-adbb-e2fbaf5a333f",
+    "texture": "asset-study/media/images/common/_unnamed/1d05abae0.png",
+    "image": "table-panel-study/assets/common-435.png"
+  },
+  {
+    "bundle": "common",
+    "id": 525,
+    "path": "NineBox/img_jilu_bg_0",
+    "name": "img_jilu_bg_0",
+    "rect": [
+      49,
+      849,
+      40,
+      54
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      40,
+      54
+    ],
+    "capInsets": [
+      16,
+      21,
+      16,
+      21
+    ],
+    "uuid": "a71939b6-80ca-4be8-92f3-42dfaab8f7dd",
+    "texture": "asset-study/media/images/common/_unnamed/1bb2a4600.png",
+    "image": "table-panel-study/assets/common-525.png"
+  },
+  {
+    "bundle": "common",
+    "id": 432,
+    "path": "NewSkin/NewBtn/btn_tips12",
+    "name": "btn_tips12",
+    "rect": [
+      296,
+      141,
+      199,
+      45
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      199,
+      45
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "89f18937-1b1d-4f49-970a-8e0a1554dd69",
+    "texture": "asset-study/media/images/common/_unnamed/1e8019203.png",
+    "image": "table-panel-study/assets/common-432.png"
+  },
+  {
+    "bundle": "common",
+    "id": 153,
+    "path": "NineBox/img_jilu_bg_1",
+    "name": "img_jilu_bg_1",
+    "rect": [
+      3,
+      849,
+      40,
+      54
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      40,
+      54
+    ],
+    "capInsets": [
+      16,
+      21,
+      16,
+      21
+    ],
+    "uuid": "30586a01-ac91-431a-9b8f-a3552d453a25",
+    "texture": "asset-study/media/images/common/_unnamed/1bb2a4600.png",
+    "image": "table-panel-study/assets/common-153.png"
+  },
+  {
+    "bundle": "Match",
+    "id": 219,
+    "path": "NewSkin/Section/pic_13",
+    "name": "pic_13",
+    "rect": [
+      985,
+      50,
+      35,
+      40
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      35,
+      40
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "8b8e6d3f-675d-4ef8-9c89-434eb834c0b8",
+    "texture": "asset-study/media/images/Match/_unnamed/148a0b9e8.png",
+    "image": "table-panel-study/assets/Match-219.png"
+  },
+  {
+    "bundle": "common",
+    "id": 772,
+    "path": "NewSkin/BubTip/jiantou",
+    "name": "jiantou",
+    "rect": [
+      3,
+      242,
+      24,
+      18
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      24,
+      18
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "eeb12cd0-162e-4cad-815d-215d572925b1",
+    "texture": "asset-study/media/images/common/_unnamed/1b2fe0eaa.png",
+    "image": "table-panel-study/assets/common-772.png"
+  },
+  {
+    "bundle": "game",
+    "id": 1276,
+    "path": "NewSkin/TingTip/dilashen",
+    "name": "dilashen",
+    "rect": [
+      0,
+      0,
+      343,
+      216
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      343,
+      216
+    ],
+    "capInsets": [
+      150,
+      38,
+      149,
+      39
+    ],
+    "uuid": "e76727d7-59f9-4247-ab7b-66f0e2fa7ef1",
+    "texture": "asset-study/media/images/game/NewSkin/TingTip/dilashen.png",
+    "image": "table-panel-study/assets/game-1276.png"
+  },
+  {
+    "bundle": "game",
+    "id": 60,
+    "path": "NewSkin/TingTip/wenli1",
+    "name": "wenli1",
+    "rect": [
+      7,
+      19,
+      135,
+      136
+    ],
+    "offset": [
+      3.5,
+      -9.5
+    ],
+    "originalSize": [
+      142,
+      155
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "0cf65cf7-56cb-4714-a02f-e07105691136",
+    "texture": "asset-study/media/images/game/NewSkin/TingTip/wenli1.png",
+    "image": "table-panel-study/assets/game-60.png"
+  },
+  {
+    "bundle": "game",
+    "id": 1275,
+    "path": "NewSkin/TingTip/wenli2",
+    "name": "wenli2",
+    "rect": [
+      0,
+      0,
+      135,
+      136
+    ],
+    "offset": [
+      -3.5,
+      9.5
+    ],
+    "originalSize": [
+      142,
+      155
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "e7428a97-8f89-4758-8d84-bfb8673c0986",
+    "texture": "asset-study/media/images/game/NewSkin/TingTip/wenli2.png",
+    "image": "table-panel-study/assets/game-1275.png"
+  },
+  {
+    "bundle": "game",
+    "id": 285,
+    "path": "NewSkin/TingTip/fengexian",
+    "name": "fengexian",
+    "rect": [
+      0,
+      0,
+      334,
+      1
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      334,
+      1
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "38c2edc2-87c8-4f12-96d0-7ac4bfaccaeb",
+    "texture": "asset-study/media/images/game/NewSkin/TingTip/fengexian.png",
+    "image": "table-panel-study/assets/game-285.png"
+  },
+  {
+    "bundle": "game",
+    "id": 1457,
+    "name": "img_normal_card",
+    "rect": [
+      819,
+      2,
+      91,
+      134
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "0c5f2a30-88d7-433e-8a36-49e45b25f2ce",
+    "texture": "asset-study/media/images/game/Other/Tiles/mj_hand_card.png",
+    "image": "table-panel-study/assets/game-1457.png"
+  },
+  {
+    "bundle": "game",
+    "id": 1213,
+    "path": "Other/TingTip/icon_lock",
+    "name": "icon_lock",
+    "rect": [
+      98,
+      3,
+      22,
+      29
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      22,
+      29
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "d9d68f7e-1e25-42d6-a9ac-92ad25f98d14",
+    "texture": "asset-study/media/images/game/_unnamed/1cced692b.png",
+    "image": "table-panel-study/assets/game-1213.png"
+  },
+  {
+    "bundle": "game",
+    "id": 794,
+    "path": "NewSkin/TingTip/xiaodi",
+    "name": "xiaodi",
+    "rect": [
+      0,
+      0,
+      20,
+      22
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      20,
+      22
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "9880ec8b-c32e-4873-aaa7-9cea2f2cbf79",
+    "texture": "asset-study/media/images/game/NewSkin/TingTip/xiaodi.png",
+    "image": "table-panel-study/assets/game-794.png"
+  },
+  {
+    "bundle": "game",
+    "id": 36,
+    "path": "NewSkin/User/di3",
+    "name": "di3",
+    "rect": [
+      212,
+      270,
+      87,
+      22
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      87,
+      22
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "084e725f-f929-4d30-a4a3-804ee6410b7f",
+    "texture": "asset-study/media/images/game/_unnamed/1a0bdbf85.png",
+    "image": "table-panel-study/assets/game-36.png"
+  },
+  {
+    "bundle": "game",
+    "id": 1350,
+    "path": "NewSkin/User/di4",
+    "name": "di4",
+    "rect": [
+      121,
+      927,
+      101,
+      30
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      101,
+      30
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "f2ae8c5d-6592-4c3c-bef8-d9f607eafae5",
+    "texture": "asset-study/media/images/game/_unnamed/1a0bdbf85.png",
+    "image": "table-panel-study/assets/game-1350.png"
+  },
+  {
+    "bundle": "game",
+    "id": 117,
+    "path": "NewSkin/User/xianmian",
+    "name": "xianmian",
+    "rect": [
+      56,
+      967,
+      63,
+      52
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      63,
+      52
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "1855936d-674c-44e9-a8f6-2a578a2c83d6",
+    "texture": "asset-study/media/images/game/_unnamed/1a0bdbf85.png",
+    "image": "table-panel-study/assets/game-117.png"
+  },
+  {
+    "bundle": "game",
+    "id": 1289,
+    "path": "NewSkin/User/shilianfa",
+    "name": "shilianfa",
+    "rect": [
+      155,
+      690,
+      62,
+      52
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      63,
+      52
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "e8ddb7f8-4074-411f-9d80-dfb55630e335",
+    "texture": "asset-study/media/images/game/_unnamed/1a0bdbf85.png",
+    "image": "table-panel-study/assets/game-1289.png"
+  },
+  {
+    "bundle": "game",
+    "id": 328,
+    "path": "NewSkin/User/daojudi",
+    "name": "daojudi",
+    "rect": [
+      56,
+      752,
+      80,
+      79
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      80,
+      79
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "415db7be-5058-4419-9aed-55068f2ff3cd",
+    "texture": "asset-study/media/images/game/_unnamed/1a0bdbf85.png",
+    "image": "table-panel-study/assets/game-328.png"
+  },
+  {
+    "bundle": "common",
+    "id": 218,
+    "path": "Emoji/icon/ring_icon",
+    "name": "ring_icon",
+    "rect": [
+      399,
+      616,
+      160,
+      165
+    ],
+    "offset": [
+      1,
+      -6
+    ],
+    "originalSize": [
+      204,
+      207
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "45d6d15e-f1e8-46bc-8a86-04fa7aa5a67d",
+    "texture": "asset-study/media/images/common/_unnamed/1d71b36f9.png",
+    "image": "table-panel-study/assets/common-218.png"
+  },
+  {
+    "bundle": "common",
+    "id": 250,
+    "path": "global/img_Point",
+    "name": "img_Point",
+    "rect": [
+      516,
+      803,
+      49,
+      54
+    ],
+    "offset": [
+      0,
+      -1
+    ],
+    "originalSize": [
+      53,
+      56
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "51241527-559e-4d96-82a4-e66092e184d4",
+    "texture": "asset-study/media/images/common/_unnamed/1c0b6e64f.png",
+    "image": "table-panel-study/assets/common-250.png"
+  },
+  {
+    "bundle": "common",
+    "id": 44,
+    "path": "global/img_score",
+    "name": "img_score",
+    "rect": [
+      437,
+      905,
+      38,
+      38
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      38,
+      38
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "10bd1af2-dd8d-4652-ad84-53bd660bda8e",
+    "texture": "asset-study/media/images/common/_unnamed/1c0b6e64f.png",
+    "image": "table-panel-study/assets/common-44.png"
+  },
+  {
+    "bundle": "common",
+    "id": 257,
+    "path": "global/yd999",
+    "name": "yd999",
+    "rect": [
+      392,
+      905,
+      39,
+      39
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      39,
+      39
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "52669a03-f682-46fe-8dfa-22fb04c34d9b",
+    "texture": "asset-study/media/images/common/_unnamed/1c0b6e64f.png",
+    "image": "table-panel-study/assets/common-257.png"
+  },
+  {
+    "bundle": "game",
+    "id": 407,
+    "path": "NewSkin/HuDetail/fengexian",
+    "name": "fengexian",
+    "rect": [
+      0,
+      0,
+      524,
+      1
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      524,
+      1
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "4ecb272b-e7bc-4c41-895b-1387a70911a9",
+    "texture": "asset-study/media/images/game/NewSkin/HuDetail/fengexian.png",
+    "image": "table-panel-study/assets/game-407.png"
+  },
+  {
+    "bundle": "game",
+    "id": 293,
+    "path": "NewSkin/JieSuan/gengduo",
+    "name": "gengduo",
+    "rect": [
+      0,
+      0,
+      47,
+      37
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      47,
+      37
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "3a292774-7c44-476a-aac7-5188e0665e17",
+    "texture": "asset-study/media/images/game/NewSkin/JieSuan/gengduo.png",
+    "image": "table-panel-study/assets/game-293.png"
+  },
+  {
+    "bundle": "game",
+    "id": 1487,
+    "name": "img_tile_3_9",
+    "rect": [
+      595,
+      414,
+      83,
+      106
+    ],
+    "offset": [
+      0,
+      -6
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "12f7dfce-fbd1-4980-ae90-deff133998fc",
+    "texture": "asset-study/media/images/game/Other/Tiles/mj_hand_card.png",
+    "image": "table-panel-study/assets/game-1487.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 1897,
+    "name": "zhizhen",
+    "rect": [
+      256,
+      686,
+      36,
+      43
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      36,
+      43
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "9b928341-2dc0-48f2-bb53-fa40570ed39c",
+    "texture": "asset-study/media/images/resources/mjhj/anims/game/AnimTpRes/animTexture/hupai1.png",
+    "image": "table-panel-study/assets/resources-1897.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 2101,
+    "name": "ring_0421",
+    "rect": [
+      579,
+      434,
+      128,
+      128
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      128,
+      128
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "b1028c51-945b-4d1c-94d2-6f39b826329a",
+    "texture": "asset-study/media/images/resources/mjhj/anims/game/AnimTpRes/animTexture/hupai1.png",
+    "image": "table-panel-study/assets/resources-2101.png"
+  },
+  {
+    "bundle": "game",
+    "id": 1438,
+    "name": "hu_tile_hint",
+    "rect": [
+      324,
+      171,
+      40,
+      46
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      40,
+      46
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "068ceb1f-16b7-43b8-8399-8fee3e9c8f2a",
+    "texture": "asset-study/media/images/game/Other/Tiles/mj_hand_card.png",
+    "image": "table-panel-study/assets/game-1438.png"
+  },
+  {
+    "bundle": "game",
+    "id": 1418,
+    "name": "tile_light",
+    "rect": [
+      529,
+      2,
+      118,
+      152
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      118,
+      152
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "002b9ba3-5709-4c57-bbb9-a84ef1c21acf",
+    "texture": "asset-study/media/images/game/Other/Tiles/mj_hand_card.png",
+    "image": "table-panel-study/assets/game-1418.png"
+  },
+  {
+    "bundle": "game",
+    "id": 1510,
+    "name": "img_Tag_9",
+    "rect": [
+      323,
+      213,
+      46,
+      38
+    ],
+    "offset": [
+      -19,
+      34
+    ],
+    "originalSize": [
+      84,
+      106
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "14d490f7-71c9-41d0-91db-d2c232d462a5",
+    "texture": "asset-study/media/images/game/Other/Tiles/mj_hand_card.png",
+    "image": "table-panel-study/assets/game-1510.png"
+  },
+  {
+    "bundle": "game",
+    "id": 612,
+    "path": "NewSkin/User/di1",
+    "name": "di1",
+    "rect": [
+      142,
+      752,
+      169,
+      33
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      169,
+      33
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "73f5864f-0901-4094-847a-e24583b8f6c8",
+    "texture": "asset-study/media/images/game/_unnamed/1a0bdbf85.png",
+    "image": "table-panel-study/assets/game-612.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1507,
+    "path": "Main/hall_lobbyUp/SectionLevelIcon/img_ICON_4",
+    "name": "img_ICON_4",
+    "rect": [
+      3,
+      81,
+      42,
+      71
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      42,
+      71
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "9e0df232-d48e-4f4b-90e1-7e7f4dbf7651",
+    "texture": "asset-study/media/images/lobby/_unnamed/115f4ef49.png",
+    "image": "table-panel-study/assets/lobby-1507.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 377,
+    "path": "Main/hall_lobbyUp/SectionLevelIcon/img_ICON_0",
+    "name": "img_ICON_0",
+    "rect": [
+      3,
+      491,
+      36,
+      74
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      36,
+      74
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "25911db2-f82d-426c-8730-0beb196a80b3",
+    "texture": "asset-study/media/images/lobby/_unnamed/115f4ef49.png",
+    "image": "table-panel-study/assets/lobby-377.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1062,
+    "path": "Main/hall_lobbyUp/SectionLevelIcon/img_ICON_1",
+    "name": "img_ICON_1",
+    "rect": [
+      3,
+      412,
+      37,
+      73
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      37,
+      73
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "6d670b7a-5011-4e5a-ae4e-23edd397e958",
+    "texture": "asset-study/media/images/lobby/_unnamed/115f4ef49.png",
+    "image": "table-panel-study/assets/lobby-1062.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 425,
+    "path": "Main/hall_lobbyUp/SectionLevelIcon/img_ICON_2",
+    "name": "img_ICON_2",
+    "rect": [
+      3,
+      333,
+      37,
+      73
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      37,
+      73
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "2984e31a-aacb-4154-95f6-1ff5e532c944",
+    "texture": "asset-study/media/images/lobby/_unnamed/115f4ef49.png",
+    "image": "table-panel-study/assets/lobby-425.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1620,
+    "path": "Main/hall_lobbyUp/SectionLevelIcon/img_ICON_3",
+    "name": "img_ICON_3",
+    "rect": [
+      3,
+      251,
+      37,
+      76
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      37,
+      76
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "ab1f6caa-e0e6-40ed-b242-0c2c148b6946",
+    "texture": "asset-study/media/images/lobby/_unnamed/115f4ef49.png",
+    "image": "table-panel-study/assets/lobby-1620.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1963,
+    "path": "Main/hall_lobbyUp/SectionLevelIcon/img_ICON_5",
+    "name": "img_ICON_5",
+    "rect": [
+      3,
+      3,
+      43,
+      72
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      43,
+      72
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "cde9f094-bb20-49f3-96a7-064881cdef81",
+    "texture": "asset-study/media/images/lobby/_unnamed/115f4ef49.png",
+    "image": "table-panel-study/assets/lobby-1963.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1266,
+    "path": "Main/hall_lobbyUp/SectionLevelIcon/img_ICON_6",
+    "name": "img_ICON_6",
+    "rect": [
+      3,
+      158,
+      40,
+      87
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      40,
+      87
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "837de89e-41b7-4469-8457-0aada52485da",
+    "texture": "asset-study/media/images/lobby/_unnamed/115f4ef49.png",
+    "image": "table-panel-study/assets/lobby-1266.png"
+  },
+  {
+    "bundle": "common",
+    "id": 558,
+    "path": "Emoji/icon/water_icon",
+    "name": "water_icon",
+    "rect": [
+      189,
+      727,
+      158,
+      152
+    ],
+    "offset": [
+      2,
+      -10.5
+    ],
+    "originalSize": [
+      204,
+      207
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "b1753e36-b6dc-4941-99df-9d3d771ee539",
+    "texture": "asset-study/media/images/common/_unnamed/1d71b36f9.png",
+    "image": "table-panel-study/assets/common-558.png"
+  },
+  {
+    "bundle": "common",
+    "id": 594,
+    "path": "Emoji/icon/tomato_icon",
+    "name": "tomato_icon",
+    "rect": [
+      3,
+      735,
+      150,
+      158
+    ],
+    "offset": [
+      0,
+      -3.5
+    ],
+    "originalSize": [
+      204,
+      207
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "bbdf02d2-1059-488e-abc1-894532f25fe9",
+    "texture": "asset-study/media/images/common/_unnamed/1d71b36f9.png",
+    "image": "table-panel-study/assets/common-594.png"
+  },
+  {
+    "bundle": "common",
+    "id": 438,
+    "path": "Emoji/icon/tea_icon",
+    "name": "tea_icon",
+    "rect": [
+      213,
+      569,
+      180,
+      152
+    ],
+    "offset": [
+      0,
+      -7.5
+    ],
+    "originalSize": [
+      204,
+      207
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "8b5f8d45-83ba-4884-bd9c-eddf47d5f03a",
+    "texture": "asset-study/media/images/common/_unnamed/1d71b36f9.png",
+    "image": "table-panel-study/assets/common-438.png"
+  },
+  {
+    "bundle": "common",
+    "id": 513,
+    "path": "Emoji/icon/rose_icon",
+    "name": "rose_icon",
+    "rect": [
+      3,
+      579,
+      180,
+      150
+    ],
+    "offset": [
+      -2,
+      -12.5
+    ],
+    "originalSize": [
+      204,
+      207
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "a1dd563b-b65d-416c-858d-a82bb994971c",
+    "texture": "asset-study/media/images/common/_unnamed/1d71b36f9.png",
+    "image": "table-panel-study/assets/common-513.png"
+  }
+]

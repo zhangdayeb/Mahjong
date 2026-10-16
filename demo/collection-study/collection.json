@@ -1,0 +1,7540 @@
+{
+  "source": {
+    "bundle": "prefabs",
+    "id": 2366,
+    "path": "hall/modules/FanGather/FanGatherView"
+  },
+  "design": [
+    1280,
+    720
+  ],
+  "tree": {
+    "name": "FanGatherView",
+    "trs": [
+      640,
+      360,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "size": [
+      1280,
+      720
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "opacity": 255,
+    "color": 4294967295,
+    "active": true,
+    "sprite": null,
+    "label": null,
+    "mask": false,
+    "children": [
+      {
+        "name": "pic_01",
+        "trs": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1.2,
+          1.2,
+          1
+        ],
+        "size": [
+          1560,
+          720
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "opacity": 255,
+        "color": 4294967295,
+        "active": true,
+        "sprite": {
+          "class": "cc.Sprite",
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "56790e3b-1449-4a74-9abf-4279c99eba3d",
+          "frame": "56790e3b-1449-4a74-9abf-4279c99eba3d",
+          "builtinSolid": false
+        },
+        "label": null,
+        "mask": false,
+        "children": []
+      },
+      {
+        "name": "pic_16",
+        "trs": [
+          70,
+          -45,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "size": [
+          1088,
+          613
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "opacity": 255,
+        "color": 4294967295,
+        "active": true,
+        "sprite": {
+          "class": "cc.Sprite",
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "2f73e358-5ceb-4a3a-b432-900989a45c03",
+          "frame": "2f73e358-5ceb-4a3a-b432-900989a45c03",
+          "builtinSolid": false
+        },
+        "label": null,
+        "mask": false,
+        "children": []
+      },
+      {
+        "name": "leftPart",
+        "trs": [
+          -640,
+          360,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "size": [
+          300,
+          100
+        ],
+        "anchor": [
+          0,
+          0.5
+        ],
+        "opacity": 255,
+        "color": 4294967295,
+        "active": true,
+        "sprite": null,
+        "label": null,
+        "mask": false,
+        "children": [
+          {
+            "name": "btnBack",
+            "trs": [
+              0,
+              -46.44,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            "size": [
+              100,
+              84.93
+            ],
+            "anchor": [
+              0,
+              0.5
+            ],
+            "opacity": 255,
+            "color": 4294967295,
+            "active": true,
+            "sprite": null,
+            "label": null,
+            "mask": false,
+            "children": [
+              {
+                "name": "Bg",
+                "trs": [
+                  171.888,
+                  -6.554,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "size": [
+                  300,
+                  62
+                ],
+                "anchor": [
+                  0.5,
+                  0.5
+                ],
+                "opacity": 255,
+                "color": 4294967295,
+                "active": true,
+                "sprite": {
+                  "class": "cc.Sprite",
+                  "_type": 1,
+                  "_sizeMode": 0,
+                  "_materials": [
+                    "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                  ],
+                  "_spriteFrame": "fefa49e7-643b-427f-abfc-d1e346deafb3",
+                  "frame": "fefa49e7-643b-427f-abfc-d1e346deafb3",
+                  "builtinSolid": false
+                },
+                "label": null,
+                "mask": false,
+                "children": []
+              },
+              {
+                "name": "BtnBackLobby",
+                "trs": [
+                  0,
+                  -6.707,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  1,
+                  1,
+                  0
+                ],
+                "size": [
+                  91,
+                  92
+                ],
+                "anchor": [
+                  0,
+                  0.5
+                ],
+                "opacity": 255,
+                "color": 4294967295,
+                "active": true,
+                "sprite": {
+                  "class": "cc.Sprite",
+                  "_isTrimmedMode": false,
+                  "_materials": [
+                    "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                  ],
+                  "_spriteFrame": "9a8bba23-d9bd-4ff6-8524-b5aacc0a840f",
+                  "frame": "9a8bba23-d9bd-4ff6-8524-b5aacc0a840f",
+                  "builtinSolid": false
+                },
+                "label": null,
+                "mask": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "labBox",
+            "trs": [
+              182.148,
+              -56.641,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            "size": [
+              237,
+              84.93
+            ],
+            "anchor": [
+              0.5,
+              0.5
+            ],
+            "opacity": 255,
+            "color": 4294967295,
+            "active": true,
+            "sprite": null,
+            "label": null,
+            "mask": false,
+            "children": [
+              {
+                "name": "lab_gametype",
+                "trs": [
+                  8,
+                  12,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "size": [
+                  200,
+                  41.58
+                ],
+                "anchor": [
+                  0.5,
+                  0.5
+                ],
+                "opacity": 255,
+                "color": 4290070088,
+                "active": true,
+                "sprite": null,
+                "label": {
+                  "class": "cc.Label",
+                  "_string": "番型收集",
+                  "_fontSize": 33,
+                  "_lineHeight": 33,
+                  "_styleFlags": 1,
+                  "_N$horizontalAlign": 1,
+                  "_N$verticalAlign": 1,
+                  "_N$overflow": 2,
+                  "_materials": [
+                    "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                  ]
+                },
+                "mask": false,
+                "children": [
+                  {
+                    "name": "fengexian",
+                    "trs": [
+                      74.718,
+                      -27.507,
+                      0,
+                      0,
+                      0,
+                      0,
+                      1,
+                      1,
+                      1,
+                      1
+                    ],
+                    "size": [
+                      20,
+                      1
+                    ],
+                    "anchor": [
+                      0.5,
+                      0.5
+                    ],
+                    "opacity": 255,
+                    "color": 4294967295,
+                    "active": false,
+                    "sprite": {
+                      "class": "cc.Sprite",
+                      "_sizeMode": 0,
+                      "_materials": [
+                        "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                      ],
+                      "_spriteFrame": "a524976f-184d-4ac6-8bda-e87e3ce70472",
+                      "frame": "a524976f-184d-4ac6-8bda-e87e3ce70472",
+                      "builtinSolid": false
+                    },
+                    "label": null,
+                    "mask": false,
+                    "children": []
+                  },
+                  {
+                    "name": "spellName",
+                    "trs": [
+                      0,
+                      -26.842,
+                      0,
+                      0,
+                      0,
+                      0,
+                      1,
+                      1,
+                      1,
+                      1
+                    ],
+                    "size": [
+                      200,
+                      18.9
+                    ],
+                    "anchor": [
+                      0.5,
+                      0.5
+                    ],
+                    "opacity": 255,
+                    "color": 4292966779,
+                    "active": true,
+                    "sprite": null,
+                    "label": {
+                      "class": "cc.Label",
+                      "_string": "FAN  TYPE COLLECTION",
+                      "_fontSize": 13,
+                      "_lineHeight": 13,
+                      "_N$horizontalAlign": 1,
+                      "_N$verticalAlign": 1,
+                      "_N$overflow": 2,
+                      "_materials": [
+                        "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                      ]
+                    },
+                    "mask": false,
+                    "children": []
+                  },
+                  {
+                    "name": "fengexian",
+                    "trs": [
+                      -72.73,
+                      -27.507,
+                      0,
+                      0,
+                      0,
+                      0,
+                      1,
+                      1,
+                      1,
+                      1
+                    ],
+                    "size": [
+                      20,
+                      1
+                    ],
+                    "anchor": [
+                      0.5,
+                      0.5
+                    ],
+                    "opacity": 255,
+                    "color": 4294967295,
+                    "active": false,
+                    "sprite": {
+                      "class": "cc.Sprite",
+                      "_sizeMode": 0,
+                      "_materials": [
+                        "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                      ],
+                      "_spriteFrame": "a524976f-184d-4ac6-8bda-e87e3ce70472",
+                      "frame": "a524976f-184d-4ac6-8bda-e87e3ce70472",
+                      "builtinSolid": false
+                    },
+                    "label": null,
+                    "mask": false,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "btn_com14",
+                "trs": [
+                  177.74,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  1,
+                  1,
+                  0
+                ],
+                "size": [
+                  32,
+                  33
+                ],
+                "anchor": [
+                  0.5,
+                  0.5
+                ],
+                "opacity": 255,
+                "color": 4294967295,
+                "active": true,
+                "sprite": {
+                  "class": "cc.Sprite",
+                  "_materials": [
+                    "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                  ],
+                  "_spriteFrame": "355095f1-b8f2-41db-b28a-e4a2b84dfb0f",
+                  "frame": "355095f1-b8f2-41db-b28a-e4a2b84dfb0f",
+                  "builtinSolid": false
+                },
+                "label": null,
+                "mask": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "pic_23",
+        "trs": [
+          -563.17,
+          -29.617,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "size": [
+          15,
+          573
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "opacity": 255,
+        "color": 4294967295,
+        "active": true,
+        "sprite": {
+          "class": "cc.Sprite",
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "9b347b16-e043-460e-adbf-892d2e1362d9",
+          "frame": "9b347b16-e043-460e-adbf-892d2e1362d9",
+          "builtinSolid": false
+        },
+        "label": null,
+        "mask": false,
+        "children": []
+      },
+      {
+        "name": "ToggleScrollView",
+        "trs": [
+          -563,
+          255,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "size": [
+          240,
+          606
+        ],
+        "anchor": [
+          0.5,
+          1
+        ],
+        "opacity": 255,
+        "color": 4294967295,
+        "active": true,
+        "sprite": null,
+        "label": null,
+        "mask": false,
+        "children": [
+          {
+            "name": "view",
+            "trs": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            "size": [
+              240,
+              606
+            ],
+            "anchor": [
+              0.5,
+              1
+            ],
+            "opacity": 255,
+            "color": 4294967295,
+            "active": true,
+            "sprite": null,
+            "label": null,
+            "mask": true,
+            "children": [
+              {
+                "name": "ToggleContainer",
+                "trs": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "size": [
+                  100,
+                  707
+                ],
+                "anchor": [
+                  0.5,
+                  1
+                ],
+                "opacity": 255,
+                "color": 4294967295,
+                "active": true,
+                "sprite": null,
+                "label": null,
+                "mask": false,
+                "children": [
+                  {
+                    "name": "898",
+                    "trs": [
+                      0,
+                      -116.5,
+                      0,
+                      0,
+                      0,
+                      0,
+                      1,
+                      1,
+                      1,
+                      0
+                    ],
+                    "size": [
+                      128,
+                      145
+                    ],
+                    "anchor": [
+                      0.5,
+                      0.5
+                    ],
+                    "opacity": 255,
+                    "color": 4294967295,
+                    "active": true,
+                    "sprite": null,
+                    "label": null,
+                    "mask": false,
+                    "children": [
+                      {
+                        "name": "Background",
+                        "trs": [
+                          0,
+                          0,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1,
+                          1,
+                          1,
+                          1
+                        ],
+                        "size": [
+                          128,
+                          141
+                        ],
+                        "anchor": [
+                          0.5,
+                          0.5
+                        ],
+                        "opacity": 255,
+                        "color": 4294967295,
+                        "active": true,
+                        "sprite": {
+                          "class": "cc.Sprite",
+                          "_sizeMode": 2,
+                          "_isTrimmedMode": false,
+                          "_materials": [
+                            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                          ],
+                          "_spriteFrame": "1c5fffbb-099f-4240-b7a7-f92f660a1213",
+                          "frame": "1c5fffbb-099f-4240-b7a7-f92f660a1213",
+                          "builtinSolid": false
+                        },
+                        "label": null,
+                        "mask": false,
+                        "children": []
+                      },
+                      {
+                        "name": "checkmark",
+                        "trs": [
+                          0,
+                          0,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1,
+                          1,
+                          1,
+                          1
+                        ],
+                        "size": [
+                          130,
+                          145
+                        ],
+                        "anchor": [
+                          0.5,
+                          0.5
+                        ],
+                        "opacity": 255,
+                        "color": 4294967295,
+                        "active": true,
+                        "sprite": {
+                          "class": "cc.Sprite",
+                          "_sizeMode": 2,
+                          "_isTrimmedMode": false,
+                          "_materials": [
+                            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                          ],
+                          "_spriteFrame": "d3b42ea9-48cd-4940-8c77-308c04377f2a",
+                          "frame": "d3b42ea9-48cd-4940-8c77-308c04377f2a",
+                          "builtinSolid": false
+                        },
+                        "label": null,
+                        "mask": false,
+                        "children": []
+                      },
+                      {
+                        "name": "red_icon",
+                        "trs": [
+                          31,
+                          24,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1,
+                          1,
+                          1,
+                          1
+                        ],
+                        "size": [
+                          27,
+                          28
+                        ],
+                        "anchor": [
+                          0.5,
+                          0.5
+                        ],
+                        "opacity": 255,
+                        "color": 4294967295,
+                        "active": true,
+                        "sprite": {
+                          "class": "cc.Sprite",
+                          "_materials": [
+                            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                          ],
+                          "_spriteFrame": "44ae19fe-0b16-4b84-896b-dbc0955cbf1b",
+                          "frame": "44ae19fe-0b16-4b84-896b-dbc0955cbf1b",
+                          "builtinSolid": false
+                        },
+                        "label": null,
+                        "mask": false,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "893",
+                    "trs": [
+                      0,
+                      -271.5,
+                      0,
+                      0,
+                      0,
+                      0,
+                      1,
+                      1,
+                      1,
+                      0
+                    ],
+                    "size": [
+                      128,
+                      145
+                    ],
+                    "anchor": [
+                      0.5,
+                      0.5
+                    ],
+                    "opacity": 255,
+                    "color": 4294967295,
+                    "active": true,
+                    "sprite": null,
+                    "label": null,
+                    "mask": false,
+                    "children": [
+                      {
+                        "name": "Background",
+                        "trs": [
+                          0,
+                          0,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1,
+                          1,
+                          1,
+                          1
+                        ],
+                        "size": [
+                          134,
+                          144
+                        ],
+                        "anchor": [
+                          0.5,
+                          0.5
+                        ],
+                        "opacity": 255,
+                        "color": 4294967295,
+                        "active": true,
+                        "sprite": {
+                          "class": "cc.Sprite",
+                          "_sizeMode": 2,
+                          "_isTrimmedMode": false,
+                          "_materials": [
+                            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                          ],
+                          "_spriteFrame": "e3c3311e-a4fc-4fb3-99d2-9d6443225add",
+                          "frame": "e3c3311e-a4fc-4fb3-99d2-9d6443225add",
+                          "builtinSolid": false
+                        },
+                        "label": null,
+                        "mask": false,
+                        "children": []
+                      },
+                      {
+                        "name": "checkmark",
+                        "trs": [
+                          0,
+                          0,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1,
+                          1,
+                          1,
+                          1
+                        ],
+                        "size": [
+                          98,
+                          110
+                        ],
+                        "anchor": [
+                          0.5,
+                          0.5
+                        ],
+                        "opacity": 255,
+                        "color": 4294967295,
+                        "active": false,
+                        "sprite": {
+                          "class": "cc.Sprite",
+                          "_sizeMode": 2,
+                          "_isTrimmedMode": false,
+                          "_materials": [
+                            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                          ],
+                          "_spriteFrame": "d309eee4-f37c-4625-854d-43fe77f3b005",
+                          "frame": "d309eee4-f37c-4625-854d-43fe77f3b005",
+                          "builtinSolid": false
+                        },
+                        "label": null,
+                        "mask": false,
+                        "children": []
+                      },
+                      {
+                        "name": "red_icon",
+                        "trs": [
+                          31,
+                          24,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1,
+                          1,
+                          1,
+                          1
+                        ],
+                        "size": [
+                          27,
+                          28
+                        ],
+                        "anchor": [
+                          0.5,
+                          0.5
+                        ],
+                        "opacity": 255,
+                        "color": 4294967295,
+                        "active": true,
+                        "sprite": {
+                          "class": "cc.Sprite",
+                          "_materials": [
+                            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                          ],
+                          "_spriteFrame": "44ae19fe-0b16-4b84-896b-dbc0955cbf1b",
+                          "frame": "44ae19fe-0b16-4b84-896b-dbc0955cbf1b",
+                          "builtinSolid": false
+                        },
+                        "label": null,
+                        "mask": false,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "866",
+                    "trs": [
+                      0,
+                      -431,
+                      0,
+                      0,
+                      0,
+                      0,
+                      1,
+                      1,
+                      1,
+                      0
+                    ],
+                    "size": [
+                      128,
+                      154
+                    ],
+                    "anchor": [
+                      0.5,
+                      0.5
+                    ],
+                    "opacity": 255,
+                    "color": 4294967295,
+                    "active": true,
+                    "sprite": null,
+                    "label": null,
+                    "mask": false,
+                    "children": [
+                      {
+                        "name": "Background",
+                        "trs": [
+                          0,
+                          0,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1,
+                          1,
+                          1,
+                          1
+                        ],
+                        "size": [
+                          130,
+                          141
+                        ],
+                        "anchor": [
+                          0.5,
+                          0.5
+                        ],
+                        "opacity": 255,
+                        "color": 4294967295,
+                        "active": true,
+                        "sprite": {
+                          "class": "cc.Sprite",
+                          "_sizeMode": 2,
+                          "_isTrimmedMode": false,
+                          "_materials": [
+                            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                          ],
+                          "_spriteFrame": "8c8c8eb4-2797-4d3a-87ea-afe5e9062164",
+                          "frame": "8c8c8eb4-2797-4d3a-87ea-afe5e9062164",
+                          "builtinSolid": false
+                        },
+                        "label": null,
+                        "mask": false,
+                        "children": []
+                      },
+                      {
+                        "name": "checkmark",
+                        "trs": [
+                          0,
+                          0,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1,
+                          1,
+                          1,
+                          1
+                        ],
+                        "size": [
+                          98,
+                          110
+                        ],
+                        "anchor": [
+                          0.5,
+                          0.5
+                        ],
+                        "opacity": 255,
+                        "color": 4294967295,
+                        "active": false,
+                        "sprite": {
+                          "class": "cc.Sprite",
+                          "_sizeMode": 2,
+                          "_isTrimmedMode": false,
+                          "_materials": [
+                            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                          ],
+                          "_spriteFrame": "4202dcce-1e96-44f8-95b7-264318c53109",
+                          "frame": "4202dcce-1e96-44f8-95b7-264318c53109",
+                          "builtinSolid": false
+                        },
+                        "label": null,
+                        "mask": false,
+                        "children": []
+                      },
+                      {
+                        "name": "red_icon",
+                        "trs": [
+                          31,
+                          24,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1,
+                          1,
+                          1,
+                          1
+                        ],
+                        "size": [
+                          27,
+                          28
+                        ],
+                        "anchor": [
+                          0.5,
+                          0.5
+                        ],
+                        "opacity": 255,
+                        "color": 4294967295,
+                        "active": true,
+                        "sprite": {
+                          "class": "cc.Sprite",
+                          "_materials": [
+                            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                          ],
+                          "_spriteFrame": "44ae19fe-0b16-4b84-896b-dbc0955cbf1b",
+                          "frame": "44ae19fe-0b16-4b84-896b-dbc0955cbf1b",
+                          "builtinSolid": false
+                        },
+                        "label": null,
+                        "mask": false,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "911",
+                    "trs": [
+                      0,
+                      -590.5,
+                      0,
+                      0,
+                      0,
+                      0,
+                      1,
+                      1,
+                      1,
+                      0
+                    ],
+                    "size": [
+                      128,
+                      145
+                    ],
+                    "anchor": [
+                      0.5,
+                      0.5
+                    ],
+                    "opacity": 255,
+                    "color": 4294967295,
+                    "active": true,
+                    "sprite": null,
+                    "label": null,
+                    "mask": false,
+                    "children": [
+                      {
+                        "name": "Background",
+                        "trs": [
+                          0,
+                          0,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1,
+                          1,
+                          1,
+                          1
+                        ],
+                        "size": [
+                          130,
+                          141
+                        ],
+                        "anchor": [
+                          0.5,
+                          0.5
+                        ],
+                        "opacity": 255,
+                        "color": 4294967295,
+                        "active": true,
+                        "sprite": {
+                          "class": "cc.Sprite",
+                          "_sizeMode": 2,
+                          "_isTrimmedMode": false,
+                          "_materials": [
+                            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                          ],
+                          "_spriteFrame": "7ec7e7fb-3b24-4b09-9f62-1d086445178c",
+                          "frame": "7ec7e7fb-3b24-4b09-9f62-1d086445178c",
+                          "builtinSolid": false
+                        },
+                        "label": null,
+                        "mask": false,
+                        "children": []
+                      },
+                      {
+                        "name": "checkmark",
+                        "trs": [
+                          0,
+                          0,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1,
+                          1,
+                          1,
+                          1
+                        ],
+                        "size": [
+                          130,
+                          145
+                        ],
+                        "anchor": [
+                          0.5,
+                          0.5
+                        ],
+                        "opacity": 255,
+                        "color": 4294967295,
+                        "active": false,
+                        "sprite": {
+                          "class": "cc.Sprite",
+                          "_sizeMode": 2,
+                          "_isTrimmedMode": false,
+                          "_materials": [
+                            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                          ],
+                          "_spriteFrame": "6e4fcf86-19c4-424a-8723-86672a883098",
+                          "frame": "6e4fcf86-19c4-424a-8723-86672a883098",
+                          "builtinSolid": false
+                        },
+                        "label": null,
+                        "mask": false,
+                        "children": []
+                      },
+                      {
+                        "name": "red_icon",
+                        "trs": [
+                          31,
+                          24,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1,
+                          1,
+                          1,
+                          1
+                        ],
+                        "size": [
+                          27,
+                          28
+                        ],
+                        "anchor": [
+                          0.5,
+                          0.5
+                        ],
+                        "opacity": 255,
+                        "color": 4294967295,
+                        "active": true,
+                        "sprite": {
+                          "class": "cc.Sprite",
+                          "_materials": [
+                            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                          ],
+                          "_spriteFrame": "44ae19fe-0b16-4b84-896b-dbc0955cbf1b",
+                          "frame": "44ae19fe-0b16-4b84-896b-dbc0955cbf1b",
+                          "builtinSolid": false
+                        },
+                        "label": null,
+                        "mask": false,
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ScrollView",
+        "trs": [
+          74,
+          -47,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "size": [
+          955,
+          500
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "opacity": 255,
+        "color": 4294967295,
+        "active": true,
+        "sprite": null,
+        "label": null,
+        "mask": false,
+        "children": [
+          {
+            "name": "view",
+            "trs": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            "size": [
+              955,
+              500
+            ],
+            "anchor": [
+              0.5,
+              0.5
+            ],
+            "opacity": 255,
+            "color": 4294967295,
+            "active": true,
+            "sprite": null,
+            "label": null,
+            "mask": true,
+            "children": [
+              {
+                "name": "content",
+                "trs": [
+                  -477.5,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "size": [
+                  200,
+                  500
+                ],
+                "anchor": [
+                  0,
+                  0.5
+                ],
+                "opacity": 255,
+                "color": 4294967295,
+                "active": true,
+                "sprite": null,
+                "label": null,
+                "mask": false,
+                "children": [
+                  {
+                    "name": "item",
+                    "trs": [
+                      100,
+                      125,
+                      0,
+                      0,
+                      0,
+                      0,
+                      1,
+                      0.99,
+                      0.99,
+                      0
+                    ],
+                    "size": [
+                      200,
+                      250
+                    ],
+                    "anchor": [
+                      0.5,
+                      0.5
+                    ],
+                    "opacity": 255,
+                    "color": 4294967295,
+                    "active": true,
+                    "sprite": null,
+                    "label": null,
+                    "mask": false,
+                    "children": [
+                      {
+                        "name": "img_bg",
+                        "trs": [
+                          0,
+                          0,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1,
+                          1,
+                          1,
+                          0
+                        ],
+                        "size": [
+                          213,
+                          267
+                        ],
+                        "anchor": [
+                          0.5,
+                          0.5
+                        ],
+                        "opacity": 255,
+                        "color": 4294967295,
+                        "active": true,
+                        "sprite": {
+                          "class": "cc.Sprite",
+                          "_materials": [
+                            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                          ],
+                          "_spriteFrame": "a6cddcde-0889-47f4-924b-e645c90dadf7",
+                          "frame": "a6cddcde-0889-47f4-924b-e645c90dadf7",
+                          "builtinSolid": false
+                        },
+                        "label": null,
+                        "mask": false,
+                        "children": []
+                      },
+                      {
+                        "name": "img_fan",
+                        "trs": [
+                          0,
+                          0,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1,
+                          0.97,
+                          0.97,
+                          1
+                        ],
+                        "size": [
+                          198,
+                          252
+                        ],
+                        "anchor": [
+                          0.5,
+                          0.5
+                        ],
+                        "opacity": 255,
+                        "color": 4294967295,
+                        "active": true,
+                        "sprite": null,
+                        "label": null,
+                        "mask": false,
+                        "children": []
+                      },
+                      {
+                        "name": "img_normal_fan",
+                        "trs": [
+                          0,
+                          0,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1,
+                          0.97,
+                          0.97,
+                          1
+                        ],
+                        "size": [
+                          198,
+                          252
+                        ],
+                        "anchor": [
+                          0.5,
+                          0.5
+                        ],
+                        "opacity": 255,
+                        "color": 4294967295,
+                        "active": true,
+                        "sprite": null,
+                        "label": null,
+                        "mask": false,
+                        "children": []
+                      },
+                      {
+                        "name": "mask_progress",
+                        "trs": [
+                          0,
+                          -77.5,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1,
+                          1,
+                          1,
+                          1
+                        ],
+                        "size": [
+                          187,
+                          28
+                        ],
+                        "anchor": [
+                          0.5,
+                          0.5
+                        ],
+                        "opacity": 255,
+                        "color": 4294967295,
+                        "active": false,
+                        "sprite": {
+                          "class": "cc.Sprite",
+                          "_materials": [
+                            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                          ],
+                          "_spriteFrame": "cf4c228d-54ce-402f-8762-20bc396b0705",
+                          "frame": "cf4c228d-54ce-402f-8762-20bc396b0705",
+                          "builtinSolid": false
+                        },
+                        "label": null,
+                        "mask": false,
+                        "children": []
+                      },
+                      {
+                        "name": "img_frame",
+                        "trs": [
+                          0,
+                          0,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1,
+                          1,
+                          1,
+                          1
+                        ],
+                        "size": [
+                          199,
+                          248
+                        ],
+                        "anchor": [
+                          0.5,
+                          0.5
+                        ],
+                        "opacity": 255,
+                        "color": 4294967295,
+                        "active": false,
+                        "sprite": {
+                          "class": "cc.Sprite",
+                          "_materials": [
+                            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                          ],
+                          "_spriteFrame": "e9ee10ec-2667-4da5-964b-c4a08654bdc2",
+                          "frame": "e9ee10ec-2667-4da5-964b-c4a08654bdc2",
+                          "builtinSolid": false
+                        },
+                        "label": null,
+                        "mask": false,
+                        "children": []
+                      },
+                      {
+                        "name": "title_new",
+                        "trs": [
+                          74.448,
+                          99.809,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1,
+                          1,
+                          1,
+                          1
+                        ],
+                        "size": [
+                          49,
+                          34
+                        ],
+                        "anchor": [
+                          0.5,
+                          0.5
+                        ],
+                        "opacity": 255,
+                        "color": 4294967295,
+                        "active": false,
+                        "sprite": {
+                          "class": "cc.Sprite",
+                          "_materials": [
+                            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                          ],
+                          "_spriteFrame": "d430deec-13ea-464b-bcce-98b3d453a0be",
+                          "frame": "d430deec-13ea-464b-bcce-98b3d453a0be",
+                          "builtinSolid": false
+                        },
+                        "label": null,
+                        "mask": false,
+                        "children": []
+                      },
+                      {
+                        "name": "btn_bag",
+                        "trs": [
+                          67.322,
+                          -68.463,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1,
+                          1,
+                          1,
+                          0
+                        ],
+                        "size": [
+                          75,
+                          68
+                        ],
+                        "anchor": [
+                          0.5,
+                          0.5
+                        ],
+                        "opacity": 255,
+                        "color": 4294967295,
+                        "active": false,
+                        "sprite": {
+                          "class": "cc.Sprite",
+                          "_materials": [
+                            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                          ],
+                          "_spriteFrame": "ebb10f1e-167b-477b-907c-faee17409512",
+                          "frame": "ebb10f1e-167b-477b-907c-faee17409512",
+                          "builtinSolid": false
+                        },
+                        "label": null,
+                        "mask": false,
+                        "children": [
+                          {
+                            "name": "btn_bag_red",
+                            "trs": [
+                              17.597,
+                              18.77,
+                              0,
+                              0,
+                              0,
+                              0,
+                              1,
+                              1,
+                              1,
+                              1
+                            ],
+                            "size": [
+                              27,
+                              28
+                            ],
+                            "anchor": [
+                              0.5,
+                              0.5
+                            ],
+                            "opacity": 255,
+                            "color": 4294967295,
+                            "active": true,
+                            "sprite": {
+                              "class": "cc.Sprite",
+                              "_materials": [
+                                "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                              ],
+                              "_spriteFrame": "44ae19fe-0b16-4b84-896b-dbc0955cbf1b",
+                              "frame": "44ae19fe-0b16-4b84-896b-dbc0955cbf1b",
+                              "builtinSolid": false
+                            },
+                            "label": null,
+                            "mask": false,
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "name": "lab_progress",
+                        "trs": [
+                          0,
+                          -77.5,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1,
+                          1,
+                          1,
+                          1
+                        ],
+                        "size": [
+                          30.58,
+                          27.72
+                        ],
+                        "anchor": [
+                          0.5,
+                          0.5
+                        ],
+                        "opacity": 255,
+                        "color": 4294967295,
+                        "active": false,
+                        "sprite": null,
+                        "label": {
+                          "class": "cc.Label",
+                          "_string": "0/9",
+                          "_fontSize": 22,
+                          "_lineHeight": 22,
+                          "_N$horizontalAlign": 1,
+                          "_N$verticalAlign": 1,
+                          "_materials": [
+                            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                          ]
+                        },
+                        "mask": false,
+                        "children": []
+                      },
+                      {
+                        "name": "lab_name",
+                        "trs": [
+                          0,
+                          -109.5,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1,
+                          1,
+                          1,
+                          1
+                        ],
+                        "size": [
+                          33.37,
+                          25.2
+                        ],
+                        "anchor": [
+                          0.5,
+                          0.5
+                        ],
+                        "opacity": 255,
+                        "color": 4288825946,
+                        "active": true,
+                        "sprite": null,
+                        "label": {
+                          "class": "cc.Label",
+                          "_string": "???",
+                          "_fontSize": 20,
+                          "_lineHeight": 20,
+                          "_N$horizontalAlign": 1,
+                          "_N$verticalAlign": 1,
+                          "_materials": [
+                            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                          ]
+                        },
+                        "mask": false,
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "pic_31",
+        "trs": [
+          332,
+          293,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "size": [
+          428,
+          63
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "opacity": 255,
+        "color": 4294967295,
+        "active": true,
+        "sprite": {
+          "class": "cc.Sprite",
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "db90651f-ccb9-4ea6-b84b-4ee27d898ec2",
+          "frame": "db90651f-ccb9-4ea6-b84b-4ee27d898ec2",
+          "builtinSolid": false
+        },
+        "label": null,
+        "mask": false,
+        "children": [
+          {
+            "name": "pic_21",
+            "trs": [
+              -172,
+              -3.917,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            "size": [
+              100,
+              67
+            ],
+            "anchor": [
+              0.5,
+              0.5
+            ],
+            "opacity": 255,
+            "color": 4294967295,
+            "active": true,
+            "sprite": null,
+            "label": null,
+            "mask": false,
+            "children": [
+              {
+                "name": "pic_19",
+                "trs": [
+                  33.832,
+                  29.2,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "size": [
+                  27,
+                  28
+                ],
+                "anchor": [
+                  0.5,
+                  0.5
+                ],
+                "opacity": 255,
+                "color": 4294967295,
+                "active": true,
+                "sprite": {
+                  "class": "cc.Sprite",
+                  "_materials": [
+                    "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                  ],
+                  "_spriteFrame": "44ae19fe-0b16-4b84-896b-dbc0955cbf1b",
+                  "frame": "44ae19fe-0b16-4b84-896b-dbc0955cbf1b",
+                  "builtinSolid": false
+                },
+                "label": null,
+                "mask": false,
+                "children": []
+              },
+              {
+                "name": "pic_21_0",
+                "trs": [
+                  0.595,
+                  0.55,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "size": [
+                  66,
+                  65
+                ],
+                "anchor": [
+                  0.5,
+                  0.5
+                ],
+                "opacity": 255,
+                "color": 4294967295,
+                "active": true,
+                "sprite": {
+                  "class": "cc.Sprite",
+                  "_materials": [
+                    "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                  ],
+                  "_spriteFrame": "2f78a2de-0b89-42d2-918d-b8a1b153505e",
+                  "frame": "2f78a2de-0b89-42d2-918d-b8a1b153505e",
+                  "builtinSolid": false
+                },
+                "label": null,
+                "mask": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "pic_21_1",
+            "trs": [
+              -75,
+              -4.5,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            "size": [
+              128,
+              21
+            ],
+            "anchor": [
+              0.5,
+              0.5
+            ],
+            "opacity": 255,
+            "color": 4294967295,
+            "active": true,
+            "sprite": {
+              "class": "cc.Sprite",
+              "_materials": [
+                "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+              ],
+              "_spriteFrame": "9b8cb965-aec1-4fcc-ba15-f856906e408b",
+              "frame": "9b8cb965-aec1-4fcc-ba15-f856906e408b",
+              "builtinSolid": false
+            },
+            "label": null,
+            "mask": false,
+            "children": []
+          },
+          {
+            "name": "pic_30",
+            "trs": [
+              103,
+              -2.5,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            "size": [
+              189,
+              24
+            ],
+            "anchor": [
+              0.5,
+              0.5
+            ],
+            "opacity": 255,
+            "color": 4294967295,
+            "active": false,
+            "sprite": {
+              "class": "cc.Sprite",
+              "_materials": [
+                "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+              ],
+              "_spriteFrame": "61bd126d-40dc-4aed-9b2c-7539aa6aa340",
+              "frame": "61bd126d-40dc-4aed-9b2c-7539aa6aa340",
+              "builtinSolid": false
+            },
+            "label": null,
+            "mask": false,
+            "children": []
+          },
+          {
+            "name": "ProgressBar",
+            "trs": [
+              103.484,
+              -2.523,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            "size": [
+              190,
+              22
+            ],
+            "anchor": [
+              0.5,
+              0.5
+            ],
+            "opacity": 255,
+            "color": 4294967295,
+            "active": true,
+            "sprite": {
+              "class": "cc.Sprite",
+              "_type": 1,
+              "_sizeMode": 0,
+              "_materials": [
+                "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+              ],
+              "_spriteFrame": "61bd126d-40dc-4aed-9b2c-7539aa6aa340",
+              "frame": "61bd126d-40dc-4aed-9b2c-7539aa6aa340",
+              "builtinSolid": false
+            },
+            "label": null,
+            "mask": false,
+            "children": [
+              {
+                "name": "bar",
+                "trs": [
+                  -95,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "size": [
+                  76,
+                  22
+                ],
+                "anchor": [
+                  0,
+                  0.5
+                ],
+                "opacity": 255,
+                "color": 4294967295,
+                "active": true,
+                "sprite": {
+                  "class": "cc.Sprite",
+                  "_type": 1,
+                  "_sizeMode": 0,
+                  "_materials": [
+                    "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                  ],
+                  "_spriteFrame": "7ef57e08-97ff-44e1-9f3b-3de20cbc371e",
+                  "frame": "7ef57e08-97ff-44e1-9f3b-3de20cbc371e",
+                  "builtinSolid": false
+                },
+                "label": null,
+                "mask": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "lab_progress",
+            "trs": [
+              101,
+              -3,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            "size": [
+              38.93,
+              25.2
+            ],
+            "anchor": [
+              0.5,
+              0.5
+            ],
+            "opacity": 255,
+            "color": 4278221785,
+            "active": true,
+            "sprite": null,
+            "label": {
+              "class": "cc.Label",
+              "_string": "7/16",
+              "_fontSize": 20,
+              "_lineHeight": 20,
+              "_N$horizontalAlign": 1,
+              "_N$verticalAlign": 1,
+              "_materials": [
+                "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+              ]
+            },
+            "mask": false,
+            "children": []
+          },
+          {
+            "name": "mainBagPreview",
+            "trs": [
+              29.01,
+              19.085,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            "size": [
+              0,
+              0
+            ],
+            "anchor": [
+              0.5,
+              0.5
+            ],
+            "opacity": 255,
+            "color": 4294967295,
+            "active": true,
+            "sprite": null,
+            "label": null,
+            "mask": false,
+            "children": [
+              {
+                "name": "mainBagParent",
+                "trs": [
+                  -243.828,
+                  -48.978,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0.5,
+                  0.5,
+                  0.6
+                ],
+                "size": [
+                  188,
+                  220
+                ],
+                "anchor": [
+                  1,
+                  0.5
+                ],
+                "opacity": 255,
+                "color": 4294967295,
+                "active": true,
+                "sprite": {
+                  "class": "cc.Sprite",
+                  "_type": 1,
+                  "_sizeMode": 0,
+                  "_materials": [
+                    "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                  ],
+                  "_spriteFrame": "277190e7-8f74-4be8-be28-029912b0f27d",
+                  "frame": "277190e7-8f74-4be8-be28-029912b0f27d",
+                  "builtinSolid": false
+                },
+                "label": null,
+                "mask": false,
+                "children": [
+                  {
+                    "name": "awardItem",
+                    "trs": [
+                      -94,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      1,
+                      1,
+                      1,
+                      1
+                    ],
+                    "size": [
+                      158,
+                      158
+                    ],
+                    "anchor": [
+                      0.5,
+                      0.5
+                    ],
+                    "opacity": 255,
+                    "color": 4294967295,
+                    "active": true,
+                    "sprite": null,
+                    "label": null,
+                    "mask": false,
+                    "children": [
+                      {
+                        "name": "kuang",
+                        "trs": [
+                          0,
+                          10,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1,
+                          0.9,
+                          0.9,
+                          1
+                        ],
+                        "size": [
+                          158,
+                          158
+                        ],
+                        "anchor": [
+                          0.5,
+                          0.5
+                        ],
+                        "opacity": 255,
+                        "color": 4294967295,
+                        "active": true,
+                        "sprite": {
+                          "class": "cc.Sprite",
+                          "_sizeMode": 0,
+                          "_materials": [
+                            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                          ],
+                          "_spriteFrame": "b41e0f74-bbe3-400c-865a-7d0c8e4bd16d",
+                          "frame": "b41e0f74-bbe3-400c-865a-7d0c8e4bd16d",
+                          "builtinSolid": false
+                        },
+                        "label": null,
+                        "mask": false,
+                        "children": [
+                          {
+                            "name": "img_douzi",
+                            "trs": [
+                              0,
+                              0,
+                              0,
+                              0,
+                              0,
+                              0,
+                              1,
+                              1,
+                              1,
+                              1
+                            ],
+                            "size": [
+                              71,
+                              85
+                            ],
+                            "anchor": [
+                              0.5,
+                              0.5
+                            ],
+                            "opacity": 255,
+                            "color": 4294967295,
+                            "active": true,
+                            "sprite": {
+                              "class": "cc.Sprite",
+                              "_sizeMode": 2,
+                              "_isTrimmedMode": false,
+                              "_materials": [
+                                "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                              ],
+                              "_spriteFrame": "e6da781a-bae3-4c5a-8efa-858391c2a99f",
+                              "frame": "e6da781a-bae3-4c5a-8efa-858391c2a99f",
+                              "builtinSolid": false
+                            },
+                            "label": null,
+                            "mask": false,
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "name": "lab_award",
+                        "trs": [
+                          0,
+                          -84,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1,
+                          1,
+                          1,
+                          1
+                        ],
+                        "size": [
+                          190,
+                          40
+                        ],
+                        "anchor": [
+                          0.5,
+                          0.5
+                        ],
+                        "opacity": 255,
+                        "color": 4294967295,
+                        "active": true,
+                        "sprite": null,
+                        "label": {
+                          "class": "cc.Label",
+                          "_string": "2000金豆",
+                          "_fontSize": 24,
+                          "_lineHeight": 24,
+                          "_N$horizontalAlign": 1,
+                          "_N$verticalAlign": 1,
+                          "_N$overflow": 2,
+                          "_materials": [
+                            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                          ]
+                        },
+                        "mask": false,
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "pic_35",
+                "trs": [
+                  -237,
+                  -12.201,
+                  0,
+                  0,
+                  0,
+                  0.7071067811865475,
+                  0.7071067811865476,
+                  1,
+                  1,
+                  1
+                ],
+                "size": [
+                  19,
+                  14
+                ],
+                "anchor": [
+                  0.5,
+                  0.5
+                ],
+                "opacity": 255,
+                "color": 4294967295,
+                "active": true,
+                "sprite": {
+                  "class": "cc.Sprite",
+                  "_materials": [
+                    "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                  ],
+                  "_spriteFrame": "8e92e819-9054-4976-8b54-1439ddd89550",
+                  "frame": "8e92e819-9054-4976-8b54-1439ddd89550",
+                  "builtinSolid": false
+                },
+                "label": null,
+                "mask": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "rule",
+        "trs": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "size": [
+          1280,
+          720
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "opacity": 255,
+        "color": 4294967295,
+        "active": false,
+        "sprite": null,
+        "label": null,
+        "mask": false,
+        "children": [
+          {
+            "name": "mask",
+            "trs": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            "size": [
+              1280,
+              720
+            ],
+            "anchor": [
+              0.5,
+              0.5
+            ],
+            "opacity": 180,
+            "color": 4278190080,
+            "active": true,
+            "sprite": {
+              "class": "cc.Sprite",
+              "_sizeMode": 0,
+              "_materials": [
+                "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+              ],
+              "_spriteFrame": "a23235d1-15db-4b95-8439-a2e005bfff91",
+              "frame": null,
+              "builtinSolid": true
+            },
+            "label": null,
+            "mask": false,
+            "children": []
+          },
+          {
+            "name": "pic_com08",
+            "trs": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            "size": [
+              948,
+              450
+            ],
+            "anchor": [
+              0.5,
+              0.5
+            ],
+            "opacity": 255,
+            "color": 4294967295,
+            "active": true,
+            "sprite": {
+              "class": "cc.Sprite",
+              "_type": 1,
+              "_sizeMode": 0,
+              "_materials": [
+                "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+              ],
+              "_spriteFrame": "b1ce235d-bf85-4847-8a55-b158dbc4c8c5",
+              "frame": "b1ce235d-bf85-4847-8a55-b158dbc4c8c5",
+              "builtinSolid": false
+            },
+            "label": null,
+            "mask": false,
+            "children": []
+          },
+          {
+            "name": "datanchuangshanglan",
+            "trs": [
+              0,
+              194,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            "size": [
+              950,
+              70
+            ],
+            "anchor": [
+              0.5,
+              0.5
+            ],
+            "opacity": 255,
+            "color": 4294967295,
+            "active": true,
+            "sprite": {
+              "class": "cc.Sprite",
+              "_materials": [
+                "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+              ],
+              "_spriteFrame": "171511ad-4dac-425e-97a2-84099b79b2cf",
+              "frame": "171511ad-4dac-425e-97a2-84099b79b2cf",
+              "builtinSolid": false
+            },
+            "label": null,
+            "mask": false,
+            "children": []
+          },
+          {
+            "name": "btn_com04",
+            "trs": [
+              430.116,
+              197.05,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            "size": [
+              38,
+              37
+            ],
+            "anchor": [
+              0.5,
+              0.5
+            ],
+            "opacity": 255,
+            "color": 4294967295,
+            "active": true,
+            "sprite": {
+              "class": "cc.Sprite",
+              "_materials": [
+                "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+              ],
+              "_spriteFrame": "feec4ed5-df49-4757-ad98-21baf745e1a0",
+              "frame": "feec4ed5-df49-4757-ad98-21baf745e1a0",
+              "builtinSolid": false
+            },
+            "label": null,
+            "mask": false,
+            "children": []
+          },
+          {
+            "name": "fnt_biaotizi-export",
+            "trs": [
+              -345,
+              204.247,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            "size": [
+              213.75,
+              40
+            ],
+            "anchor": [
+              0.5,
+              0.5
+            ],
+            "opacity": 255,
+            "color": 4294967295,
+            "active": true,
+            "sprite": null,
+            "label": {
+              "class": "cc.Label",
+              "_string": "活动规则",
+              "_isSystemFontUsed": false,
+              "_materials": [
+                "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+              ],
+              "_N$file": "d3224ad4-b37f-4730-90f0-c91c90307c2a"
+            },
+            "mask": false,
+            "children": []
+          },
+          {
+            "name": "New Label",
+            "trs": [
+              0,
+              -25,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            "size": [
+              712.56,
+              290.4
+            ],
+            "anchor": [
+              0.5,
+              0.5
+            ],
+            "opacity": 255,
+            "color": 4283446831,
+            "active": true,
+            "sprite": null,
+            "label": {
+              "class": "cc.Label",
+              "_string": "1.每胡一局番型谱中的番型，就获得该番型的一枚碎片。\n\n2.集齐9枚碎片后，可点亮对应番型卡片，并解锁普通卡奖励。\n\n3.某番型达成100次后，可点亮金色番型卡片，并解锁金卡奖励。\n\n4.获得对应数量的不同碎片，可解锁对应碎片收集计划奖励。",
+              "_fontSize": 25,
+              "_N$verticalAlign": 1,
+              "_materials": [
+                "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+              ]
+            },
+            "mask": false,
+            "children": []
+          },
+          {
+            "name": "New Label",
+            "trs": [
+              0,
+              200.122,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            "size": [
+              240,
+              50.4
+            ],
+            "anchor": [
+              0.5,
+              0.5
+            ],
+            "opacity": 255,
+            "color": 4290070088,
+            "active": false,
+            "sprite": null,
+            "label": {
+              "class": "cc.Label",
+              "_string": "番型收集规则",
+              "_N$horizontalAlign": 1,
+              "_N$verticalAlign": 1,
+              "_materials": [
+                "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+              ]
+            },
+            "mask": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "preView",
+        "trs": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "size": [
+          1280,
+          720
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "opacity": 255,
+        "color": 4294967295,
+        "active": false,
+        "sprite": null,
+        "label": null,
+        "mask": false,
+        "children": [
+          {
+            "name": "mask",
+            "trs": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            "size": [
+              1280,
+              720
+            ],
+            "anchor": [
+              0.5,
+              0.5
+            ],
+            "opacity": 180,
+            "color": 4278190080,
+            "active": true,
+            "sprite": {
+              "class": "cc.Sprite",
+              "_sizeMode": 0,
+              "_materials": [
+                "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+              ],
+              "_spriteFrame": "a23235d1-15db-4b95-8439-a2e005bfff91",
+              "frame": null,
+              "builtinSolid": true
+            },
+            "label": null,
+            "mask": false,
+            "children": []
+          },
+          {
+            "name": "pic_25",
+            "trs": [
+              10,
+              291.5,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            "size": [
+              914,
+              75
+            ],
+            "anchor": [
+              0.5,
+              0.5
+            ],
+            "opacity": 255,
+            "color": 4294967295,
+            "active": true,
+            "sprite": {
+              "class": "cc.Sprite",
+              "_materials": [
+                "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+              ],
+              "_spriteFrame": "6b811768-5b2f-4505-b473-c6437f2aaa78",
+              "frame": "6b811768-5b2f-4505-b473-c6437f2aaa78",
+              "builtinSolid": false
+            },
+            "label": null,
+            "mask": false,
+            "children": []
+          },
+          {
+            "name": "guanbi-2",
+            "trs": [
+              530,
+              215,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            "size": [
+              50,
+              50
+            ],
+            "anchor": [
+              0.5,
+              0.5
+            ],
+            "opacity": 255,
+            "color": 4294967295,
+            "active": true,
+            "sprite": null,
+            "label": null,
+            "mask": false,
+            "children": [
+              {
+                "name": "guanbi-2",
+                "trs": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "size": [
+                  35,
+                  35
+                ],
+                "anchor": [
+                  0.5,
+                  0.5
+                ],
+                "opacity": 255,
+                "color": 4294967295,
+                "active": true,
+                "sprite": {
+                  "class": "cc.Sprite",
+                  "_materials": [
+                    "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                  ],
+                  "_spriteFrame": "8732de10-7003-47bc-a8d5-9436bdbbc9cc",
+                  "frame": "8732de10-7003-47bc-a8d5-9436bdbbc9cc",
+                  "builtinSolid": false
+                },
+                "label": null,
+                "mask": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "itemParent",
+            "trs": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            "size": [
+              0,
+              0
+            ],
+            "anchor": [
+              0.5,
+              0.5
+            ],
+            "opacity": 255,
+            "color": 4294967295,
+            "active": true,
+            "sprite": null,
+            "label": null,
+            "mask": false,
+            "children": [
+              {
+                "name": "item",
+                "trs": [
+                  -347.431,
+                  308.63,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "size": [
+                  0,
+                  0
+                ],
+                "anchor": [
+                  0.5,
+                  0.5
+                ],
+                "opacity": 255,
+                "color": 4294967295,
+                "active": true,
+                "sprite": null,
+                "label": null,
+                "mask": false,
+                "children": [
+                  {
+                    "name": "itemBg",
+                    "trs": [
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      1,
+                      1,
+                      1,
+                      1
+                    ],
+                    "size": [
+                      155,
+                      26
+                    ],
+                    "anchor": [
+                      0.5,
+                      0.5
+                    ],
+                    "opacity": 255,
+                    "color": 4294967295,
+                    "active": true,
+                    "sprite": {
+                      "class": "cc.Sprite",
+                      "_materials": [
+                        "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                      ],
+                      "_spriteFrame": "0467d1c5-bda9-4184-8494-9d9031c63bb3",
+                      "frame": "0467d1c5-bda9-4184-8494-9d9031c63bb3",
+                      "builtinSolid": false
+                    },
+                    "label": null,
+                    "mask": false,
+                    "children": []
+                  },
+                  {
+                    "name": "lab_fan",
+                    "trs": [
+                      0,
+                      -31.5,
+                      0,
+                      0,
+                      0,
+                      0,
+                      1,
+                      1,
+                      1,
+                      1
+                    ],
+                    "size": [
+                      145.87,
+                      50.4
+                    ],
+                    "anchor": [
+                      0.5,
+                      0.5
+                    ],
+                    "opacity": 255,
+                    "color": 4294960363,
+                    "active": true,
+                    "sprite": null,
+                    "label": {
+                      "class": "cc.Label",
+                      "_string": "番型次数:123次",
+                      "_fontSize": 21,
+                      "_N$horizontalAlign": 1,
+                      "_N$verticalAlign": 1,
+                      "_materials": [
+                        "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                      ]
+                    },
+                    "mask": false,
+                    "children": []
+                  },
+                  {
+                    "name": "lab1",
+                    "trs": [
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      1,
+                      1,
+                      1,
+                      1
+                    ],
+                    "size": [
+                      130.68,
+                      26.46
+                    ],
+                    "anchor": [
+                      0.5,
+                      0.5
+                    ],
+                    "opacity": 255,
+                    "color": 4294967295,
+                    "active": true,
+                    "sprite": null,
+                    "label": {
+                      "class": "cc.Label",
+                      "_string": "击败        玩家",
+                      "_fontSize": 21,
+                      "_lineHeight": 21,
+                      "_N$horizontalAlign": 1,
+                      "_N$verticalAlign": 1,
+                      "_materials": [
+                        "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                      ]
+                    },
+                    "mask": false,
+                    "children": []
+                  },
+                  {
+                    "name": "lab2",
+                    "trs": [
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      1,
+                      1,
+                      1,
+                      1
+                    ],
+                    "size": [
+                      42.03,
+                      26.46
+                    ],
+                    "anchor": [
+                      0.5,
+                      0.5
+                    ],
+                    "opacity": 255,
+                    "color": 4278248703,
+                    "active": true,
+                    "sprite": null,
+                    "label": {
+                      "class": "cc.Label",
+                      "_string": "89%",
+                      "_fontSize": 21,
+                      "_lineHeight": 21,
+                      "_N$horizontalAlign": 1,
+                      "_N$verticalAlign": 1,
+                      "_materials": [
+                        "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                      ]
+                    },
+                    "mask": false,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "item",
+                "trs": [
+                  -137.556,
+                  308.63,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "size": [
+                  0,
+                  0
+                ],
+                "anchor": [
+                  0.5,
+                  0.5
+                ],
+                "opacity": 255,
+                "color": 4294967295,
+                "active": true,
+                "sprite": null,
+                "label": null,
+                "mask": false,
+                "children": [
+                  {
+                    "name": "itemBg",
+                    "trs": [
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      1,
+                      1,
+                      1,
+                      1
+                    ],
+                    "size": [
+                      155,
+                      26
+                    ],
+                    "anchor": [
+                      0.5,
+                      0.5
+                    ],
+                    "opacity": 255,
+                    "color": 4294967295,
+                    "active": true,
+                    "sprite": {
+                      "class": "cc.Sprite",
+                      "_materials": [
+                        "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                      ],
+                      "_spriteFrame": "0467d1c5-bda9-4184-8494-9d9031c63bb3",
+                      "frame": "0467d1c5-bda9-4184-8494-9d9031c63bb3",
+                      "builtinSolid": false
+                    },
+                    "label": null,
+                    "mask": false,
+                    "children": []
+                  },
+                  {
+                    "name": "lab_fan",
+                    "trs": [
+                      0,
+                      -31.5,
+                      0,
+                      0,
+                      0,
+                      0,
+                      1,
+                      1,
+                      1,
+                      1
+                    ],
+                    "size": [
+                      145.87,
+                      50.4
+                    ],
+                    "anchor": [
+                      0.5,
+                      0.5
+                    ],
+                    "opacity": 255,
+                    "color": 4294960363,
+                    "active": true,
+                    "sprite": null,
+                    "label": {
+                      "class": "cc.Label",
+                      "_string": "番型次数:123次",
+                      "_fontSize": 21,
+                      "_N$horizontalAlign": 1,
+                      "_N$verticalAlign": 1,
+                      "_materials": [
+                        "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                      ]
+                    },
+                    "mask": false,
+                    "children": []
+                  },
+                  {
+                    "name": "lab1",
+                    "trs": [
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      1,
+                      1,
+                      1,
+                      1
+                    ],
+                    "size": [
+                      130.68,
+                      26.46
+                    ],
+                    "anchor": [
+                      0.5,
+                      0.5
+                    ],
+                    "opacity": 255,
+                    "color": 4294967295,
+                    "active": true,
+                    "sprite": null,
+                    "label": {
+                      "class": "cc.Label",
+                      "_string": "击败        玩家",
+                      "_fontSize": 21,
+                      "_lineHeight": 21,
+                      "_N$horizontalAlign": 1,
+                      "_N$verticalAlign": 1,
+                      "_materials": [
+                        "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                      ]
+                    },
+                    "mask": false,
+                    "children": []
+                  },
+                  {
+                    "name": "lab2",
+                    "trs": [
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      1,
+                      1,
+                      1,
+                      1
+                    ],
+                    "size": [
+                      42.03,
+                      26.46
+                    ],
+                    "anchor": [
+                      0.5,
+                      0.5
+                    ],
+                    "opacity": 255,
+                    "color": 4278248703,
+                    "active": true,
+                    "sprite": null,
+                    "label": {
+                      "class": "cc.Label",
+                      "_string": "89%",
+                      "_fontSize": 21,
+                      "_lineHeight": 21,
+                      "_N$horizontalAlign": 1,
+                      "_N$verticalAlign": 1,
+                      "_materials": [
+                        "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                      ]
+                    },
+                    "mask": false,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "item",
+                "trs": [
+                  103.05,
+                  308.63,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "size": [
+                  0,
+                  0
+                ],
+                "anchor": [
+                  0.5,
+                  0.5
+                ],
+                "opacity": 255,
+                "color": 4294967295,
+                "active": true,
+                "sprite": null,
+                "label": null,
+                "mask": false,
+                "children": [
+                  {
+                    "name": "itemBg",
+                    "trs": [
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      1,
+                      1,
+                      1,
+                      1
+                    ],
+                    "size": [
+                      155,
+                      26
+                    ],
+                    "anchor": [
+                      0.5,
+                      0.5
+                    ],
+                    "opacity": 255,
+                    "color": 4294967295,
+                    "active": true,
+                    "sprite": {
+                      "class": "cc.Sprite",
+                      "_materials": [
+                        "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                      ],
+                      "_spriteFrame": "0467d1c5-bda9-4184-8494-9d9031c63bb3",
+                      "frame": "0467d1c5-bda9-4184-8494-9d9031c63bb3",
+                      "builtinSolid": false
+                    },
+                    "label": null,
+                    "mask": false,
+                    "children": []
+                  },
+                  {
+                    "name": "lab_fan",
+                    "trs": [
+                      0,
+                      -31.5,
+                      0,
+                      0,
+                      0,
+                      0,
+                      1,
+                      1,
+                      1,
+                      1
+                    ],
+                    "size": [
+                      145.87,
+                      50.4
+                    ],
+                    "anchor": [
+                      0.5,
+                      0.5
+                    ],
+                    "opacity": 255,
+                    "color": 4294960363,
+                    "active": true,
+                    "sprite": null,
+                    "label": {
+                      "class": "cc.Label",
+                      "_string": "番型次数:123次",
+                      "_fontSize": 21,
+                      "_N$horizontalAlign": 1,
+                      "_N$verticalAlign": 1,
+                      "_materials": [
+                        "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                      ]
+                    },
+                    "mask": false,
+                    "children": []
+                  },
+                  {
+                    "name": "lab1",
+                    "trs": [
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      1,
+                      1,
+                      1,
+                      1
+                    ],
+                    "size": [
+                      130.68,
+                      26.46
+                    ],
+                    "anchor": [
+                      0.5,
+                      0.5
+                    ],
+                    "opacity": 255,
+                    "color": 4294967295,
+                    "active": true,
+                    "sprite": null,
+                    "label": {
+                      "class": "cc.Label",
+                      "_string": "击败        玩家",
+                      "_fontSize": 21,
+                      "_lineHeight": 21,
+                      "_N$horizontalAlign": 1,
+                      "_N$verticalAlign": 1,
+                      "_materials": [
+                        "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                      ]
+                    },
+                    "mask": false,
+                    "children": []
+                  },
+                  {
+                    "name": "lab2",
+                    "trs": [
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      1,
+                      1,
+                      1,
+                      1
+                    ],
+                    "size": [
+                      42.03,
+                      26.46
+                    ],
+                    "anchor": [
+                      0.5,
+                      0.5
+                    ],
+                    "opacity": 255,
+                    "color": 4278248703,
+                    "active": true,
+                    "sprite": null,
+                    "label": {
+                      "class": "cc.Label",
+                      "_string": "89%",
+                      "_fontSize": 21,
+                      "_lineHeight": 21,
+                      "_N$horizontalAlign": 1,
+                      "_N$verticalAlign": 1,
+                      "_materials": [
+                        "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                      ]
+                    },
+                    "mask": false,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "item",
+                "trs": [
+                  340.379,
+                  308.63,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "size": [
+                  0,
+                  0
+                ],
+                "anchor": [
+                  0.5,
+                  0.5
+                ],
+                "opacity": 255,
+                "color": 4294967295,
+                "active": true,
+                "sprite": null,
+                "label": null,
+                "mask": false,
+                "children": [
+                  {
+                    "name": "itemBg",
+                    "trs": [
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      1,
+                      1,
+                      1,
+                      1
+                    ],
+                    "size": [
+                      155,
+                      26
+                    ],
+                    "anchor": [
+                      0.5,
+                      0.5
+                    ],
+                    "opacity": 255,
+                    "color": 4294967295,
+                    "active": true,
+                    "sprite": {
+                      "class": "cc.Sprite",
+                      "_materials": [
+                        "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                      ],
+                      "_spriteFrame": "0467d1c5-bda9-4184-8494-9d9031c63bb3",
+                      "frame": "0467d1c5-bda9-4184-8494-9d9031c63bb3",
+                      "builtinSolid": false
+                    },
+                    "label": null,
+                    "mask": false,
+                    "children": []
+                  },
+                  {
+                    "name": "lab_fan",
+                    "trs": [
+                      0,
+                      -31.5,
+                      0,
+                      0,
+                      0,
+                      0,
+                      1,
+                      1,
+                      1,
+                      1
+                    ],
+                    "size": [
+                      145.87,
+                      50.4
+                    ],
+                    "anchor": [
+                      0.5,
+                      0.5
+                    ],
+                    "opacity": 255,
+                    "color": 4294960363,
+                    "active": true,
+                    "sprite": null,
+                    "label": {
+                      "class": "cc.Label",
+                      "_string": "番型次数:123次",
+                      "_fontSize": 21,
+                      "_N$horizontalAlign": 1,
+                      "_N$verticalAlign": 1,
+                      "_materials": [
+                        "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                      ]
+                    },
+                    "mask": false,
+                    "children": []
+                  },
+                  {
+                    "name": "lab1",
+                    "trs": [
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      1,
+                      1,
+                      1,
+                      1
+                    ],
+                    "size": [
+                      130.68,
+                      26.46
+                    ],
+                    "anchor": [
+                      0.5,
+                      0.5
+                    ],
+                    "opacity": 255,
+                    "color": 4294967295,
+                    "active": true,
+                    "sprite": null,
+                    "label": {
+                      "class": "cc.Label",
+                      "_string": "击败        玩家",
+                      "_fontSize": 21,
+                      "_lineHeight": 21,
+                      "_N$horizontalAlign": 1,
+                      "_N$verticalAlign": 1,
+                      "_materials": [
+                        "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                      ]
+                    },
+                    "mask": false,
+                    "children": []
+                  },
+                  {
+                    "name": "lab2",
+                    "trs": [
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      1,
+                      1,
+                      1,
+                      1
+                    ],
+                    "size": [
+                      42.03,
+                      26.46
+                    ],
+                    "anchor": [
+                      0.5,
+                      0.5
+                    ],
+                    "opacity": 255,
+                    "color": 4278248703,
+                    "active": true,
+                    "sprite": null,
+                    "label": {
+                      "class": "cc.Label",
+                      "_string": "89%",
+                      "_fontSize": 21,
+                      "_lineHeight": 21,
+                      "_N$horizontalAlign": 1,
+                      "_N$verticalAlign": 1,
+                      "_materials": [
+                        "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                      ]
+                    },
+                    "mask": false,
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "pic_27",
+            "trs": [
+              10,
+              34,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            "size": [
+              914,
+              426
+            ],
+            "anchor": [
+              0.5,
+              0.5
+            ],
+            "opacity": 255,
+            "color": 4294967295,
+            "active": true,
+            "sprite": {
+              "class": "cc.Sprite",
+              "_materials": [
+                "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+              ],
+              "_spriteFrame": "2cbd2056-57ac-4846-96ae-dff625278167",
+              "frame": "2cbd2056-57ac-4846-96ae-dff625278167",
+              "builtinSolid": false
+            },
+            "label": null,
+            "mask": false,
+            "children": []
+          },
+          {
+            "name": "mask",
+            "trs": [
+              10,
+              36,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            "size": [
+              905,
+              410
+            ],
+            "anchor": [
+              0.5,
+              0.5
+            ],
+            "opacity": 255,
+            "color": 4294967295,
+            "active": true,
+            "sprite": null,
+            "label": null,
+            "mask": true,
+            "children": [
+              {
+                "name": "content",
+                "trs": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "size": [
+                  905,
+                  410
+                ],
+                "anchor": [
+                  0.5,
+                  0.5
+                ],
+                "opacity": 255,
+                "color": 4294967295,
+                "active": true,
+                "sprite": null,
+                "label": null,
+                "mask": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "ScrollView",
+            "trs": [
+              0,
+              -245,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            "size": [
+              850,
+              240
+            ],
+            "anchor": [
+              0.5,
+              0.5
+            ],
+            "opacity": 255,
+            "color": 4294967295,
+            "active": true,
+            "sprite": null,
+            "label": null,
+            "mask": false,
+            "children": [
+              {
+                "name": "view",
+                "trs": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "size": [
+                  850,
+                  240
+                ],
+                "anchor": [
+                  0.5,
+                  0.5
+                ],
+                "opacity": 255,
+                "color": 4294967295,
+                "active": true,
+                "sprite": null,
+                "label": null,
+                "mask": true,
+                "children": [
+                  {
+                    "name": "content",
+                    "trs": [
+                      -425,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      1,
+                      1,
+                      1,
+                      1
+                    ],
+                    "size": [
+                      160,
+                      240
+                    ],
+                    "anchor": [
+                      0,
+                      0.5
+                    ],
+                    "opacity": 255,
+                    "color": 4294967295,
+                    "active": true,
+                    "sprite": null,
+                    "label": null,
+                    "mask": false,
+                    "children": [
+                      {
+                        "name": "item",
+                        "trs": [
+                          80,
+                          0,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1,
+                          1,
+                          1,
+                          1
+                        ],
+                        "size": [
+                          160,
+                          160
+                        ],
+                        "anchor": [
+                          0.5,
+                          0.5
+                        ],
+                        "opacity": 255,
+                        "color": 4294967295,
+                        "active": true,
+                        "sprite": null,
+                        "label": null,
+                        "mask": false,
+                        "children": [
+                          {
+                            "name": "root",
+                            "trs": [
+                              0,
+                              0,
+                              0,
+                              0,
+                              0,
+                              0,
+                              1,
+                              0.6,
+                              0.6,
+                              1
+                            ],
+                            "size": [
+                              0,
+                              0
+                            ],
+                            "anchor": [
+                              0.5,
+                              0.5
+                            ],
+                            "opacity": 255,
+                            "color": 4294967295,
+                            "active": true,
+                            "sprite": null,
+                            "label": null,
+                            "mask": false,
+                            "children": [
+                              {
+                                "name": "img_fan",
+                                "trs": [
+                                  0,
+                                  0,
+                                  0,
+                                  0,
+                                  0,
+                                  0,
+                                  1,
+                                  0.96,
+                                  0.96,
+                                  1
+                                ],
+                                "size": [
+                                  198,
+                                  252
+                                ],
+                                "anchor": [
+                                  0.5,
+                                  0.5
+                                ],
+                                "opacity": 255,
+                                "color": 4294967295,
+                                "active": true,
+                                "sprite": {
+                                  "class": "cc.Sprite",
+                                  "_materials": [
+                                    "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                                  ],
+                                  "_spriteFrame": "ff5c62f4-67f1-422b-bef3-335789f396a8",
+                                  "frame": "ff5c62f4-67f1-422b-bef3-335789f396a8",
+                                  "builtinSolid": false
+                                },
+                                "label": null,
+                                "mask": false,
+                                "children": []
+                              },
+                              {
+                                "name": "img_frame",
+                                "trs": [
+                                  0,
+                                  0,
+                                  0,
+                                  0,
+                                  0,
+                                  0,
+                                  1,
+                                  1,
+                                  1,
+                                  1
+                                ],
+                                "size": [
+                                  199,
+                                  248
+                                ],
+                                "anchor": [
+                                  0.5,
+                                  0.5
+                                ],
+                                "opacity": 255,
+                                "color": 4294967295,
+                                "active": true,
+                                "sprite": {
+                                  "class": "cc.Sprite",
+                                  "_materials": [
+                                    "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                                  ],
+                                  "_spriteFrame": "e9ee10ec-2667-4da5-964b-c4a08654bdc2",
+                                  "frame": "e9ee10ec-2667-4da5-964b-c4a08654bdc2",
+                                  "builtinSolid": false
+                                },
+                                "label": null,
+                                "mask": false,
+                                "children": []
+                              },
+                              {
+                                "name": "img_select",
+                                "trs": [
+                                  0,
+                                  28,
+                                  0,
+                                  0,
+                                  0,
+                                  0,
+                                  1,
+                                  1.67,
+                                  1.7,
+                                  1.66667
+                                ],
+                                "size": [
+                                  173,
+                                  238
+                                ],
+                                "anchor": [
+                                  0.5,
+                                  0.5
+                                ],
+                                "opacity": 255,
+                                "color": 4294967295,
+                                "active": true,
+                                "sprite": {
+                                  "class": "cc.Sprite",
+                                  "_materials": [
+                                    "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                                  ],
+                                  "_spriteFrame": "f099f356-aacd-4990-a97c-ef870e927b0e",
+                                  "frame": "f099f356-aacd-4990-a97c-ef870e927b0e",
+                                  "builtinSolid": false
+                                },
+                                "label": null,
+                                "mask": false,
+                                "children": []
+                              },
+                              {
+                                "name": "lab_name",
+                                "trs": [
+                                  0,
+                                  -105,
+                                  0,
+                                  0,
+                                  0,
+                                  0,
+                                  1,
+                                  1,
+                                  1,
+                                  1
+                                ],
+                                "size": [
+                                  110,
+                                  27.72
+                                ],
+                                "anchor": [
+                                  0.5,
+                                  0.5
+                                ],
+                                "opacity": 255,
+                                "color": 4283855139,
+                                "active": true,
+                                "sprite": null,
+                                "label": {
+                                  "class": "cc.Label",
+                                  "_string": "荒野大镖客",
+                                  "_fontSize": 22,
+                                  "_lineHeight": 22,
+                                  "_N$horizontalAlign": 1,
+                                  "_N$verticalAlign": 1,
+                                  "_materials": [
+                                    "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                                  ]
+                                },
+                                "mask": false,
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "layoutNode",
+            "trs": [
+              0,
+              -245,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            "size": [
+              160,
+              160
+            ],
+            "anchor": [
+              0.5,
+              0.5
+            ],
+            "opacity": 255,
+            "color": 4294967295,
+            "active": true,
+            "sprite": null,
+            "label": null,
+            "mask": false,
+            "children": []
+          },
+          {
+            "name": "exLayerCamera",
+            "trs": [
+              0,
+              0,
+              554.2562584220408,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            "size": [
+              0,
+              0
+            ],
+            "anchor": [
+              0.5,
+              0.5
+            ],
+            "opacity": 255,
+            "color": 4294967295,
+            "active": true,
+            "sprite": null,
+            "label": null,
+            "mask": false,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "item": {
+    "name": "item",
+    "trs": [
+      100,
+      125,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0.99,
+      0.99,
+      0
+    ],
+    "size": [
+      200,
+      250
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "opacity": 255,
+    "color": 4294967295,
+    "active": true,
+    "sprite": null,
+    "label": null,
+    "mask": false,
+    "children": [
+      {
+        "name": "img_bg",
+        "trs": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0
+        ],
+        "size": [
+          213,
+          267
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "opacity": 255,
+        "color": 4294967295,
+        "active": true,
+        "sprite": {
+          "class": "cc.Sprite",
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "a6cddcde-0889-47f4-924b-e645c90dadf7",
+          "frame": "a6cddcde-0889-47f4-924b-e645c90dadf7",
+          "builtinSolid": false
+        },
+        "label": null,
+        "mask": false,
+        "children": []
+      },
+      {
+        "name": "img_fan",
+        "trs": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0.97,
+          0.97,
+          1
+        ],
+        "size": [
+          198,
+          252
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "opacity": 255,
+        "color": 4294967295,
+        "active": true,
+        "sprite": null,
+        "label": null,
+        "mask": false,
+        "children": []
+      },
+      {
+        "name": "img_normal_fan",
+        "trs": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0.97,
+          0.97,
+          1
+        ],
+        "size": [
+          198,
+          252
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "opacity": 255,
+        "color": 4294967295,
+        "active": true,
+        "sprite": null,
+        "label": null,
+        "mask": false,
+        "children": []
+      },
+      {
+        "name": "mask_progress",
+        "trs": [
+          0,
+          -77.5,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "size": [
+          187,
+          28
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "opacity": 255,
+        "color": 4294967295,
+        "active": false,
+        "sprite": {
+          "class": "cc.Sprite",
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "cf4c228d-54ce-402f-8762-20bc396b0705",
+          "frame": "cf4c228d-54ce-402f-8762-20bc396b0705",
+          "builtinSolid": false
+        },
+        "label": null,
+        "mask": false,
+        "children": []
+      },
+      {
+        "name": "img_frame",
+        "trs": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "size": [
+          199,
+          248
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "opacity": 255,
+        "color": 4294967295,
+        "active": false,
+        "sprite": {
+          "class": "cc.Sprite",
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "e9ee10ec-2667-4da5-964b-c4a08654bdc2",
+          "frame": "e9ee10ec-2667-4da5-964b-c4a08654bdc2",
+          "builtinSolid": false
+        },
+        "label": null,
+        "mask": false,
+        "children": []
+      },
+      {
+        "name": "title_new",
+        "trs": [
+          74.448,
+          99.809,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "size": [
+          49,
+          34
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "opacity": 255,
+        "color": 4294967295,
+        "active": false,
+        "sprite": {
+          "class": "cc.Sprite",
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "d430deec-13ea-464b-bcce-98b3d453a0be",
+          "frame": "d430deec-13ea-464b-bcce-98b3d453a0be",
+          "builtinSolid": false
+        },
+        "label": null,
+        "mask": false,
+        "children": []
+      },
+      {
+        "name": "btn_bag",
+        "trs": [
+          67.322,
+          -68.463,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0
+        ],
+        "size": [
+          75,
+          68
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "opacity": 255,
+        "color": 4294967295,
+        "active": false,
+        "sprite": {
+          "class": "cc.Sprite",
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "ebb10f1e-167b-477b-907c-faee17409512",
+          "frame": "ebb10f1e-167b-477b-907c-faee17409512",
+          "builtinSolid": false
+        },
+        "label": null,
+        "mask": false,
+        "children": [
+          {
+            "name": "btn_bag_red",
+            "trs": [
+              17.597,
+              18.77,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            "size": [
+              27,
+              28
+            ],
+            "anchor": [
+              0.5,
+              0.5
+            ],
+            "opacity": 255,
+            "color": 4294967295,
+            "active": true,
+            "sprite": {
+              "class": "cc.Sprite",
+              "_materials": [
+                "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+              ],
+              "_spriteFrame": "44ae19fe-0b16-4b84-896b-dbc0955cbf1b",
+              "frame": "44ae19fe-0b16-4b84-896b-dbc0955cbf1b",
+              "builtinSolid": false
+            },
+            "label": null,
+            "mask": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "lab_progress",
+        "trs": [
+          0,
+          -77.5,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "size": [
+          30.58,
+          27.72
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "opacity": 255,
+        "color": 4294967295,
+        "active": false,
+        "sprite": null,
+        "label": {
+          "class": "cc.Label",
+          "_string": "0/9",
+          "_fontSize": 22,
+          "_lineHeight": 22,
+          "_N$horizontalAlign": 1,
+          "_N$verticalAlign": 1,
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ]
+        },
+        "mask": false,
+        "children": []
+      },
+      {
+        "name": "lab_name",
+        "trs": [
+          0,
+          -109.5,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "size": [
+          33.37,
+          25.2
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "opacity": 255,
+        "color": 4288825946,
+        "active": true,
+        "sprite": null,
+        "label": {
+          "class": "cc.Label",
+          "_string": "???",
+          "_fontSize": 20,
+          "_lineHeight": 20,
+          "_N$horizontalAlign": 1,
+          "_N$verticalAlign": 1,
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ]
+        },
+        "mask": false,
+        "children": []
+      }
+    ]
+  },
+  "entries": {
+    "1237": {
+      "name": "FanGatherEntry",
+      "trs": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "size": [
+        110,
+        110
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "opacity": 255,
+      "color": 4294967295,
+      "active": true,
+      "sprite": null,
+      "label": null,
+      "mask": false,
+      "children": [
+        {
+          "name": "rootNode",
+          "trs": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "size": [
+            0,
+            0
+          ],
+          "anchor": [
+            0.5,
+            0.5
+          ],
+          "opacity": 255,
+          "color": 4294967295,
+          "active": true,
+          "sprite": null,
+          "label": null,
+          "mask": false,
+          "children": [
+            {
+              "name": "pic_22",
+              "trs": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                1,
+                1,
+                0
+              ],
+              "size": [
+                107,
+                113
+              ],
+              "anchor": [
+                0.5,
+                0.5
+              ],
+              "opacity": 255,
+              "color": 4294967295,
+              "active": true,
+              "sprite": {
+                "class": "cc.Sprite",
+                "_materials": [
+                  "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                ],
+                "_spriteFrame": "fa40ea3a-65e6-430d-b585-902fd89f66e9",
+                "frame": "fa40ea3a-65e6-430d-b585-902fd89f66e9",
+                "builtinSolid": false
+              },
+              "label": null,
+              "mask": false,
+              "children": []
+            },
+            {
+              "name": "pic_19",
+              "trs": [
+                40.466,
+                40.559,
+                0,
+                0,
+                0,
+                0,
+                1,
+                1,
+                1,
+                1
+              ],
+              "size": [
+                24,
+                25
+              ],
+              "anchor": [
+                0.5,
+                0.5
+              ],
+              "opacity": 255,
+              "color": 4294967295,
+              "active": true,
+              "sprite": {
+                "class": "cc.Sprite",
+                "_materials": [
+                  "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                ],
+                "_spriteFrame": "1a90e871-5072-4dfa-8eb9-983e2d60ef00",
+                "frame": "1a90e871-5072-4dfa-8eb9-983e2d60ef00",
+                "builtinSolid": false
+              },
+              "label": null,
+              "mask": false,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    "1421": {
+      "name": "GameTeachEntry",
+      "trs": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "size": [
+        150,
+        107
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "opacity": 255,
+      "color": 4294967295,
+      "active": true,
+      "sprite": null,
+      "label": null,
+      "mask": false,
+      "children": [
+        {
+          "name": "Root",
+          "trs": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "size": [
+            0,
+            0
+          ],
+          "anchor": [
+            0.5,
+            0.5
+          ],
+          "opacity": 255,
+          "color": 4294967295,
+          "active": true,
+          "sprite": null,
+          "label": null,
+          "mask": false,
+          "children": [
+            {
+              "name": "ShowIcon",
+              "trs": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                1,
+                1,
+                1
+              ],
+              "size": [
+                132,
+                123
+              ],
+              "anchor": [
+                0.5,
+                0.5
+              ],
+              "opacity": 255,
+              "color": 4294967295,
+              "active": true,
+              "sprite": null,
+              "label": null,
+              "mask": false,
+              "children": [
+                {
+                  "name": "icon",
+                  "trs": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    1,
+                    1,
+                    1
+                  ],
+                  "size": [
+                    132,
+                    123
+                  ],
+                  "anchor": [
+                    0.5,
+                    0.5
+                  ],
+                  "opacity": 255,
+                  "color": 4294967295,
+                  "active": true,
+                  "sprite": {
+                    "class": "cc.Sprite",
+                    "_sizeMode": 2,
+                    "_isTrimmedMode": false,
+                    "_materials": [
+                      "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                    ],
+                    "_spriteFrame": "07f06335-d80d-48d1-97fe-b7b54aaa7919",
+                    "frame": "07f06335-d80d-48d1-97fe-b7b54aaa7919",
+                    "builtinSolid": false
+                  },
+                  "label": null,
+                  "mask": false,
+                  "children": []
+                },
+                {
+                  "name": "tip",
+                  "trs": [
+                    46.187,
+                    56.536,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    1,
+                    1,
+                    1
+                  ],
+                  "size": [
+                    92,
+                    42
+                  ],
+                  "anchor": [
+                    0.5,
+                    0.5
+                  ],
+                  "opacity": 255,
+                  "color": 4294967295,
+                  "active": true,
+                  "sprite": {
+                    "class": "cc.Sprite",
+                    "_materials": [
+                      "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                    ],
+                    "_spriteFrame": "72cba347-4d18-48b5-9c4b-cc2983d52945",
+                    "frame": "72cba347-4d18-48b5-9c4b-cc2983d52945",
+                    "builtinSolid": false
+                  },
+                  "label": null,
+                  "mask": false,
+                  "children": [
+                    {
+                      "name": "tip",
+                      "trs": [
+                        0.078,
+                        6.859,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        1,
+                        1,
+                        0.65
+                      ],
+                      "size": [
+                        64,
+                        27.72
+                      ],
+                      "anchor": [
+                        0.5,
+                        0.5
+                      ],
+                      "opacity": 255,
+                      "color": 4294180351,
+                      "active": true,
+                      "sprite": null,
+                      "label": {
+                        "class": "cc.Label",
+                        "_string": "领游戏豆",
+                        "_fontSize": 16,
+                        "_lineHeight": 22,
+                        "_N$horizontalAlign": 1,
+                        "_N$verticalAlign": 1,
+                        "_materials": [
+                          "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                        ]
+                      },
+                      "mask": false,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "levels": [
+    {
+      "class": "levelModel",
+      "tileTexture": [
+        4288825946
+      ]
+    },
+    {
+      "class": "levelModel",
+      "tileTexture": [
+        4283855139
+      ],
+      "img_bg": "e9ee10ec-2667-4da5-964b-c4a08654bdc2"
+    },
+    {
+      "class": "levelModel",
+      "tileTexture": [
+        4279518404
+      ],
+      "img_bg": "141f8738-c12c-410d-adbb-d69924f43b33"
+    }
+  ],
+  "font": {
+    "image": "collection-study/assets/fonts-282-fnt_biaotiz-export.png",
+    "size": 32,
+    "glyphs": {
+      "9": {
+        "xOffset": 0,
+        "yOffset": 0,
+        "xAdvance": 120,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      "32": {
+        "xOffset": 0,
+        "yOffset": 0,
+        "xAdvance": 15,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      "33": {
+        "xOffset": 0,
+        "yOffset": 5,
+        "xAdvance": 12,
+        "rect": {
+          "x": 876,
+          "y": 483,
+          "width": 22,
+          "height": 44
+        }
+      },
+      "40": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 17,
+        "rect": {
+          "x": 876,
+          "y": 314,
+          "width": 27,
+          "height": 51
+        }
+      },
+      "41": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 16,
+        "rect": {
+          "x": 876,
+          "y": 373,
+          "width": 26,
+          "height": 51
+        }
+      },
+      "48": {
+        "xOffset": 0,
+        "yOffset": 5,
+        "xAdvance": 24,
+        "rect": {
+          "x": 178,
+          "y": 418,
+          "width": 34,
+          "height": 44
+        }
+      },
+      "49": {
+        "xOffset": 0,
+        "yOffset": 6,
+        "xAdvance": 15,
+        "rect": {
+          "x": 876,
+          "y": 432,
+          "width": 25,
+          "height": 43
+        }
+      },
+      "50": {
+        "xOffset": 0,
+        "yOffset": 5,
+        "xAdvance": 22,
+        "rect": {
+          "x": 876,
+          "y": 158,
+          "width": 32,
+          "height": 44
+        }
+      },
+      "51": {
+        "xOffset": 0,
+        "yOffset": 5,
+        "xAdvance": 22,
+        "rect": {
+          "x": 876,
+          "y": 210,
+          "width": 32,
+          "height": 45
+        }
+      },
+      "52": {
+        "xOffset": 0,
+        "yOffset": 6,
+        "xAdvance": 23,
+        "rect": {
+          "x": 875,
+          "y": 749,
+          "width": 33,
+          "height": 43
+        }
+      },
+      "53": {
+        "xOffset": 0,
+        "yOffset": 5,
+        "xAdvance": 22,
+        "rect": {
+          "x": 876,
+          "y": 105,
+          "width": 32,
+          "height": 45
+        }
+      },
+      "54": {
+        "xOffset": 0,
+        "yOffset": 6,
+        "xAdvance": 24,
+        "rect": {
+          "x": 875,
+          "y": 645,
+          "width": 34,
+          "height": 44
+        }
+      },
+      "55": {
+        "xOffset": 0,
+        "yOffset": 5,
+        "xAdvance": 22,
+        "rect": {
+          "x": 876,
+          "y": 263,
+          "width": 32,
+          "height": 43
+        }
+      },
+      "56": {
+        "xOffset": 0,
+        "yOffset": 5,
+        "xAdvance": 23,
+        "rect": {
+          "x": 875,
+          "y": 800,
+          "width": 33,
+          "height": 45
+        }
+      },
+      "57": {
+        "xOffset": 0,
+        "yOffset": 5,
+        "xAdvance": 24,
+        "rect": {
+          "x": 875,
+          "y": 697,
+          "width": 34,
+          "height": 44
+        }
+      },
+      "71": {
+        "xOffset": 0,
+        "yOffset": 5,
+        "xAdvance": 23,
+        "rect": {
+          "x": 875,
+          "y": 853,
+          "width": 33,
+          "height": 45
+        }
+      },
+      "80": {
+        "xOffset": 0,
+        "yOffset": 5,
+        "xAdvance": 23,
+        "rect": {
+          "x": 876,
+          "y": 53,
+          "width": 33,
+          "height": 44
+        }
+      },
+      "83": {
+        "xOffset": 0,
+        "yOffset": 5,
+        "xAdvance": 23,
+        "rect": {
+          "x": 876,
+          "y": 0,
+          "width": 33,
+          "height": 45
+        }
+      },
+      "19968": {
+        "xOffset": 0,
+        "yOffset": 15,
+        "xAdvance": 40,
+        "rect": {
+          "x": 0,
+          "y": 895,
+          "width": 50,
+          "height": 21
+        }
+      },
+      "19975": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 40,
+        "rect": {
+          "x": 703,
+          "y": 357,
+          "width": 50,
+          "height": 51
+        }
+      },
+      "19979": {
+        "xOffset": 0,
+        "yOffset": 3,
+        "xAdvance": 40,
+        "rect": {
+          "x": 529,
+          "y": 298,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "19981": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 40,
+        "rect": {
+          "x": 587,
+          "y": 590,
+          "width": 50,
+          "height": 51
+        }
+      },
+      "19987": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 40,
+        "rect": {
+          "x": 761,
+          "y": 296,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "20010": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 39,
+        "rect": {
+          "x": 818,
+          "y": 769,
+          "width": 49,
+          "height": 50
+        }
+      },
+      "20013": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 41,
+        "rect": {
+          "x": 354,
+          "y": 772,
+          "width": 51,
+          "height": 52
+        }
+      },
+      "20080": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 40,
+        "rect": {
+          "x": 645,
+          "y": 295,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "20105": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 40,
+        "rect": {
+          "x": 761,
+          "y": 236,
+          "width": 50,
+          "height": 52
+        }
+      },
+      "20135": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 40,
+        "rect": {
+          "x": 587,
+          "y": 414,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "20139": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 40,
+        "rect": {
+          "x": 472,
+          "y": 60,
+          "width": 50,
+          "height": 52
+        }
+      },
+      "20154": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 41,
+        "rect": {
+          "x": 296,
+          "y": 119,
+          "width": 51,
+          "height": 51
+        }
+      },
+      "20159": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 40,
+        "rect": {
+          "x": 703,
+          "y": 830,
+          "width": 50,
+          "height": 52
+        }
+      },
+      "20171": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 39,
+        "rect": {
+          "x": 819,
+          "y": 528,
+          "width": 49,
+          "height": 50
+        }
+      },
+      "20184": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 40,
+        "rect": {
+          "x": 587,
+          "y": 472,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "20195": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 41,
+        "rect": {
+          "x": 237,
+          "y": 60,
+          "width": 51,
+          "height": 52
+        }
+      },
+      "20214": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 41,
+        "rect": {
+          "x": 60,
+          "y": 179,
+          "width": 51,
+          "height": 51
+        }
+      },
+      "20219": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 40,
+        "rect": {
+          "x": 414,
+          "y": 295,
+          "width": 50,
+          "height": 52
+        }
+      },
+      "20301": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 40,
+        "rect": {
+          "x": 413,
+          "y": 414,
+          "width": 50,
+          "height": 51
+        }
+      },
+      "20309": {
+        "xOffset": 0,
+        "yOffset": 3,
+        "xAdvance": 39,
+        "rect": {
+          "x": 762,
+          "y": 178,
+          "width": 49,
+          "height": 50
+        }
+      },
+      "20320": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 41,
+        "rect": {
+          "x": 237,
+          "y": 0,
+          "width": 51,
+          "height": 52
+        }
+      },
+      "20351": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 41,
+        "rect": {
+          "x": 59,
+          "y": 477,
+          "width": 51,
+          "height": 51
+        }
+      },
+      "20449": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 41,
+        "rect": {
+          "x": 296,
+          "y": 59,
+          "width": 51,
+          "height": 52
+        }
+      },
+      "20462": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 41,
+        "rect": {
+          "x": 60,
+          "y": 0,
+          "width": 51,
+          "height": 52
+        }
+      },
+      "20687": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 41,
+        "rect": {
+          "x": 236,
+          "y": 655,
+          "width": 51,
+          "height": 52
+        }
+      },
+      "20803": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 41,
+        "rect": {
+          "x": 119,
+          "y": 296,
+          "width": 51,
+          "height": 51
+        }
+      },
+      "20805": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 40,
+        "rect": {
+          "x": 587,
+          "y": 649,
+          "width": 50,
+          "height": 51
+        }
+      },
+      "20813": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 41,
+        "rect": {
+          "x": 355,
+          "y": 0,
+          "width": 51,
+          "height": 52
+        }
+      },
+      "20817": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 39,
+        "rect": {
+          "x": 761,
+          "y": 766,
+          "width": 49,
+          "height": 51
+        }
+      },
+      "20837": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 40,
+        "rect": {
+          "x": 588,
+          "y": 117,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "20840": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 41,
+        "rect": {
+          "x": 60,
+          "y": 418,
+          "width": 51,
+          "height": 50
+        }
+      },
+      "20855": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 41,
+        "rect": {
+          "x": 355,
+          "y": 297,
+          "width": 51,
+          "height": 50
+        }
+      },
+      "20877": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 41,
+        "rect": {
+          "x": 296,
+          "y": 0,
+          "width": 51,
+          "height": 51
+        }
+      },
+      "20889": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 39,
+        "rect": {
+          "x": 762,
+          "y": 0,
+          "width": 49,
+          "height": 51
+        }
+      },
+      "20914": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 40,
+        "rect": {
+          "x": 588,
+          "y": 175,
+          "width": 50,
+          "height": 52
+        }
+      },
+      "20934": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 40,
+        "rect": {
+          "x": 703,
+          "y": 416,
+          "width": 50,
+          "height": 52
+        }
+      },
+      "20998": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 40,
+        "rect": {
+          "x": 471,
+          "y": 708,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "21017": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 40,
+        "rect": {
+          "x": 587,
+          "y": 530,
+          "width": 50,
+          "height": 52
+        }
+      },
+      "21019": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 41,
+        "rect": {
+          "x": 177,
+          "y": 474,
+          "width": 51,
+          "height": 52
+        }
+      },
+      "21021": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 40,
+        "rect": {
+          "x": 704,
+          "y": 58,
+          "width": 50,
+          "height": 51
+        }
+      },
+      "21033": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 40,
+        "rect": {
+          "x": 529,
+          "y": 356,
+          "width": 50,
+          "height": 51
+        }
+      },
+      "21048": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 40,
+        "rect": {
+          "x": 703,
+          "y": 297,
+          "width": 50,
+          "height": 52
+        }
+      },
+      "21151": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 39,
+        "rect": {
+          "x": 819,
+          "y": 118,
+          "width": 49,
+          "height": 50
+        }
+      },
+      "21152": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 40,
+        "rect": {
+          "x": 414,
+          "y": 178,
+          "width": 50,
+          "height": 51
+        }
+      },
+      "21153": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 39,
+        "rect": {
+          "x": 819,
+          "y": 351,
+          "width": 49,
+          "height": 52
+        }
+      },
+      "21160": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 41,
+        "rect": {
+          "x": 295,
+          "y": 709,
+          "width": 51,
+          "height": 52
+        }
+      },
+      "21169": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 42,
+        "rect": {
+          "x": 0,
+          "y": 180,
+          "width": 52,
+          "height": 51
+        }
+      },
+      "21253": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 41,
+        "rect": {
+          "x": 236,
+          "y": 774,
+          "width": 51,
+          "height": 52
+        }
+      },
+      "21306": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 40,
+        "rect": {
+          "x": 529,
+          "y": 827,
+          "width": 50,
+          "height": 51
+        }
+      },
+      "21327": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 41,
+        "rect": {
+          "x": 354,
+          "y": 653,
+          "width": 51,
+          "height": 51
+        }
+      },
+      "21363": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 40,
+        "rect": {
+          "x": 471,
+          "y": 532,
+          "width": 50,
+          "height": 51
+        }
+      },
+      "21435": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 40,
+        "rect": {
+          "x": 529,
+          "y": 474,
+          "width": 50,
+          "height": 51
+        }
+      },
+      "21451": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 40,
+        "rect": {
+          "x": 588,
+          "y": 235,
+          "width": 50,
+          "height": 52
+        }
+      },
+      "21453": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 40,
+        "rect": {
+          "x": 530,
+          "y": 0,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "21462": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 41,
+        "rect": {
+          "x": 118,
+          "y": 476,
+          "width": 51,
+          "height": 51
+        }
+      },
+      "21512": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 39,
+        "rect": {
+          "x": 818,
+          "y": 827,
+          "width": 49,
+          "height": 50
+        }
+      },
+      "21517": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 38,
+        "rect": {
+          "x": 819,
+          "y": 586,
+          "width": 48,
+          "height": 51
+        }
+      },
+      "21644": {
+        "xOffset": 0,
+        "yOffset": 3,
+        "xAdvance": 40,
+        "rect": {
+          "x": 413,
+          "y": 825,
+          "width": 50,
+          "height": 49
+        }
+      },
+      "21697": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 41,
+        "rect": {
+          "x": 119,
+          "y": 355,
+          "width": 51,
+          "height": 51
+        }
+      },
+      "21734": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 41,
+        "rect": {
+          "x": 354,
+          "y": 355,
+          "width": 51,
+          "height": 52
+        }
+      },
+      "21830": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 40,
+        "rect": {
+          "x": 645,
+          "y": 353,
+          "width": 50,
+          "height": 51
+        }
+      },
+      "21862": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 42,
+        "rect": {
+          "x": 0,
+          "y": 359,
+          "width": 52,
+          "height": 51
+        }
+      },
+      "22120": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 41,
+        "rect": {
+          "x": 0,
+          "y": 716,
+          "width": 51,
+          "height": 51
+        }
+      },
+      "22320": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 41,
+        "rect": {
+          "x": 59,
+          "y": 536,
+          "width": 51,
+          "height": 52
+        }
+      },
+      "22330": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 41,
+        "rect": {
+          "x": 295,
+          "y": 474,
+          "width": 51,
+          "height": 50
+        }
+      },
+      "22411": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 41,
+        "rect": {
+          "x": 119,
+          "y": 59,
+          "width": 51,
+          "height": 51
+        }
+      },
+      "22478": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 42,
+        "rect": {
+          "x": 0,
+          "y": 299,
+          "width": 52,
+          "height": 52
+        }
+      },
+      "22635": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 41,
+        "rect": {
+          "x": 236,
+          "y": 715,
+          "width": 51,
+          "height": 51
+        }
+      },
+      "22810": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 40,
+        "rect": {
+          "x": 413,
+          "y": 473,
+          "width": 50,
+          "height": 51
+        }
+      },
+      "22823": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 40,
+        "rect": {
+          "x": 703,
+          "y": 713,
+          "width": 50,
+          "height": 51
+        }
+      },
+      "22826": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 40,
+        "rect": {
+          "x": 587,
+          "y": 298,
+          "width": 50,
+          "height": 51
+        }
+      },
+      "22836": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 40,
+        "rect": {
+          "x": 761,
+          "y": 473,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "22870": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 40,
+        "rect": {
+          "x": 588,
+          "y": 59,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "22909": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 40,
+        "rect": {
+          "x": 587,
+          "y": 708,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "22914": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 41,
+        "rect": {
+          "x": 295,
+          "y": 591,
+          "width": 51,
+          "height": 51
+        }
+      },
+      "23384": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 40,
+        "rect": {
+          "x": 703,
+          "y": 238,
+          "width": 50,
+          "height": 51
+        }
+      },
+      "23448": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 40,
+        "rect": {
+          "x": 471,
+          "y": 826,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "23450": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 40,
+        "rect": {
+          "x": 529,
+          "y": 533,
+          "width": 50,
+          "height": 51
+        }
+      },
+      "23453": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 40,
+        "rect": {
+          "x": 530,
+          "y": 118,
+          "width": 50,
+          "height": 52
+        }
+      },
+      "23458": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 40,
+        "rect": {
+          "x": 472,
+          "y": 0,
+          "width": 50,
+          "height": 52
+        }
+      },
+      "23478": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 40,
+        "rect": {
+          "x": 703,
+          "y": 595,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "23545": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 40,
+        "rect": {
+          "x": 529,
+          "y": 768,
+          "width": 50,
+          "height": 51
+        }
+      },
+      "23567": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 41,
+        "rect": {
+          "x": 60,
+          "y": 60,
+          "width": 51,
+          "height": 52
+        }
+      },
+      "23574": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 40,
+        "rect": {
+          "x": 645,
+          "y": 471,
+          "width": 50,
+          "height": 51
+        }
+      },
+      "23616": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 40,
+        "rect": {
+          "x": 529,
+          "y": 415,
+          "width": 50,
+          "height": 51
+        }
+      },
+      "23792": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 41,
+        "rect": {
+          "x": 119,
+          "y": 178,
+          "width": 51,
+          "height": 50
+        }
+      },
+      "24005": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 41,
+        "rect": {
+          "x": 60,
+          "y": 238,
+          "width": 51,
+          "height": 52
+        }
+      },
+      "24029": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 40,
+        "rect": {
+          "x": 530,
+          "y": 58,
+          "width": 50,
+          "height": 52
+        }
+      },
+      "24065": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 40,
+        "rect": {
+          "x": 761,
+          "y": 531,
+          "width": 50,
+          "height": 52
+        }
+      },
+      "24072": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 41,
+        "rect": {
+          "x": 119,
+          "y": 0,
+          "width": 51,
+          "height": 51
+        }
+      },
+      "24184": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 41,
+        "rect": {
+          "x": 236,
+          "y": 536,
+          "width": 51,
+          "height": 52
+        }
+      },
+      "24310": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 40,
+        "rect": {
+          "x": 529,
+          "y": 709,
+          "width": 50,
+          "height": 51
+        }
+      },
+      "24314": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 41,
+        "rect": {
+          "x": 119,
+          "y": 414,
+          "width": 51,
+          "height": 52
+        }
+      },
+      "24320": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 40,
+        "rect": {
+          "x": 587,
+          "y": 766,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "24405": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 40,
+        "rect": {
+          "x": 413,
+          "y": 532,
+          "width": 50,
+          "height": 51
+        }
+      },
+      "24515": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 41,
+        "rect": {
+          "x": 355,
+          "y": 179,
+          "width": 51,
+          "height": 51
+        }
+      },
+      "24635": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 40,
+        "rect": {
+          "x": 414,
+          "y": 0,
+          "width": 50,
+          "height": 51
+        }
+      },
+      "24687": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 40,
+        "rect": {
+          "x": 471,
+          "y": 766,
+          "width": 50,
+          "height": 52
+        }
+      },
+      "24773": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 41,
+        "rect": {
+          "x": 178,
+          "y": 0,
+          "width": 51,
+          "height": 52
+        }
+      },
+      "24847": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 39,
+        "rect": {
+          "x": 762,
+          "y": 59,
+          "width": 49,
+          "height": 52
+        }
+      },
+      "25103": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 41,
+        "rect": {
+          "x": 178,
+          "y": 60,
+          "width": 51,
+          "height": 52
+        }
+      },
+      "25104": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 41,
+        "rect": {
+          "x": 118,
+          "y": 535,
+          "width": 51,
+          "height": 51
+        }
+      },
+      "25105": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 41,
+        "rect": {
+          "x": 178,
+          "y": 299,
+          "width": 51,
+          "height": 52
+        }
+      },
+      "25112": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 41,
+        "rect": {
+          "x": 178,
+          "y": 180,
+          "width": 51,
+          "height": 52
+        }
+      },
+      "25143": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 38,
+        "rect": {
+          "x": 646,
+          "y": 238,
+          "width": 48,
+          "height": 49
+        }
+      },
+      "25151": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 41,
+        "rect": {
+          "x": 118,
+          "y": 653,
+          "width": 51,
+          "height": 52
+        }
+      },
+      "25163": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 40,
+        "rect": {
+          "x": 704,
+          "y": 117,
+          "width": 50,
+          "height": 51
+        }
+      },
+      "25253": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 40,
+        "rect": {
+          "x": 646,
+          "y": 59,
+          "width": 50,
+          "height": 52
+        }
+      },
+      "25321": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 41,
+        "rect": {
+          "x": 0,
+          "y": 596,
+          "width": 51,
+          "height": 52
+        }
+      },
+      "25351": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 41,
+        "rect": {
+          "x": 119,
+          "y": 118,
+          "width": 51,
+          "height": 52
+        }
+      },
+      "25442": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 41,
+        "rect": {
+          "x": 59,
+          "y": 596,
+          "width": 51,
+          "height": 51
+        }
+      },
+      "25490": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 41,
+        "rect": {
+          "x": 177,
+          "y": 534,
+          "width": 51,
+          "height": 52
+        }
+      },
+      "25512": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 40,
+        "rect": {
+          "x": 471,
+          "y": 414,
+          "width": 50,
+          "height": 51
+        }
+      },
+      "25552": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 41,
+        "rect": {
+          "x": 237,
+          "y": 120,
+          "width": 51,
+          "height": 52
+        }
+      },
+      "25913": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 39,
+        "rect": {
+          "x": 819,
+          "y": 235,
+          "width": 49,
+          "height": 50
+        }
+      },
+      "25955": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 40,
+        "rect": {
+          "x": 645,
+          "y": 823,
+          "width": 50,
+          "height": 52
+        }
+      },
+      "25968": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 41,
+        "rect": {
+          "x": 295,
+          "y": 650,
+          "width": 51,
+          "height": 51
+        }
+      },
+      "26032": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 41,
+        "rect": {
+          "x": 295,
+          "y": 829,
+          "width": 51,
+          "height": 52
+        }
+      },
+      "26080": {
+        "xOffset": 0,
+        "yOffset": 3,
+        "xAdvance": 40,
+        "rect": {
+          "x": 471,
+          "y": 650,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "26085": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 35,
+        "rect": {
+          "x": 875,
+          "y": 586,
+          "width": 45,
+          "height": 51
+        }
+      },
+      "26102": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 40,
+        "rect": {
+          "x": 413,
+          "y": 591,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "26126": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 40,
+        "rect": {
+          "x": 471,
+          "y": 355,
+          "width": 50,
+          "height": 51
+        }
+      },
+      "26165": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 42,
+        "rect": {
+          "x": 0,
+          "y": 121,
+          "width": 52,
+          "height": 51
+        }
+      },
+      "26242": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 41,
+        "rect": {
+          "x": 354,
+          "y": 535,
+          "width": 51,
+          "height": 52
+        }
+      },
+      "26356": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 39,
+        "rect": {
+          "x": 761,
+          "y": 650,
+          "width": 49,
+          "height": 50
+        }
+      },
+      "26377": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 40,
+        "rect": {
+          "x": 530,
+          "y": 178,
+          "width": 50,
+          "height": 52
+        }
+      },
+      "26381": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 40,
+        "rect": {
+          "x": 296,
+          "y": 355,
+          "width": 50,
+          "height": 51
+        }
+      },
+      "26412": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 41,
+        "rect": {
+          "x": 60,
+          "y": 298,
+          "width": 51,
+          "height": 52
+        }
+      },
+      "26465": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 40,
+        "rect": {
+          "x": 646,
+          "y": 0,
+          "width": 50,
+          "height": 51
+        }
+      },
+      "26469": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 39,
+        "rect": {
+          "x": 819,
+          "y": 411,
+          "width": 49,
+          "height": 51
+        }
+      },
+      "26597": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 41,
+        "rect": {
+          "x": 118,
+          "y": 713,
+          "width": 51,
+          "height": 51
+        }
+      },
+      "26694": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 41,
+        "rect": {
+          "x": 355,
+          "y": 238,
+          "width": 51,
+          "height": 51
+        }
+      },
+      "26700": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 41,
+        "rect": {
+          "x": 119,
+          "y": 236,
+          "width": 51,
+          "height": 52
+        }
+      },
+      "26723": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 40,
+        "rect": {
+          "x": 646,
+          "y": 178,
+          "width": 50,
+          "height": 52
+        }
+      },
+      "26834": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 41,
+        "rect": {
+          "x": 0,
+          "y": 656,
+          "width": 51,
+          "height": 52
+        }
+      },
+      "27036": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 41,
+        "rect": {
+          "x": 355,
+          "y": 120,
+          "width": 51,
+          "height": 51
+        }
+      },
+      "27425": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 40,
+        "rect": {
+          "x": 472,
+          "y": 239,
+          "width": 50,
+          "height": 51
+        }
+      },
+      "27493": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 41,
+        "rect": {
+          "x": 354,
+          "y": 475,
+          "width": 51,
+          "height": 52
+        }
+      },
+      "27573": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 41,
+        "rect": {
+          "x": 177,
+          "y": 594,
+          "width": 51,
+          "height": 52
+        }
+      },
+      "27599": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 41,
+        "rect": {
+          "x": 59,
+          "y": 655,
+          "width": 51,
+          "height": 51
+        }
+      },
+      "27604": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 40,
+        "rect": {
+          "x": 471,
+          "y": 473,
+          "width": 50,
+          "height": 51
+        }
+      },
+      "27665": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 39,
+        "rect": {
+          "x": 819,
+          "y": 176,
+          "width": 49,
+          "height": 51
+        }
+      },
+      "27700": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 40,
+        "rect": {
+          "x": 472,
+          "y": 179,
+          "width": 50,
+          "height": 52
+        }
+      },
+      "27861": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 40,
+        "rect": {
+          "x": 413,
+          "y": 649,
+          "width": 50,
+          "height": 51
+        }
+      },
+      "27963": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 40,
+        "rect": {
+          "x": 529,
+          "y": 592,
+          "width": 50,
+          "height": 51
+        }
+      },
+      "27969": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 41,
+        "rect": {
+          "x": 237,
+          "y": 356,
+          "width": 51,
+          "height": 50
+        }
+      },
+      "28155": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 40,
+        "rect": {
+          "x": 413,
+          "y": 767,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "28216": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 41,
+        "rect": {
+          "x": 118,
+          "y": 594,
+          "width": 51,
+          "height": 51
+        }
+      },
+      "29260": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 41,
+        "rect": {
+          "x": 354,
+          "y": 415,
+          "width": 51,
+          "height": 52
+        }
+      },
+      "29609": {
+        "xOffset": 0,
+        "yOffset": 3,
+        "xAdvance": 41,
+        "rect": {
+          "x": 237,
+          "y": 239,
+          "width": 51,
+          "height": 49
+        }
+      },
+      "29992": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 40,
+        "rect": {
+          "x": 414,
+          "y": 59,
+          "width": 50,
+          "height": 52
+        }
+      },
+      "30005": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 40,
+        "rect": {
+          "x": 413,
+          "y": 355,
+          "width": 50,
+          "height": 51
+        }
+      },
+      "30041": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 39,
+        "rect": {
+          "x": 819,
+          "y": 293,
+          "width": 49,
+          "height": 50
+        }
+      },
+      "30058": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 41,
+        "rect": {
+          "x": 354,
+          "y": 712,
+          "width": 51,
+          "height": 52
+        }
+      },
+      "30331": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 41,
+        "rect": {
+          "x": 177,
+          "y": 712,
+          "width": 51,
+          "height": 51
+        }
+      },
+      "30340": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 41,
+        "rect": {
+          "x": 178,
+          "y": 240,
+          "width": 51,
+          "height": 51
+        }
+      },
+      "30475": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 40,
+        "rect": {
+          "x": 703,
+          "y": 535,
+          "width": 50,
+          "height": 52
+        }
+      },
+      "30693": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 41,
+        "rect": {
+          "x": 177,
+          "y": 654,
+          "width": 51,
+          "height": 50
+        }
+      },
+      "30707": {
+        "xOffset": 0,
+        "yOffset": 3,
+        "xAdvance": 39,
+        "rect": {
+          "x": 472,
+          "y": 298,
+          "width": 49,
+          "height": 49
+        }
+      },
+      "30772": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 41,
+        "rect": {
+          "x": 236,
+          "y": 834,
+          "width": 51,
+          "height": 52
+        }
+      },
+      "31034": {
+        "xOffset": 0,
+        "yOffset": 3,
+        "xAdvance": 40,
+        "rect": {
+          "x": 587,
+          "y": 357,
+          "width": 50,
+          "height": 49
+        }
+      },
+      "31036": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 39,
+        "rect": {
+          "x": 762,
+          "y": 119,
+          "width": 49,
+          "height": 51
+        }
+      },
+      "31070": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 39,
+        "rect": {
+          "x": 818,
+          "y": 650,
+          "width": 49,
+          "height": 51
+        }
+      },
+      "31119": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 40,
+        "rect": {
+          "x": 472,
+          "y": 120,
+          "width": 50,
+          "height": 51
+        }
+      },
+      "31163": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 39,
+        "rect": {
+          "x": 818,
+          "y": 709,
+          "width": 49,
+          "height": 52
+        }
+      },
+      "31215": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 40,
+        "rect": {
+          "x": 645,
+          "y": 412,
+          "width": 50,
+          "height": 51
+        }
+      },
+      "31216": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 41,
+        "rect": {
+          "x": 59,
+          "y": 714,
+          "width": 51,
+          "height": 51
+        }
+      },
+      "31435": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 40,
+        "rect": {
+          "x": 471,
+          "y": 591,
+          "width": 50,
+          "height": 51
+        }
+      },
+      "31665": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 41,
+        "rect": {
+          "x": 178,
+          "y": 359,
+          "width": 51,
+          "height": 51
+        }
+      },
+      "31995": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 40,
+        "rect": {
+          "x": 704,
+          "y": 176,
+          "width": 50,
+          "height": 52
+        }
+      },
+      "32423": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 40,
+        "rect": {
+          "x": 704,
+          "y": 0,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "32461": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 40,
+        "rect": {
+          "x": 645,
+          "y": 588,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "32489": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 41,
+        "rect": {
+          "x": 178,
+          "y": 120,
+          "width": 51,
+          "height": 52
+        }
+      },
+      "32493": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 41,
+        "rect": {
+          "x": 177,
+          "y": 771,
+          "width": 51,
+          "height": 51
+        }
+      },
+      "32622": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 41,
+        "rect": {
+          "x": 0,
+          "y": 835,
+          "width": 51,
+          "height": 52
+        }
+      },
+      "32701": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 40,
+        "rect": {
+          "x": 645,
+          "y": 705,
+          "width": 50,
+          "height": 51
+        }
+      },
+      "32852": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 40,
+        "rect": {
+          "x": 645,
+          "y": 764,
+          "width": 50,
+          "height": 51
+        }
+      },
+      "33540": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 40,
+        "rect": {
+          "x": 703,
+          "y": 653,
+          "width": 50,
+          "height": 52
+        }
+      },
+      "33616": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 39,
+        "rect": {
+          "x": 819,
+          "y": 470,
+          "width": 49,
+          "height": 50
+        }
+      },
+      "34507": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 41,
+        "rect": {
+          "x": 295,
+          "y": 769,
+          "width": 51,
+          "height": 52
+        }
+      },
+      "34892": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 41,
+        "rect": {
+          "x": 60,
+          "y": 120,
+          "width": 51,
+          "height": 51
+        }
+      },
+      "34917": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 40,
+        "rect": {
+          "x": 413,
+          "y": 708,
+          "width": 50,
+          "height": 51
+        }
+      },
+      "34920": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 41,
+        "rect": {
+          "x": 0,
+          "y": 477,
+          "width": 51,
+          "height": 52
+        }
+      },
+      "35265": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 41,
+        "rect": {
+          "x": 237,
+          "y": 296,
+          "width": 51,
+          "height": 52
+        }
+      },
+      "35268": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 40,
+        "rect": {
+          "x": 646,
+          "y": 119,
+          "width": 50,
+          "height": 51
+        }
+      },
+      "35272": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 40,
+        "rect": {
+          "x": 414,
+          "y": 119,
+          "width": 50,
+          "height": 51
+        }
+      },
+      "35299": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 40,
+        "rect": {
+          "x": 414,
+          "y": 237,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "35748": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 40,
+        "rect": {
+          "x": 703,
+          "y": 476,
+          "width": 50,
+          "height": 51
+        }
+      },
+      "35758": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 41,
+        "rect": {
+          "x": 354,
+          "y": 595,
+          "width": 51,
+          "height": 50
+        }
+      },
+      "35760": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 40,
+        "rect": {
+          "x": 588,
+          "y": 0,
+          "width": 50,
+          "height": 51
+        }
+      },
+      "35774": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 40,
+        "rect": {
+          "x": 587,
+          "y": 824,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "35777": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 40,
+        "rect": {
+          "x": 761,
+          "y": 591,
+          "width": 50,
+          "height": 51
+        }
+      },
+      "35805": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 39,
+        "rect": {
+          "x": 761,
+          "y": 825,
+          "width": 49,
+          "height": 50
+        }
+      },
+      "35814": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 39,
+        "rect": {
+          "x": 819,
+          "y": 0,
+          "width": 49,
+          "height": 51
+        }
+      },
+      "35828": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 41,
+        "rect": {
+          "x": 237,
+          "y": 180,
+          "width": 51,
+          "height": 51
+        }
+      },
+      "35831": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 40,
+        "rect": {
+          "x": 530,
+          "y": 238,
+          "width": 50,
+          "height": 52
+        }
+      },
+      "35910": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 39,
+        "rect": {
+          "x": 761,
+          "y": 708,
+          "width": 49,
+          "height": 50
+        }
+      },
+      "36141": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 41,
+        "rect": {
+          "x": 296,
+          "y": 237,
+          "width": 51,
+          "height": 50
+        }
+      },
+      "36153": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 41,
+        "rect": {
+          "x": 118,
+          "y": 831,
+          "width": 51,
+          "height": 52
+        }
+      },
+      "36186": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 42,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 52,
+          "height": 53
+        }
+      },
+      "36187": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 41,
+        "rect": {
+          "x": 236,
+          "y": 418,
+          "width": 51,
+          "height": 52
+        }
+      },
+      "36194": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 41,
+        "rect": {
+          "x": 355,
+          "y": 60,
+          "width": 51,
+          "height": 52
+        }
+      },
+      "36275": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 41,
+        "rect": {
+          "x": 236,
+          "y": 596,
+          "width": 51,
+          "height": 51
+        }
+      },
+      "36755": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 41,
+        "rect": {
+          "x": 60,
+          "y": 358,
+          "width": 51,
+          "height": 52
+        }
+      },
+      "36816": {
+        "xOffset": 0,
+        "yOffset": 3,
+        "xAdvance": 41,
+        "rect": {
+          "x": 236,
+          "y": 478,
+          "width": 51,
+          "height": 50
+        }
+      },
+      "36827": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 41,
+        "rect": {
+          "x": 59,
+          "y": 773,
+          "width": 51,
+          "height": 52
+        }
+      },
+      "36830": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 41,
+        "rect": {
+          "x": 177,
+          "y": 830,
+          "width": 51,
+          "height": 52
+        }
+      },
+      "36866": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 41,
+        "rect": {
+          "x": 295,
+          "y": 532,
+          "width": 51,
+          "height": 51
+        }
+      },
+      "36873": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 41,
+        "rect": {
+          "x": 0,
+          "y": 537,
+          "width": 51,
+          "height": 51
+        }
+      },
+      "36890": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 41,
+        "rect": {
+          "x": 59,
+          "y": 833,
+          "width": 51,
+          "height": 51
+        }
+      },
+      "36947": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 41,
+        "rect": {
+          "x": 354,
+          "y": 832,
+          "width": 51,
+          "height": 52
+        }
+      },
+      "36992": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 41,
+        "rect": {
+          "x": 295,
+          "y": 414,
+          "width": 51,
+          "height": 52
+        }
+      },
+      "37038": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 41,
+        "rect": {
+          "x": 0,
+          "y": 775,
+          "width": 51,
+          "height": 52
+        }
+      },
+      "37266": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 42,
+        "rect": {
+          "x": 0,
+          "y": 239,
+          "width": 52,
+          "height": 52
+        }
+      },
+      "37329": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 40,
+        "rect": {
+          "x": 761,
+          "y": 354,
+          "width": 50,
+          "height": 51
+        }
+      },
+      "38075": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 41,
+        "rect": {
+          "x": 296,
+          "y": 295,
+          "width": 51,
+          "height": 52
+        }
+      },
+      "38271": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 40,
+        "rect": {
+          "x": 529,
+          "y": 651,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "38388": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 39,
+        "rect": {
+          "x": 819,
+          "y": 59,
+          "width": 49,
+          "height": 51
+        }
+      },
+      "38454": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 41,
+        "rect": {
+          "x": 118,
+          "y": 772,
+          "width": 51,
+          "height": 51
+        }
+      },
+      "38592": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 40,
+        "rect": {
+          "x": 645,
+          "y": 646,
+          "width": 50,
+          "height": 51
+        }
+      },
+      "38712": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 40,
+        "rect": {
+          "x": 761,
+          "y": 413,
+          "width": 50,
+          "height": 52
+        }
+      },
+      "39046": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 40,
+        "rect": {
+          "x": 645,
+          "y": 530,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "39304": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 42,
+        "rect": {
+          "x": 0,
+          "y": 61,
+          "width": 52,
+          "height": 52
+        }
+      },
+      "39640": {
+        "xOffset": 0,
+        "yOffset": 2,
+        "xAdvance": 40,
+        "rect": {
+          "x": 703,
+          "y": 772,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "40635": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 42,
+        "rect": {
+          "x": 0,
+          "y": 418,
+          "width": 52,
+          "height": 51
+        }
+      },
+      "40836": {
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 41,
+        "rect": {
+          "x": 296,
+          "y": 178,
+          "width": 51,
+          "height": 51
+        }
+      }
+    }
+  },
+  "runtime": {
+    "columns": 5,
+    "rows": 2,
+    "startAxis": "vertical",
+    "itemStep": [
+      200,
+      250
+    ],
+    "scrollCenter": [
+      74,
+      -47
+    ],
+    "scrollSize": [
+      955,
+      500
+    ],
+    "contentOrigin": [
+      -477.5,
+      0
+    ],
+    "playTypes": {
+      "red": "866",
+      "classic": "893",
+      "sanguo": "911",
+      "zodiac": "898"
+    }
+  },
+  "notes": [
+    "Badge mapping follows the recovered badge text, independently of numeric game node names.",
+    "Card ordering and online reward thresholds arrive in server fanCardCfg; these were not captured.",
+    "Empty local progress stays undiscovered (???), matching native refreshItemNode when info is absent.",
+    "Only locally supplied achievement counts are shown. No online achievement, reward, or percentile is fabricated."
+  ]
+}

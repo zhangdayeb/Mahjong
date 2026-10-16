@@ -1,0 +1,8 @@
+.native-hall-activities{position:absolute;inset:0;z-index:190;overflow:clip;touch-action:none;isolation:isolate}
+.native-hall-activities[hidden]{display:none!important}
+.native-hall-activities-canvas,.native-hall-activities-hits{position:absolute;inset:0;width:100%;height:100%}
+.native-hall-activities-canvas{pointer-events:none}
+#lobby .native-hall-activities button,.native-hall-activities button{position:absolute;margin:0;padding:0;border:0;border-radius:0;background:transparent!important;box-shadow:none!important;color:transparent!important;cursor:pointer;touch-action:none}
+.native-hall-activities button:focus-visible{outline:2px solid #c5ffff;outline-offset:-3px}
+.native-hall-activity-notice{position:absolute;left:50%;top:78%;transform:translateX(-50%);padding:8px 16px;max-width:75%;border-radius:4px;background:rgba(0,18,38,.85);color:#fff;font-size:clamp(11px,1.5vw,17px);pointer-events:none;z-index:20}
+.native-hall-activity-notice[hidden]{display:none!important}

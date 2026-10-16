@@ -1,0 +1,19 @@
+import {ruleProfile,ruleModeForId,RULE_PROFILES} from './rule-profiles.js';
+import {fanCatalog} from './bloodflow-scoring.js';
+export function liveRulebook(mode){
+ const request=typeof mode==='object'?(mode.mode??mode.gameType??mode.id):mode;
+ const key=Object.hasOwn(RULE_PROFILES,request)?request:ruleModeForId(request);if(!key)return null;
+ const p=ruleProfile(key),red=p.jokerCount>0;
+ const exchange=p.exchange?`开局换三张：${p.exchangeAnySuit?'任选三张，包括红中':'三张同花色序数牌'}；${p.exchangeDirection==='seeded'?'顺时针、逆时针、对家三种方向由本局种子确定':p.exchangeDirection==='opposite'?'与对家交换':'顺时针交换'}。`:'本玩法不换三张，发牌后直接定缺。';
+ const basic=[`联桌规则第${p.rulesVersion}版 · ${p.name} · 人机练习`,`${108+p.jokerCount}张牌：万、条、筒各36张${red?`，另加${p.jokerCount}张红中`:''}。${red?'红中可代替任意非缺门序数牌；不允许用红中碰牌或作为四张一组的杠。':''}`,exchange,'定缺后必须先打缺门牌；有缺门时不能碰、杠、胡。可胡四组面子加一对或七对；不吃牌。胡后继续参与直到牌墙用尽。','胡优先于杠、碰；支持一炮多响及抢补杠胡。过手胡后，未摸牌或碰杠前，只能胡更高倍数的牌。','杠分：暗杠向其余每家收2份底注；接杠向放杠家收2份；刚摸到第四张的补杠向每家收1份。非刚摸到的补杠不收杠分，抢杠成功时该补杠不成立。','杠后出牌被胡，杠收入呼叫转移给按行牌方向最近的胡牌家；转移一次，不重复退税。','流局退还未听牌家尚未转移的杠收入；查花猪向每名清缺玩家赔'+p.flowerCap+'倍底注；未听牌家按未胡牌听牌家的最高可胡倍数赔查叫。',`胡牌${p.cap}倍封顶。付款不超过本局可用金币；单次胡牌总收入不超过入场金币与本局余额中的较大值。局中领取的福利在下一局纳入上限。金币用于练习，不能充值、提现或兑换。`,p.noShuffle?'不洗牌：首局随机洗牌；以后收取上一局各座弃牌、胡牌实体、红中杠、碰杠牌、手牌、余墙，按此顺序仅随机切牌后发牌。退出的牌局也按同一顺序收牌。':'每局重新随机洗牌。'];
+ if(p.redKong)basic.push('红中单张杠：清缺后可将一张红中公开并补摸一张，胡牌基础倍数加2；不收即时杠分。');
+ if(p.reveal)basic.push('明牌：清缺后可公开自己的手牌；此后胡牌倍数乘6，再应用封顶。');
+ const arithmetic=p.fanFamily==='sichuan'?'基础番型只取最高项；附加番型依次相乘，每根、每杠分别乘2。天胡乘8、地胡乘4；本场自摸不额外加底或加番。':'基础番型只取最高项；暗杠每组加2倍、明杠及补杠每组加1倍，再算自摸乘2（不求人已包含自摸，不能重复乘2）和明牌乘6。最后应用封顶。根只按未杠的4张相同实体牌判定，不计红中。';
+ const fans=[arithmetic,...fanCatalog(p).filter(f=>!f.additional).map(f=>`${f.name}【${f.multiple}倍】 ${({金钩钓:'四组碰杠加一对将；胡牌前只留1张手牌。',起手叫:'开局定缺后已听牌，之后只打出刚摸到的牌则保留；换掉原手牌或碰牌后失效，杠不使起手叫失效。',绝张:'该胡牌张另外3张序数牌已公开；不计其他家暗杠。'}[f.name]||f.description).replace(/[“”]/g,'')}`)];
+ if(p.fanFamily==='sichuan')fans.push(...fanCatalog(p).filter(f=>f.additional).map(f=>`${f.name}【乘${f.multiple}】 ${f.description}`));
+ else fans.push('附加：暗杠每组 +2；明杠及补杠每组 +1；'+(p.redKong?'红中单张杠每张 +2；':'')+'自摸 ×2；'+(p.reveal?'明牌 ×6；':'')+`最终不超过${p.cap}倍。`);
+ const custom=['本页为当前场次固定规则，不提供与计分不一致的选项。',arithmetic,'自摸触及总收入上限时，按各家原本可付的金额同比例分摊，整数尾差按行牌方向分配。','数值和牌型以实际引擎为准：红中仅替代形状，点数累计、根及汉字笔画按实体序数牌统计；六十画按一至九的笔画数1、2、3、5、4、4、2、2、2计算。大展鸿图的红筒按1、5、7、9筒统计。','坎张与边张必须仅有一张合法可胡张，且该张能放入相应顺子位置。红中本身不计窄听。','原资料中的朱、墨及诗书画分类在联桌统一为红中通配规则，不附加未明确的朱墨限制。'];
+ if(p.fanFamily==='crazy')custom.push('疯狂8红中：九莲宝灯首胡1999倍，同局每次再次胡九莲翻倍，仍受8888倍封顶。');
+ return{id:String(p.ruleID),gameType:p.ruleID,BASERULE:basic,FANRULE:fans,CUSTOMRULE:custom,profile:p};
+}
+export function liveRulesHtml(mode){const r=liveRulebook(mode);return r?[...r.BASERULE,...r.CUSTOMRULE,'番型与附加倍数',...r.FANRULE].map(line=>'<p>'+line.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')+'</p>').join(''):'';}

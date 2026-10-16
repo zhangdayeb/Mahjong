@@ -1,0 +1,27 @@
+原版碰杠环境动画的移植证据
+
+入口：asset-study/readable/modules/CPGHAnim.js
+playAnGang -> playXiaYu([0,0])；playGang -> playWind([0,-200])。
+普通碰牌仅落牌烟雾，无 rain/wind。只有武汉金豆场 TYPEID850 跳过风雨；红中863/866未在此排除表。
+
+NewCPGHAnim.js playXiaYu、playWind、playAnimation：
+真实运行时加载 xiayu 而非 guafeng；ConfigPrefab 预加载表中的 xiayu:guafeng 不代表实际雨动画。
+playAnimation 替换 prefab 的 root.position；风另外设置 root.scale=3。
+GameAnimLayer1855/anim_CPGH 是中心原点、scale=1。
+1280×640 按原720设计高适配8/9：雨 root[640,320]，风 root[640,497.7777778]。
+
+雨：resources2095，clip1417，65/60秒，speed=.5，实际2166.6666667ms。
+两层 RAW+trimfalse，244×280，anchor[.5,.3]，child scale2，child y43.95；第二层为 additive blend。
+风：resources2742，clip2836，35/60秒，speed=.5，实际1166.6666667ms。
+RAW+trimfalse，99×119，anchor[.5,.3]，child y90。
+clip scale3 覆盖 prefab child scale1.5，再乘 runtime root scale3；本地总缩放8，不可只乘一层。
+烟雾：resources66，clip2926，47/60秒，实际783.3333333ms。
+source ZMJCPGTileCtrl.showYanWuAnim：CPG局部edge按方向加偏移，再继承父节点signed scale，runtime scale1.6。
+烟雾在碰杠落牌后出现；恢复/同步 _showYanWu=false 时不触发。
+根节点当前由 tile-result-effects 集成烟雾，native-kong-effects 不应再重复调用smoke。
+
+GameAnimView.onGamingGang + GameAnimDefine.Gang：原杠逻辑锁仍1030ms。
+风雨clip没有追加游戏暂停；因此新接口返回 lockingMs:0，durationMs只描述视觉自身生命周期。
+
+已提取40个原SpriteFrame和rain/wind原音频，清单frames.json。
+native-kong-effects.test.js 已验证素材存在、原RAW参数、speed换算、两层雨错帧、风scale覆盖、850排除、取消resolve、实际Canvas draw参数。

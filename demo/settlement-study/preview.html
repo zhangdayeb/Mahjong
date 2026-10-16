@@ -1,0 +1,10 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>结算原布局核对 · 明确标识的测试数据</title><style>body{margin:0;background:#092b29;font:16px Arial,sans-serif;color:#e5faff}main{padding:24px}button{padding:10px 20px;margin:8px}</style></head><body><main><p>以下是独立的视觉测试夹具，检查原版结算素材、负倍数、35/40进度及明细手指拖动；不写入游戏状态。</p><button id="win">查看赢分测试</button><button id="lose">查看输分35/40测试</button><button id="zero">查看输分0/40测试</button></main><script type="module">
+import {createSettlementView} from '../settlement-view.js';
+const view=createSettlementView({players:['测试本家','测试下家','测试对家','测试上家']});
+const profiles=[{name:'测试本家',level:3,experience:35,experienceRequired:40},{name:'测试下家'},{name:'测试对家'},{name:'测试上家'}];
+const base={base:2000,hands:[[31,32,33,34,35,38,35,22,22,22,38,34,35,36]],melds:[[],[],[],[]],records:['独立测试夹具，不代表正在进行的牌局。']};
+const losses={...base,huEvents:Array.from({length:9},(_,i)=>({seat:2,fan:{name:i%3===0?'不求人':i%3===1?'门清、老少副':'门清',multiple:i%3===2?2:4},deltas:[i%3===2?-4000:-8000,0,i%3===2?4000:8000,0]}))};
+function show(kind,zero=false){view.show({scores:kind==='win'?[98000,-86000,12000,-24000]:[-98000,-86000,12000,172000],profiles:profiles.map((p,i)=>i===0&&zero?{...p,experience:0}:p),room:'独立结算测试夹具',details:kind==='win'?{...base,huEvents:[{seat:0,fan:{name:'清一色',multiple:4},deltas:[24000,-8000,-8000,-8000]}]}:losses});}
+document.querySelector('#win').onclick=()=>show('win');document.querySelector('#lose').onclick=()=>show('lose');document.querySelector('#zero').onclick=()=>show('lose',true);
+const params=new URLSearchParams(location.search);await view.ready;if(params.has('auto')){show(params.get('auto')==='win'?'win':'lose',params.has('zero'));if(params.has('expanded'))view.setExpanded(true);}
+</script></body></html>

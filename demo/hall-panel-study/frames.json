@@ -1,0 +1,4848 @@
+[
+  {
+    "bundle": "common",
+    "id": 754,
+    "path": "NewSkin/set/kai",
+    "name": "kai",
+    "rect": [
+      6,
+      0,
+      166,
+      72
+    ],
+    "offset": [
+      3,
+      0
+    ],
+    "originalSize": [
+      172,
+      72
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "ea651197-a42d-4746-a4b7-78d73fa7e8a5",
+    "textureUUID": "1459a6fe-42f8-4ba7-bb88-c2ca6d5885a0",
+    "image": "hall-panel-study/assets/common-754-kai.png"
+  },
+  {
+    "bundle": "common",
+    "id": 815,
+    "path": "NewSkin/set/guan",
+    "name": "guan",
+    "rect": [
+      0,
+      0,
+      165,
+      72
+    ],
+    "offset": [
+      -3.5,
+      0
+    ],
+    "originalSize": [
+      172,
+      72
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "fe8c9efa-fccf-469c-bbbe-e199e48993ba",
+    "textureUUID": "f5ef2a81-97a4-45d0-9dd0-9946014997c1",
+    "image": "hall-panel-study/assets/common-815-guan.png"
+  },
+  {
+    "bundle": "common",
+    "id": 559,
+    "path": "NewSkin/Sudoku/pic_com08",
+    "name": "pic_com08",
+    "rect": [
+      404,
+      207,
+      53,
+      56
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      53,
+      56
+    ],
+    "rotated": 1,
+    "capInsets": [
+      25,
+      20,
+      18,
+      24
+    ],
+    "uuid": "b1ce235d-bf85-4847-8a55-b158dbc4c8c5",
+    "textureUUID": "157399797",
+    "image": "hall-panel-study/assets/common-559-pic_com08.png"
+  },
+  {
+    "bundle": "common",
+    "id": 287,
+    "path": "NewSkin/Sudoku/xiaotanchuangshanglan",
+    "name": "xiaotanchuangshanglan",
+    "rect": [
+      79,
+      207,
+      700,
+      71
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      700,
+      71
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "5a96bae5-d3cf-41fe-8693-122810ec353a",
+    "textureUUID": "157399797",
+    "image": "hall-panel-study/assets/common-287-xiaotanchuangshanglan.png"
+  },
+  {
+    "bundle": "fonts",
+    "id": 282,
+    "path": "NewSkin/title/fnt_biaotiz-export",
+    "name": "fnt_biaotiz-export",
+    "rect": [
+      0,
+      0,
+      920,
+      916
+    ],
+    "offset": [
+      -4,
+      4
+    ],
+    "originalSize": [
+      928,
+      924
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "f38fba04-f256-4c83-8867-0087385dfb0a",
+    "textureUUID": "6d6f0c5e-6db4-46cb-9c55-b010ab5c796a",
+    "image": "hall-panel-study/assets/fonts-282-fnt_biaotiz-export.png"
+  },
+  {
+    "bundle": "common",
+    "id": 482,
+    "path": "module/Set/chilun",
+    "name": "chilun",
+    "rect": [
+      2,
+      164,
+      75,
+      49
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      75,
+      49
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "9ac0b051-7d95-4868-aad7-b502949a17dd",
+    "textureUUID": "1ef380a57",
+    "image": "hall-panel-study/assets/common-482-chilun.png"
+  },
+  {
+    "bundle": "common",
+    "id": 816,
+    "path": "NewSkin/NewBtn/btn_com04",
+    "name": "btn_com04",
+    "rect": [
+      179,
+      736,
+      38,
+      37
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      38,
+      37
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "feec4ed5-df49-4757-ad98-21baf745e1a0",
+    "textureUUID": "1e8019203",
+    "image": "hall-panel-study/assets/common-816-btn_com04.png"
+  },
+  {
+    "bundle": "prefabs",
+    "id": 1874,
+    "name": "default_progressbar",
+    "rect": [
+      0,
+      0,
+      30,
+      15
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      30,
+      15
+    ],
+    "capInsets": [
+      10,
+      4,
+      10,
+      4
+    ],
+    "uuid": "67e68bc9-dad5-4ad9-a2d8-7e03d458e32f",
+    "textureUUID": "cfef78f1-c8df-49b7-8ed0-4c953ace2621",
+    "image": "hall-panel-study/assets/prefabs-1874-default_progressbar.png"
+  },
+  {
+    "bundle": "main",
+    "id": 361,
+    "name": "default_radio_button_off",
+    "rect": [
+      3,
+      3,
+      26,
+      26
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      32,
+      32
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "e7aba14b-f956-4480-b254-8d57832e273f",
+    "textureUUID": "567dcd80-8bf4-4535-8a5a-313f1caf078a",
+    "image": "hall-panel-study/assets/main-361-default_radio_button_off.png"
+  },
+  {
+    "bundle": "common",
+    "id": 93,
+    "path": "module/Set/checkOff",
+    "name": "checkOff",
+    "rect": [
+      2,
+      2,
+      158,
+      62
+    ],
+    "offset": [
+      0,
+      -1
+    ],
+    "originalSize": [
+      162,
+      64
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "1fc7300b-968f-4dd9-81d6-763d1a53048c",
+    "textureUUID": "1ef380a57",
+    "image": "hall-panel-study/assets/common-93-checkOff.png"
+  },
+  {
+    "bundle": "common",
+    "id": 181,
+    "path": "NewSkin/NewBtn/btn_com10",
+    "name": "btn_com10",
+    "rect": [
+      3,
+      789,
+      231,
+      83
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      231,
+      83
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "38a9649a-1513-4b92-8a8c-b89fe30f9084",
+    "textureUUID": "1e8019203",
+    "image": "hall-panel-study/assets/common-181-btn_com10.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1648,
+    "path": "NewSkin/mail/di",
+    "name": "di",
+    "rect": [
+      3,
+      598,
+      90,
+      90
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      90,
+      90
+    ],
+    "capInsets": [
+      47,
+      32,
+      37,
+      16
+    ],
+    "uuid": "ad4be7f2-4803-420a-980b-cdb8f864fa98",
+    "textureUUID": "169f50f5d",
+    "image": "hall-panel-study/assets/lobby-1648-di.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 976,
+    "path": "NewSkin/mail/youjianbian",
+    "name": "youjianbian",
+    "rect": [
+      3,
+      3,
+      950,
+      582
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      950,
+      582
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "64839e71-a323-4a20-8aa2-2109c04dda37",
+    "textureUUID": "169f50f5d",
+    "image": "hall-panel-study/assets/lobby-976-youjianbian.png"
+  },
+  {
+    "bundle": "common",
+    "id": 63,
+    "path": "NewSkin/Sudoku/datanchuangshanglan",
+    "name": "datanchuangshanglan",
+    "rect": [
+      3,
+      42,
+      950,
+      70
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      950,
+      70
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "171511ad-4dac-425e-97a2-84099b79b2cf",
+    "textureUUID": "157399797",
+    "image": "hall-panel-study/assets/common-63-datanchuangshanglan.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 775,
+    "path": "NewSkin/mail/tishirenwu",
+    "name": "tishirenwu",
+    "rect": [
+      563,
+      591,
+      382,
+      275
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      382,
+      275
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "4f5f43fd-1078-4d13-8d79-3b8053909f84",
+    "textureUUID": "169f50f5d",
+    "image": "hall-panel-study/assets/lobby-775-tishirenwu.png"
+  },
+  {
+    "bundle": "common",
+    "id": 102,
+    "path": "NewSkin/NewBtn/btn_tips13",
+    "name": "btn_tips13",
+    "rect": [
+      296,
+      346,
+      198,
+      45
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      198,
+      45
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "22ec70dd-de90-47e1-b6f9-4da3a7251d45",
+    "textureUUID": "1e8019203",
+    "image": "hall-panel-study/assets/common-102-btn_tips13.png"
+  },
+  {
+    "bundle": "common",
+    "id": 432,
+    "path": "NewSkin/NewBtn/btn_tips12",
+    "name": "btn_tips12",
+    "rect": [
+      296,
+      141,
+      199,
+      45
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      199,
+      45
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "89f18937-1b1d-4f49-970a-8e0a1554dd69",
+    "textureUUID": "1e8019203",
+    "image": "hall-panel-study/assets/common-432-btn_tips12.png"
+  },
+  {
+    "bundle": "common",
+    "id": 75,
+    "path": "NewSkin/other/pic_com17",
+    "name": "pic_com17",
+    "rect": [
+      994,
+      366,
+      24,
+      25
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      24,
+      25
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "1a90e871-5072-4dfa-8eb9-983e2d60ef00",
+    "textureUUID": "1d05abae0",
+    "image": "hall-panel-study/assets/common-75-pic_com17.png"
+  },
+  {
+    "bundle": "common",
+    "id": 188,
+    "path": "NewSkin/NewBtn/btn_com08",
+    "name": "btn_com08",
+    "rect": [
+      347,
+      340,
+      233,
+      85
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      233,
+      85
+    ],
+    "rotated": 1,
+    "capInsets": [
+      121,
+      35,
+      85,
+      38
+    ],
+    "uuid": "3ab8d819-5339-42f9-9844-c831cd8ce81e",
+    "textureUUID": "1e8019203",
+    "image": "hall-panel-study/assets/common-188-btn_com08.png"
+  },
+  {
+    "bundle": "common",
+    "id": 357,
+    "path": "NewSkin/NewBtn/btn_com07",
+    "name": "btn_com07",
+    "rect": [
+      254,
+      550,
+      233,
+      85
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      233,
+      85
+    ],
+    "rotated": 1,
+    "capInsets": [
+      130,
+      29,
+      100,
+      44
+    ],
+    "uuid": "73646625-c45e-4e40-ab59-d5cc564ef4e0",
+    "textureUUID": "1e8019203",
+    "image": "hall-panel-study/assets/common-357-btn_com07.png"
+  },
+  {
+    "bundle": "common",
+    "id": 812,
+    "path": "NewSkin/Bg/bg_01",
+    "name": "bg_01",
+    "rect": [
+      0,
+      0,
+      1600,
+      720
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1600,
+      720
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "fde074c1-0ed6-4d32-b50e-0b35df7ad242",
+    "textureUUID": "c45ec09c-564e-4663-af20-2cfce3d790d9",
+    "image": "hall-panel-study/assets/common-812-bg_01.png"
+  },
+  {
+    "bundle": "common",
+    "id": 759,
+    "path": "NewSkin/Bg/bg_02",
+    "name": "bg_02",
+    "rect": [
+      0,
+      0,
+      1600,
+      720
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1600,
+      720
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "ec4858ee-5ff5-4e90-9878-91d926459f98",
+    "textureUUID": "1b5d34f2-7d88-4b18-a9f1-f85562e57e09",
+    "image": "hall-panel-study/assets/common-759-bg_02.png"
+  },
+  {
+    "bundle": "main",
+    "id": 1,
+    "name": "img_login_bg",
+    "rect": [
+      0,
+      0,
+      1558,
+      720
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1558,
+      720
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "27278137-466c-471b-bcee-1c0af29fa3f0",
+    "textureUUID": "3146c5b0-83f8-4bd4-a300-e00c6de32a41",
+    "image": "hall-panel-study/assets/main-1-img_login_bg.png"
+  },
+  {
+    "bundle": "common",
+    "id": 349,
+    "path": "NewSkin/other/pic_com04",
+    "name": "pic_com04",
+    "rect": [
+      3,
+      591,
+      194,
+      720
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      194,
+      720
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "71718e9c-92c7-400d-bee9-9ec4911d3b35",
+    "textureUUID": "1d05abae0",
+    "image": "hall-panel-study/assets/common-349-pic_com04.png"
+  },
+  {
+    "bundle": "common",
+    "id": 483,
+    "path": "NewSkin/other/pic_com05",
+    "name": "pic_com05",
+    "rect": [
+      706,
+      791,
+      175,
+      1
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      175,
+      1
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "9b12d700-8a3e-4691-89a2-5b62a34291b4",
+    "textureUUID": "1d05abae0",
+    "image": "hall-panel-study/assets/common-483-pic_com05.png"
+  },
+  {
+    "bundle": "common",
+    "id": 348,
+    "path": "NewSkin/other/pic_com06",
+    "name": "pic_com06",
+    "rect": [
+      713,
+      866,
+      205,
+      87
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      205,
+      87
+    ],
+    "capInsets": [
+      81,
+      17,
+      40,
+      37
+    ],
+    "uuid": "713c42a3-952a-4ab3-b798-f8bff86accbd",
+    "textureUUID": "1d05abae0",
+    "image": "hall-panel-study/assets/common-348-pic_com06.png"
+  },
+  {
+    "bundle": "common",
+    "id": 817,
+    "path": "NewSkin/Sudoku/pic_com03",
+    "name": "pic_com03",
+    "rect": [
+      79,
+      131,
+      75,
+      62
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      83,
+      70
+    ],
+    "capInsets": [
+      29,
+      0,
+      29,
+      0
+    ],
+    "uuid": "fefa49e7-643b-427f-abfc-d1e346deafb3",
+    "textureUUID": "157399797",
+    "image": "hall-panel-study/assets/common-817-pic_com03.png"
+  },
+  {
+    "bundle": "common",
+    "id": 520,
+    "path": "NewSkin/Sudoku/fengexian",
+    "name": "fengexian",
+    "rect": [
+      456,
+      26,
+      175,
+      1
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      175,
+      1
+    ],
+    "rotated": 1,
+    "capInsets": [
+      8,
+      0,
+      9,
+      0
+    ],
+    "uuid": "a524976f-184d-4ac6-8bda-e87e3ce70472",
+    "textureUUID": "157399797",
+    "image": "hall-panel-study/assets/common-520-fengexian.png"
+  },
+  {
+    "bundle": "common",
+    "id": 480,
+    "path": "NewSkin/NewBtn/btn_com01",
+    "name": "btn_com01",
+    "rect": [
+      347,
+      242,
+      91,
+      92
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      91,
+      92
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "9a8bba23-d9bd-4ff6-8524-b5aacc0a840f",
+    "textureUUID": "1e8019203",
+    "image": "hall-panel-study/assets/common-480-btn_com01.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1723,
+    "path": "NewSkin/bag/common/yunlanBg",
+    "name": "yunlanBg",
+    "rect": [
+      3,
+      425,
+      319,
+      471
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      319,
+      471
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "b45202cf-ed5b-4afc-a935-89b0d26238d8",
+    "textureUUID": "1e21cfa6e",
+    "image": "hall-panel-study/assets/lobby-1723-yunlanBg.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 903,
+    "path": "NewSkin/MainEntry/item/touxiangdaxiao",
+    "name": "touxiangdaxiao",
+    "rect": [
+      139,
+      855,
+      70,
+      71
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      70,
+      71
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "5c66888f-1ce8-4292-a5b6-f12a7189f53d",
+    "textureUUID": "1ea4c80b4",
+    "image": "hall-panel-study/assets/lobby-903-touxiangdaxiao.png"
+  },
+  {
+    "bundle": "common",
+    "id": 776,
+    "path": "head/Head/head_1",
+    "name": "head_1",
+    "rect": [
+      99,
+      553,
+      90,
+      90
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      90,
+      90
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "f1d41e3b-4301-4b2c-b90a-e446faaf4abf",
+    "textureUUID": "1d189e348",
+    "image": "hall-panel-study/assets/common-776-head_1.png"
+  },
+  {
+    "bundle": "common",
+    "id": 25,
+    "path": "PropIcon/jipaiqi",
+    "name": "jipaiqi",
+    "rect": [
+      208,
+      821,
+      65,
+      64
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      67,
+      66
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "0a077606-f249-4e98-a114-406f4f824f78",
+    "textureUUID": "1c75bf90b",
+    "image": "hall-panel-study/assets/common-25-jipaiqi.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 138,
+    "path": "NewSkin/bag/emoji/pic_07",
+    "name": "pic_07",
+    "rect": [
+      3,
+      3,
+      690,
+      554
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      690,
+      554
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "0e0c0ed3-8087-4d81-971d-13a81f83d9db",
+    "textureUUID": "126526ec2",
+    "image": "hall-panel-study/assets/lobby-138-pic_07.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 547,
+    "path": "NewSkin/bag/emoji/pic_09",
+    "name": "pic_09",
+    "rect": [
+      699,
+      3,
+      172,
+      44
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      172,
+      44
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "3581fc4b-5e99-487c-b565-038eda59fb62",
+    "textureUUID": "126526ec2",
+    "image": "hall-panel-study/assets/lobby-547-pic_09.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 2158,
+    "path": "NewSkin/bag/emoji/pic_10",
+    "name": "pic_10",
+    "rect": [
+      788,
+      132,
+      28,
+      21
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      28,
+      21
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "e3517457-121a-41e6-9616-15311f0f812f",
+    "textureUUID": "126526ec2",
+    "image": "hall-panel-study/assets/lobby-2158-pic_10.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1613,
+    "path": "NewSkin/bag/emoji/pic_03",
+    "name": "pic_03",
+    "rect": [
+      699,
+      326,
+      123,
+      128
+    ],
+    "offset": [
+      0,
+      -4.5
+    ],
+    "originalSize": [
+      139,
+      137
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "aadadcc4-f4dd-45ce-9912-a8d34216982e",
+    "textureUUID": "126526ec2",
+    "image": "hall-panel-study/assets/lobby-1613-pic_03.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1014,
+    "path": "NewSkin/bag/emoji/pic_06",
+    "name": "pic_06",
+    "rect": [
+      699,
+      181,
+      139,
+      134
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      139,
+      137
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "67bca69c-171a-4467-8862-774bfd20af82",
+    "textureUUID": "126526ec2",
+    "image": "hall-panel-study/assets/lobby-1014-pic_06.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 444,
+    "path": "PublicNotice/bg",
+    "name": "bg",
+    "rect": [
+      0,
+      0,
+      1164,
+      668
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1164,
+      668
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "2b085295-589f-45b6-b212-0ab16754bc6a",
+    "textureUUID": "529ef88d-bb0b-4c20-a50e-8657b31f1ac9",
+    "image": "hall-panel-study/assets/lobby-444-bg.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 2221,
+    "path": "PublicNotice/close",
+    "name": "close",
+    "rect": [
+      444,
+      3,
+      63,
+      52
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      63,
+      52
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "e8a5442f-d9bb-493d-ac03-99e7c553c1e1",
+    "textureUUID": "11ee4b195",
+    "image": "hall-panel-study/assets/lobby-2221-close.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 420,
+    "path": "PublicNotice/split1",
+    "name": "split1",
+    "rect": [
+      193,
+      3,
+      66,
+      2
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      66,
+      2
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "295291de-2d2a-4900-bcd9-e0a5c71060f8",
+    "textureUUID": "11ee4b195",
+    "image": "hall-panel-study/assets/lobby-420-split1.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 2180,
+    "path": "PublicNotice/Activity",
+    "name": "Activity",
+    "rect": [
+      371,
+      3,
+      41,
+      67
+    ],
+    "offset": [
+      0,
+      -5
+    ],
+    "originalSize": [
+      65,
+      95
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "e4d5e5c1-e8e2-4ac5-9d9d-df59bb452fb8",
+    "textureUUID": "11ee4b195",
+    "image": "hall-panel-study/assets/lobby-2180-Activity.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 2108,
+    "path": "PublicNotice/ActivityLightBg",
+    "name": "ActivityLightBg",
+    "rect": [
+      715,
+      3,
+      66,
+      197
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      66,
+      197
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "de6eff6a-b203-4ebf-8f4d-c5f9ec03e303",
+    "textureUUID": "11ee4b195",
+    "image": "hall-panel-study/assets/lobby-2108-ActivityLightBg.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1012,
+    "path": "PublicNotice/ActivityLight ",
+    "name": "ActivityLight ",
+    "rect": [
+      513,
+      3,
+      65,
+      95
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      65,
+      95
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "67842a12-2144-4a77-9876-48ee69d7b205",
+    "textureUUID": "11ee4b195",
+    "image": "hall-panel-study/assets/lobby-1012-ActivityLight .png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 310,
+    "path": "PublicNotice/redPoint",
+    "name": "redPoint",
+    "rect": [
+      265,
+      3,
+      26,
+      27
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      26,
+      27
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "1f07f77b-ae71-4cc1-a797-43905995b0b2",
+    "textureUUID": "11ee4b195",
+    "image": "hall-panel-study/assets/lobby-310-redPoint.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 707,
+    "path": "PublicNotice/PublicNotice",
+    "name": "PublicNotice",
+    "rect": [
+      298,
+      3,
+      41,
+      67
+    ],
+    "offset": [
+      0,
+      -5
+    ],
+    "originalSize": [
+      65,
+      95
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "47882aeb-49a0-44bb-8501-118ccbb29970",
+    "textureUUID": "11ee4b195",
+    "image": "hall-panel-study/assets/lobby-707-PublicNotice.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1374,
+    "path": "PublicNotice/PublicNoticeLightBg",
+    "name": "PublicNoticeLightBg",
+    "rect": [
+      3,
+      11,
+      67,
+      218
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      67,
+      218
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "9045e175-d2c2-4b1f-a176-94943b8a7029",
+    "textureUUID": "11ee4b195",
+    "image": "hall-panel-study/assets/lobby-1374-PublicNoticeLightBg.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1865,
+    "path": "PublicNotice/PublicNoticeLight",
+    "name": "PublicNoticeLight",
+    "rect": [
+      614,
+      3,
+      65,
+      95
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      65,
+      95
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "c39f2d2f-3c09-42ec-8efd-7a1d39687c04",
+    "textureUUID": "11ee4b195",
+    "image": "hall-panel-study/assets/lobby-1865-PublicNoticeLight.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 203,
+    "path": "PublicNotice/di",
+    "name": "di",
+    "rect": [
+      3,
+      140,
+      882,
+      546
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      882,
+      546
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "14214cf3-81ff-4ff5-8873-329a69784ed2",
+    "textureUUID": "11ee4b195",
+    "image": "hall-panel-study/assets/lobby-203-di.png"
+  },
+  {
+    "bundle": "common",
+    "id": 569,
+    "path": "head/Head/head_0",
+    "name": "head_0",
+    "rect": [
+      3,
+      552,
+      90,
+      90
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      90,
+      90
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "b3951280-29c6-4fd4-82f7-464142cb3879",
+    "textureUUID": "1d189e348",
+    "image": "hall-panel-study/assets/common-569-head_0.png"
+  },
+  {
+    "bundle": "common",
+    "id": 280,
+    "path": "head/headFrame/1_58",
+    "name": "1_58",
+    "rect": [
+      225,
+      3,
+      234,
+      207
+    ],
+    "offset": [
+      -11,
+      -2.5
+    ],
+    "originalSize": [
+      262,
+      262
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "56fda6d4-1314-4d8f-b1a3-30347ae0123d",
+    "textureUUID": "19b9d706f",
+    "image": "hall-panel-study/assets/common-280-1_58.png"
+  },
+  {
+    "bundle": "common",
+    "id": 519,
+    "path": "head/headFrame/SectionHeadFrame_mk",
+    "name": "SectionHeadFrame_mk",
+    "rect": [
+      435,
+      243,
+      199,
+      204
+    ],
+    "offset": [
+      -0.5,
+      1
+    ],
+    "originalSize": [
+      262,
+      262
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "a4781d6c-720f-4e2b-9483-89a1918009ea",
+    "textureUUID": "19b9d706f",
+    "image": "hall-panel-study/assets/common-519-SectionHeadFrame_mk.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1474,
+    "path": "MJMasterPath/pic_25",
+    "name": "pic_25",
+    "rect": [
+      522,
+      829,
+      49,
+      25
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      49,
+      25
+    ],
+    "rotated": 1,
+    "capInsets": [
+      27,
+      8,
+      17,
+      14
+    ],
+    "uuid": "9a8a0b91-c60c-40cd-973b-7c158aed2748",
+    "textureUUID": "132b07a7b",
+    "image": "hall-panel-study/assets/lobby-1474-pic_25.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1247,
+    "path": "MJMasterPath/pic_26",
+    "name": "pic_26",
+    "rect": [
+      903,
+      761,
+      49,
+      25
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      49,
+      25
+    ],
+    "capInsets": [
+      26,
+      10,
+      21,
+      13
+    ],
+    "uuid": "811e1177-c549-4cb7-8d54-3fe4282da1fe",
+    "textureUUID": "132b07a7b",
+    "image": "hall-panel-study/assets/lobby-1247-pic_26.png"
+  },
+  {
+    "bundle": "common",
+    "id": 745,
+    "path": "NineBox/selected",
+    "name": "selected",
+    "rect": [
+      394,
+      858,
+      30,
+      30
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      30,
+      30
+    ],
+    "capInsets": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "uuid": "e7bcd1e9-6177-40c1-a65a-9465e16d17e8",
+    "textureUUID": "1bb2a4600",
+    "image": "hall-panel-study/assets/common-745-selected.png"
+  },
+  {
+    "bundle": "common",
+    "id": 392,
+    "path": "CoinNum&FareNum/coin",
+    "name": "coin",
+    "rect": [
+      3,
+      97,
+      83,
+      89
+    ],
+    "offset": [
+      -1.5,
+      -2
+    ],
+    "originalSize": [
+      86,
+      97
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "7ed0acfb-5252-470f-be21-065cb3995815",
+    "textureUUID": "128f721b8",
+    "image": "hall-panel-study/assets/common-392-coin.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1292,
+    "path": "NewSkin/UserInfo/di",
+    "name": "di",
+    "rect": [
+      0,
+      0,
+      36,
+      36
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      36,
+      36
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "8641f3d4-c25c-40ee-9683-006d30728a8b",
+    "textureUUID": "33c29f29-906f-4de8-9687-e39473eab677",
+    "image": "hall-panel-study/assets/lobby-1292-di.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 2378,
+    "path": "NewSkin/UserInfo/yaundian",
+    "name": "yaundian",
+    "rect": [
+      7,
+      8,
+      21,
+      20
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      36,
+      36
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "fa303cbb-c529-4230-92be-95cd6662d477",
+    "textureUUID": "3b5ebab0-e154-439e-a9a0-149ae0f04082",
+    "image": "hall-panel-study/assets/lobby-2378-yaundian.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1449,
+    "path": "NewSkin/UserInfo/man",
+    "name": "man",
+    "rect": [
+      1,
+      3,
+      30,
+      31
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      31,
+      37
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "98833ed7-7eba-4b36-8282-d7013f34edb4",
+    "textureUUID": "e8655d95-eaa9-4f72-b5df-f282e302ba77",
+    "image": "hall-panel-study/assets/lobby-1449-man.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 274,
+    "path": "NewSkin/UserInfo/wuman",
+    "name": "wuman",
+    "rect": [
+      3,
+      0,
+      25,
+      37
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      31,
+      37
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "1af95994-20b5-4beb-bba0-05ea247c6dd1",
+    "textureUUID": "ce564c5a-fe79-42c7-893d-46cd101d8743",
+    "image": "hall-panel-study/assets/lobby-274-wuman.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1681,
+    "path": "NewSkin/UserInfo/di2",
+    "name": "di2",
+    "rect": [
+      0,
+      0,
+      629,
+      89
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      629,
+      89
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "b06e336b-bbc7-4e67-b6d0-0c5ae96ee02d",
+    "textureUUID": "06e34011-62f1-4036-a997-e8f2677deae1",
+    "image": "hall-panel-study/assets/lobby-1681-di2.png"
+  },
+  {
+    "bundle": "common",
+    "id": 83,
+    "path": "module/MaCardShop/normal/title_icon1",
+    "name": "title_icon1",
+    "rect": [
+      316,
+      314,
+      247,
+      29
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      247,
+      29
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "1d35fb09-8d06-474d-8bc6-c66ead7b4e8b",
+    "textureUUID": "13da733ae",
+    "image": "hall-panel-study/assets/common-83-title_icon1.png"
+  },
+  {
+    "bundle": "common",
+    "id": 7,
+    "path": "module/MaCardShop/normal/title_icon2",
+    "name": "title_icon2",
+    "rect": [
+      388,
+      576,
+      247,
+      29
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      247,
+      29
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "0447dea5-1154-4e30-b994-504b173a8246",
+    "textureUUID": "13da733ae",
+    "image": "hall-panel-study/assets/common-7-title_icon2.png"
+  },
+  {
+    "bundle": "common",
+    "id": 590,
+    "path": "module/MaCardShop/normal/title_icon3",
+    "name": "title_icon3",
+    "rect": [
+      351,
+      314,
+      247,
+      29
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      247,
+      29
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "baf3f6e5-4f4d-496d-965e-2b7dae900322",
+    "textureUUID": "13da733ae",
+    "image": "hall-panel-study/assets/common-590-title_icon3.png"
+  },
+  {
+    "bundle": "common",
+    "id": 709,
+    "path": "module/MaCardShop/normal/title_icon4",
+    "name": "title_icon4",
+    "rect": [
+      316,
+      567,
+      247,
+      29
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      247,
+      29
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "dfc17557-5d49-4082-b5e9-49a7aed86645",
+    "textureUUID": "13da733ae",
+    "image": "hall-panel-study/assets/common-709-title_icon4.png"
+  },
+  {
+    "bundle": "common",
+    "id": 17,
+    "path": "module/MaCardShop/welfare/welfare_icon1",
+    "name": "welfare_icon1",
+    "rect": [
+      99,
+      475,
+      79,
+      99
+    ],
+    "offset": [
+      -2.5,
+      1.5
+    ],
+    "originalSize": [
+      118,
+      114
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "077f548d-f292-434f-95de-64d895b75a84",
+    "textureUUID": "188a4b192",
+    "image": "hall-panel-study/assets/common-17-welfare_icon1.png"
+  },
+  {
+    "bundle": "common",
+    "id": 229,
+    "path": "module/MaCardShop/welfare/welfare_icon2",
+    "name": "welfare_icon2",
+    "rect": [
+      3,
+      109,
+      109,
+      90
+    ],
+    "offset": [
+      4.5,
+      -1
+    ],
+    "originalSize": [
+      118,
+      114
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "4a8c5288-1545-453f-adf7-d3b110a97778",
+    "textureUUID": "188a4b192",
+    "image": "hall-panel-study/assets/common-229-welfare_icon2.png"
+  },
+  {
+    "bundle": "common",
+    "id": 24,
+    "path": "module/MaCardShop/welfare/welfare_icon3",
+    "name": "welfare_icon3",
+    "rect": [
+      108,
+      297,
+      108,
+      78
+    ],
+    "offset": [
+      -2,
+      -2
+    ],
+    "originalSize": [
+      118,
+      114
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "09d3c128-e774-4db6-bfdf-2480e76cec4c",
+    "textureUUID": "188a4b192",
+    "image": "hall-panel-study/assets/common-24-welfare_icon3.png"
+  },
+  {
+    "bundle": "common",
+    "id": 451,
+    "path": "module/MaCardShop/welfare/welfare_icon4",
+    "name": "welfare_icon4",
+    "rect": [
+      94,
+      560,
+      73,
+      74
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      73,
+      74
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "8ec894c3-3dd4-4606-8d32-37efb3b3a2e3",
+    "textureUUID": "188a4b192",
+    "image": "hall-panel-study/assets/common-451-welfare_icon4.png"
+  },
+  {
+    "bundle": "common",
+    "id": 110,
+    "path": "module/MaCardShop/welfare/welfare_icon5",
+    "name": "welfare_icon5",
+    "rect": [
+      118,
+      203,
+      101,
+      88
+    ],
+    "offset": [
+      0.5,
+      5
+    ],
+    "originalSize": [
+      118,
+      114
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "266395d8-c759-4871-b380-459a6c626acd",
+    "textureUUID": "188a4b192",
+    "image": "hall-panel-study/assets/common-110-welfare_icon5.png"
+  },
+  {
+    "bundle": "common",
+    "id": 427,
+    "path": "module/MaCardShop/welfare/welfare_icon6",
+    "name": "welfare_icon6",
+    "rect": [
+      118,
+      113,
+      107,
+      84
+    ],
+    "offset": [
+      0.5,
+      -4
+    ],
+    "originalSize": [
+      118,
+      114
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "88356f31-104b-47ce-bba0-85d887a30e5a",
+    "textureUUID": "188a4b192",
+    "image": "hall-panel-study/assets/common-427-welfare_icon6.png"
+  },
+  {
+    "bundle": "common",
+    "id": 633,
+    "path": "module/MaCardShop/welfare/welfare_icon7",
+    "name": "welfare_icon7",
+    "rect": [
+      3,
+      205,
+      88,
+      99
+    ],
+    "offset": [
+      1,
+      2.5
+    ],
+    "originalSize": [
+      118,
+      114
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "c6a6047b-8129-45b4-b236-e066fcf7f664",
+    "textureUUID": "188a4b192",
+    "image": "hall-panel-study/assets/common-633-welfare_icon7.png"
+  },
+  {
+    "bundle": "common",
+    "id": 395,
+    "path": "module/MaCardShop/welfare/welfare_icon8",
+    "name": "welfare_icon8",
+    "rect": [
+      3,
+      392,
+      87,
+      90
+    ],
+    "offset": [
+      -4.5,
+      -2
+    ],
+    "originalSize": [
+      118,
+      114
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "7f375b71-1767-4e72-8eaa-7413a6b38d87",
+    "textureUUID": "188a4b192",
+    "image": "hall-panel-study/assets/common-395-welfare_icon8.png"
+  },
+  {
+    "bundle": "common",
+    "id": 156,
+    "path": "module/MaCardShop/welfare/welfare_icon9",
+    "name": "welfare_icon9",
+    "rect": [
+      101,
+      381,
+      90,
+      88
+    ],
+    "offset": [
+      -1,
+      -1
+    ],
+    "originalSize": [
+      118,
+      114
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "3210d6d8-84a1-4761-a403-133b6e04ef4f",
+    "textureUUID": "188a4b192",
+    "image": "hall-panel-study/assets/common-156-welfare_icon9.png"
+  },
+  {
+    "bundle": "common",
+    "id": 318,
+    "path": "module/MaCardShop/welfare/welfare_icon10",
+    "name": "welfare_icon10",
+    "rect": [
+      3,
+      299,
+      92,
+      87
+    ],
+    "offset": [
+      -7,
+      2.5
+    ],
+    "originalSize": [
+      118,
+      114
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "685ab0dd-693c-445f-9bca-d33ee6b42abf",
+    "textureUUID": "188a4b192",
+    "image": "hall-panel-study/assets/common-318-welfare_icon10.png"
+  },
+  {
+    "bundle": "common",
+    "id": 505,
+    "path": "module/MaCardShop/welfare/welfare_icon11",
+    "name": "welfare_icon11",
+    "rect": [
+      3,
+      485,
+      85,
+      82
+    ],
+    "offset": [
+      -0.5,
+      -2
+    ],
+    "originalSize": [
+      118,
+      114
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "9f3c74e8-8be3-4027-8f57-8e4dd6c366ea",
+    "textureUUID": "188a4b192",
+    "image": "hall-panel-study/assets/common-505-welfare_icon11.png"
+  },
+  {
+    "bundle": "common",
+    "id": 166,
+    "path": "module/MaCardShop/welfare/welfare_icon12",
+    "name": "welfare_icon12",
+    "rect": [
+      118,
+      3,
+      104,
+      104
+    ],
+    "offset": [
+      1,
+      0
+    ],
+    "originalSize": [
+      118,
+      114
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "34682b6b-236f-4b7c-b7ca-59dd7cccc131",
+    "textureUUID": "188a4b192",
+    "image": "hall-panel-study/assets/common-166-welfare_icon12.png"
+  },
+  {
+    "bundle": "common",
+    "id": 635,
+    "path": "module/MaCardShop/welfare/welfare_icon13",
+    "name": "welfare_icon13",
+    "rect": [
+      3,
+      3,
+      100,
+      109
+    ],
+    "offset": [
+      4,
+      2.5
+    ],
+    "originalSize": [
+      118,
+      114
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "c70f4d47-eb33-4f1f-84c7-a121f8631e1d",
+    "textureUUID": "188a4b192",
+    "image": "hall-panel-study/assets/common-635-welfare_icon13.png"
+  },
+  {
+    "bundle": "common",
+    "id": 695,
+    "path": "module/MaCardShop/goodsList/dayNum_icon1",
+    "name": "dayNum_icon1",
+    "rect": [
+      271,
+      404,
+      97,
+      77
+    ],
+    "offset": [
+      0.5,
+      3
+    ],
+    "originalSize": [
+      128,
+      85
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "da8e18c2-4733-45d0-aeb5-b81e4a5ac7ca",
+    "textureUUID": "1207a6e82",
+    "image": "hall-panel-study/assets/common-695-dayNum_icon1.png"
+  },
+  {
+    "bundle": "common",
+    "id": 232,
+    "path": "module/MaCardShop/goodsList/dayNum_icon2",
+    "name": "dayNum_icon2",
+    "rect": [
+      3,
+      404,
+      128,
+      84
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      128,
+      85
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "4b534ffa-68eb-498c-824b-a4bd16cf8a0e",
+    "textureUUID": "1207a6e82",
+    "image": "hall-panel-study/assets/common-232-dayNum_icon2.png"
+  },
+  {
+    "bundle": "common",
+    "id": 797,
+    "path": "module/MaCardShop/goodsList/dayNum_icon3",
+    "name": "dayNum_icon3",
+    "rect": [
+      137,
+      404,
+      128,
+      80
+    ],
+    "offset": [
+      0,
+      2.5
+    ],
+    "originalSize": [
+      128,
+      85
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "f994c5d6-c2ff-4086-b1ad-f643ebcf77ae",
+    "textureUUID": "1207a6e82",
+    "image": "hall-panel-study/assets/common-797-dayNum_icon3.png"
+  },
+  {
+    "bundle": "common",
+    "id": 628,
+    "path": "module/MaCardShop/bg/common_bg1",
+    "name": "common_bg1",
+    "rect": [
+      21,
+      0,
+      1497,
+      720
+    ],
+    "offset": [
+      -3,
+      0
+    ],
+    "originalSize": [
+      1545,
+      720
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "c50fe253-3729-4fe6-91cc-e9f945ae90f4",
+    "textureUUID": "bee2fcd8-f464-4b9e-8d05-49f3ce639c91",
+    "image": "hall-panel-study/assets/common-628-common_bg1.png"
+  },
+  {
+    "bundle": "common",
+    "id": 234,
+    "path": "module/MaCardShop/bg/common_bg2",
+    "name": "common_bg2",
+    "rect": [
+      0,
+      0,
+      952,
+      448
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      952,
+      448
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "4cd3e198-a287-434d-9879-5794d7a67621",
+    "textureUUID": "b92e2be6-06af-4548-8bf1-1a8954f19683",
+    "image": "hall-panel-study/assets/common-234-common_bg2.png"
+  },
+  {
+    "bundle": "common",
+    "id": 740,
+    "path": "module/MaCardShop/normal/time_bg_icon",
+    "name": "time_bg_icon",
+    "rect": [
+      3,
+      917,
+      379,
+      38
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      379,
+      38
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "e7242821-f5b1-49a4-a80a-210a4dd419c5",
+    "textureUUID": "13da733ae",
+    "image": "hall-panel-study/assets/common-740-time_bg_icon.png"
+  },
+  {
+    "bundle": "common",
+    "id": 496,
+    "path": "module/MaCardShop/normal/time_tip_icon",
+    "name": "time_tip_icon",
+    "rect": [
+      371,
+      961,
+      29,
+      29
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      29,
+      29
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "9d37c78c-5eb6-4af5-98da-ae5e8ce7f02c",
+    "textureUUID": "13da733ae",
+    "image": "hall-panel-study/assets/common-496-time_tip_icon.png"
+  },
+  {
+    "bundle": "common",
+    "id": 137,
+    "path": "module/MaCardShop/normal/get_btn_icon",
+    "name": "get_btn_icon",
+    "rect": [
+      243,
+      314,
+      193,
+      67
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      193,
+      67
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "2cfb2180-0b0a-4948-8641-00b8d92176dd",
+    "textureUUID": "13da733ae",
+    "image": "hall-panel-study/assets/common-137-get_btn_icon.png"
+  },
+  {
+    "bundle": "common",
+    "id": 762,
+    "path": "module/MaCardShop/normal/downTime_bg",
+    "name": "downTime_bg",
+    "rect": [
+      388,
+      3,
+      567,
+      40
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      567,
+      40
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "ed161856-05a1-49f7-9aa8-edfc9815bbeb",
+    "textureUUID": "13da733ae",
+    "image": "hall-panel-study/assets/common-762-downTime_bg.png"
+  },
+  {
+    "bundle": "common",
+    "id": 172,
+    "path": "module/MaCardShop/normal/get_btn_icon2",
+    "name": "get_btn_icon2",
+    "rect": [
+      243,
+      513,
+      193,
+      67
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      193,
+      67
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "35b879f2-5aaf-44e5-8252-c6383079dace",
+    "textureUUID": "13da733ae",
+    "image": "hall-panel-study/assets/common-172-get_btn_icon2.png"
+  },
+  {
+    "bundle": "common",
+    "id": 701,
+    "path": "module/MaCardShop/normal/btn_01",
+    "name": "btn_01",
+    "rect": [
+      243,
+      3,
+      305,
+      107
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      305,
+      107
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "dd3f4b08-8044-48e5-872e-4fe5328c5c87",
+    "textureUUID": "13da733ae",
+    "image": "hall-panel-study/assets/common-701-btn_01.png"
+  },
+  {
+    "bundle": "common",
+    "id": 699,
+    "path": "module/MaCardShop/normal/pic_01",
+    "name": "pic_01",
+    "rect": [
+      3,
+      961,
+      305,
+      36
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      305,
+      36
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "dbd64421-f906-4964-afc0-edaeaae3ef45",
+    "textureUUID": "13da733ae",
+    "image": "hall-panel-study/assets/common-699-pic_01.png"
+  },
+  {
+    "bundle": "common",
+    "id": 31,
+    "path": "module/MaCardShop/normal/close_icon",
+    "name": "close_icon",
+    "rect": [
+      314,
+      961,
+      52,
+      51
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      52,
+      51
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "0cea8a49-5a05-428f-bd3f-c717ef307ae6",
+    "textureUUID": "13da733ae",
+    "image": "hall-panel-study/assets/common-31-close_icon.png"
+  },
+  {
+    "bundle": "common",
+    "id": 661,
+    "path": "NewSkin/Feedback/kuang1",
+    "name": "kuang1",
+    "rect": [
+      0,
+      0,
+      120,
+      38
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      120,
+      38
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "cef18deb-f7b3-4c8f-a0a1-b8afc05ed5d8",
+    "textureUUID": "462e67d1-1a70-4898-98c9-f885f48ef3af",
+    "image": "hall-panel-study/assets/common-661-kuang1.png"
+  },
+  {
+    "bundle": "common",
+    "id": 144,
+    "path": "NewSkin/Feedback/kuang2",
+    "name": "kuang2",
+    "rect": [
+      0,
+      0,
+      120,
+      38
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      120,
+      38
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "2e25ed22-8169-4975-8493-8b83e4fc22b8",
+    "textureUUID": "3889af91-39f9-4628-939d-65fc7ea50184",
+    "image": "hall-panel-study/assets/common-144-kuang2.png"
+  },
+  {
+    "bundle": "common",
+    "id": 373,
+    "path": "btn/fang2",
+    "name": "fang2",
+    "rect": [
+      221,
+      597,
+      51,
+      49
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      51,
+      49
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "7a1e203f-e5e1-4206-8e48-709a8bcd9ff8",
+    "textureUUID": "1d54d8d70",
+    "image": "hall-panel-study/assets/common-373-fang2.png"
+  },
+  {
+    "bundle": "common",
+    "id": 774,
+    "path": "btn/fang1",
+    "name": "fang1",
+    "rect": [
+      221,
+      654,
+      51,
+      49
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      51,
+      49
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "eff18505-aadb-458e-926a-e05878ff5b57",
+    "textureUUID": "1d54d8d70",
+    "image": "hall-panel-study/assets/common-774-fang1.png"
+  },
+  {
+    "bundle": "common",
+    "id": 397,
+    "path": "NewSkin/other/pic_com16",
+    "name": "pic_com16",
+    "rect": [
+      340,
+      964,
+      41,
+      38
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      41,
+      38
+    ],
+    "capInsets": [
+      11,
+      10,
+      10,
+      15
+    ],
+    "uuid": "7f763be1-e741-4807-b170-2dd969b411fc",
+    "textureUUID": "1d05abae0",
+    "image": "hall-panel-study/assets/common-397-pic_com16.png"
+  },
+  {
+    "bundle": "common",
+    "id": 676,
+    "path": "NewSkin/Sudoku/pic_com09",
+    "name": "pic_com09",
+    "rect": [
+      404,
+      130,
+      38,
+      37
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      38,
+      37
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "d32b3b02-9e93-4923-9789-aedb6faaf6fc",
+    "textureUUID": "157399797",
+    "image": "hall-panel-study/assets/common-676-pic_com09.png"
+  },
+  {
+    "bundle": "common",
+    "id": 103,
+    "path": "NewSkin/Feedback/weixin",
+    "name": "weixin",
+    "rect": [
+      0,
+      0,
+      34,
+      27
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      34,
+      27
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "23635349-6078-4c54-883b-2c84dc4d9c11",
+    "textureUUID": "51277611-3abb-4bf1-af28-de2fa9ce5e2c",
+    "image": "hall-panel-study/assets/common-103-weixin.png"
+  },
+  {
+    "bundle": "common",
+    "id": 191,
+    "path": "NewSkin/Feedback/btn_com24",
+    "name": "btn_com24",
+    "rect": [
+      5,
+      3,
+      207,
+      215
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      217,
+      222
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "3ccdc950-0748-4490-bf49-29d573b5b8d3",
+    "textureUUID": "f9f323ed-87b5-4b98-9900-605f14c09262",
+    "image": "hall-panel-study/assets/common-191-btn_com24.png"
+  },
+  {
+    "bundle": "common",
+    "id": 43,
+    "path": "NewSkin/Feedback/xingxing2",
+    "name": "xingxing2",
+    "rect": [
+      3,
+      1,
+      64,
+      61
+    ],
+    "offset": [
+      -1.5,
+      3
+    ],
+    "originalSize": [
+      73,
+      69
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "1091c897-9cf7-466b-9ac7-9b3b30b2a147",
+    "textureUUID": "320a3088-6fc1-4b70-9440-3f04e8a8c323",
+    "image": "hall-panel-study/assets/common-43-xingxing2.png"
+  },
+  {
+    "bundle": "common",
+    "id": 471,
+    "path": "NewSkin/Feedback/xingxing1",
+    "name": "xingxing1",
+    "rect": [
+      0,
+      0,
+      73,
+      69
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      73,
+      69
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "9805ab65-2e78-4a93-a504-54e3671da856",
+    "textureUUID": "6e40d0fc-f17c-4a37-bc9e-17dbcc62d5f6",
+    "image": "hall-panel-study/assets/common-471-xingxing1.png"
+  },
+  {
+    "bundle": "common",
+    "id": 685,
+    "path": "module/Feedback/img_gift",
+    "name": "img_gift",
+    "rect": [
+      3,
+      3,
+      34,
+      36
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      34,
+      36
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "d79f1c42-1f0c-4d45-8eb8-f41f4bf378b9",
+    "textureUUID": "18c9b2c73",
+    "image": "hall-panel-study/assets/common-685-img_gift.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 785,
+    "path": "NewSkin/MainEntry/bg/weizi1",
+    "name": "weizi1",
+    "rect": [
+      1,
+      1,
+      245,
+      311
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      247,
+      313
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "502c6e85-c670-4535-a040-3c45f6ac0a8e",
+    "textureUUID": "3a8aef9f-9ecf-4c94-9a38-b04caba55bb6",
+    "image": "hall-panel-study/assets/lobby-785-weizi1.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1901,
+    "path": "NewSkin/MainEntry/bg/02_sanguo",
+    "name": "02_sanguo",
+    "rect": [
+      1,
+      1,
+      245,
+      311
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      247,
+      313
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "c6ac7e4e-aef0-457a-8b38-015ebf4c4144@6c48a",
+    "textureUUID": "c6ac7e4e-aef0-457a-8b38-015ebf4c4144",
+    "image": "hall-panel-study/assets/lobby-1901-02_sanguo.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1752,
+    "path": "NewSkin/MainEntry/bg/weizi2",
+    "name": "weizi2",
+    "rect": [
+      1,
+      1,
+      245,
+      311
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      247,
+      313
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "b69161bd-7249-4059-a2d9-823abc185fbd",
+    "textureUUID": "140e6fe5-4bcb-4229-af2f-19e765969a42",
+    "image": "hall-panel-study/assets/lobby-1752-weizi2.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1939,
+    "path": "NewSkin/MainEntry/bg/dianfengsai",
+    "name": "dianfengsai",
+    "rect": [
+      0,
+      0,
+      247,
+      313
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      247,
+      313
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "cb471577-b17d-40c0-83eb-2984885505aa",
+    "textureUUID": "2fa6df5d-aa4d-4414-912b-3739f4799fc0",
+    "image": "hall-panel-study/assets/lobby-1939-dianfengsai.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 18,
+    "path": "NewSkin/MainEntry/item/dianfengsaizi",
+    "name": "dianfengsaizi",
+    "rect": [
+      173,
+      80,
+      71,
+      13
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      71,
+      13
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "019ae37e-053d-4064-bf33-9988d79f2b95",
+    "textureUUID": "1ea4c80b4",
+    "image": "hall-panel-study/assets/lobby-18-dianfengsaizi.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 868,
+    "path": "NewSkin/MainEntry/bg/weizi6",
+    "name": "weizi6",
+    "rect": [
+      0,
+      0,
+      245,
+      171
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      245,
+      171
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "5888150a-aa42-4641-9d89-1becae40924d",
+    "textureUUID": "d1a79d03-cea2-40b3-9fb3-6aa7c282219c",
+    "image": "hall-panel-study/assets/lobby-868-weizi6.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1427,
+    "path": "Main/hall_lobbyMain/NewTile/R2L_SSZX_icon",
+    "name": "R2L_SSZX_icon",
+    "rect": [
+      3,
+      641,
+      299,
+      326
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      299,
+      326
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "96346d31-6507-400d-a522-dbe2a85e7b80",
+    "textureUUID": "14fe66685",
+    "image": "hall-panel-study/assets/lobby-1427-R2L_SSZX_icon.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 899,
+    "path": "Main/hall_lobbyMain/NewTile/R2L_COMM_icon",
+    "name": "R2L_COMM_icon",
+    "rect": [
+      3,
+      336,
+      299,
+      326
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      299,
+      326
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "5bf3c20d-ac97-4d18-957a-4486fe9a71a8",
+    "textureUUID": "14fe66685",
+    "image": "hall-panel-study/assets/lobby-899-R2L_COMM_icon.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1529,
+    "path": "NewSkin/MainEntry/bg/weizi3",
+    "name": "weizi3",
+    "rect": [
+      0,
+      0,
+      245,
+      191
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      245,
+      191
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "a0a417ef-73a8-4f14-afee-39f10b2f441d",
+    "textureUUID": "77ec5561-9603-4b01-beca-9636cb787774",
+    "image": "hall-panel-study/assets/lobby-1529-weizi3.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 2391,
+    "path": "NewSkin/MainEntry/bg/weizi4",
+    "name": "weizi4",
+    "rect": [
+      0,
+      0,
+      245,
+      125
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      245,
+      125
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "fc156ab1-f31c-4c9d-aaa2-20390b15c53d",
+    "textureUUID": "a201da28-c356-4a4b-ae9b-ac86c435594b",
+    "image": "hall-panel-study/assets/lobby-2391-weizi4.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1605,
+    "path": "Main/hall_lobbyMain/NewTile/R2S_COMM_icon",
+    "name": "R2S_COMM_icon",
+    "rect": [
+      335,
+      336,
+      295,
+      165
+    ],
+    "offset": [
+      -1,
+      1.5
+    ],
+    "originalSize": [
+      297,
+      168
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "a95e9c52-d1ae-45e2-891c-7dd8a8a2736e",
+    "textureUUID": "14fe66685",
+    "image": "hall-panel-study/assets/lobby-1605-R2S_COMM_icon.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1938,
+    "path": "Main/hall_lobbyMain/NewTile/R2S_SSZX_icon",
+    "name": "R2S_SSZX_icon",
+    "rect": [
+      335,
+      637,
+      295,
+      165
+    ],
+    "offset": [
+      -1,
+      1.5
+    ],
+    "originalSize": [
+      297,
+      168
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "cb3d3665-7efa-4016-a693-26343b27b76c",
+    "textureUUID": "14fe66685",
+    "image": "hall-panel-study/assets/lobby-1938-R2S_SSZX_icon.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1370,
+    "path": "NewSkin/MainEntry/item/dilan",
+    "name": "dilan",
+    "rect": [
+      3,
+      117,
+      903,
+      48
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      903,
+      48
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "8fe6dcd5-cd7d-479b-ad19-fd53a6d0638c",
+    "textureUUID": "1ea4c80b4",
+    "image": "hall-panel-study/assets/lobby-1370-dilan.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 654,
+    "path": "NewSkin/MainEntry/item/shangcheng",
+    "name": "shangcheng",
+    "rect": [
+      57,
+      185,
+      190,
+      107
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      190,
+      107
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "4157c76f-f06b-4bb1-b24e-e065bc56ebaa",
+    "textureUUID": "1ea4c80b4",
+    "image": "hall-panel-study/assets/lobby-654-shangcheng.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1614,
+    "path": "NewSkin/MainEntry/item/gengduo",
+    "name": "gengduo",
+    "rect": [
+      235,
+      298,
+      48,
+      70
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      48,
+      71
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "aaec81cf-8c94-4aa7-a024-fc0f799d6ee4",
+    "textureUUID": "1ea4c80b4",
+    "image": "hall-panel-study/assets/lobby-1614-gengduo.png"
+  },
+  {
+    "bundle": "common",
+    "id": 143,
+    "path": "NewSkin/BubTip/tishiheidiqipaojiugongge",
+    "name": "tishiheidiqipaojiugongge",
+    "rect": [
+      3,
+      3,
+      47,
+      43
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      47,
+      43
+    ],
+    "capInsets": [
+      8,
+      7,
+      7,
+      7
+    ],
+    "uuid": "2dee8464-dd69-407c-bbd0-9e4d6a8d6f80",
+    "textureUUID": "1b2fe0eaa",
+    "image": "hall-panel-study/assets/common-143-tishiheidiqipaojiugongge.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1491,
+    "path": "NewSkin/MainEntry/item/shouqi",
+    "name": "shouqi",
+    "rect": [
+      57,
+      962,
+      41,
+      59
+    ],
+    "offset": [
+      0.5,
+      -6
+    ],
+    "originalSize": [
+      48,
+      71
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "9bfa0d80-22a3-44bd-b400-78ca98201dd7",
+    "textureUUID": "1ea4c80b4",
+    "image": "hall-panel-study/assets/lobby-1491-shouqi.png"
+  },
+  {
+    "bundle": "common",
+    "id": 772,
+    "path": "NewSkin/BubTip/jiantou",
+    "name": "jiantou",
+    "rect": [
+      3,
+      242,
+      24,
+      18
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      24,
+      18
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "eeb12cd0-162e-4cad-815d-215d572925b1",
+    "textureUUID": "1b2fe0eaa",
+    "image": "hall-panel-study/assets/common-772-jiantou.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 352,
+    "path": "NewSkin/MainEntry/item/huodong",
+    "name": "huodong",
+    "rect": [
+      157,
+      668,
+      39,
+      67
+    ],
+    "offset": [
+      0.5,
+      -1
+    ],
+    "originalSize": [
+      50,
+      69
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "2376fae8-34a1-484d-ba3c-84e3ec5b68ba",
+    "textureUUID": "1ea4c80b4",
+    "image": "hall-panel-study/assets/lobby-352-huodong.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 375,
+    "path": "Main/btn_miji",
+    "name": "btn_miji",
+    "rect": [
+      102,
+      623,
+      55,
+      73
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      56,
+      73
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "25776eba-ef07-4446-a9a6-b4acf76426b3",
+    "textureUUID": "16212ef64",
+    "image": "hall-panel-study/assets/lobby-375-btn_miji.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1567,
+    "path": "Main/miji_entry_tip",
+    "name": "miji_entry_tip",
+    "rect": [
+      94,
+      337,
+      143,
+      38
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      143,
+      38
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "a5c3908f-8c18-4eff-ad77-228661831717",
+    "textureUUID": "16212ef64",
+    "image": "hall-panel-study/assets/lobby-1567-miji_entry_tip.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 333,
+    "path": "Main/btn_rank",
+    "name": "btn_rank",
+    "rect": [
+      181,
+      623,
+      55,
+      72
+    ],
+    "offset": [
+      0.5,
+      -0.5
+    ],
+    "originalSize": [
+      56,
+      73
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "2156a003-2798-46e7-8583-c25c9c03f954",
+    "textureUUID": "16212ef64",
+    "image": "hall-panel-study/assets/lobby-333-btn_rank.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1131,
+    "path": "NewSkin/MainEntry/item/youjian",
+    "name": "youjian",
+    "rect": [
+      234,
+      448,
+      48,
+      63
+    ],
+    "offset": [
+      0,
+      -4
+    ],
+    "originalSize": [
+      48,
+      71
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "746bf423-f28e-4410-90c4-780fe466ca3b",
+    "textureUUID": "1ea4c80b4",
+    "image": "hall-panel-study/assets/lobby-1131-youjian.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 448,
+    "path": "NewSkin/MainEntry/item/duihuan",
+    "name": "duihuan",
+    "rect": [
+      216,
+      913,
+      43,
+      68
+    ],
+    "offset": [
+      -0.5,
+      -0.5
+    ],
+    "originalSize": [
+      48,
+      71
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "2b50594b-8054-428c-8850-a810f2eb68cf",
+    "textureUUID": "1ea4c80b4",
+    "image": "hall-panel-study/assets/lobby-448-duihuan.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 901,
+    "path": "NewSkin/MainEntry/item/gameClub",
+    "name": "gameClub",
+    "rect": [
+      104,
+      943,
+      60,
+      64
+    ],
+    "offset": [
+      0,
+      7
+    ],
+    "originalSize": [
+      64,
+      78
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "5c167933-af0d-466b-8272-e61f658406a8",
+    "textureUUID": "1ea4c80b4",
+    "image": "hall-panel-study/assets/lobby-901-gameClub.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 996,
+    "path": "NewSkin/MainEntry/item/pic_ljd",
+    "name": "pic_ljd",
+    "rect": [
+      171,
+      554,
+      108,
+      53
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      108,
+      53
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "663914f0-0fae-49ee-a3a9-46232839282b",
+    "textureUUID": "1ea4c80b4",
+    "image": "hall-panel-study/assets/lobby-996-pic_ljd.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 2354,
+    "path": "NewSkin/MainEntry/item/beibao",
+    "name": "beibao",
+    "rect": [
+      57,
+      898,
+      39,
+      68
+    ],
+    "offset": [
+      0.5,
+      -1.5
+    ],
+    "originalSize": [
+      48,
+      71
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "f6682984-2a1c-4f34-ad92-e888964cb0ed",
+    "textureUUID": "1ea4c80b4",
+    "image": "hall-panel-study/assets/lobby-2354-beibao.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1263,
+    "path": "NewSkin/MainEntry/item/shezhi",
+    "name": "shezhi",
+    "rect": [
+      230,
+      664,
+      46,
+      70
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      48,
+      71
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "82f7d901-55ba-452d-9cdb-e136f3efa254",
+    "textureUUID": "1ea4c80b4",
+    "image": "hall-panel-study/assets/lobby-1263-shezhi.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 363,
+    "path": "NewSkin/MainEntry/item/guize",
+    "name": "guize",
+    "rect": [
+      229,
+      740,
+      45,
+      69
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      48,
+      71
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "2445f134-2e89-429b-a760-5947099c231f",
+    "textureUUID": "1ea4c80b4",
+    "image": "hall-panel-study/assets/lobby-363-guize.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 322,
+    "path": "NewSkin/MainEntry/item/zhanji",
+    "name": "zhanji",
+    "rect": [
+      235,
+      374,
+      48,
+      68
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      48,
+      71
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "1ff0f2bc-4ac1-4830-b7a6-3673795735bb",
+    "textureUUID": "1ea4c80b4",
+    "image": "hall-panel-study/assets/lobby-322-zhanji.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 838,
+    "path": "NewSkin/MainEntry/item/kefu",
+    "name": "kefu",
+    "rect": [
+      234,
+      517,
+      47,
+      69
+    ],
+    "offset": [
+      -0.5,
+      -1
+    ],
+    "originalSize": [
+      48,
+      71
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "56553f8f-9477-4fc8-ad3a-48fe4a31c3eb",
+    "textureUUID": "1ea4c80b4",
+    "image": "hall-panel-study/assets/lobby-838-kefu.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 129,
+    "path": "NewSkin/MainEntry/item/fankui",
+    "name": "fankui",
+    "rect": [
+      230,
+      592,
+      47,
+      66
+    ],
+    "offset": [
+      -0.5,
+      -1.5
+    ],
+    "originalSize": [
+      48,
+      71
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "0ce72112-82c7-4334-ad52-0f4a020a1471",
+    "textureUUID": "1ea4c80b4",
+    "image": "hall-panel-study/assets/lobby-129-fankui.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1174,
+    "path": "NewSkin/MainEntry/item/yulecheng",
+    "name": "yulecheng",
+    "rect": [
+      57,
+      591,
+      82,
+      94
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      83,
+      94
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "799593e2-9270-4228-8c56-4948145216c2",
+    "textureUUID": "1ea4c80b4",
+    "image": "hall-panel-study/assets/lobby-1174-yulecheng.png"
+  },
+  {
+    "bundle": "common",
+    "id": 343,
+    "path": "module/MaCardShop/normal/item_bg_icon",
+    "name": "item_bg_icon",
+    "rect": [
+      3,
+      3,
+      908,
+      234
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      908,
+      234
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "6ea41048-a157-48e7-a290-658ec6ccf011",
+    "textureUUID": "13da733ae",
+    "image": "hall-panel-study/assets/common-343-item_bg_icon.png"
+  },
+  {
+    "bundle": "common",
+    "id": 253,
+    "path": "module/MaCardShop/normal/welfare_bottom_icon",
+    "name": "welfare_bottom_icon",
+    "rect": [
+      243,
+      820,
+      127,
+      83
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      127,
+      83
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "51cc8c7e-8f77-4f1b-bcbc-e0e90bd13c14",
+    "textureUUID": "13da733ae",
+    "image": "hall-panel-study/assets/common-253-welfare_bottom_icon.png"
+  },
+  {
+    "bundle": "common",
+    "id": 194,
+    "path": "module/MaCardShop/goodsList/hot_tip_icon",
+    "name": "hot_tip_icon",
+    "rect": [
+      302,
+      278,
+      110,
+      106
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      110,
+      106
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "3d892f9c-04b5-41dd-a602-111fb637255d",
+    "textureUUID": "1207a6e82",
+    "image": "hall-panel-study/assets/common-194-hot_tip_icon.png"
+  },
+  {
+    "bundle": "common",
+    "id": 410,
+    "path": "module/MaCardShop/goodsList/hot_tip_icon2",
+    "name": "hot_tip_icon2",
+    "rect": [
+      374,
+      394,
+      110,
+      106
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      110,
+      106
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "8393af24-1275-498f-89fe-0602a9c0ab59",
+    "textureUUID": "1207a6e82",
+    "image": "hall-panel-study/assets/common-410-hot_tip_icon2.png"
+  },
+  {
+    "bundle": "common",
+    "id": 150,
+    "path": "module/MaCardShop/goodsList/item_bg_icon",
+    "name": "item_bg_icon",
+    "rect": [
+      3,
+      3,
+      293,
+      395
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      293,
+      395
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "2f3f114a-e4fd-491a-9b47-21c02700674f",
+    "textureUUID": "1207a6e82",
+    "image": "hall-panel-study/assets/common-150-item_bg_icon.png"
+  },
+  {
+    "bundle": "common",
+    "id": 288,
+    "path": "module/MaCardShop/goodsList/logo_ma_icon",
+    "name": "logo_ma_icon",
+    "rect": [
+      374,
+      3,
+      136,
+      115
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      136,
+      115
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "5ab52910-0ac4-4aad-89a7-3c69a872ae72",
+    "textureUUID": "1207a6e82",
+    "image": "hall-panel-study/assets/common-288-logo_ma_icon.png"
+  },
+  {
+    "bundle": "common",
+    "id": 27,
+    "path": "module/MaCardShop/goodsList/showNum_bg_icon",
+    "name": "showNum_bg_icon",
+    "rect": [
+      302,
+      3,
+      269,
+      54
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      269,
+      54
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "0a9a5967-e74a-4050-91e2-2e16d60632ff",
+    "textureUUID": "1207a6e82",
+    "image": "hall-panel-study/assets/common-27-showNum_bg_icon.png"
+  },
+  {
+    "bundle": "common",
+    "id": 748,
+    "path": "module/MaCardShop/goodsList/getBtn_icon",
+    "name": "getBtn_icon",
+    "rect": [
+      414,
+      145,
+      206,
+      72
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      206,
+      72
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "e8b2c124-195b-435d-affd-a12c6b230391",
+    "textureUUID": "1207a6e82",
+    "image": "hall-panel-study/assets/common-748-getBtn_icon.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 377,
+    "path": "Main/hall_lobbyUp/SectionLevelIcon/img_ICON_0",
+    "name": "img_ICON_0",
+    "rect": [
+      3,
+      491,
+      36,
+      74
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      36,
+      74
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "25911db2-f82d-426c-8730-0beb196a80b3",
+    "textureUUID": "115f4ef49",
+    "image": "hall-panel-study/assets/lobby-377-img_ICON_0.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1062,
+    "path": "Main/hall_lobbyUp/SectionLevelIcon/img_ICON_1",
+    "name": "img_ICON_1",
+    "rect": [
+      3,
+      412,
+      37,
+      73
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      37,
+      73
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "6d670b7a-5011-4e5a-ae4e-23edd397e958",
+    "textureUUID": "115f4ef49",
+    "image": "hall-panel-study/assets/lobby-1062-img_ICON_1.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 425,
+    "path": "Main/hall_lobbyUp/SectionLevelIcon/img_ICON_2",
+    "name": "img_ICON_2",
+    "rect": [
+      3,
+      333,
+      37,
+      73
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      37,
+      73
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "2984e31a-aacb-4154-95f6-1ff5e532c944",
+    "textureUUID": "115f4ef49",
+    "image": "hall-panel-study/assets/lobby-425-img_ICON_2.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1620,
+    "path": "Main/hall_lobbyUp/SectionLevelIcon/img_ICON_3",
+    "name": "img_ICON_3",
+    "rect": [
+      3,
+      251,
+      37,
+      76
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      37,
+      76
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "ab1f6caa-e0e6-40ed-b242-0c2c148b6946",
+    "textureUUID": "115f4ef49",
+    "image": "hall-panel-study/assets/lobby-1620-img_ICON_3.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1507,
+    "path": "Main/hall_lobbyUp/SectionLevelIcon/img_ICON_4",
+    "name": "img_ICON_4",
+    "rect": [
+      3,
+      81,
+      42,
+      71
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      42,
+      71
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "9e0df232-d48e-4f4b-90e1-7e7f4dbf7651",
+    "textureUUID": "115f4ef49",
+    "image": "hall-panel-study/assets/lobby-1507-img_ICON_4.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1963,
+    "path": "Main/hall_lobbyUp/SectionLevelIcon/img_ICON_5",
+    "name": "img_ICON_5",
+    "rect": [
+      3,
+      3,
+      43,
+      72
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      43,
+      72
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "cde9f094-bb20-49f3-96a7-064881cdef81",
+    "textureUUID": "115f4ef49",
+    "image": "hall-panel-study/assets/lobby-1963-img_ICON_5.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1266,
+    "path": "Main/hall_lobbyUp/SectionLevelIcon/img_ICON_6",
+    "name": "img_ICON_6",
+    "rect": [
+      3,
+      158,
+      40,
+      87
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      40,
+      87
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "837de89e-41b7-4469-8457-0aada52485da",
+    "textureUUID": "115f4ef49",
+    "image": "hall-panel-study/assets/lobby-1266-img_ICON_6.png"
+  },
+  {
+    "bundle": "game",
+    "id": 612,
+    "path": "NewSkin/User/di1",
+    "name": "di1",
+    "rect": [
+      142,
+      752,
+      169,
+      33
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      169,
+      33
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "73f5864f-0901-4094-847a-e24583b8f6c8",
+    "textureUUID": "1a0bdbf85",
+    "image": "hall-panel-study/assets/game-612-di1.png"
+  },
+  {
+    "bundle": "common",
+    "id": 351,
+    "path": "NewSkin/other/pic_com01",
+    "name": "pic_com01",
+    "rect": [
+      713,
+      959,
+      183,
+      35
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      183,
+      35
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "72745acf-5348-4ceb-a311-9321a6907255",
+    "textureUUID": "1d05abae0",
+    "image": "hall-panel-study/assets/common-351-pic_com01.png"
+  },
+  {
+    "bundle": "common",
+    "id": 578,
+    "path": "NewSkin/other/pic_zjd",
+    "name": "pic_zjd",
+    "rect": [
+      474,
+      959,
+      47,
+      51
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      47,
+      51
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "b66757dc-f09b-4944-b834-8ac75175833f",
+    "textureUUID": "1d05abae0",
+    "image": "hall-panel-study/assets/common-578-pic_zjd.png"
+  },
+  {
+    "bundle": "common",
+    "id": 702,
+    "path": "NewSkin/NewBtn/btn_com05",
+    "name": "btn_com05",
+    "rect": [
+      232,
+      789,
+      21,
+      21
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      23,
+      23
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "dd45657a-7c95-4cf7-ace8-60709dde2d4b",
+    "textureUUID": "1e8019203",
+    "image": "hall-panel-study/assets/common-702-btn_com05.png"
+  },
+  {
+    "bundle": "common",
+    "id": 586,
+    "path": "CoinNum&FareNum/img_DCoin",
+    "name": "img_DCoin",
+    "rect": [
+      3,
+      266,
+      55,
+      56
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      55,
+      57
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "b86b4a66-58ae-4f71-86c9-f632aff28964",
+    "textureUUID": "128f721b8",
+    "image": "hall-panel-study/assets/common-586-img_DCoin.png"
+  },
+  {
+    "bundle": "common",
+    "id": 620,
+    "path": "NewSkin/other/pic_zjb",
+    "name": "pic_zjb",
+    "rect": [
+      540,
+      952,
+      48,
+      53
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      48,
+      53
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "c4115296-c3cb-46ff-84f1-52d5b001e5fe",
+    "textureUUID": "1d05abae0",
+    "image": "hall-panel-study/assets/common-620-pic_zjb.png"
+  },
+  {
+    "bundle": "common",
+    "id": 749,
+    "path": "CoinNum&FareNum/btnGet",
+    "name": "btnGet",
+    "rect": [
+      85,
+      186,
+      60,
+      37
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      60,
+      37
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "e8c40957-7814-417d-bc53-601a6b63ba0b",
+    "textureUUID": "128f721b8",
+    "image": "hall-panel-study/assets/common-749-btnGet.png"
+  },
+  {
+    "bundle": "common",
+    "id": 147,
+    "path": "NewSkin/other/pic_zs",
+    "name": "pic_zs",
+    "rect": [
+      540,
+      897,
+      55,
+      49
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      55,
+      49
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "2ec1b62d-3a87-457d-b0e7-a8df02dad37f",
+    "textureUUID": "1d05abae0",
+    "image": "hall-panel-study/assets/common-147-pic_zs.png"
+  },
+  {
+    "bundle": "common",
+    "id": 796,
+    "path": "MJMasterPath/s_1",
+    "name": "s_1",
+    "rect": [
+      426,
+      964,
+      172,
+      51
+    ],
+    "offset": [
+      11.5,
+      -3
+    ],
+    "originalSize": [
+      205,
+      95
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "f959fcd1-0443-4620-b47b-ec103a8fc210",
+    "textureUUID": "1e5b64136",
+    "image": "hall-panel-study/assets/common-796-s_1.png"
+  },
+  {
+    "bundle": "common",
+    "id": 254,
+    "path": "MJMasterPath/s_2",
+    "name": "s_2",
+    "rect": [
+      248,
+      964,
+      172,
+      53
+    ],
+    "offset": [
+      11.5,
+      -5
+    ],
+    "originalSize": [
+      205,
+      95
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "51f652a6-8b55-430b-ab23-6952ff8efac9",
+    "textureUUID": "1e5b64136",
+    "image": "hall-panel-study/assets/common-254-s_2.png"
+  },
+  {
+    "bundle": "common",
+    "id": 364,
+    "path": "MJMasterPath/s_3",
+    "name": "s_3",
+    "rect": [
+      519,
+      881,
+      178,
+      60
+    ],
+    "offset": [
+      9.5,
+      -3.5
+    ],
+    "originalSize": [
+      205,
+      95
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "7621ffd7-92c0-425d-bd1d-b6b4def2de4d",
+    "textureUUID": "1e5b64136",
+    "image": "hall-panel-study/assets/common-364-s_3.png"
+  },
+  {
+    "bundle": "common",
+    "id": 118,
+    "path": "MJMasterPath/s_4",
+    "name": "s_4",
+    "rect": [
+      273,
+      3,
+      201,
+      85
+    ],
+    "offset": [
+      -2,
+      5
+    ],
+    "originalSize": [
+      205,
+      95
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "28ab3196-f2ad-42f2-bbd9-6ff1fa8430ea",
+    "textureUUID": "11d591760",
+    "image": "hall-panel-study/assets/common-118-s_4.png"
+  },
+  {
+    "bundle": "common",
+    "id": 178,
+    "path": "MJMasterPath/s_5",
+    "name": "s_5",
+    "rect": [
+      274,
+      94,
+      195,
+      88
+    ],
+    "offset": [
+      1,
+      3.5
+    ],
+    "originalSize": [
+      205,
+      95
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "37944c84-9fce-4718-8ff3-332de519c631",
+    "textureUUID": "11d591760",
+    "image": "hall-panel-study/assets/common-178-s_5.png"
+  },
+  {
+    "bundle": "common",
+    "id": 428,
+    "path": "MJMasterPath/s_6",
+    "name": "s_6",
+    "rect": [
+      3,
+      179,
+      201,
+      88
+    ],
+    "offset": [
+      -2,
+      3.5
+    ],
+    "originalSize": [
+      205,
+      95
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "883bebcd-691f-401e-be8d-6ef1dc9fec0d",
+    "textureUUID": "11d591760",
+    "image": "hall-panel-study/assets/common-428-s_6.png"
+  },
+  {
+    "bundle": "common",
+    "id": 179,
+    "path": "MJMasterPath/s_7",
+    "name": "s_7",
+    "rect": [
+      210,
+      188,
+      204,
+      93
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      205,
+      95
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "37c046b0-b36b-486b-ba3d-95719a59e564",
+    "textureUUID": "11d591760",
+    "image": "hall-panel-study/assets/common-179-s_7.png"
+  }
+]

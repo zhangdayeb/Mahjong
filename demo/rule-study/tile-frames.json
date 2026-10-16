@@ -1,0 +1,2073 @@
+[
+  {
+    "bundle": "game",
+    "id": 1502,
+    "name": "img_normal_back_card_1",
+    "rect": [
+      813,
+      95,
+      91,
+      128
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      91,
+      128
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 2039,
+    "name": "img_normal_back_card_2",
+    "rect": [
+      683,
+      95,
+      91,
+      128
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      91,
+      128
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 1457,
+    "name": "img_normal_card",
+    "rect": [
+      819,
+      2,
+      91,
+      134
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 2124,
+    "name": "img_normal_card_tangpai",
+    "rect": [
+      683,
+      2,
+      91,
+      134
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 1639,
+    "name": "img_tile_1_1",
+    "rect": [
+      485,
+      896,
+      71,
+      102
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 1766,
+    "name": "img_tile_1_2",
+    "rect": [
+      674,
+      851,
+      73,
+      102
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 1714,
+    "name": "img_tile_1_3",
+    "rect": [
+      780,
+      766,
+      73,
+      104
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 1606,
+    "name": "img_tile_1_4",
+    "rect": [
+      955,
+      2,
+      67,
+      104
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 1959,
+    "name": "img_tile_1_5",
+    "rect": [
+      892,
+      701,
+      69,
+      106
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 1657,
+    "name": "img_tile_1_6",
+    "rect": [
+      2,
+      596,
+      65,
+      106
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 1889,
+    "name": "img_tile_1_7",
+    "rect": [
+      418,
+      539,
+      65,
+      106
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 1945,
+    "name": "img_tile_1_8",
+    "rect": [
+      2,
+      971,
+      73,
+      104
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 2042,
+    "name": "img_tile_1_9",
+    "rect": [
+      893,
+      628,
+      71,
+      106
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 1917,
+    "name": "img_tile_2_1",
+    "rect": [
+      110,
+      596,
+      81,
+      94
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 2087,
+    "name": "img_tile_2_2",
+    "rect": [
+      900,
+      528,
+      19,
+      108
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 2158,
+    "name": "img_tile_2_3",
+    "rect": [
+      680,
+      421,
+      69,
+      108
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 1610,
+    "name": "img_tile_2_4",
+    "rect": [
+      790,
+      478,
+      59,
+      108
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 2091,
+    "name": "img_tile_2_5",
+    "rect": [
+      682,
+      348,
+      71,
+      108
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 1899,
+    "name": "img_tile_2_6",
+    "rect": [
+      792,
+      332,
+      73,
+      108
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 1737,
+    "name": "img_tile_2_7",
+    "rect": [
+      792,
+      407,
+      69,
+      108
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 2044,
+    "name": "img_tile_2_8",
+    "rect": [
+      902,
+      386,
+      69,
+      108
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 1459,
+    "name": "img_tile_2_9",
+    "rect": [
+      485,
+      823,
+      71,
+      104
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 1785,
+    "name": "img_tile_3_1",
+    "rect": [
+      403,
+      785,
+      79,
+      80
+    ],
+    "offset": [
+      -1,
+      -6
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 2036,
+    "name": "img_tile_3_2",
+    "rect": [
+      2,
+      1046,
+      45,
+      98
+    ],
+    "offset": [
+      1,
+      -6
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 1760,
+    "name": "img_tile_3_3",
+    "rect": [
+      118,
+      205,
+      87,
+      102
+    ],
+    "offset": [
+      0,
+      -5
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 2022,
+    "name": "img_tile_3_4",
+    "rect": [
+      593,
+      581,
+      81,
+      104
+    ],
+    "offset": [
+      0,
+      -5
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 1931,
+    "name": "img_tile_3_5",
+    "rect": [
+      193,
+      603,
+      79,
+      104
+    ],
+    "offset": [
+      -1,
+      -7
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 2030,
+    "name": "img_tile_3_6",
+    "rect": [
+      798,
+      188,
+      63,
+      112
+    ],
+    "offset": [
+      0,
+      -5
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 1615,
+    "name": "img_tile_3_7",
+    "rect": [
+      912,
+      226,
+      83,
+      110
+    ],
+    "offset": [
+      0,
+      -4
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 1658,
+    "name": "img_tile_3_8",
+    "rect": [
+      680,
+      492,
+      57,
+      108
+    ],
+    "offset": [
+      2,
+      -6
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 1487,
+    "name": "img_tile_3_9",
+    "rect": [
+      595,
+      414,
+      83,
+      106
+    ],
+    "offset": [
+      0,
+      -6
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 2117,
+    "name": "img_tile_4_1",
+    "rect": [
+      886,
+      772,
+      79,
+      102
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 1865,
+    "name": "img_tile_4_2",
+    "rect": [
+      191,
+      986,
+      65,
+      100
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 2133,
+    "name": "img_tile_4_3",
+    "rect": [
+      403,
+      866,
+      69,
+      80
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 1677,
+    "name": "img_tile_4_4",
+    "rect": [
+      426,
+      1150,
+      67,
+      76
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 1812,
+    "name": "img_tile_5_1",
+    "rect": [
+      297,
+      912,
+      65,
+      104
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 2002,
+    "name": "img_tile_5_2",
+    "rect": [
+      110,
+      409,
+      81,
+      90
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 2024,
+    "name": "img_tile_5_3",
+    "rect": [
+      297,
+      979,
+      67,
+      102
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 1914,
+    "name": "img_tile_6_1",
+    "rect": [
+      609,
+      122,
+      71,
+      110
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 2112,
+    "name": "img_tile_6_2",
+    "rect": [
+      310,
+      527,
+      75,
+      106
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 1511,
+    "name": "img_tile_6_3",
+    "rect": [
+      203,
+      372,
+      77,
+      106
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 1763,
+    "name": "img_tile_6_4",
+    "rect": [
+      485,
+      446,
+      75,
+      106
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 1842,
+    "name": "img_tile_6_5",
+    "rect": [
+      682,
+      269,
+      77,
+      108
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 2099,
+    "name": "img_tile_6_6",
+    "rect": [
+      485,
+      371,
+      73,
+      108
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 1596,
+    "name": "img_tile_6_7",
+    "rect": [
+      207,
+      293,
+      77,
+      106
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 1826,
+    "name": "img_tile_6_8",
+    "rect": [
+      910,
+      311,
+      73,
+      110
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 2150,
+    "name": "img_tile_7_1",
+    "rect": [
+      193,
+      528,
+      73,
+      106
+    ],
+    "offset": [
+      0,
+      -5
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 1597,
+    "name": "img_tile_7_2",
+    "rect": [
+      191,
+      911,
+      73,
+      104
+    ],
+    "offset": [
+      0,
+      -6
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 1686,
+    "name": "img_tile_7_3",
+    "rect": [
+      202,
+      451,
+      75,
+      106
+    ],
+    "offset": [
+      0,
+      -6
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 2050,
+    "name": "img_tile_8_1",
+    "rect": [
+      2,
+      744,
+      75,
+      104
+    ],
+    "offset": [
+      -1,
+      -6
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 1992,
+    "name": "img_tile_8_10",
+    "rect": [
+      2,
+      521,
+      73,
+      106
+    ],
+    "offset": [
+      0,
+      -5
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 1999,
+    "name": "img_tile_8_11",
+    "rect": [
+      297,
+      837,
+      73,
+      104
+    ],
+    "offset": [
+      -1,
+      -5
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 1583,
+    "name": "img_tile_8_12",
+    "rect": [
+      2,
+      663,
+      79,
+      104
+    ],
+    "offset": [
+      -1,
+      -6
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 2147,
+    "name": "img_tile_8_2",
+    "rect": [
+      898,
+      549,
+      77,
+      106
+    ],
+    "offset": [
+      -1,
+      -6
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 1970,
+    "name": "img_tile_8_3",
+    "rect": [
+      311,
+      450,
+      75,
+      106
+    ],
+    "offset": [
+      -2,
+      -5
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 1437,
+    "name": "img_tile_8_4",
+    "rect": [
+      193,
+      684,
+      75,
+      104
+    ],
+    "offset": [
+      -1,
+      -5
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 1990,
+    "name": "img_tile_8_5",
+    "rect": [
+      311,
+      373,
+      75,
+      106
+    ],
+    "offset": [
+      -1,
+      -5
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 1841,
+    "name": "img_tile_8_6",
+    "rect": [
+      2,
+      444,
+      75,
+      106
+    ],
+    "offset": [
+      -1,
+      -5
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 1422,
+    "name": "img_tile_8_7",
+    "rect": [
+      2,
+      821,
+      73,
+      104
+    ],
+    "offset": [
+      0,
+      -6
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 1434,
+    "name": "img_tile_8_8",
+    "rect": [
+      677,
+      551,
+      73,
+      106
+    ],
+    "offset": [
+      0,
+      -5
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 1612,
+    "name": "img_tile_8_9",
+    "rect": [
+      299,
+      683,
+      77,
+      104
+    ],
+    "offset": [
+      -1,
+      -5
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 1978,
+    "name": "sg_img_tile_10_1",
+    "rect": [
+      375,
+      122,
+      83,
+      116
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 1461,
+    "name": "sg_img_tile_10_2",
+    "rect": [
+      682,
+      188,
+      79,
+      114
+    ],
+    "offset": [
+      0,
+      1
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 1445,
+    "name": "sg_img_tile_10_3",
+    "rect": [
+      207,
+      212,
+      79,
+      114
+    ],
+    "offset": [
+      0,
+      1
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 1986,
+    "name": "sg_img_tile_11_1",
+    "rect": [
+      798,
+      253,
+      77,
+      110
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 1772,
+    "name": "sg_img_tile_11_2",
+    "rect": [
+      790,
+      539,
+      79,
+      106
+    ],
+    "offset": [
+      0,
+      -1
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 1938,
+    "name": "sg_img_tile_11_3",
+    "rect": [
+      299,
+      604,
+      77,
+      104
+    ],
+    "offset": [
+      0,
+      -1
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 1966,
+    "name": "sg_img_tile_12_1",
+    "rect": [
+      780,
+      841,
+      75,
+      102
+    ],
+    "offset": [
+      0,
+      -3
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 2007,
+    "name": "sg_img_tile_7_1",
+    "rect": [
+      2,
+      286,
+      79,
+      114
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 1697,
+    "name": "sg_img_tile_7_2",
+    "rect": [
+      2,
+      205,
+      79,
+      114
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 1685,
+    "name": "sg_img_tile_7_3",
+    "rect": [
+      372,
+      207,
+      81,
+      114
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 1668,
+    "name": "sg_img_tile_8_1",
+    "rect": [
+      493,
+      205,
+      81,
+      114
+    ],
+    "offset": [
+      0,
+      1
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 2104,
+    "name": "sg_img_tile_8_2",
+    "rect": [
+      493,
+      122,
+      81,
+      114
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 1866,
+    "name": "sg_img_tile_8_3",
+    "rect": [
+      371,
+      290,
+      81,
+      112
+    ],
+    "offset": [
+      0,
+      1
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 1716,
+    "name": "sg_img_tile_9_1",
+    "rect": [
+      208,
+      129,
+      81,
+      114
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 1451,
+    "name": "sg_img_tile_9_2",
+    "rect": [
+      488,
+      288,
+      81,
+      112
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  },
+  {
+    "bundle": "game",
+    "id": 1893,
+    "name": "sg_img_tile_9_3",
+    "rect": [
+      943,
+      108,
+      79,
+      116
+    ],
+    "offset": [
+      -1,
+      0
+    ],
+    "originalSize": [
+      91,
+      134
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "92436af0-b0dc-406e-bcf6-50f3c22ea9d9"
+  }
+]

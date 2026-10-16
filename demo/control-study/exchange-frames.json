@@ -1,0 +1,174 @@
+[
+  {
+    "bundle": "common",
+    "id": 357,
+    "path": "NewSkin/NewBtn/btn_com07",
+    "name": "btn_com07",
+    "rect": [
+      254,
+      550,
+      233,
+      85
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      233,
+      85
+    ],
+    "rotated": 1,
+    "capInsets": [
+      130,
+      29,
+      100,
+      44
+    ],
+    "uuid": "73646625-c45e-4e40-ab59-d5cc564ef4e0",
+    "textureUUID": "1e8019203",
+    "image": "control-study/assets/common-357-btn_com07.png"
+  },
+  {
+    "bundle": "game",
+    "id": 741,
+    "path": "NewSkin/GamePanelBtn/tableTip",
+    "name": "tableTip",
+    "rect": [
+      0,
+      0,
+      65,
+      64
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      65,
+      64
+    ],
+    "capInsets": [
+      18,
+      31,
+      22,
+      19
+    ],
+    "uuid": "8f371175-1668-4581-a55b-4f2cd1e409c8",
+    "textureUUID": "6248c4c6-c7c9-44d1-b2c0-f3fa7cb4eb55",
+    "image": "control-study/assets/game-741-tableTip.png"
+  },
+  {
+    "bundle": "common",
+    "id": 810,
+    "path": "btn/Btn_y2",
+    "name": "Btn_y2",
+    "rect": [
+      3,
+      507,
+      267,
+      84
+    ],
+    "offset": [
+      0,
+      -5
+    ],
+    "originalSize": [
+      267,
+      94
+    ],
+    "capInsets": [
+      110,
+      22,
+      110,
+      36
+    ],
+    "uuid": "fd28bd11-884d-47ad-85cd-65c42c6c5cc7",
+    "textureUUID": "1d54d8d70",
+    "image": "control-study/assets/common-810-Btn_y2.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 2958,
+    "name": "default_btn_pressed",
+    "rect": [
+      0,
+      0,
+      40,
+      40
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      40,
+      40
+    ],
+    "capInsets": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "uuid": "e9ec654c-97a2-4787-9325-e6a10375219a",
+    "textureUUID": "b43ff3c2-02bb-4874-81f7-f2dea6970f18",
+    "image": "control-study/assets/resources-2958-default_btn_pressed.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 2980,
+    "name": "default_btn_normal",
+    "rect": [
+      0,
+      0,
+      40,
+      40
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      40,
+      40
+    ],
+    "capInsets": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "uuid": "f0048c10-f03e-4c97-b9d3-3506e1d58952",
+    "textureUUID": "e851e89b-faa2-4484-bea6-5c01dd9f06e2",
+    "image": "control-study/assets/resources-2980-default_btn_normal.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 732,
+    "name": "default_btn_disabled",
+    "rect": [
+      0,
+      0,
+      40,
+      40
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      40,
+      40
+    ],
+    "capInsets": [
+      12,
+      12,
+      12,
+      12
+    ],
+    "uuid": "29158224-f8dd-4661-a796-1ffab537140e",
+    "textureUUID": "71561142-4c83-4933-afca-cb7a17f67053",
+    "image": "control-study/assets/resources-732-default_btn_disabled.png"
+  }
+]

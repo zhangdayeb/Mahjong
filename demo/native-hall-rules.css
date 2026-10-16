@@ -1,0 +1,17 @@
+.native-hall-rules{position:absolute;inset:0;z-index:90;overflow:clip;font-family:Arial,sans-serif;color:#2f3650;user-select:none;-webkit-user-select:none;touch-action:none}
+.native-hall-rules[hidden]{display:none!important}
+.native-hall-rule-canvas,.native-hall-rule-hits{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+.native-hall-rules .native-hall-rule-hit{position:absolute!important;background:transparent!important;border:0!important;border-radius:0!important;padding:0!important;margin:0!important;box-shadow:none!important;cursor:pointer;pointer-events:auto;outline:none;translate:none!important}
+.native-hall-rule-menu,.native-hall-rule-view{position:absolute;transform-origin:0 0;overflow-x:hidden;overflow-y:auto;scrollbar-width:none;overscroll-behavior:contain;touch-action:pan-y;cursor:grab;outline:none}
+.native-hall-rule-menu::-webkit-scrollbar,.native-hall-rule-view::-webkit-scrollbar{display:none}
+.native-hall-rule-menu:active,.native-hall-rule-view:active{cursor:grabbing}
+.native-hall-rules .native-hall-rule-game{display:block!important;width:220px!important;height:80px!important;position:relative!important;margin:0 auto!important;padding:0!important;background:transparent!important;border:0!important;border-radius:0!important;box-shadow:none!important;translate:none!important;cursor:pointer}
+.native-hall-rule-game canvas{width:220px;height:80px;display:block;pointer-events:none}
+.native-hall-rule-view{display:flex;flex-direction:column;gap:5px}
+.native-hall-rule-text{flex:none;margin:0 0 0 10px;padding:10.4px 0 0;width:660px;box-sizing:content-box;font:400 22px/40px Arial,sans-serif;white-space:pre-wrap;overflow-wrap:break-word}
+.native-hall-rule-picture{position:relative;flex:none;width:680px;height:56.8px;margin:0;overflow:visible}
+.native-hall-rule-tile{position:absolute;display:block;pointer-events:none;animation:native-hall-rule-reveal .001s var(--reveal,0s) both}
+.native-hall-rule-tile img{position:absolute;left:0;top:0;width:100%;height:100%;object-fit:fill;pointer-events:none}
+.native-hall-rules button:focus-visible,.native-hall-rule-view:focus-visible{outline:2px solid #24beff;outline-offset:-2px}
+@keyframes native-hall-rule-reveal{from{visibility:hidden}to{visibility:visible}}
+@media(prefers-reduced-motion:reduce){.native-hall-rule-tile{animation:none}}

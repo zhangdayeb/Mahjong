@@ -1,0 +1,9 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>大厅原弹窗核对</title>
+<style>html,body{margin:0;background:#182330;color:white;font:14px Arial}#fixture{position:relative;width:100vw;aspect-ratio:1104/554;max-height:100vh;background:#425cc2 url('../assets/lobby/660.png') center/cover}nav{display:flex;flex-wrap:wrap;gap:8px;padding:8px}button{padding:8px}p{padding:0 8px}</style>
+<div id="fixture"></div><nav><button data-kind="settings">设置</button><button data-kind="mail">邮件</button><button data-kind="bag">背包</button><button data-kind="activity">活动</button><button data-kind="profile">头像资料</button><button data-kind="maka">麻卡巴卡</button><button data-kind="more">更多</button><button data-kind="feedback">反馈</button></nav><p>独立源节点预览。动态邮件、背包、活动数据为空；反馈只保存在本地。</p>
+<script type="module">
+import{createNativeHallPanels}from'../native-hall-panels.js';
+const panels=createNativeHallPanels(document.querySelector('#fixture'),{profile:{name:'4201529133',id:'4201529133',avatar:'assets/lobby/user-avatar.png',rankLevel:1,rankProgress:[0,40]}});window.nativeHallPanelFixture=panels;
+document.querySelectorAll('[data-kind]').forEach(button=>button.onclick=()=>panels.show(button.dataset.kind));
+await panels.show(new URLSearchParams(location.search).get('kind')||'settings');
+</script></html>

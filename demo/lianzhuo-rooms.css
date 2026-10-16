@@ -1,0 +1,125 @@
+/* The scene keeps its 1104 × 554 artboard and the existing room entry flow. */
+body.lianzhuo-rooms{background:#dce3d7;color:#2c5745}
+#lobby.room-lobby{width:1104px;height:554px;background:#e9e7d8;color:#2c5745;overflow:clip}
+#lobby.room-lobby .background{background:url('assets/lobby/lianzhuo-hall-bg-v1.png') center/cover no-repeat}
+#lobby.room-lobby .background:after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,#fff9e433,transparent 32%,#e9e5d326)}
+#lobby.room-lobby button{color:inherit;translate:none;filter:none}
+#lobby.room-lobby button:hover{translate:none;filter:none}
+#lobby.room-lobby button:active{translate:none;filter:none}
+#lobby.room-lobby button:focus-visible,#lobby.room-lobby a:focus-visible{outline:3px solid #a88238;outline-offset:4px}
+.room-icon{display:block;width:25px;height:25px;flex:none}
+#lobby.room-lobby .room-back{left:34px;top:28px;width:51px;height:51px;border:1px solid #fffdf0;border-radius:15px;transform:none;background:linear-gradient(145deg,#fffdf3eb,#ececdbe0);color:#365e48;box-shadow:0 4px 14px #2a48361c;text-shadow:none;text-decoration:none}
+#lobby.room-lobby .room-back .back-arrow{display:block;inset:0;transform:none;font:400 48px/43px Georgia,serif;text-align:center;color:#365e48}
+#lobby.room-lobby #variant-title{left:105px;top:24px;width:259px;height:47px;text-align:left;padding:0!important;border:0!important;border-radius:0;background:none!important;color:#214d3d!important}
+#lobby.room-lobby #variant-title b{font:600 31px/37px KaiTi,STKaiti,'Microsoft YaHei',serif;letter-spacing:2px;text-shadow:0 1px 5px #fff8e7}
+#lobby.room-lobby #variant-title b:after{content:'⌄';display:inline-block;font:400 18px Georgia,serif;vertical-align:4px;margin-left:10px;color:#718869}
+#lobby.room-lobby #variant-title small{font-size:9px;line-height:12px;letter-spacing:1.5px;color:#68826c;white-space:nowrap}
+#lobby.room-lobby .room-brand{position:absolute;left:105px;top:82px;font-family:KaiTi,STKaiti,serif;font-size:13px;letter-spacing:2px;color:#667b5f;text-shadow:0 1px 4px #fffdf0}
+.room-brand i{font-style:normal;margin:0 5px;color:#a18852}
+#lobby.room-lobby #room-help{left:384px;top:34px;width:115px;height:38px;display:flex;align-items:center;gap:9px;border:1px solid #fffbea!important;border-radius:11px;background:#fffdf0d9!important;color:#46664f!important;font-size:13px!important;line-height:20px;padding:0 12px;box-shadow:0 3px 10px #2b493815}
+#lobby.room-lobby #room-help:hover{background:#fffdf4!important;color:#956f30!important}
+#lobby.room-lobby .month{left:535px;right:auto;top:32px;width:124px;height:40px;display:flex;align-items:center;justify-content:center;gap:7px;border:1px solid #e7d6a6;background:linear-gradient(130deg,#fff8ddeb,#efe4bfeb);border-radius:12px;color:#896a31;font-size:13px;box-shadow:0 3px 12px #76552816}
+#lobby.room-lobby .month img{width:26px;height:29px;object-fit:contain}
+#lobby.room-lobby .month:hover{background:#fff4ce;color:#6d5027}
+#lobby.room-lobby .balances{left:auto;right:34px;top:33px;gap:0}
+#lobby.room-lobby .balances.single-currency>div{width:max-content;min-width:239px;height:39px;padding-right:36px;background:#fffdf1e6;border:1px solid #fffcf0;border-radius:12px;color:#244e3e;font-size:23px;box-shadow:0 3px 14px #27463814}
+#lobby.room-lobby .balances img{left:8px;top:-1px;width:40px;height:40px}
+#lobby.room-lobby .balances .currency-name{margin-left:49px;margin-right:9px;font-size:13px;font-weight:600;color:#8c6d32}
+#lobby.room-lobby .balances span{flex:none;min-width:114px;font-variant-numeric:tabular-nums;white-space:nowrap;text-align:center}
+#lobby.room-lobby .balances button{right:4px;top:0;width:30px;height:37px;color:#377359!important;font-size:26px!important}
+#lobby.room-lobby .room-sidebar{position:absolute;left:34px;top:119px;width:218px;height:342px;padding:16px 12px 12px;border:1px solid #fffcf0d9;background:linear-gradient(140deg,#fffdf1ed,#eff0e3df);border-radius:18px;box-shadow:0 8px 24px #2e513522}
+#lobby.room-lobby .room-sidebar:has(#variants button:nth-child(6)){height:393px}
+.room-sidebar-heading{height:53px;padding:0 10px;border-bottom:1px solid #d7d8bf}
+.room-sidebar-heading strong{display:block;font:600 21px/26px KaiTi,STKaiti,serif;letter-spacing:2px;color:#365f49}
+.room-sidebar-heading small{display:block;font-size:10px;color:#869178;line-height:19px}
+#lobby.room-lobby #variants{position:static;width:100%;height:calc(100% - 53px);padding-top:9px;background:none;display:flex;flex-direction:column;gap:5px;overflow:auto;scrollbar-width:thin;scrollbar-color:#b2bea4 transparent;overscroll-behavior:contain}
+#lobby.room-lobby #variants button{position:relative;width:100%;min-height:45px;height:45px;flex:none;border:1px solid transparent!important;border-radius:10px;padding:5px 12px;text-align:left;color:#4d6a51!important;background:none!important}
+#lobby.room-lobby #variants b{font:500 19px/22px KaiTi,STKaiti,'Microsoft YaHei',serif;white-space:nowrap}
+#lobby.room-lobby #variants small{display:block;font-size:7.5px;line-height:11px;letter-spacing:.3px;margin-top:1px;color:#8c9a7d;white-space:nowrap}
+#lobby.room-lobby #variants button:hover{background:#e5ead9!important}
+#lobby.room-lobby #variants button.active{background:linear-gradient(125deg,#54816a,#315e49)!important;border-color:#5f8060!important;color:#fffcec!important;box-shadow:0 3px 9px #2f54392a}
+#lobby.room-lobby #variants button.active small{color:#cbdac1}
+#lobby.room-lobby #variants button.active:before{display:none}
+#lobby.room-lobby #variants button.active:after{content:'›';position:absolute;right:9px;top:10px;font:400 24px/24px Georgia,serif;color:#ede4bc}
+#lobby.room-lobby .room-main-heading{position:absolute;left:285px;right:34px;top:99px;display:flex;align-items:baseline;gap:17px;height:32px;color:#244f3e;text-shadow:0 1px 4px #fff9e9}
+.room-main-heading h1{margin:0;font:600 25px/32px KaiTi,STKaiti,serif;letter-spacing:2px}
+.room-main-heading p{margin:0;font-size:12px;color:#61775d}
+#lobby.room-lobby #rooms{left:285px;top:144px;display:grid;grid-template-columns:repeat(3,248px);gap:19px 20px}
+#lobby.room-lobby .room-card{--room-top:#91ae78;--room-bottom:#527b4e;position:relative;display:block;width:248px;height:149px;border:1px solid #fffdf0;border-radius:17px;overflow:hidden;text-decoration:none;color:#2d5641;background:linear-gradient(140deg,var(--room-top),var(--room-bottom));box-shadow:0 7px 18px #29482d28;isolation:isolate;transition:box-shadow .18s,filter .18s,translate .18s}
+#lobby.room-lobby .room-card:nth-child(2){--room-top:#81b9a9;--room-bottom:#427d6b}
+#lobby.room-lobby .room-card:nth-child(3){--room-top:#98b6c8;--room-bottom:#4d7e96}
+#lobby.room-lobby .room-card:nth-child(4){--room-top:#c1a876;--room-bottom:#946f3e}
+#lobby.room-lobby .room-card:before{content:'';position:absolute;inset:9px 9px 37px;border:1px solid #fff7d45c;border-radius:11px;pointer-events:none}
+#lobby.room-lobby .room-card:after{content:'';position:absolute;right:-40px;top:-68px;width:188px;height:188px;border:21px solid #fff9db15;border-radius:50%;pointer-events:none}
+#lobby.room-lobby .room-card:hover{translate:0 -3px;filter:brightness(1.04);box-shadow:0 10px 24px #29482d38}
+#lobby.room-lobby .room-card>img{display:none}
+#lobby.room-lobby .room-card-name{position:absolute;left:20px;top:15px;z-index:1;font:600 25px/29px KaiTi,STKaiti,serif;letter-spacing:1px;color:#fffbe9;text-shadow:0 1px 3px #28463440}
+#lobby.room-lobby .room-card-label{position:absolute;right:19px;top:22px;z-index:1;font-size:10px;letter-spacing:1px;color:#f4f2d8}
+#lobby.room-lobby .room-card strong{left:20px;right:auto;top:45px;text-align:left;font:600 51px/61px Georgia,'Times New Roman',serif;letter-spacing:1px;color:#fffdf0;text-shadow:0 2px 4px #28463233}
+#lobby.room-lobby .room-card .meta{position:absolute;left:0;right:0;bottom:0;height:32px;padding:0 18px;display:flex;align-items:center;justify-content:space-between;gap:8px;background:linear-gradient(135deg,#fffdf0,#f3f1e2);border-top:1px solid #fffbe9;font-size:11px;color:#59715b;z-index:1}
+#lobby.room-lobby .room-card .people{font-size:11px;letter-spacing:.5px}
+#lobby.room-lobby .room-card .room-enter{color:#44664f;font-size:11px}
+.room-enter i{font:400 17px/12px Georgia,serif;font-style:normal;vertical-align:-1px;margin-left:6px;color:#8e783b}
+#lobby.room-lobby .room-gloss{bottom:32px;border-radius:17px 17px 0 0;opacity:.55}
+#lobby.room-lobby .room-activities{left:285px;bottom:24px;gap:0}
+#lobby.room-lobby .room-activities button{position:relative;width:190px;height:48px;padding:7px 14px 7px 50px;display:flex;flex-direction:column;align-items:flex-start;border:1px solid #fffbea;background:#fffdf0de;border-radius:12px;box-shadow:0 4px 14px #264c351a;text-align:left;color:#44654e}
+#lobby.room-lobby .room-activities button:hover{background:#fffdf4}
+#lobby.room-lobby .room-activities .room-icon{position:absolute;left:15px;top:13px;width:24px;height:24px;color:#658267}
+#lobby.room-lobby .room-activities span{font-family:KaiTi,STKaiti,serif;font-size:18px;line-height:20px;letter-spacing:1px}
+#lobby.room-lobby .room-activities small{font-size:9px;line-height:15px;color:#90977c}
+#lobby.room-lobby .room-activities i{position:absolute;right:15px;top:12px;font:400 23px/24px Georgia,serif;color:#8c7950}
+#lobby.room-lobby .room-activities button:after,#lobby.room-lobby .guide-entry-tip{display:none}
+#lobby.room-lobby .quick{left:auto;right:34px;top:auto;bottom:24px;width:232px;height:56px;border:1px solid #fdf0b5;border-radius:15px;background:linear-gradient(120deg,#f8de83,#e6c466);box-shadow:0 5px 19px #89622326;color:#6b4c22;text-decoration:none}
+#lobby.room-lobby .quick:before{content:'';position:absolute;inset:5px;border:1px solid #fff5c97a;border-radius:10px;pointer-events:none}
+#lobby.room-lobby .quick strong{left:22px;top:7px;font:700 27px/30px KaiTi,STKaiti,serif;letter-spacing:2px;text-shadow:0 1px #fff4c4}
+#lobby.room-lobby .quick strong span{display:inline;position:absolute;left:171px;top:0;font:400 35px/34px Georgia,serif;color:#fff4c4}
+#lobby.room-lobby .quick small{left:23px;top:37px;font-size:10px;line-height:13px;color:#947236;white-space:nowrap;max-width:185px}
+#lobby.room-lobby .quick:hover{filter:brightness(1.04);translate:0 -2px}
+#lobby.room-lobby .room-note{display:block;left:495px;bottom:38px;width:320px;max-width:320px;font-size:11px;line-height:16px;letter-spacing:.4px;color:#647351;text-shadow:0 1px 3px #fff8e3}
+#lobby.room-lobby.collapsed .room-sidebar{display:none}
+#lobby.room-lobby.collapsed .room-main-heading,#lobby.room-lobby.collapsed #rooms{left:112px}
+#lobby.room-lobby.collapsed #rooms{grid-template-columns:repeat(3,296px);gap:19px 24px}
+#lobby.room-lobby.collapsed .room-card{width:296px;height:149px}
+#lobby.room-lobby.collapsed .room-activities{left:112px}
+#lobby.room-lobby.collapsed .quick{left:auto;right:34px}
+#lobby.room-lobby.collapsed .room-note{left:322px}
+/* Style the existing rule and supply windows without changing their contents. */
+.room-lobby .native-room-rule-mask{background:#193d2c8c!important;backdrop-filter:blur(2px)}
+.room-lobby .native-room-rule-bg{border-image:none!important;border:1px solid #fffdf1;border-radius:24px;background:linear-gradient(135deg,#fffdf3,#f1f0e2);box-shadow:0 22px 65px #193d2c55}
+.room-lobby .native-room-rule-titlebar{visibility:hidden}
+.room-lobby .native-room-rule-title{left:38px;top:23px;width:auto;min-width:200px;text-align:left;font-size:0;color:#315a45}
+.room-lobby .native-room-rule-title-bitmap{display:none}
+.room-lobby .native-room-rule-title:after{content:'玩法规则';font:600 32px/36px KaiTi,STKaiti,serif;letter-spacing:4px}
+#lobby.room-lobby .native-room-rule-close img{display:none}
+.room-lobby .native-room-rule-close:after{content:'×';display:grid;place-items:center;width:38px;height:38px;border:1px solid #b9c7ad;border-radius:50%;background:#fcfaed;color:#698365;font:400 32px/32px Arial,sans-serif}
+.room-lobby .native-room-rule-tabs{gap:9px}
+#lobby.room-lobby .native-room-rule-tab{border:1px solid #cbd5bd;border-radius:10px;background-image:none!important;background-color:#e6ebdc;color:#6c7e62!important;font-size:21px}
+#lobby.room-lobby .native-room-rule-tab[aria-selected=true]{background:#365f4b;color:#fffbed!important;border-color:#365f4b}
+.room-lobby .native-room-rule-scroll{color:#3e5b43;scrollbar-width:thin;scrollbar-color:#b3c0a4 transparent;padding-right:4px}
+.room-lobby .native-room-rule-panel button:focus-visible,.room-lobby .native-room-rule-scroll:focus-visible{outline-color:#a7833e}
+body.lianzhuo-rooms #info,body.lianzhuo-rooms .practice-wallet-dialog,body.lianzhuo-rooms .demo-ad-dialog{border:1px solid #fffdf1;border-radius:21px;background:linear-gradient(135deg,#fffdf3,#edf0e2);color:#365d48;box-shadow:0 20px 60px #193d2c55}
+body.lianzhuo-rooms #info::backdrop,body.lianzhuo-rooms .practice-wallet-dialog::backdrop,body.lianzhuo-rooms .demo-ad-dialog::backdrop{background:#193d2c8c;backdrop-filter:blur(2px)}
+body.lianzhuo-rooms #info h2,body.lianzhuo-rooms .practice-wallet-dialog h2,body.lianzhuo-rooms .demo-ad-dialog h2{font-family:KaiTi,STKaiti,serif;letter-spacing:2px;color:#2e5542}
+body.lianzhuo-rooms .close,body.lianzhuo-rooms .wallet-close{color:#71856a}
+body.lianzhuo-rooms .okay,body.lianzhuo-rooms .demo-ad-done{background:linear-gradient(130deg,#537e61,#315e48);color:#fffbed;border:1px solid #597b59}
+body.lianzhuo-rooms .wallet-account,body.lianzhuo-rooms .wallet-day-note,body.lianzhuo-rooms .wallet-message,body.lianzhuo-rooms .wallet-history summary,body.lianzhuo-rooms .wallet-retry{color:#738264}
+body.lianzhuo-rooms .wallet-balance{color:#aa8038}
+body.lianzhuo-rooms .wallet-daily{border-color:#ddc27a;background:linear-gradient(#f8e4a1,#e5c66e);color:#765324}
+body.lianzhuo-rooms .wallet-ad{border-color:#b6c6a7;background:linear-gradient(#eef2e3,#dbe6cf);color:#486c50}
+body.lianzhuo-rooms .wallet-daily:disabled,body.lianzhuo-rooms .wallet-ad:disabled{background:#e0e4d5;border-color:#cbd4be;color:#8b987e}
+body.lianzhuo-rooms .demo-ad-tag{background:#e5ead8;color:#7a875e}
+body.lianzhuo-rooms .demo-ad-dialog progress{accent-color:#5e825e}
+body.lianzhuo-rooms .demo-ad-dialog .demo-ad-status,body.lianzhuo-rooms .demo-ad-dialog small{color:#7a8967}
+@media(max-height:460px){
+ #lobby.room-lobby .room-back{width:62px;height:62px;top:22px}
+ #lobby.room-lobby .room-back .back-arrow{line-height:54px}
+ #lobby.room-lobby .room-card .meta,#lobby.room-lobby .room-card .people,#lobby.room-lobby .room-card .room-enter{font-size:14px}
+ #lobby.room-lobby .room-card-label{font-size:12px}
+ #lobby.room-lobby #variants small{display:none}
+ #lobby.room-lobby #variants b{font-size:22px;line-height:32px}
+ #lobby.room-lobby #variants button{padding-top:6px}
+ #lobby.room-lobby .room-activities small{display:none}
+ #lobby.room-lobby .room-activities span{line-height:32px}
+ #lobby.room-lobby .room-note{font-size:12px}
+}
+@media(prefers-reduced-motion:reduce){#lobby.room-lobby .room-card,#lobby.room-lobby .quick{transition:none}#lobby.room-lobby .room-card:hover,#lobby.room-lobby .quick:hover{translate:none}}

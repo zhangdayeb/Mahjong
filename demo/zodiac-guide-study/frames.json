@@ -1,0 +1,527 @@
+[
+  {
+    "bundle": "lobby",
+    "id": 1700,
+    "path": "SESXGuide/biaoti1",
+    "name": "biaoti1",
+    "rect": [
+      881,
+      3,
+      736,
+      115
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      736,
+      115
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "b28384c8-ec6e-47f8-a282-42636344dab2@6c48a",
+    "textureUUID": "154d62345",
+    "image": "zodiac-guide-study/assets/lobby-1700-biaoti1.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 330,
+    "path": "SESXGuide/yindao1tu",
+    "name": "yindao1tu",
+    "rect": [
+      3,
+      3,
+      804,
+      362
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      804,
+      362
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "208d98d5-930a-4ebe-afe7-fb9dbf8102ea@6c48a",
+    "textureUUID": "1d31246ce",
+    "image": "zodiac-guide-study/assets/lobby-330-yindao1tu.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 390,
+    "path": "SESXGuide/biaoti2",
+    "name": "biaoti2",
+    "rect": [
+      550,
+      739,
+      464,
+      111
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      464,
+      111
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "26f2b581-00ab-4be7-9346-c8874f8faee2@6c48a",
+    "textureUUID": "1d31246ce",
+    "image": "zodiac-guide-study/assets/lobby-390-biaoti2.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 617,
+    "path": "SESXGuide/jixiao",
+    "name": "jixiao",
+    "rect": [
+      3,
+      371,
+      804,
+      362
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      804,
+      362
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "3e256652-a954-498b-85c3-cbd0aa385cbd@6c48a",
+    "textureUUID": "1d31246ce",
+    "image": "zodiac-guide-study/assets/lobby-617-jixiao.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1568,
+    "path": "SESXGuide/biaoti3",
+    "name": "biaoti3",
+    "rect": [
+      3,
+      739,
+      541,
+      110
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      541,
+      110
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "a5cb25c3-f735-4e2f-bc75-f1300ca703db@6c48a",
+    "textureUUID": "1d31246ce",
+    "image": "zodiac-guide-study/assets/lobby-1568-biaoti3.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1965,
+    "path": "SESXGuide/jixinggang",
+    "name": "jixinggang",
+    "rect": [
+      3,
+      371,
+      804,
+      362
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      804,
+      362
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "ce1e7ae8-99a0-4be0-81e7-1acf7c75272f@6c48a",
+    "textureUUID": "133123196",
+    "image": "zodiac-guide-study/assets/lobby-1965-jixinggang.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1779,
+    "path": "SESXGuide/biaoti4",
+    "name": "biaoti4",
+    "rect": [
+      813,
+      3,
+      552,
+      110
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      552,
+      110
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "bac26545-6e4a-44a3-bf0f-3410ce831a17@6c48a",
+    "textureUUID": "1d31246ce",
+    "image": "zodiac-guide-study/assets/lobby-1779-biaoti4.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 280,
+    "path": "SESXGuide/shengxiaotu",
+    "name": "shengxiaotu",
+    "rect": [
+      3,
+      546,
+      804,
+      362
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      804,
+      362
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "1b576fcb-63cc-4165-a510-c8fac5822b76@6c48a",
+    "textureUUID": "154d62345",
+    "image": "zodiac-guide-study/assets/lobby-280-shengxiaotu.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1079,
+    "path": "TableSel/guize",
+    "name": "guize",
+    "rect": [
+      3,
+      378,
+      116,
+      107
+    ],
+    "offset": [
+      -2,
+      -0.5
+    ],
+    "originalSize": [
+      120,
+      108
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "6fa1af32-140e-4df8-8e84-489534c647a5@6c48a",
+    "textureUUID": "1965cc29c",
+    "image": "zodiac-guide-study/assets/lobby-1079-guize.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1391,
+    "path": "SESXGuide/di0",
+    "name": "di0",
+    "rect": [
+      3,
+      3,
+      872,
+      537
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      872,
+      537
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "917928c6-aa0d-493b-9985-58c5b26e465f@6c48a",
+    "textureUUID": "154d62345",
+    "image": "zodiac-guide-study/assets/lobby-1391-di0.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 900,
+    "path": "SESXGuide/baibian",
+    "name": "baibian",
+    "rect": [
+      3,
+      3,
+      804,
+      362
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      804,
+      362
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "5c0f0883-593b-47d5-9e79-06175c6ca3d1@6c48a",
+    "textureUUID": "133123196",
+    "image": "zodiac-guide-study/assets/lobby-900-baibian.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1355,
+    "path": "SESXGuide/zuo",
+    "name": "zuo",
+    "rect": [
+      813,
+      745,
+      90,
+      108
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      90,
+      108
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "8e452cc8-c2c0-4564-888e-608880dac88b@6c48a",
+    "textureUUID": "154d62345",
+    "image": "zodiac-guide-study/assets/lobby-1355-zuo.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1641,
+    "path": "SESXGuide/you",
+    "name": "you",
+    "rect": [
+      927,
+      745,
+      90,
+      108
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      90,
+      108
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "acdfd79b-9c4d-4103-9fa2-993d1c25266b@6c48a",
+    "textureUUID": "154d62345",
+    "image": "zodiac-guide-study/assets/lobby-1641-you.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 991,
+    "path": "SESXGuide/di",
+    "name": "di",
+    "rect": [
+      3,
+      914,
+      794,
+      43
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      794,
+      43
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "65a6a69a-4e68-4f47-b7fb-fa9678e7b162@6c48a",
+    "textureUUID": "154d62345",
+    "image": "zodiac-guide-study/assets/lobby-991-di.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1500,
+    "path": "Main/glow",
+    "name": "glow",
+    "rect": [
+      3,
+      108,
+      112,
+      112
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      128,
+      128
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "9d578a0d-2b6e-432d-899f-fef2193d9478",
+    "textureUUID": "16212ef64",
+    "image": "zodiac-guide-study/assets/lobby-1500-glow.png"
+  },
+  {
+    "bundle": "common",
+    "id": 109,
+    "path": "global/guangban",
+    "name": "guangban",
+    "rect": [
+      372,
+      214,
+      219,
+      219
+    ],
+    "offset": [
+      0.5,
+      -0.5
+    ],
+    "originalSize": [
+      256,
+      256
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "26096d89-24aa-48eb-9355-76c160f5671b",
+    "textureUUID": "1c0b6e64f",
+    "image": "zodiac-guide-study/assets/common-109-guangban.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 616,
+    "path": "Main/shouzhi",
+    "name": "shouzhi",
+    "rect": [
+      3,
+      226,
+      85,
+      125
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      94,
+      125
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "3e11f108-3279-4907-89ea-0886b9f76af6",
+    "textureUUID": "16212ef64",
+    "image": "zodiac-guide-study/assets/lobby-616-shouzhi.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1447,
+    "path": "SESXGuide/guanbi",
+    "name": "guanbi",
+    "rect": [
+      813,
+      546,
+      39,
+      39
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      39,
+      39
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "9848394b-4f3f-4a7f-9d22-417c9826f6c0@6c48a",
+    "textureUUID": "154d62345",
+    "image": "zodiac-guide-study/assets/lobby-1447-guanbi.png"
+  }
+]

@@ -1,0 +1,20 @@
+番型收集卷轴及场次底部入口
+
+主框来自prefabs2366 FanGatherView，入口1237 FanGatherEntry和1421 GameTeachEntry。
+原卷轴pic_16尺寸1088×613、中心[70,-45]；卡片200×250，以原Layout竖向优先排列，
+两行五列，原viewport955×500、中心[74,-47]；卡片未获得进度时保持原???。
+徽章按原图片里的文字匹配，red使用节点866（血流红中），classic893（四季常春不洗牌），
+sanguo911（三国麻将），zodiac898（十二生肖）。此前根据节点数值猜映射错误，已纠正。
+这些节点ID不用于判断本地规则或玩法ID。
+顶部保留原树及原坐标，宿主应禁止overflow:hidden容器在程序聚焦时滚动，避免顶栏裁掉。
+本地header水平适配仍采用本地左边距；原运行时Widget宽屏设置需要完整环境才能严格还原。
+
+原45张SpriteFrame保留originalSize与Trim模式，原字体位图也保留。
+本地fragment计数来自调用参数progress，不复制用户在线的1/1或番型1/9。
+未取得服务器fanCardCfg的卡片排序、番型图绑定和领奖条件，当前不伪造它们。
+createNativeCollection(parent).show(mode,progress?)及setProgress可接本地真实数据；
+progress={fragments:number,cards:[{name,count}]}。
+
+场次入口原橙提示图与文字直接来自1421，默认保留领牌桌/领游戏豆交替提示供重复教学。
+drawEntry在换掉img前保留alt为button aria-label，确保玩法指引/番型收集仍能被访问。
+场次问号进入独立原玩法规则；玩法指引仍先确认再进入实际本地教学，未误当规则入口。

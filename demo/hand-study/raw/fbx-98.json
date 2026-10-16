@@ -1,0 +1,354 @@
+[
+  1,
+  0,
+  0,
+  [
+    [
+      "cc.SkeletonAnimationClip",
+      [
+        "_name",
+        "_native",
+        "_duration",
+        "wrapMode",
+        "description"
+      ],
+      -2
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      2,
+      3,
+      4,
+      6
+    ]
+  ],
+  [
+    [
+      0,
+      "Take 001",
+      ".bin",
+      0.9583333134651184,
+      2,
+      {
+        "Bip001 R Clavicle/Bip001 R UpperArm": {
+          "position": {
+            "offset": 0,
+            "frameCount": 15
+          },
+          "quat": {
+            "offset": 60,
+            "frameCount": 24
+          },
+          "scale": {
+            "offset": 180,
+            "frameCount": 1
+          }
+        },
+        "Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm": {
+          "quat": {
+            "offset": 184,
+            "frameCount": 23
+          },
+          "scale": {
+            "offset": 299,
+            "frameCount": 1
+          },
+          "position": {
+            "offset": 303,
+            "frameCount": 1
+          }
+        },
+        "Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand": {
+          "quat": {
+            "offset": 307,
+            "frameCount": 23
+          },
+          "scale": {
+            "offset": 422,
+            "frameCount": 1
+          },
+          "position": {
+            "offset": 426,
+            "frameCount": 1
+          }
+        },
+        "Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger1_0": {
+          "quat": {
+            "offset": 430,
+            "frameCount": 23
+          },
+          "scale": {
+            "offset": 545,
+            "frameCount": 1
+          },
+          "position": {
+            "offset": 549,
+            "frameCount": 1
+          }
+        },
+        "Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger1_0/Bip001 R Finger1_1": {
+          "quat": {
+            "offset": 553,
+            "frameCount": 23
+          },
+          "scale": {
+            "offset": 668,
+            "frameCount": 1
+          },
+          "position": {
+            "offset": 672,
+            "frameCount": 1
+          }
+        },
+        "Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger1_0/Bip001 R Finger1_1/Bip001 R Finger1_2": {
+          "quat": {
+            "offset": 676,
+            "frameCount": 23
+          },
+          "scale": {
+            "offset": 791,
+            "frameCount": 1
+          },
+          "position": {
+            "offset": 795,
+            "frameCount": 1
+          }
+        },
+        "Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger3_0": {
+          "quat": {
+            "offset": 799,
+            "frameCount": 10
+          },
+          "scale": {
+            "offset": 849,
+            "frameCount": 1
+          },
+          "position": {
+            "offset": 853,
+            "frameCount": 1
+          }
+        },
+        "Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger3_0/Bip001 R Finger3_1": {
+          "quat": {
+            "offset": 857,
+            "frameCount": 19
+          },
+          "scale": {
+            "offset": 952,
+            "frameCount": 1
+          },
+          "position": {
+            "offset": 956,
+            "frameCount": 1
+          }
+        },
+        "Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger3_0/Bip001 R Finger3_1/Bip001 R Finger3_2": {
+          "quat": {
+            "offset": 960,
+            "frameCount": 12
+          },
+          "scale": {
+            "offset": 1020,
+            "frameCount": 1
+          },
+          "position": {
+            "offset": 1024,
+            "frameCount": 1
+          }
+        },
+        "Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger4_1": {
+          "quat": {
+            "offset": 1028,
+            "frameCount": 23
+          },
+          "scale": {
+            "offset": 1143,
+            "frameCount": 1
+          },
+          "position": {
+            "offset": 1147,
+            "frameCount": 1
+          }
+        },
+        "Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger4_1/Bip001 R Finger4_2": {
+          "quat": {
+            "offset": 1151,
+            "frameCount": 12
+          },
+          "scale": {
+            "offset": 1211,
+            "frameCount": 1
+          },
+          "position": {
+            "offset": 1215,
+            "frameCount": 1
+          }
+        },
+        "Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger4_1/Bip001 R Finger4_2/Bip001 R Finger4_3": {
+          "quat": {
+            "offset": 1219,
+            "frameCount": 12
+          },
+          "scale": {
+            "offset": 1279,
+            "frameCount": 1
+          },
+          "position": {
+            "offset": 1283,
+            "frameCount": 1
+          }
+        },
+        "Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger0": {
+          "quat": {
+            "offset": 1287,
+            "frameCount": 23
+          },
+          "scale": {
+            "offset": 1402,
+            "frameCount": 1
+          },
+          "position": {
+            "offset": 1406,
+            "frameCount": 1
+          }
+        },
+        "Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger0/Bip001 R Finger01": {
+          "quat": {
+            "offset": 1410,
+            "frameCount": 21
+          },
+          "scale": {
+            "offset": 1515,
+            "frameCount": 1
+          },
+          "position": {
+            "offset": 1519,
+            "frameCount": 1
+          }
+        },
+        "Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger0/Bip001 R Finger01/Bip001 R Finger02": {
+          "quat": {
+            "offset": 1523,
+            "frameCount": 22
+          },
+          "scale": {
+            "offset": 1633,
+            "frameCount": 1
+          },
+          "position": {
+            "offset": 1637,
+            "frameCount": 1
+          }
+        },
+        "Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finge2_0": {
+          "quat": {
+            "offset": 1641,
+            "frameCount": 10
+          },
+          "scale": {
+            "offset": 1691,
+            "frameCount": 1
+          },
+          "position": {
+            "offset": 1695,
+            "frameCount": 1
+          }
+        },
+        "Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finge2_0/Bip001 R Finger2_1": {
+          "quat": {
+            "offset": 1699,
+            "frameCount": 19
+          },
+          "scale": {
+            "offset": 1794,
+            "frameCount": 1
+          },
+          "position": {
+            "offset": 1798,
+            "frameCount": 1
+          }
+        },
+        "Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finge2_0/Bip001 R Finger2_1/Bip001 R Finger2_2": {
+          "quat": {
+            "offset": 1802,
+            "frameCount": 10
+          },
+          "scale": {
+            "offset": 1852,
+            "frameCount": 1
+          },
+          "position": {
+            "offset": 1856,
+            "frameCount": 1
+          }
+        },
+        "Bip001 R Clavicle/组001": {
+          "position": {
+            "offset": 1860,
+            "frameCount": 8
+          },
+          "quat": {
+            "offset": 1892,
+            "frameCount": 10
+          },
+          "scale": {
+            "offset": 1942,
+            "frameCount": 1
+          }
+        },
+        "hand": {
+          "quat": {
+            "offset": 1946,
+            "frameCount": 1
+          },
+          "scale": {
+            "offset": 1951,
+            "frameCount": 1
+          },
+          "position": {
+            "offset": 1955,
+            "frameCount": 1
+          }
+        },
+        "Bip001 R Clavicle": {
+          "quat": {
+            "offset": 1959,
+            "frameCount": 1
+          },
+          "scale": {
+            "offset": 1964,
+            "frameCount": 1
+          },
+          "position": {
+            "offset": 1968,
+            "frameCount": 1
+          }
+        },
+        "Bip001 R Clavicle/组001/mjpai28_L_005": {
+          "quat": {
+            "offset": 1972,
+            "frameCount": 1
+          },
+          "scale": {
+            "offset": 1977,
+            "frameCount": 1
+          },
+          "position": {
+            "offset": 1981,
+            "frameCount": 1
+          }
+        }
+      }
+    ],
+    -1
+  ],
+  0,
+  0,
+  [],
+  [],
+  []
+]

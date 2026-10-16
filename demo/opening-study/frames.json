@@ -1,0 +1,80 @@
+[
+  {
+    "name": "img_Display_2",
+    "rect": [
+      2,
+      274,
+      132,
+      134
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      134,
+      134
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "id": 1794,
+    "textureUUID": "3d7b6b7b-f23d-4584-af03-b80a084d3cd6",
+    "image": "opening-study/img_Display_2.png"
+  },
+  {
+    "name": "img_Display_1",
+    "rect": [
+      2,
+      2,
+      134,
+      134
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      134,
+      134
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "id": 1927,
+    "textureUUID": "3d7b6b7b-f23d-4584-af03-b80a084d3cd6",
+    "image": "opening-study/img_Display_1.png"
+  },
+  {
+    "name": "img_Display_3",
+    "rect": [
+      2,
+      138,
+      132,
+      134
+    ],
+    "offset": [
+      1,
+      0
+    ],
+    "originalSize": [
+      134,
+      134
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "id": 2168,
+    "textureUUID": "3d7b6b7b-f23d-4584-af03-b80a084d3cd6",
+    "image": "opening-study/img_Display_3.png"
+  }
+]

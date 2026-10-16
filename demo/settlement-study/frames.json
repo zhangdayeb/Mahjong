@@ -1,0 +1,1219 @@
+[
+  {
+    "bundle": "common",
+    "id": 169,
+    "path": "NewSkin/NewBtn/btn_com09",
+    "name": "btn_com09",
+    "rect": [
+      348,
+      3,
+      233,
+      85
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      233,
+      85
+    ],
+    "rotated": 1,
+    "capInsets": [
+      117,
+      29,
+      94,
+      45
+    ],
+    "textureUUID": "1e8019203",
+    "image": "settlement-study/assets/common-169-btn_com09.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 486,
+    "path": "MJMasterPath/pic_27",
+    "name": "pic_27",
+    "rect": [
+      545,
+      663,
+      39,
+      32
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      39,
+      32
+    ],
+    "rotated": 1,
+    "capInsets": [
+      19,
+      13,
+      17,
+      16
+    ],
+    "textureUUID": "132b07a7b",
+    "image": "settlement-study/assets/lobby-486-pic_27.png"
+  },
+  {
+    "bundle": "common",
+    "id": 350,
+    "path": "NewSkin/NewBtn/da-huanganniu",
+    "name": "da-huanganniu",
+    "rect": [
+      3,
+      361,
+      278,
+      97
+    ],
+    "offset": [
+      1,
+      0
+    ],
+    "originalSize": [
+      280,
+      97
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "1e8019203",
+    "image": "settlement-study/assets/common-350-da-huanganniu.png"
+  },
+  {
+    "bundle": "common",
+    "id": 188,
+    "path": "NewSkin/NewBtn/btn_com08",
+    "name": "btn_com08",
+    "rect": [
+      347,
+      340,
+      233,
+      85
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      233,
+      85
+    ],
+    "rotated": 1,
+    "capInsets": [
+      121,
+      35,
+      85,
+      38
+    ],
+    "textureUUID": "1e8019203",
+    "image": "settlement-study/assets/common-188-btn_com08.png"
+  },
+  {
+    "bundle": "game",
+    "id": 974,
+    "path": "NewSkin/JieSuan/xiala",
+    "name": "xiala",
+    "rect": [
+      0,
+      0,
+      44,
+      44
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      44,
+      44
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "017ebd98-8736-4039-9211-91ab5ffd1c0b",
+    "image": "settlement-study/assets/game-974-xiala.png"
+  },
+  {
+    "bundle": "common",
+    "id": 143,
+    "path": "NewSkin/BubTip/tishiheidiqipaojiugongge",
+    "name": "tishiheidiqipaojiugongge",
+    "rect": [
+      3,
+      3,
+      47,
+      43
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      47,
+      43
+    ],
+    "capInsets": [
+      8,
+      7,
+      7,
+      7
+    ],
+    "textureUUID": "1b2fe0eaa",
+    "image": "settlement-study/assets/common-143-tishiheidiqipaojiugongge.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1678,
+    "path": "Main/HappyBumpEntry",
+    "name": "HappyBumpEntry",
+    "rect": [
+      152,
+      224,
+      96,
+      99
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      96,
+      99
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "16212ef64",
+    "image": "settlement-study/assets/lobby-1678-HappyBumpEntry.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 2403,
+    "path": "MJMasterPath/pic_24",
+    "name": "pic_24",
+    "rect": [
+      903,
+      692,
+      63,
+      65
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      63,
+      65
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "132b07a7b",
+    "image": "settlement-study/assets/lobby-2403-pic_24.png"
+  },
+  {
+    "bundle": "common",
+    "id": 11,
+    "path": "NewSkin/BubTip/tiao",
+    "name": "tiao",
+    "rect": [
+      3,
+      52,
+      184,
+      36
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      184,
+      36
+    ],
+    "rotated": 1,
+    "capInsets": [
+      60,
+      0,
+      61,
+      0
+    ],
+    "textureUUID": "1b2fe0eaa",
+    "image": "settlement-study/assets/common-11-tiao.png"
+  },
+  {
+    "bundle": "game",
+    "id": 461,
+    "path": "NewSkin/JieSuan/yingdi",
+    "name": "yingdi",
+    "rect": [
+      0,
+      0,
+      1558,
+      414
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1558,
+      414
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "2c379ca5-ced6-44c3-83d2-3997fe5a08d5",
+    "image": "settlement-study/assets/game-461-yingdi.png"
+  },
+  {
+    "bundle": "game",
+    "id": 1232,
+    "path": "NewSkin/JieSuan/shudi",
+    "name": "shudi",
+    "rect": [
+      0,
+      0,
+      1558,
+      414
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1558,
+      414
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "0cc5d761-8ade-4dc1-ba43-b9d3970b7063",
+    "image": "settlement-study/assets/game-1232-shudi.png"
+  },
+  {
+    "bundle": "game",
+    "id": 172,
+    "path": "NewSkin/JieSuan/dayingjia",
+    "name": "dayingjia",
+    "rect": [
+      0,
+      0,
+      117,
+      38
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      117,
+      38
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "a1287433-f161-49c2-89ef-3f95cbf5374a",
+    "image": "settlement-study/assets/game-172-dayingjia.png"
+  },
+  {
+    "bundle": "common",
+    "id": 217,
+    "path": "global/img_TicketBg",
+    "name": "img_TicketBg",
+    "rect": [
+      3,
+      3,
+      365,
+      3
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      365,
+      3
+    ],
+    "capInsets": [
+      130,
+      0,
+      130,
+      0
+    ],
+    "textureUUID": "1c0b6e64f",
+    "image": "settlement-study/assets/common-217-img_TicketBg.png"
+  },
+  {
+    "bundle": "game",
+    "id": 646,
+    "path": "NewSkin/JieSuan/linghongbao",
+    "name": "linghongbao",
+    "rect": [
+      0,
+      0,
+      184,
+      46
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      184,
+      46
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "9b892922-b42f-4748-8446-4dbf5c6fc50c",
+    "image": "settlement-study/assets/game-646-linghongbao.png"
+  },
+  {
+    "bundle": "game",
+    "id": 731,
+    "path": "NewSkin/JieSuan/touxiangdaxiao",
+    "name": "touxiangdaxiao",
+    "rect": [
+      0,
+      0,
+      80,
+      82
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      80,
+      82
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "62c3ea60-10b2-4f30-92ce-1152e9474bc4",
+    "image": "settlement-study/assets/game-731-touxiangdaxiao.png"
+  },
+  {
+    "bundle": "game",
+    "id": 1321,
+    "path": "ComGameResult/bg_feng_ding",
+    "name": "bg_feng_ding",
+    "rect": [
+      3,
+      105,
+      87,
+      87
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      87,
+      87
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "1e84c5d1c",
+    "image": "settlement-study/assets/game-1321-bg_feng_ding.png"
+  },
+  {
+    "bundle": "game",
+    "id": 1067,
+    "path": "NewSkin/JieSuan/pochan",
+    "name": "pochan",
+    "rect": [
+      0,
+      0,
+      117,
+      38
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      117,
+      38
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "bcb2579b-fd65-4316-a8ad-8a5d14f599a0",
+    "image": "settlement-study/assets/game-1067-pochan.png"
+  },
+  {
+    "bundle": "common",
+    "id": 772,
+    "path": "NewSkin/BubTip/jiantou",
+    "name": "jiantou",
+    "rect": [
+      3,
+      242,
+      24,
+      18
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      24,
+      18
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "1b2fe0eaa",
+    "image": "settlement-study/assets/common-772-jiantou.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1310,
+    "path": "Main/img_redBall",
+    "name": "img_redBall",
+    "rect": [
+      94,
+      226,
+      21,
+      22
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      21,
+      22
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "16212ef64",
+    "image": "settlement-study/assets/lobby-1310-img_redBall.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 2002,
+    "path": "MJMasterPath/pic_28",
+    "name": "pic_28",
+    "rect": [
+      3,
+      1006,
+      19,
+      14
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      19,
+      14
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "132b07a7b",
+    "image": "settlement-study/assets/lobby-2002-pic_28.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 431,
+    "path": "MJMasterPath/pic_29",
+    "name": "pic_29",
+    "rect": [
+      473,
+      829,
+      44,
+      43
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      44,
+      43
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "132b07a7b",
+    "image": "settlement-study/assets/lobby-431-pic_29.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 577,
+    "path": "mjhj/anims/game/AnimTextuerRes/animRes/selectSceneAni/xc_sg_06",
+    "name": "xc_sg_06",
+    "rect": [
+      3,
+      824,
+      44,
+      65
+    ],
+    "offset": [
+      -12.5,
+      1.5
+    ],
+    "originalSize": [
+      103,
+      70
+    ],
+    "rotated": 1,
+    "capInsets": [
+      18,
+      13,
+      18,
+      18
+    ],
+    "textureUUID": "18d30451e",
+    "image": "settlement-study/assets/resources-577-xc_sg_06.png"
+  },
+  {
+    "bundle": "common",
+    "id": 761,
+    "path": "NewSkin/BubTip/hongjiantou",
+    "name": "hongjiantou",
+    "rect": [
+      33,
+      242,
+      17,
+      11
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      17,
+      11
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "1b2fe0eaa",
+    "image": "settlement-study/assets/common-761-hongjiantou.png"
+  },
+  {
+    "bundle": "common",
+    "id": 286,
+    "path": "NewSkin/NewBtn/btn_com15",
+    "name": "btn_com15",
+    "rect": [
+      130,
+      985,
+      31,
+      30
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      31,
+      30
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "1e8019203",
+    "image": "settlement-study/assets/common-286-btn_com15.png"
+  },
+  {
+    "bundle": "game",
+    "id": 390,
+    "path": "NewSkin/JieSuan/zhiwen",
+    "name": "zhiwen",
+    "rect": [
+      0,
+      0,
+      149,
+      78
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      149,
+      78
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "3a0ebfae-281e-4b37-83a7-83e21fcc8b1d",
+    "image": "settlement-study/assets/game-390-zhiwen.png"
+  },
+  {
+    "bundle": "game",
+    "id": 436,
+    "path": "NewSkin/JieSuan/hongdi",
+    "name": "hongdi",
+    "rect": [
+      0,
+      0,
+      59,
+      30
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      59,
+      30
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "e1a1e0a2-719c-4302-a284-7a5eaab1dd26",
+    "image": "settlement-study/assets/game-436-hongdi.png"
+  },
+  {
+    "bundle": "game",
+    "id": 378,
+    "path": "NewSkin/JieSuan/fengding",
+    "name": "fengding",
+    "rect": [
+      0,
+      0,
+      157,
+      38
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      157,
+      38
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "f5f46435-134a-47a1-9e8e-50ccb8f2e2ff",
+    "image": "settlement-study/assets/game-378-fengding.png"
+  },
+  {
+    "bundle": "game",
+    "id": 293,
+    "path": "NewSkin/JieSuan/gengduo",
+    "name": "gengduo",
+    "rect": [
+      0,
+      0,
+      47,
+      37
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      47,
+      37
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "66a72450-48fb-4fff-ac2c-765b9c19cc21",
+    "image": "settlement-study/assets/game-293-gengduo.png"
+  },
+  {
+    "bundle": "common",
+    "id": 257,
+    "path": "global/yd999",
+    "name": "yd999",
+    "rect": [
+      392,
+      905,
+      39,
+      39
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      39,
+      39
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "1c0b6e64f",
+    "image": "settlement-study/assets/common-257-yd999.png"
+  },
+  {
+    "bundle": "game",
+    "id": 255,
+    "path": "NewSkin/JieSuan/shuxiao",
+    "name": "shuxiao",
+    "rect": [
+      0,
+      0,
+      313,
+      76
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      313,
+      76
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "8ca7fccb-c721-432c-a7ac-a1acc317e25b",
+    "image": "settlement-study/assets/game-255-shuxiao.png"
+  },
+  {
+    "bundle": "game",
+    "id": 270,
+    "path": "NewSkin/JieSuan/yingxiao",
+    "name": "yingxiao",
+    "rect": [
+      0,
+      0,
+      313,
+      76
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      313,
+      76
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "865ea6b0-b781-4708-b845-16af0fe9249b",
+    "image": "settlement-study/assets/game-270-yingxiao.png"
+  },
+  {
+    "bundle": "game",
+    "id": 912,
+    "path": "NewSkin/JieSuan/kanshipingqipao",
+    "name": "kanshipingqipao",
+    "rect": [
+      0,
+      0,
+      364,
+      46
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      364,
+      46
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "5030e550-2984-4c5e-bfb9-fba71646e4b8",
+    "image": "settlement-study/assets/game-912-kanshipingqipao.png"
+  },
+  {
+    "bundle": "game",
+    "id": 1070,
+    "path": "NewSkin/JieSuan/zhuang",
+    "name": "zhuang",
+    "rect": [
+      0,
+      0,
+      28,
+      29
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      28,
+      29
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "aa855761-9536-4ebe-8ea6-507b0fbbf0b9",
+    "image": "settlement-study/assets/game-1070-zhuang.png"
+  },
+  {
+    "bundle": "game",
+    "id": 1381,
+    "path": "NewSkin/JieSuan/baifengexian",
+    "name": "baifengexian",
+    "rect": [
+      0,
+      0,
+      732,
+      2
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      732,
+      2
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "bc62a878-02a6-4b72-9f8a-56ac90381092",
+    "image": "settlement-study/assets/game-1381-baifengexian.png"
+  },
+  {
+    "bundle": "common",
+    "id": 554,
+    "path": "MJMasterPath/b_7",
+    "name": "b_7",
+    "rect": [
+      3,
+      3,
+      384,
+      330
+    ],
+    "offset": [
+      0,
+      5
+    ],
+    "originalSize": [
+      384,
+      340
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "1e5b64136",
+    "image": "settlement-study/assets/common-554-b_7.png"
+  },
+  {
+    "bundle": "common",
+    "id": 114,
+    "path": "MJMasterPath/r_1",
+    "name": "r_1",
+    "rect": [
+      3,
+      848,
+      239,
+      172
+    ],
+    "offset": [
+      6,
+      -2.5
+    ],
+    "originalSize": [
+      341,
+      273
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "1e5b64136",
+    "image": "settlement-study/assets/common-114-r_1.png"
+  },
+  {
+    "bundle": "common",
+    "id": 796,
+    "path": "MJMasterPath/s_1",
+    "name": "s_1",
+    "rect": [
+      426,
+      964,
+      172,
+      51
+    ],
+    "offset": [
+      11.5,
+      -3
+    ],
+    "originalSize": [
+      205,
+      95
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "1e5b64136",
+    "image": "settlement-study/assets/common-796-s_1.png"
+  },
+  {
+    "bundle": "common",
+    "id": 480,
+    "path": "NewSkin/NewBtn/btn_com01",
+    "name": "btn_com01",
+    "rect": [
+      347,
+      242,
+      91,
+      92
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      91,
+      92
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "1e8019203",
+    "image": "settlement-study/assets/common-480-btn_com01.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 925,
+    "path": "MJMasterPath/pic_25-1",
+    "name": "pic_25-1",
+    "rect": [
+      750,
+      227,
+      257,
+      27
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      257,
+      27
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "132b07a7b",
+    "image": "settlement-study/assets/lobby-925-pic_25-1.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1309,
+    "path": "MJMasterPath/pic_25-2",
+    "name": "pic_25-2",
+    "rect": [
+      750,
+      490,
+      257,
+      27
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      257,
+      27
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "132b07a7b",
+    "image": "settlement-study/assets/lobby-1309-pic_25-2.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1247,
+    "path": "MJMasterPath/pic_26",
+    "name": "pic_26",
+    "rect": [
+      903,
+      761,
+      49,
+      25
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      49,
+      25
+    ],
+    "capInsets": [
+      26,
+      10,
+      21,
+      13
+    ],
+    "textureUUID": "132b07a7b",
+    "image": "settlement-study/assets/lobby-1247-pic_26.png"
+  },
+  {
+    "bundle": "fonts",
+    "id": 32,
+    "path": "game/Coin/fnt_win",
+    "name": "fnt_win",
+    "rect": [
+      3,
+      596,
+      257,
+      277
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      258,
+      278
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "1bea5a24d",
+    "image": "settlement-study/assets/fonts-32-fnt_win.png"
+  },
+  {
+    "bundle": "fonts",
+    "id": 226,
+    "path": "game/Coin/fnt_lose",
+    "name": "fnt_lose",
+    "rect": [
+      286,
+      596,
+      257,
+      277
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      258,
+      278
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "textureUUID": "1bea5a24d",
+    "image": "settlement-study/assets/fonts-226-fnt_lose.png"
+  }
+]

@@ -1,0 +1,4379 @@
+{
+  "prefab": {
+    "bundle": "prefabs",
+    "id": 3840
+  },
+  "nodes": [
+    {
+      "name": "pannel_HSZ",
+      "position": [
+        640,
+        360
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Widget",
+          "alignMode": 0,
+          "_alignFlags": 45
+        }
+      ]
+    },
+    {
+      "name": "tile_base1",
+      "parent": "img_slectedFrame",
+      "position": [
+        -63,
+        0
+      ],
+      "scale": [
+        0.65,
+        0.65
+      ],
+      "size": [
+        91,
+        134
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "0c5f2a30-88d7-433e-8a36-49e45b25f2ce"
+        }
+      ]
+    },
+    {
+      "name": "tile_base2",
+      "parent": "img_slectedFrame",
+      "position": [
+        0,
+        0
+      ],
+      "scale": [
+        0.65,
+        0.65
+      ],
+      "size": [
+        91,
+        134
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "0c5f2a30-88d7-433e-8a36-49e45b25f2ce"
+        }
+      ]
+    },
+    {
+      "name": "tile_base3",
+      "parent": "img_slectedFrame",
+      "position": [
+        63,
+        0
+      ],
+      "scale": [
+        0.65,
+        0.65
+      ],
+      "size": [
+        91,
+        134
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "0c5f2a30-88d7-433e-8a36-49e45b25f2ce"
+        }
+      ]
+    },
+    {
+      "name": "tile_base1",
+      "parent": "img_slectedFrame",
+      "position": [
+        -63,
+        0
+      ],
+      "scale": [
+        0.65,
+        0.65
+      ],
+      "size": [
+        91,
+        134
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "0c5f2a30-88d7-433e-8a36-49e45b25f2ce"
+        }
+      ]
+    },
+    {
+      "name": "tile_base2",
+      "parent": "img_slectedFrame",
+      "position": [
+        0,
+        0
+      ],
+      "scale": [
+        0.65,
+        0.65
+      ],
+      "size": [
+        91,
+        134
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "0c5f2a30-88d7-433e-8a36-49e45b25f2ce"
+        }
+      ]
+    },
+    {
+      "name": "tile_base3",
+      "parent": "img_slectedFrame",
+      "position": [
+        63,
+        0
+      ],
+      "scale": [
+        0.65,
+        0.65
+      ],
+      "size": [
+        91,
+        134
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "0c5f2a30-88d7-433e-8a36-49e45b25f2ce"
+        }
+      ]
+    },
+    {
+      "name": "imgBg2v2",
+      "parent": "2V2",
+      "position": [
+        0,
+        95
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        237,
+        135
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": []
+    },
+    {
+      "name": "Anim_HSZ",
+      "parent": "pannel_HSZ",
+      "position": [
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Widget",
+          "_alignFlags": 45
+        }
+      ]
+    },
+    {
+      "name": "Diamond",
+      "parent": "tile_base1",
+      "position": [
+        2,
+        50
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        0,
+        0
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": false,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": []
+    },
+    {
+      "name": "Diamond",
+      "parent": "tile_base2",
+      "position": [
+        2,
+        50
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        0,
+        0
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": false,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": []
+    },
+    {
+      "name": "Diamond",
+      "parent": "tile_base3",
+      "position": [
+        2,
+        50
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        0,
+        0
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": false,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": []
+    },
+    {
+      "name": "Diamond",
+      "parent": "tile_base1",
+      "position": [
+        2,
+        50
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        0,
+        0
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": false,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": []
+    },
+    {
+      "name": "Diamond",
+      "parent": "tile_base2",
+      "position": [
+        2,
+        50
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        0,
+        0
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": false,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": []
+    },
+    {
+      "name": "Diamond",
+      "parent": "tile_base3",
+      "position": [
+        2,
+        50
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        0,
+        0
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": false,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": []
+    },
+    {
+      "name": "mine",
+      "parent": "Anim_HSZ",
+      "position": [
+        0,
+        -115
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        165,
+        150
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": false,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": []
+    },
+    {
+      "name": "left",
+      "parent": "Anim_HSZ",
+      "position": [
+        -271,
+        25
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        308,
+        108
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": false,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": []
+    },
+    {
+      "name": "front",
+      "parent": "Anim_HSZ",
+      "position": [
+        0,
+        232
+      ],
+      "scale": [
+        0.8,
+        0.8
+      ],
+      "size": [
+        165,
+        150
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": false,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": []
+    },
+    {
+      "name": "right",
+      "parent": "Anim_HSZ",
+      "position": [
+        275,
+        25
+      ],
+      "scale": [
+        -1,
+        1
+      ],
+      "size": [
+        308,
+        123
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": false,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": []
+    },
+    {
+      "name": "img_HszTip",
+      "parent": "normal",
+      "position": [
+        0,
+        -50.5
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        500,
+        200
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": []
+    },
+    {
+      "name": "img_slectedFrame",
+      "parent": "MemeberSelectedCards",
+      "position": [
+        0,
+        76.992
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        206,
+        100
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_enabled": false,
+          "_type": 1,
+          "_sizeMode": 0,
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "2d863b3b-ce6d-4c33-b1ee-8fcaed09306e"
+        }
+      ]
+    },
+    {
+      "name": "img_slectedFrame",
+      "parent": "MeSelectedCards",
+      "position": [
+        0,
+        -76.992
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        206,
+        100
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_enabled": false,
+          "_type": 1,
+          "_sizeMode": 0,
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "2d863b3b-ce6d-4c33-b1ee-8fcaed09306e"
+        }
+      ]
+    },
+    {
+      "name": "btn_reqHSZ",
+      "parent": "img_HszTip",
+      "position": [
+        0,
+        -46.069
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        233,
+        85
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_sizeMode": 2,
+          "_isTrimmedMode": false,
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "73646625-c45e-4e40-ab59-d5cc564ef4e0"
+        },
+        {
+          "class": "cc.Button",
+          "_N$enableAutoGrayEffect": true,
+          "_N$transition": 3,
+          "_N$pressedColor": [
+            4294967295
+          ],
+          "_N$disabledColor": [
+            4294967295
+          ],
+          "_normalMaterial": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432",
+          "_N$normalSprite": "fd28bd11-884d-47ad-85cd-65c42c6c5cc7",
+          "_N$pressedSprite": "e9ec654c-97a2-4787-9325-e6a10375219a",
+          "_N$hoverSprite": "f0048c10-f03e-4c97-b9d3-3506e1d58952",
+          "_N$disabledSprite": "29158224-f8dd-4661-a796-1ffab537140e"
+        }
+      ]
+    },
+    {
+      "name": "RichText",
+      "parent": "img_AllCorlorWord",
+      "position": [
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        264.47,
+        63
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": []
+    },
+    {
+      "name": "RichText",
+      "parent": "img_SameCorlorWord",
+      "position": [
+        0,
+        2.062
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        315,
+        63
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": []
+    },
+    {
+      "name": "DotNode",
+      "parent": "ChoosingItem",
+      "position": [
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        0,
+        0
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": []
+    },
+    {
+      "name": "DotNode",
+      "parent": "ChoosingItem",
+      "position": [
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        0,
+        0
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": []
+    },
+    {
+      "name": "DotNode",
+      "parent": "ChoosingItem",
+      "position": [
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        0,
+        0
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": []
+    },
+    {
+      "name": "DotNode",
+      "parent": "ChoosingItem",
+      "position": [
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        0,
+        0
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": []
+    },
+    {
+      "name": "btn_green",
+      "parent": "imgBg2v2",
+      "position": [
+        0,
+        -180
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        233,
+        85
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_sizeMode": 2,
+          "_isTrimmedMode": false,
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "73646625-c45e-4e40-ab59-d5cc564ef4e0"
+        },
+        {
+          "class": "cc.Button",
+          "duration": 0,
+          "zoomScale": 1.1,
+          "_N$enableAutoGrayEffect": true,
+          "_N$transition": 3,
+          "_N$normalColor": [
+            4292269782
+          ],
+          "_normalMaterial": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+        }
+      ]
+    },
+    {
+      "name": "img_SameCorlorWord",
+      "parent": "img_HszTip",
+      "position": [
+        0,
+        58.219
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        377,
+        40
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": false,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_enabled": false,
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "fce3d822-4265-4dc8-aac9-db4691bf9975"
+        }
+      ]
+    },
+    {
+      "name": "img_waitHSZ_mine",
+      "parent": "pannel_HSZ",
+      "position": [
+        4,
+        -161
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        150,
+        68
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": false,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Widget",
+          "alignMode": 0,
+          "_alignFlags": 5,
+          "_left": 258,
+          "_top": 487,
+          "_bottom": 165,
+          "_originalHeight": 68
+        }
+      ]
+    },
+    {
+      "name": "ChoosingItem",
+      "parent": "img_waitHSZ_mine",
+      "position": [
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        165,
+        74
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": []
+    },
+    {
+      "name": "img_waitHSZ_left",
+      "parent": "pannel_HSZ",
+      "position": [
+        -307,
+        34
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        150,
+        68
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": false,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Widget",
+          "alignMode": 0,
+          "_alignFlags": 5,
+          "_left": 258,
+          "_top": 292,
+          "_bottom": 360,
+          "_originalHeight": 68
+        }
+      ]
+    },
+    {
+      "name": "ChoosingItem",
+      "parent": "img_waitHSZ_left",
+      "position": [
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        165,
+        74
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": []
+    },
+    {
+      "name": "img_waitHSZ_front",
+      "parent": "pannel_HSZ",
+      "position": [
+        0,
+        192
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        150,
+        68
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": false,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Widget",
+          "alignMode": 0,
+          "_alignFlags": 41,
+          "_left": 565,
+          "_right": 565,
+          "_top": 134,
+          "_originalWidth": 150
+        }
+      ]
+    },
+    {
+      "name": "ChoosingItem",
+      "parent": "img_waitHSZ_front",
+      "position": [
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        165,
+        74
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": []
+    },
+    {
+      "name": "img_waitHSZ_right",
+      "parent": "pannel_HSZ",
+      "position": [
+        323.5,
+        34
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        150,
+        68
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": false,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Widget",
+          "alignMode": 0,
+          "_alignFlags": 5,
+          "_right": 241.5,
+          "_top": 292,
+          "_bottom": 360,
+          "_originalHeight": 68
+        }
+      ]
+    },
+    {
+      "name": "ChoosingItem",
+      "parent": "img_waitHSZ_right",
+      "position": [
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        165,
+        74
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": []
+    },
+    {
+      "name": "2V2",
+      "parent": "pannel_HSZ",
+      "position": [
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        0,
+        0
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": false,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": []
+    },
+    {
+      "name": "normal",
+      "parent": "pannel_HSZ",
+      "position": [
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        0,
+        0
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": []
+    },
+    {
+      "name": "img_AllCorlorWord",
+      "parent": "img_HszTip",
+      "position": [
+        0,
+        58.362
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        309,
+        39
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": []
+    },
+    {
+      "name": "img_sign",
+      "parent": "img_slectedFrame",
+      "position": [
+        134.567,
+        0
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        43,
+        32
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": false,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "6c94cdfc-6076-4408-99a7-2e48e6ef0309"
+        }
+      ]
+    },
+    {
+      "name": "img_sign",
+      "parent": "img_slectedFrame",
+      "position": [
+        134.567,
+        0
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        43,
+        32
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": false,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "6c94cdfc-6076-4408-99a7-2e48e6ef0309"
+        }
+      ]
+    },
+    {
+      "name": "img_Tile",
+      "parent": "mine",
+      "position": [
+        -52,
+        0
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        59,
+        77
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "694c0024-ee0b-4293-885f-923e6eb453cf"
+        }
+      ]
+    },
+    {
+      "name": "img_Tile",
+      "parent": "mine",
+      "position": [
+        -2,
+        0
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        58,
+        77
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "4babdaaa-3914-4035-99e8-c3934f21db4c"
+        }
+      ]
+    },
+    {
+      "name": "img_Tile",
+      "parent": "mine",
+      "position": [
+        48,
+        0
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        56,
+        77
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "c2c7cfb3-0ae0-4ace-b60d-9c654896d85e"
+        }
+      ]
+    },
+    {
+      "name": "img_Tile",
+      "parent": "left",
+      "position": [
+        -4,
+        52.8
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        80,
+        59
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "6080a7c9-e68f-4bf8-a55c-f432fe79dcfc"
+        }
+      ]
+    },
+    {
+      "name": "img_Tile",
+      "parent": "left",
+      "position": [
+        -11.8,
+        11.8
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        81,
+        60
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "b49f230d-766e-4666-af18-6a6f417848d2"
+        }
+      ]
+    },
+    {
+      "name": "img_Tile",
+      "parent": "left",
+      "position": [
+        -19.5,
+        -29.4
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        82,
+        61
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "3aa489ab-79aa-4d72-84f2-f4ad4cb978a0"
+        }
+      ]
+    },
+    {
+      "name": "img_Tile",
+      "parent": "front",
+      "position": [
+        -48,
+        0
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        59,
+        77
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "694c0024-ee0b-4293-885f-923e6eb453cf"
+        }
+      ]
+    },
+    {
+      "name": "img_Tile",
+      "parent": "front",
+      "position": [
+        2.5,
+        0
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        58,
+        77
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "4babdaaa-3914-4035-99e8-c3934f21db4c"
+        }
+      ]
+    },
+    {
+      "name": "img_Tile",
+      "parent": "front",
+      "position": [
+        53,
+        0
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        56,
+        77
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "c2c7cfb3-0ae0-4ace-b60d-9c654896d85e"
+        }
+      ]
+    },
+    {
+      "name": "img_Tile",
+      "parent": "right",
+      "position": [
+        1.9,
+        48.8
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        80,
+        59
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "6080a7c9-e68f-4bf8-a55c-f432fe79dcfc"
+        }
+      ]
+    },
+    {
+      "name": "img_Tile",
+      "parent": "right",
+      "position": [
+        -5.8,
+        8.7
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        81,
+        60
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "b49f230d-766e-4666-af18-6a6f417848d2"
+        }
+      ]
+    },
+    {
+      "name": "img_Tile",
+      "parent": "right",
+      "position": [
+        -13.8,
+        -31.8
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        82,
+        61
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "3aa489ab-79aa-4d72-84f2-f4ad4cb978a0"
+        }
+      ]
+    },
+    {
+      "name": "Anim_arrows_Rotation",
+      "parent": "Anim_HSZ",
+      "position": [
+        0,
+        28
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        0,
+        0
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": false,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": []
+    },
+    {
+      "name": "tableTip",
+      "parent": "img_HszTip",
+      "position": [
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        500,
+        200
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_type": 1,
+          "_sizeMode": 0,
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "8f371175-1668-4581-a55b-4f2cd1e409c8"
+        }
+      ]
+    },
+    {
+      "name": "New Label",
+      "parent": "btn_reqHSZ",
+      "position": [
+        0,
+        8
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        86.89,
+        56.7
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4279196870,
+      "components": [
+        {
+          "class": "cc.Label",
+          "_string": "确  定",
+          "_fontSize": 34,
+          "_lineHeight": 45,
+          "_spacingX": 15,
+          "_N$horizontalAlign": 1,
+          "_N$verticalAlign": 1,
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SpriteNode",
+      "parent": "ChoosingItem",
+      "position": [
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        149,
+        57
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "adf3ac2c-e205-40d4-b937-139886765b7c"
+        }
+      ]
+    },
+    {
+      "name": "tingDotImg",
+      "parent": "DotNode",
+      "position": [
+        87,
+        -12
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        10,
+        12
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "4588e9b6-1442-4a11-a462-0bc3ee931ea8"
+        }
+      ]
+    },
+    {
+      "name": "tingDotImg",
+      "parent": "DotNode",
+      "position": [
+        109,
+        -12
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        10,
+        12
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "4588e9b6-1442-4a11-a462-0bc3ee931ea8"
+        }
+      ]
+    },
+    {
+      "name": "tingDotImg",
+      "parent": "DotNode",
+      "position": [
+        132,
+        -12
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        10,
+        12
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "4588e9b6-1442-4a11-a462-0bc3ee931ea8"
+        }
+      ]
+    },
+    {
+      "name": "SpriteNode",
+      "parent": "ChoosingItem",
+      "position": [
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        149,
+        57
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "adf3ac2c-e205-40d4-b937-139886765b7c"
+        }
+      ]
+    },
+    {
+      "name": "tingDotImg",
+      "parent": "DotNode",
+      "position": [
+        87,
+        -12
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        10,
+        12
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "4588e9b6-1442-4a11-a462-0bc3ee931ea8"
+        }
+      ]
+    },
+    {
+      "name": "tingDotImg",
+      "parent": "DotNode",
+      "position": [
+        109,
+        -12
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        10,
+        12
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "4588e9b6-1442-4a11-a462-0bc3ee931ea8"
+        }
+      ]
+    },
+    {
+      "name": "tingDotImg",
+      "parent": "DotNode",
+      "position": [
+        132,
+        -12
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        10,
+        12
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "4588e9b6-1442-4a11-a462-0bc3ee931ea8"
+        }
+      ]
+    },
+    {
+      "name": "SpriteNode",
+      "parent": "ChoosingItem",
+      "position": [
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        149,
+        57
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "adf3ac2c-e205-40d4-b937-139886765b7c"
+        }
+      ]
+    },
+    {
+      "name": "tingDotImg",
+      "parent": "DotNode",
+      "position": [
+        87,
+        -12
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        10,
+        12
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "4588e9b6-1442-4a11-a462-0bc3ee931ea8"
+        }
+      ]
+    },
+    {
+      "name": "tingDotImg",
+      "parent": "DotNode",
+      "position": [
+        109,
+        -12
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        10,
+        12
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "4588e9b6-1442-4a11-a462-0bc3ee931ea8"
+        }
+      ]
+    },
+    {
+      "name": "tingDotImg",
+      "parent": "DotNode",
+      "position": [
+        132,
+        -12
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        10,
+        12
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "4588e9b6-1442-4a11-a462-0bc3ee931ea8"
+        }
+      ]
+    },
+    {
+      "name": "SpriteNode",
+      "parent": "ChoosingItem",
+      "position": [
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        149,
+        57
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "adf3ac2c-e205-40d4-b937-139886765b7c"
+        }
+      ]
+    },
+    {
+      "name": "tingDotImg",
+      "parent": "DotNode",
+      "position": [
+        87,
+        -12
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        10,
+        12
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "4588e9b6-1442-4a11-a462-0bc3ee931ea8"
+        }
+      ]
+    },
+    {
+      "name": "tingDotImg",
+      "parent": "DotNode",
+      "position": [
+        109,
+        -12
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        10,
+        12
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "4588e9b6-1442-4a11-a462-0bc3ee931ea8"
+        }
+      ]
+    },
+    {
+      "name": "tingDotImg",
+      "parent": "DotNode",
+      "position": [
+        132,
+        -12
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        10,
+        12
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "4588e9b6-1442-4a11-a462-0bc3ee931ea8"
+        }
+      ]
+    },
+    {
+      "name": "img_2v2_bg",
+      "parent": "imgBg2v2",
+      "position": [
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        482,
+        270
+      ],
+      "anchor": [
+        1,
+        1
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "e62cc718-f3d6-477f-8fee-22464d15533b"
+        }
+      ]
+    },
+    {
+      "name": "img_2v2_bg",
+      "parent": "imgBg2v2",
+      "position": [
+        0,
+        0
+      ],
+      "scale": [
+        -1,
+        1
+      ],
+      "size": [
+        482,
+        270
+      ],
+      "anchor": [
+        1,
+        1
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "e62cc718-f3d6-477f-8fee-22464d15533b"
+        }
+      ]
+    },
+    {
+      "name": "img_2v2_bg",
+      "parent": "imgBg2v2",
+      "position": [
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        -1
+      ],
+      "size": [
+        482,
+        270
+      ],
+      "anchor": [
+        1,
+        1
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "e62cc718-f3d6-477f-8fee-22464d15533b"
+        }
+      ]
+    },
+    {
+      "name": "img_2v2_bg",
+      "parent": "imgBg2v2",
+      "position": [
+        0,
+        0
+      ],
+      "scale": [
+        -1,
+        -1
+      ],
+      "size": [
+        482,
+        270
+      ],
+      "anchor": [
+        1,
+        1
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "e62cc718-f3d6-477f-8fee-22464d15533b"
+        }
+      ]
+    },
+    {
+      "name": "lab_tip",
+      "parent": "imgBg2v2",
+      "position": [
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        50.01,
+        50.4
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4291030006,
+      "components": [
+        {
+          "class": "cc.Label",
+          "_string": "......",
+          "_fontSize": 30,
+          "_N$horizontalAlign": 1,
+          "_N$verticalAlign": 1,
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MemeberSelectedCards",
+      "parent": "imgBg2v2",
+      "position": [
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        0,
+        0
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": []
+    },
+    {
+      "name": "color",
+      "parent": "tile_base1",
+      "position": [
+        0,
+        -1
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        91,
+        134
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": false,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_sizeMode": 2,
+          "_isTrimmedMode": false,
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "5e529f47-5e88-4e2c-a341-9147b7db031f"
+        }
+      ]
+    },
+    {
+      "name": "zhizhen_1",
+      "parent": "Diamond",
+      "position": [
+        0,
+        -6
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        36,
+        43
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_sizeMode": 2,
+          "_isTrimmedMode": false,
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "9b928341-2dc0-48f2-bb53-fa40570ed39c"
+        }
+      ]
+    },
+    {
+      "name": "Particle_1",
+      "parent": "Diamond",
+      "position": [
+        -2.6466,
+        10.3016
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        0,
+        0
+      ],
+      "anchor": [
+        0,
+        0
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": []
+    },
+    {
+      "name": "ring_0421_3",
+      "parent": "Diamond",
+      "position": [
+        -1.4323,
+        6.4322
+      ],
+      "scale": [
+        0.6355,
+        0.6355
+      ],
+      "size": [
+        128,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 167,
+      "color": 4284985599,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_sizeMode": 2,
+          "_isTrimmedMode": false,
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "b1028c51-945b-4d1c-94d2-6f39b826329a"
+        }
+      ]
+    },
+    {
+      "name": "ring_0421_3_0",
+      "parent": "Diamond",
+      "position": [
+        -1.4323,
+        6.4322
+      ],
+      "scale": [
+        0.6355,
+        0.6355
+      ],
+      "size": [
+        128,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 167,
+      "color": 4286305279,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_sizeMode": 2,
+          "_isTrimmedMode": false,
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "b1028c51-945b-4d1c-94d2-6f39b826329a"
+        }
+      ]
+    },
+    {
+      "name": "a_point201a_4",
+      "parent": "Diamond",
+      "position": [
+        -2.3843,
+        6.028
+      ],
+      "scale": [
+        2,
+        2
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 172,
+      "color": 4279313132,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_dstBlendFactor": 1,
+          "_sizeMode": 2,
+          "_isTrimmedMode": false,
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "7a87d203-b904-419c-a5aa-d42e96c40ba8"
+        }
+      ]
+    },
+    {
+      "name": "hu_tile_hint",
+      "parent": "tile_base1",
+      "position": [
+        0,
+        90
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        40,
+        46
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": false,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "068ceb1f-16b7-43b8-8399-8fee3e9c8f2a"
+        }
+      ]
+    },
+    {
+      "name": "zhongMaFlag",
+      "parent": "tile_base1",
+      "position": [
+        0,
+        0
+      ],
+      "scale": [
+        1.3,
+        1.3
+      ],
+      "size": [
+        118,
+        152
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": false,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_type": 1,
+          "_sizeMode": 0,
+          "_spriteFrame": "002b9ba3-5709-4c57-bbb9-a84ef1c21acf"
+        }
+      ]
+    },
+    {
+      "name": "img_Tag",
+      "parent": "tile_base1",
+      "position": [
+        -2,
+        -2
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        84,
+        109
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": false,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_sizeMode": 0,
+          "_isTrimmedMode": false,
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "14d490f7-71c9-41d0-91db-d2c232d462a5"
+        }
+      ]
+    },
+    {
+      "name": "cpg_source_hint",
+      "parent": "tile_base1",
+      "position": [
+        -17,
+        -34
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        40,
+        46
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": false,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "068ceb1f-16b7-43b8-8399-8fee3e9c8f2a"
+        }
+      ]
+    },
+    {
+      "name": "color",
+      "parent": "tile_base2",
+      "position": [
+        0,
+        -1
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        91,
+        134
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": false,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_sizeMode": 2,
+          "_isTrimmedMode": false,
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "5e529f47-5e88-4e2c-a341-9147b7db031f"
+        }
+      ]
+    },
+    {
+      "name": "zhizhen_1",
+      "parent": "Diamond",
+      "position": [
+        0,
+        -6
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        36,
+        43
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_sizeMode": 2,
+          "_isTrimmedMode": false,
+          "_spriteFrame": "9b928341-2dc0-48f2-bb53-fa40570ed39c"
+        }
+      ]
+    },
+    {
+      "name": "Particle_1",
+      "parent": "Diamond",
+      "position": [
+        -2.6466,
+        10.3016
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        0,
+        0
+      ],
+      "anchor": [
+        0,
+        0
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": []
+    },
+    {
+      "name": "ring_0421_3",
+      "parent": "Diamond",
+      "position": [
+        -1.4323,
+        6.4322
+      ],
+      "scale": [
+        0.6355,
+        0.6355
+      ],
+      "size": [
+        128,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 167,
+      "color": 4284985599,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_sizeMode": 2,
+          "_isTrimmedMode": false,
+          "_spriteFrame": "b1028c51-945b-4d1c-94d2-6f39b826329a"
+        }
+      ]
+    },
+    {
+      "name": "ring_0421_3_0",
+      "parent": "Diamond",
+      "position": [
+        -1.4323,
+        6.4322
+      ],
+      "scale": [
+        0.6355,
+        0.6355
+      ],
+      "size": [
+        128,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 167,
+      "color": 4286305279,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_sizeMode": 2,
+          "_isTrimmedMode": false,
+          "_spriteFrame": "b1028c51-945b-4d1c-94d2-6f39b826329a"
+        }
+      ]
+    },
+    {
+      "name": "a_point201a_4",
+      "parent": "Diamond",
+      "position": [
+        -2.3843,
+        6.028
+      ],
+      "scale": [
+        2,
+        2
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 172,
+      "color": 4279313132,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_dstBlendFactor": 1,
+          "_sizeMode": 2,
+          "_isTrimmedMode": false,
+          "_spriteFrame": "7a87d203-b904-419c-a5aa-d42e96c40ba8"
+        }
+      ]
+    },
+    {
+      "name": "hu_tile_hint",
+      "parent": "tile_base2",
+      "position": [
+        0,
+        90
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        40,
+        46
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": false,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "068ceb1f-16b7-43b8-8399-8fee3e9c8f2a"
+        }
+      ]
+    },
+    {
+      "name": "zhongMaFlag",
+      "parent": "tile_base2",
+      "position": [
+        0,
+        0
+      ],
+      "scale": [
+        1.3,
+        1.3
+      ],
+      "size": [
+        118,
+        152
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": false,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_type": 1,
+          "_sizeMode": 0,
+          "_spriteFrame": "002b9ba3-5709-4c57-bbb9-a84ef1c21acf"
+        }
+      ]
+    },
+    {
+      "name": "img_Tag",
+      "parent": "tile_base2",
+      "position": [
+        -2,
+        -2
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        84,
+        109
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": false,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_sizeMode": 0,
+          "_isTrimmedMode": false,
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "14d490f7-71c9-41d0-91db-d2c232d462a5"
+        }
+      ]
+    },
+    {
+      "name": "cpg_source_hint",
+      "parent": "tile_base2",
+      "position": [
+        -17,
+        -34
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        40,
+        46
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": false,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "068ceb1f-16b7-43b8-8399-8fee3e9c8f2a"
+        }
+      ]
+    },
+    {
+      "name": "color",
+      "parent": "tile_base3",
+      "position": [
+        0,
+        -1
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        91,
+        134
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": false,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_sizeMode": 2,
+          "_isTrimmedMode": false,
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "5e529f47-5e88-4e2c-a341-9147b7db031f"
+        }
+      ]
+    },
+    {
+      "name": "zhizhen_1",
+      "parent": "Diamond",
+      "position": [
+        0,
+        -6
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        36,
+        43
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_sizeMode": 2,
+          "_isTrimmedMode": false,
+          "_spriteFrame": "9b928341-2dc0-48f2-bb53-fa40570ed39c"
+        }
+      ]
+    },
+    {
+      "name": "Particle_1",
+      "parent": "Diamond",
+      "position": [
+        -2.6466,
+        10.3016
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        0,
+        0
+      ],
+      "anchor": [
+        0,
+        0
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": []
+    },
+    {
+      "name": "ring_0421_3",
+      "parent": "Diamond",
+      "position": [
+        -1.4323,
+        6.4322
+      ],
+      "scale": [
+        0.6355,
+        0.6355
+      ],
+      "size": [
+        128,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 167,
+      "color": 4284985599,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_sizeMode": 2,
+          "_isTrimmedMode": false,
+          "_spriteFrame": "b1028c51-945b-4d1c-94d2-6f39b826329a"
+        }
+      ]
+    },
+    {
+      "name": "ring_0421_3_0",
+      "parent": "Diamond",
+      "position": [
+        -1.4323,
+        6.4322
+      ],
+      "scale": [
+        0.6355,
+        0.6355
+      ],
+      "size": [
+        128,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 167,
+      "color": 4286305279,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_sizeMode": 2,
+          "_isTrimmedMode": false,
+          "_spriteFrame": "b1028c51-945b-4d1c-94d2-6f39b826329a"
+        }
+      ]
+    },
+    {
+      "name": "a_point201a_4",
+      "parent": "Diamond",
+      "position": [
+        -2.3843,
+        6.028
+      ],
+      "scale": [
+        2,
+        2
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 172,
+      "color": 4279313132,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_dstBlendFactor": 1,
+          "_sizeMode": 2,
+          "_isTrimmedMode": false,
+          "_spriteFrame": "7a87d203-b904-419c-a5aa-d42e96c40ba8"
+        }
+      ]
+    },
+    {
+      "name": "hu_tile_hint",
+      "parent": "tile_base3",
+      "position": [
+        0,
+        90
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        40,
+        46
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": false,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "068ceb1f-16b7-43b8-8399-8fee3e9c8f2a"
+        }
+      ]
+    },
+    {
+      "name": "zhongMaFlag",
+      "parent": "tile_base3",
+      "position": [
+        0,
+        0
+      ],
+      "scale": [
+        1.3,
+        1.3
+      ],
+      "size": [
+        118,
+        152
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": false,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_type": 1,
+          "_sizeMode": 0,
+          "_spriteFrame": "002b9ba3-5709-4c57-bbb9-a84ef1c21acf"
+        }
+      ]
+    },
+    {
+      "name": "img_Tag",
+      "parent": "tile_base3",
+      "position": [
+        -2,
+        -2
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        84,
+        109
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": false,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_sizeMode": 0,
+          "_isTrimmedMode": false,
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "14d490f7-71c9-41d0-91db-d2c232d462a5"
+        }
+      ]
+    },
+    {
+      "name": "cpg_source_hint",
+      "parent": "tile_base3",
+      "position": [
+        -17,
+        -34
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        40,
+        46
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": false,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "068ceb1f-16b7-43b8-8399-8fee3e9c8f2a"
+        }
+      ]
+    },
+    {
+      "name": "MeSelectedCards",
+      "parent": "imgBg2v2",
+      "position": [
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        0,
+        0
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": []
+    },
+    {
+      "name": "color",
+      "parent": "tile_base1",
+      "position": [
+        0,
+        -1
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        91,
+        134
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": false,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_sizeMode": 2,
+          "_isTrimmedMode": false,
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "5e529f47-5e88-4e2c-a341-9147b7db031f"
+        }
+      ]
+    },
+    {
+      "name": "zhizhen_1",
+      "parent": "Diamond",
+      "position": [
+        0,
+        -6
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        36,
+        43
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_sizeMode": 2,
+          "_isTrimmedMode": false,
+          "_spriteFrame": "9b928341-2dc0-48f2-bb53-fa40570ed39c"
+        }
+      ]
+    },
+    {
+      "name": "Particle_1",
+      "parent": "Diamond",
+      "position": [
+        -2.6466,
+        10.3016
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        0,
+        0
+      ],
+      "anchor": [
+        0,
+        0
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": []
+    },
+    {
+      "name": "ring_0421_3",
+      "parent": "Diamond",
+      "position": [
+        -1.4323,
+        6.4322
+      ],
+      "scale": [
+        0.6355,
+        0.6355
+      ],
+      "size": [
+        128,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 167,
+      "color": 4284985599,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_sizeMode": 2,
+          "_isTrimmedMode": false,
+          "_spriteFrame": "b1028c51-945b-4d1c-94d2-6f39b826329a"
+        }
+      ]
+    },
+    {
+      "name": "ring_0421_3_0",
+      "parent": "Diamond",
+      "position": [
+        -1.4323,
+        6.4322
+      ],
+      "scale": [
+        0.6355,
+        0.6355
+      ],
+      "size": [
+        128,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 167,
+      "color": 4286305279,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_sizeMode": 2,
+          "_isTrimmedMode": false,
+          "_spriteFrame": "b1028c51-945b-4d1c-94d2-6f39b826329a"
+        }
+      ]
+    },
+    {
+      "name": "a_point201a_4",
+      "parent": "Diamond",
+      "position": [
+        -2.3843,
+        6.028
+      ],
+      "scale": [
+        2,
+        2
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 172,
+      "color": 4279313132,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_dstBlendFactor": 1,
+          "_sizeMode": 2,
+          "_isTrimmedMode": false,
+          "_spriteFrame": "7a87d203-b904-419c-a5aa-d42e96c40ba8"
+        }
+      ]
+    },
+    {
+      "name": "hu_tile_hint",
+      "parent": "tile_base1",
+      "position": [
+        0,
+        90
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        40,
+        46
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": false,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "068ceb1f-16b7-43b8-8399-8fee3e9c8f2a"
+        }
+      ]
+    },
+    {
+      "name": "zhongMaFlag",
+      "parent": "tile_base1",
+      "position": [
+        0,
+        0
+      ],
+      "scale": [
+        1.3,
+        1.3
+      ],
+      "size": [
+        118,
+        152
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": false,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_type": 1,
+          "_sizeMode": 0,
+          "_spriteFrame": "002b9ba3-5709-4c57-bbb9-a84ef1c21acf"
+        }
+      ]
+    },
+    {
+      "name": "img_Tag",
+      "parent": "tile_base1",
+      "position": [
+        -2,
+        -2
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        84,
+        109
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": false,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_sizeMode": 0,
+          "_isTrimmedMode": false,
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "14d490f7-71c9-41d0-91db-d2c232d462a5"
+        }
+      ]
+    },
+    {
+      "name": "cpg_source_hint",
+      "parent": "tile_base1",
+      "position": [
+        -17,
+        -34
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        40,
+        46
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": false,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "068ceb1f-16b7-43b8-8399-8fee3e9c8f2a"
+        }
+      ]
+    },
+    {
+      "name": "color",
+      "parent": "tile_base2",
+      "position": [
+        0,
+        -1
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        91,
+        134
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": false,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_sizeMode": 2,
+          "_isTrimmedMode": false,
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "5e529f47-5e88-4e2c-a341-9147b7db031f"
+        }
+      ]
+    },
+    {
+      "name": "zhizhen_1",
+      "parent": "Diamond",
+      "position": [
+        0,
+        -6
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        36,
+        43
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_sizeMode": 2,
+          "_isTrimmedMode": false,
+          "_spriteFrame": "9b928341-2dc0-48f2-bb53-fa40570ed39c"
+        }
+      ]
+    },
+    {
+      "name": "Particle_1",
+      "parent": "Diamond",
+      "position": [
+        -2.6466,
+        10.3016
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        0,
+        0
+      ],
+      "anchor": [
+        0,
+        0
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": []
+    },
+    {
+      "name": "ring_0421_3",
+      "parent": "Diamond",
+      "position": [
+        -1.4323,
+        6.4322
+      ],
+      "scale": [
+        0.6355,
+        0.6355
+      ],
+      "size": [
+        128,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 167,
+      "color": 4284985599,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_sizeMode": 2,
+          "_isTrimmedMode": false,
+          "_spriteFrame": "b1028c51-945b-4d1c-94d2-6f39b826329a"
+        }
+      ]
+    },
+    {
+      "name": "ring_0421_3_0",
+      "parent": "Diamond",
+      "position": [
+        -1.4323,
+        6.4322
+      ],
+      "scale": [
+        0.6355,
+        0.6355
+      ],
+      "size": [
+        128,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 167,
+      "color": 4286305279,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_sizeMode": 2,
+          "_isTrimmedMode": false,
+          "_spriteFrame": "b1028c51-945b-4d1c-94d2-6f39b826329a"
+        }
+      ]
+    },
+    {
+      "name": "a_point201a_4",
+      "parent": "Diamond",
+      "position": [
+        -2.3843,
+        6.028
+      ],
+      "scale": [
+        2,
+        2
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 172,
+      "color": 4279313132,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_dstBlendFactor": 1,
+          "_sizeMode": 2,
+          "_isTrimmedMode": false,
+          "_spriteFrame": "7a87d203-b904-419c-a5aa-d42e96c40ba8"
+        }
+      ]
+    },
+    {
+      "name": "hu_tile_hint",
+      "parent": "tile_base2",
+      "position": [
+        0,
+        90
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        40,
+        46
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": false,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "068ceb1f-16b7-43b8-8399-8fee3e9c8f2a"
+        }
+      ]
+    },
+    {
+      "name": "zhongMaFlag",
+      "parent": "tile_base2",
+      "position": [
+        0,
+        0
+      ],
+      "scale": [
+        1.3,
+        1.3
+      ],
+      "size": [
+        118,
+        152
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": false,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_type": 1,
+          "_sizeMode": 0,
+          "_spriteFrame": "002b9ba3-5709-4c57-bbb9-a84ef1c21acf"
+        }
+      ]
+    },
+    {
+      "name": "img_Tag",
+      "parent": "tile_base2",
+      "position": [
+        -2,
+        -2
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        84,
+        109
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": false,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_sizeMode": 0,
+          "_isTrimmedMode": false,
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "14d490f7-71c9-41d0-91db-d2c232d462a5"
+        }
+      ]
+    },
+    {
+      "name": "cpg_source_hint",
+      "parent": "tile_base2",
+      "position": [
+        -17,
+        -34
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        40,
+        46
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": false,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "068ceb1f-16b7-43b8-8399-8fee3e9c8f2a"
+        }
+      ]
+    },
+    {
+      "name": "color",
+      "parent": "tile_base3",
+      "position": [
+        0,
+        -1
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        91,
+        134
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": false,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_sizeMode": 2,
+          "_isTrimmedMode": false,
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "5e529f47-5e88-4e2c-a341-9147b7db031f"
+        }
+      ]
+    },
+    {
+      "name": "zhizhen_1",
+      "parent": "Diamond",
+      "position": [
+        0,
+        -6
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        36,
+        43
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_sizeMode": 2,
+          "_isTrimmedMode": false,
+          "_spriteFrame": "9b928341-2dc0-48f2-bb53-fa40570ed39c"
+        }
+      ]
+    },
+    {
+      "name": "Particle_1",
+      "parent": "Diamond",
+      "position": [
+        -2.6466,
+        10.3016
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        0,
+        0
+      ],
+      "anchor": [
+        0,
+        0
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": []
+    },
+    {
+      "name": "ring_0421_3",
+      "parent": "Diamond",
+      "position": [
+        -1.4323,
+        6.4322
+      ],
+      "scale": [
+        0.6355,
+        0.6355
+      ],
+      "size": [
+        128,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 167,
+      "color": 4284985599,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_sizeMode": 2,
+          "_isTrimmedMode": false,
+          "_spriteFrame": "b1028c51-945b-4d1c-94d2-6f39b826329a"
+        }
+      ]
+    },
+    {
+      "name": "ring_0421_3_0",
+      "parent": "Diamond",
+      "position": [
+        -1.4323,
+        6.4322
+      ],
+      "scale": [
+        0.6355,
+        0.6355
+      ],
+      "size": [
+        128,
+        128
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 167,
+      "color": 4286305279,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_sizeMode": 2,
+          "_isTrimmedMode": false,
+          "_spriteFrame": "b1028c51-945b-4d1c-94d2-6f39b826329a"
+        }
+      ]
+    },
+    {
+      "name": "a_point201a_4",
+      "parent": "Diamond",
+      "position": [
+        -2.3843,
+        6.028
+      ],
+      "scale": [
+        2,
+        2
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 172,
+      "color": 4279313132,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_dstBlendFactor": 1,
+          "_sizeMode": 2,
+          "_isTrimmedMode": false,
+          "_spriteFrame": "7a87d203-b904-419c-a5aa-d42e96c40ba8"
+        }
+      ]
+    },
+    {
+      "name": "hu_tile_hint",
+      "parent": "tile_base3",
+      "position": [
+        0,
+        90
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        40,
+        46
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": false,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "068ceb1f-16b7-43b8-8399-8fee3e9c8f2a"
+        }
+      ]
+    },
+    {
+      "name": "zhongMaFlag",
+      "parent": "tile_base3",
+      "position": [
+        0,
+        0
+      ],
+      "scale": [
+        1.3,
+        1.3
+      ],
+      "size": [
+        118,
+        152
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": false,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_type": 1,
+          "_sizeMode": 0,
+          "_spriteFrame": "002b9ba3-5709-4c57-bbb9-a84ef1c21acf"
+        }
+      ]
+    },
+    {
+      "name": "img_Tag",
+      "parent": "tile_base3",
+      "position": [
+        -2,
+        -2
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        84,
+        109
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": false,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_sizeMode": 0,
+          "_isTrimmedMode": false,
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "14d490f7-71c9-41d0-91db-d2c232d462a5"
+        }
+      ]
+    },
+    {
+      "name": "cpg_source_hint",
+      "parent": "tile_base3",
+      "position": [
+        -17,
+        -34
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        40,
+        46
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": false,
+      "opacity": 255,
+      "color": 4294967295,
+      "components": [
+        {
+          "class": "cc.Sprite",
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "068ceb1f-16b7-43b8-8399-8fee3e9c8f2a"
+        }
+      ]
+    },
+    {
+      "name": "lab",
+      "parent": "btn_green",
+      "position": [
+        0,
+        6
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": [
+        90.64,
+        56.7
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "active": true,
+      "opacity": 255,
+      "color": 4279196870,
+      "components": [
+        {
+          "class": "cc.Label",
+          "_string": "确定()",
+          "_fontSize": 34,
+          "_lineHeight": 45,
+          "_spacingX": 2,
+          "_N$horizontalAlign": 1,
+          "_N$verticalAlign": 1,
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ]
+        }
+      ]
+    }
+  ]
+}

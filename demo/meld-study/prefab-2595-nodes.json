@@ -1,0 +1,1072 @@
+[
+  {
+    "id": 1,
+    "name": "UserInfoNode",
+    "size": [
+      5,
+      80,
+      127
+    ],
+    "components": [
+      {
+        "class": "49b95b8DQNLHqb89L00GfqU",
+        "node": -24,
+        "spriteHead": -23,
+        "spriteHeadFrame": -22,
+        "MaCardHeadFrame": -21,
+        "labelNickName": -20,
+        "labelCoin": -19,
+        "labelSectionPoint": -18,
+        "labelDiyRoomScore": -17,
+        "lab_battlePoint": -16,
+        "lab_MatchScore": -15,
+        "lab_CounterNum": -14,
+        "labelZCoin": -13,
+        "lab_DCoin": -12,
+        "nodeTrustee": -11,
+        "nodeNetError": -10,
+        "nodeBankerTag": -9,
+        "nodeTeammateTag": -8,
+        "spfHZLaoZhuang": [
+          42,
+          43,
+          44
+        ],
+        "nodeUserTagLayout": -7,
+        "yuyinBox": -6,
+        "protectEffect": -5,
+        "more": -4,
+        "img_MJPath": -3,
+        "lab_rank": -2,
+        "prefabTagGroup": 45,
+        "yuyinAnims": 46
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "img_userinfo_bg",
+    "parent": 1,
+    "trs": [
+      0,
+      -15,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "anchor": [
+      0,
+      0.5,
+      1
+    ],
+    "size": [
+      5,
+      85,
+      68
+    ],
+    "components": [
+      {
+        "class": "cc.Sprite",
+        "_type": 1,
+        "_sizeMode": 0,
+        "node": -34,
+        "_materials": [
+          22
+        ],
+        "_spriteFrame": 23
+      },
+      {
+        "class": "cc.Layout",
+        "_resize": 1,
+        "_N$layoutType": 2,
+        "_N$paddingBottom": 8,
+        "_N$spacingY": 5,
+        "_N$affectedByScale": true,
+        "node": -35,
+        "_layoutSize": [
+          5,
+          85,
+          68
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "HeadParent",
+    "trs": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0.84,
+      0.84,
+      1
+    ],
+    "size": [
+      5,
+      100,
+      100
+    ],
+    "components": []
+  },
+  {
+    "id": 4,
+    "name": "img_head_bg",
+    "parent": 1,
+    "trs": [
+      0,
+      30,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    "size": [
+      5,
+      85,
+      85
+    ],
+    "components": [
+      {
+        "class": "cc.Button",
+        "_N$transition": 3,
+        "node": -54,
+        "clickEvents": [
+          [
+            40,
+            "49b95b8DQNLHqb89L00GfqU",
+            "onClickHead",
+            1
+          ]
+        ],
+        "_N$normalColor": [
+          4,
+          4292269782
+        ],
+        "_N$target": -53
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "img_netError_bg",
+    "parent": 3,
+    "trs": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1.35,
+      1.35,
+      1
+    ],
+    "size": [
+      5,
+      73,
+      73
+    ],
+    "components": [
+      {
+        "class": "cc.Sprite",
+        "node": -55,
+        "_materials": [
+          31
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "img_SectionPoint",
+    "parent": 2,
+    "trs": [
+      -32.6,
+      -123.4,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "size": [
+      5,
+      15,
+      16
+    ],
+    "components": [
+      {
+        "class": "cc.Sprite",
+        "_sizeMode": 0,
+        "node": -57,
+        "_materials": [
+          2
+        ],
+        "_spriteFrame": 3
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "img_BattlePoint",
+    "parent": 2,
+    "trs": [
+      -32.6,
+      -123.4,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "size": [
+      5,
+      15,
+      16
+    ],
+    "components": [
+      {
+        "class": "cc.Sprite",
+        "_sizeMode": 0,
+        "node": -59,
+        "_materials": [
+          5
+        ],
+        "_spriteFrame": 6
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "img_Coin",
+    "parent": 2,
+    "trs": [
+      -32.6,
+      -31,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "size": [
+      5,
+      15,
+      16
+    ],
+    "components": [
+      {
+        "class": "cc.Sprite",
+        "_sizeMode": 0,
+        "node": -61,
+        "_materials": [
+          8
+        ],
+        "_spriteFrame": 9
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "img_ZCoin",
+    "parent": 2,
+    "trs": [
+      -32.6,
+      -52,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "size": [
+      5,
+      15,
+      16
+    ],
+    "components": [
+      {
+        "class": "cc.Sprite",
+        "_sizeMode": 0,
+        "node": -63,
+        "_materials": [
+          11
+        ],
+        "_spriteFrame": 12
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "img_DCoin",
+    "parent": 2,
+    "trs": [
+      -32.6,
+      -52,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "size": [
+      5,
+      15,
+      16
+    ],
+    "components": [
+      {
+        "class": "cc.Sprite",
+        "_sizeMode": 0,
+        "node": -65,
+        "_materials": [
+          14
+        ],
+        "_spriteFrame": 15
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "img_clock",
+    "parent": 2,
+    "trs": [
+      -15,
+      -73,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "size": [
+      5,
+      15,
+      16
+    ],
+    "components": [
+      {
+        "class": "cc.Sprite",
+        "_sizeMode": 0,
+        "node": -67,
+        "_materials": [
+          20
+        ],
+        "_spriteFrame": 21
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "img_TeamTag",
+    "parent": 1,
+    "trs": [
+      26.5,
+      56.5,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "size": [
+      5,
+      30,
+      32
+    ],
+    "components": [
+      {
+        "class": "cc.Sprite",
+        "node": -69,
+        "_materials": [
+          24
+        ],
+        "_spriteFrame": 25
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "img_zhuang_tag",
+    "parent": 1,
+    "trs": [
+      41.379,
+      45.164,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "anchor": [
+      0,
+      0,
+      0.5
+    ],
+    "size": [
+      5,
+      46,
+      46
+    ],
+    "components": [
+      {
+        "class": "cc.Sprite",
+        "node": -70,
+        "_materials": [
+          26
+        ],
+        "_spriteFrame": 27
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "head",
+    "parent": 3,
+    "size": [
+      5,
+      100,
+      100
+    ],
+    "components": [
+      [
+        -71,
+        [
+          38,
+          -73,
+          -72
+        ]
+      ],
+      1,
+      4
+    ]
+  },
+  {
+    "id": 16,
+    "name": "head_trustee",
+    "parent": 3,
+    "trs": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1.3,
+      1.3,
+      1
+    ],
+    "size": [
+      5,
+      73,
+      66
+    ],
+    "components": [
+      {
+        "class": "cc.Sprite",
+        "node": -74,
+        "_materials": [
+          32
+        ],
+        "_spriteFrame": 33
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "UserTagLayout",
+    "parent": 1,
+    "trs": [
+      41,
+      24.133,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "anchor": [
+      0,
+      0,
+      1
+    ],
+    "size": [
+      5,
+      60,
+      36
+    ],
+    "components": [
+      {
+        "class": "cc.Layout",
+        "_resize": 1,
+        "_N$layoutType": 2,
+        "_N$spacingY": 3,
+        "node": -75,
+        "_layoutSize": [
+          5,
+          60,
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "protectEffect",
+    "parent": 1,
+    "components": []
+  },
+  {
+    "id": 19,
+    "name": "rankIcon",
+    "parent": 1,
+    "trs": [
+      -17.51,
+      90.038,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0.7,
+      0.7,
+      0.7
+    ],
+    "size": [
+      5,
+      205,
+      95
+    ],
+    "components": [
+      -77
+    ]
+  },
+  {
+    "id": 20,
+    "name": "rankNum",
+    "parent": 19,
+    "trs": [
+      -42.353,
+      2.711,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "size": [
+      5,
+      4,
+      31.72
+    ],
+    "components": [
+      [
+        -79,
+        [
+          42,
+          2,
+          -80,
+          [
+            4,
+            4279581607
+          ]
+        ]
+      ],
+      1,
+      4
+    ]
+  },
+  {
+    "id": 21,
+    "name": "label_Nickname",
+    "parent": 2,
+    "trs": [
+      -3.6,
+      -9,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "size": [
+      5,
+      78,
+      18
+    ],
+    "components": [
+      -81
+    ]
+  },
+  {
+    "id": 23,
+    "name": "label_SectionPoint",
+    "parent": 6,
+    "trs": [
+      8.9,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "anchor": [
+      0,
+      0,
+      0.5
+    ],
+    "size": [
+      5,
+      60.3,
+      18
+    ],
+    "components": [
+      -82
+    ]
+  },
+  {
+    "id": 25,
+    "name": "label_BattlePoint",
+    "parent": 7,
+    "trs": [
+      8.9,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "anchor": [
+      0,
+      0,
+      0.5
+    ],
+    "size": [
+      5,
+      60.3,
+      18
+    ],
+    "components": [
+      -83
+    ]
+  },
+  {
+    "id": 27,
+    "name": "label_GameCoin",
+    "parent": 8,
+    "trs": [
+      41.295,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0.75,
+      0.75,
+      1
+    ],
+    "size": [
+      5,
+      84.49,
+      25.2
+    ],
+    "components": [
+      -84
+    ]
+  },
+  {
+    "id": 29,
+    "name": "label_ZCoin",
+    "parent": 9,
+    "trs": [
+      41.295,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0.75,
+      0.75,
+      1
+    ],
+    "size": [
+      5,
+      84.49,
+      25.2
+    ],
+    "components": [
+      -85
+    ]
+  },
+  {
+    "id": 31,
+    "name": "label_DCoin",
+    "parent": 10,
+    "trs": [
+      8.9,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "anchor": [
+      0,
+      0,
+      0.5
+    ],
+    "size": [
+      5,
+      60.3,
+      18
+    ],
+    "components": [
+      -86
+    ]
+  },
+  {
+    "id": 33,
+    "name": "label_DiyRoomScore",
+    "parent": 2,
+    "trs": [
+      -1.6,
+      -74,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "size": [
+      5,
+      72,
+      18
+    ],
+    "components": [
+      -87
+    ]
+  },
+  {
+    "id": 35,
+    "name": "label_matchScore",
+    "parent": 2,
+    "trs": [
+      -1.6,
+      -145.4,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "size": [
+      5,
+      72,
+      18
+    ],
+    "components": [
+      -88
+    ]
+  },
+  {
+    "id": 37,
+    "name": "label_counterNum",
+    "parent": 2,
+    "trs": [
+      -1.6,
+      -145.4,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "size": [
+      5,
+      72,
+      18
+    ],
+    "components": [
+      -89
+    ]
+  },
+  {
+    "id": 39,
+    "name": "label_guardTimes",
+    "parent": 11,
+    "trs": [
+      18,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "anchor": [
+      0,
+      0,
+      0.5
+    ],
+    "size": [
+      5,
+      60.3,
+      18
+    ],
+    "components": [
+      {
+        "class": "cc.Label",
+        "_string": "x1",
+        "_fontSize": 18,
+        "_lineHeight": 18,
+        "_N$verticalAlign": 1,
+        "_N$overflow": 2,
+        "node": -90,
+        "_materials": [
+          19
+        ]
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "name": "HeadLine",
+    "parent": 3,
+    "size": [
+      5,
+      100,
+      100
+    ],
+    "components": [
+      {
+        "class": "cc.Sprite",
+        "_type": 1,
+        "_sizeMode": 0,
+        "node": -91,
+        "_materials": [
+          29
+        ]
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "name": "img_netError",
+    "parent": 5,
+    "size": [
+      5,
+      74,
+      40
+    ],
+    "components": [
+      {
+        "class": "cc.Sprite",
+        "node": -92,
+        "_materials": [
+          30
+        ]
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "name": "img_HeadFrame",
+    "parent": 3,
+    "trs": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0.6,
+      0.6,
+      1
+    ],
+    "size": [
+      5,
+      262,
+      262
+    ],
+    "components": [
+      -93
+    ]
+  },
+  {
+    "id": 44,
+    "name": "MkbkHeadFrame",
+    "parent": 3,
+    "trs": [
+      0,
+      1.331,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0.6,
+      0.6,
+      1
+    ],
+    "size": [
+      5,
+      262,
+      262
+    ],
+    "components": [
+      -94
+    ]
+  },
+  {
+    "id": 46,
+    "name": "clock_mask",
+    "parent": 3,
+    "size": [
+      5,
+      100,
+      100
+    ],
+    "components": [
+      {
+        "class": "cc.Sprite",
+        "_sizeMode": 0,
+        "node": -95,
+        "_materials": [
+          36
+        ],
+        "_spriteFrame": 37
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "name": "yuyinBox",
+    "parent": 1,
+    "trs": [
+      -2.6,
+      17.3,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0.8,
+      0.8,
+      1
+    ],
+    "components": []
+  },
+  {
+    "id": 48,
+    "name": "jinzhognzhao",
+    "parent": 1,
+    "trs": [
+      0,
+      28,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "size": [
+      5,
+      160.5,
+      201
+    ],
+    "components": [
+      {
+        "class": "sp.Skeleton",
+        "defaultSkin": "default",
+        "defaultAnimation": "animation",
+        "_preCacheMode": 0,
+        "premultipliedAlpha": false,
+        "_animationName": "animation",
+        "node": -96,
+        "_materials": [
+          38
+        ],
+        "_N$skeletonData": 39
+      }
+    ]
+  }
+]

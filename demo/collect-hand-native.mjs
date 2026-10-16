@@ -1,0 +1,3 @@
+import fs from'node:fs';import crypto from'node:crypto';import{expandUUID}from'./inspect-assets.mjs';
+const c=JSON.parse(fs.readFileSync('asset-study/fbx-config.json'));fs.mkdirSync('demo/hand-study/native',{recursive:true});
+for(const id of [54,73,98]){const uuid=expandUUID(c.uuids[id]),file='demo/hand-study/native/'+id+'-'+uuid+'.bin';if(fs.existsSync(file))continue;const url='https://res.12317wan.com/gameModule/h5/zjscmj/4399H5/package/601907/assets/fbx/native/'+uuid.slice(0,2)+'/'+uuid+'.bin',r=await fetch(url);if(!r.ok)throw new Error('Native '+id+' HTTP '+r.status);const buffer=Buffer.from(await r.arrayBuffer());fs.writeFileSync(file,buffer);console.log(JSON.stringify({id,uuid,bytes:buffer.length,sha256:crypto.createHash('sha256').update(buffer).digest('hex')}))}

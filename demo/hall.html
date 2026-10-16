@@ -1,0 +1,14 @@
+
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>联桌麻将 · 大厅</title><link rel="stylesheet" href="lobby.css"><link rel="stylesheet" href="hall-match.css"><link rel="stylesheet" href="hall-panels.css"><link rel="stylesheet" href="lianzhuo-hall.css"><link rel="stylesheet" href="hall-game-cards.css"><link rel="stylesheet" href="lianzhuo-panels.css"></head><body>
+<main id="viewport"><div id="lobby" class="hall-match"><div class="background" data-part="background"></div>
+<button class="profile" data-part="profile" data-info="个人资料" aria-label="个人资料"><img class="profile-bg" src="assets/lobby/1548.png" alt=""><img class="avatar" src="assets/lobby/user-reference.png" alt="参考头像"><span class="account">4201529133</span><span class="rank"><img src="assets/lobby/944.png" alt="">初阶雀尊</span></button>
+<section class="balances single-currency" aria-label="金币余额"><div><img src="assets/lobby/391.png" alt="金币"><b class="currency-name">金币</b><span>—</span><button data-info="金币" aria-label="金币余额管理">＋</button></div></section>
+<section class="activities" data-part="activities" aria-label="活动入口"></section><section class="modes" data-part="modes" aria-label="游戏玩法"></section>
+<nav class="bottom" data-part="navigation" aria-label="大厅导航"><img class="nav-bg" src="assets/lobby/1680.png" alt=""><div class="nav-items"></div></nav>
+<a class="quick" href="reference.html?mode=classic&room=beginner" aria-label="快速开始"><img src="assets/lobby/160.png" alt=""><strong>快速开始 <span>▸</span></strong><small>血流麻将 新手场</small></a><button id="study-open" aria-label="查看大厅实现">?</button>
+</div></main><dialog id="info"><button class="close" aria-label="关闭">×</button><h2></h2><p></p><button class="okay">知道了</button></dialog>
+<aside id="study" hidden><button id="study-close" aria-label="关闭界面拆解">×</button><small>本地学习 Demo</small><h1>大厅是怎么实现的</h1><p>大厅主要由 2D 背景和精灵图片叠加组成。立体麻将、奖杯和手柄已经画在卡片图片里，显示它们不需要实时 3D 模型。</p><div id="layers"></div><h2>原版素材</h2><p>背景：NewSkin/Bg/bg_01<br>卡片：NewSkin/MainEntry/bg<br>活动：NewSkin/MainIcon<br>标题：fnt_datingsekuai-export</p><h2>本地实现</h2><p>lobby.js 设置节点位置和点击响应；lobby.css 将 1080 × 542 的大厅等比例缩放到窗口。标题由原版位图字体生成，活动和导航图标由图集裁切得到。</p><p>快速开始进入本地牌桌。其余入口展示本地提示。金币由后端保存，所有已实现的玩法共用同一余额，头像取自用户提供的参考截图。</p><a href="reference.html">进入牌桌，查看混合渲染 →</a></aside><script type="module" src="lobby.js"></script></body></html>
+
+
+
+

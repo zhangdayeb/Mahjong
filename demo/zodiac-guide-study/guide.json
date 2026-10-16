@@ -1,0 +1,1037 @@
+{
+  "design": [
+    1280,
+    720
+  ],
+  "source": {
+    "bundle": "prefabs",
+    "id": 1034,
+    "path": "hall/modules/SESXGuide/SESXGuide"
+  },
+  "tree": {
+    "name": "SESXGuide",
+    "trs": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "size": [
+      1280,
+      720
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "opacity": 255,
+    "color": 4294967295,
+    "active": true,
+    "sprite": null,
+    "label": null,
+    "mask": false,
+    "widget": null,
+    "button": null,
+    "children": [
+      {
+        "name": "Mask",
+        "trs": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "size": [
+          1280,
+          720
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "opacity": 216,
+        "color": 4278190080,
+        "active": true,
+        "sprite": {
+          "class": "cc.Sprite",
+          "_sizeMode": 0,
+          "_materials": [
+            "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+          ],
+          "_spriteFrame": "a23235d1-15db-4b95-8439-a2e005bfff91",
+          "frame": null,
+          "builtinSolid": true
+        },
+        "label": null,
+        "mask": false,
+        "widget": {
+          "class": "cc.Widget",
+          "_alignFlags": 45,
+          "_originalWidth": 1280,
+          "_originalHeight": 720
+        },
+        "button": null,
+        "children": []
+      },
+      {
+        "name": "Root",
+        "trs": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "size": [
+          0,
+          0
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "opacity": 255,
+        "color": 4294967295,
+        "active": true,
+        "sprite": null,
+        "label": null,
+        "mask": false,
+        "widget": null,
+        "button": null,
+        "children": [
+          {
+            "name": "Bg",
+            "trs": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            "size": [
+              872,
+              537
+            ],
+            "anchor": [
+              0.5,
+              0.5
+            ],
+            "opacity": 255,
+            "color": 4294967295,
+            "active": true,
+            "sprite": {
+              "class": "cc.Sprite",
+              "_materials": [
+                "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+              ],
+              "_spriteFrame": "917928c6-aa0d-493b-9985-58c5b26e465f@6c48a",
+              "frame": "917928c6-aa0d-493b-9985-58c5b26e465f@6c48a",
+              "builtinSolid": false
+            },
+            "label": null,
+            "mask": false,
+            "widget": null,
+            "button": null,
+            "children": []
+          },
+          {
+            "name": "baibian",
+            "trs": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            "size": [
+              804,
+              362
+            ],
+            "anchor": [
+              0.5,
+              0.5
+            ],
+            "opacity": 255,
+            "color": 4294967295,
+            "active": true,
+            "sprite": {
+              "class": "cc.Sprite",
+              "_materials": [
+                "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+              ],
+              "_spriteFrame": "5c0f0883-593b-47d5-9e79-06175c6ca3d1@6c48a",
+              "frame": "5c0f0883-593b-47d5-9e79-06175c6ca3d1@6c48a",
+              "builtinSolid": false
+            },
+            "label": null,
+            "mask": false,
+            "widget": null,
+            "button": null,
+            "children": []
+          },
+          {
+            "name": "Left",
+            "trs": [
+              -493,
+              9,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            "size": [
+              80,
+              100
+            ],
+            "anchor": [
+              0.5,
+              0.5
+            ],
+            "opacity": 255,
+            "color": 4294967295,
+            "active": true,
+            "sprite": null,
+            "label": null,
+            "mask": false,
+            "widget": null,
+            "button": {
+              "class": "cc.Button",
+              "events": [
+                {
+                  "component": "aa9c5g4FLpMEYJ/iippjCVT",
+                  "handler": "onClickLeft"
+                }
+              ]
+            },
+            "children": [
+              {
+                "name": "Icon",
+                "trs": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "size": [
+                  90,
+                  108
+                ],
+                "anchor": [
+                  0.5,
+                  0.5
+                ],
+                "opacity": 255,
+                "color": 4294967295,
+                "active": true,
+                "sprite": {
+                  "class": "cc.Sprite",
+                  "_materials": [
+                    "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                  ],
+                  "_spriteFrame": "8e452cc8-c2c0-4564-888e-608880dac88b@6c48a",
+                  "frame": "8e452cc8-c2c0-4564-888e-608880dac88b@6c48a",
+                  "builtinSolid": false
+                },
+                "label": null,
+                "mask": false,
+                "widget": null,
+                "button": null,
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Right",
+            "trs": [
+              504,
+              10,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            "size": [
+              80,
+              100
+            ],
+            "anchor": [
+              0.5,
+              0.5
+            ],
+            "opacity": 255,
+            "color": 4294967295,
+            "active": true,
+            "sprite": null,
+            "label": null,
+            "mask": false,
+            "widget": null,
+            "button": {
+              "class": "cc.Button",
+              "events": [
+                {
+                  "component": "aa9c5g4FLpMEYJ/iippjCVT",
+                  "handler": "onClickRight"
+                }
+              ]
+            },
+            "children": [
+              {
+                "name": "Icon",
+                "trs": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "size": [
+                  90,
+                  108
+                ],
+                "anchor": [
+                  0.5,
+                  0.5
+                ],
+                "opacity": 255,
+                "color": 4294967295,
+                "active": true,
+                "sprite": {
+                  "class": "cc.Sprite",
+                  "_materials": [
+                    "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                  ],
+                  "_spriteFrame": "acdfd79b-9c4d-4103-9fa2-993d1c25266b@6c48a",
+                  "frame": "acdfd79b-9c4d-4103-9fa2-993d1c25266b@6c48a",
+                  "builtinSolid": false
+                },
+                "label": null,
+                "mask": false,
+                "widget": null,
+                "button": null,
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "ShowPic",
+            "trs": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            "size": [
+              804,
+              362
+            ],
+            "anchor": [
+              0.5,
+              0.5
+            ],
+            "opacity": 255,
+            "color": 4294967295,
+            "active": true,
+            "sprite": {
+              "class": "cc.Sprite",
+              "_materials": [
+                "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+              ],
+              "_spriteFrame": "208d98d5-930a-4ebe-afe7-fb9dbf8102ea@6c48a",
+              "frame": "208d98d5-930a-4ebe-afe7-fb9dbf8102ea@6c48a",
+              "builtinSolid": false
+            },
+            "label": null,
+            "mask": false,
+            "widget": null,
+            "button": null,
+            "children": []
+          },
+          {
+            "name": "Title",
+            "trs": [
+              0,
+              261,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            "size": [
+              736,
+              115
+            ],
+            "anchor": [
+              0.5,
+              0.5
+            ],
+            "opacity": 255,
+            "color": 4294967295,
+            "active": true,
+            "sprite": {
+              "class": "cc.Sprite",
+              "_materials": [
+                "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+              ],
+              "_spriteFrame": "b28384c8-ec6e-47f8-a282-42636344dab2@6c48a",
+              "frame": "b28384c8-ec6e-47f8-a282-42636344dab2@6c48a",
+              "builtinSolid": false
+            },
+            "label": null,
+            "mask": false,
+            "widget": null,
+            "button": null,
+            "children": []
+          },
+          {
+            "name": "di",
+            "trs": [
+              10,
+              -224,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            "size": [
+              794,
+              43
+            ],
+            "anchor": [
+              0.5,
+              0.5
+            ],
+            "opacity": 255,
+            "color": 4294967295,
+            "active": true,
+            "sprite": {
+              "class": "cc.Sprite",
+              "_materials": [
+                "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+              ],
+              "_spriteFrame": "65a6a69a-4e68-4f47-b7fb-fa9678e7b162@6c48a",
+              "frame": "65a6a69a-4e68-4f47-b7fb-fa9678e7b162@6c48a",
+              "builtinSolid": false
+            },
+            "label": null,
+            "mask": false,
+            "widget": null,
+            "button": null,
+            "children": [
+              {
+                "name": "Label",
+                "trs": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "size": [
+                  0,
+                  50.4
+                ],
+                "anchor": [
+                  0.5,
+                  0.5
+                ],
+                "opacity": 255,
+                "color": 4294967295,
+                "active": true,
+                "sprite": null,
+                "label": {
+                  "class": "cc.Label",
+                  "_fontSize": 21,
+                  "_underlineHeight": 2,
+                  "_N$horizontalAlign": 1,
+                  "_N$verticalAlign": 1,
+                  "_materials": [
+                    "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                  ]
+                },
+                "mask": false,
+                "widget": null,
+                "button": null,
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "shouzhi",
+            "trs": [
+              502,
+              0,
+              0,
+              0,
+              0,
+              1,
+              6.123233995736766e-17,
+              1,
+              1,
+              1
+            ],
+            "size": [
+              0,
+              0
+            ],
+            "anchor": [
+              0.5,
+              0.5
+            ],
+            "opacity": 255,
+            "color": 4294967295,
+            "active": true,
+            "sprite": null,
+            "label": null,
+            "mask": false,
+            "widget": null,
+            "button": null,
+            "children": [
+              {
+                "name": "glow",
+                "trs": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "size": [
+                  112,
+                  112
+                ],
+                "anchor": [
+                  0.5,
+                  0.5
+                ],
+                "opacity": 255,
+                "color": 4294967295,
+                "active": true,
+                "sprite": {
+                  "class": "cc.Sprite",
+                  "_dstBlendFactor": 1,
+                  "_materials": [
+                    "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                  ],
+                  "_spriteFrame": "9d578a0d-2b6e-432d-899f-fef2193d9478",
+                  "frame": "9d578a0d-2b6e-432d-899f-fef2193d9478",
+                  "builtinSolid": false
+                },
+                "label": null,
+                "mask": false,
+                "widget": null,
+                "button": null,
+                "children": []
+              },
+              {
+                "name": "glow02",
+                "trs": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "size": [
+                  112,
+                  112
+                ],
+                "anchor": [
+                  0.5,
+                  0.5
+                ],
+                "opacity": 255,
+                "color": 4294967295,
+                "active": true,
+                "sprite": {
+                  "class": "cc.Sprite",
+                  "_dstBlendFactor": 1,
+                  "_materials": [
+                    "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                  ],
+                  "_spriteFrame": "9d578a0d-2b6e-432d-899f-fef2193d9478",
+                  "frame": "9d578a0d-2b6e-432d-899f-fef2193d9478",
+                  "builtinSolid": false
+                },
+                "label": null,
+                "mask": false,
+                "widget": null,
+                "button": null,
+                "children": []
+              },
+              {
+                "name": "guangban_011",
+                "trs": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "size": [
+                  219,
+                  219
+                ],
+                "anchor": [
+                  0.5,
+                  0.5
+                ],
+                "opacity": 255,
+                "color": 4294967295,
+                "active": true,
+                "sprite": {
+                  "class": "cc.Sprite",
+                  "_dstBlendFactor": 1,
+                  "_materials": [
+                    "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                  ],
+                  "_spriteFrame": "26096d89-24aa-48eb-9355-76c160f5671b",
+                  "frame": "26096d89-24aa-48eb-9355-76c160f5671b",
+                  "builtinSolid": false
+                },
+                "label": null,
+                "mask": false,
+                "widget": null,
+                "button": null,
+                "children": []
+              },
+              {
+                "name": "shouzhi",
+                "trs": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "size": [
+                  85,
+                  125
+                ],
+                "anchor": [
+                  0.5,
+                  0.5
+                ],
+                "opacity": 255,
+                "color": 4294967295,
+                "active": true,
+                "sprite": {
+                  "class": "cc.Sprite",
+                  "_materials": [
+                    "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                  ],
+                  "_spriteFrame": "3e11f108-3279-4907-89ea-0886b9f76af6",
+                  "frame": "3e11f108-3279-4907-89ea-0886b9f76af6",
+                  "builtinSolid": false
+                },
+                "label": null,
+                "mask": false,
+                "widget": null,
+                "button": null,
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "BtnClose",
+            "trs": [
+              492,
+              254,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            "size": [
+              80,
+              70
+            ],
+            "anchor": [
+              0.5,
+              0.5
+            ],
+            "opacity": 255,
+            "color": 4294967295,
+            "active": true,
+            "sprite": null,
+            "label": null,
+            "mask": false,
+            "widget": null,
+            "button": {
+              "class": "cc.Button",
+              "events": [
+                {
+                  "component": "aa9c5g4FLpMEYJ/iippjCVT",
+                  "handler": "onClickClose"
+                }
+              ]
+            },
+            "children": [
+              {
+                "name": "Icon",
+                "trs": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "size": [
+                  39,
+                  39
+                ],
+                "anchor": [
+                  0.5,
+                  0.5
+                ],
+                "opacity": 255,
+                "color": 4294967295,
+                "active": true,
+                "sprite": {
+                  "class": "cc.Sprite",
+                  "_materials": [
+                    "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+                  ],
+                  "_spriteFrame": "9848394b-4f3f-4a7f-9d22-417c9826f6c0@6c48a",
+                  "frame": "9848394b-4f3f-4a7f-9d22-417c9826f6c0@6c48a",
+                  "builtinSolid": false
+                },
+                "label": null,
+                "mask": false,
+                "widget": null,
+                "button": null,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "pages": [
+    {
+      "title": "b28384c8-ec6e-47f8-a282-42636344dab2@6c48a",
+      "image": "208d98d5-930a-4ebe-afe7-fb9dbf8102ea@6c48a",
+      "titleSize": [
+        736,
+        115
+      ],
+      "imageSize": [
+        804,
+        362
+      ],
+      "info": "生肖牌：鼠、牛、虎、兔、龙、蛇、马、羊、猴、鸡、狗、猪    吉星牌：福、禄、寿"
+    },
+    {
+      "title": "26f2b581-00ab-4be7-9346-c8874f8faee2@6c48a",
+      "image": "3e256652-a954-498b-85c3-cbd0aa385cbd@6c48a",
+      "titleSize": [
+        464,
+        111
+      ],
+      "imageSize": [
+        804,
+        362
+      ],
+      "info": "玩家每摸到一张本次对局未摸到过的生肖牌，即可收集到生肖图中增加倍数。"
+    },
+    {
+      "title": "a5cb25c3-f735-4e2f-bc75-f1300ca703db@6c48a",
+      "image": "ce1e7ae8-99a0-4be0-81e7-1acf7c75272f@6c48a",
+      "titleSize": [
+        541,
+        110
+      ],
+      "imageSize": [
+        804,
+        362
+      ],
+      "info": "打出吉星牌后，会随机点亮一张生肖图中未点亮的生肖牌。"
+    },
+    {
+      "title": "bac26545-6e4a-44a3-bf0f-3410ce831a17@6c48a",
+      "image": "1b576fcb-63cc-4165-a510-c8fac5822b76@6c48a",
+      "titleSize": [
+        552,
+        110
+      ],
+      "imageSize": [
+        804,
+        362
+      ],
+      "info": "根据收集到的生肖牌组成的不同形状，可以获得倍数加成。"
+    }
+  ],
+  "entryIcon": "6fa1af32-140e-4df8-8e84-489534c647a5@6c48a",
+  "openingAnimation": {
+    "expandDurationMs": 200,
+    "settleDurationMs": 100,
+    "initialScale": 0.1,
+    "expandedScale": 1.1,
+    "finalScale": 1
+  },
+  "closeAnimation": {
+    "expandDurationMs": 150,
+    "returnDurationMs": 200,
+    "expandBy": 0.15,
+    "finalScale": 0.05,
+    "expandEasing": "cubicOut",
+    "returnEasing": "cubicOut"
+  },
+  "fingerAnimation": {
+    "source": {
+      "bundle": "resources",
+      "id": 2092,
+      "uuid": "ae456425-c1ab-43fb-85af-d8adbfa238d9"
+    },
+    "delayMs": 300,
+    "durationMs": 1166.6666666666667,
+    "clip": {
+      "class": "cc.AnimationClip",
+      "_name": "shouzhi",
+      "_duration": 1.1666666666666667,
+      "sample": 30,
+      "wrapMode": "2",
+      "curveData": {
+        "paths": {
+          "shouzhi": {
+            "props": {
+              "position": [
+                {
+                  "frame": 0,
+                  "curve": "sineIn",
+                  "value": [
+                    0,
+                    80
+                  ]
+                },
+                {
+                  "frame": 0.3333333333333333,
+                  "curve": "sineOut",
+                  "value": [
+                    0,
+                    52.1
+                  ]
+                },
+                {
+                  "frame": 1.1666666666666667,
+                  "value": [
+                    0,
+                    80
+                  ]
+                }
+              ]
+            }
+          },
+          "glow": {
+            "props": {
+              "opacity": [
+                {
+                  "frame": 0.23333333333333334,
+                  "value": 0
+                },
+                {
+                  "frame": 0.4,
+                  "value": 255
+                },
+                {
+                  "frame": 1,
+                  "value": 0
+                }
+              ],
+              "scale": [
+                {
+                  "frame": 0.23333333333333334,
+                  "curve": [
+                    0.05637681159420291,
+                    0.06202898550724645,
+                    0.6234782608695651,
+                    0.8260869565217391
+                  ],
+                  "value": [
+                    0.58,
+                    0.58
+                  ]
+                },
+                {
+                  "frame": 1,
+                  "value": [
+                    1.47,
+                    1.47
+                  ]
+                }
+              ]
+            }
+          },
+          "glow02": {
+            "props": {
+              "opacity": [
+                {
+                  "frame": 0.5,
+                  "value": 0
+                },
+                {
+                  "frame": 0.7,
+                  "value": 255
+                },
+                {
+                  "frame": 1.1666666666666667,
+                  "value": 0
+                }
+              ],
+              "scale": [
+                {
+                  "frame": 0.5,
+                  "value": [
+                    0.58,
+                    0.58
+                  ]
+                },
+                {
+                  "frame": 1.1666666666666667,
+                  "value": [
+                    1.34,
+                    1.34
+                  ]
+                }
+              ]
+            }
+          },
+          "guangban_011": {
+            "props": {
+              "opacity": [
+                {
+                  "frame": 0.3,
+                  "value": 0
+                },
+                {
+                  "frame": 0.4666666666666667,
+                  "value": 255
+                },
+                {
+                  "frame": 0.8666666666666667,
+                  "value": 0
+                }
+              ],
+              "scale": [
+                {
+                  "frame": 0.3,
+                  "value": [
+                    0.44,
+                    0.44
+                  ]
+                },
+                {
+                  "frame": 0.8666666666666667,
+                  "value": [
+                    1.23,
+                    1.23
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "notes": [
+    "The four title and page sprites, explanatory sentences and native node transforms are copied from original local assets.",
+    "SESXGuideView hides the left arrow on page zero and the right arrow on page three. The serialized close button is visible on every page.",
+    "The source finger clip starts on load, becomes visible after 300 ms, and stays hidden after the final page has been reached, including when navigating back.",
+    "Opening and closing only affect this local preview; no online guide flags, rewards or game state are written."
+  ]
+}

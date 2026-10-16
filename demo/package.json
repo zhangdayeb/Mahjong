@@ -1,0 +1,12 @@
+{
+  "name": "qinglv-mahjong-demo",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test rules.test.js round.test.js red-rules.test.js round-events.test.js fan-effects.test.js meld-study/placements.test.js table-layout.test.js hand-effects.test.js table-panels.test.js settlement-view.test.js action-result-effects.test.js action-result-events.test.js native-seat-tags.test.js native-room-rules.test.js native-exit.test.js native-kong-effects.test.js native-shop.test.js native-week-card.test.js native-hall-activities.test.js bounty-runtime.test.js hall-activity-study/bounty-tasks.test.js native-hall-panels.test.mjs native-hall-games.test.js native-hall-games-text.test.js native-sanguo-guide.test.js sanguo-guide-entry.test.js sanguo-rooms.test.js rooms-config.test.js rooms-entry.test.js native-hall-rules.test.mjs sichuan-collection.test.js entertainment-collection.test.js zodiac-rooms.test.js native-zodiac-guide.test.js sanguo-table-entry.test.js sanguo-table-study.test.js sanguo-table-model.test.js sanguo-dealt-model.test.js sanguo-round.test.js sanguo-controller.test.js sanguo-play-model.test.js game-audio.test.js single-currency.test.js hand-analysis.test.js bloodflow-scoring.test.js bloodflow-round.test.js hall-game-catalog.test.js entry-loading.test.js live-rulebook.test.js audio-v2.test.js table-audio-events.test.js action-result-finish.test.js tile-kong-details.test.js"
+  },
+  "dependencies": {
+    "three": "^0.180.0"
+  }
+}

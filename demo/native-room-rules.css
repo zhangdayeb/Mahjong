@@ -1,0 +1,24 @@
+.native-room-rule-layer{position:absolute;inset:0;z-index:80;pointer-events:auto;font-family:Arial,"Microsoft YaHei",sans-serif;color:#3d3e5e}
+.native-room-rule-layer [hidden],.native-room-rule-layer[hidden]{display:none!important}
+.native-room-rule-mask{position:absolute;inset:0;width:100%;height:100%;margin:0;border:0;padding:0;background:rgba(2,2,2,.5)!important;cursor:default}
+.native-room-rule-panel{position:absolute;left:50%;top:50%;width:950px;height:600px;transform:translate(-50%,-50%) scale(var(--native-room-rule-scale));transform-origin:center center;outline:0;overflow:visible}
+.native-room-rule-bg{position:absolute;left:1px;top:6.5px;width:948px;height:587px;border-style:solid;border-color:transparent;border-width:20px 18px 24px 25px;border-image-slice:20 18 24 25 fill;border-image-repeat:stretch;box-sizing:border-box}
+.native-room-rule-titlebar{position:absolute;left:0;top:.5px;width:950px;height:70px;pointer-events:none}
+.native-room-rule-title{position:absolute;left:32.59px;top:14.617px;width:171px;height:32px;margin:0;font-size:32px;line-height:32px;font-weight:400;color:white;text-align:center;white-space:nowrap}
+.native-room-rule-title-bitmap{position:absolute;left:0;top:0;display:block;pointer-events:none}
+.native-room-rule-close{position:absolute;left:858.935px;top:-4.858px;width:75px;height:75px;padding:0;border:0;background:none;display:grid;place-items:center;cursor:pointer}
+.native-room-rule-close img{width:38px;height:37px;pointer-events:none}
+.native-room-rule-tabs{position:absolute;left:296.8px;top:92.433px;width:356.4px;height:40.5px;display:flex}
+.native-room-rule-tab{position:relative;flex:none;width:178.2px;height:40.5px;margin:0;border:0;border-radius:0;padding:0;background:transparent center/100% 100% no-repeat;font:400 25.2px/25.2px Arial,"Microsoft YaHei",sans-serif;color:#2f3650!important;cursor:pointer;text-align:center}
+.native-room-rule-tab[aria-selected=true]{color:#a84200!important}
+.native-room-rule-tab span{display:inline-block}
+.native-room-rule-scroll{position:absolute;left:75px;top:155.227px;width:800px;height:410px;padding:0;overflow-x:hidden;overflow-y:auto;scrollbar-width:none;touch-action:pan-y;overscroll-behavior:contain;cursor:grab;display:flex;flex-direction:column;gap:5px;outline:0}
+.native-room-rule-scroll::-webkit-scrollbar{display:none}
+.native-room-rule-scroll.dragging{cursor:grabbing;user-select:none}
+.native-room-rule-text{flex:none;width:660px;margin:0 0 0 75px;padding:10.4px 0 0;box-sizing:content-box;font-size:22px;line-height:40px;font-weight:400;white-space:pre-wrap;overflow-wrap:break-word}
+.native-room-rule-picture{position:relative;flex:none;width:680px;height:56.8px;margin:0 0 0 65px;overflow:visible}
+.native-room-rule-tile{position:absolute;display:block;animation:native-rule-tile-reveal .001s var(--tile-reveal,0s) both;pointer-events:none}
+.native-room-rule-tile img{position:absolute;left:0;top:0;width:100%;height:100%;object-fit:fill;pointer-events:none}
+.native-room-rule-panel button:focus-visible,.native-room-rule-scroll:focus-visible{outline:2px solid #24beff;outline-offset:2px}
+@keyframes native-rule-tile-reveal{from{visibility:hidden}to{visibility:visible}}
+@media(prefers-reduced-motion:reduce){.native-room-rule-tile{animation:none}}

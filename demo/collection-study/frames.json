@@ -1,0 +1,1331 @@
+[
+  {
+    "bundle": "lobby",
+    "id": 841,
+    "path": "FanGather/bg/pic_01",
+    "name": "pic_01",
+    "rect": [
+      0,
+      0,
+      1560,
+      720
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1560,
+      720
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "56790e3b-1449-4a74-9abf-4279c99eba3d",
+    "textureUUID": "2b9f214c-b73b-40b4-9801-94206c6a145e",
+    "image": "collection-study/assets/lobby-841-pic_01.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 490,
+    "path": "FanGather/bg/pic_16",
+    "name": "pic_16",
+    "rect": [
+      0,
+      0,
+      1088,
+      613
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1088,
+      613
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "2f73e358-5ceb-4a3a-b432-900989a45c03",
+    "textureUUID": "f444e26a-bd3e-4c81-bc15-d787ed860ae1",
+    "image": "collection-study/assets/lobby-490-pic_16.png"
+  },
+  {
+    "bundle": "common",
+    "id": 817,
+    "path": "NewSkin/Sudoku/pic_com03",
+    "name": "pic_com03",
+    "rect": [
+      79,
+      131,
+      75,
+      62
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      83,
+      70
+    ],
+    "capInsets": [
+      29,
+      0,
+      29,
+      0
+    ],
+    "uuid": "fefa49e7-643b-427f-abfc-d1e346deafb3",
+    "textureUUID": "157399797",
+    "image": "collection-study/assets/common-817-pic_com03.png"
+  },
+  {
+    "bundle": "common",
+    "id": 480,
+    "path": "NewSkin/NewBtn/btn_com01",
+    "name": "btn_com01",
+    "rect": [
+      347,
+      242,
+      91,
+      92
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      91,
+      92
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "9a8bba23-d9bd-4ff6-8524-b5aacc0a840f",
+    "textureUUID": "1e8019203",
+    "image": "collection-study/assets/common-480-btn_com01.png"
+  },
+  {
+    "bundle": "common",
+    "id": 520,
+    "path": "NewSkin/Sudoku/fengexian",
+    "name": "fengexian",
+    "rect": [
+      456,
+      26,
+      175,
+      1
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      175,
+      1
+    ],
+    "rotated": 1,
+    "capInsets": [
+      8,
+      0,
+      9,
+      0
+    ],
+    "uuid": "a524976f-184d-4ac6-8bda-e87e3ce70472",
+    "textureUUID": "157399797",
+    "image": "collection-study/assets/common-520-fengexian.png"
+  },
+  {
+    "bundle": "common",
+    "id": 170,
+    "path": "NewSkin/NewBtn/btn_com14",
+    "name": "btn_com14",
+    "rect": [
+      92,
+      985,
+      32,
+      33
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      32,
+      33
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "355095f1-b8f2-41db-b28a-e4a2b84dfb0f",
+    "textureUUID": "1e8019203",
+    "image": "collection-study/assets/common-170-btn_com14.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1482,
+    "path": "FanGather/res/pic_23",
+    "name": "pic_23",
+    "rect": [
+      3,
+      996,
+      15,
+      573
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      15,
+      573
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "9b347b16-e043-460e-adbf-892d2e1362d9",
+    "textureUUID": "1d53c0367",
+    "image": "collection-study/assets/lobby-1482-pic_23.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 294,
+    "path": "FanGather/res/btn_05",
+    "name": "btn_05",
+    "rect": [
+      833,
+      805,
+      128,
+      141
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      128,
+      141
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "1c5fffbb-099f-4240-b7a7-f92f660a1213",
+    "textureUUID": "1d53c0367",
+    "image": "collection-study/assets/lobby-294-btn_05.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 2019,
+    "path": "FanGather/res/btn_04",
+    "name": "btn_04",
+    "rect": [
+      855,
+      289,
+      130,
+      145
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      130,
+      145
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "d3b42ea9-48cd-4940-8c77-308c04377f2a",
+    "textureUUID": "1d53c0367",
+    "image": "collection-study/assets/lobby-2019-btn_04.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 682,
+    "path": "FanGather/res/pic_19",
+    "name": "pic_19",
+    "rect": [
+      983,
+      669,
+      27,
+      28
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      27,
+      28
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "44ae19fe-0b16-4b84-896b-dbc0955cbf1b",
+    "textureUUID": "1d53c0367",
+    "image": "collection-study/assets/lobby-682-pic_19.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 2165,
+    "path": "FanGather/res/btn_08",
+    "name": "btn_08",
+    "rect": [
+      420,
+      659,
+      134,
+      144
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      134,
+      144
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "e3c3311e-a4fc-4fb3-99d2-9d6443225add",
+    "textureUUID": "1d53c0367",
+    "image": "collection-study/assets/lobby-2165-btn_08.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 2010,
+    "path": "FanGather/res/btn_09",
+    "name": "btn_09",
+    "rect": [
+      855,
+      153,
+      130,
+      145
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      130,
+      145
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "d309eee4-f37c-4625-854d-43fe77f3b005",
+    "textureUUID": "1d53c0367",
+    "image": "collection-study/assets/lobby-2010-btn_09.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1340,
+    "path": "FanGather/res/btn_06",
+    "name": "btn_06",
+    "rect": [
+      508,
+      836,
+      130,
+      141
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      130,
+      141
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "8c8c8eb4-2797-4d3a-87ea-afe5e9062164",
+    "textureUUID": "1d53c0367",
+    "image": "collection-study/assets/lobby-1340-btn_06.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 658,
+    "path": "FanGather/res/btn_07",
+    "name": "btn_07",
+    "rect": [
+      420,
+      116,
+      130,
+      145
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      130,
+      145
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "4202dcce-1e96-44f8-95b7-264318c53109",
+    "textureUUID": "1d53c0367",
+    "image": "collection-study/assets/lobby-658-btn_07.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1225,
+    "path": "FanGather/res/btn_10",
+    "name": "btn_10",
+    "rect": [
+      836,
+      669,
+      130,
+      141
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      130,
+      141
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "7ec7e7fb-3b24-4b09-9f62-1d086445178c",
+    "textureUUID": "1d53c0367",
+    "image": "collection-study/assets/lobby-1225-btn_10.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1069,
+    "path": "FanGather/res/btn_11",
+    "name": "btn_11",
+    "rect": [
+      420,
+      252,
+      130,
+      145
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      130,
+      145
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "6e4fcf86-19c4-424a-8723-86672a883098",
+    "textureUUID": "1d53c0367",
+    "image": "collection-study/assets/lobby-1069-btn_11.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1579,
+    "path": "FanGather/res/pic_15",
+    "name": "pic_15",
+    "rect": [
+      582,
+      153,
+      213,
+      267
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      213,
+      268
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "a6cddcde-0889-47f4-924b-e645c90dadf7",
+    "textureUUID": "1d53c0367",
+    "image": "collection-study/assets/lobby-1579-pic_15.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1979,
+    "path": "FanGather/res/pic_31",
+    "name": "pic_31",
+    "rect": [
+      450,
+      799,
+      187,
+      28
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      187,
+      28
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "cf4c228d-54ce-402f-8762-20bc396b0705",
+    "textureUUID": "1d53c0367",
+    "image": "collection-study/assets/lobby-1979-pic_31.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 2236,
+    "path": "FanGather/res/pic_33",
+    "name": "pic_33",
+    "rect": [
+      582,
+      577,
+      199,
+      248
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      199,
+      248
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "e9ee10ec-2667-4da5-964b-c4a08654bdc2",
+    "textureUUID": "1d53c0367",
+    "image": "collection-study/assets/lobby-2236-pic_33.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 2025,
+    "path": "FanGather/res/pic_17",
+    "name": "pic_17",
+    "rect": [
+      639,
+      782,
+      49,
+      34
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      49,
+      34
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "d430deec-13ea-464b-bcce-98b3d453a0be",
+    "textureUUID": "1d53c0367",
+    "image": "collection-study/assets/lobby-2025-pic_17.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 2255,
+    "path": "FanGather/res/pic_18",
+    "name": "pic_18",
+    "rect": [
+      923,
+      3,
+      75,
+      68
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      75,
+      68
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "ebb10f1e-167b-477b-907c-faee17409512",
+    "textureUUID": "1d53c0367",
+    "image": "collection-study/assets/lobby-2255-pic_18.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 2087,
+    "path": "FanGather/res/pic_02",
+    "name": "pic_02",
+    "rect": [
+      582,
+      84,
+      428,
+      63
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      428,
+      63
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "db90651f-ccb9-4ea6-b84b-4ee27d898ec2",
+    "textureUUID": "1d53c0367",
+    "image": "collection-study/assets/lobby-2087-pic_02.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 493,
+    "path": "FanGather/res/pic_21_0",
+    "name": "pic_21_0",
+    "rect": [
+      644,
+      939,
+      66,
+      65
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      66,
+      65
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "2f78a2de-0b89-42d2-918d-b8a1b153505e",
+    "textureUUID": "1d53c0367",
+    "image": "collection-study/assets/lobby-493-pic_21_0.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1484,
+    "path": "FanGather/res/pic_21_1",
+    "name": "pic_21_1",
+    "rect": [
+      983,
+      702,
+      128,
+      21
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      128,
+      21
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "9b8cb965-aec1-4fcc-ba15-f856906e408b",
+    "textureUUID": "1d53c0367",
+    "image": "collection-study/assets/lobby-1484-pic_21_1.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 952,
+    "path": "FanGather/res/pic_30",
+    "name": "pic_30",
+    "rect": [
+      420,
+      799,
+      189,
+      24
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      189,
+      24
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "61bd126d-40dc-4aed-9b2c-7539aa6aa340",
+    "textureUUID": "1d53c0367",
+    "image": "collection-study/assets/lobby-952-pic_30.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1228,
+    "path": "FanGather/res/pic_29",
+    "name": "pic_29",
+    "rect": [
+      484,
+      799,
+      186,
+      18
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      192,
+      24
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "7ef57e08-97ff-44e1-9f3b-3de20cbc371e",
+    "textureUUID": "1d53c0367",
+    "image": "collection-study/assets/lobby-1228-pic_29.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 400,
+    "path": "FanGather/res/pic_34",
+    "name": "pic_34",
+    "rect": [
+      715,
+      939,
+      57,
+      58
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      57,
+      58
+    ],
+    "capInsets": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "uuid": "277190e7-8f74-4be8-be28-029912b0f27d",
+    "textureUUID": "1d53c0367",
+    "image": "collection-study/assets/lobby-400-pic_34.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1720,
+    "path": "FanGather/res/pic_36",
+    "name": "pic_36",
+    "rect": [
+      570,
+      782,
+      44,
+      43
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      44,
+      43
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "b41e0f74-bbe3-400c-865a-7d0c8e4bd16d",
+    "textureUUID": "1d53c0367",
+    "image": "collection-study/assets/lobby-1720-pic_36.png"
+  },
+  {
+    "bundle": "common",
+    "id": 738,
+    "path": "GoodsIcon/pic_02-1",
+    "name": "pic_02-1",
+    "rect": [
+      3,
+      73,
+      71,
+      85
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      71,
+      85
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "e6da781a-bae3-4c5a-8efa-858391c2a99f",
+    "textureUUID": "1e89896a0",
+    "image": "collection-study/assets/common-738-pic_02-1.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1359,
+    "path": "FanGather/res/pic_35",
+    "name": "pic_35",
+    "rect": [
+      619,
+      805,
+      19,
+      14
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      19,
+      14
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "8e92e819-9054-4976-8b54-1439ddd89550",
+    "textureUUID": "1d53c0367",
+    "image": "collection-study/assets/lobby-1359-pic_35.png"
+  },
+  {
+    "bundle": "common",
+    "id": 559,
+    "path": "NewSkin/Sudoku/pic_com08",
+    "name": "pic_com08",
+    "rect": [
+      404,
+      207,
+      53,
+      56
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      53,
+      56
+    ],
+    "rotated": 1,
+    "capInsets": [
+      25,
+      20,
+      18,
+      24
+    ],
+    "uuid": "b1ce235d-bf85-4847-8a55-b158dbc4c8c5",
+    "textureUUID": "157399797",
+    "image": "collection-study/assets/common-559-pic_com08.png"
+  },
+  {
+    "bundle": "common",
+    "id": 63,
+    "path": "NewSkin/Sudoku/datanchuangshanglan",
+    "name": "datanchuangshanglan",
+    "rect": [
+      3,
+      42,
+      950,
+      70
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      950,
+      70
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "171511ad-4dac-425e-97a2-84099b79b2cf",
+    "textureUUID": "157399797",
+    "image": "collection-study/assets/common-63-datanchuangshanglan.png"
+  },
+  {
+    "bundle": "common",
+    "id": 816,
+    "path": "NewSkin/NewBtn/btn_com04",
+    "name": "btn_com04",
+    "rect": [
+      179,
+      736,
+      38,
+      37
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      38,
+      37
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "feec4ed5-df49-4757-ad98-21baf745e1a0",
+    "textureUUID": "1e8019203",
+    "image": "collection-study/assets/common-816-btn_com04.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1044,
+    "path": "FanGather/res/pic_25",
+    "name": "pic_25",
+    "rect": [
+      3,
+      3,
+      914,
+      75
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      914,
+      75
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "6b811768-5b2f-4505-b473-c6437f2aaa78",
+    "textureUUID": "1d53c0367",
+    "image": "collection-study/assets/lobby-1044-pic_25.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1305,
+    "path": "HappyBump/Common/guanbi-2",
+    "name": "guanbi-2",
+    "rect": [
+      75,
+      50,
+      35,
+      35
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      35,
+      35
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "8732de10-7003-47bc-a8d5-9436bdbbc9cc",
+    "textureUUID": "193949779",
+    "image": "collection-study/assets/lobby-1305-guanbi-2.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 49,
+    "path": "FanGather/res/pic_26",
+    "name": "pic_26",
+    "rect": [
+      420,
+      84,
+      155,
+      26
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      155,
+      26
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "0467d1c5-bda9-4184-8494-9d9031c63bb3",
+    "textureUUID": "1d53c0367",
+    "image": "collection-study/assets/lobby-49-pic_26.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 460,
+    "path": "FanGather/bg/pic_27",
+    "name": "pic_27",
+    "rect": [
+      0,
+      0,
+      914,
+      426
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      914,
+      426
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "2cbd2056-57ac-4846-96ae-dff625278167",
+    "textureUUID": "c9d4070d-7379-4834-925a-88dc87567c3b",
+    "image": "collection-study/assets/lobby-460-pic_27.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 2418,
+    "path": "FanGather/load/2362",
+    "name": "2362",
+    "rect": [
+      0,
+      0,
+      198,
+      252
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      198,
+      252
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "ff5c62f4-67f1-422b-bef3-335789f396a8",
+    "textureUUID": "29844484-426f-49e6-a2c6-54d261921f9c",
+    "image": "collection-study/assets/lobby-2418-2362.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 2295,
+    "path": "FanGather/res/pic_24",
+    "name": "pic_24",
+    "rect": [
+      836,
+      425,
+      173,
+      238
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      173,
+      238
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "f099f356-aacd-4990-a97c-ef870e927b0e",
+    "textureUUID": "1d53c0367",
+    "image": "collection-study/assets/lobby-2295-pic_24.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 202,
+    "path": "FanGather/res/pic_32",
+    "name": "pic_32",
+    "rect": [
+      582,
+      372,
+      199,
+      248
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      199,
+      248
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "141f8738-c12c-410d-adbb-d69924f43b33",
+    "textureUUID": "1d53c0367",
+    "image": "collection-study/assets/lobby-202-pic_32.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 2379,
+    "path": "NewSkin/MainIcon/FanGatherEntry",
+    "name": "FanGatherEntry",
+    "rect": [
+      141,
+      141,
+      107,
+      113
+    ],
+    "offset": [
+      -0.5,
+      5
+    ],
+    "originalSize": [
+      132,
+      123
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "fa40ea3a-65e6-430d-b585-902fd89f66e9",
+    "textureUUID": "176fd07e0",
+    "image": "collection-study/assets/lobby-2379-FanGatherEntry.png"
+  },
+  {
+    "bundle": "common",
+    "id": 75,
+    "path": "NewSkin/other/pic_com17",
+    "name": "pic_com17",
+    "rect": [
+      994,
+      366,
+      24,
+      25
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      24,
+      25
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "1a90e871-5072-4dfa-8eb9-983e2d60ef00",
+    "textureUUID": "1d05abae0",
+    "image": "collection-study/assets/common-75-pic_com17.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 85,
+    "path": "NewSkin/MainIcon/wanfazhiyin",
+    "name": "wanfazhiyin",
+    "rect": [
+      233,
+      467,
+      108,
+      105
+    ],
+    "offset": [
+      1,
+      1
+    ],
+    "originalSize": [
+      132,
+      123
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "07f06335-d80d-48d1-97fe-b7b54aaa7919",
+    "textureUUID": "176fd07e0",
+    "image": "collection-study/assets/lobby-85-wanfazhiyin.png"
+  },
+  {
+    "bundle": "game",
+    "id": 605,
+    "path": "GameTeach/result/pic_25",
+    "name": "pic_25",
+    "rect": [
+      0,
+      0,
+      92,
+      42
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      92,
+      42
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "72cba347-4d18-48b5-9c4b-cc2983d52945",
+    "textureUUID": "bbf7c970-d773-4bb3-b5e9-43182c5e8a5c",
+    "image": "collection-study/assets/game-605-pic_25.png"
+  },
+  {
+    "bundle": "fonts",
+    "id": 282,
+    "path": "NewSkin/title/fnt_biaotiz-export",
+    "name": "fnt_biaotiz-export",
+    "rect": [
+      0,
+      0,
+      920,
+      916
+    ],
+    "offset": [
+      -4,
+      4
+    ],
+    "originalSize": [
+      928,
+      924
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "f38fba04-f256-4c83-8867-0087385dfb0a",
+    "textureUUID": "6d6f0c5e-6db4-46cb-9c55-b010ab5c796a",
+    "image": "collection-study/assets/fonts-282-fnt_biaotiz-export.png"
+  }
+]

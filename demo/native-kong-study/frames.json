@@ -1,0 +1,1167 @@
+[
+  {
+    "bundle": "resources",
+    "id": 1446,
+    "name": "chipenggang_005",
+    "rect": [
+      2,
+      848,
+      174,
+      141
+    ],
+    "offset": [
+      2,
+      -4
+    ],
+    "originalSize": [
+      200,
+      171
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "607bf499-ec5c-4620-b9c2-1c0ad21a4e63",
+    "textureUUID": "3c439621-73d7-4452-89d4-86f7e225a553",
+    "texture": "asset-study/media/images/resources/mjhj/anims/game/AnimTpRes/animTexture/xiayu.png",
+    "image": "native-kong-study/assets/resources-1446-chipenggang_005.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 3019,
+    "name": "chipenggang_006",
+    "rect": [
+      709,
+      848,
+      180,
+      143
+    ],
+    "offset": [
+      1,
+      -3
+    ],
+    "originalSize": [
+      200,
+      171
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "fd62d401-17b3-48bf-920a-6b4f77f35c0e",
+    "textureUUID": "3c439621-73d7-4452-89d4-86f7e225a553",
+    "texture": "asset-study/media/images/resources/mjhj/anims/game/AnimTpRes/animTexture/xiayu.png",
+    "image": "native-kong-study/assets/resources-3019-chipenggang_006.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 2802,
+    "name": "chipenggang_007",
+    "rect": [
+      521,
+      848,
+      186,
+      149
+    ],
+    "offset": [
+      3,
+      -4
+    ],
+    "originalSize": [
+      200,
+      171
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "c473ea2b-438c-486a-aa5c-33ca0919584e",
+    "textureUUID": "3c439621-73d7-4452-89d4-86f7e225a553",
+    "texture": "asset-study/media/images/resources/mjhj/anims/game/AnimTpRes/animTexture/xiayu.png",
+    "image": "native-kong-study/assets/resources-2802-chipenggang_007.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 2912,
+    "name": "chipenggang_008",
+    "rect": [
+      333,
+      848,
+      186,
+      151
+    ],
+    "offset": [
+      3,
+      -3
+    ],
+    "originalSize": [
+      200,
+      171
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "ddb40bc7-b0b3-4239-a2ff-02e0730c2991",
+    "textureUUID": "3c439621-73d7-4452-89d4-86f7e225a553",
+    "texture": "asset-study/media/images/resources/mjhj/anims/game/AnimTpRes/animTexture/xiayu.png",
+    "image": "native-kong-study/assets/resources-2912-chipenggang_008.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 1871,
+    "name": "chipenggang_009",
+    "rect": [
+      145,
+      848,
+      186,
+      151
+    ],
+    "offset": [
+      3,
+      -3
+    ],
+    "originalSize": [
+      200,
+      171
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "92f701a7-9f11-4af8-9eca-4f2f254a7eb4",
+    "textureUUID": "3c439621-73d7-4452-89d4-86f7e225a553",
+    "texture": "asset-study/media/images/resources/mjhj/anims/game/AnimTpRes/animTexture/xiayu.png",
+    "image": "native-kong-study/assets/resources-1871-chipenggang_009.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 2773,
+    "name": "xiayu_007",
+    "rect": [
+      732,
+      566,
+      218,
+      280
+    ],
+    "offset": [
+      -4,
+      0
+    ],
+    "originalSize": [
+      244,
+      280
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "bee5af39-3788-4f8b-a438-9df1ecaebd6f",
+    "textureUUID": "3c439621-73d7-4452-89d4-86f7e225a553",
+    "texture": "asset-study/media/images/resources/mjhj/anims/game/AnimTpRes/animTexture/xiayu.png",
+    "image": "native-kong-study/assets/resources-2773-xiayu_007.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 721,
+    "name": "xiayu_008",
+    "rect": [
+      736,
+      284,
+      236,
+      280
+    ],
+    "offset": [
+      -1,
+      0
+    ],
+    "originalSize": [
+      244,
+      280
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "256951b4-02c7-4eaf-982f-677687fec566",
+    "textureUUID": "3c439621-73d7-4452-89d4-86f7e225a553",
+    "texture": "asset-study/media/images/resources/mjhj/anims/game/AnimTpRes/animTexture/xiayu.png",
+    "image": "native-kong-study/assets/resources-721-xiayu_008.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 1813,
+    "name": "xiayu_010",
+    "rect": [
+      248,
+      284,
+      244,
+      280
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      244,
+      280
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "7ed0201c-9f80-429a-8d48-ad985f8e8bcf",
+    "textureUUID": "3c439621-73d7-4452-89d4-86f7e225a553",
+    "texture": "asset-study/media/images/resources/mjhj/anims/game/AnimTpRes/animTexture/xiayu.png",
+    "image": "native-kong-study/assets/resources-1813-xiayu_010.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 1404,
+    "name": "xiayu_012",
+    "rect": [
+      2,
+      566,
+      244,
+      280
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      244,
+      280
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "55db1079-0eee-4a72-a927-f1a25fc86158",
+    "textureUUID": "3c439621-73d7-4452-89d4-86f7e225a553",
+    "texture": "asset-study/media/images/resources/mjhj/anims/game/AnimTpRes/animTexture/xiayu.png",
+    "image": "native-kong-study/assets/resources-1404-xiayu_012.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 2070,
+    "name": "xiayu_014",
+    "rect": [
+      248,
+      2,
+      244,
+      280
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      244,
+      280
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "a7dfe402-ec59-4101-8c85-36672343543f",
+    "textureUUID": "3c439621-73d7-4452-89d4-86f7e225a553",
+    "texture": "asset-study/media/images/resources/mjhj/anims/game/AnimTpRes/animTexture/xiayu.png",
+    "image": "native-kong-study/assets/resources-2070-xiayu_014.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 3005,
+    "name": "xiayu_016",
+    "rect": [
+      2,
+      284,
+      244,
+      280
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      244,
+      280
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "f9459940-79a5-4148-803f-4fb30394ff7a",
+    "textureUUID": "3c439621-73d7-4452-89d4-86f7e225a553",
+    "texture": "asset-study/media/images/resources/mjhj/anims/game/AnimTpRes/animTexture/xiayu.png",
+    "image": "native-kong-study/assets/resources-3005-xiayu_016.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 1889,
+    "name": "xiayu_018",
+    "rect": [
+      492,
+      566,
+      238,
+      280
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      244,
+      280
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "98f62afa-31d4-49e7-96ae-4b5e28438116",
+    "textureUUID": "3c439621-73d7-4452-89d4-86f7e225a553",
+    "texture": "asset-study/media/images/resources/mjhj/anims/game/AnimTpRes/animTexture/xiayu.png",
+    "image": "native-kong-study/assets/resources-1889-xiayu_018.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 1452,
+    "name": "xiayu_020",
+    "rect": [
+      738,
+      2,
+      238,
+      280
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      244,
+      280
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "63093779-6229-4e61-ba52-d5e5bcfd72d5",
+    "textureUUID": "3c439621-73d7-4452-89d4-86f7e225a553",
+    "texture": "asset-study/media/images/resources/mjhj/anims/game/AnimTpRes/animTexture/xiayu.png",
+    "image": "native-kong-study/assets/resources-1452-xiayu_020.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 621,
+    "name": "xiayu_022",
+    "rect": [
+      494,
+      284,
+      240,
+      280
+    ],
+    "offset": [
+      -1,
+      0
+    ],
+    "originalSize": [
+      244,
+      280
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "19679e1f-ac04-426d-9656-300f4a7504de",
+    "textureUUID": "3c439621-73d7-4452-89d4-86f7e225a553",
+    "texture": "asset-study/media/images/resources/mjhj/anims/game/AnimTpRes/animTexture/xiayu.png",
+    "image": "native-kong-study/assets/resources-621-xiayu_022.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 1447,
+    "name": "xiayu_024",
+    "rect": [
+      248,
+      566,
+      242,
+      280
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      244,
+      280
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "60e9643e-a52c-41f7-8543-75f0d4450dcd",
+    "textureUUID": "3c439621-73d7-4452-89d4-86f7e225a553",
+    "texture": "asset-study/media/images/resources/mjhj/anims/game/AnimTpRes/animTexture/xiayu.png",
+    "image": "native-kong-study/assets/resources-1447-xiayu_024.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 2064,
+    "name": "xiayu_026",
+    "rect": [
+      2,
+      2,
+      244,
+      280
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      244,
+      280
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "a5a5aeaa-b2a2-4ad0-8f75-0b9a793f417f",
+    "textureUUID": "3c439621-73d7-4452-89d4-86f7e225a553",
+    "texture": "asset-study/media/images/resources/mjhj/anims/game/AnimTpRes/animTexture/xiayu.png",
+    "image": "native-kong-study/assets/resources-2064-xiayu_026.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 1829,
+    "name": "xiayu_028",
+    "rect": [
+      494,
+      2,
+      242,
+      280
+    ],
+    "offset": [
+      1,
+      0
+    ],
+    "originalSize": [
+      244,
+      280
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "8464808f-5e70-4440-82cb-311bdb0fca47",
+    "textureUUID": "3c439621-73d7-4452-89d4-86f7e225a553",
+    "texture": "asset-study/media/images/resources/mjhj/anims/game/AnimTpRes/animTexture/xiayu.png",
+    "image": "native-kong-study/assets/resources-1829-xiayu_028.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 746,
+    "name": "feng_002",
+    "rect": [
+      403,
+      2,
+      73,
+      107
+    ],
+    "offset": [
+      2,
+      -3
+    ],
+    "originalSize": [
+      99,
+      119
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "2ddc0a63-7cf2-4202-b23f-fe33ac2791f7",
+    "textureUUID": "20d1e12a-1449-48fd-944b-a10e87012107",
+    "texture": "asset-study/media/images/resources/mjhj/anims/game/AnimTpRes/animTexture/longjuanfeng.png",
+    "image": "native-kong-study/assets/resources-746-feng_002.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 2076,
+    "name": "feng_003",
+    "rect": [
+      245,
+      347,
+      75,
+      113
+    ],
+    "offset": [
+      -2,
+      0
+    ],
+    "originalSize": [
+      99,
+      119
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "a9eb7472-6265-43cc-833d-20ae0efbcbee",
+    "textureUUID": "20d1e12a-1449-48fd-944b-a10e87012107",
+    "texture": "asset-study/media/images/resources/mjhj/anims/game/AnimTpRes/animTexture/longjuanfeng.png",
+    "image": "native-kong-study/assets/resources-2076-feng_003.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 87,
+    "name": "feng_004",
+    "rect": [
+      2,
+      2,
+      69,
+      117
+    ],
+    "offset": [
+      -1,
+      1
+    ],
+    "originalSize": [
+      99,
+      119
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "063e4cc4-0fb2-409c-b41c-75cda5b88b65",
+    "textureUUID": "20d1e12a-1449-48fd-944b-a10e87012107",
+    "texture": "asset-study/media/images/resources/mjhj/anims/game/AnimTpRes/animTexture/longjuanfeng.png",
+    "image": "native-kong-study/assets/resources-87-feng_004.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 1865,
+    "name": "feng_005",
+    "rect": [
+      322,
+      2,
+      79,
+      111
+    ],
+    "offset": [
+      3,
+      0
+    ],
+    "originalSize": [
+      99,
+      119
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "90c047b3-8770-4be4-90ab-65670ac1b640",
+    "textureUUID": "20d1e12a-1449-48fd-944b-a10e87012107",
+    "texture": "asset-study/media/images/resources/mjhj/anims/game/AnimTpRes/animTexture/longjuanfeng.png",
+    "image": "native-kong-study/assets/resources-1865-feng_005.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 1393,
+    "name": "feng_006",
+    "rect": [
+      401,
+      164,
+      79,
+      109
+    ],
+    "offset": [
+      5,
+      -2
+    ],
+    "originalSize": [
+      99,
+      119
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "52f79017-4fb8-46ab-bfec-18768c9dcc54",
+    "textureUUID": "20d1e12a-1449-48fd-944b-a10e87012107",
+    "texture": "asset-study/media/images/resources/mjhj/anims/game/AnimTpRes/animTexture/longjuanfeng.png",
+    "image": "native-kong-study/assets/resources-1393-feng_006.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 2766,
+    "name": "feng_007",
+    "rect": [
+      241,
+      2,
+      79,
+      113
+    ],
+    "offset": [
+      5,
+      -1
+    ],
+    "originalSize": [
+      99,
+      119
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "be8997f2-8620-4434-9df0-af3d61778259",
+    "textureUUID": "20d1e12a-1449-48fd-944b-a10e87012107",
+    "texture": "asset-study/media/images/resources/mjhj/anims/game/AnimTpRes/animTexture/longjuanfeng.png",
+    "image": "native-kong-study/assets/resources-2766-feng_007.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 2789,
+    "name": "feng_008",
+    "rect": [
+      2,
+      355,
+      79,
+      115
+    ],
+    "offset": [
+      3,
+      0
+    ],
+    "originalSize": [
+      99,
+      119
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "c223f63c-bbbc-468b-9532-517b33cf7124",
+    "textureUUID": "20d1e12a-1449-48fd-944b-a10e87012107",
+    "texture": "asset-study/media/images/resources/mjhj/anims/game/AnimTpRes/animTexture/longjuanfeng.png",
+    "image": "native-kong-study/assets/resources-2789-feng_008.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 499,
+    "name": "feng_009",
+    "rect": [
+      156,
+      2,
+      83,
+      113
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      99,
+      119
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "0b4b0e94-4ce2-44db-b3e9-422f492a6d45",
+    "textureUUID": "20d1e12a-1449-48fd-944b-a10e87012107",
+    "texture": "asset-study/media/images/resources/mjhj/anims/game/AnimTpRes/animTexture/longjuanfeng.png",
+    "image": "native-kong-study/assets/resources-499-feng_009.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 3011,
+    "name": "feng_010",
+    "rect": [
+      172,
+      232,
+      77,
+      113
+    ],
+    "offset": [
+      1,
+      2
+    ],
+    "originalSize": [
+      99,
+      119
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "fbcdd1c1-405c-4a74-a0b6-565422365c68",
+    "textureUUID": "20d1e12a-1449-48fd-944b-a10e87012107",
+    "texture": "asset-study/media/images/resources/mjhj/anims/game/AnimTpRes/animTexture/longjuanfeng.png",
+    "image": "native-kong-study/assets/resources-3011-feng_010.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 2800,
+    "name": "feng_011",
+    "rect": [
+      172,
+      117,
+      79,
+      113
+    ],
+    "offset": [
+      1,
+      1
+    ],
+    "originalSize": [
+      99,
+      119
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "c449b069-b1d1-404e-af2e-8a6cccad6c3a",
+    "textureUUID": "20d1e12a-1449-48fd-944b-a10e87012107",
+    "texture": "asset-study/media/images/resources/mjhj/anims/game/AnimTpRes/animTexture/longjuanfeng.png",
+    "image": "native-kong-study/assets/resources-2800-feng_011.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 2099,
+    "name": "feng_012",
+    "rect": [
+      401,
+      336,
+      73,
+      111
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      99,
+      119
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "b082fbaa-d0c3-4a46-a184-97ceed135225",
+    "textureUUID": "20d1e12a-1449-48fd-944b-a10e87012107",
+    "texture": "asset-study/media/images/resources/mjhj/anims/game/AnimTpRes/animTexture/longjuanfeng.png",
+    "image": "native-kong-study/assets/resources-2099-feng_012.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 2852,
+    "name": "feng_013",
+    "rect": [
+      87,
+      119,
+      83,
+      113
+    ],
+    "offset": [
+      0,
+      2
+    ],
+    "originalSize": [
+      99,
+      119
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "cf529a11-5506-4c09-8340-81728c30baa4",
+    "textureUUID": "20d1e12a-1449-48fd-944b-a10e87012107",
+    "texture": "asset-study/media/images/resources/mjhj/anims/game/AnimTpRes/animTexture/longjuanfeng.png",
+    "image": "native-kong-study/assets/resources-2852-feng_013.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 2891,
+    "name": "feng_014",
+    "rect": [
+      322,
+      345,
+      77,
+      111
+    ],
+    "offset": [
+      3,
+      1
+    ],
+    "originalSize": [
+      99,
+      119
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "d8b10ba5-fe59-4b2b-9e15-e141607196e2",
+    "textureUUID": "20d1e12a-1449-48fd-944b-a10e87012107",
+    "texture": "asset-study/media/images/resources/mjhj/anims/game/AnimTpRes/animTexture/longjuanfeng.png",
+    "image": "native-kong-study/assets/resources-2891-feng_014.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 1001,
+    "name": "feng_015",
+    "rect": [
+      253,
+      117,
+      81,
+      111
+    ],
+    "offset": [
+      3,
+      1
+    ],
+    "originalSize": [
+      99,
+      119
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "4f02fd28-e5c0-4530-bdb9-d34c2526acf3",
+    "textureUUID": "20d1e12a-1449-48fd-944b-a10e87012107",
+    "texture": "asset-study/media/images/resources/mjhj/anims/game/AnimTpRes/animTexture/longjuanfeng.png",
+    "image": "native-kong-study/assets/resources-1001-feng_015.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 2858,
+    "name": "feng_016",
+    "rect": [
+      251,
+      232,
+      85,
+      111
+    ],
+    "offset": [
+      1,
+      -2
+    ],
+    "originalSize": [
+      99,
+      119
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "d0cd820b-6ca4-401b-81f2-32ee908620c7",
+    "textureUUID": "20d1e12a-1449-48fd-944b-a10e87012107",
+    "texture": "asset-study/media/images/resources/mjhj/anims/game/AnimTpRes/animTexture/longjuanfeng.png",
+    "image": "native-kong-study/assets/resources-2858-feng_016.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 711,
+    "name": "feng_017",
+    "rect": [
+      2,
+      121,
+      83,
+      115
+    ],
+    "offset": [
+      4,
+      -1
+    ],
+    "originalSize": [
+      99,
+      119
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "22e32036-5b5a-41e0-9cce-fbc4448ac651",
+    "textureUUID": "20d1e12a-1449-48fd-944b-a10e87012107",
+    "texture": "asset-study/media/images/resources/mjhj/anims/game/AnimTpRes/animTexture/longjuanfeng.png",
+    "image": "native-kong-study/assets/resources-711-feng_017.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 1373,
+    "name": "feng_018",
+    "rect": [
+      83,
+      355,
+      77,
+      115
+    ],
+    "offset": [
+      4,
+      0
+    ],
+    "originalSize": [
+      99,
+      119
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "40357a85-2b00-4ea0-9e1e-d1cc66edde7d",
+    "textureUUID": "20d1e12a-1449-48fd-944b-a10e87012107",
+    "texture": "asset-study/media/images/resources/mjhj/anims/game/AnimTpRes/animTexture/longjuanfeng.png",
+    "image": "native-kong-study/assets/resources-1373-feng_018.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 822,
+    "name": "feng_019",
+    "rect": [
+      2,
+      238,
+      81,
+      115
+    ],
+    "offset": [
+      1,
+      1
+    ],
+    "originalSize": [
+      99,
+      119
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "3d2229b3-fe57-444d-9d70-958b1b592c11",
+    "textureUUID": "20d1e12a-1449-48fd-944b-a10e87012107",
+    "texture": "asset-study/media/images/resources/mjhj/anims/game/AnimTpRes/animTexture/longjuanfeng.png",
+    "image": "native-kong-study/assets/resources-822-feng_019.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 2093,
+    "name": "feng_020",
+    "rect": [
+      85,
+      238,
+      85,
+      113
+    ],
+    "offset": [
+      2,
+      3
+    ],
+    "originalSize": [
+      99,
+      119
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "ae496f66-38f8-42e6-926c-fb1d5a83892f",
+    "textureUUID": "20d1e12a-1449-48fd-944b-a10e87012107",
+    "texture": "asset-study/media/images/resources/mjhj/anims/game/AnimTpRes/animTexture/longjuanfeng.png",
+    "image": "native-kong-study/assets/resources-2093-feng_020.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 2924,
+    "name": "feng_021",
+    "rect": [
+      162,
+      353,
+      81,
+      113
+    ],
+    "offset": [
+      -1,
+      0
+    ],
+    "originalSize": [
+      99,
+      119
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "e062c474-e57b-4d64-beaa-d2284063ace6",
+    "textureUUID": "20d1e12a-1449-48fd-944b-a10e87012107",
+    "texture": "asset-study/media/images/resources/mjhj/anims/game/AnimTpRes/animTexture/longjuanfeng.png",
+    "image": "native-kong-study/assets/resources-2924-feng_021.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 1408,
+    "name": "feng_022",
+    "rect": [
+      73,
+      2,
+      81,
+      115
+    ],
+    "offset": [
+      1,
+      0
+    ],
+    "originalSize": [
+      99,
+      119
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "5655baf9-4e7a-4d95-8dcb-1a0c52ad02d2",
+    "textureUUID": "20d1e12a-1449-48fd-944b-a10e87012107",
+    "texture": "asset-study/media/images/resources/mjhj/anims/game/AnimTpRes/animTexture/longjuanfeng.png",
+    "image": "native-kong-study/assets/resources-1408-feng_022.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 1396,
+    "name": "feng_023",
+    "rect": [
+      403,
+      77,
+      85,
+      105
+    ],
+    "offset": [
+      2,
+      4
+    ],
+    "originalSize": [
+      99,
+      119
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "53df40e6-ce56-4dd7-92eb-924907f50a4d",
+    "textureUUID": "20d1e12a-1449-48fd-944b-a10e87012107",
+    "texture": "asset-study/media/images/resources/mjhj/anims/game/AnimTpRes/animTexture/longjuanfeng.png",
+    "image": "native-kong-study/assets/resources-1396-feng_023.png"
+  },
+  {
+    "bundle": "resources",
+    "id": 991,
+    "name": "feng_024",
+    "rect": [
+      401,
+      245,
+      89,
+      103
+    ],
+    "offset": [
+      1,
+      6
+    ],
+    "originalSize": [
+      99,
+      119
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "4be4b5c9-784a-4baa-b339-e10a55b75e7b",
+    "textureUUID": "20d1e12a-1449-48fd-944b-a10e87012107",
+    "texture": "asset-study/media/images/resources/mjhj/anims/game/AnimTpRes/animTexture/longjuanfeng.png",
+    "image": "native-kong-study/assets/resources-991-feng_024.png"
+  }
+]

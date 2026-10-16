@@ -1,0 +1,3 @@
+import fs from 'node:fs';
+const base='https://res.12317wan.com/gameModule/h5/zjscmj/4399H5/package/601907/assets/resources/';
+for(const[name,url]of [['zhizhen_lizi.plist','native/cf/cf146523-577f-4d92-a5c4-4e658393d210.plist'],['kaiju_lizi.plist','native/57/5716da11-0267-4010-8e59-4880c3a7b061.plist'],['marker-glow-import.json','import/7a/7a87d203-b904-419c-a5aa-d42e96c40ba8.json']]){try{const r=await fetch(base+url,{signal:AbortSignal.timeout(20000)});console.log(name,r.status);if(r.ok)fs.writeFileSync('demo/control-study/raw/'+name,Buffer.from(await r.arrayBuffer()));}catch(e){console.log(name,e.message,e.cause?.code);}}

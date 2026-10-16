@@ -1,0 +1,6 @@
+{
+  "origin": "https://www.zxwyouxi.com/g/100071273",
+  "tileAtlas": "prefabs/3d/items/tile3DPrefabEx/mj.png",
+  "audio": "audios/mjhj/audios/sound",
+  "note": "Collected client assets for local study. Geometry and demo rules are independently implemented; no original client JS runs."
+}

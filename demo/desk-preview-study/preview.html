@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>原牌桌预览素材核对</title>
+<style>html,body{margin:0;background:#182330;color:#fff;font:14px Arial}#fixture{position:relative;width:100vw;aspect-ratio:1104/554;max-height:100vh}nav{position:relative;display:flex;gap:8px;padding:8px}button{cursor:pointer;padding:8px}p{padding:0 8px}</style>
+<div id="fixture"></div><nav><button data-key="304">四季常春 / 常青</button><button data-key="305">繁星之夜</button><button data-key="308">年兽迎福</button></nav><p>独立素材测试：原完整牌桌、专属指南针、预览提示与返回按钮。关闭后保留此测试导航。</p>
+<script type="module">
+import {createNativeDeskPreview} from '../native-desk-preview.js';
+const preview=createNativeDeskPreview(document.querySelector('#fixture'));window.nativeDeskPreviewFixture=preview;
+document.querySelectorAll('[data-key]').forEach(button=>button.onclick=()=>preview.show(button.dataset.key));
+await preview.show(new URLSearchParams(location.search).get('key')||'304');
+</script></html>

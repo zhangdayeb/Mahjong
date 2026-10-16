@@ -1,0 +1,707 @@
+{
+  "design": [
+    1280,
+    720
+  ],
+  "definitions": {
+    "smoke": {
+      "kind": "smoke",
+      "prefab": {
+        "bundle": "resources",
+        "id": 66
+      },
+      "clip": {
+        "bundle": "resources",
+        "id": 2926
+      },
+      "root": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "runtimeScale": 1.6,
+        "opacity": 255
+      },
+      "clipDuration": 0.7833333333333333,
+      "speed": 1,
+      "durationMs": 783.3333333333334,
+      "position": null,
+      "layers": [
+        {
+          "name": "chipenggang_001_1",
+          "path": "chipenggang_001_1",
+          "parent": null,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.2,
+            1.2,
+            1
+          ],
+          "angle": 0,
+          "size": [
+            200,
+            171
+          ],
+          "anchor": [
+            0.5,
+            0.5
+          ],
+          "active": true,
+          "opacity": 255,
+          "color": 4294967295,
+          "sprite": "607bf499-ec5c-4620-b9c2-1c0ad21a4e63",
+          "sizeMode": 2,
+          "trim": false,
+          "blend": 771
+        }
+      ],
+      "tracks": {
+        "paths": {
+          "chipenggang_001_1": {
+            "props": {
+              "opacity": [
+                {
+                  "frame": 0,
+                  "value": 0
+                },
+                {
+                  "frame": 0.23333333333333334,
+                  "value": 255
+                },
+                {
+                  "frame": 0.4666666666666667,
+                  "value": 255
+                },
+                {
+                  "frame": 0.7833333333333333,
+                  "value": 2
+                }
+              ],
+              "scale": [
+                {
+                  "frame": 0,
+                  "value": [
+                    0.24,
+                    0.24
+                  ]
+                },
+                {
+                  "frame": 0.21666666666666667,
+                  "value": [
+                    0.83,
+                    0.83
+                  ]
+                }
+              ]
+            },
+            "comps": {
+              "cc.Sprite": {
+                "spriteFrame": [
+                  {
+                    "frame": 0,
+                    "value": "607bf499-ec5c-4620-b9c2-1c0ad21a4e63"
+                  },
+                  {
+                    "frame": 0.2,
+                    "value": "607bf499-ec5c-4620-b9c2-1c0ad21a4e63"
+                  },
+                  {
+                    "frame": 0.2833333333333333,
+                    "value": "fd62d401-17b3-48bf-920a-6b4f77f35c0e"
+                  },
+                  {
+                    "frame": 0.36666666666666664,
+                    "value": "c473ea2b-438c-486a-aa5c-33ca0919584e"
+                  },
+                  {
+                    "frame": 0.45,
+                    "value": "ddb40bc7-b0b3-4239-a2ff-02e0730c2991"
+                  },
+                  {
+                    "frame": 0.5333333333333333,
+                    "value": "92f701a7-9f11-4af8-9eca-4f2f254a7eb4"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "rain": {
+      "kind": "rain",
+      "prefab": {
+        "bundle": "resources",
+        "id": 2095
+      },
+      "clip": {
+        "bundle": "resources",
+        "id": 1417
+      },
+      "root": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "runtimeScale": 1,
+        "opacity": 255
+      },
+      "clipDuration": 1.0833333333333333,
+      "speed": 0.5,
+      "durationMs": 2166.6666666666665,
+      "position": [
+        0,
+        0
+      ],
+      "layers": [
+        {
+          "name": "xiayu_0",
+          "path": "xiayu_0",
+          "parent": null,
+          "position": [
+            0,
+            43.95,
+            0
+          ],
+          "scale": [
+            2,
+            2,
+            1
+          ],
+          "angle": 0,
+          "size": [
+            244,
+            280
+          ],
+          "anchor": [
+            0.5,
+            0.3
+          ],
+          "active": false,
+          "opacity": 255,
+          "color": 4294967295,
+          "sprite": null,
+          "sizeMode": 2,
+          "trim": false,
+          "blend": 771
+        },
+        {
+          "name": "xiayu",
+          "path": "xiayu",
+          "parent": null,
+          "position": [
+            0,
+            43.9545,
+            0
+          ],
+          "scale": [
+            2,
+            2,
+            1
+          ],
+          "angle": 0,
+          "size": [
+            244,
+            280
+          ],
+          "anchor": [
+            0.5,
+            0.3
+          ],
+          "active": false,
+          "opacity": 127,
+          "color": 4294967295,
+          "sprite": null,
+          "sizeMode": 2,
+          "trim": false,
+          "blend": 1
+        }
+      ],
+      "tracks": {
+        "paths": {
+          "xiayu_0": {
+            "props": {
+              "opacity": [
+                {
+                  "frame": 0,
+                  "value": 255
+                },
+                {
+                  "frame": 0.9333333333333333,
+                  "value": 255
+                },
+                {
+                  "frame": 1.0666666666666667,
+                  "value": 0
+                }
+              ],
+              "active": [
+                {
+                  "frame": 0,
+                  "value": false
+                },
+                {
+                  "frame": 0.016666666666666666,
+                  "value": true
+                },
+                {
+                  "frame": 1.0666666666666667,
+                  "value": false
+                }
+              ]
+            },
+            "comps": {
+              "cc.Sprite": {
+                "spriteFrame": [
+                  {
+                    "frame": 0,
+                    "value": "bee5af39-3788-4f8b-a438-9df1ecaebd6f"
+                  },
+                  {
+                    "frame": 0.05,
+                    "value": "256951b4-02c7-4eaf-982f-677687fec566"
+                  },
+                  {
+                    "frame": 0.1,
+                    "value": "7ed0201c-9f80-429a-8d48-ad985f8e8bcf"
+                  },
+                  {
+                    "frame": 0.15,
+                    "value": "55db1079-0eee-4a72-a927-f1a25fc86158"
+                  },
+                  {
+                    "frame": 0.21666666666666667,
+                    "value": "a7dfe402-ec59-4101-8c85-36672343543f"
+                  },
+                  {
+                    "frame": 0.2833333333333333,
+                    "value": "f9459940-79a5-4148-803f-4fb30394ff7a"
+                  },
+                  {
+                    "frame": 0.35,
+                    "value": "98f62afa-31d4-49e7-96ae-4b5e28438116"
+                  },
+                  {
+                    "frame": 0.4166666666666667,
+                    "value": "63093779-6229-4e61-ba52-d5e5bcfd72d5"
+                  },
+                  {
+                    "frame": 0.48333333333333334,
+                    "value": "19679e1f-ac04-426d-9656-300f4a7504de"
+                  },
+                  {
+                    "frame": 0.55,
+                    "value": "55db1079-0eee-4a72-a927-f1a25fc86158"
+                  },
+                  {
+                    "frame": 0.6166666666666667,
+                    "value": "a7dfe402-ec59-4101-8c85-36672343543f"
+                  },
+                  {
+                    "frame": 0.6833333333333333,
+                    "value": "f9459940-79a5-4148-803f-4fb30394ff7a"
+                  },
+                  {
+                    "frame": 0.75,
+                    "value": "98f62afa-31d4-49e7-96ae-4b5e28438116"
+                  },
+                  {
+                    "frame": 0.8166666666666667,
+                    "value": "63093779-6229-4e61-ba52-d5e5bcfd72d5"
+                  },
+                  {
+                    "frame": 0.8833333333333333,
+                    "value": "60e9643e-a52c-41f7-8543-75f0d4450dcd"
+                  },
+                  {
+                    "frame": 0.95,
+                    "value": "a5a5aeaa-b2a2-4ad0-8f75-0b9a793f417f"
+                  },
+                  {
+                    "frame": 1.0166666666666666,
+                    "value": "8464808f-5e70-4440-82cb-311bdb0fca47"
+                  }
+                ]
+              }
+            }
+          },
+          "xiayu": {
+            "props": {
+              "opacity": [
+                {
+                  "frame": 0,
+                  "value": 90
+                },
+                {
+                  "frame": 0.9666666666666667,
+                  "value": 56
+                },
+                {
+                  "frame": 1.0833333333333333,
+                  "value": 0
+                }
+              ],
+              "active": [
+                {
+                  "frame": 0,
+                  "value": false
+                },
+                {
+                  "frame": 0.016666666666666666,
+                  "value": true
+                },
+                {
+                  "frame": 1.0833333333333333,
+                  "value": false
+                }
+              ]
+            },
+            "comps": {
+              "cc.Sprite": {
+                "spriteFrame": [
+                  {
+                    "frame": 0,
+                    "value": "bee5af39-3788-4f8b-a438-9df1ecaebd6f"
+                  },
+                  {
+                    "frame": 0.05,
+                    "value": "256951b4-02c7-4eaf-982f-677687fec566"
+                  },
+                  {
+                    "frame": 0.11666666666666667,
+                    "value": "7ed0201c-9f80-429a-8d48-ad985f8e8bcf"
+                  },
+                  {
+                    "frame": 0.18333333333333332,
+                    "value": "55db1079-0eee-4a72-a927-f1a25fc86158"
+                  },
+                  {
+                    "frame": 0.25,
+                    "value": "a7dfe402-ec59-4101-8c85-36672343543f"
+                  },
+                  {
+                    "frame": 0.31666666666666665,
+                    "value": "f9459940-79a5-4148-803f-4fb30394ff7a"
+                  },
+                  {
+                    "frame": 0.38333333333333336,
+                    "value": "98f62afa-31d4-49e7-96ae-4b5e28438116"
+                  },
+                  {
+                    "frame": 0.45,
+                    "value": "63093779-6229-4e61-ba52-d5e5bcfd72d5"
+                  },
+                  {
+                    "frame": 0.5166666666666667,
+                    "value": "19679e1f-ac04-426d-9656-300f4a7504de"
+                  },
+                  {
+                    "frame": 0.5833333333333334,
+                    "value": "55db1079-0eee-4a72-a927-f1a25fc86158"
+                  },
+                  {
+                    "frame": 0.65,
+                    "value": "a7dfe402-ec59-4101-8c85-36672343543f"
+                  },
+                  {
+                    "frame": 0.7166666666666667,
+                    "value": "f9459940-79a5-4148-803f-4fb30394ff7a"
+                  },
+                  {
+                    "frame": 0.7833333333333333,
+                    "value": "98f62afa-31d4-49e7-96ae-4b5e28438116"
+                  },
+                  {
+                    "frame": 0.85,
+                    "value": "63093779-6229-4e61-ba52-d5e5bcfd72d5"
+                  },
+                  {
+                    "frame": 0.9166666666666666,
+                    "value": "60e9643e-a52c-41f7-8543-75f0d4450dcd"
+                  },
+                  {
+                    "frame": 0.9833333333333333,
+                    "value": "a5a5aeaa-b2a2-4ad0-8f75-0b9a793f417f"
+                  },
+                  {
+                    "frame": 1.05,
+                    "value": "8464808f-5e70-4440-82cb-311bdb0fca47"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "wind": {
+      "kind": "wind",
+      "prefab": {
+        "bundle": "resources",
+        "id": 2742
+      },
+      "clip": {
+        "bundle": "resources",
+        "id": 2836
+      },
+      "root": {
+        "position": [
+          0,
+          -20,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "runtimeScale": 3,
+        "opacity": 255
+      },
+      "clipDuration": 0.5833333333333334,
+      "speed": 0.5,
+      "durationMs": 1166.6666666666667,
+      "position": [
+        0,
+        -200
+      ],
+      "layers": [
+        {
+          "name": "feng_001_2",
+          "path": "feng_001_2",
+          "parent": null,
+          "position": [
+            0,
+            90,
+            0
+          ],
+          "scale": [
+            1.5,
+            1.5,
+            1
+          ],
+          "angle": 0,
+          "size": [
+            99,
+            119
+          ],
+          "anchor": [
+            0.5,
+            0.3
+          ],
+          "active": true,
+          "opacity": 255,
+          "color": 4294967295,
+          "sprite": "2ddc0a63-7cf2-4202-b23f-fe33ac2791f7",
+          "sizeMode": 2,
+          "trim": false,
+          "blend": 771
+        }
+      ],
+      "tracks": {
+        "paths": {
+          "feng_001_2": {
+            "comps": {
+              "cc.Sprite": {
+                "spriteFrame": [
+                  {
+                    "frame": 0.016666666666666666,
+                    "value": "2ddc0a63-7cf2-4202-b23f-fe33ac2791f7"
+                  },
+                  {
+                    "frame": 0.03333333333333333,
+                    "value": "a9eb7472-6265-43cc-833d-20ae0efbcbee"
+                  },
+                  {
+                    "frame": 0.05,
+                    "value": "063e4cc4-0fb2-409c-b41c-75cda5b88b65"
+                  },
+                  {
+                    "frame": 0.06666666666666667,
+                    "value": "90c047b3-8770-4be4-90ab-65670ac1b640"
+                  },
+                  {
+                    "frame": 0.08333333333333333,
+                    "value": "52f79017-4fb8-46ab-bfec-18768c9dcc54"
+                  },
+                  {
+                    "frame": 0.1,
+                    "value": "be8997f2-8620-4434-9df0-af3d61778259"
+                  },
+                  {
+                    "frame": 0.11666666666666667,
+                    "value": "c223f63c-bbbc-468b-9532-517b33cf7124"
+                  },
+                  {
+                    "frame": 0.13333333333333333,
+                    "value": "0b4b0e94-4ce2-44db-b3e9-422f492a6d45"
+                  },
+                  {
+                    "frame": 0.15,
+                    "value": "fbcdd1c1-405c-4a74-a0b6-565422365c68"
+                  },
+                  {
+                    "frame": 0.16666666666666666,
+                    "value": "c449b069-b1d1-404e-af2e-8a6cccad6c3a"
+                  },
+                  {
+                    "frame": 0.18333333333333332,
+                    "value": "b082fbaa-d0c3-4a46-a184-97ceed135225"
+                  },
+                  {
+                    "frame": 0.2,
+                    "value": "cf529a11-5506-4c09-8340-81728c30baa4"
+                  },
+                  {
+                    "frame": 0.21666666666666667,
+                    "value": "d8b10ba5-fe59-4b2b-9e15-e141607196e2"
+                  },
+                  {
+                    "frame": 0.23333333333333334,
+                    "value": "4f02fd28-e5c0-4530-bdb9-d34c2526acf3"
+                  },
+                  {
+                    "frame": 0.25,
+                    "value": "d0cd820b-6ca4-401b-81f2-32ee908620c7"
+                  },
+                  {
+                    "frame": 0.2833333333333333,
+                    "value": "22e32036-5b5a-41e0-9cce-fbc4448ac651"
+                  },
+                  {
+                    "frame": 0.31666666666666665,
+                    "value": "40357a85-2b00-4ea0-9e1e-d1cc66edde7d"
+                  },
+                  {
+                    "frame": 0.35,
+                    "value": "3d2229b3-fe57-444d-9d70-958b1b592c11"
+                  },
+                  {
+                    "frame": 0.38333333333333336,
+                    "value": "ae496f66-38f8-42e6-926c-fb1d5a83892f"
+                  },
+                  {
+                    "frame": 0.4166666666666667,
+                    "value": "e062c474-e57b-4d64-beaa-d2284063ace6"
+                  },
+                  {
+                    "frame": 0.45,
+                    "value": "5655baf9-4e7a-4d95-8dcb-1a0c52ad02d2"
+                  },
+                  {
+                    "frame": 0.48333333333333334,
+                    "value": "53df40e6-ce56-4dd7-92eb-924907f50a4d"
+                  },
+                  {
+                    "frame": 0.5333333333333333,
+                    "value": "4be4b5c9-784a-4baa-b339-e10a55b75e7b"
+                  }
+                ]
+              }
+            },
+            "props": {
+              "opacity": [
+                {
+                  "frame": 0,
+                  "value": 0
+                },
+                {
+                  "frame": 0.016666666666666666,
+                  "value": 255
+                },
+                {
+                  "frame": 0.4166666666666667,
+                  "value": 255
+                },
+                {
+                  "frame": 0.5833333333333334,
+                  "value": 0
+                }
+              ],
+              "scale": [
+                {
+                  "frame": 0,
+                  "value": [
+                    3,
+                    3
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "voices": {
+    "rain": {
+      "file": "native-kong-study/audio/rain.mp3",
+      "duration": 3.422,
+      "uuid": "aee1e62d-c2ab-4d18-9a97-6eb79265580b"
+    },
+    "wind": {
+      "file": "native-kong-study/audio/wind.mp3",
+      "duration": 2.586,
+      "uuid": "43ff4de3-1d4c-4328-be74-0ece2c94ab98"
+    }
+  },
+  "excludedGameTypes": [
+    850
+  ],
+  "smoke": {
+    "parent": "ZMJCPGTileCtrl.node",
+    "runtimeScale": 1.6,
+    "directionOffsets": [
+      [
+        -180,
+        20
+      ],
+      [
+        30,
+        120
+      ],
+      [
+        180,
+        -20
+      ],
+      [
+        -30,
+        -120
+      ]
+    ],
+    "localToDirection": [
+      0,
+      3,
+      2,
+      1
+    ],
+    "source": "ZMJCPGTileCtrl.js:320–342,383–407"
+  },
+  "locking": {
+    "gangMs": 1030,
+    "ambientAdditionalMs": 0,
+    "source": "GameAnimView.onGamingGang + GameAnimDefine.Gang; CPGHAnim.playGang/playAnGang"
+  },
+  "sources": {
+    "prefabs": "resources66/2095/2742; clips2926/1417/2836",
+    "triggers": "CPGHAnim.js:13–20,40–57; NewCPGHAnim.js:265–274,295–304,338–359",
+    "excluded": "GameTypeCfgs.JBCROOMWHMJ.TYPEID=850",
+    "preloadNote": "ConfigPrefab.getGameAniList xiayu points to guafeng, but NewCPGHAnim.playXiaYu loads GameAnimPrefabMap.xiayu directly"
+  }
+}

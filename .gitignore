@@ -1,0 +1,58 @@
+# Installed dependencies
+node_modules/
+
+# Local runtime, deployment packages and private reference material
+/.local/
+/.deploy/
+/_ref/
+/.contract-review/
+/output/
+/doc/
+# Keep only the source fixtures required by historical regression tests.
+/asset-study/*
+!/asset-study/readable/
+/asset-study/readable/*
+!/asset-study/readable/modules/
+/asset-study/readable/modules/*
+!/asset-study/readable/modules/CommonGT.js
+!/asset-study/readable/modules/QuikStart.js
+!/asset-study/readable/modules/ProvinceGameTypeView.js
+!/asset-study/readable/modules/ProvinceChoose.js
+!/asset-study/readable/modules/MatchPlayType.js
+!/asset-study/readable/modules/MatchPlayTypeItemView.js
+!/asset-study/readable/modules/hallTableSelView.js
+!/asset-study/scripts/
+/asset-study/scripts/*
+!/asset-study/scripts/cocos2d-js-min.js
+/.codex/
+/.agents/
+/.aws/
+
+# Local QA output
+/demo/_qa/
+/demo/.qa-*
+/demo/current-trustee.png
+/demo/target-returned-lobby.png
+*.log
+*.zip
+*.tar.gz
+*.docx
+*.pdf
+
+# Credentials and private configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.sqlite
+*.sqlite3
+*.db
+
+# Editor and OS metadata
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,9 @@
+.native-hall-games-layer{position:absolute;inset:0;z-index:74;overflow:hidden;pointer-events:auto;font-family:Arial,"Microsoft YaHei",sans-serif;background:#3a59ac}
+.native-hall-games-layer[hidden],.native-hall-games-layer [hidden]{display:none!important}
+.native-hall-games-panel,.native-hall-games-canvas,.native-hall-games-controls{position:absolute;inset:0;width:100%;height:100%;outline:0}
+.native-hall-games-canvas{display:block;pointer-events:none}
+.native-hall-games-controls{pointer-events:none}
+.native-hall-games-control{position:absolute;pointer-events:auto;margin:0!important;padding:0!important;border:0!important;border-radius:0!important;background:transparent!important;color:transparent!important;filter:none!important;translate:none!important;cursor:pointer}
+.native-hall-games-scroll{position:absolute;pointer-events:auto;touch-action:none;cursor:grab;outline:0}
+.native-hall-games-scroll:active{cursor:grabbing}
+.native-hall-games-control:focus-visible,.native-hall-games-scroll:focus-visible{outline:2px solid #9cefff!important;outline-offset:2px!important}

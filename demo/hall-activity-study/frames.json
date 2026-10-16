@@ -1,0 +1,6070 @@
+[
+  {
+    "bundle": "common",
+    "id": 812,
+    "path": "NewSkin/Bg/bg_01",
+    "name": "bg_01",
+    "rect": [
+      0,
+      0,
+      1600,
+      720
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1600,
+      720
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "fde074c1-0ed6-4d32-b50e-0b35df7ad242",
+    "textureUUID": "c45ec09c-564e-4663-af20-2cfce3d790d9",
+    "image": "hall-activity-study/assets/common-812-bg_01.png"
+  },
+  {
+    "bundle": "common",
+    "id": 817,
+    "path": "NewSkin/Sudoku/pic_com03",
+    "name": "pic_com03",
+    "rect": [
+      79,
+      131,
+      75,
+      62
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      83,
+      70
+    ],
+    "capInsets": [
+      29,
+      0,
+      29,
+      0
+    ],
+    "uuid": "fefa49e7-643b-427f-abfc-d1e346deafb3",
+    "textureUUID": "157399797",
+    "image": "hall-activity-study/assets/common-817-pic_com03.png"
+  },
+  {
+    "bundle": "common",
+    "id": 520,
+    "path": "NewSkin/Sudoku/fengexian",
+    "name": "fengexian",
+    "rect": [
+      456,
+      26,
+      175,
+      1
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      175,
+      1
+    ],
+    "rotated": 1,
+    "capInsets": [
+      8,
+      0,
+      9,
+      0
+    ],
+    "uuid": "a524976f-184d-4ac6-8bda-e87e3ce70472",
+    "textureUUID": "157399797",
+    "image": "hall-activity-study/assets/common-520-fengexian.png"
+  },
+  {
+    "bundle": "common",
+    "id": 480,
+    "path": "NewSkin/NewBtn/btn_com01",
+    "name": "btn_com01",
+    "rect": [
+      347,
+      242,
+      91,
+      92
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      91,
+      92
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "9a8bba23-d9bd-4ff6-8524-b5aacc0a840f",
+    "textureUUID": "1e8019203",
+    "image": "hall-activity-study/assets/common-480-btn_com01.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1078,
+    "path": "NewSkin/DailyGift/pochanbaohu",
+    "name": "pochanbaohu",
+    "rect": [
+      3,
+      3,
+      316,
+      541
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      316,
+      541
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "6f6de586-9dd4-45c3-8772-5d1081350488",
+    "textureUUID": "11164ca1f",
+    "image": "hall-activity-study/assets/lobby-1078-pochanbaohu.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1096,
+    "path": "NewSkin/DailyGift/hongyuan",
+    "name": "hongyuan",
+    "rect": [
+      324,
+      872,
+      44,
+      51
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      44,
+      51
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "7145c665-4da9-4874-9ee6-c2c271db7c75",
+    "textureUUID": "11164ca1f",
+    "image": "hall-activity-study/assets/lobby-1096-hongyuan.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 2342,
+    "path": "NewSkin/DailyGift/noleftTag_1",
+    "name": "noleftTag_1",
+    "rect": [
+      550,
+      728,
+      199,
+      172
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      199,
+      172
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "f5269507-0346-4e99-8705-f289de1dace6",
+    "textureUUID": "1ea4736d3",
+    "image": "hall-activity-study/assets/lobby-2342-noleftTag_1.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 478,
+    "path": "NewSkin/DailyGift/zhezhao",
+    "name": "zhezhao",
+    "rect": [
+      549,
+      550,
+      315,
+      471
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      315,
+      471
+    ],
+    "capInsets": [
+      63,
+      126,
+      78,
+      140
+    ],
+    "uuid": "2e4fb425-a38a-4ad2-9b57-66ef86c1fc07",
+    "textureUUID": "11164ca1f",
+    "image": "hall-activity-study/assets/lobby-478-zhezhao.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1584,
+    "path": "NewSkin/DailyGift/tiaodi",
+    "name": "tiaodi",
+    "rect": [
+      3,
+      872,
+      315,
+      37
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      315,
+      37
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "a743ef04-68a0-4135-a87c-a51e35547391",
+    "textureUUID": "11164ca1f",
+    "image": "hall-activity-study/assets/lobby-1584-tiaodi.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 38,
+    "path": "NewSkin/DailyGift/mainfeilingjindou",
+    "name": "mainfeilingjindou",
+    "rect": [
+      325,
+      3,
+      315,
+      541
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      316,
+      541
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "03788c47-aa60-4860-9f31-02c36c66a419",
+    "textureUUID": "11164ca1f",
+    "image": "hall-activity-study/assets/lobby-38-mainfeilingjindou.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1966,
+    "path": "NewSkin/DailyGift/bofanganniu",
+    "name": "bofanganniu",
+    "rect": [
+      3,
+      915,
+      41,
+      41
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      41,
+      41
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "ce547403-596c-49df-9844-746fdc1ac0bc",
+    "textureUUID": "11164ca1f",
+    "image": "hall-activity-study/assets/lobby-1966-bofanganniu.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1948,
+    "path": "NewSkin/DailyGift/fudaiduihuan",
+    "name": "fudaiduihuan",
+    "rect": [
+      3,
+      324,
+      315,
+      541
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      316,
+      541
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "cc39dbd3-e95f-4501-9da4-2c72f5679a35",
+    "textureUUID": "1ea4736d3",
+    "image": "hall-activity-study/assets/lobby-1948-fudaiduihuan.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 2178,
+    "path": "NewSkin/DailyGift/qiandaojiangli",
+    "name": "qiandaojiangli",
+    "rect": [
+      3,
+      645,
+      315,
+      541
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      316,
+      541
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "e4b2177c-6bbb-49aa-a160-6f4edf174749",
+    "textureUUID": "1ea4736d3",
+    "image": "hall-activity-study/assets/lobby-2178-qiandaojiangli.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1310,
+    "path": "Main/img_redBall",
+    "name": "img_redBall",
+    "rect": [
+      94,
+      226,
+      21,
+      22
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      21,
+      22
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "87ee852a-9826-43fe-b2bb-8062daf9bec6",
+    "textureUUID": "16212ef64",
+    "image": "hall-activity-study/assets/lobby-1310-img_redBall.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 621,
+    "path": "NewSkin/DailyGift/huiguilibao",
+    "name": "huiguilibao",
+    "rect": [
+      3,
+      3,
+      315,
+      541
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      316,
+      541
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "3ec69d41-ae47-417d-8d0d-2af5c5203142",
+    "textureUUID": "1ea4736d3",
+    "image": "hall-activity-study/assets/lobby-621-huiguilibao.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 384,
+    "path": "NewSkin/DailyGift/duihuanmaduihuan",
+    "name": "duihuanmaduihuan",
+    "rect": [
+      3,
+      550,
+      316,
+      540
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      316,
+      541
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "2657ce7f-77a5-4631-88a0-765a380704ad",
+    "textureUUID": "11164ca1f",
+    "image": "hall-activity-study/assets/lobby-384-duihuanmaduihuan.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1827,
+    "path": "NewSkin/DailyGift/xingyunzhuanpan",
+    "name": "xingyunzhuanpan",
+    "rect": [
+      550,
+      3,
+      315,
+      541
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      316,
+      541
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "bea1345d-df6a-48d8-bb1e-9e5e9e8595ab",
+    "textureUUID": "1ea4736d3",
+    "image": "hall-activity-study/assets/lobby-1827-xingyunzhuanpan.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 446,
+    "path": "NewSkin/DailyGift/zhiboyouli",
+    "name": "zhiboyouli",
+    "rect": [
+      646,
+      3,
+      315,
+      541
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      316,
+      541
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "2b326bdb-6f88-400e-89a0-7aadf8b3fc89",
+    "textureUUID": "11164ca1f",
+    "image": "hall-activity-study/assets/lobby-446-zhiboyouli.png"
+  },
+  {
+    "bundle": "Section",
+    "id": 1,
+    "path": "SectionMatch/sectionIndex/GoodIcon/icon_redBag",
+    "name": "icon_redBag",
+    "rect": [
+      82,
+      281,
+      35,
+      36
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      35,
+      36
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "0374de78-0f74-44e7-bfea-10aec90a19cf",
+    "textureUUID": "1a43330d5",
+    "image": "hall-activity-study/assets/Section-1-icon_redBag.png"
+  },
+  {
+    "bundle": "common",
+    "id": 759,
+    "path": "NewSkin/Bg/bg_02",
+    "name": "bg_02",
+    "rect": [
+      0,
+      0,
+      1600,
+      720
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1600,
+      720
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "ec4858ee-5ff5-4e90-9878-91d926459f98",
+    "textureUUID": "1b5d34f2-7d88-4b18-a9f1-f85562e57e09",
+    "image": "hall-activity-study/assets/common-759-bg_02.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 388,
+    "path": "CustomTreasure/Bg/di",
+    "name": "di",
+    "rect": [
+      0,
+      0,
+      1102,
+      658
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1102,
+      658
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "26a31ecb-aff0-41c0-9437-ab746016a59a@6c48a",
+    "textureUUID": "26a31ecb-aff0-41c0-9437-ab746016a59a",
+    "image": "hall-activity-study/assets/lobby-388-di.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 2279,
+    "path": "CustomTreasure/Main/di3",
+    "name": "di3",
+    "rect": [
+      201,
+      3,
+      560,
+      36
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      560,
+      36
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "ee988386-41af-4f93-9434-b6e79879a0e0@6c48a",
+    "textureUUID": "17ef6dab2",
+    "image": "hall-activity-study/assets/lobby-2279-di3.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1527,
+    "path": "CustomTreasure/Main/biaoti1",
+    "name": "biaoti1",
+    "rect": [
+      49,
+      3,
+      221,
+      29
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      221,
+      29
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "a092ed0f-e5a4-41e2-b4ec-e7ee6088b63a@6c48a",
+    "textureUUID": "17ef6dab2",
+    "image": "hall-activity-study/assets/lobby-1527-biaoti1.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 843,
+    "path": "CustomTreasure/Main/biaoqian",
+    "name": "biaoqian",
+    "rect": [
+      3,
+      453,
+      192,
+      140
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      192,
+      140
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "56a22871-2862-4bf1-8bcf-e8fc1cc3618e@6c48a",
+    "textureUUID": "17ef6dab2",
+    "image": "hall-activity-study/assets/lobby-843-biaoqian.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1332,
+    "path": "CustomTreasure/Main/kaishixuanze",
+    "name": "kaishixuanze",
+    "rect": [
+      84,
+      3,
+      204,
+      81
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      204,
+      81
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "8bc03ffa-81f5-4bae-b84f-a31cc8e2c809@6c48a",
+    "textureUUID": "17ef6dab2",
+    "image": "hall-activity-study/assets/lobby-1332-kaishixuanze.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 675,
+    "path": "CustomTreasure/Main/zixuan",
+    "name": "zixuan",
+    "rect": [
+      3,
+      3,
+      444,
+      40
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      444,
+      40
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "43c7d5fb-7afe-4a7d-b347-95ed9192230d@6c48a",
+    "textureUUID": "17ef6dab2",
+    "image": "hall-activity-study/assets/lobby-675-zixuan.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1010,
+    "path": "CustomTreasure/Main/guanbi",
+    "name": "guanbi",
+    "rect": [
+      201,
+      569,
+      26,
+      26
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      26,
+      26
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "677b81e1-bc23-4c9c-8b6e-0c85f4ee423b@6c48a",
+    "textureUUID": "17ef6dab2",
+    "image": "hall-activity-study/assets/lobby-1010-guanbi.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 2263,
+    "path": "CustomTreasure/Bg/di3",
+    "name": "di3",
+    "rect": [
+      0,
+      0,
+      1051,
+      601
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1051,
+      601
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "ec8b0d2b-62a4-4a9c-aa51-fe9a82d478c6@6c48a",
+    "textureUUID": "ec8b0d2b-62a4-4a9c-aa51-fe9a82d478c6",
+    "image": "hall-activity-study/assets/lobby-2263-di3.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 235,
+    "path": "CustomTreasure/Bg/dadi",
+    "name": "dadi",
+    "rect": [
+      0,
+      0,
+      547,
+      328
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      547,
+      328
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "16ed57d4-3e56-4d56-b1b7-8de4cd4ce705@6c48a",
+    "textureUUID": "16ed57d4-3e56-4d56-b1b7-8de4cd4ce705",
+    "image": "hall-activity-study/assets/lobby-235-dadi.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 2146,
+    "path": "CustomTreasure/Draw/zuo",
+    "name": "zuo",
+    "rect": [
+      454,
+      3,
+      46,
+      70
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      46,
+      70
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "e291947d-9a89-4deb-a37e-e6615aaeb288@6c48a",
+    "textureUUID": "1811d72c0",
+    "image": "hall-activity-study/assets/lobby-2146-zuo.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1467,
+    "path": "CustomTreasure/Draw/dian",
+    "name": "dian",
+    "rect": [
+      386,
+      477,
+      9,
+      8
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      9,
+      8
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "999c994c-bb54-47b5-a758-1463113f8459@6c48a",
+    "textureUUID": "1811d72c0",
+    "image": "hall-activity-study/assets/lobby-1467-dian.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 2091,
+    "path": "CustomTreasure/Draw/dian2",
+    "name": "dian2",
+    "rect": [
+      386,
+      491,
+      9,
+      8
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      9,
+      8
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "dc8b8ce8-f222-452f-98a8-8fe7454de2aa@6c48a",
+    "textureUUID": "1811d72c0",
+    "image": "hall-activity-study/assets/lobby-2091-dian2.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 616,
+    "path": "Main/shouzhi",
+    "name": "shouzhi",
+    "rect": [
+      3,
+      226,
+      85,
+      125
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      94,
+      125
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "3e11f108-3279-4907-89ea-0886b9f76af6",
+    "textureUUID": "16212ef64",
+    "image": "hall-activity-study/assets/lobby-616-shouzhi.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 944,
+    "path": "CustomTreasure/Draw/quanxuanzeliangxiang",
+    "name": "quanxuanzeliangxiang",
+    "rect": [
+      412,
+      807,
+      142,
+      64
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      142,
+      64
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "60daf574-23ab-42f5-a219-ccd6f90716aa@6c48a",
+    "textureUUID": "1811d72c0",
+    "image": "hall-activity-study/assets/lobby-944-quanxuanzeliangxiang.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 599,
+    "path": "CustomTreasure/Draw/di6",
+    "name": "di6",
+    "rect": [
+      3,
+      3,
+      935,
+      116
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      935,
+      116
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "3b92471e-0e3f-41a3-9f09-2db51d942ef9@6c48a",
+    "textureUUID": "1811d72c0",
+    "image": "hall-activity-study/assets/lobby-599-di6.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 2392,
+    "path": "CustomTreasure/Draw/majiagnzai",
+    "name": "majiagnzai",
+    "rect": [
+      131,
+      37,
+      261,
+      264
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      261,
+      264
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "fc23e604-4c59-4dfc-9e1f-cd81a533db5b@6c48a",
+    "textureUUID": "1811d72c0",
+    "image": "hall-activity-study/assets/lobby-2392-majiagnzai.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 4,
+    "path": "CustomTreasure/Draw/di7",
+    "name": "di7",
+    "rect": [
+      125,
+      304,
+      83,
+      86
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      83,
+      86
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "00869f01-5c4a-4bda-b3a0-969472bc419d@6c48a",
+    "textureUUID": "1811d72c0",
+    "image": "hall-activity-study/assets/lobby-4-di7.png"
+  },
+  {
+    "bundle": "common",
+    "id": 644,
+    "path": "GoodsIcon/25_2",
+    "name": "25_2",
+    "rect": [
+      932,
+      178,
+      143,
+      87
+    ],
+    "offset": [
+      0,
+      -11
+    ],
+    "originalSize": [
+      159,
+      143
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "c97ea1c8-6d9b-42b8-a592-ae2b63267f74",
+    "textureUUID": "17cb5c626",
+    "image": "hall-activity-study/assets/common-644-25_2.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 2140,
+    "path": "CustomTreasure/Draw/di4.5",
+    "name": "di4",
+    "rect": [
+      3,
+      944,
+      122,
+      38
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      122,
+      38
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "e22065b1-66d8-41b8-a6a5-23be1dcf0bdf@6c48a",
+    "textureUUID": "1811d72c0",
+    "image": "hall-activity-study/assets/lobby-2140-di4.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 936,
+    "path": "CustomTreasure/Draw/changtiaodi",
+    "name": "changtiaodi",
+    "rect": [
+      401,
+      187,
+      585,
+      98
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      585,
+      98
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "5fab889c-cb79-4c08-b601-138438009f43@6c48a",
+    "textureUUID": "1811d72c0",
+    "image": "hall-activity-study/assets/lobby-936-changtiaodi.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1597,
+    "path": "CustomTreasure/Draw/draw",
+    "name": "draw",
+    "rect": [
+      131,
+      778,
+      203,
+      78
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      203,
+      78
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "a8581b17-0391-4f49-9dad-aaf037eee44e@6c48a",
+    "textureUUID": "1811d72c0",
+    "image": "hall-activity-study/assets/lobby-1597-draw.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1500,
+    "path": "Main/glow",
+    "name": "glow",
+    "rect": [
+      3,
+      108,
+      112,
+      112
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      128,
+      128
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "9d578a0d-2b6e-432d-899f-fef2193d9478",
+    "textureUUID": "16212ef64",
+    "image": "hall-activity-study/assets/lobby-1500-glow.png"
+  },
+  {
+    "bundle": "common",
+    "id": 109,
+    "path": "global/guangban",
+    "name": "guangban",
+    "rect": [
+      372,
+      214,
+      219,
+      219
+    ],
+    "offset": [
+      0.5,
+      -0.5
+    ],
+    "originalSize": [
+      256,
+      256
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "26096d89-24aa-48eb-9355-76c160f5671b",
+    "textureUUID": "1c0b6e64f",
+    "image": "hall-activity-study/assets/common-109-guangban.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 679,
+    "path": "CustomTreasure/Guide/1",
+    "name": "1",
+    "rect": [
+      3,
+      3,
+      500,
+      186
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      186
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "44153833-7b71-4e2d-bb58-39597275adb7@6c48a",
+    "textureUUID": "1d181cbb6",
+    "image": "hall-activity-study/assets/lobby-679-1.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1845,
+    "path": "CustomTreasure/Guide/2",
+    "name": "2",
+    "rect": [
+      3,
+      509,
+      500,
+      186
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      500,
+      186
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "c11e67d9-ba10-457b-93e8-4e2c31f94259@6c48a",
+    "textureUUID": "1d181cbb6",
+    "image": "hall-activity-study/assets/lobby-1845-2.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1996,
+    "path": "CustomTreasure/Bg/di4",
+    "name": "di4",
+    "rect": [
+      0,
+      0,
+      405,
+      408
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      405,
+      408
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "d1bd6e47-7d89-4296-af94-c8d6becb9765@6c48a",
+    "textureUUID": "d1bd6e47-7d89-4296-af94-c8d6becb9765",
+    "image": "hall-activity-study/assets/lobby-1996-di4.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 398,
+    "path": "CustomTreasure/Draw/huangdi",
+    "name": "huangdi",
+    "rect": [
+      261,
+      637,
+      130,
+      129
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      130,
+      129
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "2754a459-ab63-4246-b6d7-5a7e77ca1696@6c48a",
+    "textureUUID": "1811d72c0",
+    "image": "hall-activity-study/assets/lobby-398-huangdi.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 866,
+    "path": "CustomTreasure/Draw/bg_label",
+    "name": "bg_label",
+    "rect": [
+      261,
+      772,
+      119,
+      29
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      119,
+      29
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "5872a7ea-4b71-446b-a9fd-8cf45fd2079b",
+    "textureUUID": "1811d72c0",
+    "image": "hall-activity-study/assets/lobby-866-bg_label.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 840,
+    "path": "CustomTreasure/Draw/baoxiang",
+    "name": "baoxiang",
+    "rect": [
+      215,
+      477,
+      154,
+      165
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      154,
+      165
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "5678db27-6875-4d57-af0b-5d477d81bd7c@6c48a",
+    "textureUUID": "1811d72c0",
+    "image": "hall-activity-study/assets/lobby-840-baoxiang.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 2034,
+    "path": "CustomTreasure/Draw/pic_01",
+    "name": "pic_01",
+    "rect": [
+      125,
+      396,
+      219,
+      57
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      219,
+      57
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "d55dcd3c-1cf8-4c16-bf9f-1a8f84868fb6",
+    "textureUUID": "1811d72c0",
+    "image": "hall-activity-study/assets/lobby-2034-pic_01.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 978,
+    "path": "CustomTreasure/Draw/pic_02",
+    "name": "pic_02",
+    "rect": [
+      215,
+      894,
+      29,
+      34
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      29,
+      34
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "64bcbad2-a778-41b4-b3c0-29e87d1d79d1",
+    "textureUUID": "1811d72c0",
+    "image": "hall-activity-study/assets/lobby-978-pic_02.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 2118,
+    "path": "CustomTreasure/Draw/btnHelp",
+    "name": "btnHelp",
+    "rect": [
+      401,
+      37,
+      35,
+      35
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      35,
+      35
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "df5f5e66-7b49-4c9d-b187-4f6f2240ab3d@6c48a",
+    "textureUUID": "1811d72c0",
+    "image": "hall-activity-study/assets/lobby-2118-btnHelp.png"
+  },
+  {
+    "bundle": "common",
+    "id": 816,
+    "path": "NewSkin/NewBtn/btn_com04",
+    "name": "btn_com04",
+    "rect": [
+      179,
+      736,
+      38,
+      37
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      38,
+      37
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "feec4ed5-df49-4757-ad98-21baf745e1a0",
+    "textureUUID": "1e8019203",
+    "image": "hall-activity-study/assets/common-816-btn_com04.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 288,
+    "path": "NewSkin/slyder/pic_04",
+    "name": "pic_04",
+    "rect": [
+      0,
+      0,
+      976,
+      584
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      976,
+      584
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "1c0ef4fe-1144-4863-861f-fac51f43cf31",
+    "textureUUID": "979a068f-2957-4adf-8232-d4a6621ab390",
+    "image": "hall-activity-study/assets/lobby-288-pic_04.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 768,
+    "path": "NewSkin/slyder/pic_07",
+    "name": "pic_07",
+    "rect": [
+      0,
+      0,
+      677,
+      471
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      677,
+      471
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "4e5b55b6-3dc2-41bf-add3-55e13138ed5d",
+    "textureUUID": "8eef2b25-9acf-4e04-9fd5-3fa2259bfebb",
+    "image": "hall-activity-study/assets/lobby-768-pic_07.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1688,
+    "path": "NewSkin/slyder/pic_03",
+    "name": "pic_03",
+    "rect": [
+      0,
+      0,
+      489,
+      489
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      489,
+      489
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "b13b1cac-7742-4654-882c-6c84161760a1",
+    "textureUUID": "2b633b46-f5fd-45d5-91e6-00c32e095cfa",
+    "image": "hall-activity-study/assets/lobby-1688-pic_03.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1157,
+    "path": "NewSkin/slyder/pic_02",
+    "name": "pic_02",
+    "rect": [
+      0,
+      0,
+      142,
+      186
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      142,
+      186
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "76f07e4a-d371-4bce-804f-e62a6fa89678",
+    "textureUUID": "0e34b536-9bc8-400b-9258-57a8efee8a67",
+    "image": "hall-activity-study/assets/lobby-1157-pic_02.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 245,
+    "path": "NewSkin/slyder/btn_01",
+    "name": "btn_01",
+    "rect": [
+      0,
+      0,
+      132,
+      130
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      132,
+      130
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "17dde082-aaa4-4bab-8494-edf5b2d2f301",
+    "textureUUID": "907b6e11-fe03-4619-8cba-9e6bfe605523",
+    "image": "hall-activity-study/assets/lobby-245-btn_01.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1663,
+    "path": "NewSkin/slyder/pic_01",
+    "name": "pic_01",
+    "rect": [
+      0,
+      0,
+      108,
+      29
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      108,
+      29
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "af2a5589-6b14-4f8c-a461-b9bccb6898d2",
+    "textureUUID": "0043c4e6-2431-47c7-b9c3-bb6d29a3bd91",
+    "image": "hall-activity-study/assets/lobby-1663-pic_01.png"
+  },
+  {
+    "bundle": "common",
+    "id": 169,
+    "path": "NewSkin/NewBtn/btn_com09",
+    "name": "btn_com09",
+    "rect": [
+      348,
+      3,
+      233,
+      85
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      233,
+      85
+    ],
+    "rotated": 1,
+    "capInsets": [
+      117,
+      29,
+      94,
+      45
+    ],
+    "uuid": "350ac429-8715-44a6-a677-661093da5f46",
+    "textureUUID": "1e8019203",
+    "image": "hall-activity-study/assets/common-169-btn_com09.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1419,
+    "path": "PrivilegeCard/CardNum/anniuka",
+    "name": "anniuka",
+    "rect": [
+      70,
+      53,
+      31,
+      41
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      31,
+      41
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "952cc1b9-1a4b-4b2b-9d64-4ca66856ec96",
+    "textureUUID": "1e41fec45",
+    "image": "hall-activity-study/assets/lobby-1419-anniuka.png"
+  },
+  {
+    "bundle": "common",
+    "id": 357,
+    "path": "NewSkin/NewBtn/btn_com07",
+    "name": "btn_com07",
+    "rect": [
+      254,
+      550,
+      233,
+      85
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      233,
+      85
+    ],
+    "rotated": 1,
+    "capInsets": [
+      130,
+      29,
+      100,
+      44
+    ],
+    "uuid": "73646625-c45e-4e40-ab59-d5cc564ef4e0",
+    "textureUUID": "1e8019203",
+    "image": "hall-activity-study/assets/common-357-btn_com07.png"
+  },
+  {
+    "bundle": "common",
+    "id": 75,
+    "path": "NewSkin/other/pic_com17",
+    "name": "pic_com17",
+    "rect": [
+      994,
+      366,
+      24,
+      25
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      24,
+      25
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "1a90e871-5072-4dfa-8eb9-983e2d60ef00",
+    "textureUUID": "1d05abae0",
+    "image": "hall-activity-study/assets/common-75-pic_com17.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1001,
+    "path": "slyder/mes_text_bg",
+    "name": "mes_text_bg",
+    "rect": [
+      3,
+      433,
+      216,
+      78
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      216,
+      78
+    ],
+    "capInsets": [
+      91,
+      17,
+      95,
+      54
+    ],
+    "uuid": "66b0a4e2-36fa-4fc3-b839-f06dbdac7df7",
+    "textureUUID": "165c01b32",
+    "image": "hall-activity-study/assets/lobby-1001-mes_text_bg.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 2347,
+    "path": "NewSkin/slyder/txt_bt",
+    "name": "txt_bt",
+    "rect": [
+      0,
+      0,
+      525,
+      106
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      525,
+      106
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "f552d8b4-e02c-43ab-8d09-454bc031a209",
+    "textureUUID": "71922baf-dc73-4dd3-8c46-bcbb98a1c9f4",
+    "image": "hall-activity-study/assets/lobby-2347-txt_bt.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1710,
+    "path": "LoginLuckyAward/Bg/diMain",
+    "name": "diMain",
+    "rect": [
+      0,
+      0,
+      1270,
+      685
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1270,
+      685
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "b32f85e0-a5ac-44f7-86de-33ae53b01629@6c48a",
+    "textureUUID": "b32f85e0-a5ac-44f7-86de-33ae53b01629",
+    "image": "hall-activity-study/assets/lobby-1710-diMain.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 2057,
+    "path": "LoginLuckyAward/Main2/yuan",
+    "name": "yuan",
+    "rect": [
+      3,
+      3,
+      397,
+      397
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      397,
+      397
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "d814f1ef-149f-48b0-b2f0-511718a46c51@6c48a",
+    "textureUUID": "1f3dc407f",
+    "image": "hall-activity-study/assets/lobby-2057-yuan.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 864,
+    "path": "LoginLuckyAward/Main2/zi",
+    "name": "zi",
+    "rect": [
+      457,
+      3,
+      367,
+      37
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      367,
+      37
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "583a4c70-0764-432e-bfc0-cbe506d5c008@6c48a",
+    "textureUUID": "1f3dc407f",
+    "image": "hall-activity-study/assets/lobby-864-zi.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 865,
+    "path": "LoginLuckyAward/Main2/zi2",
+    "name": "zi2",
+    "rect": [
+      3,
+      502,
+      160,
+      39
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      160,
+      39
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "584245e5-1b61-4aa3-8cb2-e2a90e205602@6c48a",
+    "textureUUID": "1f3dc407f",
+    "image": "hall-activity-study/assets/lobby-865-zi2.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 2141,
+    "path": "LoginLuckyAward/Main2/touzi",
+    "name": "touzi",
+    "rect": [
+      328,
+      406,
+      174,
+      146
+    ],
+    "offset": [
+      -2,
+      -8
+    ],
+    "originalSize": [
+      244,
+      218
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "e22cf933-f857-440d-9943-5c587d5871db@6c48a",
+    "textureUUID": "1f3dc407f",
+    "image": "hall-activity-study/assets/lobby-2141-touzi.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1747,
+    "path": "LoginLuckyAward/Main2/zi3",
+    "name": "zi3",
+    "rect": [
+      406,
+      3,
+      351,
+      45
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      351,
+      45
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "b5fe733d-4496-48d7-8390-542b11ace241@6c48a",
+    "textureUUID": "1f3dc407f",
+    "image": "hall-activity-study/assets/lobby-1747-zi3.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1565,
+    "path": "LoginLuckyAward/Common/anniu",
+    "name": "anniu",
+    "rect": [
+      3,
+      3,
+      319,
+      90
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      319,
+      90
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "a5636069-0b79-4e5a-b4e9-0e54b514f1ec@6c48a",
+    "textureUUID": "161ca7def",
+    "image": "hall-activity-study/assets/lobby-1565-anniu.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1182,
+    "path": "LoginLuckyAward/Main2/anniu2",
+    "name": "anniu2",
+    "rect": [
+      3,
+      406,
+      319,
+      90
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      319,
+      90
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "7acfecb9-2d5c-41b8-962c-f8e008741643@6c48a",
+    "textureUUID": "1f3dc407f",
+    "image": "hall-activity-study/assets/lobby-1182-anniu2.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 211,
+    "path": "LoginLuckyAward/Main2/guanbi",
+    "name": "guanbi",
+    "rect": [
+      3,
+      547,
+      47,
+      47
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      47,
+      47
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "14dfaee8-377a-4364-9db7-bf64e1c0e9b1@6c48a",
+    "textureUUID": "1f3dc407f",
+    "image": "hall-activity-study/assets/lobby-211-guanbi.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1408,
+    "path": "TreasureAttic/beijing",
+    "name": "beijing",
+    "rect": [
+      0,
+      0,
+      1560,
+      720
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1560,
+      720
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "93d34477-ade5-4d20-993c-c15792e9e764@6c48a",
+    "textureUUID": "93d34477-ade5-4d20-993c-c15792e9e764",
+    "image": "hall-activity-study/assets/lobby-1408-beijing.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 215,
+    "path": "TreasureAttic/shanglan",
+    "name": "shanglan",
+    "rect": [
+      0,
+      0,
+      1560,
+      84
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1560,
+      84
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "1559f3de-e09e-404f-be29-d04039578813@6c48a",
+    "textureUUID": "1559f3de-e09e-404f-be29-d04039578813",
+    "image": "hall-activity-study/assets/lobby-215-shanglan.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 197,
+    "path": "TreasureAttic/fanhui",
+    "name": "fanhui",
+    "rect": [
+      355,
+      607,
+      65,
+      56
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      65,
+      56
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "13bfa223-6ca5-4754-8489-6888546dae9e@6c48a",
+    "textureUUID": "14be0a2bb",
+    "image": "hall-activity-study/assets/lobby-197-fanhui.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1672,
+    "path": "TreasureAttic/biaoti",
+    "name": "biaoti",
+    "rect": [
+      3,
+      607,
+      190,
+      56
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      190,
+      56
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "afeaf661-2db5-485e-a58b-955b0d2f3f69@6c48a",
+    "textureUUID": "14be0a2bb",
+    "image": "hall-activity-study/assets/lobby-1672-biaoti.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1490,
+    "path": "TreasureAttic/wenhao",
+    "name": "wenhao",
+    "rect": [
+      642,
+      839,
+      36,
+      36
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      36,
+      36
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "9be11c42-5833-4abf-9665-2e3fd237534c@6c48a",
+    "textureUUID": "14be0a2bb",
+    "image": "hall-activity-study/assets/lobby-1490-wenhao.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 2226,
+    "path": "TreasureAttic/anniu",
+    "name": "anniu",
+    "rect": [
+      199,
+      607,
+      150,
+      42
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      150,
+      42
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "e9275b68-0b23-45f5-a70c-a24f47c9c4f2@6c48a",
+    "textureUUID": "14be0a2bb",
+    "image": "hall-activity-study/assets/lobby-2226-anniu.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1363,
+    "path": "TreasureAttic/qizenbi",
+    "name": "qizenbi",
+    "rect": [
+      482,
+      865,
+      31,
+      33
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      31,
+      33
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "8f1baebf-c37c-4f60-90b8-d9b830d45163@6c48a",
+    "textureUUID": "14be0a2bb",
+    "image": "hall-activity-study/assets/lobby-1363-qizenbi.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 773,
+    "path": "TreasureAttic/fangkuang",
+    "name": "fangkuang",
+    "rect": [
+      740,
+      589,
+      28,
+      29
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      28,
+      29
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "4ed90464-2e4c-4bda-ba71-ed44fdf5fd7e@6c48a",
+    "textureUUID": "14be0a2bb",
+    "image": "hall-activity-study/assets/lobby-773-fangkuang.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 199,
+    "path": "TreasureAttic/gou",
+    "name": "gou",
+    "rect": [
+      704,
+      589,
+      30,
+      24
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      30,
+      24
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "1402402d-b3a5-47df-983e-434808dedd11@6c48a",
+    "textureUUID": "14be0a2bb",
+    "image": "hall-activity-study/assets/lobby-199-gou.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1323,
+    "path": "TreasureAttic/tiaodi",
+    "name": "tiaodi",
+    "rect": [
+      3,
+      682,
+      521,
+      37
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      521,
+      37
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "8a5d4418-0dce-457d-9953-77a96e7eadfd@6c48a",
+    "textureUUID": "14be0a2bb",
+    "image": "hall-activity-study/assets/lobby-1323-tiaodi.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1466,
+    "path": "TreasureAttic/huopaosp",
+    "name": "huopaosp",
+    "rect": [
+      423,
+      435,
+      237,
+      241
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      237,
+      241
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "99990ed2-bc68-4500-a392-58a4a4a45945",
+    "textureUUID": "14be0a2bb",
+    "image": "hall-activity-study/assets/lobby-1466-huopaosp.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 876,
+    "path": "TreasureAttic/anniu2",
+    "name": "anniu2",
+    "rect": [
+      3,
+      435,
+      414,
+      166
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      414,
+      166
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "59a5c60b-853a-424f-b62c-7711cbf7b005@6c48a",
+    "textureUUID": "14be0a2bb",
+    "image": "hall-activity-study/assets/lobby-876-anniu2.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1880,
+    "path": "TreasureAttic/redpiont",
+    "name": "redpiont",
+    "rect": [
+      737,
+      624,
+      23,
+      23
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      23,
+      23
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "c4754e68-cdad-4180-aeac-f94093da0005",
+    "textureUUID": "14be0a2bb",
+    "image": "hall-activity-study/assets/lobby-1880-redpiont.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 92,
+    "path": "TreasureAttic/jindutiaodi",
+    "name": "jindutiaodi",
+    "rect": [
+      686,
+      3,
+      896,
+      12
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      896,
+      12
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "08d01e0a-8fc7-4873-93f2-675d7f128225@6c48a",
+    "textureUUID": "14be0a2bb",
+    "image": "hall-activity-study/assets/lobby-92-jindutiaodi.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1910,
+    "path": "TreasureAttic/jindutiao",
+    "name": "jindutiao",
+    "rect": [
+      3,
+      905,
+      896,
+      12
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      896,
+      12
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "c756aca1-ffd7-4d38-a06d-e1c8f1454ee0@6c48a",
+    "textureUUID": "14be0a2bb",
+    "image": "hall-activity-study/assets/lobby-1910-jindutiao.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1731,
+    "path": "TreasureAttic/daojujiugonggedi",
+    "name": "daojujiugonggedi",
+    "rect": [
+      590,
+      839,
+      46,
+      45
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      46,
+      45
+    ],
+    "capInsets": [
+      12,
+      10,
+      12,
+      8
+    ],
+    "uuid": "b4e9c392-ef47-4b28-96b1-f40f1c128173@6c48a",
+    "textureUUID": "14be0a2bb",
+    "image": "hall-activity-study/assets/lobby-1731-daojujiugonggedi.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 2095,
+    "path": "TreasureAttic/daojukuang",
+    "name": "daojukuang",
+    "rect": [
+      704,
+      519,
+      64,
+      64
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      64,
+      64
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "dd346167-5938-4f36-b461-4087f4cdefd3@6c48a",
+    "textureUUID": "14be0a2bb",
+    "image": "hall-activity-study/assets/lobby-2095-daojukuang.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 972,
+    "path": "TreasureAttic/pannel_s",
+    "name": "pannel_s",
+    "rect": [
+      3,
+      3,
+      677,
+      426
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      677,
+      426
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "63ee7885-6f01-41d0-ad9d-9f5b564c9a26@6c48a",
+    "textureUUID": "14be0a2bb",
+    "image": "hall-activity-study/assets/lobby-972-pannel_s.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1160,
+    "path": "TreasureAttic/close",
+    "name": "close",
+    "rect": [
+      704,
+      619,
+      27,
+      27
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      27,
+      27
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "77bfd2be-0c65-46f8-8700-193b385aeb58@6c48a",
+    "textureUUID": "14be0a2bb",
+    "image": "hall-activity-study/assets/lobby-1160-close.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 321,
+    "path": "TreasureAttic/tishidi",
+    "name": "tishidi",
+    "rect": [
+      482,
+      810,
+      49,
+      36
+    ],
+    "offset": [
+      -135,
+      0
+    ],
+    "originalSize": [
+      319,
+      36
+    ],
+    "rotated": 1,
+    "capInsets": [
+      17,
+      10,
+      32,
+      7
+    ],
+    "uuid": "1fc3fe62-a2bd-405c-b01d-1f57aeb0ad74@6c48a",
+    "textureUUID": "14be0a2bb",
+    "image": "hall-activity-study/assets/lobby-321-tishidi.png"
+  },
+  {
+    "bundle": "common",
+    "id": 263,
+    "path": "module/PassCheck/spr/mainView/bg",
+    "name": "bg",
+    "rect": [
+      0,
+      0,
+      1272,
+      700
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1272,
+      700
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "533f9398-b659-4a16-b387-77f11f613e13@6c48a",
+    "textureUUID": "533f9398-b659-4a16-b387-77f11f613e13",
+    "image": "hall-activity-study/assets/common-263-bg.png"
+  },
+  {
+    "bundle": "common",
+    "id": 273,
+    "path": "module/PassCheck/spr/mainView/title",
+    "name": "title",
+    "rect": [
+      691,
+      372,
+      439,
+      137
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      439,
+      137
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "557bee98-2eb7-4fe2-9b58-2076d2c6adc3@6c48a",
+    "textureUUID": "1e1be45ee",
+    "image": "hall-activity-study/assets/common-273-title.png"
+  },
+  {
+    "bundle": "common",
+    "id": 753,
+    "path": "module/PassCheck/spr/mainView/wenhao",
+    "name": "wenhao",
+    "rect": [
+      633,
+      631,
+      50,
+      50
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      50,
+      50
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "ea05e1f9-1297-4dfc-8b02-087f0cf42c3f@6c48a",
+    "textureUUID": "1e1be45ee",
+    "image": "hall-activity-study/assets/common-753-wenhao.png"
+  },
+  {
+    "bundle": "common",
+    "id": 522,
+    "path": "module/PassCheck/spr/mainView/tab2",
+    "name": "tab2",
+    "rect": [
+      3,
+      909,
+      531,
+      60
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      531,
+      60
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "a642b8ed-8cd8-44cc-8ad9-6f3f6b004e5b@6c48a",
+    "textureUUID": "1e1be45ee",
+    "image": "hall-activity-study/assets/common-522-tab2.png"
+  },
+  {
+    "bundle": "common",
+    "id": 101,
+    "path": "module/PassCheck/spr/mainView/tab1",
+    "name": "tab1",
+    "rect": [
+      834,
+      372,
+      531,
+      60
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      531,
+      60
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "22ba72d2-6bb4-40c2-8824-62d681286d7c@6c48a",
+    "textureUUID": "1e1be45ee",
+    "image": "hall-activity-study/assets/common-101-tab1.png"
+  },
+  {
+    "bundle": "common",
+    "id": 252,
+    "path": "module/PassCheck/spr/mainView/bg_renwu521",
+    "name": "bg_renwu521",
+    "rect": [
+      893,
+      263,
+      100,
+      100
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      100,
+      100
+    ],
+    "capInsets": [
+      18,
+      0,
+      20,
+      0
+    ],
+    "uuid": "51971e69-9d97-478b-b7cb-760cf72d5581@6c48a",
+    "textureUUID": "1e4e272a4",
+    "image": "hall-activity-study/assets/common-252-bg_renwu521.png"
+  },
+  {
+    "bundle": "common",
+    "id": 469,
+    "path": "module/PassCheck/spr/mainView/bg_wuping",
+    "name": "bg_wuping",
+    "rect": [
+      873,
+      469,
+      76,
+      76
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      76,
+      76
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "96f33561-4258-48c7-8ae0-c71bb4e47d9d@6c48a",
+    "textureUUID": "1e4e272a4",
+    "image": "hall-activity-study/assets/common-469-bg_wuping.png"
+  },
+  {
+    "bundle": "common",
+    "id": 119,
+    "path": "module/PassCheck/spr/mainView/jd2",
+    "name": "jd2",
+    "rect": [
+      900,
+      525,
+      30,
+      16
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      30,
+      16
+    ],
+    "rotated": 1,
+    "capInsets": [
+      5,
+      0,
+      4,
+      0
+    ],
+    "uuid": "28b0741e-1e14-4084-babc-625ff7d2cd68@6c48a",
+    "textureUUID": "1e1be45ee",
+    "image": "hall-activity-study/assets/common-119-jd2.png"
+  },
+  {
+    "bundle": "common",
+    "id": 71,
+    "path": "module/PassCheck/spr/mainView/jd1",
+    "name": "jd1",
+    "rect": [
+      3,
+      1001,
+      26,
+      12
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      30,
+      16
+    ],
+    "capInsets": [
+      1,
+      0,
+      2,
+      0
+    ],
+    "uuid": "18bad22a-4337-48d1-af3e-4671669b3e11@6c48a",
+    "textureUUID": "1e1be45ee",
+    "image": "hall-activity-study/assets/common-71-jd1.png"
+  },
+  {
+    "bundle": "common",
+    "id": 804,
+    "path": "module/PassCheck/spr/mainView/btn3",
+    "name": "btn3",
+    "rect": [
+      773,
+      317,
+      95,
+      55
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      95,
+      55
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "fc27ad5f-60e9-40d4-8724-5e7750d67c88@6c48a",
+    "textureUUID": "1e4e272a4",
+    "image": "hall-activity-study/assets/common-804-btn3.png"
+  },
+  {
+    "bundle": "common",
+    "id": 19,
+    "path": "module/PassCheck/spr/mainView/btn4",
+    "name": "btn4",
+    "rect": [
+      517,
+      747,
+      95,
+      55
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      95,
+      55
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "0825188c-bf85-4d2f-8899-c6cdb7408d7e@6c48a",
+    "textureUUID": "1e1be45ee",
+    "image": "hall-activity-study/assets/common-19-btn4.png"
+  },
+  {
+    "bundle": "common",
+    "id": 779,
+    "path": "module/PassCheck/spr/mainView/xuan3",
+    "name": "xuan3",
+    "rect": [
+      900,
+      463,
+      24,
+      24
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      32,
+      32
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "f2dfed93-04a3-453c-93a2-0112ad8f740d@6c48a",
+    "textureUUID": "1e1be45ee",
+    "image": "hall-activity-study/assets/common-779-xuan3.png"
+  },
+  {
+    "bundle": "common",
+    "id": 309,
+    "path": "module/PassCheck/spr/mainView/bg_time",
+    "name": "bg_time",
+    "rect": [
+      253,
+      975,
+      269,
+      34
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      269,
+      34
+    ],
+    "capInsets": [
+      26,
+      0,
+      29,
+      0
+    ],
+    "uuid": "63eee393-782a-4dba-8f4b-7f6ac6385f0e@6c48a",
+    "textureUUID": "1e1be45ee",
+    "image": "hall-activity-study/assets/common-309-bg_time.png"
+  },
+  {
+    "bundle": "common",
+    "id": 62,
+    "path": "module/PassCheck/spr/mainView/paomadeng",
+    "name": "paomadeng",
+    "rect": [
+      3,
+      3,
+      628,
+      484
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      628,
+      484
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "16371ff1-b54f-4b8b-b684-ffba4859b8f6@6c48a",
+    "textureUUID": "1e4e272a4",
+    "image": "hall-activity-study/assets/common-62-paomadeng.png"
+  },
+  {
+    "bundle": "common",
+    "id": 782,
+    "path": "module/PassCheck/spr/mainView/btn_l",
+    "name": "btn_l",
+    "rect": [
+      511,
+      547,
+      165,
+      78
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      165,
+      78
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "f399846e-3b68-48cc-b38b-c24ff9cb5eef@6c48a",
+    "textureUUID": "1e1be45ee",
+    "image": "hall-activity-study/assets/common-782-btn_l.png"
+  },
+  {
+    "bundle": "common",
+    "id": 342,
+    "path": "module/PassCheck/spr/mainView/btn_r",
+    "name": "btn_r",
+    "rect": [
+      511,
+      463,
+      165,
+      78
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      165,
+      78
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "6e64876b-6b33-4cf6-8979-694ed73f4b21@6c48a",
+    "textureUUID": "1e1be45ee",
+    "image": "hall-activity-study/assets/common-342-btn_r.png"
+  },
+  {
+    "bundle": "common",
+    "id": 577,
+    "path": "module/PassCheck/spr/mainView/btn1",
+    "name": "btn1",
+    "rect": [
+      637,
+      147,
+      250,
+      79
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      250,
+      79
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "b64643bd-15b3-43cb-b8e8-c314ad2efea9@6c48a",
+    "textureUUID": "1e4e272a4",
+    "image": "hall-activity-study/assets/common-577-btn1.png"
+  },
+  {
+    "bundle": "common",
+    "id": 398,
+    "path": "module/PassCheck/spr/mainView/btn2",
+    "name": "btn2",
+    "rect": [
+      155,
+      857,
+      132,
+      46
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      132,
+      46
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "7fc7d59d-3166-4b0a-997e-3ffe71888897@6c48a",
+    "textureUUID": "1e1be45ee",
+    "image": "hall-activity-study/assets/common-398-btn2.png"
+  },
+  {
+    "bundle": "common",
+    "id": 300,
+    "path": "module/PassCheck/spr/mainView/bg2",
+    "name": "bg2",
+    "rect": [
+      35,
+      975,
+      212,
+      46
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      212,
+      46
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "60834068-d4f5-42fa-b90f-af9c1c3b05cb@6c48a",
+    "textureUUID": "1e1be45ee",
+    "image": "hall-activity-study/assets/common-300-bg2.png"
+  },
+  {
+    "bundle": "common",
+    "id": 352,
+    "path": "module/PassCheck/spr/mainView/xuanshangling",
+    "name": "xuanshangling",
+    "rect": [
+      806,
+      909,
+      72,
+      81
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      72,
+      81
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "727d326e-ade5-45d5-80cf-a307b144a587@6c48a",
+    "textureUUID": "1e1be45ee",
+    "image": "hall-activity-study/assets/common-352-xuanshangling.png"
+  },
+  {
+    "bundle": "common",
+    "id": 417,
+    "path": "module/PassCheck/spr/mainView/addjia",
+    "name": "addjia",
+    "rect": [
+      618,
+      747,
+      50,
+      50
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      50,
+      50
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "84f975a9-b5eb-411f-9f67-08fa8fbcb052@6c48a",
+    "textureUUID": "1e1be45ee",
+    "image": "hall-activity-study/assets/common-417-addjia.png"
+  },
+  {
+    "bundle": "common",
+    "id": 236,
+    "path": "module/PassCheck/spr/mainView/xuan2",
+    "name": "xuan2",
+    "rect": [
+      900,
+      433,
+      24,
+      24
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      32,
+      32
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "4d47919f-995f-4fc6-ab77-4227e069581f@6c48a",
+    "textureUUID": "1e1be45ee",
+    "image": "hall-activity-study/assets/common-236-xuan2.png"
+  },
+  {
+    "bundle": "common",
+    "id": 136,
+    "path": "module/PassCheck/spr/mainView/xuan1",
+    "name": "xuan1",
+    "rect": [
+      900,
+      403,
+      24,
+      24
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      32,
+      32
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "2c9a3b71-ee38-4f38-80f0-e3ff171fab74@6c48a",
+    "textureUUID": "1e1be45ee",
+    "image": "hall-activity-study/assets/common-136-xuan1.png"
+  },
+  {
+    "bundle": "common",
+    "id": 442,
+    "path": "module/PassCheck/spr/mainView/choujiang1",
+    "name": "choujiang1",
+    "rect": [
+      395,
+      463,
+      110,
+      200
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      110,
+      200
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "8c1a5e70-6467-43b7-9b96-d39116fd02e1@6c48a",
+    "textureUUID": "1e1be45ee",
+    "image": "hall-activity-study/assets/common-442-choujiang1.png"
+  },
+  {
+    "bundle": "common",
+    "id": 293,
+    "path": "module/PassCheck/spr/mainView/choujinag2",
+    "name": "choujinag2",
+    "rect": [
+      893,
+      147,
+      110,
+      110
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      110,
+      110
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "5d475c3e-9dcf-4592-9590-c7839a6f469d@6c48a",
+    "textureUUID": "1e4e272a4",
+    "image": "hall-activity-study/assets/common-293-choujinag2.png"
+  },
+  {
+    "bundle": "common",
+    "id": 267,
+    "path": "module/PassCheck/spr/mainView/choujinag3",
+    "name": "choujinag3",
+    "rect": [
+      517,
+      631,
+      110,
+      110
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      110,
+      110
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "5417781e-9121-4aa0-bdae-a93cc6b3cbb4@6c48a",
+    "textureUUID": "1e1be45ee",
+    "image": "hall-activity-study/assets/common-267-choujinag3.png"
+  },
+  {
+    "bundle": "common",
+    "id": 296,
+    "path": "module/PassCheck/spr/mainView/guanbi",
+    "name": "guanbi",
+    "rect": [
+      806,
+      987,
+      32,
+      32
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      32,
+      32
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "5e39233d-dc2e-4d56-a027-5344401da93a@6c48a",
+    "textureUUID": "1e1be45ee",
+    "image": "hall-activity-study/assets/common-296-guanbi.png"
+  },
+  {
+    "bundle": "common",
+    "id": 692,
+    "path": "module/PassCheck/effect/resource/ui_mrxs/xiaokuang",
+    "name": "xiaokuang",
+    "rect": [
+      417,
+      335,
+      112,
+      112
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      112,
+      112
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "d95f3071-60dc-45f1-b5df-478f2225b7a9@6c48a",
+    "textureUUID": "16537c612",
+    "image": "hall-activity-study/assets/common-692-xiaokuang.png"
+  },
+  {
+    "bundle": "common",
+    "id": 640,
+    "path": "module/PassCheck/effect/resource/ui_mrxs/baidi",
+    "name": "baidi",
+    "rect": [
+      649,
+      3,
+      111,
+      112
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      111,
+      112
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "c84cb984-f734-4770-bd52-ba6b643ffcff@6c48a",
+    "textureUUID": "16537c612",
+    "image": "hall-activity-study/assets/common-640-baidi.png"
+  },
+  {
+    "bundle": "common",
+    "id": 532,
+    "path": "module/PassCheck/effect/resource/ui_mrxs/ui_mr_lizi_0000",
+    "name": "ui_mr_lizi_0000",
+    "rect": [
+      579,
+      505,
+      95,
+      91
+    ],
+    "offset": [
+      10.5,
+      13.5
+    ],
+    "originalSize": [
+      200,
+      200
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "a800a506-6208-44ab-b2e4-e364fcc5111b@6c48a",
+    "textureUUID": "16537c612",
+    "image": "hall-activity-study/assets/common-532-ui_mr_lizi_0000.png"
+  },
+  {
+    "bundle": "common",
+    "id": 142,
+    "path": "module/PassCheck/effect/resource/ui_mrxs/baodian013",
+    "name": "baodian013",
+    "rect": [
+      606,
+      167,
+      128,
+      128
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      128,
+      128
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "2dcb13f2-8cab-4ed5-9de3-0664fe6d294c@6c48a",
+    "textureUUID": "16537c612",
+    "image": "hall-activity-study/assets/common-142-baodian013.png"
+  },
+  {
+    "bundle": "common",
+    "id": 325,
+    "path": "module/PassCheck/effect/resource/ui_mrxs/zha401",
+    "name": "zha401",
+    "rect": [
+      3,
+      3,
+      256,
+      256
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      256,
+      256
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "6a89fd10-bdde-4859-a963-fec2e851ff80@6c48a",
+    "textureUUID": "16537c612",
+    "image": "hall-activity-study/assets/common-325-zha401.png"
+  },
+  {
+    "bundle": "common",
+    "id": 763,
+    "path": "module/PassCheck/effect/resource/ui_mrxs/dakuang",
+    "name": "dakuang",
+    "rect": [
+      3,
+      265,
+      111,
+      202
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      111,
+      202
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "ed1f14a1-f544-4f04-b4f3-2ff8dbc92083@6c48a",
+    "textureUUID": "16537c612",
+    "image": "hall-activity-study/assets/common-763-dakuang.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 2241,
+    "path": "CustomTreasure/Bg/ruleBg",
+    "name": "ruleBg",
+    "rect": [
+      0,
+      0,
+      660,
+      417
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      660,
+      417
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "ea2991e9-e591-4a76-a8cc-251b28cebfbd@6c48a",
+    "textureUUID": "ea2991e9-e591-4a76-a8cc-251b28cebfbd",
+    "image": "hall-activity-study/assets/lobby-2241-ruleBg.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 83,
+    "path": "CustomTreasure/Draw/guanbi",
+    "name": "guanbi",
+    "rect": [
+      215,
+      929,
+      26,
+      27
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      26,
+      27
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "07964652-fc02-433c-8192-6434cfc25c48@6c48a",
+    "textureUUID": "1811d72c0",
+    "image": "hall-activity-study/assets/lobby-83-guanbi.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 681,
+    "path": "CustomTreasure/Bg/ruleStr",
+    "name": "ruleStr",
+    "rect": [
+      0,
+      0,
+      102,
+      54
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      102,
+      54
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "443caca7-592b-4815-b7b2-eda93a489e8b",
+    "textureUUID": "83ffd7b8-c0bc-4c38-ace7-30dde903c7c7",
+    "image": "hall-activity-study/assets/lobby-681-ruleStr.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 151,
+    "path": "CustomTreasure/Bg/rateStr",
+    "name": "rateStr",
+    "rect": [
+      0,
+      0,
+      199,
+      55
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      199,
+      55
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "0ef937f9-8e12-46c0-b456-d050ffe4243f",
+    "textureUUID": "743ab4a9-94c7-4ac5-a2cb-a12d54a6ad57",
+    "image": "hall-activity-study/assets/lobby-151-rateStr.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1660,
+    "path": "CustomTreasure/Bg/pic_03",
+    "name": "pic_03",
+    "rect": [
+      0,
+      0,
+      660,
+      417
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      660,
+      417
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "aef16dda-f8fb-4395-85a4-49b30766bbe9",
+    "textureUUID": "2d905594-aee4-4e9b-a428-a8c8440046d7",
+    "image": "hall-activity-study/assets/lobby-1660-pic_03.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 2344,
+    "path": "CustomTreasure/Exit/tuichu",
+    "name": "tuichu",
+    "rect": [
+      3,
+      3,
+      205,
+      83
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      205,
+      83
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "f5445294-fd7f-4387-8fd1-d9b2d4a78751@6c48a",
+    "textureUUID": "19610952d",
+    "image": "hall-activity-study/assets/lobby-2344-tuichu.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 997,
+    "path": "CustomTreasure/Exit/btn_04",
+    "name": "btn_04",
+    "rect": [
+      3,
+      423,
+      203,
+      79
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      203,
+      79
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "6649ed46-ac9b-416e-bc1f-633ca6bf9804",
+    "textureUUID": "19610952d",
+    "image": "hall-activity-study/assets/lobby-997-btn_04.png"
+  },
+  {
+    "bundle": "main",
+    "id": 4,
+    "name": "game_default_sprite_splash",
+    "rect": [
+      29,
+      932,
+      2,
+      2
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      2,
+      2
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "a1c2db9b-d99c-4fad-b856-2e501caf652e",
+    "textureUUID": "16131c231",
+    "image": "hall-activity-study/assets/main-4-game_default_sprite_splash.png"
+  },
+  {
+    "bundle": "common",
+    "id": 313,
+    "path": "module/PassCheck/spr/dlg/bg0",
+    "name": "bg0",
+    "rect": [
+      3,
+      3,
+      682,
+      454
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      682,
+      454
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "662191b0-2b7f-4397-9a7f-888e4abb07d1@6c48a",
+    "textureUUID": "1e1be45ee",
+    "image": "hall-activity-study/assets/common-313-bg0.png"
+  },
+  {
+    "bundle": "common",
+    "id": 667,
+    "path": "module/PassCheck/spr/dlg/close",
+    "name": "close",
+    "rect": [
+      900,
+      372,
+      24,
+      25
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      48,
+      45
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "d0f3ece9-ca34-44e5-bf60-15ad5d341841@6c48a",
+    "textureUUID": "1e1be45ee",
+    "image": "hall-activity-study/assets/common-667-close.png"
+  },
+  {
+    "bundle": "common",
+    "id": 465,
+    "path": "module/PassCheck/spr/battlePass/bg",
+    "name": "bg",
+    "rect": [
+      0,
+      0,
+      1272,
+      670
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1272,
+      670
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "9558f887-cd3f-4a5e-8c68-595698a714b0@6c48a",
+    "textureUUID": "9558f887-cd3f-4a5e-8c68-595698a714b0",
+    "image": "hall-activity-study/assets/common-465-bg.png"
+  },
+  {
+    "bundle": "common",
+    "id": 411,
+    "path": "module/PassCheck/spr/battlePass/banner",
+    "name": "banner",
+    "rect": [
+      930,
+      3,
+      559,
+      74
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      559,
+      74
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "8397b9f1-e8ae-4775-8291-eb1d87aeb622@6c48a",
+    "textureUUID": "1e1be45ee",
+    "image": "hall-activity-study/assets/common-411-banner.png"
+  },
+  {
+    "bundle": "common",
+    "id": 141,
+    "path": "module/PassCheck/spr/battlePass/tetle",
+    "name": "tetle",
+    "rect": [
+      900,
+      568,
+      427,
+      115
+    ],
+    "offset": [
+      -15.5,
+      0
+    ],
+    "originalSize": [
+      458,
+      115
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "2db4401d-877d-4e00-a31f-60cccf6c468c@6c48a",
+    "textureUUID": "1e1be45ee",
+    "image": "hall-activity-study/assets/common-141-tetle.png"
+  },
+  {
+    "bundle": "common",
+    "id": 610,
+    "path": "module/PassCheck/spr/battlePass/btn1",
+    "name": "btn1",
+    "rect": [
+      637,
+      232,
+      250,
+      79
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      250,
+      79
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "c191637c-e9aa-457e-9a0f-61af3ef45f8a@6c48a",
+    "textureUUID": "1e4e272a4",
+    "image": "hall-activity-study/assets/common-610-btn1.png"
+  },
+  {
+    "bundle": "common",
+    "id": 548,
+    "path": "module/PassCheck/spr/battlePass/btn2",
+    "name": "btn2",
+    "rect": [
+      637,
+      62,
+      250,
+      79
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      250,
+      79
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "ae1a752c-e11e-4430-b777-f235af9bc5bd@6c48a",
+    "textureUUID": "1e4e272a4",
+    "image": "hall-activity-study/assets/common-548-btn2.png"
+  },
+  {
+    "bundle": "common",
+    "id": 803,
+    "path": "module/PassCheck/spr/battlePass/zuobian",
+    "name": "zuobian",
+    "rect": [
+      3,
+      463,
+      146,
+      396
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      146,
+      396
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "fbb496f1-de4d-4eeb-b4d9-c33287dff32c@6c48a",
+    "textureUUID": "1e1be45ee",
+    "image": "hall-activity-study/assets/common-803-zuobian.png"
+  },
+  {
+    "bundle": "common",
+    "id": 608,
+    "path": "module/PassCheck/spr/battlePass/bg_dengji",
+    "name": "bg_dengji",
+    "rect": [
+      3,
+      865,
+      109,
+      26
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      109,
+      26
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "c1024099-5f8b-460b-8100-4b6ac3ac1a44@6c48a",
+    "textureUUID": "1e1be45ee",
+    "image": "hall-activity-study/assets/common-608-bg_dengji.png"
+  },
+  {
+    "bundle": "common",
+    "id": 670,
+    "path": "module/PassCheck/spr/battlePass/zhongjian",
+    "name": "zhongjian",
+    "rect": [
+      281,
+      463,
+      108,
+      388
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      108,
+      388
+    ],
+    "capInsets": [
+      47,
+      0,
+      47,
+      0
+    ],
+    "uuid": "d10d4a97-af4e-4e35-ab2e-a0635bdf5ee5@6c48a",
+    "textureUUID": "1e1be45ee",
+    "image": "hall-activity-study/assets/common-670-zhongjian.png"
+  },
+  {
+    "bundle": "common",
+    "id": 260,
+    "path": "module/PassCheck/spr/battlePass/wpdb2",
+    "name": "wpdb2",
+    "rect": [
+      874,
+      369,
+      94,
+      94
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      94,
+      94
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "52e00431-93a6-4a43-bfe2-af77787c08cf@6c48a",
+    "textureUUID": "1e4e272a4",
+    "image": "hall-activity-study/assets/common-260-wpdb2.png"
+  },
+  {
+    "bundle": "common",
+    "id": 116,
+    "path": "module/PassCheck/spr/battlePass/yilingqu",
+    "name": "yilingqu",
+    "rect": [
+      844,
+      987,
+      26,
+      26
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      26,
+      26
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "285e214b-0ddb-48dd-92a3-04d0129d5874@6c48a",
+    "textureUUID": "1e1be45ee",
+    "image": "hall-activity-study/assets/common-116-yilingqu.png"
+  },
+  {
+    "bundle": "common",
+    "id": 248,
+    "path": "module/PassCheck/spr/battlePass/bg_pt2",
+    "name": "bg_pt2",
+    "rect": [
+      395,
+      788,
+      106,
+      115
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      106,
+      115
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "506cd4a4-cb7e-43b9-a709-828bb8633784@6c48a",
+    "textureUUID": "1e1be45ee",
+    "image": "hall-activity-study/assets/common-248-bg_pt2.png"
+  },
+  {
+    "bundle": "common",
+    "id": 360,
+    "path": "module/PassCheck/spr/battlePass/suo2",
+    "name": "suo2",
+    "rect": [
+      900,
+      493,
+      22,
+      26
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      22,
+      26
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "754532e5-c7cb-4e84-8e79-5eaac41b66a6@6c48a",
+    "textureUUID": "1e1be45ee",
+    "image": "hall-activity-study/assets/common-360-suo2.png"
+  },
+  {
+    "bundle": "common",
+    "id": 755,
+    "path": "module/PassCheck/spr/battlePass/wpdb1",
+    "name": "wpdb1",
+    "rect": [
+      773,
+      378,
+      94,
+      94
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      94,
+      94
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "eadfa367-24b5-4348-9231-bffd02b74acf@6c48a",
+    "textureUUID": "1e4e272a4",
+    "image": "hall-activity-study/assets/common-755-wpdb1.png"
+  },
+  {
+    "bundle": "common",
+    "id": 426,
+    "path": "module/PassCheck/spr/battlePass/youbian",
+    "name": "youbian",
+    "rect": [
+      155,
+      463,
+      120,
+      388
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      120,
+      388
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "881a76c4-67d5-4db6-8d43-a8712a94ad90@6c48a",
+    "textureUUID": "1e1be45ee",
+    "image": "hall-activity-study/assets/common-426-youbian.png"
+  },
+  {
+    "bundle": "common",
+    "id": 274,
+    "path": "module/PassCheck/spr/battlePass/jd2",
+    "name": "jd2",
+    "rect": [
+      1010,
+      3,
+      18,
+      10
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      18,
+      10
+    ],
+    "rotated": 1,
+    "capInsets": [
+      7,
+      0,
+      7,
+      0
+    ],
+    "uuid": "55815d8b-255b-4f31-8cb5-e817a1d31a42@6c48a",
+    "textureUUID": "1e1be45ee",
+    "image": "hall-activity-study/assets/common-274-jd2.png"
+  },
+  {
+    "bundle": "common",
+    "id": 365,
+    "path": "module/PassCheck/spr/battlePass/jd1",
+    "name": "jd1",
+    "rect": [
+      1010,
+      27,
+      12,
+      6
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      18,
+      10
+    ],
+    "rotated": 1,
+    "capInsets": [
+      4,
+      0,
+      4,
+      0
+    ],
+    "uuid": "76ad5f0b-b4e9-4db2-bd77-6456841f0dbf@6c48a",
+    "textureUUID": "1e1be45ee",
+    "image": "hall-activity-study/assets/common-365-jd1.png"
+  },
+  {
+    "bundle": "common",
+    "id": 791,
+    "path": "module/PassCheck/spr/dlg/222",
+    "name": "222",
+    "rect": [
+      637,
+      3,
+      363,
+      53
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      363,
+      53
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "f689696a-8adf-4908-b395-1dd51c1a9d4c@6c48a",
+    "textureUUID": "1e4e272a4",
+    "image": "hall-activity-study/assets/common-791-222.png"
+  },
+  {
+    "bundle": "common",
+    "id": 549,
+    "path": "module/PassCheck/spr/dlg/bg1",
+    "name": "bg1",
+    "rect": [
+      893,
+      62,
+      79,
+      126
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      79,
+      126
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "ae880b90-4b1f-47b7-a1d8-b33cc33eb07e@6c48a",
+    "textureUUID": "1e4e272a4",
+    "image": "hall-activity-study/assets/common-549-bg1.png"
+  },
+  {
+    "bundle": "common",
+    "id": 382,
+    "path": "module/PassCheck/spr/dlg/bg2",
+    "name": "bg2",
+    "rect": [
+      637,
+      317,
+      79,
+      130
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      79,
+      130
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "7c8a3e67-7d15-42bb-a256-93841483820f@6c48a",
+    "textureUUID": "1e4e272a4",
+    "image": "hall-activity-study/assets/common-382-bg2.png"
+  },
+  {
+    "bundle": "common",
+    "id": 514,
+    "path": "btn/btn_y_xl",
+    "name": "btn_y_xl",
+    "rect": [
+      3,
+      120,
+      291,
+      111
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      291,
+      111
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "a1e247e5-f5aa-4246-8055-4e6538cce038@6c48a",
+    "textureUUID": "1d54d8d70",
+    "image": "hall-activity-study/assets/common-514-btn_y_xl.png"
+  },
+  {
+    "bundle": "common",
+    "id": 621,
+    "path": "module/PassCheck/spr/mainView/zengsong",
+    "name": "zengsong",
+    "rect": [
+      293,
+      857,
+      42,
+      42
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      42,
+      42
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "c4186b16-f89d-4edf-9ba5-67c35ece7164@6c48a",
+    "textureUUID": "1e1be45ee",
+    "image": "hall-activity-study/assets/common-621-zengsong.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 320,
+    "path": "LoginLuckyAward/Bg/diDice",
+    "name": "diDice",
+    "rect": [
+      0,
+      0,
+      896,
+      687
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      896,
+      687
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "1fb256d3-d08b-4e72-89ad-e1eb18d4adb2@6c48a",
+    "textureUUID": "1fb256d3-d08b-4e72-89ad-e1eb18d4adb2",
+    "image": "hall-activity-study/assets/lobby-320-diDice.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 745,
+    "path": "LoginLuckyAward/Dice2/zi2",
+    "name": "zi2",
+    "rect": [
+      278,
+      377,
+      404,
+      126
+    ],
+    "offset": [
+      -1.5,
+      0
+    ],
+    "originalSize": [
+      407,
+      126
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "4b78effc-4d8d-43ee-8926-3e6f6b4d2318@6c48a",
+    "textureUUID": "16c4bd983",
+    "image": "hall-activity-study/assets/lobby-745-zi2.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 471,
+    "path": "LoginLuckyAward/Dice2/zi",
+    "name": "zi",
+    "rect": [
+      3,
+      3,
+      407,
+      126
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      407,
+      126
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "2d751348-45f5-4299-adc3-d0e8c5596d8f@6c48a",
+    "textureUUID": "16c4bd983",
+    "image": "hall-activity-study/assets/lobby-471-zi.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 88,
+    "path": "LoginLuckyAward/Bg/di2Dice",
+    "name": "di2Dice",
+    "rect": [
+      0,
+      19,
+      1198,
+      340
+    ],
+    "offset": [
+      0,
+      2
+    ],
+    "originalSize": [
+      1198,
+      382
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "08394d86-8034-41fd-9979-ff25803f867a@6c48a",
+    "textureUUID": "08394d86-8034-41fd-9979-ff25803f867a",
+    "image": "hall-activity-study/assets/lobby-88-di2Dice.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 349,
+    "path": "LoginLuckyAward/Dice2/waifaguang1",
+    "name": "waifaguang1",
+    "rect": [
+      56,
+      226,
+      583,
+      120
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      583,
+      120
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "2349c4b8-c76c-4390-8101-5fab77593be9@6c48a",
+    "textureUUID": "16c4bd983",
+    "image": "hall-activity-study/assets/lobby-349-waifaguang1.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 483,
+    "path": "LoginLuckyAward/Dice2/waifaguang2",
+    "name": "waifaguang2",
+    "rect": [
+      56,
+      135,
+      361,
+      85
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      361,
+      85
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "2ee5519a-4e8e-4451-be05-e475ab567730@6c48a",
+    "textureUUID": "16c4bd983",
+    "image": "hall-activity-study/assets/lobby-483-waifaguang2.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1444,
+    "path": "LoginLuckyAward/Dice2/di8",
+    "name": "di8",
+    "rect": [
+      3,
+      135,
+      871,
+      47
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      871,
+      47
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "97ef7204-14fd-424b-bb6a-8a66537f5166@6c48a",
+    "textureUUID": "16c4bd983",
+    "image": "hall-activity-study/assets/lobby-1444-di8.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1883,
+    "path": "LoginLuckyAward/Dice2/di9",
+    "name": "di9",
+    "rect": [
+      182,
+      226,
+      553,
+      90
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      553,
+      90
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "c4dc2302-d94c-4b52-aa61-4051596e3a1a@6c48a",
+    "textureUUID": "16c4bd983",
+    "image": "hall-activity-study/assets/lobby-1883-di9.png"
+  },
+  {
+    "bundle": "common",
+    "id": 620,
+    "path": "NewSkin/other/pic_zjb",
+    "name": "pic_zjb",
+    "rect": [
+      540,
+      952,
+      48,
+      53
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      48,
+      53
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "c4115296-c3cb-46ff-84f1-52d5b001e5fe",
+    "textureUUID": "1d05abae0",
+    "image": "hall-activity-study/assets/common-620-pic_zjb.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1468,
+    "path": "LoginLuckyAward/Dice2/di6",
+    "name": "di6",
+    "rect": [
+      56,
+      1001,
+      57,
+      11
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      57,
+      11
+    ],
+    "capInsets": [
+      21,
+      4,
+      22,
+      4
+    ],
+    "uuid": "99cff031-c8c1-4ace-8e56-ad17ad471b41@6c48a",
+    "textureUUID": "16c4bd983",
+    "image": "hall-activity-study/assets/lobby-1468-di6.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 2258,
+    "path": "LoginLuckyAward/Dice2/di5.5",
+    "name": "di5",
+    "rect": [
+      320,
+      869,
+      75,
+      75
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      75,
+      75
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "ebc83017-d2fd-43cf-92da-27f526827273@6c48a",
+    "textureUUID": "16c4bd983",
+    "image": "hall-activity-study/assets/lobby-2258-di5.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 500,
+    "path": "LoginLuckyAward/Dice2/di7",
+    "name": "di7",
+    "rect": [
+      56,
+      973,
+      99,
+      22
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      99,
+      22
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "301bdc5b-d055-40d2-8c82-4ab0620afed4@6c48a",
+    "textureUUID": "16c4bd983",
+    "image": "hall-activity-study/assets/lobby-500-di7.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 247,
+    "path": "LoginLuckyAward/Dice2/di5",
+    "name": "di5",
+    "rect": [
+      320,
+      787,
+      76,
+      76
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      76,
+      76
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "1820b5c5-588b-4f7d-8323-c9f99a41fcf1@6c48a",
+    "textureUUID": "16c4bd983",
+    "image": "hall-activity-study/assets/lobby-247-di5.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1413,
+    "path": "LoginLuckyAward/Dice2/di4",
+    "name": "di4",
+    "rect": [
+      278,
+      226,
+      145,
+      146
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      145,
+      146
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "947d67d5-12cb-4a57-b6d7-b123be23988f@6c48a",
+    "textureUUID": "16c4bd983",
+    "image": "hall-activity-study/assets/lobby-1413-di4.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 60,
+    "path": "LoginLuckyAward/YH/LoginLuckyAwardDiceYanHua/Resource/yanhua/ui_yanhua_0000",
+    "name": "ui_yanhua_0000",
+    "rect": [
+      55,
+      34,
+      75,
+      83
+    ],
+    "offset": [
+      2.5,
+      14.5
+    ],
+    "originalSize": [
+      180,
+      180
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "05fb6b58-665a-4971-a79a-9c7c99a8b233@6c48a",
+    "textureUUID": "05fb6b58-665a-4971-a79a-9c7c99a8b233",
+    "image": "hall-activity-study/assets/lobby-60-ui_yanhua_0000.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 2102,
+    "path": "LoginLuckyAward/Dice2/zi5",
+    "name": "zi5",
+    "rect": [
+      127,
+      815,
+      152,
+      65
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      152,
+      65
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "ddde057c-e805-43e0-9ecb-5cfe32b8f737@6c48a",
+    "textureUUID": "16c4bd983",
+    "image": "hall-activity-study/assets/lobby-2102-zi5.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 987,
+    "path": "LoginLuckyAward/Dice2/zi1",
+    "name": "zi1",
+    "rect": [
+      56,
+      815,
+      152,
+      65
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      152,
+      65
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "655659a1-4869-46a6-9d17-52ffd84a26bb@6c48a",
+    "textureUUID": "16c4bd983",
+    "image": "hall-activity-study/assets/lobby-987-zi1.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 157,
+    "path": "NewSkin/slyder/pic_05",
+    "name": "pic_05",
+    "rect": [
+      0,
+      0,
+      91,
+      91
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      91,
+      91
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "0fb0c423-92fc-4f0b-aac7-95c6a5ad9faa",
+    "textureUUID": "0cb4a10a-f43d-461a-acd0-c3b901aa7db4",
+    "image": "hall-activity-study/assets/lobby-157-pic_05.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 399,
+    "path": "slyder/img_normalFare",
+    "name": "img_normalFare",
+    "rect": [
+      73,
+      517,
+      58,
+      67
+    ],
+    "offset": [
+      1.5,
+      -3
+    ],
+    "originalSize": [
+      75,
+      75
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "2763f2ac-719d-477d-9996-07490dca0777",
+    "textureUUID": "165c01b32",
+    "image": "hall-activity-study/assets/lobby-399-img_normalFare.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 2267,
+    "path": "slyder/slyder_awardhb",
+    "name": "slyder_awardhb",
+    "rect": [
+      3,
+      517,
+      64,
+      78
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      64,
+      78
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "ed142142-35cc-45de-9ccb-4a220c9ed7c8",
+    "textureUUID": "165c01b32",
+    "image": "hall-activity-study/assets/lobby-2267-slyder_awardhb.png"
+  },
+  {
+    "bundle": "common",
+    "id": 335,
+    "path": "Item/Douzi/dou_icon2",
+    "name": "dou_icon2",
+    "rect": [
+      3,
+      287,
+      143,
+      93
+    ],
+    "offset": [
+      1,
+      -15
+    ],
+    "originalSize": [
+      159,
+      143
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "6d283810-99b4-4253-95c0-63ede556f04f",
+    "textureUUID": "13d25fe34",
+    "image": "hall-activity-study/assets/common-335-dou_icon2.png"
+  },
+  {
+    "bundle": "common",
+    "id": 394,
+    "path": "Item/Douzi/dou_icon1",
+    "name": "dou_icon1",
+    "rect": [
+      145,
+      554,
+      133,
+      74
+    ],
+    "offset": [
+      5,
+      -14.5
+    ],
+    "originalSize": [
+      159,
+      143
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "7f1513e7-4f6b-4f07-ad94-e5fe2251a332",
+    "textureUUID": "13d25fe34",
+    "image": "hall-activity-study/assets/common-394-dou_icon1.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1728,
+    "path": "slyder/img_diamond",
+    "name": "img_diamond",
+    "rect": [
+      194,
+      517,
+      55,
+      51
+    ],
+    "offset": [
+      0,
+      -8
+    ],
+    "originalSize": [
+      75,
+      75
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "b4b2ae5c-6c5a-4c53-a880-1b625dda3eed",
+    "textureUUID": "165c01b32",
+    "image": "hall-activity-study/assets/lobby-1728-img_diamond.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 258,
+    "path": "TreasureAttic/huangqipao",
+    "name": "huangqipao",
+    "rect": [
+      530,
+      682,
+      151,
+      150
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      152,
+      150
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "19502799-8356-4c7e-90fb-a0b62489f426@6c48a",
+    "textureUUID": "14be0a2bb",
+    "image": "hall-activity-study/assets/lobby-258-huangqipao.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 489,
+    "path": "TreasureAttic/biaoqian",
+    "name": "biaoqian",
+    "rect": [
+      482,
+      725,
+      79,
+      24
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      79,
+      24
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "2f3941c0-4ada-4da5-ac03-ec10bfd35b95@6c48a",
+    "textureUUID": "14be0a2bb",
+    "image": "hall-activity-study/assets/lobby-489-biaoqian.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1666,
+    "path": "TreasureAttic/yuan",
+    "name": "yuan",
+    "rect": [
+      3,
+      725,
+      158,
+      159
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      158,
+      159
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "af58b5a8-94cb-4245-a2bd-7df2c0ef0c9c@6c48a",
+    "textureUUID": "14be0a2bb",
+    "image": "hall-activity-study/assets/lobby-1666-yuan.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1032,
+    "path": "TreasureAttic/hongqipao",
+    "name": "hongqipao",
+    "rect": [
+      325,
+      725,
+      151,
+      150
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      152,
+      150
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "6a7e3058-d086-41e0-b378-004079255285@6c48a",
+    "textureUUID": "14be0a2bb",
+    "image": "hall-activity-study/assets/lobby-1032-hongqipao.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1691,
+    "path": "TreasureAttic/ziqipao",
+    "name": "ziqipao",
+    "rect": [
+      704,
+      3,
+      151,
+      150
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      152,
+      150
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "b16ae24d-ec2d-4475-9ccc-820faf3f44ef@6c48a",
+    "textureUUID": "14be0a2bb",
+    "image": "hall-activity-study/assets/lobby-1691-ziqipao.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 786,
+    "path": "TreasureAttic/lanqipao",
+    "name": "lanqipao",
+    "rect": [
+      168,
+      725,
+      151,
+      150
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      152,
+      150
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "50363a60-37f1-4159-959b-ebdef1610285@6c48a",
+    "textureUUID": "14be0a2bb",
+    "image": "hall-activity-study/assets/lobby-786-lanqipao.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 778,
+    "path": "TreasureAttic/kuang1",
+    "name": "kuang1",
+    "rect": [
+      704,
+      441,
+      72,
+      72
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      72,
+      72
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "4fb5c355-075c-45bf-869d-a747bbfb4db0@6c48a",
+    "textureUUID": "14be0a2bb",
+    "image": "hall-activity-study/assets/lobby-778-kuang1.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1031,
+    "path": "TreasureAttic/fengexian",
+    "name": "fengexian",
+    "rect": [
+      199,
+      655,
+      2,
+      12
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      2,
+      12
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "6a7c7fdd-e1be-4918-a4e9-87278154813d@6c48a",
+    "textureUUID": "14be0a2bb",
+    "image": "hall-activity-study/assets/lobby-1031-fengexian.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1064,
+    "path": "TreasureAttic/yuan2",
+    "name": "yuan2",
+    "rect": [
+      704,
+      259,
+      91,
+      88
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      91,
+      88
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "6dacbe82-6eca-49af-8c1d-d7e14f718acd@6c48a",
+    "textureUUID": "14be0a2bb",
+    "image": "hall-activity-study/assets/lobby-1064-yuan2.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 436,
+    "path": "TreasureAttic/kuangan",
+    "name": "kuangan",
+    "rect": [
+      524,
+      839,
+      60,
+      60
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      60,
+      60
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "2a71e44e-70dd-458a-9a0b-0ac809664f4e@6c48a",
+    "textureUUID": "14be0a2bb",
+    "image": "hall-activity-study/assets/lobby-436-kuangan.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 584,
+    "path": "CustomTreasure/Main/di2",
+    "name": "di2",
+    "rect": [
+      49,
+      230,
+      132,
+      175
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      132,
+      175
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "39cd63a0-e94e-4512-89d8-50a733267824@6c48a",
+    "textureUUID": "17ef6dab2",
+    "image": "hall-activity-study/assets/lobby-584-di2.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 360,
+    "path": "CustomTreasure/Draw/zhuanguangquan",
+    "name": "zhuanguangquan",
+    "rect": [
+      256,
+      807,
+      150,
+      151
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      150,
+      151
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "23f859cf-2591-414d-b63b-733155524579@6c48a",
+    "textureUUID": "1811d72c0",
+    "image": "hall-activity-study/assets/lobby-360-zhuanguangquan.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 1242,
+    "path": "CustomTreasure/Draw/biaoqian",
+    "name": "biaoqian",
+    "rect": [
+      386,
+      778,
+      64,
+      23
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      64,
+      23
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "805c9bee-c960-4b9b-91e6-8e89c4acef0c@6c48a",
+    "textureUUID": "1811d72c0",
+    "image": "hall-activity-study/assets/lobby-1242-biaoqian.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 641,
+    "path": "CustomTreasure/Draw/di5",
+    "name": "di5",
+    "rect": [
+      125,
+      637,
+      130,
+      131
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      130,
+      131
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "402ac1ef-ba30-413a-8515-01d94fdf367a@6c48a",
+    "textureUUID": "1811d72c0",
+    "image": "hall-activity-study/assets/lobby-641-di5.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 389,
+    "path": "CustomTreasure/Draw/di5.5",
+    "name": "di5",
+    "rect": [
+      215,
+      774,
+      114,
+      35
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      114,
+      35
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "26a3701c-7283-401a-a591-43e29bef19d3@6c48a",
+    "textureUUID": "1811d72c0",
+    "image": "hall-activity-study/assets/lobby-389-di5.png"
+  },
+  {
+    "bundle": "Match",
+    "id": 245,
+    "path": "NewSkin/Section/pic_09",
+    "name": "pic_09",
+    "rect": [
+      278,
+      400,
+      158,
+      158
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      158,
+      158
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "94fdd829-11b3-4c7c-854c-1e0f2e882008",
+    "textureUUID": "1f65b1b05",
+    "image": "hall-activity-study/assets/Match-245-pic_09.png"
+  },
+  {
+    "bundle": "common",
+    "id": 351,
+    "path": "NewSkin/other/pic_com01",
+    "name": "pic_com01",
+    "rect": [
+      713,
+      959,
+      183,
+      35
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      183,
+      35
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "72745acf-5348-4ceb-a311-9321a6907255",
+    "textureUUID": "1d05abae0",
+    "image": "hall-activity-study/assets/common-351-pic_com01.png"
+  },
+  {
+    "bundle": "common",
+    "id": 578,
+    "path": "NewSkin/other/pic_zjd",
+    "name": "pic_zjd",
+    "rect": [
+      474,
+      959,
+      47,
+      51
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      47,
+      51
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "b66757dc-f09b-4944-b834-8ac75175833f",
+    "textureUUID": "1d05abae0",
+    "image": "hall-activity-study/assets/common-578-pic_zjd.png"
+  },
+  {
+    "bundle": "common",
+    "id": 702,
+    "path": "NewSkin/NewBtn/btn_com05",
+    "name": "btn_com05",
+    "rect": [
+      232,
+      789,
+      21,
+      21
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      23,
+      23
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "dd45657a-7c95-4cf7-ace8-60709dde2d4b",
+    "textureUUID": "1e8019203",
+    "image": "hall-activity-study/assets/common-702-btn_com05.png"
+  },
+  {
+    "bundle": "common",
+    "id": 749,
+    "path": "CoinNum&FareNum/btnGet",
+    "name": "btnGet",
+    "rect": [
+      85,
+      186,
+      60,
+      37
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      60,
+      37
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "e8c40957-7814-417d-bc53-601a6b63ba0b",
+    "textureUUID": "128f721b8",
+    "image": "hall-activity-study/assets/common-749-btnGet.png"
+  },
+  {
+    "bundle": "common",
+    "id": 147,
+    "path": "NewSkin/other/pic_zs",
+    "name": "pic_zs",
+    "rect": [
+      540,
+      897,
+      55,
+      49
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      55,
+      49
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "2ec1b62d-3a87-457d-b0e7-a8df02dad37f",
+    "textureUUID": "1d05abae0",
+    "image": "hall-activity-study/assets/common-147-pic_zs.png"
+  },
+  {
+    "bundle": "common",
+    "id": 638,
+    "path": "PropIcon/ZCoin",
+    "name": "ZCoin",
+    "rect": [
+      213,
+      3,
+      199,
+      114
+    ],
+    "offset": [
+      -1.5,
+      -4.5
+    ],
+    "originalSize": [
+      204,
+      207
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "c7ada3d9-7e94-4e50-84d0-94454bae40f2",
+    "textureUUID": "1c75bf90b",
+    "image": "hall-activity-study/assets/common-638-ZCoin.png"
+  },
+  {
+    "bundle": "lobby",
+    "id": 97,
+    "path": "GameDeskIcon/zhuozi_ytcx",
+    "name": "zhuozi_ytcx",
+    "rect": [
+      3,
+      123,
+      115,
+      114
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      117,
+      117
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "0951ea96-93a3-4e48-a929-fc5e342abe28",
+    "textureUUID": "183183426",
+    "image": "hall-activity-study/assets/lobby-97-zhuozi_ytcx.png"
+  },
+  {
+    "bundle": "common",
+    "id": 50,
+    "path": "Emoji/icon/octopus_icon",
+    "name": "octopus_icon",
+    "rect": [
+      3,
+      416,
+      157,
+      204
+    ],
+    "offset": [
+      2.5,
+      0.5
+    ],
+    "originalSize": [
+      204,
+      207
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "11d24e79-99a9-4ad2-8a84-f015f99b8ddd",
+    "textureUUID": "1d71b36f9",
+    "image": "hall-activity-study/assets/common-50-octopus_icon.png"
+  },
+  {
+    "bundle": "common",
+    "id": 221,
+    "path": "PropIcon/xuanshangling",
+    "name": "xuanshangling",
+    "rect": [
+      144,
+      432,
+      160,
+      184
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      204,
+      207
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "46610b79-33a8-4731-9ca6-1efa977b5c1d@6c48a",
+    "textureUUID": "1c75bf90b",
+    "image": "hall-activity-study/assets/common-221-xuanshangling.png"
+  },
+  {
+    "bundle": "common",
+    "id": 510,
+    "path": "PropIcon/dailyCardJingYan",
+    "name": "dailyCardJingYan",
+    "rect": [
+      3,
+      848,
+      199,
+      144
+    ],
+    "offset": [
+      -0.5,
+      -3.5
+    ],
+    "originalSize": [
+      204,
+      207
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "uuid": "a0642b61-accf-4651-a990-6be5ecc29a2d@6c48a",
+    "textureUUID": "1c75bf90b",
+    "image": "hall-activity-study/assets/common-510-dailyCardJingYan.png"
+  }
+]

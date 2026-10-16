@@ -1,0 +1,26 @@
+十二生肖规则介绍页序核对
+
+原始来源：
+  asset-study/readable/modules/SESXGuideView.js
+  prefabs1034：hall/modules/SESXGuide/SESXGuide
+  本地证据：raw/prefabs-1034.json、guide.json、frames.json
+
+源码 SESXGuideView.js 第30–54行直接组成pageData：
+  第n页 = pageTitle[n] + pageImg[n] + 同索引pageInfo。
+第69–74行loadPage(e)同时使用这一组title、pageImg、pageInfo，不会按语义重排。
+
+实际原数组：
+  第1页：title lobby1700 biaoti1；image lobby330 yindao1tu。
+  第2页：title lobby390 biaoti2；image lobby617 jixiao。
+  第3页：title lobby1568 biaoti3；image lobby1965 jixinggang。
+  第4页：title lobby1779 biaoti4；image lobby280 shengxiaotu。
+
+容易误判的原版组合：
+  第3页原标题图片文字：十二生肖，生肖图。
+  第3页原说明：打出吉星牌后，会随机点亮一张生肖图中未点亮的生肖牌。
+  第4页原标题图片文字：十二生肖，吉星杠。
+  第4页原说明：根据收集到的生肖牌组成的不同形状，可以获得倍数加成。
+
+上述标题、图片、说明确实来自原脚本及prefab相同索引。
+本地保留这一组合，不根据标题含义擅自交换第3、4页。
+本地测试同时锁定4组SpriteFrame的原ID和4条说明文字。

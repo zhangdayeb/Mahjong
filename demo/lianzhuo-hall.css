@@ -1,0 +1,21 @@
+/* The hall shares the warm lake-and-jade palette of the entry screen. */
+body{background:#dce3d7}
+#lobby.hall-match{background:#eeeede;color:#214b3d}
+#lobby.hall-match .background{background:url('assets/lobby/lianzhuo-hall-bg-v1.png') center/cover no-repeat}
+#lobby.hall-match .profile{background:linear-gradient(120deg,#fffdf4e8,#f1f3e4c9);border:1px solid #fffdf1a6;border-radius:10px 36px 36px 10px;box-shadow:0 4px 18px #27463812}
+#lobby.hall-match .profile-bg{display:none}
+#lobby.hall-match .avatar{border-radius:7px}
+#lobby.hall-match .account{color:#214b3d;font-weight:600;text-shadow:0 1px #ffffff80}
+#lobby.hall-match .balances>div{background:#fffdf2d9;border:1px solid #fffef2a6;border-radius:8px;color:#214b3d;box-shadow:0 3px 14px #27463812}
+#lobby.hall-match .balances .currency-name{color:#8b6929;font-weight:600}
+#lobby.hall-match .balances button{color:#2f7963!important}
+#lobby.hall-match .balances.single-currency>div{width:max-content;min-width:218px;padding-right:32px}
+#lobby.hall-match .balances.single-currency span{min-width:94px;font-variant-numeric:tabular-nums;white-space:nowrap}
+#lobby.hall-match .welfare-heading{color:#315c4c;font-weight:600;text-shadow:0 1px 3px #fff8e7}
+#lobby.hall-match .daily-relief-entry{border:1px solid #fffcf0e0;background:linear-gradient(120deg,#fffdf4ed,#ecf1deda);box-shadow:0 5px 18px #264b3524}
+#lobby.hall-match .daily-relief-entry strong{color:#315d49;text-shadow:0 1px #ffffff80}
+#lobby.hall-match .daily-relief-entry small{color:#516955}
+#lobby.hall-match .mode{box-shadow:0 5px 20px #2d4a3826}
+#lobby.hall-match .nav-bg{display:none}
+#lobby.hall-match .bottom::before{content:'';position:absolute;left:0;bottom:0;width:560px;height:36px;border:1px solid #ecf5dc66;border-radius:20px;background:linear-gradient(100deg,#285644dc,#436e58d9);box-shadow:0 3px 18px #17372826}
+#lobby.hall-match button:focus-visible,#lobby.hall-match a:focus-visible{outline:3px solid #214b3d;outline-offset:4px}

@@ -1,0 +1,329 @@
+[
+  {
+    "bundle": "resources",
+    "id": 177,
+    "name": "fnt_texiaozi",
+    "rect": [
+      0,
+      0,
+      2358,
+      2381
+    ],
+    "offset": [
+      -4,
+      4
+    ],
+    "originalSize": [
+      2366,
+      2389
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "image": "fan-study/assets/resources-177-fnt_texiaozi.png",
+    "textureUUID": "de0ac41c-7f5d-4cbc-9221-eb44728c8ead"
+  },
+  {
+    "bundle": "fonts",
+    "id": 51,
+    "name": "fnt_shuzi",
+    "rect": [
+      3,
+      626,
+      392,
+      398
+    ],
+    "offset": [
+      -4,
+      4
+    ],
+    "originalSize": [
+      400,
+      406
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "image": "fan-study/assets/fonts-51-fnt_shuzi.png",
+    "textureUUID": "14a935753"
+  },
+  {
+    "bundle": "fonts",
+    "id": 293,
+    "name": "fnt_yingzi",
+    "rect": [
+      605,
+      3,
+      414,
+      416
+    ],
+    "offset": [
+      -4,
+      4
+    ],
+    "originalSize": [
+      422,
+      424
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "image": "fan-study/assets/fonts-293-fnt_yingzi.png",
+    "textureUUID": "1bea5a24d"
+  },
+  {
+    "bundle": "resources",
+    "id": 382,
+    "name": "blend_glow",
+    "rect": [
+      477,
+      311,
+      64,
+      62
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      64,
+      64
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "image": "fan-study/assets/resources-382-blend_glow.png",
+    "textureUUID": "1ff94f3bf"
+  },
+  {
+    "bundle": "resources",
+    "id": 366,
+    "name": "lighting",
+    "rect": [
+      414,
+      552,
+      128,
+      50
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      128,
+      50
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "image": "fan-study/assets/resources-366-lighting.png",
+    "textureUUID": "1ff94f3bf"
+  },
+  {
+    "bundle": "resources",
+    "id": 2544,
+    "name": "Flash01",
+    "rect": [
+      259,
+      776,
+      199,
+      173
+    ],
+    "offset": [
+      0.5,
+      -7
+    ],
+    "originalSize": [
+      200,
+      187
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "image": "fan-study/assets/resources-2544-Flash01.png",
+    "textureUUID": "1ff94f3bf"
+  },
+  {
+    "bundle": "resources",
+    "id": 89,
+    "name": "glow_0118",
+    "rect": [
+      414,
+      608,
+      127,
+      52
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      128,
+      52
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "image": "fan-study/assets/resources-89-glow_0118.png",
+    "textureUUID": "1ff94f3bf"
+  },
+  {
+    "bundle": "resources",
+    "id": 168,
+    "name": "FX_Glow_hring",
+    "rect": [
+      142,
+      776,
+      111,
+      220
+    ],
+    "offset": [
+      8.5,
+      0
+    ],
+    "originalSize": [
+      128,
+      256
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "image": "fan-study/assets/resources-168-FX_Glow_hring.png",
+    "textureUUID": "1ff94f3bf"
+  },
+  {
+    "bundle": "resources",
+    "id": 1251,
+    "name": "glow0000",
+    "rect": [
+      438,
+      775,
+      100,
+      100
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      100,
+      100
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "image": "fan-study/assets/resources-1251-glow0000.png",
+    "textureUUID": "1ff94f3bf"
+  },
+  {
+    "bundle": "resources",
+    "id": 844,
+    "name": "TONG",
+    "rect": [
+      383,
+      666,
+      102,
+      103
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      102,
+      103
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "image": "fan-study/assets/resources-844-TONG.png",
+    "textureUUID": "1ff94f3bf"
+  },
+  {
+    "bundle": "resources",
+    "id": 2387,
+    "name": "douzi",
+    "rect": [
+      445,
+      472,
+      76,
+      74
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      76,
+      74
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "image": "fan-study/assets/resources-2387-douzi.png",
+    "textureUUID": "1ff94f3bf"
+  },
+  {
+    "bundle": "resources",
+    "id": 1539,
+    "name": "TIAO",
+    "rect": [
+      445,
+      379,
+      87,
+      93
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      87,
+      93
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "image": "fan-study/assets/resources-1539-TIAO.png",
+    "textureUUID": "1ff94f3bf"
+  }
+]
