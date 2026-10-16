@@ -1,0 +1,15 @@
+{
+  "name": "lianzhuo-mahjong",
+  "uuid": "71d780d9-22c8-478a-9547-77101cafb40b",
+  "version": "0.1.0",
+  "creator": {
+    "version": "3.8.8"
+  },
+  "scripts": {
+    "build:web": "node tools/build-web.mjs",
+    "build:config": "node tools/build-web.mjs --prepare-only",
+    "preview": "node tools/serve.mjs",
+    "test:services": "node tools/verify-services.mjs",
+    "test:built": "node tools/verify-built-rules.mjs"
+  }
+}

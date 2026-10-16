@@ -1,0 +1,594 @@
+{
+  "version": 1,
+  "collection": "lianzhuo-classic-client-stage-one",
+  "files": [
+    {
+      "source": "demo/assets/entry/lianzhuo-loading-bg-v1.png",
+      "resource": "backgrounds/loading.png",
+      "size": 1971487,
+      "sha256": "81a9bce9e8960b7d81d8f92c22c43464b722d912db88e3cca0b3558085a84baf"
+    },
+    {
+      "source": "demo/assets/lobby/lianzhuo-hall-bg-v1.png",
+      "resource": "backgrounds/hall.png",
+      "size": 2103785,
+      "sha256": "c4620cd834f4f36598ca03cea1245bcd635984658f915a99f2eaa455a2935efd"
+    },
+    {
+      "source": "demo/assets/reference/desk.jpg",
+      "resource": "backgrounds/table.jpg",
+      "size": 226824,
+      "sha256": "58f4bae2b9ac5e8f1a16af5931f11ffd8ade7f20ba4dd38a2e94e497b02f26fa"
+    },
+    {
+      "source": "demo/assets/lobby/user-avatar.png",
+      "resource": "ui/avatar.png",
+      "size": 8216,
+      "sha256": "7b3e5d4adb1b2d3d8cab2aa67f37fceb27dee9b82d1056e13a3615965e8b49bd"
+    },
+    {
+      "source": "demo/player-study/head_3.png",
+      "resource": "ui/avatar-1.png",
+      "size": 14223,
+      "sha256": "b4f259f89582e1b29fb618d1b9def4303bfd712bec3200a2c126598794735788"
+    },
+    {
+      "source": "demo/player-study/head_5.png",
+      "resource": "ui/avatar-2.png",
+      "size": 11930,
+      "sha256": "1ded2c9878371d260e75c4f12b96696dc89e0186be25ace36a9ea9598f3ca65c"
+    },
+    {
+      "source": "demo/player-study/head_7.png",
+      "resource": "ui/avatar-3.png",
+      "size": 12776,
+      "sha256": "c217e50bd6014452bc17f406d6b5b0935887f8c55feea15c28f0b2b4a26f5279"
+    },
+    {
+      "source": "demo/assets/lobby/391.png",
+      "resource": "ui/coin.png",
+      "size": 4855,
+      "sha256": "dae2fff05382a7c8d0cdd2abed970a04b2f14415458ac5a5d27e3155842d9810"
+    },
+    {
+      "source": "demo/hall-games-study/assets/Match-22.png",
+      "resource": "games/classic.png",
+      "size": 54333,
+      "sha256": "c98edba295bbc4fd3adee5f2584415a3666d62d535abceb56e5bf11416c02267"
+    },
+    {
+      "source": "demo/hall-games-study/assets/Match-163.png",
+      "resource": "games/red.png",
+      "size": 43088,
+      "sha256": "d7b83d3f9746bb75ca91f0131c456fd0238d227310072ea6182cd3e530392652"
+    },
+    {
+      "source": "demo/hall-games-study/assets/Match-82.png",
+      "resource": "games/exchange.png",
+      "size": 47855,
+      "sha256": "cd2055a63d170cc820ee28861f33c1045693472363389c0e9353426f575642e9"
+    },
+    {
+      "source": "demo/hall-games-study/assets/Match-22.png",
+      "resource": "games/six.png",
+      "size": 54333,
+      "sha256": "c98edba295bbc4fd3adee5f2584415a3666d62d535abceb56e5bf11416c02267"
+    },
+    {
+      "source": "demo/hall-games-study/assets/Match-90.png",
+      "resource": "games/sixFixed.png",
+      "size": 53803,
+      "sha256": "435d1228a18cbf2c918b10e0ee9121aff61f87f0ae1b996467cf41f866e241d8"
+    },
+    {
+      "source": "demo/hall-games-study/assets/Match-286.png",
+      "resource": "games/crazy.png",
+      "size": 43696,
+      "sha256": "75ad852a445dcca8b1007663ab3f797fc6f60c0c77eaf279456d8b3cc116d00f"
+    },
+    {
+      "source": "demo/hall-games-study/assets/Match-82.png",
+      "resource": "games/eightFixed.png",
+      "size": 47855,
+      "sha256": "cd2055a63d170cc820ee28861f33c1045693472363389c0e9353426f575642e9"
+    },
+    {
+      "source": "demo/assets/reference/ui-1457.png",
+      "resource": "tiles/body.png",
+      "size": 4367,
+      "sha256": "bbdb4730c0df56493b344947c50ceebf4cbf5b364bab17384369439cf01cd7eb"
+    },
+    {
+      "source": "demo/assets/reference/ui-1639.png",
+      "resource": "tiles/11.png",
+      "size": 6566,
+      "sha256": "ddec3c11353d4c0d0087d983f94f4259e9d7fb9a1e3b0745e630a15ebefec411"
+    },
+    {
+      "source": "demo/assets/reference/ui-1766.png",
+      "resource": "tiles/12.png",
+      "size": 7111,
+      "sha256": "8dd63ed7d56b3b255bd67dec9de37b8509556e8a878342adaa3851d52c49090c"
+    },
+    {
+      "source": "demo/assets/reference/ui-1714.png",
+      "resource": "tiles/13.png",
+      "size": 7351,
+      "sha256": "bfda65e2af60122a82cde80cb633d2091c54c4b240c8b7dea9cdc19c053c844d"
+    },
+    {
+      "source": "demo/assets/reference/ui-1606.png",
+      "resource": "tiles/14.png",
+      "size": 8411,
+      "sha256": "bf7d491769475c34de8ab460693ff3de223d300ffd4558a6f0b2fb8763bcf296"
+    },
+    {
+      "source": "demo/assets/reference/ui-1959.png",
+      "resource": "tiles/15.png",
+      "size": 8297,
+      "sha256": "a5b9a61ebea25eaf1e8de1b4f1b6d2c08a2e8222cfead0ce5b312a6149d5b899"
+    },
+    {
+      "source": "demo/assets/reference/ui-1657.png",
+      "resource": "tiles/16.png",
+      "size": 7871,
+      "sha256": "426ecfa65a46d797254a1d8c329955810b1561a1b9b4ceb07b80ad5e97ffba45"
+    },
+    {
+      "source": "demo/assets/reference/ui-1889.png",
+      "resource": "tiles/17.png",
+      "size": 7465,
+      "sha256": "114a2ef78e91549e9307955cc58495480c750bd4fd25fe9e64edcdddb52a13b1"
+    },
+    {
+      "source": "demo/assets/reference/ui-1945.png",
+      "resource": "tiles/18.png",
+      "size": 7221,
+      "sha256": "bb1889b549d88c6a7fbe28ccb6bff563d6798a7a67085c13d0924ea1e74f236e"
+    },
+    {
+      "source": "demo/assets/reference/ui-2042.png",
+      "resource": "tiles/19.png",
+      "size": 8062,
+      "sha256": "906517904486c2dfe6d8f767b979186aacd35fb2247929750dbcb2ff48c06fd2"
+    },
+    {
+      "source": "demo/assets/reference/ui-1917.png",
+      "resource": "tiles/21.png",
+      "size": 7835,
+      "sha256": "4a3d2452c1c431069b93971d7179ec4a6b034c7c66c1ed010aa135420746a0af"
+    },
+    {
+      "source": "demo/assets/reference/ui-2087.png",
+      "resource": "tiles/22.png",
+      "size": 3098,
+      "sha256": "7fd9bcacab903c36b7b5d729435bf88e8c5faed9ae7322b1851c0e8f7eb609b4"
+    },
+    {
+      "source": "demo/assets/reference/ui-2158.png",
+      "resource": "tiles/23.png",
+      "size": 4740,
+      "sha256": "ed9578d47feea2c85013b2eb22d0a59018c1521bc21dfcfa936e7d1f2c6aca54"
+    },
+    {
+      "source": "demo/assets/reference/ui-1610.png",
+      "resource": "tiles/24.png",
+      "size": 4264,
+      "sha256": "d4d8b012835b5ba5ad0a2c805442acc1306760b8fbe57783b9c3875c5d42a8dd"
+    },
+    {
+      "source": "demo/assets/reference/ui-2091.png",
+      "resource": "tiles/25.png",
+      "size": 6372,
+      "sha256": "12b44c9cf457f0838338e74cf107f89840c7068c66426bc164fe0b9bf58d7efe"
+    },
+    {
+      "source": "demo/assets/reference/ui-1899.png",
+      "resource": "tiles/26.png",
+      "size": 4710,
+      "sha256": "3b9245082f7b56d1d55f9cbe8d5efd5425ccabb2c007b1b325dc555b7d51fbbd"
+    },
+    {
+      "source": "demo/assets/reference/ui-1737.png",
+      "resource": "tiles/27.png",
+      "size": 6461,
+      "sha256": "8431f195664e482d6e7b85413e443647cec5eb90bd1ab4a6798718ca23033f53"
+    },
+    {
+      "source": "demo/assets/reference/ui-2044.png",
+      "resource": "tiles/28.png",
+      "size": 7878,
+      "sha256": "53277712434f95bd360b2cc7928f26c19533e7a84402d109d507b4c1a14cc794"
+    },
+    {
+      "source": "demo/assets/reference/ui-1459.png",
+      "resource": "tiles/29.png",
+      "size": 7905,
+      "sha256": "7528c00bc4f3c9f5d54e0ac7306340484d153f1788372efe886a2ebbc84761c7"
+    },
+    {
+      "source": "demo/assets/reference/ui-1785.png",
+      "resource": "tiles/31.png",
+      "size": 10724,
+      "sha256": "cf43775f55449be936e19093aa38cec6692d67e9937a00e03d2b9c92eee8af23"
+    },
+    {
+      "source": "demo/assets/reference/ui-2036.png",
+      "resource": "tiles/32.png",
+      "size": 7690,
+      "sha256": "37868ec3cac504d30bfb03c4e0673e7280356e3368ddff60a28284e565270bb3"
+    },
+    {
+      "source": "demo/assets/reference/ui-1760.png",
+      "resource": "tiles/33.png",
+      "size": 9138,
+      "sha256": "ac5ae4c2e3dbb563fffa447683d49b8716bb73bd37481dad8ae54a129fb7e4cb"
+    },
+    {
+      "source": "demo/assets/reference/ui-2022.png",
+      "resource": "tiles/34.png",
+      "size": 10487,
+      "sha256": "63ee85736708e686dad99d55fef6c7b26f8957c191dc44c62950a6f424d4b265"
+    },
+    {
+      "source": "demo/assets/reference/ui-1931.png",
+      "resource": "tiles/35.png",
+      "size": 12873,
+      "sha256": "b55835832f983f4387112758db52ce002746c92ed4f0460595b4fbc0c0febf8b"
+    },
+    {
+      "source": "demo/assets/reference/ui-2030.png",
+      "resource": "tiles/36.png",
+      "size": 11908,
+      "sha256": "5cc12c51844bdde51b95cd8e6be8e404930922c944dab4cb85fbeaf5b67a194f"
+    },
+    {
+      "source": "demo/assets/reference/ui-1615.png",
+      "resource": "tiles/37.png",
+      "size": 13382,
+      "sha256": "0294b7964a1d5974ff35ba9a5fb7bfa0b9093ea3d5bc85a857284db861ee73c0"
+    },
+    {
+      "source": "demo/assets/reference/ui-1658.png",
+      "resource": "tiles/38.png",
+      "size": 11372,
+      "sha256": "278e669690049bbe93a0b1c1df2359ed045318aba649a00f201f4c1288490a02"
+    },
+    {
+      "source": "demo/assets/reference/ui-1487.png",
+      "resource": "tiles/39.png",
+      "size": 14801,
+      "sha256": "49a5682a6c9d0e6ae0e7edc3389a16544858c819175a2e9dece3ada08b2912ad"
+    },
+    {
+      "source": "demo/assets/reference/ui-1812.png",
+      "resource": "tiles/51.png",
+      "size": 4690,
+      "sha256": "31d6f19f953404d3e67e51b2750c83c96d36ca80ee5b33f301e3d15a5b50d641"
+    },
+    {
+      "source": "demo/assets/reference/ui-2002.png",
+      "resource": "tiles/52.png",
+      "size": 9026,
+      "sha256": "760a4d81a9db513a166f6872c99bc8a50e97f10019c4bd4ac2f313f5ebe88f3b"
+    },
+    {
+      "source": "demo/assets/reference/ui-2024.png",
+      "resource": "tiles/53.png",
+      "size": 4869,
+      "sha256": "9bd66e16267df219975d8bb06b04dc85a59cccb924fbd17d202a8f744fae7e28"
+    },
+    {
+      "source": "demo/table-layout-study/assets/game-1857.png",
+      "resource": "tiles/back.png",
+      "size": 1729,
+      "sha256": "969bce151337189a36c339cb34727587b26b67e23f18bacd9ec500344b227236"
+    },
+    {
+      "source": "demo/table-layout-study/assets/common-346.png",
+      "resource": "backgrounds/table-texture.png",
+      "size": 31691,
+      "sha256": "165cfced4bc2cfd7007ad41dc925d03528d9d536a716352adf59d26b81a4f174"
+    },
+    {
+      "source": "demo/assets/audio-v2/coin.mp3",
+      "resource": "audio/coin.mp3",
+      "size": 10910,
+      "sha256": "afce91eff840147ab63a4ee60d096a062b22e2bc8e7894a6d543c6613a1aef70"
+    },
+    {
+      "source": "demo/assets/audio-v2/countdown.mp3",
+      "resource": "audio/countdown.mp3",
+      "size": 5476,
+      "sha256": "490f28e272dbd33986db7ef206d7ab1e93828fa1799e3876d1ebab9eefa8cd37"
+    },
+    {
+      "source": "demo/assets/audio-v2/dingque.mp3",
+      "resource": "audio/dingque.mp3",
+      "size": 12999,
+      "sha256": "2d727e9e2e129f2d15955693f7691601a3a8db7fe3bbc032bbbe3d711dc81bea"
+    },
+    {
+      "source": "demo/assets/audio-v2/discard.mp3",
+      "resource": "audio/discard.mp3",
+      "size": 4640,
+      "sha256": "e81f26a5c899433b8c336986fce1553a8ae36de0a2458159a3830b5624a4f451"
+    },
+    {
+      "source": "demo/assets/audio-v2/draw.mp3",
+      "resource": "audio/draw.mp3",
+      "size": 4222,
+      "sha256": "3258a05e8151254c358e70914bbad750ed43303fa51a6a1cccefd0cd9b7f4f71"
+    },
+    {
+      "source": "demo/assets/audio-v2/hu-cue.mp3",
+      "resource": "audio/hu-cue.mp3",
+      "size": 11745,
+      "sha256": "7b06e76e81a070824ebf8b52e118051ec560229b93120e2a77aa07587ff97e8e"
+    },
+    {
+      "source": "demo/assets/audio-v2/lobby-music.mp3",
+      "resource": "audio/lobby-music.mp3",
+      "size": 512878,
+      "sha256": "8ed91a21cda1e1d790d653e4333b2b4939a56ae6433183a6d2156e65572b8d9f"
+    },
+    {
+      "source": "demo/assets/audio-v2/preview-30s.mp3",
+      "resource": "audio/preview-30s.mp3",
+      "size": 481114,
+      "sha256": "287f9f75f0b64434355e2ad77389ebe5654c7abfab1c71bc3163ae63e4be017f"
+    },
+    {
+      "source": "demo/assets/audio-v2/rain.mp3",
+      "resource": "audio/rain.mp3",
+      "size": 12999,
+      "sha256": "394af27e7547dbbd5da0659e4717202e0795245000c9bbe1d82427f843385ef7"
+    },
+    {
+      "source": "demo/assets/audio-v2/settlement-neutral.mp3",
+      "resource": "audio/settlement-neutral.mp3",
+      "size": 16343,
+      "sha256": "c281cde44db5625877be62b2f053bf29c51eceff2aca011672b1f84b6a2a08a6"
+    },
+    {
+      "source": "demo/assets/audio-v2/settlement-win.mp3",
+      "resource": "audio/settlement-win.mp3",
+      "size": 23866,
+      "sha256": "4e62e982fdd9323a3deb1fc4aaa2dec86d95a18b750d31533074bdfddee81a5e"
+    },
+    {
+      "source": "demo/assets/audio-v2/shuffle.mp3",
+      "resource": "audio/shuffle.mp3",
+      "size": 9656,
+      "sha256": "97a17d6f11a268b004f2c90e93362bbad98444d6905b07b463e326dd71f67496"
+    },
+    {
+      "source": "demo/assets/audio-v2/table-music.mp3",
+      "resource": "audio/table-music.mp3",
+      "size": 512878,
+      "sha256": "4b8c8c8a8d277953be3c704860803316951a2786bdd6a6b1b20666d693666cf6"
+    },
+    {
+      "source": "demo/assets/audio-v2/ui.mp3",
+      "resource": "audio/ui.mp3",
+      "size": 2968,
+      "sha256": "484c72e6aa0333759c80c5fc5d725d9b60aa9b3a2d36badad951118d805f8cd2"
+    },
+    {
+      "source": "demo/assets/audio-v2/wind.mp3",
+      "resource": "audio/wind.mp3",
+      "size": 10492,
+      "sha256": "467836b82345433941ad1a964ee3d0f260b1a08ac2de3706c21a3db846f7f8c8"
+    },
+    {
+      "source": "demo/assets/audio-v2/voice/1-1.mp3",
+      "resource": "audio/voice/1-1.mp3",
+      "size": 7148,
+      "sha256": "ed610ae342f6020832a5962ba4b2bf1daffac69f0812e2aba2094f75ade2cd8a"
+    },
+    {
+      "source": "demo/assets/audio-v2/voice/1-2.mp3",
+      "resource": "audio/voice/1-2.mp3",
+      "size": 7984,
+      "sha256": "41d70f84b58a93c04e2624a695dd715a19797367a8cc06a8e1abfe2f32f20bc3"
+    },
+    {
+      "source": "demo/assets/audio-v2/voice/1-3.mp3",
+      "resource": "audio/voice/1-3.mp3",
+      "size": 8820,
+      "sha256": "665d00d435c15fd11497d38dd2861fcb27e4ead6cfc3da31132fd890c49b521b"
+    },
+    {
+      "source": "demo/assets/audio-v2/voice/1-4.mp3",
+      "resource": "audio/voice/1-4.mp3",
+      "size": 8402,
+      "sha256": "042c5dd71c204b405188357da90ff0ad4ddf7b0da5d75f9aacfe09ef5f7deee6"
+    },
+    {
+      "source": "demo/assets/audio-v2/voice/1-5.mp3",
+      "resource": "audio/voice/1-5.mp3",
+      "size": 7566,
+      "sha256": "eb27ff8d13bec284540b364428ef7a01429fbf036729b375db34a696a4ce7850"
+    },
+    {
+      "source": "demo/assets/audio-v2/voice/1-6.mp3",
+      "resource": "audio/voice/1-6.mp3",
+      "size": 7984,
+      "sha256": "3d1dd31c2bc2a7a92bebbdd6d54ee4db94c8cdc9f98e2276d66afee2a56e03a6"
+    },
+    {
+      "source": "demo/assets/audio-v2/voice/1-7.mp3",
+      "resource": "audio/voice/1-7.mp3",
+      "size": 7984,
+      "sha256": "bdc95d5afecf61e906e848a55edf6a0905ecfb45226549794af173d7152ebdce"
+    },
+    {
+      "source": "demo/assets/audio-v2/voice/1-8.mp3",
+      "resource": "audio/voice/1-8.mp3",
+      "size": 7984,
+      "sha256": "730b0a394bacb59fc5823fefcfc1f86f6d91026014105309d66b7ef7f13ed0ca"
+    },
+    {
+      "source": "demo/assets/audio-v2/voice/1-9.mp3",
+      "resource": "audio/voice/1-9.mp3",
+      "size": 7984,
+      "sha256": "7616d13b0871b3433c9f38e6336419a57e65b8e04b39f9863b4ab290e9086c8c"
+    },
+    {
+      "source": "demo/assets/audio-v2/voice/2-1.mp3",
+      "resource": "audio/voice/2-1.mp3",
+      "size": 8820,
+      "sha256": "ef2c5eec6f74317f17248bc3d79795429a1d6ce602d4d521361e8c2d599210ba"
+    },
+    {
+      "source": "demo/assets/audio-v2/voice/2-2.mp3",
+      "resource": "audio/voice/2-2.mp3",
+      "size": 9238,
+      "sha256": "37abf707bd54d6697ed6c836be610af628b19c436d544132d24b9fac6ed7f6e1"
+    },
+    {
+      "source": "demo/assets/audio-v2/voice/2-3.mp3",
+      "resource": "audio/voice/2-3.mp3",
+      "size": 10492,
+      "sha256": "ada3a699555ed0c2b0ed789a3325c904826d8c7c1ca734e203d1c77cbbf6d698"
+    },
+    {
+      "source": "demo/assets/audio-v2/voice/2-4.mp3",
+      "resource": "audio/voice/2-4.mp3",
+      "size": 10074,
+      "sha256": "57ae19ba49f5da31337221bd71ee781921611073a511de656dde9b4c56d9613f"
+    },
+    {
+      "source": "demo/assets/audio-v2/voice/2-5.mp3",
+      "resource": "audio/voice/2-5.mp3",
+      "size": 9238,
+      "sha256": "5cde9ec84394146ff39f31958d997fb6442b374eaadbe92917063645f7340c36"
+    },
+    {
+      "source": "demo/assets/audio-v2/voice/2-6.mp3",
+      "resource": "audio/voice/2-6.mp3",
+      "size": 9656,
+      "sha256": "454d4dd85049b42e639b8a74bb2190239616b6f875c284b4da05cf2c6dbd993e"
+    },
+    {
+      "source": "demo/assets/audio-v2/voice/2-7.mp3",
+      "resource": "audio/voice/2-7.mp3",
+      "size": 10074,
+      "sha256": "637b4f06335104840ad4e4e6a7a762e1e3fbcbdc423910ad7813d3ef850efc15"
+    },
+    {
+      "source": "demo/assets/audio-v2/voice/2-8.mp3",
+      "resource": "audio/voice/2-8.mp3",
+      "size": 9238,
+      "sha256": "17465e408e882eabca1c4c9a34a48af40b2decb322d23b0e5b3b5f9c60a4666f"
+    },
+    {
+      "source": "demo/assets/audio-v2/voice/2-9.mp3",
+      "resource": "audio/voice/2-9.mp3",
+      "size": 10074,
+      "sha256": "e4f4b039bee48391837681f7637d1d40ad2533e054ba64b87e774ad8bc073996"
+    },
+    {
+      "source": "demo/assets/audio-v2/voice/3-1.mp3",
+      "resource": "audio/voice/3-1.mp3",
+      "size": 8402,
+      "sha256": "59ab19b9b64e582adcb6b5b0c724a65e8e3746f53c9a036a07c8f8eb785dc3dd"
+    },
+    {
+      "source": "demo/assets/audio-v2/voice/3-2.mp3",
+      "resource": "audio/voice/3-2.mp3",
+      "size": 8402,
+      "sha256": "263eecafd451198fc50609606e2663b033a58c1c3166d5a2e4af533657a72651"
+    },
+    {
+      "source": "demo/assets/audio-v2/voice/3-3.mp3",
+      "resource": "audio/voice/3-3.mp3",
+      "size": 9656,
+      "sha256": "1b7488409caa0f78f56bce5ca380fe69a91b7dbae2ee63be55b52ca776f62c9e"
+    },
+    {
+      "source": "demo/assets/audio-v2/voice/3-4.mp3",
+      "resource": "audio/voice/3-4.mp3",
+      "size": 9238,
+      "sha256": "a8441e4ce202d70ff15ebaf0b750e836e3149153f8ae4e96de88ae4de96f3768"
+    },
+    {
+      "source": "demo/assets/audio-v2/voice/3-5.mp3",
+      "resource": "audio/voice/3-5.mp3",
+      "size": 8402,
+      "sha256": "3d37d973256bec1e54419ccbbdfbbea744ec33ce4f5d7dc364569b594ed26f54"
+    },
+    {
+      "source": "demo/assets/audio-v2/voice/3-6.mp3",
+      "resource": "audio/voice/3-6.mp3",
+      "size": 8820,
+      "sha256": "ac6518a14e4d84f7c4abe6278518f68a049e6770a30b807dd72caa28708c7a7d"
+    },
+    {
+      "source": "demo/assets/audio-v2/voice/3-7.mp3",
+      "resource": "audio/voice/3-7.mp3",
+      "size": 9238,
+      "sha256": "e3acdd95ee29345fbfd83752eab5e5baa5307a08724952a987246ac1c9d6cb34"
+    },
+    {
+      "source": "demo/assets/audio-v2/voice/3-8.mp3",
+      "resource": "audio/voice/3-8.mp3",
+      "size": 8402,
+      "sha256": "69038bd174feda65bc4345b17c905fc974f91ba07876fbe29b887e9e9f7b6d0d"
+    },
+    {
+      "source": "demo/assets/audio-v2/voice/3-9.mp3",
+      "resource": "audio/voice/3-9.mp3",
+      "size": 9238,
+      "sha256": "a732c4ad3ebcd0244ac5a8123b25a7a59d3c6ec007afb4374bfb14d54acffd09"
+    },
+    {
+      "source": "demo/assets/audio-v2/voice/gang.mp3",
+      "resource": "audio/voice/gang.mp3",
+      "size": 5058,
+      "sha256": "6e518d79381c36e51ee6f3cc1a18a7287d78fbe5466cad350106faa3cfa1ec12"
+    },
+    {
+      "source": "demo/assets/audio-v2/voice/hu.mp3",
+      "resource": "audio/voice/hu.mp3",
+      "size": 6730,
+      "sha256": "e9e6232f6fad8fb0e24f12583d87e4b3919b180ce2683aed0dfdb4ae0b5080b7"
+    },
+    {
+      "source": "demo/assets/audio-v2/voice/peng.mp3",
+      "resource": "audio/voice/peng.mp3",
+      "size": 5894,
+      "sha256": "5bdaabd527015545db58f913758ab88ee573531aee66dbd571872bbf0686c27d"
+    },
+    {
+      "source": "demo/assets/audio-v2/voice/qgh.mp3",
+      "resource": "audio/voice/qgh.mp3",
+      "size": 13417,
+      "sha256": "df09df76f8d9c286b43b88b790b033616afb47b5e09e601f7940549ad366d0e0"
+    },
+    {
+      "source": "demo/assets/audio-v2/voice/red.mp3",
+      "resource": "audio/voice/red.mp3",
+      "size": 9238,
+      "sha256": "9c93c6ae569a9b69b3d1d3d84642473fab9abd41b4c7ffa8b049c8469f00aaf9"
+    },
+    {
+      "source": "demo/assets/audio-v2/voice/redKong.mp3",
+      "resource": "audio/voice/redKong.mp3",
+      "size": 11327,
+      "sha256": "98c2d4970e9c7d3cd61c599796bccd0872057d4a165b47649ebfb0851c982d4a"
+    },
+    {
+      "source": "demo/assets/audio-v2/voice/reveal.mp3",
+      "resource": "audio/voice/reveal.mp3",
+      "size": 10492,
+      "sha256": "5391e675b275b84f3a997743ab39ff94c202d9cb353a3b0381197482115fa994"
+    },
+    {
+      "source": "demo/assets/audio-v2/voice/zimo.mp3",
+      "resource": "audio/voice/zimo.mp3",
+      "size": 8820,
+      "sha256": "3090fb1722fafb8d54965638eeeef08b9ac2fbe25b453c66ec0c47a9181b9ca4"
+    }
+  ]
+}

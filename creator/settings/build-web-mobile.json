@@ -1,0 +1,20 @@
+{
+  "name": "联桌麻将",
+  "platform": "web-mobile",
+  "outputName": "web-mobile",
+  "buildPath": "project://build",
+  "debug": true,
+  "md5Cache": true,
+  "startScene": "c38c7d5b-5f5c-48dd-964d-3e8cc1b6c8a4",
+  "scenes": [
+    {
+      "url": "db://assets/scenes/main.scene",
+      "uuid": "c38c7d5b-5f5c-48dd-964d-3e8cc1b6c8a4"
+    }
+  ],
+  "packages": {
+    "web-mobile": {
+      "orientation": "landscape"
+    }
+  }
+}

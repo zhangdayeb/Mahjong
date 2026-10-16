@@ -29,6 +29,8 @@
 
 ## 本地启动
 
+新增 Cocos Creator 3.8.8 客户端位于 `creator/`，打开、构建和本机预览步骤见 [Creator 工程说明](creator/README.md)。现有 `demo/` 网页客户端与后端继续保留。
+
 需要 Node.js 和 npm。建议使用 Node.js 22 或更新版本。从仓库根目录执行：
 
 ```sh
