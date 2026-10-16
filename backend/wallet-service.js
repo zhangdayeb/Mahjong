@@ -6,9 +6,12 @@ import {ruleProfile} from '../demo/rule-profiles.js';
 import {validStock} from '../demo/bloodflow-round.js';
 import {normalizeSignature} from '../demo/profile-signature-model.js';
 import {createRewardService} from './reward-service.js';
+import {createSupportService} from './support-service.js';
+import {parsePage} from './history-model.js';
 export class WalletError extends Error{constructor(status,message){super(message);this.status=status;}}
 const fail=(status,message)=>{throw new WalletError(status,message);};
 export function createWalletService(store,options={}){
+ const clock=options.clock||Date.now;
  function accountView(account){return{id:account.id,name:account.name,signature:account.signature||'',balance:currencyBalance(account,'coins'),balances:{coins:currencyBalance(account,'coins')},currency:'coins',currencyName:'金币',resetAllowed:false,payments:false};}
  function operationInput({currency='coins',requestId=randomUUID()}={}){if(!CURRENCIES.includes(currency)||typeof requestId!=='string'||!/^[a-f0-9]{8}(?:-[a-f0-9]{4}){3}-[a-f0-9]{12}$/i.test(requestId))fail(400,'余额操作参数无效');return{currency,requestId};}
  async function existingOperation(tx,requestId,kind,currency){const previous=await tx.getOperation(requestId);if(previous&&(previous.kind!==kind||previous.currency!==currency))fail(409,'操作编号已用于其他余额操作');return previous;}
@@ -20,10 +23,11 @@ export function createWalletService(store,options={}){
   setCurrencyBalance(account,currency,after);
   game.status=round.phase==='end'?'ended':'closed';game.delta=delta;
   if(game.rulesVersion===2)game.resultData={scores:round.scores,huEvents:round.huEvents,kongPayments:round.kongPayments,settlementEvents:round.settlementEvents,stockOrder:round.collectionOrder(),shuffleMethod:round.shuffleMethod,cutAt:round.cutAt};
-  await tx.saveGame(game);await tx.saveAccount(account);await tx.addLedger({type:'round',roundId:game.id,currency,before,amount:after-before,balance:after});
+  await tx.saveGame(game);await tx.saveAccount(account);await tx.addLedger({type:'round',roundId:game.id,currency,before,amount:after-before,balance:after,createdAt:new Date(clock()).toISOString()});
  }
  return{
   ...createRewardService(store,{accountView,fail,...options}),
+  ...createSupportService(store,{fail,clock}),
   createSession:tokenHash=>store.createSession(tokenHash,INITIAL_BALANCE),
   findSession:tokenHash=>store.findSession(tokenHash),
   health:()=>store.health(),
@@ -32,10 +36,10 @@ export function createWalletService(store,options={}){
   leave:accountId=>store.withAccount(accountId,async(tx,account)=>{const active=await tx.activeGame();if(active)await closeGame(tx,account,active);return accountView(account);}),
   refresh:(accountId,input)=>store.withAccount(accountId,async(tx,account)=>{
    const {currency,requestId}=operationInput(input),previous=await existingOperation(tx,requestId,'refresh',currency);
-   const balance=currencyBalance(account,currency),operation=previous||{id:requestId,kind:'refresh',currency,before:balance,after:balance,createdAt:new Date().toISOString()};
+   const balance=currencyBalance(account,currency),operation=previous||{id:requestId,kind:'refresh',currency,before:balance,after:balance,createdAt:new Date(clock()).toISOString()};
    if(!previous)await tx.addOperation(operation);return{...accountView(account),operation};
   }),
-  history:(accountId,currency)=>store.withAccount(accountId,async tx=>{if(!CURRENCIES.includes(currency))fail(400,'币种无效');return{operations:await tx.listOperations(currency)};}),
+  history:(accountId,currency,input={})=>store.withAccount(accountId,async tx=>{if(!CURRENCIES.includes(currency))fail(400,'币种无效');let page;try{page=parsePage(input);if(page.after&&!/^[12]:/.test(page.after.sortKey))throw Error('分页游标类型不匹配');}catch(error){fail(400,error.message);}return{operations:await tx.listOperations(currency),...await tx.listHistory(currency,page)};}),
   async reset(){fail(410,'随时重置已取消，请领取每日救济金或观看演示广告获得金币');},
   async start(accountId,{mode,room,rulesVersion=1}){const result=await store.withAccount(accountId,async(tx,account)=>{
    let config;try{config=practiceConfig(mode,room,rulesVersion);}catch(error){fail(400,error.message);}

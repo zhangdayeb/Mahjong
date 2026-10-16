@@ -1,6 +1,6 @@
 # 联桌麻将 · Cocos Creator 客户端
 
-这是与现有网页客户端并存的 Creator 3.8.8 工程。入口场景为 `assets/scenes/main.scene`，使用标准 2D Canvas 与 UI Camera，设计尺寸 1280 × 640。`LianzhuoApp` 挂在 Canvas 上，通过代码生成界面节点；编辑器里的空 Canvas 并不代表运行时没有界面。
+这是游戏的 Creator 3.8.8 客户端工程。入口场景为 `assets/scenes/main.scene`，使用标准 2D Canvas 与 UI Camera，设计尺寸 1280 × 640。`LianzhuoApp` 挂在 Canvas 上，通过代码生成界面节点；运行后加载页、大厅、场次、七种玩法牌桌及全部功能窗口均由 Cocos 呈现。
 
 ## 打开与预览
 
@@ -8,7 +8,9 @@
 2. 等待首次资源与脚本导入完成，然后双击 `assets/scenes/main.scene`。
 3. 先启动下文的本地 API 服务，再点击编辑器顶部的预览按钮。当前已打通加载页 → 大厅 → 场次 → 人机对局 → 后端结算。
 
-当前七种玩法共用场次与牌桌组件，保留原规则引擎；支持换牌、定缺、碰杠胡、托管、听牌、快捷消息、流水、签名、每日救济金和演示广告。首版采用 2D 牌面、飞牌补间与金色字牌粒子，完整 3D 牌桌及原版骨骼／风雨特效尚未迁入。界面由 TypeScript 建立；后续可逐步拆为供美术直接调整的 Prefab。
+七种玩法共用场次与牌桌组件，保留经过后端校验的规则引擎；支持换牌、定缺、碰杠胡、托管、听牌、快捷消息、流水、签名、每日救济金和演示广告。大厅支持拖动、滚轮和箭头查看全部玩法；规则覆盖基础、番型及补充说明。反馈真实保存并生成系统邮件，邮件可阅读及标记已读，金币历史可分页查看。
+
+牌桌动画以 Creator Sprite、Graphics、UIOpacity 和引擎时钟重制，覆盖开场、发牌、换牌、定缺、碰杠胡、自摸、抢杠胡、明牌、闪电、光圈、粒子、明杠旋风、暗杠雨、番型金字扫光和金币曲线。窗口打开或切到后台时暂停，恢复后保持动画与操作计时一致。原金字、牌面及光效纹理迁入 Creator 资源，全部效果由 Cocos 绘制。浏览器语义控制层提供键盘、读屏和平台文字输入，与场景中的 Button/EditBox 共用业务逻辑。
 
 当前目标为浏览器 Web Mobile 横屏人机练习。Android/iOS 原生包尚需服务器地址、登录会话和网络适配；演示广告的可见性计时也需要原生实现。现阶段没有真人联网匹配。
 
@@ -24,7 +26,7 @@
 
 在本目录执行 `node tools/build-web.mjs --prepare-only` 会生成构建参数，并打印工程、输出和日志路径；不会启动编辑器。
 
-执行 `node tools/build-web.mjs` 会使用本机 Creator 3.8.8 构建 Web Mobile 横屏版本，输出到 `build/web-mobile/`。其他机器可以用 `COCOS_CREATOR_EXE` 环境变量指定安装路径。CLI 构建仍需要桌面会话，不能在没有图形环境的系统服务中直接运行。构建失败时查看 `build/creator-build.log`；Creator 的成功退出码为 36，脚本会转为正常结果。
+执行 `node tools/build-web.mjs` 会使用本机 Creator 3.8.8 构建 Web Mobile 横屏版本，输出到 `build/web-mobile/`；生产包使用 `node tools/build-web.mjs --release` 关闭调试。其他机器可以用 `COCOS_CREATOR_EXE` 环境变量指定安装路径。CLI 构建需要桌面会话。日志为 `build/creator-build.log` 与 `build/creator-launcher.log`；成功后生成源、metadata 及真实输出指纹。
 
 `settings/build-web-mobile.json` 保存入口场景、横屏和调试构建设置。正式发布前可以将其中的 `debug` 改为 `false`，也可在编辑器“项目 → 构建发布”面板导出进一步调整过的配置。
 
@@ -69,6 +71,12 @@ node creator/tools/verify-built-rules.mjs
 
 第四条需要已完成网页构建，直接加载实际 `System.register` 脚本，与原后端规则逐动作比较七种玩法，并覆盖标准胡和不洗牌续局。Creator 的松散转译会将部分可迭代展开当成数组；规则生成工具在明确的 Map/Set 站点使用等价的 `Array.from`，客户端选牌和声音队列同样显式转换，避免源文件测试通过而发布产物分叉。
 
-提交 `assets`、`settings`、`package.json`、`tsconfig.json`、工具脚本和本说明。`library`、`temp`、`build`、个人 `profiles` 和日志由 Creator 生成，已忽略。图片、语音和规则模块按当前迁移阶段导入；现有线上版本由根目录的原客户端继续提供。
+提交 `assets`、`settings`、`package.json`、`tsconfig.json`、工具脚本和本说明。`library`、`temp`、`build`、个人 `profiles` 和日志由 Creator 生成，已忽略。
+
+## 发布
+
+完成上述构建与验证后运行 `node tools/pack-release.mjs`。工具拒绝过期或调试构建，生成独立 Creator 前端、兼容现有会话的新后端、文件 SHA256 清单、gzip、Nginx 缓存配置以及激活和回滚脚本，写入根目录忽略的 `.deploy/`。同域 `/demo-api` 沿用游客 Cookie；现有账户与余额不会重新初始化。反馈／邮件 schema 为追加式迁移。
+
+旧 `hall.html`、`rooms.html`、`reference.html`、玩法合集和娱乐等 15 个主要入口均返回同一 Creator Canvas。入口脚本解析原玩法、场次及 `view` 参数；旧牌桌链接先显示场次确认，避免刷新时自动创建新局。已关闭的三国／十二生肖链接返回大厅提示。发布切换保留上一版本用于回滚。
 
 工程场景基于本机 Creator 自带 `scene-2d.scene` 模板，而不是跨版本复制旧场景。命令行构建参数与退出码参考 [Creator 3.8 官方说明](https://docs.cocos.com/creator/3.8/manual/zh/editor/publish/publish-in-command-line.html)。

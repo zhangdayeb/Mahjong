@@ -35,7 +35,12 @@ export class GameSession {
  get closed():boolean{return this.isClosed;}
  get syncError():Error|null{return this.failure;}
  get startBalance():number{return this.info?.startBalance??0;}
- get displayBalance():number{return this.round?Math.max(0,this.startBalance+this.round.scores[0]):this.account?.balance??0;}
+ get displayBalance():number{
+  const balance=this.account?.balance??this.startBalance;
+  // Benefits earned during a game change the account immediately. The seeded
+  // round's starting bank remains frozen for payment limits and replay.
+  return this.round&&!this.isClosed?Math.max(0,balance+this.round.scores[0]):balance;
+ }
  async start(mode='classic',room='beginner'):Promise<GameSession> {
   if(this.disposed)throw new WalletError('该牌局客户端已关闭。');
   if(!PLAYABLE_MODES.includes(mode))throw new WalletError('这个玩法未开放。');

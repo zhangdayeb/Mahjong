@@ -10,6 +10,13 @@ export const AssetCatalog = Object.freeze({
   coin: 'ui/coin',
   tileBody: 'tiles/body',
   tileBack: 'tiles/back',
+  tileBacks: Object.freeze(['tiles/back', 'tiles/back-right', 'tiles/back', 'tiles/back-left']),
+  effects: Object.freeze({
+    actions: Object.freeze({ peng: 'effects/actions/peng', gang: 'effects/actions/gang', hu: 'effects/actions/hu', zimo: 'effects/actions/zimo', qgh: 'effects/actions/qgh' }),
+    fontDefinitions: 'effects/fonts/definitions',
+    fonts: Object.freeze({ fan: 'effects/fonts/fan', win: 'effects/fonts/win', loss: 'effects/fonts/loss' }),
+    glow: 'effects/glow', sweep: 'effects/sweep', huRing: 'effects/hu-ring', huElectric: 'effects/hu-electric', coin: 'effects/coin',
+  }),
   games: Object.freeze({ classic: 'games/classic', red: 'games/red', exchange: 'games/exchange', six: 'games/six', sixFixed: 'games/sixFixed', crazy: 'games/crazy', eightFixed: 'games/eightFixed' }),
   tile(value: number): string {
     if (value === 57) return 'tiles/back';

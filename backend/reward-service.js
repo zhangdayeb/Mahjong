@@ -18,7 +18,7 @@ export function createRewardService(store,{accountView,fail,clock=Date.now}={}){
   if(!Number.isSafeInteger(after))fail(422,'金币余额超出支持范围');
   setCurrencyBalance(account,'coins',after);
   const operation={id,kind,currency:'coins',before,after,createdAt:new Date(clock()).toISOString()};
-  await tx.saveAccount(account);await tx.addLedger({type:kind,currency:'coins',before,amount:REWARD_AMOUNT,balance:after});await tx.addOperation(operation);
+  await tx.saveAccount(account);await tx.addLedger({type:kind,currency:'coins',before,amount:REWARD_AMOUNT,balance:after,createdAt:operation.createdAt});await tx.addOperation(operation);
   return operation;
  }
  async function ownedAd(tx,input){

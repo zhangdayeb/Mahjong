@@ -84,16 +84,60 @@ async function verifyOrigins(WalletClient){
  }
 }
 
+async function verifyRequestOrder(WalletClient){
+ const originalFetch=globalThis.fetch;
+ const deferred=()=>{let resolve;const promise=new Promise(value=>resolve=value);return{promise,resolve};};
+ let balance=30000,claimed=false,routes=[],gate=null,started=null,slowPath='';
+ const payload=()=>({id:'ordering-test',name:'测试',signature:'',balance,balances:{coins:balance},rewards:{daily:{claimed},ad:{amount:30000}}});
+ const stub=async(input,options={})=>{
+  const route=new URL(input,'http://127.0.0.1').pathname;routes.push(route);
+  const old=payload();
+  if(route===slowPath){started.resolve();await gate.promise;}
+  if(route==='/demo-api/rewards/daily'&&!claimed){balance+=30000;claimed=true;}
+  return Response.json(route==='/demo-api/rewards'?old:payload());
+ };
+ try{
+  // A slow old GET must finish before the write is sent, not overwrite it later.
+  globalThis.fetch=stub;let wallet=new WalletClient();gate=deferred();started=deferred();slowPath='/demo-api/rewards';
+  const oldGet=wallet.rewards();await started.promise;const grant=wallet.claimDaily();
+  await Promise.resolve();assert.deepEqual(routes,['/demo-api/rewards']);
+  gate.resolve();await Promise.all([oldGet,grant]);assert.equal(wallet.account.balance,60000);assert.equal(wallet.rewardStatus.daily.claimed,true);
+  // Explicitly applying a previously fetched DTO also cannot restore old state.
+  balance=30000;claimed=false;routes=[];slowPath='';wallet=new WalletClient();
+  const oldDto=await wallet.request('/rewards');await wallet.claimDaily();wallet.receive(oldDto);
+  assert.equal(wallet.account.balance,60000);assert.equal(wallet.rewardStatus.daily.claimed,true);
+  // A delayed POST commits before the following GET is allowed onto the wire.
+  balance=30000;claimed=false;routes=[];wallet=new WalletClient();gate=deferred();started=deferred();slowPath='/demo-api/rewards/daily';
+  const post=wallet.claimDaily();await started.promise;const read=wallet.rewards();
+  await Promise.resolve();assert.deepEqual(routes,['/demo-api/rewards/daily']);
+  gate.resolve();await Promise.all([post,read]);assert.equal(wallet.account.balance,60000);assert.equal(wallet.rewardStatus.daily.claimed,true);
+  // Even a fetch stub that ignores AbortSignal must not permanently hold FIFO.
+  globalThis.fetch=async(input)=>new URL(input,'http://127.0.0.1').pathname==='/demo-api/me'?new Promise(()=>{}):Response.json(payload());
+  wallet=new WalletClient({timeoutMs:100});const timedOut=assert.rejects(wallet.load(),/响应超时/);const recovered=wallet.refresh();
+  await timedOut;assert.equal((await recovered).balance,60000);
+  let failed=true;globalThis.fetch=async()=>{if(failed){failed=false;throw Error('Synthetic failure');}return Response.json(payload());};
+  wallet=new WalletClient();await assert.rejects(wallet.load());assert.equal((await wallet.load()).balance,60000);
+ }finally{globalThis.fetch=originalFetch;}
+}
+
 async function verifyHttp(WalletClient,requestId,GameSession,PLAYABLE_MODES){
  // Omitting a file path makes this store entirely in-memory.
  const store=await createFileStore();let now=Date.parse('2026-10-16T10:00:00Z');
  const service=createWalletService(store,{clock:()=>now});let handler;
+ // Deterministic regression fixture on this synthetic in-memory test account.
+ // Production start/seed generation and every saved user wallet are untouched.
+ let fixedSeed=null;const originalStart=service.start;
+ service.start=async(accountId,input)=>{
+  const value=await originalStart(accountId,input);
+  if(fixedSeed!==null){value.round.seed=fixedSeed;await store.withAccount(accountId,async tx=>{const game=await tx.getGame(value.round.id);game.seed=fixedSeed;await tx.saveGame(game);});}
+  return value;
+ };
  const server=http.createServer((req,res)=>handler(req,res));
  await new Promise((resolve,reject)=>{server.once('error',reject);server.listen(0,'127.0.0.1',resolve);});
  const origin='http://127.0.0.1:'+server.address().port;
  handler=createWalletApi(service,{origin});
  const originalFetch=globalThis.fetch,originalDocument=globalThis.document;
- let cookie='',failSync=false,gate=null;const payloads=[];
+ let cookie='',failSync=false,gate=null,loseFeedbackReply=false;const payloads=[];
  // Node has no browser cookie jar; emulate only the current synthetic guest.
  // Cookies, account IDs and tokens are never written or printed.
  globalThis.fetch=async(input,options={})=>{
@@ -106,6 +150,7 @@ async function verifyHttp(WalletClient,requestId,GameSession,PLAYABLE_MODES){
   }
   const response=await originalFetch(url,{...options,headers});
   const received=response.headers.get('set-cookie');if(received)cookie=received.split(';')[0];
+  if(loseFeedbackReply&&url.pathname.endsWith('/feedback')&&options.method==='POST'){loseFeedbackReply=false;throw Error('Simulated lost feedback reply after server commit');}
   return response;
  };
  let completed=0,actions=0;
@@ -142,6 +187,7 @@ async function verifyHttp(WalletClient,requestId,GameSession,PLAYABLE_MODES){
   assert.ok(game.closed);assert.deepEqual(payloads.at(-1).actions,game.actions);assert.equal(payloads.at(-1).close,true);
   await store.withAccount(wallet.account.id,async tx=>{assert.deepEqual((await tx.getGame(game.id)).actions,game.actions);});
   assert.equal(game.account.balance,Math.max(0,game.startBalance+game.round.scores[0]));await game.dispose();
+  assert.equal(game.displayBalance,game.account.balance,'A closed game must not apply its settled delta again');
 
   await wallet.saveSignature('联桌同乐');assert.equal(wallet.account.signature,'联桌同乐');
   await assert.rejects(wallet.saveSignature('字'.repeat(41)),error=>error.status===400);
@@ -170,6 +216,35 @@ async function verifyHttp(WalletClient,requestId,GameSession,PLAYABLE_MODES){
   await wallet.cancelAd();assert.equal(wallet.activeAd,null);
   await assert.rejects(wallet.request('/ads/complete',{id:cancelled.id}),error=>error.status===410);
   assert.equal((await wallet.refresh()).balance,adBalance);
+  const feedback={rating:5,message:'牌桌操作很好，希望继续改进。',contact:'test@example.test'};
+  loseFeedbackReply=true;await assert.rejects(wallet.feedback(feedback));
+  const receipt=await wallet.feedback(feedback);assert.equal(receipt.alreadySubmitted,true);
+  const inbox=await wallet.mails();assert.equal(inbox.messages.length,1);assert.equal(inbox.unreadCount,1);
+  assert.equal((await wallet.feedbackHistory()).feedback.length,1);
+  const read=await wallet.readMail(inbox.messages[0].id);assert.equal(read.updated,1);assert.equal(read.unreadCount,0);
+  assert.equal((await wallet.readMail('all')).updated,0);
+  const records=await wallet.history();assert.ok(records.some(row=>row.kind==='round'));assert.ok(records.every(row=>Number.isSafeInteger(row.amount)));
+  const firstPage=await wallet.historyPage({limit:2});assert.equal(firstPage.records.length,2);assert.ok(firstPage.nextCursor);
+  const secondPage=await wallet.historyPage({limit:2,cursor:firstPage.nextCursor});assert.ok(secondPage.records.every(row=>!firstPage.records.some(first=>first.id===row.id)));
+  // A reward in a live game updates the visible bank, while payment limits
+  // still use the frozen starting bank. Close/refresh must not double-count.
+  cookie='';fixedSeed=3282235851;const liveWallet=new WalletClient(),live=new GameSession(liveWallet);
+  await live.start();fixedSeed=null;const frozen=live.round.startBalances.slice();
+  assert.ok(live.perform('choose',[2]));live.auto=true;
+  for(let index=0;live.round.scores.every(score=>score===0)&&live.round.phase!=='end'&&index<3000;index++)assert.ok(live.stepBots());
+  assert.notEqual(live.round.scores[0],0,'The live reward fixture must have an unsettled player delta');
+  assert.equal(live.closed,false);await live.flush();
+  const pendingDelta=live.round.scores[0];assert.equal(live.displayBalance,30000+pendingDelta);
+  await liveWallet.claimDaily();assert.equal(liveWallet.account.balance,60000);assert.equal(live.displayBalance,60000+pendingDelta);
+  assert.deepEqual(live.round.startBalances,frozen);assert.equal(live.round.available(0),Math.max(0,frozen[0]+pendingDelta));
+  await liveWallet.startAd();await liveWallet.progressAd();for(let second=0;second<15;second++){now+=1000;await liveWallet.progressAd();}await liveWallet.completeAd();
+  assert.equal(liveWallet.account.balance,90000);assert.equal(live.displayBalance,90000+pendingDelta);assert.deepEqual(live.round.startBalances,frozen);
+  for(let index=0;live.round.phase!=='end'&&index<3000;index++){assert.ok(live.stepBots());if(index%70===0)await live.flush();}
+  assert.equal(live.round.phase,'end');now+=86400000;
+  const settling=live.finish(),nextDayGrant=liveWallet.claimDaily();await Promise.all([settling,nextDayGrant]);assert.equal(live.closed,true);
+  assert.equal(live.account.balance,120000+live.round.scores[0]);assert.equal(live.displayBalance,live.account.balance);
+  await live.flush();await liveWallet.refresh();assert.equal(live.displayBalance,live.account.balance);await live.dispose();
+  actions+=live.actions.length;completed++;
   assert.match(requestId(),/^[a-f0-9]{8}(?:-[a-f0-9]{4}){3}-[a-f0-9]{12}$/i);
   return{fullRounds:completed,recordedActions:actions};
  }finally{
@@ -186,6 +261,7 @@ try{
  const {WalletClient,requestId}=require(path.join(output,'services/WalletClient.js'));
  const {GameSession,PLAYABLE_MODES}=require(path.join(output,'services/GameSession.js'));
  await verifyOrigins(WalletClient);
+ await verifyRequestOrder(WalletClient);
  const result=await verifyHttp(WalletClient,requestId,GameSession,PLAYABLE_MODES);
  console.log(JSON.stringify({ok:true,...result,verified:[
   'Creator localhost/127.0.0.1:7456 preview whitelist','production same-origin restriction',
@@ -193,6 +269,10 @@ try{
   'network failure input lock and recovery','onEnd exactly once','single coin balance',
   'signature validation','daily reward idempotency and next-day grant',
   '15-second foreground demonstration ad','unfocused/hidden ad pause','cancelled ad receives no reward',
+  'feedback response loss retries idempotently','real feedback receipt and read state','full coin ledger pagination',
+  'live reward updates displayed balance with frozen round limits','closed game never double-counts settled delta',
+  'FIFO slow reads/writes preserve balance and reward state','old response DTO never overwrites newer account',
+  'round close and subsequent reward preserve both changes','timeouts and network failures release request queue',
  ]},null,2));
 }finally{
  const relative=path.relative(tmpdir(),output);

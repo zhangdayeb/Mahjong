@@ -29,6 +29,20 @@ const entries = [
   ['demo/hall-games-study/assets/Match-286.png', 'games/crazy.png'],
   ['demo/hall-games-study/assets/Match-82.png', 'games/eightFixed.png'],
   ['demo/assets/reference/' + uiIndex['hand/img_normal_card'].file, 'tiles/body.png'],
+  ['demo/action-result-study/assets/game-59-peng.png', 'effects/actions/peng.png'],
+  ['demo/action-result-study/assets/game-311-gang.png', 'effects/actions/gang.png'],
+  ['demo/action-result-study/assets/game-878-hu.png', 'effects/actions/hu.png'],
+  ['demo/action-result-study/assets/game-1033-zimo.png', 'effects/actions/zimo.png'],
+  ['demo/action-result-study/assets/game-853-qiangganghu.png', 'effects/actions/qgh.png'],
+  ['demo/fan-study/assets/resources-177-fnt_texiaozi.png', 'effects/fonts/fan.png'],
+  ['demo/fan-study/assets/fonts-293-fnt_yingzi.png', 'effects/fonts/win.png'],
+  ['demo/fan-study/assets/fonts-51-fnt_shuzi.png', 'effects/fonts/loss.png'],
+  ['demo/fan-study/effects.json', 'effects/fonts/definitions.json'],
+  ['demo/fan-study/assets/resources-382-blend_glow.png', 'effects/glow.png'],
+  ['demo/fan-study/assets/resources-366-lighting.png', 'effects/sweep.png'],
+  ['demo/tile-result-study/assets/resources-2112-fx_GuanQuan.png', 'effects/hu-ring.png'],
+  ['demo/tile-result-study/assets/resources-1398-M_shandian6_001.png', 'effects/hu-electric.png'],
+  ['demo/fan-study/assets/resources-2387-douzi.png', 'effects/coin.png'],
 ];
 for (const suit of [1, 2, 3, 5]) {
   for (let rank = 1; rank <= (suit === 5 ? 3 : 9); rank++) {
@@ -44,6 +58,12 @@ const backKey = TABLE_SOURCE.seats[2].hand.frames[Math.floor(TABLE_SOURCE.seats[
 const back = tableFrames.find(frame => frame.key === backKey);
 if (!back) throw new Error(`Cannot resolve concealed tile sprite: ${backKey}`);
 entries.push(['demo/' + back.image, 'tiles/back.png']);
+for (const [seat, side] of [[1, 'right'], [3, 'left']]) {
+  const keys = TABLE_SOURCE.seats[seat].hand.frames;
+  const frame = tableFrames.find(item => item.key === keys[Math.min(12, Math.floor(keys.length / 2))]);
+  if (!frame) throw new Error(`Cannot resolve ${side} concealed tile sprite`);
+  entries.push(['demo/' + frame.image, `tiles/back-${side}.png`]);
+}
 const texture = tableFrames.find(frame => frame.key === TABLE_SOURCE.desk.texture.body);
 if (texture) entries.push(['demo/' + texture.image, 'backgrounds/table-texture.png']);
 for (const name of (await fs.readdir(path.join(workspaceRoot, 'demo/assets/audio-v2'))).sort()) {

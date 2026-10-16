@@ -99,6 +99,90 @@
       "sha256": "bbdb4730c0df56493b344947c50ceebf4cbf5b364bab17384369439cf01cd7eb"
     },
     {
+      "source": "demo/action-result-study/assets/game-59-peng.png",
+      "resource": "effects/actions/peng.png",
+      "size": 42904,
+      "sha256": "4136cb97a1ce1866f46f542af98fe1010ddd39039b0fc1185766fde375f34714"
+    },
+    {
+      "source": "demo/action-result-study/assets/game-311-gang.png",
+      "resource": "effects/actions/gang.png",
+      "size": 40928,
+      "sha256": "763184ccd7750088402c20ceeb1063553f14001add57e33bafbbccd7b31cbe56"
+    },
+    {
+      "source": "demo/action-result-study/assets/game-878-hu.png",
+      "resource": "effects/actions/hu.png",
+      "size": 42747,
+      "sha256": "46eb5a7da98ca084a1eee9f588a64a5fbf7bcdd0bb0b91962e63b199cc565742"
+    },
+    {
+      "source": "demo/action-result-study/assets/game-1033-zimo.png",
+      "resource": "effects/actions/zimo.png",
+      "size": 53410,
+      "sha256": "c3ae3f5eafe2a81861ddea1c1287792cb73b7880aabe98e6964ae1216e1b91d7"
+    },
+    {
+      "source": "demo/action-result-study/assets/game-853-qiangganghu.png",
+      "resource": "effects/actions/qgh.png",
+      "size": 23134,
+      "sha256": "86b57cf9b172cb752732e592f105a87727e2b2041863ec31b20969f4d90f8a83"
+    },
+    {
+      "source": "demo/fan-study/assets/resources-177-fnt_texiaozi.png",
+      "resource": "effects/fonts/fan.png",
+      "size": 3605460,
+      "sha256": "80983c1fa3db7496048222d5f1e596739f13a1eef241319b4e461c6d70629a7c"
+    },
+    {
+      "source": "demo/fan-study/assets/fonts-293-fnt_yingzi.png",
+      "resource": "effects/fonts/win.png",
+      "size": 124423,
+      "sha256": "fbff1c4a836f0c0ad19c8d45ef4d405f7b72d58d6bb61ef4bbcd1b83aa715b71"
+    },
+    {
+      "source": "demo/fan-study/assets/fonts-51-fnt_shuzi.png",
+      "resource": "effects/fonts/loss.png",
+      "size": 103835,
+      "sha256": "486676be6ec37abd8be3f58d90bb3edced86e25c00add07622ad909bca94d936"
+    },
+    {
+      "source": "demo/fan-study/effects.json",
+      "resource": "effects/fonts/definitions.json",
+      "size": 145576,
+      "sha256": "6da39ba5f08d2c22979a51648036f09f1459bed40a4a1046c310e5da175e823e"
+    },
+    {
+      "source": "demo/fan-study/assets/resources-382-blend_glow.png",
+      "resource": "effects/glow.png",
+      "size": 2100,
+      "sha256": "e58eec8bcd02415e0002a472cb704de185eff6c6b506bfb42b159762679deca3"
+    },
+    {
+      "source": "demo/fan-study/assets/resources-366-lighting.png",
+      "resource": "effects/sweep.png",
+      "size": 2571,
+      "sha256": "b74f8e7f1529c9b962565301dc77aa0e76da74b5bd145fe44d387205bdc2407b"
+    },
+    {
+      "source": "demo/tile-result-study/assets/resources-2112-fx_GuanQuan.png",
+      "resource": "effects/hu-ring.png",
+      "size": 6878,
+      "sha256": "8a2ee206fee6fbe591e959c8900c658c6833348cf39625e9ef2f9e81b8ac63d0"
+    },
+    {
+      "source": "demo/tile-result-study/assets/resources-1398-M_shandian6_001.png",
+      "resource": "effects/hu-electric.png",
+      "size": 1019,
+      "sha256": "cbf40e0becab23dd1e52e67acd20b9b90b6cc935a64d32e736e0c2b1ac1a83ac"
+    },
+    {
+      "source": "demo/fan-study/assets/resources-2387-douzi.png",
+      "resource": "effects/coin.png",
+      "size": 4521,
+      "sha256": "cf2b43621fdc87ae2828a7d9fa3037268766ec8b7ff63688273d0ccc1bf829c1"
+    },
+    {
       "source": "demo/assets/reference/ui-1639.png",
       "resource": "tiles/11.png",
       "size": 6566,
@@ -283,6 +367,18 @@
       "resource": "tiles/back.png",
       "size": 1729,
       "sha256": "969bce151337189a36c339cb34727587b26b67e23f18bacd9ec500344b227236"
+    },
+    {
+      "source": "demo/table-layout-study/assets/game-2046.png",
+      "resource": "tiles/back-right.png",
+      "size": 2353,
+      "sha256": "f74ee592db71c76dd4ace99bfbb0c377fdc51493e828fd59224a5b58104f40d5"
+    },
+    {
+      "source": "demo/table-layout-study/assets/game-2031.png",
+      "resource": "tiles/back-left.png",
+      "size": 2613,
+      "sha256": "40379ec73eced94cd4f373c04869c1e7a764432cc8489dcd44598ff732a6631f"
     },
     {
       "source": "demo/table-layout-study/assets/common-346.png",

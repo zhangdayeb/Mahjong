@@ -1,0 +1,13 @@
+{
+  "name": "lianzhuo-mahjong-workspace",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node creator/tools/serve.mjs",
+    "build:web": "node creator/tools/build-web.mjs --release",
+    "test:backend": "npm --prefix backend test",
+    "test:services": "node creator/tools/verify-services.mjs",
+    "test:built": "node creator/tools/verify-built-rules.mjs",
+    "pack:release": "node creator/tools/pack-release.mjs"
+  }
+}
